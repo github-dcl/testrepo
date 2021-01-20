@@ -1,0 +1,2379 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            2711.0020 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/120">Commerce Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/2711/">Chapter 2711</a>
+            </li>
+        
+    
+        
+            <li>Part 2711.0020</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/2711.0030/">2711.0030</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/2711.0020/2014-01-18%2005:13:38+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 2711</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2711/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2711/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2711/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 2711.0020</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2711.0020/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2711.0020">
+    <h1 class="headnote repealed">2711.0020</h1>
+    <p>[Repealed, 37 SR 1455]</p>
+  </div>
+  <div class="published" id="rule.2711.0020.published">
+    <h2>Published Electronically:</h2>
+    <p> April 15, 2013</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2711.0030">
+    <h1 class="headnote repealed">2711.0030</h1>
+    <p>[Repealed, 37 SR 1455]</p>
+  </div>
+  <div class="published" id="rule.2711.0030.published">
+    <h2>Published Electronically:</h2>
+    <p> April 15, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2711.0040">
+    <h1 class="headnote repealed">2711.0040</h1>
+    <p>[Repealed, 37 SR 1455]</p>
+  </div>
+  <div class="published" id="rule.2711.0040.published">
+    <h2>Published Electronically:</h2>
+    <p> April 15, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2711.0050">
+    <h1 class="headnote repealed">2711.0050</h1>
+    <p>[Repealed, 37 SR 1455]</p>
+  </div>
+  <div class="published" id="rule.2711.0050.published">
+    <h2>Published Electronically:</h2>
+    <p> April 15, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2711.0060">
+    <h1 class="headnote repealed">2711.0060</h1>
+    <p>[Repealed, 37 SR 1455]</p>
+  </div>
+  <div class="published" id="rule.2711.0060.published">
+    <h2>Published Electronically:</h2>
+    <p> April 15, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2711.0070">
+    <h1 class="headnote repealed">2711.0070</h1>
+    <p>[Repealed, 37 SR 1455]</p>
+  </div>
+  <div class="published" id="rule.2711.0070.published">
+    <h2>Published Electronically:</h2>
+    <p> April 15, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2711.0080">
+    <h1 class="headnote repealed">2711.0080</h1>
+    <p>[Repealed, 37 SR 1455]</p>
+  </div>
+  <div class="published" id="rule.2711.0080.published">
+    <h2>Published Electronically:</h2>
+    <p> April 15, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2711.0090">
+    <h1 class="headnote repealed">2711.0090</h1>
+    <p>[Repealed, 37 SR 1455]</p>
+  </div>
+  <div class="published" id="rule.2711.0090.published">
+    <h2>Published Electronically:</h2>
+    <p> April 15, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2711.0100">
+    <h1 class="headnote repealed">2711.0100</h1>
+    <p>[Repealed, 37 SR 1455]</p>
+  </div>
+  <div class="published" id="rule.2711.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> April 15, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2711.0200">
+    <h1 class="headnote">2711.0200 SCOPE.</h1>
+    <p>This chapter applies to all life insurance companies and fraternal benefit societies doing business in this state and to all life insurance companies and fraternal benefit societies that are authorized to reinsure life insurance, annuities, or accident and health insurance business in this state. This chapter must be applied in a manner that allows the appointed actuary to use professional judgment in performing the asset analysis and developing the actuarial opinion and supporting memoranda, consistent with relevant actuarial standards of practice. However, the commissioner may specify specific methods of actuarial analysis and actuarial assumptions when, in the commissioner's judgment, these specifications are necessary for an acceptable opinion to be rendered relative to the adequacy of reserves and related items.</p>
+    <p>A statement of opinion on the adequacy of the reserves and related actuarial items based on an asset adequacy analysis in accordance with part <a href="/rules/2711.0230">2711.0230</a>, and a memorandum in support thereof in accordance with part <a href="/rules/2711.0240">2711.0240</a>, shall be required each year.</p>
+  </div>
+  <div class="stat_auth" id="rule.2711.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/45.023">45.023</a>; <a href="/statutes/cite/61A.25">61A.25</a></p>
+  </div>
+  <div class="history" id="rule.2711.0200.history">
+    <h2>History: </h2>
+    <p>37 SR 1455</p>
+  </div>
+  <div class="published" id="rule.2711.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> April 15, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2711.0210">
+    <h1 class="headnote">2711.0210 DEFINITIONS.</h1>
+    <div id="rule.2711.0210.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2711.0210.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>For purposes of this chapter, the terms in this part have the meanings given them.</p>
+    </div>
+    <div id="rule.2711.0210.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2711.0210.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Actuarial opinion. </h2>
+      <p>"Actuarial opinion" means the opinion of an appointed actuary regarding the adequacy of the reserves and related actuarial items based on an asset adequacy analysis according to part <a href="/rules/2711.0230">2711.0230</a> and with applicable Actuarial Standards of Practice.</p>
+    </div>
+    <div id="rule.2711.0210.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2711.0210.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Actuarial Standards Board. </h2>
+      <p>"Actuarial Standards Board" means the board established by the American Academy of Actuaries to develop and adopt standards of actuarial practice.</p>
+    </div>
+    <div id="rule.2711.0210.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2711.0210.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Annual statement. </h2>
+      <p>"Annual statement" means the statement required by Minnesota Statutes, section <a href="/statutes/cite/60A.13">60A.13</a>, of the insurance law to be filed by the company with the commissioner annually.</p>
+    </div>
+    <div id="rule.2711.0210.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2711.0210.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Appointed actuary. </h2>
+      <p>"Appointed actuary" means an individual who is appointed or retained in accordance with part <a href="/rules/2711.0220">2711.0220</a>, subpart 3, to provide the actuarial opinion and supporting memorandum as required by Minnesota Statutes, section <a href="/statutes/cite/61A.25#stat.61A.25.2a">61A.25, subdivision 2a</a>.</p>
+    </div>
+    <div id="rule.2711.0210.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.2711.0210.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Asset adequacy analysis. </h2>
+      <p>"Asset adequacy analysis" means an analysis that meets the standards and other requirements in part <a href="/rules/2711.0220">2711.0220</a>, subpart 4.</p>
+    </div>
+    <div id="rule.2711.0210.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.2711.0210.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Commissioner. </h2>
+      <p>"Commissioner" means the commissioner of commerce.</p>
+    </div>
+    <div id="rule.2711.0210.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.2711.0210.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Company. </h2>
+      <p>"Company" means a life insurance company, fraternal benefit society, or reinsurer subject to the provisions of this chapter.</p>
+    </div>
+    <div id="rule.2711.0210.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.2711.0210.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Qualified actuary. </h2>
+      <p>"Qualified actuary" means an individual who meets the requirements in part <a href="/rules/2711.0220">2711.0220</a>, subpart 2.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2711.0210.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/45.023">45.023</a>; <a href="/statutes/cite/61A.25">61A.25</a></p>
+  </div>
+  <div class="history" id="rule.2711.0210.history">
+    <h2>History: </h2>
+    <p>37 SR 1455</p>
+  </div>
+  <div class="published" id="rule.2711.0210.published">
+    <h2>Published Electronically:</h2>
+    <p> April 15, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2711.0220">
+    <h1 class="headnote">2711.0220 GENERAL REQUIREMENTS.</h1>
+    <div id="rule.2711.0220.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2711.0220.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Submission of Statement of Actuarial Opinion. </h2>
+      <div id="rule.2711.0220.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2711.0220.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>There is to be included on or attached to page 1 of the annual statement for each year the statement of an appointed actuary, entitled, "Statement of Actuarial Opinion," setting forth an opinion relating to reserves and related actuarial items held in support of policies and contracts, in accordance with part <a href="/rules/2711.0230">2711.0230</a>.</p>
+      </div>
+      <div id="rule.2711.0220.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2711.0220.1.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>Upon written request by the company, the commissioner may grant an extension of the date for submission of the Statement of Actuarial Opinion.</p>
+      </div>
+    </div>
+    <div id="rule.2711.0220.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2711.0220.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Qualified actuary. </h2>
+      <p>A qualified actuary is an individual who:</p>
+      <div id="rule.2711.0220.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2711.0220.2.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>is a member in good standing of the American Academy of Actuaries;</p>
+      </div>
+      <div id="rule.2711.0220.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2711.0220.2.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>is qualified to sign statements of actuarial opinion for life and health insurance company annual statements in accordance with the American Academy of Actuaries qualification standards for actuaries signing such statements;</p>
+      </div>
+      <div id="rule.2711.0220.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2711.0220.2.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>is familiar with the valuation requirements applicable to life and health insurance companies;</p>
+      </div>
+      <div id="rule.2711.0220.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2711.0220.2.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>has not been found by the commissioner, or if so found has subsequently been reinstated as a qualified actuary, following appropriate notice and hearing, to have:</p>
+        <div id="rule.2711.0220.2.D.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.2711.0220.2.D.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>violated any provision of, or any obligation imposed by, the insurance law or other law in the course of the individual's dealings as a qualified actuary;</p>
+        </div>
+        <div id="rule.2711.0220.2.D.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.2711.0220.2.D.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>been found guilty of fraudulent or dishonest practices;</p>
+        </div>
+        <div id="rule.2711.0220.2.D.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.2711.0220.2.D.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>demonstrated the individual's incompetency, lack of cooperation, or untrustworthiness to act as a qualified actuary;</p>
+        </div>
+        <div id="rule.2711.0220.2.D.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.2711.0220.2.D.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>submitted to the commissioner during the past five years, pursuant to this chapter, an actuarial opinion or memorandum that the commissioner rejected because it did not meet the provisions of this chapter including standards set by the Actuarial Standards Board; or</p>
+        </div>
+        <div id="rule.2711.0220.2.D.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.2711.0220.2.D.5">§</a>
+          <h4 class="subitem_no">(5) </h4>
+          <p>resigned or been removed as an actuary within the past five years as a result of acts or omissions indicated in any adverse report on examination or as a result of failure to adhere to generally acceptable actuarial standards; and</p>
+        </div>
+      </div>
+      <div id="rule.2711.0220.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2711.0220.2.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>has not failed to notify the commissioner of any action taken by any commissioner of any other state similar to that under item D.</p>
+      </div>
+    </div>
+    <div id="rule.2711.0220.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2711.0220.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Appointed actuary. </h2>
+      <p>An appointed actuary is a qualified actuary who is appointed or retained by the board of directors to prepare the Statement of Actuarial Opinion required by this chapter. The company shall give the commissioner timely written notice of the name and title of each person appointed or retained by the company as an appointed actuary and shall state in the notice that the person meets the requirements in subpart 2. In the case of a consulting actuary, the company shall include the name of the firm in the notice. Once notice is furnished, no further notice is required with respect to this person, provided that the company gives the commissioner timely written notice in the event the actuary ceases to be appointed or retained as an appointed actuary or to meet the requirements in subpart 2. If any person appointed or retained as an appointed actuary replaces a previously appointed actuary, the notice must so state and give the reasons for replacement.</p>
+    </div>
+    <div id="rule.2711.0220.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2711.0220.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Standards for asset adequacy analysis. </h2>
+      <p>The asset adequacy analysis required by this chapter:</p>
+      <div id="rule.2711.0220.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2711.0220.4.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>must conform to the Standards of Practice as adopted from time to time by the Actuarial Standards Board and on any additional standards under this chapter, which standards are to form the basis of the Statement of Actuarial Opinion in accordance with this chapter; and</p>
+      </div>
+      <div id="rule.2711.0220.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2711.0220.4.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>must be based on methods of analysis as are deemed appropriate for such purposes by the Actuarial Standards Board.</p>
+      </div>
+    </div>
+    <div id="rule.2711.0220.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2711.0220.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Liabilities to be covered. </h2>
+      <div id="rule.2711.0220.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2711.0220.5.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Under authority of Minnesota Statutes, section <a href="/statutes/cite/61A.25">61A.25</a>, subdivision 2a, the Statement of Actuarial Opinion applies to all in force business on the statement date, whether directly issued or assumed, regardless of when or where issued. For example, reserves of Exhibits 5, 6, and 7, and claim liabilities in Exhibit 8, Part 1, and equivalent items in the separate account statement or statements.</p>
+      </div>
+      <div id="rule.2711.0220.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2711.0220.5.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>If the appointed actuary determines as the result of asset adequacy analysis that a reserve should be held in addition to the aggregate reserve held by the company and calculated in accordance with methods in Minnesota Statutes, section <a href="/statutes/cite/61A.25">61A.25</a>, the company shall establish the additional reserve.</p>
+      </div>
+      <div id="rule.2711.0220.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2711.0220.5.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>Additional reserves established under item B and deemed not necessary in subsequent years may be released. Any amounts released must be disclosed in the actuarial opinion for the applicable year. The release of reserves would not be deemed an adoption of a lower standard of valuation.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2711.0220.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/45.023">45.023</a>; <a href="/statutes/cite/61A.25">61A.25</a></p>
+  </div>
+  <div class="history" id="rule.2711.0220.history">
+    <h2>History: </h2>
+    <p>37 SR 1455</p>
+  </div>
+  <div class="published" id="rule.2711.0220.published">
+    <h2>Published Electronically:</h2>
+    <p> April 15, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2711.0230">
+    <h1 class="headnote">2711.0230 STATEMENT OF ACTUARIAL OPINION BASED ON AN ASSET ADEQUACY ANALYSIS.</h1>
+    <div id="rule.2711.0230.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2711.0230.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">General description. </h2>
+      <p>The Statement of Actuarial Opinion submitted in accordance with this part consists of:</p>
+      <div id="rule.2711.0230.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2711.0230.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>a paragraph identifying the appointed actuary and the actuary's qualifications;</p>
+      </div>
+      <div id="rule.2711.0230.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2711.0230.1.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>a scope paragraph identifying the subjects on which an opinion is to be expressed and describing the scope of the appointed actuary's work, including a tabulation delineating the reserves and related actuarial items that have been analyzed for asset adequacy and the method of analysis, and identifying the reserves and related actuarial items covered by the opinion that have not been so analyzed;</p>
+      </div>
+      <div id="rule.2711.0230.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2711.0230.1.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>a reliance paragraph describing those areas, if any, where the appointed actuary has deferred to other experts in developing data, procedures or assumptions, for example, anticipated cash flows from currently owned assets, including variation in cash flows according to economic scenarios, supported by a statement of each expert in the form prescribed by subpart 5;</p>
+      </div>
+      <div id="rule.2711.0230.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2711.0230.1.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>an opinion paragraph expressing the appointed actuary's opinion with respect to the adequacy of the supporting assets to mature the liabilities; and</p>
+      </div>
+      <div id="rule.2711.0230.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2711.0230.1.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>one or more additional paragraphs as needed in individual company cases as follows:</p>
+        <div id="rule.2711.0230.1.E.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.2711.0230.1.E.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>if the appointed actuary considers it necessary to state a qualification of the actuary's opinion;</p>
+        </div>
+        <div id="rule.2711.0230.1.E.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.2711.0230.1.E.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>if the appointed actuary must disclose an inconsistency in the method of analysis or basis of asset allocation used at the prior opinion date with that used for this opinion;</p>
+        </div>
+        <div id="rule.2711.0230.1.E.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.2711.0230.1.E.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>if the appointed actuary must disclose whether additional reserves as of the prior opinion date are released as of this opinion date, and the extent of the release; or</p>
+        </div>
+        <div id="rule.2711.0230.1.E.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.2711.0230.1.E.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>if the appointed actuary chooses to add a paragraph briefly describing the assumptions that form the basis for the actuarial opinion.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.2711.0230.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2711.0230.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Recommended language. </h2>
+      <p>Items A to F are included in the Statement of Actuarial Opinion in accordance with this part. Language is that which in typical circumstances should be included in a Statement of Actuarial Opinion. The language may be modified as needed to meet the circumstances of a particular case, but the appointed actuary should use language that clearly expresses professional judgment. However, in any event the opinion must retain all pertinent aspects of the language provided in this part.</p>
+      <div id="rule.2711.0230.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2711.0230.2.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>The opening paragraph should generally indicate the appointed actuary's relationship to the company and qualifications to sign the opinion. For a company actuary, the opening paragraph of the actuarial opinion should include a statement such as:</p>
+        <p class="bi">"I, [name], am [title] of [insurance company name] and a member of the American Academy of Actuaries. I was appointed by, or by the authority of, the Board of Directors of the insurer to render this opinion as stated in the letter to the commissioner dated [insert date]. I meet the Academy qualification standards for rendering the opinion and am familiar with the valuation requirements applicable to life and health insurance companies."</p>
+        <p>For a consulting actuary, the opening paragraph should include a statement such as:</p>
+        <p class="bi">"I, [name], a member of the American Academy of Actuaries, am associated with the firm of [name of consulting firm]. I have been appointed by, or by the authority of, the Board of Directors of [name of company] to render this opinion as stated in the letter to the commissioner dated [insert date]. I meet the Academy qualification standards for rendering the opinion and am familiar with the valuation requirements applicable to life and health insurance companies."</p>
+      </div>
+      <div id="rule.2711.0230.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2711.0230.2.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>The scope paragraph should include a statement such as:</p>
+        <p class="bi">"I have examined the actuarial assumptions and actuarial methods used in determining the reserves and related actuarial items listed below, as shown in the annual statement of the company, as prepared for filing with the state regulatory officials, as of December 31, 20... Tabulated below are those reserves and related actuarial items that have been subjected to asset adequacy analysis."</p>
+        <table class="border_all">
+          <col style="width:22.9938271604938%">
+          <col style="width:15.4320987654321%">
+          <col style="width:15.2777777777778%">
+          <col style="width:15.4320987654321%">
+          <col style="width:15.4320987654321%">
+          <col style="width:15.4320987654321%">
+          <tr>
+            <td colspan="6" class="colsep rowsep" style="text-align: center;">
+              <b>Asset Adequacy Tested Amounts--Reserves and Liabilities</b>
+            </td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">
+              <b>Statement Item</b>
+            </td>
+            <td class="colsep rowsep" style="text-align: center;">
+              <b>Formula<br>Reserves<br>(1)</b>
+            </td>
+            <td class="colsep rowsep" style="text-align: center;">
+              <b>Additional<br>Actuarial<br>Reserves (a)<br>(2)</b>
+            </td>
+            <td class="colsep rowsep" style="text-align: center;">
+              <b>Analysis<br>Method<br>(b)</b>
+            </td>
+            <td class="colsep rowsep" style="text-align: center;">
+              <b>Other<br>Amount<br>(3)</b>
+            </td>
+            <td class="colsep rowsep" style="text-align: center;">
+              <b>Total<br>Amount<br>(1)+(2)+(3)<br>(4)</b>
+            </td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">
+              <b>Exhibit 5</b>
+            </td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Life Insurance</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Annuities</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Supplementary Contracts Involving Life Contingencies</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Accidental Death Benefit</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Disability--Active</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Disability--<br>Disabled</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Miscellaneous</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Total Exhibit 5</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">
+              <b>Exhibit 6</b>
+            </td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Active Life Reserve</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Claim Reserve</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Total Exhibit 6</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">
+              <b>Exhibit 7</b>
+            </td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Guaranteed Interest Contracts</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Annuities Certain</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Supplemental Contracts</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Dividend Accumulations or Refunds</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Premium and Other Deposit Funds</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Total Exhibit 7</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">
+              <b>Exhibit 8 Part 1</b>
+            </td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Life</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Health</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Total Exhibit 8, Part 1</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Separate Accounts (Page 3 of the Annual Statement of the Separate Accounts, Lines 1 and 2)</td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep"><b>TOTAL<br>RESERVES</b> </td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+            <td class="colsep rowsep"></td>
+          </tr>
+        </table>
+        <table class="border_all">
+          <col style="width:69.2307692307692%">
+          <col style="width:30.7692307692308%">
+          <tr>
+            <td class="colsep rowsep">IMR (General Account, Page __ Line __)</td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">(Separate Accounts, Page __ Line __)</td>
+            <td class="colsep rowsep"></td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">AVR (Page __ Line __)</td>
+            <td class="colsep rowsep" style="text-align: right;">(c)</td>
+          </tr>
+          <tr>
+            <td class="colsep rowsep">Net Deferred and Uncollected Premium</td>
+            <td class="colsep rowsep"></td>
+          </tr>
+        </table>
+        <p class="bl">
+          <b>Notes:</b>
+        </p>
+        <p class="bl">(a) The additional actuarial reserves are the reserves established under part <a href="/rules/2711.0220">2711.0220</a>, subpart 5, item B.</p>
+        <p class="bl">(b) The appointed actuary should indicate the method of analysis, determined in accordance with the standards for asset adequacy analysis referred to in part <a href="/rules/2711.0220">2711.0220</a>, subpart 4, by means of symbols that should be defined in footnotes to the table.</p>
+        <p class="bl">(c) Allocated amount of Asset Valuation Reserve (AVR).</p>
+      </div>
+      <div id="rule.2711.0230.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2711.0230.2.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>If the appointed actuary has relied on other experts to develop certain portions of the analysis, the reliance paragraph should include a statement such as:</p>
+        <p class="bi">"I have relied on [name], [title] for [e.g., "anticipated cash flows from currently owned assets, including variations in cash flows according to economic scenarios" or "certain critical aspects of the analysis performed in conjunction with forming my opinion"], as certified in the attached statement. I have reviewed the information relied upon for reasonableness."</p>
+        <p>A statement of reliance on other experts should be accompanied by a statement by each of the experts in the form prescribed by part <a href="/rules/2711.0230">2711.0230</a>, subpart 5.</p>
+      </div>
+      <div id="rule.2711.0230.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2711.0230.2.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>If the appointed actuary has examined the underlying asset and liability records, the reliance paragraph should include a statement such as:</p>
+        <p class="bi">"My examination included a review of the actuarial assumptions and actuarial methods and of the underlying basic asset and liability records and tests of the actuarial calculations I considered necessary. I also reconciled the underlying basic asset and liability records to [exhibits and schedules listed as applicable] of the company's current annual statement."</p>
+      </div>
+      <div id="rule.2711.0230.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2711.0230.2.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>If the appointed actuary has not examined the underlying records, but has relied upon data, for example, listings and summaries of policies in force or asset records, prepared by the company, the reliance paragraph should include a statement such as:</p>
+        <p class="bi">"In forming my opinion on [specify types of reserves], I relied upon data prepared by [name and title of company officer certifying in force records or other data] as certified in the attached statements. I evaluated that data for reasonableness and consistency. I also reconciled that data to [exhibits and schedules to be listed as applicable] of the company's current annual statement. In other respects, my examination included review of the actuarial assumptions and actuarial methods used and tests of the calculations I considered necessary."</p>
+        <p>The section must be accompanied by a statement by each person relied upon in the form prescribed by subpart 5.</p>
+      </div>
+      <div id="rule.2711.0230.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.2711.0230.2.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>The opinion paragraph should include a statement such as:</p>
+        <p class="bi">"In my opinion the reserves and related actuarial values concerning the statement items identified above:</p>
+        <div id="rule.2711.0230.2.F.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.2711.0230.2.F.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>are computed in accordance with presently accepted actuarial standards consistently applied and are fairly stated, in accordance with sound actuarial principles;</p>
+        </div>
+        <div id="rule.2711.0230.2.F.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.2711.0230.2.F.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>are based on actuarial assumptions that produce reserves at least as great as those called for in any contract provision as to reserve basis and method, and are in accordance with all other contract provisions;</p>
+        </div>
+        <div id="rule.2711.0230.2.F.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.2711.0230.2.F.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>meet the requirements of the Insurance Law and regulations of the state of [state of domicile], and are at least as great as the minimum aggregate amounts required by the state in which this statement is filed;</p>
+        </div>
+        <div id="rule.2711.0230.2.F.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.2711.0230.2.F.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>are computed on the basis of assumptions consistent with those used in computing the corresponding items in the annual statement of the preceding year-end (with any exceptions noted below); and</p>
+        </div>
+        <div id="rule.2711.0230.2.F.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.2711.0230.2.F.5">§</a>
+          <h4 class="subitem_no">(5) </h4>
+          <p>include provision for all actuarial reserves and related statement items which ought to be established.</p>
+          <p class="bi">The reserves and related items, when considered in light of the assets held by the company with respect to such reserves and related actuarial items including, but not limited to, the investment earnings on the assets, and the considerations anticipated to be received and retained under the policies and contracts, make adequate provision, according to presently accepted actuarial standards of practice, for the anticipated cash flows required by the contractual obligations and related expenses of the company. (At the discretion of the commissioner, this language may be omitted for an opinion filed on behalf of a company doing business only in this state and in no other state.)</p>
+          <p class="bi">The actuarial methods, considerations, and analyses used in forming my opinion conform to the appropriate Standards of Practice as promulgated by the Actuarial Standards Board, which standards form the basis of this statement of opinion.</p>
+          <p class="bi">This opinion is updated annually as required by statute. To the best of my knowledge, there have been no material changes from the applicable date of the annual statement to the date of the rendering of this opinion which should be considered in reviewing this opinion.</p>
+          <p class="bi">or</p>
+          <p class="bi">The following material changes which occurred between the date of the statement for which this opinion is applicable and the date of this opinion should be considered in reviewing this opinion: (Describe the change or changes.)</p>
+          <p class="bl"><b>Note:</b> Choose one of the above two paragraphs, whichever is applicable.</p>
+          <p class="bi">The impact of unanticipated events subsequent to the date of this opinion is beyond the scope of this opinion. The analysis of the asset adequacy portion of this opinion should be viewed recognizing that the company's future experience may not follow all the assumptions used in the analysis.</p>
+          <table>
+            <col style="width:23.0769230769231%">
+            <col style="width:53.8461538461538%">
+            <col style="width:23.0769230769231%">
+            <tr>
+              <td></td>
+              <td style="text-align: center;">
+                <span class="leader_test">_</span>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td style="text-align: center;">Signature of Appointed Actuary</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td style="text-align: center;">
+                <span class="leader_test">_</span>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td style="text-align: center;">Address of Appointed Actuary</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td style="text-align: center;">
+                <span class="leader_test">_</span>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td style="text-align: center;">Telephone Number of Appointed Actuary</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td style="text-align: center;">
+                <span class="leader_test">_</span>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td style="text-align: center;">Date"</td>
+              <td></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div id="rule.2711.0230.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2711.0230.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Assumptions for new issues. </h2>
+      <p>The adoption for new issues or new claims or other new liabilities of an actuarial assumption that differs from a corresponding assumption used for prior new issues or new claims or other new liabilities is not a change in actuarial assumptions within the meaning of this part.</p>
+    </div>
+    <div id="rule.2711.0230.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2711.0230.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Adverse opinions. </h2>
+      <p>If the appointed actuary is unable to form an opinion, then the actuary shall refuse to issue a Statement of Actuarial Opinion. If the appointed actuary's opinion is adverse or qualified, then the actuary shall issue an adverse or qualified actuarial opinion explicitly stating the reasons for the opinion. This statement should follow the scope paragraph and precede the opinion paragraph.</p>
+    </div>
+    <div id="rule.2711.0230.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2711.0230.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Reliance on information furnished by other persons. </h2>
+      <p>If the appointed actuary relies on the certification of others on matters concerning the accuracy or completeness of any data underlying the actuarial opinion, or the appropriateness of any other information used by the appointed actuary in forming the actuarial opinion, the actuarial opinion should indicate the persons the actuary is relying upon and a precise identification of the items subject to reliance. In addition, the persons on whom the appointed actuary relies shall provide a certification that precisely identifies the items on which the person is providing information and a statement as to the accuracy, completeness, or reasonableness, as applicable, of the items. This certification must include the signature, title, company, address, and telephone number of the person rendering the certification, as well as the date on which it is signed.</p>
+    </div>
+    <div id="rule.2711.0230.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.2711.0230.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Alternate option. </h2>
+      <div id="rule.2711.0230.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2711.0230.6.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Minnesota Statutes, section <a href="/statutes/cite/61A.25">61A.25</a>, gives the commissioner broad authority to accept the valuation of a foreign insurer when that valuation meets the requirements applicable to a company domiciled in this state in the aggregate. As an alternative to the requirements of subpart 2, item F, subitem (3), the commissioner may make one or more of the following additional approaches available to the opining actuary:</p>
+        <div id="rule.2711.0230.6.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.2711.0230.6.A.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>A statement that the reserves "meet the requirements of the insurance laws and regulations of the state of [state of domicile] and the formal written standards and conditions of this state for filing an opinion based on the law of the state of domicile." If the commissioner chooses to allow this alternative, a formal written list of standards and conditions must be made available. If a company chooses to use this alternative, the standards and conditions in effect on July 1 of a calendar year apply to statements for that calendar year, and they remain in effect until they are revised or revoked. If no list is available, this alternative is not available.</p>
+        </div>
+        <div id="rule.2711.0230.6.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.2711.0230.6.A.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>A statement that the reserves "meet the requirements of the insurance laws and regulations of the state of [state of domicile] and I have verified that the company's request to file an opinion based on the law of the state of domicile has been approved and that any conditions required by the commissioner for approval of that request have been met." If the commissioner chooses to allow this alternative, a formal written statement of the allowance shall be issued no later than March 31 of the year it is first effective. It shall remain valid until rescinded or modified by the commissioner. The rescission or modifications shall be issued no later than March 31 of the year they are first effective. Subsequent to that statement being issued, if a company chooses to use this alternative, the company shall file a request to do so, along with justification for its use, no later than April 30 of the year of the opinion to be filed. The request shall be deemed approved on October 1 of that year if the commissioner has not denied the request by that date.</p>
+        </div>
+        <div id="rule.2711.0230.6.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.2711.0230.6.A.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>A statement that the reserves "meet the requirements of the insurance laws and regulations of the state of [state of domicile] and I have submitted the required comparison as specified by this state."</p>
+          <div id="rule.2711.0230.6.A.3.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.2711.0230.6.A.3.a">§</a>
+            <h5 class="unit_no">(a) </h5>
+            <p>If the commissioner chooses to allow this alternative, a formal written list of products, to be added to the table in unit (b), for which the required comparison must be provided will be published. If a company chooses to use this alternative, the list in effect on July 1 of a calendar year must apply to statements for that calendar year, and it remains in effect until it is revised or revoked. If no list is available, this alternative is not available.</p>
+          </div>
+          <div id="rule.2711.0230.6.A.3.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.2711.0230.6.A.3.b">§</a>
+            <h5 class="unit_no">(b) </h5>
+            <p>If a company desires to use this alternative, the appointed actuary shall provide a comparison of the gross nationwide reserves held to the gross nationwide reserves that would be held under codification standards of the National Association of Insurance Commissioners. Gross nationwide reserves are the total reserves calculated for the total company in force business directly sold and assumed, indifferent to the state in which the risk resides, without reduction for reinsurance ceded. The information provided must be at least:</p>
+            <table class="border_all">
+              <col style="width:20%">
+              <col style="width:20%">
+              <col style="width:20%">
+              <col style="width:20%">
+              <col style="width:20%">
+              <tr>
+                <td class="colsep rowsep">(1)<br>Product Type</td>
+                <td class="colsep rowsep">(2)<br>Death Benefit or Account Value</td>
+                <td class="colsep rowsep">(3)<br>Reserves Held</td>
+                <td class="colsep rowsep">(4)<br>Codification Reserves</td>
+                <td class="colsep rowsep">(5)<br>Codification Standards</td>
+              </tr>
+              <tr>
+                <td class="colsep rowsep"></td>
+                <td class="colsep rowsep"></td>
+                <td class="colsep rowsep"></td>
+                <td class="colsep rowsep"></td>
+                <td class="colsep rowsep"></td>
+              </tr>
+              <tr>
+                <td class="colsep rowsep"></td>
+                <td class="colsep rowsep"></td>
+                <td class="colsep rowsep"></td>
+                <td class="colsep rowsep"></td>
+                <td class="colsep rowsep"></td>
+              </tr>
+            </table>
+          </div>
+          <div id="rule.2711.0230.6.A.3.c" class="unit">
+            <a title="Link to unit c" class="permalink" href="#rule.2711.0230.6.A.3.c">§</a>
+            <h5 class="unit_no">(c) </h5>
+            <p>The information listed must include all products identified by either the state of filing or any other states subscribing to this alternative.</p>
+          </div>
+          <div id="rule.2711.0230.6.A.3.d" class="unit">
+            <a title="Link to unit d" class="permalink" href="#rule.2711.0230.6.A.3.d">§</a>
+            <h5 class="unit_no">(d) </h5>
+            <p>If there is no codification standard for the type of product or risk in force or if the codification standard does not directly address the type of product or risk in force, the appointed actuary shall provide detailed disclosure of the specific method and assumptions used in determining the reserves held.</p>
+          </div>
+          <div id="rule.2711.0230.6.A.3.e" class="unit">
+            <a title="Link to unit e" class="permalink" href="#rule.2711.0230.6.A.3.e">§</a>
+            <h5 class="unit_no">(e) </h5>
+            <p>The comparison provided by the company is to be kept confidential to the same extent and under the same conditions as the actuarial memorandum.</p>
+          </div>
+        </div>
+      </div>
+      <div id="rule.2711.0230.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2711.0230.6.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>Notwithstanding item A, the commissioner may reject an opinion based on the laws and regulations of the state of domicile and require an opinion based on the laws of this state. If a company is unable to provide the opinion within 60 days of the request or other period of time determined by the commissioner after consultation with the company, the commissioner may contract an independent actuary at the company's expense to prepare and file the opinion.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2711.0230.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/45.023">45.023</a>; <a href="/statutes/cite/61A.25">61A.25</a></p>
+  </div>
+  <div class="history" id="rule.2711.0230.history">
+    <h2>History: </h2>
+    <p>37 SR 1455</p>
+  </div>
+  <div class="published" id="rule.2711.0230.published">
+    <h2>Published Electronically:</h2>
+    <p> April 15, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2711.0240">
+    <h1 class="headnote">2711.0240 DESCRIPTION OF ACTUARIAL MEMORANDUM INCLUDING AN ASSET ADEQUACY ANALYSIS AND REGULATORY ASSET ADEQUACY ISSUES SUMMARY.</h1>
+    <div id="rule.2711.0240.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2711.0240.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Generally. </h2>
+      <div id="rule.2711.0240.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2711.0240.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>In accordance with Minnesota Statutes, section <a href="/statutes/cite/61A.25">61A.25</a>, subdivision 2a, the appointed actuary shall prepare a memorandum to the company describing the analysis done in support of the actuary's opinion regarding the reserves. The memorandum must be made available for examination by the commissioner upon request but must be returned to the company after examination and must not be considered a record of the Department of Commerce or subject to automatic filing with the commissioner.</p>
+      </div>
+      <div id="rule.2711.0240.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2711.0240.1.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>In preparing the memorandum, the appointed actuary may rely on, and include as a part of the actuary's own memorandum, memoranda prepared and signed by other actuaries who are qualified within the meaning of part <a href="/rules/2711.0220">2711.0220</a>, subpart 2, with respect to the areas covered in such memoranda, and so state in the memoranda.</p>
+      </div>
+      <div id="rule.2711.0240.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2711.0240.1.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>If the commissioner requests a memorandum and no memorandum exists or if the commissioner finds that the analysis described in the memorandum fails to meet the standards of the Actuarial Standards Board or the standards and requirements of this chapter, the commissioner may designate a qualified actuary to review the opinion and prepare such supporting memorandum as is required for review. The reasonable and necessary expense of the independent review must be paid by the company but must be directed and controlled by the commissioner.</p>
+      </div>
+      <div id="rule.2711.0240.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2711.0240.1.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>The reviewing actuary has the same status as an examiner for purposes of obtaining data from the company and the work papers and documentation of the reviewing actuary must be retained by the commissioner; provided, however, that any information provided by the company to the reviewing actuary and included in the work papers is considered material provided by the company to the commissioner and must be kept confidential to the same extent as is prescribed by law with respect to other material provided by the company to the commissioner pursuant to the statutes governing this chapter. The reviewing actuary must not be an employee of a consulting firm involved with the preparation of any prior memorandum or opinion for the insurer pursuant to this chapter for any one of the current year or the preceding three years.</p>
+      </div>
+      <div id="rule.2711.0240.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2711.0240.1.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>In accordance with Minnesota Statutes, section <a href="/statutes/cite/61A.25">61A.25</a>, subdivision 2a, the appointed actuary shall prepare a regulatory asset adequacy issues summary, the contents of which are specified in subpart 3. The regulatory asset adequacy issues summary must be submitted no later than March 15 of the year following the year for which a Statement of Actuarial Opinion based on asset adequacy is required. The regulatory asset adequacy issues summary is to be kept confidential to the same extent and under the same conditions as the actuarial memorandum.</p>
+      </div>
+    </div>
+    <div id="rule.2711.0240.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2711.0240.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Details of the memorandum section documenting asset adequacy analysis. </h2>
+      <p>When an actuarial opinion is provided, the memorandum must demonstrate that the analysis has been done in accordance with the standards for asset adequacy referred to in part <a href="/rules/2711.0220">2711.0220</a>, subpart 4, and any additional standards under this chapter. It must specify:</p>
+      <div id="rule.2711.0240.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2711.0240.2.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>for reserves:</p>
+        <div id="rule.2711.0240.2.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.2711.0240.2.A.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>product descriptions including market description, underwriting, and other aspects of a risk profile and the specific risks the appointed actuary deems significant;</p>
+        </div>
+        <div id="rule.2711.0240.2.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.2711.0240.2.A.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>source of liability in force;</p>
+        </div>
+        <div id="rule.2711.0240.2.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.2711.0240.2.A.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>reserve method and basis;</p>
+        </div>
+        <div id="rule.2711.0240.2.A.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.2711.0240.2.A.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>investment reserves;</p>
+        </div>
+        <div id="rule.2711.0240.2.A.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.2711.0240.2.A.5">§</a>
+          <h4 class="subitem_no">(5) </h4>
+          <p>reinsurance arrangements;</p>
+        </div>
+        <div id="rule.2711.0240.2.A.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.2711.0240.2.A.6">§</a>
+          <h4 class="subitem_no">(6) </h4>
+          <p>identification of any explicit or implied guarantees made by the general account in support of benefits provided through a separate account or under a separate account policy or contract and the methods used by the appointed actuary to provide for the guarantees in the asset adequacy analysis; and</p>
+        </div>
+        <div id="rule.2711.0240.2.A.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.2711.0240.2.A.7">§</a>
+          <h4 class="subitem_no">(7) </h4>
+          <p>documentation of assumptions to test reserves for the following:</p>
+          <div id="rule.2711.0240.2.A.7.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.2711.0240.2.A.7.a">§</a>
+            <h5 class="unit_no">(a) </h5>
+            <p>lapse rates, both base and excess;</p>
+          </div>
+          <div id="rule.2711.0240.2.A.7.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.2711.0240.2.A.7.b">§</a>
+            <h5 class="unit_no">(b) </h5>
+            <p>interest crediting rate strategy;</p>
+          </div>
+          <div id="rule.2711.0240.2.A.7.c" class="unit">
+            <a title="Link to unit c" class="permalink" href="#rule.2711.0240.2.A.7.c">§</a>
+            <h5 class="unit_no">(c) </h5>
+            <p>mortality;</p>
+          </div>
+          <div id="rule.2711.0240.2.A.7.d" class="unit">
+            <a title="Link to unit d" class="permalink" href="#rule.2711.0240.2.A.7.d">§</a>
+            <h5 class="unit_no">(d) </h5>
+            <p>policyholder dividend strategy;</p>
+          </div>
+          <div id="rule.2711.0240.2.A.7.e" class="unit">
+            <a title="Link to unit e" class="permalink" href="#rule.2711.0240.2.A.7.e">§</a>
+            <h5 class="unit_no">(e) </h5>
+            <p>competitor or market interest rate;</p>
+          </div>
+          <div id="rule.2711.0240.2.A.7.f" class="unit">
+            <a title="Link to unit f" class="permalink" href="#rule.2711.0240.2.A.7.f">§</a>
+            <h5 class="unit_no">(f) </h5>
+            <p>annuitization rates;</p>
+          </div>
+          <div id="rule.2711.0240.2.A.7.g" class="unit">
+            <a title="Link to unit g" class="permalink" href="#rule.2711.0240.2.A.7.g">§</a>
+            <h5 class="unit_no">(g) </h5>
+            <p>commissions and expenses; and</p>
+          </div>
+          <div id="rule.2711.0240.2.A.7.h" class="unit">
+            <a title="Link to unit h" class="permalink" href="#rule.2711.0240.2.A.7.h">§</a>
+            <h5 class="unit_no">(h) </h5>
+            <p>morbidity.</p>
+            <p>The documentation of the assumptions must be such that an actuary reviewing the actuarial memorandum could form a conclusion as to the reasonableness of the assumptions;</p>
+          </div>
+        </div>
+      </div>
+      <div id="rule.2711.0240.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2711.0240.2.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>for assets:</p>
+        <div id="rule.2711.0240.2.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.2711.0240.2.B.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>portfolio descriptions, including a risk profile disclosing the quality, distribution, and types of assets;</p>
+        </div>
+        <div id="rule.2711.0240.2.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.2711.0240.2.B.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>investment and disinvestment assumptions;</p>
+        </div>
+        <div id="rule.2711.0240.2.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.2711.0240.2.B.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>source of asset data;</p>
+        </div>
+        <div id="rule.2711.0240.2.B.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.2711.0240.2.B.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>asset valuation bases; and</p>
+        </div>
+        <div id="rule.2711.0240.2.B.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.2711.0240.2.B.5">§</a>
+          <h4 class="subitem_no">(5) </h4>
+          <p>documentation of assumptions made for:</p>
+          <div id="rule.2711.0240.2.B.5.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.2711.0240.2.B.5.a">§</a>
+            <h5 class="unit_no">(a) </h5>
+            <p>default costs;</p>
+          </div>
+          <div id="rule.2711.0240.2.B.5.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.2711.0240.2.B.5.b">§</a>
+            <h5 class="unit_no">(b) </h5>
+            <p>bond call function;</p>
+          </div>
+          <div id="rule.2711.0240.2.B.5.c" class="unit">
+            <a title="Link to unit c" class="permalink" href="#rule.2711.0240.2.B.5.c">§</a>
+            <h5 class="unit_no">(c) </h5>
+            <p>mortgage prepayment function;</p>
+          </div>
+          <div id="rule.2711.0240.2.B.5.d" class="unit">
+            <a title="Link to unit d" class="permalink" href="#rule.2711.0240.2.B.5.d">§</a>
+            <h5 class="unit_no">(d) </h5>
+            <p>determining market value for assets sold due to disinvestment strategy; and</p>
+          </div>
+          <div id="rule.2711.0240.2.B.5.e" class="unit">
+            <a title="Link to unit e" class="permalink" href="#rule.2711.0240.2.B.5.e">§</a>
+            <h5 class="unit_no">(e) </h5>
+            <p>determining yield on assets acquired through the investment strategy.</p>
+            <p>The documentation of the assumptions must be such that an actuary reviewing the actuarial memorandum could form a conclusion as to the reasonableness of the assumptions;</p>
+          </div>
+        </div>
+      </div>
+      <div id="rule.2711.0240.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2711.0240.2.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>for the analysis basis:</p>
+        <div id="rule.2711.0240.2.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.2711.0240.2.C.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>methodology;</p>
+        </div>
+        <div id="rule.2711.0240.2.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.2711.0240.2.C.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>rationale for inclusion or exclusion of different blocks of business and how pertinent risks were analyzed;</p>
+        </div>
+        <div id="rule.2711.0240.2.C.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.2711.0240.2.C.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>rationale for degree of rigor in analyzing different blocks of business (include in the rationale the level of "materiality" that was used in determining how rigorously to analyze different blocks of business);</p>
+        </div>
+        <div id="rule.2711.0240.2.C.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.2711.0240.2.C.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>criteria for determining asset adequacy (include in the criteria the precise basis for determining if assets are adequate to cover reserves under "moderately adverse conditions" or other conditions as specified in relevant actuarial standards of practice); and</p>
+        </div>
+        <div id="rule.2711.0240.2.C.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.2711.0240.2.C.5">§</a>
+          <h4 class="subitem_no">(5) </h4>
+          <p>whether the impact of federal income taxes was considered and the method of treating reinsurance in the asset adequacy analysis;</p>
+        </div>
+      </div>
+      <div id="rule.2711.0240.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2711.0240.2.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>summary of material changes in methods, procedures, or assumptions from prior year's asset adequacy analysis;</p>
+      </div>
+      <div id="rule.2711.0240.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2711.0240.2.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>summary of results; and</p>
+      </div>
+      <div id="rule.2711.0240.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.2711.0240.2.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>conclusions.</p>
+      </div>
+    </div>
+    <div id="rule.2711.0240.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2711.0240.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Details of the regulatory asset adequacy issues summary. </h2>
+      <div id="rule.2711.0240.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2711.0240.3.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>The regulatory asset adequacy issues summary must include:</p>
+        <div id="rule.2711.0240.3.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.2711.0240.3.A.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>descriptions of the scenarios tested, including whether those scenarios are stochastic or deterministic, and the sensitivity testing done relative to those scenarios. If negative ending surplus results under certain tests in the aggregate, the actuary should describe those tests and the amount of additional reserve as of the valuation date which, if held, would eliminate the negative aggregate surplus values. Ending surplus values must be determined by either extending the projection period until the in-force and associated assets and liabilities at the end of the projection period are immaterial or by adjusting the surplus amount at the end of the projection period by an amount that appropriately estimates the value that can reasonably be expected to arise from the assets and liabilities remaining in force;</p>
+        </div>
+        <div id="rule.2711.0240.3.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.2711.0240.3.A.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>the extent to which the appointed actuary uses assumptions in the asset adequacy analysis that are materially different than the assumptions used in the previous asset adequacy analysis;</p>
+        </div>
+        <div id="rule.2711.0240.3.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.2711.0240.3.A.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>the amount of reserves and the identity of the product lines that had been subjected to asset adequacy analysis in the prior opinion but were not subject to analysis for the current opinion;</p>
+        </div>
+        <div id="rule.2711.0240.3.A.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.2711.0240.3.A.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>comments on any interim results that may be of significant concern to the appointed actuary. For example, the impact of the insufficiency of assets to support the payment of benefits and expenses and the establishment of statutory reserves during one or more interim periods;</p>
+        </div>
+        <div id="rule.2711.0240.3.A.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.2711.0240.3.A.5">§</a>
+          <h4 class="subitem_no">(5) </h4>
+          <p>the methods used by the actuary to recognize the impact of reinsurance on the company's cash flows, including both assets and liabilities, under each of the scenarios tested; and</p>
+        </div>
+        <div id="rule.2711.0240.3.A.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.2711.0240.3.A.6">§</a>
+          <h4 class="subitem_no">(6) </h4>
+          <p>whether the actuary has been satisfied that all options, whether explicit or embedded, in any asset or liability, including but not limited to those affecting cash flows embedded in fixed income securities, and equity-like features in any investments have been appropriately considered in the asset adequacy analysis.</p>
+        </div>
+      </div>
+      <div id="rule.2711.0240.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2711.0240.3.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>The regulatory asset adequacy issues summary must contain the name of the company for which the regulatory asset adequacy issues summary is being supplied and must be signed and dated by the appointed actuary rendering the actuarial opinion.</p>
+      </div>
+    </div>
+    <div id="rule.2711.0240.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2711.0240.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Conformity to standards of practice. </h2>
+      <p>The memorandum must include a statement:</p>
+      <p class="bi">"Actuarial methods, considerations, and analyses used in the preparation of this memorandum conform to the appropriate Standards of Practice as promulgated by the Actuarial Standards Board, which standards form the basis for this memorandum."</p>
+    </div>
+    <div id="rule.2711.0240.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2711.0240.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Use of assets supporting interest maintenance reserve and asset valuation reserve. </h2>
+      <p>An appropriate allocation of assets in the amount of the interest maintenance reserve (IMR), whether positive or negative, shall be used in any asset adequacy analysis. Analysis of risks regarding asset default may include an appropriate allocation of assets supporting the asset valuation reserve (AVR). The AVR assets may not be applied for any other risks with respect to reserve adequacy. Analysis of these and other risks may include assets supporting other mandatory or voluntary reserves available to the extent not used for risk analysis and reserve support.</p>
+      <p>The amount of the assets used for the AVR must be disclosed in the table of reserves and liabilities of the opinion and in the memorandum. The method used for selecting particular assets or allocated portions of assets must be disclosed in the memorandum.</p>
+    </div>
+    <div id="rule.2711.0240.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.2711.0240.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Required interest scenarios. </h2>
+      <p>For the purpose of performing the asset adequacy analysis required by this chapter, the qualified actuary shall follow standards adopted by the Actuarial Standards Board; nevertheless, the appointed actuary must consider in the analysis the effect of at least the following interest rate scenarios:</p>
+      <div id="rule.2711.0240.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2711.0240.6.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>level with no deviation;</p>
+      </div>
+      <div id="rule.2711.0240.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2711.0240.6.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>uniformly increasing over ten years at one-half percent per year and then level;</p>
+      </div>
+      <div id="rule.2711.0240.6.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2711.0240.6.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>uniformly increasing at one percent per year over five years and then uniformly decreasing at one percent per year to the original level at the end of ten years and then level;</p>
+      </div>
+      <div id="rule.2711.0240.6.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2711.0240.6.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>an immediate increase of three percent and then level;</p>
+      </div>
+      <div id="rule.2711.0240.6.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2711.0240.6.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>uniformly decreasing over ten years at one-half percent per year and then level;</p>
+      </div>
+      <div id="rule.2711.0240.6.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.2711.0240.6.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>uniformly decreasing at one percent per year over five years and then uniformly increasing at one percent per year to the original level at the end of ten years and then level; and</p>
+      </div>
+      <div id="rule.2711.0240.6.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.2711.0240.6.G">§</a>
+        <h3 class="item_no">G. </h3>
+        <p>an immediate decrease of three percent and then level.</p>
+        <p>For these and other scenarios which may be used, projected interest rates for a five-year treasury note need not be reduced beyond the point where such five-year treasury note yield would be at 50 percent of its initial level.</p>
+        <p>The beginning interest rates may be based on interest rates for new investments as of the valuation date similar to recent investments allocated to support the product being tested or be based on an outside index, such as treasury yields, of assets of the appropriate length on a date close to the valuation date. Whatever method is used to determine the beginning yield curve and associated interest rates should be specifically defined. The beginning yield curve and associated interest rates should be consistent for all interest rate scenarios.</p>
+      </div>
+    </div>
+    <div id="rule.2711.0240.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.2711.0240.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Documentation. </h2>
+      <p>The appointed actuary shall retain on file, for at least seven years, sufficient documentation so that it will be possible to determine the procedures followed, the analyses performed, the bases for assumptions, and the results obtained.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2711.0240.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/45.023">45.023</a>; <a href="/statutes/cite/61A.25">61A.25</a></p>
+  </div>
+  <div class="history" id="rule.2711.0240.history">
+    <h2>History: </h2>
+    <p>37 SR 1455</p>
+  </div>
+  <div class="published" id="rule.2711.0240.published">
+    <h2>Published Electronically:</h2>
+    <p> April 15, 2013</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
