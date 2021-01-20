@@ -1,0 +1,2399 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            4630.0200 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/144">Health Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/4630/">Chapter 4630</a>
+            </li>
+        
+    
+        
+            <li>Part 4630.0200</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/4630.0300/">4630.0300</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/4630.0200/2014-01-18%2005:42:35+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 4630</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/4630/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/4630/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/4630/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 4630.0200</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/4630.0200/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.0200">
+    <h1 class="headnote">4630.0200 LOCATION.</h1>
+    <p>No mobile home park or recreational camping area shall be so located that drainage from the park or camp area will endanger any water supply. All such parks and camps shall be well drained and no portion of the park or camp shall be located in an area subject to flooding. No waste water from mobile homes or recreational camping vehicles shall be deposited on the surface of the ground.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="published" id="rule.4630.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.0300">
+    <h1 class="headnote">4630.0300 CARETAKER.</h1>
+    <p>A responsible attendant or caretaker shall be in charge of every mobile home park or recreational camping area at all times and the duty of said attendant or caretaker shall be to maintain the park, its facilities, and equipment in a clean, orderly, and sanitary condition. The caretaker or attendant shall be the owner or operator of the park or camping area, or that person's appointed representative.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="history" id="rule.4630.0300.history">
+    <h2>History: </h2>
+    <p>17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.4630.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.0400">
+    <h1 class="headnote">4630.0400 MOBILE HOME AND RECREATIONAL CAMPING VEHICLE SPACING.</h1>
+    <p>No mobile home shall be parked closer than three feet to the side lot lines of a mobile home park if the abutting property is improved property or closer than ten feet to a public street or alley. Each individual mobile home site shall abut or face on a driveway or clear unoccupied space of not less than 16 feet in width, which space shall have unobstructed access to a public highway or alley. There shall be an open space of at least ten feet between the sides of adjacent mobile homes including their attachments, and at least three feet between mobile homes when parked end to end. The space between mobile homes may be used for parking of motor vehicles or other property provided such vehicle or other property be parked at least ten feet from the nearest adjacent mobile home position.</p>
+    <p>All new mobile home parks constructed after July 1, 1970, and additions to existing mobile home parks constructed after July 1, 1970, shall allot the following minimum site sizes for each mobile home: 4,000 square feet if sewage from the park is discharged into a soil absorption system; 2,800 square feet if any other acceptable method of sewage disposal is used.</p>
+    <p>In recreational camping areas, recreational camping vehicles shall be separated from each other and from other structures by at least ten feet. Any accessory structure such as attached awnings, car ports, or individual storage facilities, shall, for the purpose of this separation requirement, be considered to be part of the recreational camping vehicle. A minimum site size of 2,000 square feet shall be provided for each recreational camping vehicle in camping areas constructed after July 1, 1970. All recreational camping vehicles shall be located at least 25 feet from any camping area property boundary line abutting upon a public street or highway and at least ten feet from other park property boundary lines.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="published" id="rule.4630.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.0500">
+    <h1 class="headnote">4630.0500 DOMESTIC ANIMALS.</h1>
+    <p>No domestic animals or house pets shall be allowed to run at large or commit any nuisances within the limits of a mobile home park or recreational camping area. Any kennels, pens, or other facilities provided for such pets shall be maintained in a sanitary condition at all times.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.0500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="published" id="rule.4630.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.0600">
+    <h1 class="headnote">4630.0600 WATER SUPPLY.</h1>
+    <div id="rule.4630.0600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.4630.0600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Requirement. </h2>
+      <p>An adequate supply of water of safe, sanitary, and potable quality shall be provided in each mobile home park and recreational camping area. Water supplies must meet the requirements of chapter 4720 for public water supplies, or chapter 4725 for wells.</p>
+    </div>
+    <div id="rule.4630.0600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.4630.0600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Minimum supply. </h2>
+      <p>In mobile home parks, the water supply shall be capable of supplying a minimum of 150 gallons per day per mobile home, and in recreational camping areas, the water supply shall be capable of supplying 50 gallons per site per day for all sites lacking individual water connections, and 100 gallons per site per day for all spaces provided with individual water connections.</p>
+    </div>
+    <div id="rule.4630.0600.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.4630.0600.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Location. </h2>
+      <p>In recreational camping areas, water from the drinking water supply shall be available within at least 400 feet of every campsite.</p>
+    </div>
+    <div id="rule.4630.0600.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.4630.0600.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Design. </h2>
+      <p>All water storage reservoirs shall be covered, watertight, and constructed of impervious material. Overflows and vents of such reservoirs shall be effectively screened. Manholes shall be constructed with covers which will prevent the entrance of foreign material. The system shall be so designed and maintained as to provide a pressure of not less than 20 pounds per square inch under normal operating conditions at service buildings and other locations requiring a potable water supply. In mobile home parks and on recreational camping sites provided with individual water service connections, riser pipes shall be so located and constructed that they will not be damaged by the parking of mobile homes or recreational camping vehicles. Water riser pipes shall extend at least four inches above the ground elevation and the minimum pipe size shall be three-fourths inch. Adequate provisions shall be made to prevent freezing of service lines, valves, and riser pipes. If underground stop and waste valves are installed, they shall be at least ten feet from the nearest buried portion of the sewage system. Water risers on unoccupied sites shall be valved off. There shall be a horizontal distance of at least ten feet between water and sewer riser pipes; provided, that where the sewer riser is constructed of cast iron pipe and the water riser is constructed of copper pipe, the distance between may be less than ten feet. The commissioner shall grant a variance to subparts 2 to 4 only according to the procedures and criteria specified in parts <a href="/rules/4717.7000">4717.7000</a> to <a href="/rules/4717.7050">4717.7050</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.4630.0600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103I.101">103I.101</a>; <a href="/statutes/cite/103I.221">103I.221</a>; <a href="/statutes/cite/103I.301">103I.301</a>; <a href="/statutes/cite/103I.621">103I.621</a>; <a href="/statutes/cite/144.05">144.05</a>; <a href="/statutes/cite/144.12">144.12</a>; <a href="/statutes/cite/144.383">144.383</a>; <a href="/statutes/cite/157.04">157.04</a>; <a href="/statutes/cite/157.08">157.08</a>; <a href="/statutes/cite/157.09">157.09</a>; <a href="/statutes/cite/157.13">157.13</a>; <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="history" id="rule.4630.0600.history">
+    <h2>History: </h2>
+    <p>L 1977 c 305 s 39; 17 SR 2773</p>
+  </div>
+  <div class="published" id="rule.4630.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.0700">
+    <h1 class="headnote">4630.0700 PLUMBING.</h1>
+    <p>All systems of plumbing in mobile home parks and recreational camping areas shall be installed in accordance with the rules of the commissioner of health and the provisions of chapter 4714, the Minnesota Plumbing Code.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.0700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="history" id="rule.4630.0700.history">
+    <h2>History: </h2>
+    <p>L 1977 c 305 s 39; 40 SR 71</p>
+  </div>
+  <div class="published" id="rule.4630.0700.published">
+    <h2>Published Electronically:</h2>
+    <p> April 1, 2016</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.0800">
+    <h1 class="headnote">4630.0800 SEWAGE DISPOSAL.</h1>
+    <div id="rule.4630.0800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.4630.0800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Discharge. </h2>
+      <p>All sewage and other water carried wastes shall be discharged into a municipal sewage system which is being operated under a permit issued by the Minnesota Pollution Control Agency whenever such a system is available. When such a system is not available, a sewage disposal system acceptable to the commissioner of health and the Minnesota Pollution Control Agency shall be provided. All sewer lines shall be located in trenches of sufficient depth to be free of breakage from traffic or other movements and shall be separated from the park water supply system by at least ten feet, unless special acceptable construction of sewer lines is provided.</p>
+    </div>
+    <div id="rule.4630.0800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.4630.0800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Location and construction of sewer lines. </h2>
+      <p>All sewer lines shall be constructed of materials approved by the commissioner of health, shall be adequately vented, and shall have water tight joints. Individual site sewer connections shall be at least a four-inch diameter sewer riser pipe. The sewer connections shall consist of one pipe line only without any branch fittings. All joints shall be water tight. All materials used for sewer connections shall be corrosive resistant, nonabsorbent, and durable. The inner surface shall be smooth. Provisions shall be made for capping the sewer riser pipe when a mobile home or recreational camping vehicle does not occupy the site. Surface drainage shall be directed away from the riser; the rim of the riser pipe shall extend at least 4 inches above ground elevation.</p>
+    </div>
+    <div id="rule.4630.0800.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.4630.0800.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Compliance with Pollution Control Agency standards. </h2>
+      <p>Systems of sewage disposal utilizing the discharge of effluents to bodies of surface water must receive the approval and comply with the water quality and effluent standards and system design criteria established by the Minnesota Pollution Control Agency. All systems utilizing soil absorption for final disposal of effluent shall comply with and receive the approval of the commissioner of health. No soil absorption system shall be installed in soil which has a percolation rate of less than one inch in 60 minutes, or where the groundwater table rises to within four feet of the bottom of a proposed absorption pit or trench, or where such system shall adversely affect the ground water used for potable water supplies. All buried portions of a sewage disposal system shall be located at least 50 feet horizontally from the ordinary high water level of any body of surface water.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.4630.0800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="history" id="rule.4630.0800.history">
+    <h2>History: </h2>
+    <p>L 1977 c 305 s 39</p>
+  </div>
+  <div class="published" id="rule.4630.0800.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.0900">
+    <h1 class="headnote">4630.0900 TOILET, BATHING, AND LAUNDRY FACILITIES.</h1>
+    <p>In dependent mobile home parks and recreational camping areas which harbor mobile homes and recreational camping vehicles which are not equipped with toilet and bathing facilities, one or more central buildings shall be provided equipped with such facilities. The number of fixtures shall be in accordance with the following schedule:</p>
+    <table>
+      <col style="width:24.6153846153846%">
+      <col style="width:10.7692307692308%">
+      <col style="width:10.7692307692308%">
+      <col style="width:10.7692307692308%">
+      <col style="width:10.7692307692308%">
+      <col style="width:10.7692307692308%">
+      <col style="width:10.7692307692308%">
+      <col style="width:10.7692307692308%">
+      <tr>
+        <td style="text-align: center;">Number of Dependent Sites</td>
+        <td colspan="2" style="text-align: center;">Toilets</td>
+        <td style="text-align: center;">Urinals</td>
+        <td colspan="2" style="text-align: center;">Lavatories</td>
+        <td colspan="2" style="text-align: center;">Showers</td>
+      </tr>
+      <tr>
+        <td style="text-align: right;"></td>
+        <td style="text-align: center;"></td>
+        <td style="text-align: center;"></td>
+        <td style="text-align: center;"></td>
+        <td style="text-align: center;"></td>
+        <td style="text-align: center;"></td>
+        <td style="text-align: center;"></td>
+        <td style="text-align: center;"></td>
+      </tr>
+      <tr>
+        <td style="text-align: right;"></td>
+        <td style="text-align: center;">Men</td>
+        <td style="text-align: center;">Women</td>
+        <td style="text-align: center;">Men</td>
+        <td style="text-align: center;">Men</td>
+        <td style="text-align: center;">Women</td>
+        <td style="text-align: center;">Men</td>
+        <td style="text-align: center;">Women</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">1-15</td>
+        <td style="text-align: center;">1</td>
+        <td style="text-align: center;">1</td>
+        <td style="text-align: center;">1</td>
+        <td style="text-align: center;">1</td>
+        <td style="text-align: center;">1</td>
+        <td style="text-align: center;">1</td>
+        <td style="text-align: center;">1</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">16-30</td>
+        <td style="text-align: center;">1</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">1</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">1</td>
+        <td style="text-align: center;">1</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">31-45</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">1</td>
+        <td style="text-align: center;">3</td>
+        <td style="text-align: center;">3</td>
+        <td style="text-align: center;">1</td>
+        <td style="text-align: center;">1</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">46-60</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">3</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">3</td>
+        <td style="text-align: center;">3</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">2</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">61-80</td>
+        <td style="text-align: center;">3</td>
+        <td style="text-align: center;">4</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">4</td>
+        <td style="text-align: center;">4</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">2</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">81-100</td>
+        <td style="text-align: center;">3</td>
+        <td style="text-align: center;">4</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">4</td>
+        <td style="text-align: center;">4</td>
+        <td style="text-align: center;">2</td>
+        <td style="text-align: center;">2</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">101-130</td>
+        <td style="text-align: center;">4</td>
+        <td style="text-align: center;">5</td>
+        <td style="text-align: center;">3</td>
+        <td style="text-align: center;">5</td>
+        <td style="text-align: center;">5</td>
+        <td style="text-align: center;">3</td>
+        <td style="text-align: center;">3</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">131-160</td>
+        <td style="text-align: center;">5</td>
+        <td style="text-align: center;">6</td>
+        <td style="text-align: center;">3</td>
+        <td style="text-align: center;">6</td>
+        <td style="text-align: center;">6</td>
+        <td style="text-align: center;">4</td>
+        <td style="text-align: center;">4</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">161-190</td>
+        <td style="text-align: center;">6</td>
+        <td style="text-align: center;">7</td>
+        <td style="text-align: center;">3</td>
+        <td style="text-align: center;">7</td>
+        <td style="text-align: center;">7</td>
+        <td style="text-align: center;">4</td>
+        <td style="text-align: center;">4</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">191-220</td>
+        <td style="text-align: center;">7</td>
+        <td style="text-align: center;">8</td>
+        <td style="text-align: center;">4</td>
+        <td style="text-align: center;">8</td>
+        <td style="text-align: center;">8</td>
+        <td style="text-align: center;">5</td>
+        <td style="text-align: center;">5</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">221-250</td>
+        <td style="text-align: center;">8</td>
+        <td style="text-align: center;">9</td>
+        <td style="text-align: center;">4</td>
+        <td style="text-align: center;">9</td>
+        <td style="text-align: center;">9</td>
+        <td style="text-align: center;">5</td>
+        <td style="text-align: center;">5</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">251-280</td>
+        <td style="text-align: center;">9</td>
+        <td style="text-align: center;">10</td>
+        <td style="text-align: center;">4</td>
+        <td style="text-align: center;">10</td>
+        <td style="text-align: center;">10</td>
+        <td style="text-align: center;">6</td>
+        <td style="text-align: center;">6</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">281-310</td>
+        <td style="text-align: center;">10</td>
+        <td style="text-align: center;">11</td>
+        <td style="text-align: center;">5</td>
+        <td style="text-align: center;">11</td>
+        <td style="text-align: center;">11</td>
+        <td style="text-align: center;">6</td>
+        <td style="text-align: center;">6</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">311-340</td>
+        <td style="text-align: center;">11</td>
+        <td style="text-align: center;">12</td>
+        <td style="text-align: center;">5</td>
+        <td style="text-align: center;">12</td>
+        <td style="text-align: center;">12</td>
+        <td style="text-align: center;">7</td>
+        <td style="text-align: center;">7</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">341-370</td>
+        <td style="text-align: center;">12</td>
+        <td style="text-align: center;">13</td>
+        <td style="text-align: center;">5</td>
+        <td style="text-align: center;">13</td>
+        <td style="text-align: center;">13</td>
+        <td style="text-align: center;">7</td>
+        <td style="text-align: center;">7</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">371-400</td>
+        <td style="text-align: center;">13</td>
+        <td style="text-align: center;">14</td>
+        <td style="text-align: center;">6</td>
+        <td style="text-align: center;">14</td>
+        <td style="text-align: center;">14</td>
+        <td style="text-align: center;">8</td>
+        <td style="text-align: center;">8</td>
+      </tr>
+    </table>
+    <p>Provided, that in primitive recreational camping areas only, the toilet facilities shall be required in the above ratio.</p>
+    <p>Privies and other toilets not connected to water-carried systems may be used in recreational camping areas when approved by the commissioner of health.</p>
+    <p>In recreational camping areas or dependent mobile home parks where laundry and bathing facilities are provided, such facilities shall be in buildings which are well constructed with adequate heating and ventilation, good lighting, and floors of impervious material sloped to drain. Walls shall be of washable material. There shall be no exposed studs or rafters.</p>
+    <p>Toilet facilities shall not be more than 400 feet from the furthest site to be served and shall be plainly marked according to sex. In conjunction with bathing facilities, there shall be provided a dressing area or dressing compartment, the floor of which shall be impervious and well drained. Mats, grids, and walkways made of cloth or other absorbent material shall not be used, provided that single-service mats may be used. Where clothes drying lines are provided, they shall be located in areas out of regular pedestrian traffic patterns and where they will generally not be a hazard to the safety to the occupants of the camping area. No laundry trays, washing machines, dryers, or extractors shall be located in any toilet, bath, or dressing room.</p>
+    <p>Recreational camping areas accommodating recreational camping vehicles having a self contained liquid waste system with a waste reservoir shall provide a sanitary station for the disposal of waste water. Such sanitary stations shall be equipped with a four-inch sewer riser pipe, surrounded at the inlet by a concrete apron sloped towards the inlet drain, and provided with a suitable hinged cover. A water outlet, with the necessary appurtenances connected to the camp water supply system, shall be provided to permit periodic washdown of the immediate adjacent areas. Each recreational camping area accommodating self-contained recreational camping vehicles shall provide sanitary stations in the ratio of one for every 100 recreational camping vehicle sites or fraction thereof. Sanitary dumping stations shall be screened from other activities by visual barriers such as fences, walls, or natural growth and shall be separated from any recreational camping vehicle site by a distance of at least 50 feet. Final disposal of sewage from such dumping stations shall be by a method acceptable to the commissioner of health and Minnesota Pollution Control Agency.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.0900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="history" id="rule.4630.0900.history">
+    <h2>History: </h2>
+    <p>L 1977 c 305 s 39</p>
+  </div>
+  <div class="published" id="rule.4630.0900.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.1000">
+    <h1 class="headnote">4630.1000 BARBECUE PITS, FIREPLACES, STOVES, AND INCINERATORS.</h1>
+    <p>In mobile home parks and recreational camping areas, cooking shelter, barbecue pits, fireplaces, wood-burning stoves, and incinerators shall be so located, constructed, maintained, and used as to minimize fire hazards and smoke nuisance both on the property on which used and on neighboring property. Incinerators shall be of a type acceptable to the Minnesota Pollution Control Agency. No open fire shall be permitted except in facilities provided. No open fire shall be left unattended. No fuel shall be used or no material burned which emits dense smoke or objectionable odors.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.1000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="published" id="rule.4630.1000.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.1100">
+    <h1 class="headnote">4630.1100 HANDLING AND DISPOSAL OF GARBAGE AND REFUSE.</h1>
+    <p>The storage, collection, and disposal of refuse and garbage in the mobile home parks and recreational camping areas shall be so conducted as to create no health hazards, rodent harborage, insect breeding areas, accident or fire hazards, or air pollution. All refuse and garbage shall be stored in fly-tight, watertight, rodent-proof containers which shall be located convenient to any mobile home site. In recreational camping areas, garbage and refuse containers shall be provided on the ratio of at least one for every four sites.</p>
+    <p>Refuse and garbage collection shall be made at least twice each week and more often where necessary to prevent nuisance conditions. Final disposal of refuse and garbage by landfill methods shall be accomplished in accordance with the criteria and standards established by the Minnesota Pollution Control Agency.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.1100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="published" id="rule.4630.1100.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.1200">
+    <h1 class="headnote">4630.1200 INSECT AND RODENT HARBORAGE AND INFESTATION CONTROL.</h1>
+    <p>Mobile home parks and recreational camping areas shall be maintained free of accumulations of debris which may provide rodent harborage or breeding places for flies, mosquitoes, and other pests. Storage areas shall be so maintained as to prevent rodent harborage. Lumber, pipe, and other building materials shall be stored at least one foot above the ground. Areas shall be so maintained as to prevent the growth of ragweed, poison ivy, poison oak, poison sumac, and other noxious weeds considered detrimental to health.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.1200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="published" id="rule.4630.1200.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.1300">
+    <h1 class="headnote">4630.1300 NIGHT LIGHTING.</h1>
+    <p>The walkways, drives, and other used portions of mobile home parks shall be lighted during the hours of darkness.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.1300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="published" id="rule.4630.1300.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.1400">
+    <h1 class="headnote">4630.1400 COMMUNITY KITCHEN AND DINING ROOMS.</h1>
+    <p>When community kitchens and dining rooms are provided, such facilities and equipment shall be maintained in a clean and sanitary condition at all times, and shall be constructed and equipped in compliance with state laws and rules applicable to food-handling establishments.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.1400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="published" id="rule.4630.1400.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.1500">
+    <h1 class="headnote">4630.1500 BOTTLED GAS.</h1>
+    <p>Where bottled gas is used, the container shall be firmly connected to the appliance by tubing of copper or other suitable metallic material. Cylinders containing bottled gas shall not be located within five feet of any mobile home or recreational camping vehicle door. The container shall not be installed or stored even temporarily inside any mobile home or recreational camping vehicle. No container may be permitted to stand free, but must be firmly mounted in an upright position.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.1500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="published" id="rule.4630.1500.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.1600">
+    <h1 class="headnote">4630.1600 FUEL OIL SUPPLY SYSTEMS.</h1>
+    <p>All piping from outside fuel storage tanks or cylinders to mobile homes or recreational camping vehicles shall be permanently installed and securely fastened in place. All fuel oil storage tanks or cylinders shall be securely fastened in place and shall not be located inside or beneath any mobile home or recreational camping vehicle or less than five feet from any mobile home or recreational camping vehicle exit. All fuel oil containers shall be mounted upon a stand or rack constructed of a noncombustible material.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.1600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="published" id="rule.4630.1600.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.1700">
+    <h1 class="headnote">4630.1700 FIRE PROTECTION.</h1>
+    <p>Fire protection shall be provided in accordance with the requirements of the state fire marshal.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.1700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="published" id="rule.4630.1700.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.1800">
+    <h1 class="headnote repealed">4630.1800</h1>
+    <p>[Repealed, 15 SR 1597]</p>
+  </div>
+  <div class="published" id="rule.4630.1800.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.1801">
+    <h1 class="headnote">4630.1801 VARIANCE TO RULES RELATING TO MOBILE HOME PARKS AND RECREATIONAL CAMPING AREAS.</h1>
+    <p>The commissioner shall grant a variance to parts <a href="/rules/4630.0400">4630.0400</a>; <a href="/rules/4630.0600">4630.0600</a>, subparts 2 to 4; and <a href="/rules/4630.0900">4630.0900</a> to <a href="/rules/4630.1700">4630.1700</a> only according to the procedures and criteria specified in parts <a href="/rules/4717.7000">4717.7000</a> to <a href="/rules/4717.7050">4717.7050</a>.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.1801.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.05">14.05</a>; <a href="/statutes/cite/103I.101">103I.101</a>; <a href="/statutes/cite/103I.221">103I.221</a>; <a href="/statutes/cite/103I.301">103I.301</a>; <a href="/statutes/cite/103I.621">103I.621</a>; <a href="/statutes/cite/144.05">144.05</a>; <a href="/statutes/cite/144.12">144.12</a>; <a href="/statutes/cite/144.383">144.383</a>; <a href="/statutes/cite/157.04">157.04</a>; <a href="/statutes/cite/157.08">157.08</a>; <a href="/statutes/cite/157.09">157.09</a>; <a href="/statutes/cite/157.13">157.13</a></p>
+  </div>
+  <div class="history" id="rule.4630.1801.history">
+    <h2>History: </h2>
+    <p>15 SR 1597; 17 SR 2773</p>
+  </div>
+  <div class="published" id="rule.4630.1801.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.1900">
+    <h1 class="headnote">4630.1900 LICENSING; DEFINITIONS.</h1>
+    <div id="rule.4630.1900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.4630.1900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The following definitions apply to parts <a href="/rules/4630.1900">4630.1900</a> to <a href="/rules/4630.2210">4630.2210</a>.</p>
+    </div>
+    <div id="rule.4630.1900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.4630.1900.1">§</a>
+      <h2 class="subp_no">Subp. 1a.</h2>
+      <h2 class="headnote">Category A site. </h2>
+      <p>"Category A site" means any manufactured home park or recreational camping area that meets one or more of the following conditions:</p>
+      <div id="rule.4630.1900.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.4630.1900.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> has a public swimming pool;</p>
+      </div>
+      <div id="rule.4630.1900.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.4630.1900.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> draws its drinking water from a surface water supply; or</p>
+      </div>
+      <div id="rule.4630.1900.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.4630.1900.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> has 50 or more sites.</p>
+      </div>
+    </div>
+    <div id="rule.4630.1900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.4630.1900.1">§</a>
+      <h2 class="subp_no">Subp. 1b.</h2>
+      <h2 class="headnote">Category B site. </h2>
+      <p>"Category B site" means any manufactured home park or recreational camping area that is not a category A site.</p>
+    </div>
+    <div id="rule.4630.1900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.4630.1900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Primary license. </h2>
+      <p>"Primary license" means the initial license issued to the first person, firm, partnership, corporation, or other business association to establish and maintain, conduct, or operate a mobile home park or recreational camping area at any one location.</p>
+    </div>
+    <div id="rule.4630.1900.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.4630.1900.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Renewal license. </h2>
+      <p>"Renewal license" means a license issued to the person, firm, partnership, corporation, or other business association operating a previously licensed mobile home park or recreational camping area.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.4630.1900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.05">144.05</a>; <a href="/statutes/cite/144.12">144.12</a>; <a href="/statutes/cite/144.122">144.122</a>; <a href="/statutes/cite/157.045">157.045</a>; <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="history" id="rule.4630.1900.history">
+    <h2>History: </h2>
+    <p>15 SR 1296</p>
+  </div>
+  <div class="published" id="rule.4630.1900.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.2000">
+    <h1 class="headnote repealed">4630.2000</h1>
+    <p>[Repealed, 44 SR 371]</p>
+  </div>
+  <div class="published" id="rule.4630.2000.published">
+    <h2>Published Electronically:</h2>
+    <p> September 16, 2019</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.2100">
+    <h1 class="headnote">4630.2100 EXPIRATION DATES FOR LICENSES.</h1>
+    <div id="rule.4630.2100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.4630.2100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Primary license. </h2>
+      <p>Primary mobile home park and recreational camping area licenses shall be issued for the calendar year for which application is made and shall expire on December 31 of such year.</p>
+    </div>
+    <div id="rule.4630.2100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.4630.2100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Renewal license for year-round establishments. </h2>
+      <p>Renewal licenses for mobile home parks and recreational camping areas which operate on a year-round basis (in excess of six months (183 days a year)) shall be issued for the calendar year for which application is made and shall expire on December 31 of such year.</p>
+    </div>
+    <div id="rule.4630.2100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.4630.2100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Renewal license for seasonal establishments. </h2>
+      <p>Renewal licenses for mobile home parks and recreational camping areas which operate for a continuous period of six months (183 days) or less shall be issued effective the first day of the establishment's operation in the calendar year for which the license is issued. Such renewal license shall expire after the 183rd day from the effective date of the license or on December 31 of the year in which the license was issued, whichever occurs first.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.4630.2100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="published" id="rule.4630.2100.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.2200">
+    <h1 class="headnote">4630.2200 LICENSE RENEWALS.</h1>
+    <p>License renewals shall be obtained on an annual or semiannual basis. All license renewal applications shall be submitted to the commissioner of health on forms provided by it no later than December 31 of the year preceding the year for which application is made.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.2200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/327.10">327.10</a> to <a href="/statutes/cite/327.28">327.28</a></p>
+  </div>
+  <div class="history" id="rule.4630.2200.history">
+    <h2>History: </h2>
+    <p>L 1977 c 305 s 39</p>
+  </div>
+  <div class="published" id="rule.4630.2200.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.2210">
+    <h1 class="headnote">4630.2210 INSPECTION FREQUENCY.</h1>
+    <p>Category A sites must be inspected at least once a year. Category B sites must be inspected at least once every two years.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.2210.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.05">144.05</a>; <a href="/statutes/cite/144.12">144.12</a>; <a href="/statutes/cite/144.122">144.122</a>; <a href="/statutes/cite/157.045">157.045</a>; <a href="/statutes/cite/327.16">327.16</a></p>
+  </div>
+  <div class="history" id="rule.4630.2210.history">
+    <h2>History: </h2>
+    <p>15 SR 1296</p>
+  </div>
+  <div class="published" id="rule.4630.2210.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.2300">
+    <h1 class="headnote">4630.2300 CAMP SITE.</h1>
+    <p>The camp site shall be reasonably distant from any environment detrimental to the health and safety of the children in attendance at the camp. Adequate area shall be available for the development of satisfactory water supply and waste disposal systems. In order to protect against all hazards which cannot be eliminated, suitable guards shall be installed and maintained.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.2300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="published" id="rule.4630.2300.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.2400">
+    <h1 class="headnote">4630.2400 BUILDINGS.</h1>
+    <p>All buildings used for food preparation and storage, sleeping, and other occupancy shall have roofs which do not leak, tight floors, and walls free of holes. They shall be so constructed as to provide broad and easy exit in case of fire or other emergency, and shall be adequately equipped with fire extinguishers and other firefighting equipment. Doors shall be tight fitting, and both door and window openings shall be sufficiently screened with a screen of not less than 16 meshes to the inch. All windows shall be so constructed as to be easily opened and closed, or shall be equipped with storm shields.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.2400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="published" id="rule.4630.2400.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.2500">
+    <h1 class="headnote">4630.2500 SLEEPING QUARTERS.</h1>
+    <div id="rule.4630.2500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.4630.2500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Individual beds. </h2>
+      <p>Each camper shall have an individual bed. There shall be at least three feet between beds when placed side by side, and at least one foot when placed end to end. The beds shall be arranged for head-to-foot or foot-to-foot sleeping in such a manner as to provide a seven-foot horizontal separation between the heads of the sleepers.</p>
+    </div>
+    <div id="rule.4630.2500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.4630.2500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Bunk beds. </h2>
+      <p>Any room containing a double-deck bunk shall have at least one window which can be easily opened. The top of the window shall be higher than the top rail of the upper bunk. The minimum space between the floor and the lower bunk rail shall be 12 inches, and the minimum space between the lower and upper bunk rails shall be 36 inches. No bunk shall be more than six feet above the floor. There shall be at least 36 inches between the upper bunk and the ceiling.</p>
+    </div>
+    <div id="rule.4630.2500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.4630.2500.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Ventilation. </h2>
+      <p>Every sleeping room shall be ventilated. The area of direct opening to the outside shall be equivalent to at least five per cent of the floor area. Where this condition cannot be met, adequate mechanical ventilation shall be provided.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.4630.2500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="published" id="rule.4630.2500.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.2600">
+    <h1 class="headnote">4630.2600 KITCHEN.</h1>
+    <p>The kitchen shall be separated from the dining room by a partition. The walls, ceiling, floor, and partitions shall be so constructed as to be easily cleaned. The kitchen shall be used for no other purpose than the storage or preparation of food and the washing and storage of dishes and other food service equipment. No person other than kitchen personnel shall be permitted to enter the food preparation area. The kitchen shall be well ventilated. Illumination to afford a minimum of 20 footcandles of light at all working surfaces and at least ten footcandles on other surfaces and equipment during periods of food preparation and service shall be provided.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.2600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="published" id="rule.4630.2600.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.2700">
+    <h1 class="headnote">4630.2700 FOOD PROCUREMENT AND STORAGE.</h1>
+    <div id="rule.4630.2700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.4630.2700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Food. </h2>
+      <p>All food shall be of good quality. No hermetically sealed, nonacid, and low-acid food which has been processed in a place other than a commercial food-processing establishment shall be used. Meat shall be obtained from officially approved sources. Perishable food, including milk, shall be stored in clean refrigerators of adequate capacity at a temperature of 45 degrees Fahrenheit or below. Each refrigerator shall be equipped with an accurate thermometer. Nonperishable food shall be stored off the floor in clean, well ventilated rooms which are reasonably insect- and rodent-proof. Storage areas shall be illuminated at not less than five footcandles of light measured at 30 inches from the floor.</p>
+    </div>
+    <div id="rule.4630.2700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.4630.2700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Milk. </h2>
+      <p>All milk shall be pasteurized. Milk for drinking shall be received in two-quart, quart, pint, or half-pint containers and shall be served from the original container, but where a milk dispenser of a design acceptable to the commissioner of health is used, cups and glasses may be filled directly from the dispenser. Pitchers or other nondrinking vessels shall not be filled from a dispenser and used for serving milk.</p>
+      <p>When concentrated or powdered milk is used, it shall be mixed and handled in a sanitary manner. It shall be prepared immediately prior to the time it is to be consumed and only in the quantity needed for that one period of serving.</p>
+    </div>
+    <div id="rule.4630.2700.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.4630.2700.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Storage of poisonous substances. </h2>
+      <p>Insecticides, germicides, other poisonous substances, and cleaning materials shall not be stored in the same room with foods.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.4630.2700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="history" id="rule.4630.2700.history">
+    <h2>History: </h2>
+    <p>L 1977 c 305 s 39</p>
+  </div>
+  <div class="published" id="rule.4630.2700.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.2800">
+    <h1 class="headnote">4630.2800 FOOD SERVICE.</h1>
+    <p>The kitchen shall be kept clean. All food service equipment and utensils shall be so designed and of such material and construction as to be smooth, easily cleanable, and durable, and shall be in good repair. The food contact surfaces of such equipment and utensils shall be nontoxic, corrosion-resistant, relatively nonabsorbent, and easily accessible for cleaning. Equipment which meets the National Sanitation Foundation standards will comply with these provisions. All equipment shall be so installed and maintained as to facilitate the cleaning thereof, and of all adjacent areas. Food-handling procedures which will minimize the possibility of food contamination shall be practiced.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.2800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="history" id="rule.4630.2800.history">
+    <h2>History: </h2>
+    <p>17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.4630.2800.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.2900">
+    <h1 class="headnote">4630.2900 FOOD SERVICE PERSONNEL HEALTH AND CLEANLINESS.</h1>
+    <p>All persons shall wear clean outer garments and shall keep their hands clean at all times while engaged in handling food, drink, utensils, or equipment. No person shall resume work after visiting the toilet without first thoroughly washing his or her hands. Separate hand-washing facilities with hot and cold water, soap, and approved sanitary towels or other approved hand-drying devices shall be provided for use of the kitchen and food service personnel in the food service area. No person shall expectorate or use tobacco in any form in rooms in which food is prepared. No person who has, or is a carrier of, a communicable disease, or who has infected sores or wounds, shall engage in the handling, preparation, or serving of food and drink, nor shall any person so affected be delegated duties that could cause the disease to be communicated to other camp occupants or visitors.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.2900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="history" id="rule.4630.2900.history">
+    <h2>History: </h2>
+    <p>17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.4630.2900.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.3000">
+    <h1 class="headnote">4630.3000 DISHWASHING FACILITIES.</h1>
+    <p>One of the following methods shall be employed in dishwashing:</p>
+    <div id="rule.4630.3000.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.4630.3000.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> Manual. A three-compartment sink or equivalent shall be provided, with compartments of adequate length, width, and depth to permit the complete immersion of the largest utensils to be washed and wire baskets or racks of dishes, and each compartment shall be supplied with hot and cold running water. There shall be a sufficient number of baskets to hold the dishes and utensils used during the peak load. The utensils and dishes shall be thoroughly washed in hot water containing a suitable soap or detergent in the first compartment, rinsed in clean water in the second compartment, and immersed completely in clean water at a temperature of not lower than 170 degrees Fahrenheit for at least two minutes in the third compartment. The third compartment shall be properly equipped with a heating unit or other means to maintain the specified temperature while in use. A thermometer which will accurately measure the temperature of the water in the third compartment shall also be provided. Drain racks shall be a part of the three-compartment sink and adequate space shall be available for drainage. Dishes and utensils shall be air-dried.</p>
+    </div>
+    <div id="rule.4630.3000.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.4630.3000.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> Mechanical. Water pressure in the lines supplying the wash and rinse sections of the dishwashing machine shall be maintained at a flow pressure of not less than 15 pounds per square inch, but not to exceed 25 pounds per square inch, and the water shall be at a manifold temperature not lower than 180 degrees Fahrenheit. The machines shall be equipped with thermometers which will accurately indicate the temperature of the wash and rinse water. New dishwashing machines shall conform to Standard Number 3 of the National Sanitation Foundation dated September 1956. Dishes and utensils shall be air-dried.</p>
+    </div>
+    <div id="rule.4630.3000.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.4630.3000.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> Where equipment or utensils must be cleaned in place or where for other reasons the methods described in items A and B are not feasible, other procedures that will provide equivalent cleaning and sanitizing shall be used.</p>
+      <p>In order to protect the clean dishes and utensils from contamination, proper storage space shall be provided.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.4630.3000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="published" id="rule.4630.3000.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.3100">
+    <h1 class="headnote">4630.3100 WATER SUPPLY.</h1>
+    <p>Every camp shall be provided with a safe supply of water acceptable to the commissioner of health and adequate to supply all needs of the occupants for culinary, drinking, and bathing purposes. Water, except that served at meals, shall be dispensed either by means of satisfactorily designed drinking fountains or individual paper cups.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.3100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="history" id="rule.4630.3100.history">
+    <h2>History: </h2>
+    <p>L 1977 c 305 s 39</p>
+  </div>
+  <div class="published" id="rule.4630.3100.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.3200">
+    <h1 class="headnote">4630.3200 BATHING AND HAND-WASHING FACILITIES.</h1>
+    <p>Suitable hand-washing facilities shall be conveniently located at or near each toilet. Separate hand-washing facilities with hot and cold water, soap, and approved sanitary towels or other approved hand-drying devices shall be provided for the use of kitchen and food service personnel in the food service area. Shower facilities, if provided, should be on the basis of one shower head for every 25 persons.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.3200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="published" id="rule.4630.3200.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.3300">
+    <h1 class="headnote">4630.3300 PLUMBING.</h1>
+    <p>All new plumbing shall be installed according to the rules of the commissioner of health and the provisions of chapter 4714, the Minnesota Plumbing Code as adopted by the commissioner of health. Alterations to existing plumbing, when undertaken, shall conform to the provisions of the Minnesota Plumbing Code. Where existing plumbing defects are found to create a serious public health hazard, correction shall be undertaken immediately.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.3300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="history" id="rule.4630.3300.history">
+    <h2>History: </h2>
+    <p>L 1977 c 305 s 39; 40 SR 71</p>
+  </div>
+  <div class="published" id="rule.4630.3300.published">
+    <h2>Published Electronically:</h2>
+    <p> April 1, 2016</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.3400">
+    <h1 class="headnote">4630.3400 TOILET FACILITIES.</h1>
+    <p>Toilet facilities shall be provided on the basis of one seat for every 12 campers. In camps or sections of camps used by boys, urinals may be substituted for one-third of the toilet seats. Toilet facilities shall be convenient to sleeping quarters and shall be adequately ventilated and equipped with artificial lighting. Toilet facilities shall be provided at the water front where physically feasible, but the sewage disposal system serving the facilities shall not be located within 50 feet of the water's edge. Toilet tissue shall be provided at each unit. Toilet facilities, including rooms and fixtures, shall be kept in a clean condition and in good repair.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.3400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="published" id="rule.4630.3400.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.3500">
+    <h1 class="headnote">4630.3500 SEWAGE AND EXCRETA DISPOSAL.</h1>
+    <p>Where water flush toilets are used, a sewage disposal system acceptable to the commissioner of health shall be provided. Where water flush toilets are not provided, privies of the pit type, which conform to a standard of construction acceptable to the commissioner of health, shall be used. Such privies shall be placed separate and apart from the sleeping, living, and kitchen quarters. Toilets of the privy or pit type hereinafter constructed shall be located at least 100 feet from the kitchen and dining quarters.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.3500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="history" id="rule.4630.3500.history">
+    <h2>History: </h2>
+    <p>L 1977 c 305 s 39</p>
+  </div>
+  <div class="published" id="rule.4630.3500.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.3600">
+    <h1 class="headnote">4630.3600 LIQUID WASTES.</h1>
+    <p>Liquid wastes from the kitchen, laundry, shower rooms, and other sources shall be combined with the liquid toilet wastes or shall be disposed of separately by soil absorption in a manner which will not endanger a water supply, pollute any surface water, or create nuisances, or otherwise constitute a hazard to the public health and safety.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.3600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="published" id="rule.4630.3600.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.3700">
+    <h1 class="headnote">4630.3700 PLAN SUBMISSION.</h1>
+    <p>Plans and specifications covering the installation of new systems of plumbing, water supply, and sewage disposal or the material alteration or extension of existing systems of plumbing, water supply, and sewage disposal shall be submitted to the commissioner of health for review and approval in accordance with parts <a href="/rules/1300.0215">1300.0215</a>, subpart 6, and <a href="/rules/4720.0010">4720.0010</a>.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.3700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="history" id="rule.4630.3700.history">
+    <h2>History: </h2>
+    <p>L 1977 c 305 s 39</p>
+  </div>
+  <div class="published" id="rule.4630.3700.published">
+    <h2>Published Electronically:</h2>
+    <p> September 11, 2012</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.3800">
+    <h1 class="headnote">4630.3800 GARBAGE; REFUSE.</h1>
+    <p>All garbage shall be collected in leakproof, nonabsorbent containers provided with tight fitting lids or covers, and shall be disposed of in a sanitary manner with sufficient frequency as to prevent a nuisance. Disposal of garbage and other refuse shall be accomplished by burning in an approved incinerator, or burying, or by other means acceptable to the commissioner of health. All containers for the collection of garbage and refuse shall be kept in a sanitary condition.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.3800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="history" id="rule.4630.3800.history">
+    <h2>History: </h2>
+    <p>L 1977 c 305 s 39</p>
+  </div>
+  <div class="published" id="rule.4630.3800.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.3900">
+    <h1 class="headnote">4630.3900 SWIMMING BEACH.</h1>
+    <p>Natural swimming places shall be located only on lakes and streams which are relatively free of human, animal, and industrial pollution, and where such bathing and swimming will not endanger the quality of a domestic water supply, or interfere with other uses of the water by riparian owners. The area designated for swimming shall be properly marked, shall be kept free of weeds, sharp stones, sunken logs, and other debris and shall preferably have a gradual slope. Swimming pools shall be constructed and operated in accordance with standards acceptable to the commissioner of health. All waterfront activities involving campers, staff members, or visitors shall be adequately supervised.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.3900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="history" id="rule.4630.3900.history">
+    <h2>History: </h2>
+    <p>L 1977 c 305 s 39</p>
+  </div>
+  <div class="published" id="rule.4630.3900.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.4000">
+    <h1 class="headnote">4630.4000 DESIGNATION OF RESPONSIBLE PERSONS BY CAMPER.</h1>
+    <p>Each camper and staff member shall file with the camp operator the name, address, and telephone number of one or more duly licensed practitioners of the healing arts or other responsible persons who are to be notified in case of illness or injury.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.4000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="published" id="rule.4630.4000.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.4100">
+    <h1 class="headnote">4630.4100 PRACTITIONER TO BE DESIGNATED.</h1>
+    <p>The camp operator shall designate one or more duly licensed practitioners of the healing arts to be called in an emergency.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.4100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="published" id="rule.4630.4100.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.4200">
+    <h1 class="headnote">4630.4200 INFIRMARY AND FIRST AID.</h1>
+    <p>The camp operator shall provide an infirmary for the isolation of sick or injured campers and staff members. First aid equipment and supplies shall be available, and a person qualified in first aid care shall be in charge at all times. When the existence of a communicable disease is suspected, the operator shall isolate the individual immediately and promptly arrange for medical attention. Transportation shall be provided for the immediate removal from the camp of the sick or injured campers or camp personnel in emergency cases.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.4200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="published" id="rule.4630.4200.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.4300">
+    <h1 class="headnote">4630.4300 PHYSICAL EXAMINATION.</h1>
+    <p>A certificate of health shall be presented to the camp operator by each staff member and by each camper at the time of admission to the camp. The certificate shall be based on a physical examination performed not more than 90 days prior to admission to the camp by a duly licensed practitioner of the healing arts and shall be signed by such practitioner. It shall include a health history, an immunization record, a statement as to the existence of or freedom from communicable diseases, and instructions relative to the limitation of the camper's participation in camp activities necessitated by physical disability or impairment.</p>
+    <p>A physical checkup shall be given on arrival at the camp to reveal any communicable condition which may have developed since the physical examination.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.4300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="published" id="rule.4630.4300.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.4400">
+    <h1 class="headnote">4630.4400 HEALTH RECORDS.</h1>
+    <p>A health record of every camper and staff member shall be kept by the camp operator. In addition to the certificate of health, it shall include the detailed records of the individual's illnesses and injuries occurring and the first aid treatments given during the period of attendance at camp.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.4400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="published" id="rule.4630.4400.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.4500">
+    <h1 class="headnote">4630.4500 HAZARDOUS WEAPONS.</h1>
+    <p>Firearms and other hazardous weapons shall be kept in locked compartments and shall be used only under supervision.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.4500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="published" id="rule.4630.4500.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.4600">
+    <h1 class="headnote">4630.4600 LIVESTOCK AND PETS.</h1>
+    <p>Livestock shall be quartered not less than 500 feet from the cooking, dining, and sleeping quarters. Unless special facilities are provided, pets shall not be permitted in the camp.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.4600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="published" id="rule.4630.4600.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.4700">
+    <h1 class="headnote">4630.4700 DUTY OF CAMP OPERATOR.</h1>
+    <p>It shall be the duty of every operator of a children's camp to carry out the provisions of parts <a href="/rules/4630.2300">4630.2300</a> to <a href="/rules/4630.4700">4630.4700</a>.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.4700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.71">144.71</a> to <a href="/statutes/cite/144.76">144.76</a></p>
+  </div>
+  <div class="published" id="rule.4630.4700.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.4750">
+    <h1 class="headnote">4630.4750 VARIANCE TO RULES RELATING TO CHILDREN'S CAMPS.</h1>
+    <p>The commissioner shall grant a variance to parts <a href="/rules/4630.2300">4630.2300</a> to <a href="/rules/4630.4700">4630.4700</a> only according to the procedures and criteria specified in parts <a href="/rules/4717.7000">4717.7000</a> to <a href="/rules/4717.7050">4717.7050</a>.</p>
+  </div>
+  <div class="stat_auth" id="rule.4630.4750.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.05">14.05</a></p>
+  </div>
+  <div class="history" id="rule.4630.4750.history">
+    <h2>History: </h2>
+    <p>15 SR 1597</p>
+  </div>
+  <div class="published" id="rule.4630.4750.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.4800">
+    <h1 class="headnote repealed">4630.4800</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.4800.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.4900">
+    <h1 class="headnote repealed">4630.4900</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.4900.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.5000">
+    <h1 class="headnote repealed">4630.5000</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.5000.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.5100">
+    <h1 class="headnote repealed">4630.5100</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.5100.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.5200">
+    <h1 class="headnote repealed">4630.5200</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.5200.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.5300">
+    <h1 class="headnote repealed">4630.5300</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.5300.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.5400">
+    <h1 class="headnote repealed">4630.5400</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.5400.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.5500">
+    <h1 class="headnote repealed">4630.5500</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.5500.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.5600">
+    <h1 class="headnote repealed">4630.5600</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.5600.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.5700">
+    <h1 class="headnote repealed">4630.5700</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.5700.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.5800">
+    <h1 class="headnote repealed">4630.5800</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.5800.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.5900">
+    <h1 class="headnote repealed">4630.5900</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.5900.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.6000">
+    <h1 class="headnote repealed">4630.6000</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.6000.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.6100">
+    <h1 class="headnote repealed">4630.6100</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.6100.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.6200">
+    <h1 class="headnote repealed">4630.6200</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.6200.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.6300">
+    <h1 class="headnote repealed">4630.6300</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.6300.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.6400">
+    <h1 class="headnote repealed">4630.6400</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.6400.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.6500">
+    <h1 class="headnote repealed">4630.6500</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.6500.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4630.6550">
+    <h1 class="headnote repealed">4630.6550</h1>
+    <p>[Repealed, 26 SR 31]</p>
+  </div>
+  <div class="published" id="rule.4630.6550.published">
+    <h2>Published Electronically:</h2>
+    <p> February 8, 2005</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
