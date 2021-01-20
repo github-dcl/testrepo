@@ -1,0 +1,3280 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            6266.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/158">Natural Resources Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/6266/">Chapter 6266</a>
+            </li>
+        
+    
+        
+            <li>Part 6266.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/6266.0200/">6266.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/6266.0100/2016-12-22%2012:16:40+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 6266</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6266/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6266/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6266/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 6266.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6266.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6266.0100">
+    <h1 class="headnote">6266.0100 GENERAL REGULATIONS FOR TAKING FISH ON BOUNDARY WATERS WITH ADJACENT STATES.</h1>
+    <div id="rule.6266.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6266.0100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">License requirements on boundary waters. </h2>
+      <p>Residents may fish adjacent states' boundary waters listed in parts <a href="/rules/6266.0200">6266.0200</a>, subpart 1; <a href="/rules/6266.0300">6266.0300</a>, subpart 1; <a href="/rules/6266.0400">6266.0400</a>, subpart 1; and <a href="/rules/6266.0500">6266.0500</a>, subpart 1, only if in possession of a valid resident angling license or otherwise authorized to angle in this state. Residents of an adjacent state may fish the boundary waters only if in possession of a valid resident angling license of that state or otherwise lawfully authorized to angle in that state. Residents of nonadjacent states and foreign countries may fish the boundary waters only if in possession of a valid nonresident angling license issued by this state or the adjacent state or otherwise authorized to angle in this state or the adjacent state.</p>
+    </div>
+    <div id="rule.6266.0100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6266.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Possession limits on boundary waters.</h2>
+      <div id="rule.6266.0100.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6266.0100.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Licensed anglers, or those exempt from licensing, may possess only one limit of fish while on the adjacent state's boundary waters listed in parts <a href="/rules/6266.0200">6266.0200</a>, subpart 1; <a href="/rules/6266.0300">6266.0300</a>, subpart 1; <a href="/rules/6266.0400">6266.0400</a>, subpart 1; and <a href="/rules/6266.0500">6266.0500</a>, subpart 1, regardless of the number of licenses held.</p>
+      </div>
+      <div id="rule.6266.0100.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6266.0100.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Where regulations differ between this state and an adjacent state on such boundary waters, the exercise of the more liberal regulations is limited to persons licensed by the more liberal state and confined to the territorial waters of the more liberal state.</p>
+      </div>
+      <div id="rule.6266.0100.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6266.0100.2.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>Fish that are taken by angling on Minnesota boundary waters with North Dakota and on that portion of the Bois de Sioux River from the White Rock Dam to the North Dakota border and not immediately released or returned to the water as defined in Minnesota Statutes, section <a href="/statutes/cite/97A.015#stat.97A.015.26c">97A.015, subdivision 26c</a>, are considered to be in possession and part of the bag limit. No culling or live well sorting (the act of replacing one fish with another one) is allowed. Fish may not be released after being reduced to possession, except that an angler may release fish to the same water body where the fish were taken when the angler is done fishing for that day and before the angler leaves the water body.</p>
+      </div>
+      <div id="rule.6266.0100.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6266.0100.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Licensed anglers, or those exempt from licensing, must follow the general restrictions on transport, possession, and packing of fish while on a boundary water unless otherwise specified in this chapter or part <a href="/rules/6262.0300">6262.0300</a>.</p>
+      </div>
+    </div>
+    <div id="rule.6266.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6266.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Species of fish not specified. </h2>
+      <p>Species of fish not specified in parts <a href="/rules/6266.0200">6266.0200</a> to <a href="/rules/6266.0600">6266.0600</a> may be taken and possessed in adjacent state boundary waters only as authorized for the inland waters of the state in which taken.</p>
+    </div>
+    <div id="rule.6266.0100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6266.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Designated water bodies. </h2>
+      <p>To the extent that chapter 6264 is inconsistent with parts <a href="/rules/6266.0200">6266.0200</a> to <a href="/rules/6266.0600">6266.0600</a>, the provisions of chapter 6264 apply.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6266.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.389">14.389</a>; <a href="/statutes/cite/84.027">84.027</a>; <a href="/statutes/cite/97A.045">97A.045</a>; <a href="/statutes/cite/97C.045">97C.045</a></p>
+  </div>
+  <div class="history" id="rule.6266.0100.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 19 SR 2222; 20 SR 2287; 22 SR 292; 28 SR 629; 32 SR 1039; 39 SR 822; 41 SR 644</p>
+  </div>
+  <div class="published" id="rule.6266.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> December 22, 2016</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6266.0200">
+    <h1 class="headnote">6266.0200 TAKING FISH ON MINNESOTA-IOWA BOUNDARY WATERS.</h1>
+    <div id="rule.6266.0200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6266.0200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Specified waters. </h2>
+      <p>The provisions of this part apply to all parts of the following named Minnesota-Iowa boundary waters:</p>
+      <div id="rule.6266.0200.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6266.0200.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Little Spirit Lake in Jackson County;</p>
+      </div>
+      <div id="rule.6266.0200.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6266.0200.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Iowa Lake in Jackson and Nobles Counties;</p>
+      </div>
+      <div id="rule.6266.0200.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6266.0200.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Iowa Lake in Martin County;</p>
+      </div>
+      <div id="rule.6266.0200.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6266.0200.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Okamanpeedan (Tuttle) Lake in Martin County; and</p>
+      </div>
+      <div id="rule.6266.0200.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6266.0200.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> Swag Lake in Martin County.</p>
+      </div>
+    </div>
+    <div id="rule.6266.0200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6266.0200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Species, seasons, and limits on Minnesota-Iowa boundary waters. </h2>
+      <p>The following applies to the species, seasons, and limits for taking fish on Minnesota-Iowa boundary waters:</p>
+      <table>
+        <col style="width:8.333333333333332%">
+        <col style="width:33.3333333333333%">
+        <col style="width:41.6666666666667%">
+        <col style="width:16.6666666666667%">
+        <tr>
+          <td class="valign_top"></td>
+          <td class="valign_top">Species</td>
+          <td class="valign_top">Open Season</td>
+          <td>Daily and Possession Limit</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td class="valign_top">A.</td>
+          <td class="valign_top">Walleye</td>
+          <td class="valign_top">Continuous</td>
+          <td class="valign_top">3</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td class="valign_top">B.</td>
+          <td class="valign_top">Northern pike</td>
+          <td class="valign_top">Continuous</td>
+          <td class="valign_top">3</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td class="valign_top">C.</td>
+          <td class="valign_top">Sunfish and crappie in aggregate</td>
+          <td class="valign_top">No closed season</td>
+          <td class="valign_top">25</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td class="valign_top">Sunfish under this item are the following species: bluegill, pumpkinseed, green, orangespotted, longear, warmouth, and their hybrids.</td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="valign_top"></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>D.</td>
+          <td>Yellow and white bass in aggregate</td>
+          <td>No closed season</td>
+          <td>No limit</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">E.</td>
+          <td class="valign_top">Catfish in aggregate</td>
+          <td></td>
+          <td class="valign_top">8</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td class="valign_top">Channel catfish</td>
+          <td class="valign_top">Continuous</td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td class="valign_top">Flathead catfish</td>
+          <td class="valign_top">April 1 through November 30</td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">F.</td>
+          <td class="valign_top">Small and large mouth bass</td>
+          <td>Continuous</td>
+          <td class="valign_top">3</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>G.</td>
+          <td>Perch</td>
+          <td>No closed season</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">H.</td>
+          <td class="valign_top">Bullhead, carp, sucker, redhorse, sheepshead, buffalo, burbot, bowfin, gar, and quillback</td>
+          <td class="valign_top">No closed season</td>
+          <td class="valign_top">No limits</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td class="valign_top">I.</td>
+          <td class="valign_top">Muskie</td>
+          <td class="valign_top">May 21 through November 30</td>
+          <td class="valign_top">1, with a 40-inch minimum size</td>
+        </tr>
+      </table>
+      <p>When the closing date falls on a Saturday, the season extends through the following Sunday.</p>
+    </div>
+    <div id="rule.6266.0200.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6266.0200.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Using set lines. </h2>
+      <p>The taking of fish by means of a set line is prohibited on Minnesota-Iowa boundary waters.</p>
+    </div>
+    <div id="rule.6266.0200.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6266.0200.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Spearing restrictions. </h2>
+      <p>The taking of fish by spearing is prohibited on Minnesota-Iowa boundary waters, except that carp, buffalo, sheepshead, bowfin, gar, and quillback may be taken by spearing and possessed without limit.</p>
+    </div>
+    <div id="rule.6266.0200.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6266.0200.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Number of lines allowed. </h2>
+      <p>A person may not angle with more than two lines, or more than two poles with one line attached to each pole, or use more than two hooks on each line while on Minnesota-Iowa boundary waters.</p>
+    </div>
+    <div id="rule.6266.0200.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6266.0200.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Shelter house deadline. </h2>
+      <p>A person may not permit a shelter house to remain on the ice of Minnesota-Iowa boundary waters after February 20.</p>
+    </div>
+    <div id="rule.6266.0200.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6266.0200.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Taking minnows exempted. </h2>
+      <p>This part does not apply to the taking of minnows which are governed by the laws and rules of the state in which the minnows are taken.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6266.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.045">97A.045</a>; <a href="/statutes/cite/97C.045">97C.045; 97C.395; 97C.401</a></p>
+  </div>
+  <div class="history" id="rule.6266.0200.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 37 SR 1664; 39 SR 822</p>
+  </div>
+  <div class="published" id="rule.6266.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> December 22, 2016</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6266.0300">
+    <h1 class="headnote">6266.0300 TAKING FISH ON MINNESOTA-NORTH DAKOTA BOUNDARY WATERS.</h1>
+    <div id="rule.6266.0300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6266.0300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Specified waters. </h2>
+      <p>The provisions of this part apply to all parts of the following named Minnesota-North Dakota boundary waters:</p>
+      <div id="rule.6266.0300.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6266.0300.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Bois de Sioux River; and</p>
+      </div>
+      <div id="rule.6266.0300.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6266.0300.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Red River of the North.</p>
+      </div>
+    </div>
+    <div id="rule.6266.0300.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6266.0300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Species, seasons, and limits on Minnesota-North Dakota boundary waters. </h2>
+      <p>The following applies to the species, seasons, and limits for taking fish on Minnesota-North Dakota boundary waters:</p>
+      <table>
+        <col style="width:7.692307692307693%">
+        <col style="width:33.8461538461538%">
+        <col style="width:35.3846153846154%">
+        <col style="width:23.0769230769231%">
+        <tr>
+          <td></td>
+          <td class="valign_top">Species</td>
+          <td class="valign_top">Open Season</td>
+          <td>Daily and Possession Limits</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>A.</td>
+          <td>Walleye and sauger</td>
+          <td>Continuous.</td>
+          <td>3 in aggregate.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>B.</td>
+          <td>Northern pike</td>
+          <td>Continuous.</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">C.</td>
+          <td class="valign_top">Small and large mouth bass</td>
+          <td class="valign_top">Continuous.</td>
+          <td class="valign_top">3 in aggregate.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>D.</td>
+          <td>Crappie</td>
+          <td>Continuous.</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>E.</td>
+          <td>Sunfish and bluegill</td>
+          <td>Continuous.</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>F.</td>
+          <td>Rock bass</td>
+          <td>Continuous.</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>G.</td>
+          <td>Bullhead</td>
+          <td>Continuous.</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>H.</td>
+          <td>Perch</td>
+          <td>Continuous.</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">I.</td>
+          <td class="valign_top">Catfish</td>
+          <td class="valign_top">Continuous.</td>
+          <td>5, with only 1 over 24 inches in length.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">J.</td>
+          <td class="valign_top">Sturgeon</td>
+          <td class="valign_top">June 16 through April 14 for catch and release only. Closed April 15 to June 15. When the closing date of a season falls on a Saturday, the season does not extend through the following Sunday.</td>
+          <td class="valign_top">-0-</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">K.</td>
+          <td>Carp, buffalo, sheepshead, sucker, redhorse, bowfin, burbot, gar, and white (striped) bass</td>
+          <td class="valign_top">Continuous.</td>
+          <td class="valign_top">No limit.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">L.</td>
+          <td class="valign_top">Muskellunge</td>
+          <td class="valign_top">Continuous.</td>
+          <td>1; 50-inch minimum size limit.</td>
+        </tr>
+      </table>
+    </div>
+    <div id="rule.6266.0300.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6266.0300.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Spearing restrictions. </h2>
+      <p>The taking of fish by spearing is prohibited on Minnesota-North Dakota boundary waters, except that carp, buffalo, sheepshead, suckers, redhorse, bowfin, and gar may be taken by spearing from May 1 through December 31 between sunrise and sunset each day. There is no possession limit on the listed species of fish. A person may not have in possession on or near the water or ice of Minnesota-North Dakota boundary waters a spear at any time, except during the open season for spearing. Possession includes personal possession and possession in a vehicle. </p>
+    </div>
+    <div id="rule.6266.0300.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6266.0300.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Shelter house deadline. </h2>
+      <p>A person may not permit a shelter house to remain on the ice of Minnesota-North Dakota boundary waters after March 5. Portable shelters may be used after March 5 by persons actively engaged in angling, but must be removed daily when not in use.</p>
+    </div>
+    <div id="rule.6266.0300.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6266.0300.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Using set lines. </h2>
+      <p>The taking of fish by means of a set or unattended line is prohibited on Minnesota-North Dakota boundary waters.</p>
+    </div>
+    <div id="rule.6266.0300.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6266.0300.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Number of lines allowed. </h2>
+      <p>A person may not angle with more than two lines or more than two hooks on each line on Minnesota-North Dakota boundary waters.</p>
+    </div>
+    <div id="rule.6266.0300.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6266.0300.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Taking minnows exempted. </h2>
+      <p>This part does not apply to the taking of minnows. The taking of minnows is governed by the laws and rules of the state in which the minnows are taken.</p>
+    </div>
+    <div id="rule.6266.0300.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.6266.0300.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Dark house spearing. </h2>
+      <p>Taking fish by spearing from or within a dark house is allowed on Minnesota-North Dakota boundary waters according to items A to E.</p>
+      <div id="rule.6266.0300.8.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6266.0300.8.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Spearing season is from November 15 to the last Sunday in February, inclusive, between sunrise and sunset.</p>
+      </div>
+      <div id="rule.6266.0300.8.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6266.0300.8.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>Carp, buffalo, sheepshead, suckers, redhorse, bowfin, and gar may be taken with a spear and possessed without limit.</p>
+      </div>
+      <div id="rule.6266.0300.8.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6266.0300.8.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>Northern pike may be taken with a spear and the possession limit is three.</p>
+      </div>
+      <div id="rule.6266.0300.8.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6266.0300.8.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>A person may not have a spear in possession on or near the water or ice of Minnesota-North Dakota boundary waters at any time, except during the open season for spearing.</p>
+      </div>
+      <div id="rule.6266.0300.8.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6266.0300.8.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>Possession includes personal possession and possession in a vehicle.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6266.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.045">97A.045</a>; <a href="/statutes/cite/97C.045">97C.045</a>; <a href="/statutes/cite/97C.395">97C.395</a>; <a href="/statutes/cite/97C.401">97C.401</a></p>
+  </div>
+  <div class="history" id="rule.6266.0300.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 19 SR 2222; 20 SR 2287; 24 SR 1849; 32 SR 1039; 37 SR 1664; 39 SR 822</p>
+  </div>
+  <div class="published" id="rule.6266.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> December 22, 2016</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6266.0400">
+    <h1 class="headnote">6266.0400 TAKING FISH ON MINNESOTA-SOUTH DAKOTA BOUNDARY WATERS.</h1>
+    <div id="rule.6266.0400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6266.0400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Specified waters. </h2>
+      <p>The provisions of this part apply to all parts of the following named Minnesota-South Dakota boundary waters:</p>
+      <div id="rule.6266.0400.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6266.0400.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Lake Hendricks;</p>
+      </div>
+      <div id="rule.6266.0400.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6266.0400.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Big Stone Lake;</p>
+      </div>
+      <div id="rule.6266.0400.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6266.0400.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Lake Traverse;</p>
+      </div>
+      <div id="rule.6266.0400.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6266.0400.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Mud Lake;</p>
+      </div>
+      <div id="rule.6266.0400.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6266.0400.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> Bois de Sioux River; and</p>
+      </div>
+      <div id="rule.6266.0400.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.6266.0400.1.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> Mustinka River from the mouth to the Minnesota State Highway 117 bridge.</p>
+      </div>
+    </div>
+    <div id="rule.6266.0400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6266.0400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Species, seasons, and limits on Minnesota-South Dakota boundary waters. </h2>
+      <p>The following applies to the species, seasons, and limits for taking fish on Minnesota-South Dakota boundary waters:</p>
+      <table>
+        <col style="width:8.333333333333332%">
+        <col style="width:33.3333333333333%">
+        <col style="width:41.6666666666667%">
+        <col style="width:16.6666666666667%">
+        <tr>
+          <td></td>
+          <td class="valign_top">Species</td>
+          <td class="valign_top">Open Season</td>
+          <td>Daily and Possession Limits</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">A.</td>
+          <td class="valign_top">Walleye and sauger</td>
+          <td class="valign_top">Continuous.</td>
+          <td>4; with only one walleye over 20 inches.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">B.</td>
+          <td class="valign_top">Northern pike</td>
+          <td>Continuous.</td>
+          <td class="valign_top">6</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">C.</td>
+          <td class="valign_top">Small and large mouth bass</td>
+          <td>Continuous.</td>
+          <td class="valign_top">6</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>D.</td>
+          <td>Crappie</td>
+          <td>Continuous.</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>E.</td>
+          <td>Sunfish and bluegill</td>
+          <td>Continuous.</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>F.</td>
+          <td>Rock bass</td>
+          <td>Continuous.</td>
+          <td>20</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>G.</td>
+          <td>Bullhead</td>
+          <td>Continuous.</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">H.</td>
+          <td class="valign_top">Perch</td>
+          <td class="valign_top">Continuous.</td>
+          <td class="valign_top">15 daily, 30 in possession.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">I.</td>
+          <td class="valign_top">Catfish in aggregate</td>
+          <td class="valign_top"></td>
+          <td>5 with only 1 over 24 inches.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Channel catfish</td>
+          <td>Continuous.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Flathead catfish</td>
+          <td>April 1 through November 30.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">J.</td>
+          <td class="valign_top">Sturgeon</td>
+          <td class="valign_top">June 16 through April 14 for catch and release only. Closed April 15 to June 15. When the closing date of a season falls on a Saturday, the season does not extend through the following Sunday.</td>
+          <td class="valign_top">0</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">K.</td>
+          <td>Carp, buffalo, sheepshead, sucker, redhorse, bowfin, burbot, gar, and white (striped) bass</td>
+          <td class="valign_top">Continuous.</td>
+          <td class="valign_top">No limits.</td>
+        </tr>
+      </table>
+      <p>When the closing falls on a Saturday, the season extends through the following Sunday.</p>
+    </div>
+    <div id="rule.6266.0400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6266.0400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Spearing restrictions. </h2>
+      <p>The taking of fish by spearing is prohibited on Minnesota-South Dakota boundary waters, except that carp, buffalo, sheepshead, suckers, redhorse, bowfin, burbot, and gar may be taken by spearing and possessed without limit from May 1 through the last day in February between sunrise and sunset each day. When the closing day falls on a Saturday, the season extends through March 1. A person may not have a spear in possession on or near the water or ice of Minnesota-South Dakota boundary waters at any time, except during the open season for spearing. Possession includes personal possession and possession in a vehicle.</p>
+    </div>
+    <div id="rule.6266.0400.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6266.0400.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Restricted equipment. </h2>
+      <p>A person may not have in possession on or near the water or ice of Minnesota-South Dakota boundary waters a spear or spring gaff at any time, except during the open season for spearing.</p>
+    </div>
+    <div id="rule.6266.0400.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6266.0400.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Dark house spearing. </h2>
+      <p> Taking fish by spearing from or within a dark house is allowed on Minnesota-South Dakota boundary waters according to items A to F.</p>
+      <div id="rule.6266.0400.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6266.0400.5.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Spearing season is November 15 to the last Sunday in February, inclusive, between sunrise and sunset.</p>
+      </div>
+      <div id="rule.6266.0400.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6266.0400.5.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>Carp, buffalo, sheepshead, suckers, redhorse, bowfin, burbot, and gar may be taken by spearing and possessed without limit.</p>
+      </div>
+      <div id="rule.6266.0400.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6266.0400.5.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>Northern pike may be taken with a spear and the possession limit is three.</p>
+      </div>
+      <div id="rule.6266.0400.5.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6266.0400.5.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>Catfish may be taken by spear, except on Bois De Sioux River from the White Rock Dam to the North Dakota border. The possession limit is five. Only one fish may be over 24 inches.</p>
+      </div>
+      <div id="rule.6266.0400.5.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6266.0400.5.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>A person may not have a spear in possession on or near the water or ice of Minnesota-South Dakota boundary waters at any time, except during the open season for spearing.</p>
+      </div>
+      <div id="rule.6266.0400.5.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.6266.0400.5.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>Possession includes personal possession and possession in a vehicle.</p>
+      </div>
+    </div>
+    <div id="rule.6266.0400.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6266.0400.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Shelter house deadline. </h2>
+      <p>A person may not permit a shelter house to remain on the ice of Minnesota-South Dakota boundary waters after March 5.</p>
+    </div>
+    <div id="rule.6266.0400.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6266.0400.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Using set lines. </h2>
+      <p>The taking of fish by means of a set line is prohibited on Minnesota-South Dakota boundary waters.</p>
+    </div>
+    <div id="rule.6266.0400.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.6266.0400.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Number of lines allowed. </h2>
+      <p>A person may not angle with more than two lines or have more than three hooks on each line on Minnesota-South Dakota boundary waters.</p>
+    </div>
+    <div id="rule.6266.0400.9" class="subp repealed">
+      <a title="Link to subpart 9" class="permalink" href="#rule.6266.0400.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <p>[Repealed, 37 SR 1431]</p>
+    </div>
+    <div id="rule.6266.0400.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.6266.0400.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Taking minnows exempted. </h2>
+      <p>This part does not apply to the taking of minnows, which are governed by the laws and regulations of the state in which the minnows are taken.</p>
+    </div>
+    <div id="rule.6266.0400.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.6266.0400.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Commercial fishing. </h2>
+      <p>Only the following species may be taken by commercial fishing operations from Minnesota-South Dakota boundary waters: carp, buffalo, suckers, redhorse, sheepshead, bowfin, burbot, tullibees, gar, goldeyes, bullheads, smelt, whitefish, and white (striped) bass.</p>
+    </div>
+    <div id="rule.6266.0400.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.6266.0400.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Species prohibited for use as bait. </h2>
+      <p>On Minnesota-South Dakota boundary waters, carpsucker and buffalo species may not be used for bait and live mussels and clams may be used for bait only on the body of water where taken.</p>
+    </div>
+    <div id="rule.6266.0400.13" class="subp repealed">
+      <a title="Link to subpart 13" class="permalink" href="#rule.6266.0400.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <p>[Repealed, 37 SR 1431]</p>
+    </div>
+    <div id="rule.6266.0400.14" class="subp repealed">
+      <a title="Link to subpart 14" class="permalink" href="#rule.6266.0400.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <p>[Repealed, 28 SR 629]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6266.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/84.027">84.027</a>; <a href="/statutes/cite/97A.045">97A.045</a>; <a href="/statutes/cite/97A.055">97A.055</a>; <a href="/statutes/cite/97C.045">97C.045</a>; <a href="/statutes/cite/97C.395">97C.395</a>; <a href="/statutes/cite/97C.401">97C.401</a></p>
+  </div>
+  <div class="history" id="rule.6266.0400.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 19 SR 2222; 20 SR 2287; 22 SR 292; 24 SR 1849; 28 SR 629; 28 SR 1011; 32 SR 1039; 37 SR 1431; 37 SR 1664; 39 SR 822; 43 SR 988</p>
+  </div>
+  <div class="published" id="rule.6266.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> March 22, 2019</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6266.0500">
+    <h1 class="headnote">6266.0500 TAKING FISH ON MINNESOTA-WISCONSIN BOUNDARY WATERS.</h1>
+    <div id="rule.6266.0500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6266.0500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Specified waters. </h2>
+      <p>The provisions of this part apply to the following described Minnesota-Wisconsin boundary waters:</p>
+      <div id="rule.6266.0500.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6266.0500.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Mississippi River and Lake Pepin extending from the mouth of the St. Croix River at the U.S. Highway 10 bridge at Prescott, Wisconsin to the southern boundary of this state and lying between the Burlington Northern main railroad tracks on the Wisconsin side and the Canadian Pacific, St. Paul, and Pacific Railroad tracks on the Minnesota side, including all sloughs, backwaters, bays, and newly extended water areas lying between the railroad tracks.</p>
+      </div>
+      <div id="rule.6266.0500.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6266.0500.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> All those portions of Lake St. Croix and the St. Croix River as far as the same lie along the boundary between the state of Minnesota and the state of Wisconsin.</p>
+      </div>
+      <div id="rule.6266.0500.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6266.0500.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> All those portions of the St. Louis River, including St. Louis Bay and Superior Bay, as far as the same line along the boundary between said states downstream to an imaginary line drawn between the northwest bank of the Nemadji River where it forms a junction with Superior Bay and the southwest bank of the Superior entry channel where it forms a junction with Superior Bay.</p>
+      </div>
+    </div>
+    <div id="rule.6266.0500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6266.0500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Definitions. </h2>
+      <p>The terms used in parts <a href="/rules/6266.0500">6266.0500</a> and <a href="/rules/6266.0600">6266.0600</a> have the meanings given in this subpart.</p>
+      <div id="rule.6266.0500.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6266.0500.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> "Commercial operator" means a person properly licensed to take fish in the Minnesota-Wisconsin boundary waters by means of a net, set line, or other legal equipment for the purpose of sale.</p>
+      </div>
+      <div id="rule.6266.0500.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6266.0500.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> "Game fish" has the meaning given under Minnesota Statutes, section <a href="/statutes/cite/97A.015#stat.97A.015.25">97A.015, subdivision 25</a>.</p>
+      </div>
+      <div id="rule.6266.0500.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6266.0500.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> "Minimum length" means the length of a fish measured in a straight line from the tip of the nose or jaw, whichever is longer, to the farthest tip of the tail fin when fully extended. When measuring turtles, it means the length of the dorsal surface of the carapace (top shell) measured from side to side across the shell at midpoint.</p>
+      </div>
+      <div id="rule.6266.0500.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6266.0500.2.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>"Minnows" has the meaning given under Minnesota Statutes, section <a href="/statutes/cite/97A.015">97A.015</a>, subdivision 29.</p>
+      </div>
+      <div id="rule.6266.0500.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6266.0500.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> "Rough fish" has the meaning given under Minnesota Statutes, section <a href="/statutes/cite/97A.015#stat.97A.015.43">97A.015, subdivision 43</a>.</p>
+      </div>
+      <div id="rule.6266.0500.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.6266.0500.2.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>"Sunfish" has the meaning given under Minnesota Statutes, section <a href="/statutes/cite/97A.015">97A.015</a>, subdivision 46.</p>
+      </div>
+    </div>
+    <div id="rule.6266.0500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6266.0500.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Species, seasons, and limits on Minnesota-Wisconsin boundary waters. </h2>
+      <p>To the extent that chapter 6264 is inconsistent with this part, the provisions of chapter 6264 apply. Lake sturgeon are designated under part <a href="/rules/6264.0400">6264.0400</a>, subpart 90. Except as provided in chapter 6264, the following applies to the species, seasons, and limits for taking fish on Minnesota-Wisconsin boundary waters:</p>
+      <table>
+        <col style="width:7.936507936507936%">
+        <col style="width:4.761904761904762%">
+        <col style="width:39.6825396825397%">
+        <col style="width:47.6190476190476%">
+        <tr>
+          <td></td>
+          <td colspan="2">Species and Open Season</td>
+          <td>Daily and Possession Limits</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top" style="text-align: right;">A.</td>
+          <td colspan="2">Smallmouth and largemouth bass</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="valign_top">(1)</td>
+          <td>St. Louis River. Saturday preceding Memorial Day to March 1.</td>
+          <td class="valign_top">5 in aggregate; 14-inch minimum size limit.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="valign_top">(2)</td>
+          <td>St. Croix River upstream of the dam at Taylors Falls.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Saturday preceding Memorial Day to the Sunday preceding the second Monday in September.</td>
+          <td class="valign_top">5 in aggregate; 14-inch minimum size limit.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td class="valign_top">Second Monday in September to March 1.</td>
+          <td>Limited to catch and release only. Any smallmouth or largemouth bass must be immediately returned to the water. It is unlawful for anyone to have in possession, regardless of where taken, any smallmouth or largemouth bass.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="valign_top">(3)</td>
+          <td>St. Croix River downstream of the dam at Taylors Falls to its mouth (U.S. Highway 10 bridge at Prescott, Wisconsin). Saturday preceding Memorial Day to March 1.</td>
+          <td class="valign_top">5 in aggregate; 14-inch minimum size limit.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="valign_top">(4)</td>
+          <td>Mississippi River and Lake Pepin. Continuous.</td>
+          <td class="valign_top">5 in aggregate; 14-inch minimum size limit.</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;">B.</td>
+          <td colspan="2">Walleye and sauger</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(1)</td>
+          <td>St. Louis River. Saturday two weeks  before the Saturday of Memorial Day weekend to March 1.</td>
+          <td class="valign_top">2 in aggregate; 15-inch minimum size limit for walleye.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(2)</td>
+          <td>St. Croix River. Saturday nearest May 1 to March 1.</td>
+          <td class="valign_top">6 in aggregate; 15-inch minimum size limit for walleye.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(3)</td>
+          <td class="valign_top">Mississippi River and Lake Pepin. Continuous.</td>
+          <td class="valign_top">4 in aggregate; 15-inch minimum size limit for walleye and only 1 walleye or sauger over 20 inches in length may be in possession.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(4)</td>
+          <td class="valign_top">Mississippi River below Lock and Dam 8 (Genoa, Wisconsin) to the Iowa border.</td>
+          <td class="valign_top">6 in aggregate; 15-inch minimum size limit for walleye. Only 1 walleye over 27 inches in length may be in possession. All walleye from 20 to 27 inches in length must be immediately returned to the water.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td class="valign_top" style="text-align: right;">C.</td>
+          <td colspan="2" class="valign_top">Northern pike</td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(1)</td>
+          <td>St. Louis River. The Saturday two weeks  before the Saturday of Memorial Day weekend through March 1.</td>
+          <td class="valign_top">2</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(2)</td>
+          <td>St. Croix River. Saturday nearest May 1 through March 1.</td>
+          <td class="valign_top">5</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(3)</td>
+          <td>Mississippi River and Lake Pepin. Continuous.</td>
+          <td class="valign_top">3; only 1 northern pike over 30 inches in length may be in possession.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td class="valign_top" style="text-align: right;">D.</td>
+          <td colspan="2" class="valign_top">Channel and flathead catfish</td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top">Channel catfish. Continuous.</td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top">Flathead catfish. April 1 to November 30.</td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(1)</td>
+          <td class="valign_top">St. Louis River and St. Croix River.</td>
+          <td class="valign_top">10 in aggregate.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(2)</td>
+          <td class="valign_top">Mississippi River and Lake Pepin.</td>
+          <td class="valign_top">10 in aggregate; only 1 catfish over 30 inches in length may be in possession. </td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;">E.</td>
+          <td colspan="2" class="valign_top">Lake sturgeon</td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td colspan="2" class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(1)</td>
+          <td class="valign_top">St. Louis River and all waters of the Mississippi River below the Red Wing Dam. June 16 to April 14 for catch and release only. Closed April 15 to June 15. When the closing date of a season falls on a Saturday, the season does not extend through the following Sunday.</td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(2)</td>
+          <td class="valign_top">All waters of the Mississippi and St. Croix Rivers above Red Wing Dam. June 16 to March 1 catch and release only. Closed March 2 to June 15. When the closing date of a season falls on a Saturday, the season does not extend through the following Sunday.</td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;">F.</td>
+          <td colspan="2" class="valign_top">Shovelnose sturgeon</td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(1)</td>
+          <td class="valign_top">All waters of the Mississippi River below Red Wing Dam. Continuous.</td>
+          <td class="valign_top">3</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(2)</td>
+          <td class="valign_top">All waters of the Mississippi, St. Croix, and St. Louis Rivers above Red Wing Dam. June 16 to March 1 for catch and release only. Closed March 2 to June 15. When the closing date of a season falls on a Saturday, the season does not extend through the following Sunday.</td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td class="valign_top" style="text-align: right;">G.</td>
+          <td colspan="2" class="valign_top">Crappie </td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td colspan="2" class="valign_top">Continuous.</td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(1)</td>
+          <td class="valign_top">St. Louis River.</td>
+          <td class="valign_top">25</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(2)</td>
+          <td class="valign_top">St. Croix River.</td>
+          <td class="valign_top">25</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(3)</td>
+          <td class="valign_top">Mississippi River and Lake Pepin.</td>
+          <td class="valign_top">15</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;">H.</td>
+          <td colspan="2" class="valign_top">Rock bass. Continuous.</td>
+          <td class="valign_top">25</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td class="valign_top" style="text-align: right;">I.</td>
+          <td colspan="2" class="valign_top">Sunfish  </td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td colspan="2" class="valign_top">Continuous.</td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(1)</td>
+          <td class="valign_top">St. Louis River.</td>
+          <td class="valign_top">25 in aggregate.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(2)</td>
+          <td class="valign_top">St. Croix River.</td>
+          <td class="valign_top">25 in aggregate.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(3)</td>
+          <td class="valign_top">Mississippi River and Lake Pepin.</td>
+          <td class="valign_top">15 in aggregate.</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td class="valign_top" style="text-align: right;">J.</td>
+          <td colspan="2" class="valign_top">Yellow perch </td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td colspan="2" class="valign_top">Continuous.</td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(1)</td>
+          <td class="valign_top">St. Louis River.</td>
+          <td class="valign_top">25</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(2)</td>
+          <td class="valign_top">St. Croix River.</td>
+          <td class="valign_top">25</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top">(3)</td>
+          <td class="valign_top">Mississippi River and Lake Pepin.</td>
+          <td class="valign_top">15</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;">K.</td>
+          <td colspan="2" class="valign_top">Bullhead. Continuous.</td>
+          <td class="valign_top">No limits</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td class="valign_top" style="text-align: right;">L.</td>
+          <td colspan="2" class="valign_top">Paddlefish. No open season.</td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td style="text-align: right;">M.</td>
+          <td colspan="2" class="valign_top">Rough fish. Continuous.</td>
+          <td class="valign_top">No limits</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td class="valign_top" style="text-align: right;">N.</td>
+          <td colspan="2" class="valign_top">Muskellunge.  Saturday nearest Memorial Day through November 30.</td>
+          <td class="valign_top">1; 50-inch minimum size limit for muskellunge.</td>
+        </tr>
+        <tr>
+          <td class="valign_top" style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td class="valign_top" style="text-align: right;">O.</td>
+          <td colspan="2" class="valign_top">White  and yellow bass </td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td class="valign_top" style="text-align: right;"></td>
+          <td colspan="2" class="valign_top">Continuous.</td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td class="valign_top" style="text-align: right;"></td>
+          <td class="valign_top">(1)</td>
+          <td class="valign_top">St. Louis River.</td>
+          <td class="valign_top">25 in aggregate.</td>
+        </tr>
+        <tr>
+          <td class="valign_top" style="text-align: right;"></td>
+          <td class="valign_top">(2)</td>
+          <td class="valign_top">St. Croix River.</td>
+          <td class="valign_top">25 in aggregate.</td>
+        </tr>
+        <tr>
+          <td class="valign_top" style="text-align: right;"></td>
+          <td class="valign_top">(3)</td>
+          <td class="valign_top">Mississippi River and Lake Pepin.</td>
+          <td class="valign_top">10 in aggregate.</td>
+        </tr>
+        <tr>
+          <td class="valign_top" style="text-align: right;"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+          <td class="valign_top"></td>
+        </tr>
+        <tr>
+          <td class="valign_top" style="text-align: right;">P.</td>
+          <td colspan="2" class="valign_top">All other species</td>
+          <td class="valign_top">Governed by inland regulations of state in which taken.</td>
+        </tr>
+      </table>
+    </div>
+    <div id="rule.6266.0500.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6266.0500.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Number of lines allowed. </h2>
+      <p>Except as provided under Minnesota Statutes, section <a href="/statutes/cite/97C.315">97C.315</a>, subdivision 2, a person may not angle with more than two lines or one line with more than two baits on Minnesota-Wisconsin boundary waters. A person may not fish with an unattended line or take fish by snagging. A fish hooked in any part of the body, except the mouth, must immediately be unhooked and returned to the water.</p>
+    </div>
+    <div id="rule.6266.0500.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6266.0500.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Sale of fish prohibited. </h2>
+      <p>A person may not buy, sell, or offer to buy or sell any fish taken on Minnesota-Wisconsin boundary waters by angling, except that rough fish may be bought and sold at any time.</p>
+    </div>
+    <div id="rule.6266.0500.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6266.0500.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Closed areas. </h2>
+      <p>A person may not fish from any point or from any boat within the area from the Taylors Falls (St. Croix Falls) dam on the St. Croix River to 50 feet downstream from the pier in the center of the river. Closed areas must be marked with suitable signs or buoys designating the closed areas. A person may not fish in the St. Louis River from Fond du Lac Dam downstream approximately one-half mile to the Minnesota-Wisconsin boundary cable at any time. A person may not fish in the St. Louis River from the Minnesota-Wisconsin boundary cable downstream to the Highway 23 bridge from March 1 through May 18 each year.</p>
+    </div>
+    <div id="rule.6266.0500.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6266.0500.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Shelter house deadline. </h2>
+      <p>Buildings, vehicles, tents, fish houses, or similar enclosures may be used on the ice for fishing purposes on Minnesota-Wisconsin boundary waters. All enclosures or shelters must be removed from the ice on or before March 1 of each year. Portable shelters may be used after March 1 by persons actively engaged in fishing, but must be removed daily when not in use. The door of an enclosure or shelter must be equipped with a latch that permits the door to be readily opened from the outside at all times while the enclosure or shelter is occupied.</p>
+    </div>
+    <div id="rule.6266.0500.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.6266.0500.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Restricted equipment. </h2>
+      <p>No more than two tip-ups may be used for ice fishing on Minnesota-Wisconsin boundary waters. Tip-ups may not be more than 400 feet from the angler. A person may not use a spear, dip net, or bow and arrow in any manner at any time for the purpose of taking game fish or have in possession or under control any fish spear, spring gaff, or similar device in a fish house. Rough fish may be taken by means of a spear or dip net not to exceed 24 inches in diameter, from sunrise to sunset only, from the Saturday nearest May 1 through March 1. A person may not have in possession on the water or immediate banks of the water a spear, except during the open season for spearing.</p>
+    </div>
+    <div id="rule.6266.0500.9" class="subp repealed">
+      <a title="Link to subpart 9" class="permalink" href="#rule.6266.0500.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <p>[Repealed, 28 SR 629]</p>
+    </div>
+    <div id="rule.6266.0500.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.6266.0500.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Prohibition on taking fish for bait purposes. </h2>
+      <p>The taking of minnows or other fish for bait purposes from all Minnesota waters of Lake Superior and all waters of the St. Louis River downstream of the Fond du Lac Dam in St. Louis and Carlton Counties, including any and all outflows, estuaries, streams, creeks, or waters adjacent to or flowing into these waters is prohibited.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6266.0500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/84.027">84.027</a>; <a href="/statutes/cite/97A.045">97A.045</a>; <a href="/statutes/cite/97A.401">97A.401</a>; <a href="/statutes/cite/97C.001">97C.001</a>; <a href="/statutes/cite/97C.005">97C.005</a>; <a href="/statutes/cite/97C.045">97C.045</a>; <a href="/statutes/cite/97C.395">97C.395</a>; <a href="/statutes/cite/97C.401">97C.401</a></p>
+  </div>
+  <div class="history" id="rule.6266.0500.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 20 SR 2287; 23 SR 348; 24 SR 1849; 28 SR 629; 30 SR 394; 32 SR 1039; 33 SR 1442; 37 SR 1664; 39 SR 822; 44 SR 941</p>
+  </div>
+  <div class="published" id="rule.6266.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> March 5, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6266.0600">
+    <h1 class="headnote">6266.0600 MINNESOTA-WISCONSIN BOUNDARY WATERS COMMERCIAL REGULATIONS.</h1>
+    <div id="rule.6266.0600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6266.0600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Commercial operations and equipment. </h2>
+      <p>Licensed commercial operators may take minnows and rough fish as provided in this part. Commercial gear authorized under a commercial fishing license includes set lines (trot lines), seines, gill nets, and traps when used to take minnows. The commissioner may authorize the use of other gear under contract or permit as may be agreed upon between the states of Minnesota and Wisconsin. Commercial gear, unless otherwise specified, may not be used or operated in Pool 4 of the Mississippi River between Mile Post 780 and 797 from March 1 through May 31.</p>
+    </div>
+    <div id="rule.6266.0600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6266.0600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Territorial restrictions for commercial operations. </h2>
+      <p>On Minnesota-Wisconsin boundary waters, a commercial operator may operate only in the territorial waters of the state of licensure.</p>
+    </div>
+    <div id="rule.6266.0600.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6266.0600.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Commercial fishing restrictions. </h2>
+      <p>The following restrictions apply to commercial fishing on Minnesota-Wisconsin boundary waters:</p>
+      <div id="rule.6266.0600.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6266.0600.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Game fish taken in any commercial fishing operation must be returned to the water immediately. Grass carp taken during commercial fishing operations may not be returned to the water.</p>
+      </div>
+      <div id="rule.6266.0600.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6266.0600.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> A person other than the license holder or a licensed helper may not tend commercial fishing gear. Commercial nets or set lines may not be used or operated in any waters within 900 feet below any dam on the Mississippi River.</p>
+      </div>
+      <div id="rule.6266.0600.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6266.0600.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The commissioner may require the operator of any seine, set line, or gill net to cease fishing operations when it has been determined that such operations are detrimental to game fish or other protected wildlife.</p>
+      </div>
+      <div id="rule.6266.0600.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6266.0600.3.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Nets or set lines may not be set, lifted, hauled, or tended in any manner between one-half hour after sunset and one hour before sunrise of the following morning, except when completing an ongoing seine haul with the permission of the commissioner.</p>
+      </div>
+      <div id="rule.6266.0600.3.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6266.0600.3.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> A licensed commercial operator, any crew member, or any person in the boat may not have in possession any game fish or sport angling equipment while operating licensed commercial gear or while traveling to or from the place of operation of such gear.</p>
+      </div>
+      <div id="rule.6266.0600.3.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.6266.0600.3.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> A person, other than a person selling commercial gear at wholesale or retail, may not have in possession or under control any unlicensed commercial fishing gear or a basket trap (slat net), trammel net, or wooden trap which could be used for the purpose of taking, catching, or killing fish in any of the counties bordering the boundary waters as specified in part <a href="/rules/6266.0500">6266.0500</a>.</p>
+      </div>
+      <div id="rule.6266.0600.3.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.6266.0600.3.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> Commercial operators licensed to fish Minnesota-Wisconsin boundary waters must submit monthly reports on forms provided by the commissioner, regardless of whether fish are taken or whether any fishing operations have taken place. Reports must be sent to the address identified on the form so that they are received by the tenth day of the month following the month that the activity took place.</p>
+      </div>
+    </div>
+    <div id="rule.6266.0600.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6266.0600.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Using set lines. </h2>
+      <p>Rough fish may be taken from April 1 through October 31 in the Mississippi River and Lake Pepin by licensed commercial operators with the use of set lines. A person may not set or operate more than a total of four set lines, not to exceed 100 hooks attached to each line or 400 hooks in the aggregate, nor place set lines in any manner which obstructs any type of boat travel in more than three-fourths the width of any bay, slough, or channel. A person using set lines may not use any frogs, game fish, bullheads of any size, or their parts for bait. Set lines must have attached the identification tag provided with the license. At one end of every set line there must be a white flag, not less than 16 inches square, the upper end of which must extend at least two feet above the water, which must be legibly numbered with figures at least three inches in height corresponding with the number of the license authorizing the use of the set line, or a nonmetallic buoy of permanent buoyancy and of at least one gallon displacement of white or yellow color bearing the markings described above. Set lines must be lifted and fish removed at least once every 24 hours and must be set or lifted only between one hour before sunrise and one-half hour after sunset.</p>
+    </div>
+    <div id="rule.6266.0600.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6266.0600.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Using seines. </h2>
+      <p>Rough fish may be taken by commercial operators with the use of seines of any size only in those portions of the Minnesota-Wisconsin boundary waters lying south of the U.S. Highway 8 bridge at St. Croix Falls. From October 1 through April 30, each commercial operator may retain no more than 100 pounds of catfish per day taken incidental to commercial operations. Catfish must have a minimum length of 15 inches. Seine hauls may not be made without the operator first having notified the local conservation officer and area fisheries supervisor of the hauls.</p>
+    </div>
+    <div id="rule.6266.0600.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6266.0600.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Using gill nets. </h2>
+      <p>The following provisions apply to the use of gill nets in commercial fishing operations on Minnesota-Wisconsin boundary waters:</p>
+      <div id="rule.6266.0600.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6266.0600.6.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Rough fish may be taken in the Mississippi River and Lake Pepin by commercial operators with the use of gill nets having a mesh measuring 3-1/2 inches or larger, bar or square measure, measured while in use and inside the knots. Gillnetting may not be used as a drag seine or drift net at any time.</p>
+      </div>
+      <div id="rule.6266.0600.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6266.0600.6.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Gill nets must be attached to an end stake, pole, or anchored buoy bearing a white flag, not less than 16 inches square, the upper end of which must extend at least two feet above the water or ice at all times when the net is set or in operation, which must be legibly numbered with figures at least three inches in height corresponding with the number of the license authorizing the use of such nets.</p>
+      </div>
+      <div id="rule.6266.0600.6.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6266.0600.6.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Gill nets must be lifted and emptied of fish at least once every 24 hours when set in open water and at least once every 48 hours when set under the ice, unless otherwise authorized by the commissioner.</p>
+      </div>
+      <div id="rule.6266.0600.6.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6266.0600.6.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Gill nets may not be set in such a manner as to obstruct any type of boat travel in more than three-fourths the width of any slough, bay, or channel.</p>
+      </div>
+    </div>
+    <div id="rule.6266.0600.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6266.0600.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Taking minnows. </h2>
+      <p>The following provisions apply to the commercial taking of minnows on Minnesota-Wisconsin boundary waters:</p>
+      <div id="rule.6266.0600.7.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6266.0600.7.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Minnows may not be taken in Minnesota-Wisconsin boundary waters, except in the St. Croix River upstream of the Taylors Falls Dam, by seine, dip net, or trap. Seines may not exceed 50 feet in length or five feet in depth, nor have mesh exceeding one-half inch, stretch measure. Dip net frames may not exceed six feet in diameter nor have a net bag more than four feet deep. A trap may not exceed 24 inches in length or 16 inches in diameter or have an opening at its throat exceeding 1-1/2 inches in diameter. All traps used in taking minnows must have securely attached a label or tag legibly and permanently bearing the name and address of the operator. All minnow traps must be raised and the minnows removed at least once every 24 hours.</p>
+      </div>
+      <div id="rule.6266.0600.7.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6266.0600.7.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Live carp fingerlings, except grass carp, may be transported for sale or for bait only by boat or other floating conveyance and only on the boundary waters where taken. Alewife, ruffe, and white perch may not be possessed or used as bait.</p>
+      </div>
+    </div>
+    <div id="rule.6266.0600.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.6266.0600.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Taking turtles. </h2>
+      <p>Turtles may be taken incidental to licensed commercial fishing operations or by persons licensed to take turtles as provided by chapter 6256 and Minnesota Statutes, section <a href="/statutes/cite/97A.475">97A.475</a>, and may be possessed and sold as provided by Minnesota Statutes, sections <a href="/statutes/cite/97C.605">97C.605</a> and <a href="/statutes/cite/97C.611">97C.611</a>.</p>
+    </div>
+    <div id="rule.6266.0600.9" class="subp repealed">
+      <a title="Link to subpart 9" class="permalink" href="#rule.6266.0600.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <p>[Repealed, 28 SR 629]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6266.0600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.045">97A.045</a>; <a href="/statutes/cite/97C.045">97C.045</a></p>
+  </div>
+  <div class="history" id="rule.6266.0600.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 20 SR 2287; 23 SR 348; 28 SR 629</p>
+  </div>
+  <div class="published" id="rule.6266.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> December 22, 2016</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6266.0700">
+    <h1 class="headnote">6266.0700 TAKING FISH ON MINNESOTA-CANADA BOUNDARY WATERS.</h1>
+    <div id="rule.6266.0700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6266.0700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Specified waters. </h2>
+      <p>The provisions of this part apply to those portions of the following named Minnesota-Canada boundary waters:</p>
+      <div id="rule.6266.0700.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6266.0700.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Basswood Lake (except Jackfish, Pipestone, Hoist and Back Bays), T.64, R.9, 10; T.65, R.9, 10, Lake County;</p>
+      </div>
+      <div id="rule.6266.0700.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6266.0700.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Basswood River, T.65, R.10, 11, Lake County;</p>
+      </div>
+      <div id="rule.6266.0700.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6266.0700.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Birch Lake, T.64, R.8, 9; T.65, R.8, 9, Lake County;</p>
+      </div>
+      <div id="rule.6266.0700.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6266.0700.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Bottle Lake, T.67, R.13, St. Louis County;</p>
+      </div>
+      <div id="rule.6266.0700.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6266.0700.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> Carp Lake, T.65, R.8, Lake County;</p>
+      </div>
+      <div id="rule.6266.0700.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.6266.0700.1.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> Clove Lake, T.65, R.4W, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.6266.0700.1.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> Crooked Lake, T.66, R.11, 12, Lake and St. Louis Counties;</p>
+      </div>
+      <div id="rule.6266.0700.1.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.6266.0700.1.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> Cypress Lake, T.66, R.6, Lake County;</p>
+      </div>
+      <div id="rule.6266.0700.1.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.6266.0700.1.I">§</a>
+        <h3 class="item_no">I.</h3>
+        <p> Devil's Elbow, T.66, R.4W, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.J" class="item">
+        <a title="Link to item J" class="permalink" href="#rule.6266.0700.1.J">§</a>
+        <h3 class="item_no">J.</h3>
+        <p> Gneiss Lake, T.66, R.4W, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.K" class="item">
+        <a title="Link to item K" class="permalink" href="#rule.6266.0700.1.K">§</a>
+        <h3 class="item_no">K.</h3>
+        <p> Granite Lake, T.65, 66, R.4W, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.L" class="item">
+        <a title="Link to item L" class="permalink" href="#rule.6266.0700.1.L">§</a>
+        <h3 class="item_no">L.</h3>
+        <p> Granite River, T.66, R.4W, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.M" class="item">
+        <a title="Link to item M" class="permalink" href="#rule.6266.0700.1.M">§</a>
+        <h3 class="item_no">M.</h3>
+        <p> Gunflint Lake, T.65, R.2, 3, 4W, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.N" class="item">
+        <a title="Link to item N" class="permalink" href="#rule.6266.0700.1.N">§</a>
+        <h3 class="item_no">N.</h3>
+        <p> Iron Lake, T.66, R.12, 13; T.67, R.13, St. Louis County;</p>
+      </div>
+      <div id="rule.6266.0700.1.O" class="item">
+        <a title="Link to item O" class="permalink" href="#rule.6266.0700.1.O">§</a>
+        <h3 class="item_no">O.</h3>
+        <p> Knife Lake (except South Arm of Knife Lake), T.64, R.8; T.65, R.6, 7, 8; T.66, R.6, Lake County;</p>
+      </div>
+      <div id="rule.6266.0700.1.P" class="item">
+        <a title="Link to item P" class="permalink" href="#rule.6266.0700.1.P">§</a>
+        <h3 class="item_no">P.</h3>
+        <p> Knife River, T.65, R.8, Lake County;</p>
+      </div>
+      <div id="rule.6266.0700.1.Q" class="item">
+        <a title="Link to item Q" class="permalink" href="#rule.6266.0700.1.Q">§</a>
+        <h3 class="item_no">Q.</h3>
+        <p> Lac La Croix Lake, T.67, R.13, 14, 15; T.68, R.13, 14, 15; T.66, R.13, St. Louis County;</p>
+      </div>
+      <div id="rule.6266.0700.1.R" class="item">
+        <a title="Link to item R" class="permalink" href="#rule.6266.0700.1.R">§</a>
+        <h3 class="item_no">R.</h3>
+        <p> Lake of the Woods, Lake of the Woods and Roseau Counties;</p>
+      </div>
+      <div id="rule.6266.0700.1.S" class="item">
+        <a title="Link to item S" class="permalink" href="#rule.6266.0700.1.S">§</a>
+        <h3 class="item_no">S.</h3>
+        <p> Lily Lakes, T.65, R.2E, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.T" class="item">
+        <a title="Link to item T" class="permalink" href="#rule.6266.0700.1.T">§</a>
+        <h3 class="item_no">T.</h3>
+        <p> Little Gunflint Lake, T.65, R.2W, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.U" class="item">
+        <a title="Link to item U" class="permalink" href="#rule.6266.0700.1.U">§</a>
+        <h3 class="item_no">U.</h3>
+        <p> Little Knife Lake, T.65, R.6, 7; T.66, R.6, Lake County;</p>
+      </div>
+      <div id="rule.6266.0700.1.V" class="item">
+        <a title="Link to item V" class="permalink" href="#rule.6266.0700.1.V">§</a>
+        <h3 class="item_no">V.</h3>
+        <p> Little North Lake, T.65, R.2W, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.W" class="item">
+        <a title="Link to item W" class="permalink" href="#rule.6266.0700.1.W">§</a>
+        <h3 class="item_no">W.</h3>
+        <p> Little Vermillion Lake, T.67, R.16, St. Louis County;</p>
+      </div>
+      <div id="rule.6266.0700.1.X" class="item">
+        <a title="Link to item X" class="permalink" href="#rule.6266.0700.1.X">§</a>
+        <h3 class="item_no">X.</h3>
+        <p> Loon Lake, T.66, 67, R.15, St. Louis County;</p>
+      </div>
+      <div id="rule.6266.0700.1.Y" class="item">
+        <a title="Link to item Y" class="permalink" href="#rule.6266.0700.1.Y">§</a>
+        <h3 class="item_no">Y.</h3>
+        <p> Loon River, T.66, R.15, 16; T.67, R.15, 16, St. Louis County;</p>
+      </div>
+      <div id="rule.6266.0700.1.Z" class="item">
+        <a title="Link to item Z" class="permalink" href="#rule.6266.0700.1.Z">§</a>
+        <h3 class="item_no">Z.</h3>
+        <p> Magnetic Lake, T.65, R.3, 4W, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.AA" class="item">
+        <a title="Link to item AA" class="permalink" href="#rule.6266.0700.1.AA">§</a>
+        <h3 class="item_no">AA.</h3>
+        <p> Maraboeuf Lake, T.66, R.4W, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.BB" class="item">
+        <a title="Link to item BB" class="permalink" href="#rule.6266.0700.1.BB">§</a>
+        <h3 class="item_no">BB.</h3>
+        <p> Melon Lake, T.65, R.8, Lake County;</p>
+      </div>
+      <div id="rule.6266.0700.1.CC" class="item">
+        <a title="Link to item CC" class="permalink" href="#rule.6266.0700.1.CC">§</a>
+        <h3 class="item_no">CC.</h3>
+        <p> Moose Lake, T.65, R.3E, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.DD" class="item">
+        <a title="Link to item DD" class="permalink" href="#rule.6266.0700.1.DD">§</a>
+        <h3 class="item_no">DD.</h3>
+        <p> Mountain Lake, T.65, R.1, 2E, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.EE" class="item">
+        <a title="Link to item EE" class="permalink" href="#rule.6266.0700.1.EE">§</a>
+        <h3 class="item_no">EE.</h3>
+        <p> Namakan Lake, T.68, R.17, 18; T.69, R.17, 18, 19, St. Louis County;</p>
+      </div>
+      <div id="rule.6266.0700.1.FF" class="item">
+        <a title="Link to item FF" class="permalink" href="#rule.6266.0700.1.FF">§</a>
+        <h3 class="item_no">FF.</h3>
+        <p> North Fowl Lake, T.65, R.3E, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.GG" class="item">
+        <a title="Link to item GG" class="permalink" href="#rule.6266.0700.1.GG">§</a>
+        <h3 class="item_no">GG.</h3>
+        <p> North Lake, T.65, R.2W, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.HH" class="item">
+        <a title="Link to item HH" class="permalink" href="#rule.6266.0700.1.HH">§</a>
+        <h3 class="item_no">HH.</h3>
+        <p> Pigeon River, T.64, R.3, 4, 5, 6, 7E, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.II" class="item">
+        <a title="Link to item II" class="permalink" href="#rule.6266.0700.1.II">§</a>
+        <h3 class="item_no">II.</h3>
+        <p> Pine River, T.65, R.3, 4W, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.JJ" class="item">
+        <a title="Link to item JJ" class="permalink" href="#rule.6266.0700.1.JJ">§</a>
+        <h3 class="item_no">JJ.</h3>
+        <p> Rainy Lake (including Black Bay), T.69, R.18, 19; T.70, R.18, 19, 20, 21, 22, T.71, R.20, 21, 22, 23, 24, Koochiching and Lake of the Woods Counties;</p>
+      </div>
+      <div id="rule.6266.0700.1.KK" class="item">
+        <a title="Link to item KK" class="permalink" href="#rule.6266.0700.1.KK">§</a>
+        <h3 class="item_no">KK.</h3>
+        <p> Rainy River, T.70-71 and T.158-162, R.24-32, Koochiching and Lake of the Woods Counties;</p>
+      </div>
+      <div id="rule.6266.0700.1.LL" class="item">
+        <a title="Link to item LL" class="permalink" href="#rule.6266.0700.1.LL">§</a>
+        <h3 class="item_no">LL.</h3>
+        <p> Rat Lake, T.65, R.1W, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.MM" class="item">
+        <a title="Link to item MM" class="permalink" href="#rule.6266.0700.1.MM">§</a>
+        <h3 class="item_no">MM.</h3>
+        <p> Rove Lake, T.65, R.1E, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.NN" class="item">
+        <a title="Link to item NN" class="permalink" href="#rule.6266.0700.1.NN">§</a>
+        <h3 class="item_no">NN.</h3>
+        <p> Saganaga Lake, T.66, R.4, 5W; T.67, R.4, 5W, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.OO" class="item">
+        <a title="Link to item OO" class="permalink" href="#rule.6266.0700.1.OO">§</a>
+        <h3 class="item_no">OO.</h3>
+        <p> Sand Point Lake, T.67, R.16, 17; T.68, R.16, 17; T.69, R.17, St. Louis County;</p>
+      </div>
+      <div id="rule.6266.0700.1.PP" class="item">
+        <a title="Link to item PP" class="permalink" href="#rule.6266.0700.1.PP">§</a>
+        <h3 class="item_no">PP.</h3>
+        <p> Seed Lake, T.65, R.8, Lake County;</p>
+      </div>
+      <div id="rule.6266.0700.1.QQ" class="item">
+        <a title="Link to item QQ" class="permalink" href="#rule.6266.0700.1.QQ">§</a>
+        <h3 class="item_no">QQ.</h3>
+        <p> South Lake, T.65, R.1, 2W, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.RR" class="item">
+        <a title="Link to item RR" class="permalink" href="#rule.6266.0700.1.RR">§</a>
+        <h3 class="item_no">RR.</h3>
+        <p> South Fowl Lake, T.64, 65, R.3E, Cook County;</p>
+      </div>
+      <div id="rule.6266.0700.1.SS" class="item">
+        <a title="Link to item SS" class="permalink" href="#rule.6266.0700.1.SS">§</a>
+        <h3 class="item_no">SS.</h3>
+        <p> Sucker Lake, T.64, R.8, 9, Lake County;</p>
+      </div>
+      <div id="rule.6266.0700.1.TT" class="item">
+        <a title="Link to item TT" class="permalink" href="#rule.6266.0700.1.TT">§</a>
+        <h3 class="item_no">TT.</h3>
+        <p> Swamp Lake, T.66, R.6, Lake County; and</p>
+      </div>
+      <div id="rule.6266.0700.1.UU" class="item">
+        <a title="Link to item UU" class="permalink" href="#rule.6266.0700.1.UU">§</a>
+        <h3 class="item_no">UU.</h3>
+        <p> Watab Lake, T.65, R.1E, Cook County.</p>
+      </div>
+    </div>
+    <div id="rule.6266.0700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6266.0700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Species, seasons, and limits on Minnesota-Canada boundary waters.</h2>
+      <div id="rule.6266.0700.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6266.0700.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> To the extent that chapter 6264 is inconsistent with this part, the provisions of chapter 6264 apply.</p>
+      </div>
+      <div id="rule.6266.0700.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6266.0700.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The following border waters and species are designated under chapter 6264:</p>
+        <table>
+          <col style="width:7.692307692307693%">
+          <col style="width:38.4615384615385%">
+          <col style="width:53.8461538461538%">
+          <tr>
+            <td></td>
+            <td>Name</td>
+            <td>Chapter 6264 Reference</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">(1)</td>
+            <td>Lake sturgeon</td>
+            <td>6264.0400, subpart 32</td>
+          </tr>
+          <tr>
+            <td style="text-align: center;"></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">(2)</td>
+            <td>Lake of the Woods</td>
+            <td>6264.0400, subparts 33 and 55</td>
+          </tr>
+          <tr>
+            <td style="text-align: center;"></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">(3)</td>
+            <td>Rainy River</td>
+            <td>6264.0400, subparts 33 and 55</td>
+          </tr>
+          <tr>
+            <td style="text-align: center;"></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">(4)</td>
+            <td>Namakan Reservoir Lakes</td>
+            <td>6264.0300, subpart 56</td>
+          </tr>
+          <tr>
+            <td style="text-align: center;"></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">(5)</td>
+            <td>Basswood Lake</td>
+            <td>6264.0400, subpart 19</td>
+          </tr>
+          <tr>
+            <td style="text-align: center;"></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="valign_top" style="text-align: center;">(6)</td>
+            <td>Rainy Lake, including Rat Root Lake and River</td>
+            <td class="valign_top">6264.0300, subpart 32</td>
+          </tr>
+        </table>
+      </div>
+      <div id="rule.6266.0700.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6266.0700.2.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>Except as provided in chapter 6264, the following applies to the species, seasons, and limits for taking fish on Minnesota-Canada boundary waters. When the closing date of the season falls on a Saturday, the season extends to the following Sunday, except for the walleye and sauger season, which always ends on April 14 regardless of which day of the week it falls.</p>
+        <table>
+          <col style="width:14.1538461538462%">
+          <col style="width:28.6153846153846%">
+          <col style="width:28.6153846153846%">
+          <col style="width:28.6153846153846%">
+          <tr>
+            <td style="text-align: center;"></td>
+            <td class="valign_top">Species</td>
+            <td class="valign_top">Open Season</td>
+            <td>Daily and Possession Limits</td>
+          </tr>
+          <tr>
+            <td style="text-align: center;"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">(1)</td>
+            <td>Walleye and sauger</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;"></td>
+            <td class="valign_top">(a) All border waters not listed in unit (b) or (c) or in chapter 6264</td>
+            <td>Saturday two weeks prior to the Saturday of Memorial Day weekend to April 14.</td>
+            <td class="valign_top">6 in the aggregate, with only 1 over 20 inches in possession.</td>
+          </tr>
+          <tr>
+            <td style="text-align: center;"></td>
+            <td class="valign_top">(b) Rainy Lake, including Minnesota waters from the dam in International Falls to the dam in Kettle Falls and Black Bay, including Gold Portage and the upper portion of the Rainy River (Boise Cascade Dam upstream to Ranier)</td>
+            <td class="valign_top">Saturday two weeks prior to the Saturday of Memorial Day weekend to April 14.</td>
+            <td class="valign_top">8 in the aggregate, of which not more than 4 may be walleye.</td>
+          </tr>
+          <tr>
+            <td style="text-align: center;"></td>
+            <td class="valign_top">Rat Root River and Rat Root Lake</td>
+            <td>Saturday two weeks prior to the Saturday of Memorial Day weekend to the last Sunday in February.</td>
+            <td class="valign_top">8 in the aggregate, of which not more than 4 may be walleye.</td>
+          </tr>
+          <tr>
+            <td style="text-align: center;"></td>
+            <td class="valign_top">(c) Saganaga Lake</td>
+            <td>Saturday two weeks prior to the Saturday of Memorial Day weekend to April 14.</td>
+            <td class="valign_top">6 walleye, with only 1 walleye over 19.5 inches.</td>
+          </tr>
+          <tr>
+            <td style="text-align: center;"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;">(2)</td>
+            <td>Sturgeon</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;"></td>
+            <td class="valign_top">An angler must have a special fish management tag to harvest sturgeon. All border waters not listed in subitem (1), unit (b) or (c), or in chapter 6264.</td>
+            <td class="valign_top">June 16 to April 14 for catch and release only. Closed April 15 to June 15. When the closing date of a season falls on a Saturday, the season does not extend through the following Sunday.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td style="text-align: center;"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="valign_top" style="text-align: center;">(3)</td>
+            <td class="valign_top">Lake trout</td>
+            <td>In all bodies of water entirely or partly outside of the Boundary Waters Canoe Area Wilderness and exceptions from the Saturday nearest January 15 through March 15; lakes partly outside of the Boundary Waters Canoe Area Wilderness and exceptions include Saganaga Lake; in all bodies of water lying entirely within the Boundary Waters Canoe Area Wilderness from January 1 through March 31, except when January 1 falls on a Sunday, Monday, or Tuesday, then the opening day is the preceding Saturday (Saturday nearest January 1); and in all waters from the Saturday two weeks prior to Saturday of Memorial Day weekend through September 30.</td>
+            <td class="valign_top">2</td>
+          </tr>
+          <tr>
+            <td class="valign_top" style="text-align: center;"></td>
+            <td class="valign_top"></td>
+            <td></td>
+            <td class="valign_top"></td>
+          </tr>
+          <tr>
+            <td class="valign_top" style="text-align: center;">(4)</td>
+            <td class="valign_top">Trout (except lake trout)</td>
+            <td>Saturday nearest May 1 through September 30.</td>
+            <td class="valign_top">Same as listed in part <a href="/rules/6262.0200">6262.0200</a>.</td>
+          </tr>
+          <tr>
+            <td class="valign_top" style="text-align: center;"></td>
+            <td class="valign_top"></td>
+            <td></td>
+            <td class="valign_top"></td>
+          </tr>
+          <tr>
+            <td class="valign_top" style="text-align: center;">(5)</td>
+            <td class="valign_top">Northern pike</td>
+            <td></td>
+            <td class="valign_top"></td>
+          </tr>
+          <tr>
+            <td class="valign_top" style="text-align: center;"></td>
+            <td class="valign_top">(a) For all waters not listed in unit (b) or in chapter 6264</td>
+            <td class="valign_top">Continuous.</td>
+            <td class="valign_top">3, with only 1 over 30 inches.</td>
+          </tr>
+          <tr>
+            <td class="valign_top" style="text-align: center;"></td>
+            <td class="valign_top">(b) Basswood Lake</td>
+            <td>Saturday two weeks prior to the Saturday of Memorial Day weekend to the last Sunday in February.</td>
+            <td class="valign_top">3</td>
+          </tr>
+          <tr>
+            <td class="valign_top" style="text-align: center;"></td>
+            <td class="valign_top"></td>
+            <td></td>
+            <td class="valign_top"></td>
+          </tr>
+          <tr>
+            <td class="valign_top" style="text-align: center;">(6)</td>
+            <td class="valign_top">Muskellunge (minimum size 50 inches total length)</td>
+            <td class="valign_top">Third Saturday in June through November 30.</td>
+            <td class="valign_top">1</td>
+          </tr>
+          <tr>
+            <td class="valign_top" style="text-align: center;"></td>
+            <td class="valign_top"></td>
+            <td class="valign_top"></td>
+            <td class="valign_top"></td>
+          </tr>
+          <tr>
+            <td class="valign_top" style="text-align: center;">(7)</td>
+            <td class="valign_top">Large and smallmouth bass</td>
+            <td class="valign_top">No closed season.</td>
+            <td class="valign_top">6 in aggregate.</td>
+          </tr>
+          <tr>
+            <td class="valign_top" style="text-align: center;"></td>
+            <td class="valign_top"></td>
+            <td class="valign_top"></td>
+            <td class="valign_top"></td>
+          </tr>
+          <tr>
+            <td class="valign_top" style="text-align: center;">(8)</td>
+            <td class="valign_top">Crappie</td>
+            <td class="valign_top">No closed season.</td>
+            <td class="valign_top">10</td>
+          </tr>
+          <tr>
+            <td class="valign_top" style="text-align: center;"></td>
+            <td class="valign_top"></td>
+            <td class="valign_top"></td>
+            <td class="valign_top"></td>
+          </tr>
+          <tr>
+            <td class="valign_top" style="text-align: center;">(9)</td>
+            <td class="valign_top">All other species</td>
+            <td class="valign_top">No closed season.</td>
+            <td class="valign_top">Same as listed in part <a href="/rules/6262.0200">6262.0200</a>.</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="rule.6266.0700.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6266.0700.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Number of lines allowed. </h2>
+      <p>Only one line may be used to angle on Minnesota-Canada boundary waters, except two lines may be used while angling through the ice. Fish with length limits may not be possessed as fillets on the water while angling, except as provided in part <a href="/rules/6262.0100">6262.0100</a>, subpart 5, item D. Any fish that is hooked in any part of the body, except the mouth, must be immediately unhooked and returned to the water, whether dead or alive.</p>
+    </div>
+    <div id="rule.6266.0700.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6266.0700.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Single limit requirement. </h2>
+      <p>The provisions in items A and B apply to the limits for taking and possessing fish on Minnesota-Canada boundary waters.</p>
+      <div id="rule.6266.0700.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6266.0700.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> While in this state, a person permitted to take and possess fish in this state and licensed by the Canadian province of Ontario or Manitoba may not possess fish taken from Minnesota-Canada boundary waters in excess of this state's limit.</p>
+      </div>
+      <div id="rule.6266.0700.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6266.0700.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> While in this state, a person permitted to take and possess fish in this state and licensed by the Canadian province of Ontario or Manitoba may not possess fish taken from the inland waters of Ontario or Manitoba in excess of this state's limit unless the excess fish are accompanied by proof of taking from inland Canadian waters. When accompanied by such proof, one Canadian limit and one Minnesota limit may be possessed simultaneously. The following is considered sufficient proof for a period of seven days after date of issuance:</p>
+        <div id="rule.6266.0700.4.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.6266.0700.4.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> Written verification issued by United States Customs of having entered the United States at a time consistent with the time of having taken fish in inland Canadian waters.</p>
+        </div>
+        <div id="rule.6266.0700.4.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.6266.0700.4.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> A receipt from a resort, campground, or place of lodging located on inland Canadian waters issued at a time consistent with the time of having taken fish in inland Canadian waters.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.6266.0700.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6266.0700.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Shelter house deadline. </h2>
+      <p>On Minnesota-Canada boundary waters, a dark house, fish house, or shelter may remain on the ice no later than March 31. Portable shelters may be used after March 31 only when occupied for angling.</p>
+    </div>
+    <div id="rule.6266.0700.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6266.0700.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Equipment. </h2>
+      <p>A person shall not possess or use a gaff while fishing on the Rainy River.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6266.0700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/97A.045">97A.045</a>; <a href="/statutes/cite/97C.001">97C.001</a>; <a href="/statutes/cite/97C.005">97C.005; 97C.045; </a><a href="/statutes/cite/97C.395">97C.395</a>; <a href="/statutes/cite/97C.401">97C.401</a></p>
+  </div>
+  <div class="history" id="rule.6266.0700.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 22 SR 1559; 23 SR 348; 27 SR 1017; 28 SR 629; 28 SR 1011; 29 SR 596; 32 SR 1039; 32 SR 1044; 39 SR 822</p>
+  </div>
+  <div class="published" id="rule.6266.0700.published">
+    <h2>Published Electronically:</h2>
+    <p> December 22, 2016</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
