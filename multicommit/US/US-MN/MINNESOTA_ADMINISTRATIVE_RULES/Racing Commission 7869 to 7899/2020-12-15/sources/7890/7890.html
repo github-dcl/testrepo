@@ -1,0 +1,2080 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            7890.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/178">Racing Commission</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/7890/">Chapter 7890</a>
+            </li>
+        
+    
+        
+            <li>Part 7890.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/7890.0110/">7890.0110</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/7890.0100/2020-04-22%2016:15:19+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 7890</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7890/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7890/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7890/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 7890.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7890.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7890.0100">
+    <h1 class="headnote">7890.0100 DEFINITIONS.</h1>
+    <div id="rule.7890.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7890.0100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The terms used in this chapter have the meanings given them in this part.</p>
+    </div>
+    <div id="rule.7890.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7890.0100.1">§</a>
+      <h2 class="subp_no">Subp. 1a. </h2>
+      <h2 class="headnote">Alkalinizing agents. </h2>
+      <p>"Alkalinizing agents" means substances, including bicarbonate of soda (sodium bicarbonate or baking soda), that are used to increase the plasma or serum pH, bicarbonate level, or TCO<sub>2</sub> level of a horse. </p>
+    </div>
+    <div id="rule.7890.0100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7890.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Analgesic. </h2>
+      <p>"Analgesic" is a substance used to relieve pain.</p>
+    </div>
+    <div id="rule.7890.0100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7890.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2a.</h2>
+      <h2 class="headnote">Androgenic-anabolic steroids (AAS). </h2>
+      <p>"Androgenic-anabolic steroids (AAS)" means a group of compounds derived from testosterone or prepared synthetically to promote general body growth.</p>
+    </div>
+    <div id="rule.7890.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7890.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Anesthetic. </h2>
+      <p>"Anesthetic" is a substance used to effect a loss of feeling or sensation in any part of the body.</p>
+    </div>
+    <div id="rule.7890.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7890.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3a.</h2>
+      <h2 class="headnote">Antibody. </h2>
+      <p>"Antibody" means a protein produced after stimulation by an antigen that acts specifically against that antigen in an immune response.</p>
+    </div>
+    <div id="rule.7890.0100.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7890.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3b.</h2>
+      <p>[Repealed, 41 SR 1322]</p>
+    </div>
+    <div id="rule.7890.0100.3c" class="subp">
+      <a title="Link to subpart 3c" class="permalink" href="#rule.7890.0100.3c">§</a>
+      <h2 class="subp_no">Subp. 3c.</h2>
+      <h2 class="headnote">Biological product. </h2>
+      <p>"Biological product" means any virus, therapeutic serum, toxin, antitoxin, or analogous product applicable to the prevention, treatment, or cure of diseases or injuries.</p>
+    </div>
+    <div id="rule.7890.0100.3d" class="subp">
+      <a title="Link to subpart 3d" class="permalink" href="#rule.7890.0100.3d">§</a>
+      <h2 class="subp_no">Subp. 3d.</h2>
+      <h2 class="headnote">Bisphosphonates.</h2>
+      <p>"Bisphosphonates" means any of a class of drugs that slows the breakdown of bone by osteoclasts.</p>
+    </div>
+    <div id="rule.7890.0100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7890.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Bleeder. </h2>
+      <p>"Bleeder" means, according to its context, either:</p>
+      <div id="rule.7890.0100.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7890.0100.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> a horse which during a race or exercise is observed by the commission veterinarian or his or her designee to be shedding blood from one or both nostrils and in which no upper airway injury is noted during an examination by the commission veterinarian immediately following such a race or exercise;</p>
+      </div>
+      <div id="rule.7890.0100.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7890.0100.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> a horse which, within 1-1/2 hours of such a race or exercise, is observed by the commission veterinarian, through visual and/or endoscopic examination, to be shedding blood from the lower airway; or</p>
+      </div>
+      <div id="rule.7890.0100.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7890.0100.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> a horse which has been shipped into Minnesota and which meets the criteria in part <a href="/rules/7890.0140">7890.0140</a>, subpart 3.</p>
+      </div>
+    </div>
+    <div id="rule.7890.0100.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7890.0100.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Bleeder list. </h2>
+      <p>"Bleeder list" means a tabulation of all bleeders maintained by the commission veterinarian.</p>
+    </div>
+    <div id="rule.7890.0100.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7890.0100.5">§</a>
+      <h2 class="subp_no">Subp. 5a.</h2>
+      <h2 class="headnote">Blood doping. </h2>
+      <p>"Blood doping" means various techniques used to increase the oxygen-carrying capacity of blood.</p>
+    </div>
+    <div id="rule.7890.0100.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7890.0100.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Bute. </h2>
+      <p>"Bute" means phenylbutazone or oxyphenbutazone.</p>
+    </div>
+    <div id="rule.7890.0100.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7890.0100.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Chemist. </h2>
+      <p>"Chemist" means any official racing chemist designated by the commission.</p>
+    </div>
+    <div id="rule.7890.0100.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7890.0100.7">§</a>
+      <h2 class="subp_no">Subp. 7a.</h2>
+      <h2 class="headnote">Compounding. </h2>
+      <p>"Compounding" means preparing, mixing, assembling, packaging, and labeling a drug for an identified individual horse as a result of a practitioner's prescription drug order. Compounding does not include mixing or reconstituting a drug according to the product's labeling or to the manufacturer's directions.</p>
+    </div>
+    <div id="rule.7890.0100.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7890.0100.7">§</a>
+      <h2 class="subp_no">Subp. 7b.</h2>
+      <h2 class="headnote">Darbepoetin alfa. </h2>
+      <p>" Darbepoetin alfa" is a synthetic analog of erythropoietin that stimulates the bone marrow to produce red blood cells. Chemically, it is a 165 amino acid protein containing five N-linked oligosaccharide chains.</p>
+    </div>
+    <div id="rule.7890.0100.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7890.0100.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Depressant. </h2>
+      <p>"Depressant" is a substance used to diminish the function of the body, including the cardiovascular system, pulmonary system, urinary system, nervous system, musculoskeletal system, or any other systemic function of the body.</p>
+    </div>
+    <div id="rule.7890.0100.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.7890.0100.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Detention barn. </h2>
+      <p>"Detention barn" means a secured structure designated by the commission.</p>
+    </div>
+    <div id="rule.7890.0100.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.7890.0100.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">DMSO. </h2>
+      <p>"DMSO" means dimethyl sulfoxide.</p>
+    </div>
+    <div id="rule.7890.0100.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.7890.0100.10">§</a>
+      <h2 class="subp_no">Subp. 10a.</h2>
+      <h2 class="headnote">Erythropoietin (EPO). </h2>
+      <p>"Erythropoietin (EPO)" is a glycoprotein that stimulates the production of red blood cells by stem cells in bone marrow. Produced mainly by the kidneys, it is released in response to decreased levels of oxygen in body tissue. Using recombinant DNA technology, EPO has been synthetically produced and chemically it is a 165 amino acid protein containing three N-linked oligosaccharide chains.</p>
+    </div>
+    <div id="rule.7890.0100.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.7890.0100.10">§</a>
+      <h2 class="subp_no">Subp. 10b.</h2>
+      <h2 class="headnote">Feed contaminant. </h2>
+      <p>Substances in equine feed arising from contamination during cultivation, processing or treatment, storage, or transportation.</p>
+    </div>
+    <div id="rule.7890.0100.10c" class="subp">
+      <a title="Link to subpart 10c" class="permalink" href="#rule.7890.0100.10c">§</a>
+      <h2 class="subp_no">Subp. 10c.</h2>
+      <h2 class="headnote">Flunixin meglumine. </h2>
+      <p>"Flunixin meglumine" is a nonsteroidal anti-inflammatory drug with the chemical name 3-pyridine-carboxylic acid.</p>
+    </div>
+    <div id="rule.7890.0100.10d" class="subp">
+      <a title="Link to subpart 10d" class="permalink" href="#rule.7890.0100.10d">§</a>
+      <h2 class="subp_no">Subp. 10d.</h2>
+      <h2 class="headnote">Furosemide. </h2>
+      <p>"Furosemide" means 4-chloro-N-furfuryl-5-sulfamoylanthranilic acid.</p>
+    </div>
+    <div id="rule.7890.0100.10e" class="subp">
+      <a title="Link to subpart 10e" class="permalink" href="#rule.7890.0100.10e">§</a>
+      <h2 class="subp_no">Subp. 10e.</h2>
+      <h2 class="headnote">Growth factor. </h2>
+      <p>"Growth factor" means a substance that promotes cellular growth.</p>
+    </div>
+    <div id="rule.7890.0100.10f" class="subp">
+      <a title="Link to subpart 10f" class="permalink" href="#rule.7890.0100.10f">§</a>
+      <h2 class="subp_no">Subp. 10f.</h2>
+      <h2 class="headnote">Hemoglobin-based oxygen carrier. </h2>
+      <p>"Hemoglobin-based oxygen carrier" is an intravenous solution consisting of chemically stabilized cross linked hemoglobin that carries oxygen to tissues upon infusion.</p>
+    </div>
+    <div id="rule.7890.0100.10g" class="subp">
+      <a title="Link to subpart 10g" class="permalink" href="#rule.7890.0100.10g">§</a>
+      <h2 class="subp_no">Subp. 10g.</h2>
+      <h2 class="headnote">Hemopure®. </h2>
+      <p>"Hemopure®" is a chemically stabilized bovine cross-linked hemoglobin that carries oxygen to tissues. Chemically it is hemoglobin glutamer-250 (bovine) or HBOC-201.</p>
+    </div>
+    <div id="rule.7890.0100.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.7890.0100.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Horse. </h2>
+      <p>"Horse" includes all horses registered for racing under the jurisdiction of the commission and, for purposes of this chapter, includes a stallion, colt, gelding, ridgling, filly, or mare.</p>
+    </div>
+    <div id="rule.7890.0100.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.7890.0100.11">§</a>
+      <h2 class="subp_no">Subp. 11a.</h2>
+      <h2 class="headnote">Intra-articular (IA). </h2>
+      <p>"Intra-articular" or "IA" means in the joint space.</p>
+    </div>
+    <div id="rule.7890.0100.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.7890.0100.11">§</a>
+      <h2 class="subp_no">Subp. 11b.</h2>
+      <h2 class="headnote">Intramuscular (IM). </h2>
+      <p>"Intramuscular" or "IM" means in the muscle.</p>
+    </div>
+    <div id="rule.7890.0100.11c" class="subp">
+      <a title="Link to subpart 11c" class="permalink" href="#rule.7890.0100.11c">§</a>
+      <h2 class="subp_no">Subp. 11c.</h2>
+      <h2 class="headnote">Intravenous (IV). </h2>
+      <p>"Intravenous" or "IV" means in the vein.</p>
+    </div>
+    <div id="rule.7890.0100.11d" class="subp">
+      <a title="Link to subpart 11d" class="permalink" href="#rule.7890.0100.11d">§</a>
+      <h2 class="subp_no">Subp.  11d.</h2>
+      <h2 class="headnote">Ketoprofen. </h2>
+      <p>"Ketoprofen" is a nonsteroidal anti-inflammatory drug with the chemical name 2-(3-benzoylphenyl)propionic acid.</p>
+    </div>
+    <div id="rule.7890.0100.12" class="subp repealed">
+      <a title="Link to subpart 12" class="permalink" href="#rule.7890.0100.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <p>[Repealed, 25 SR 1609]</p>
+    </div>
+    <div id="rule.7890.0100.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.7890.0100.12">§</a>
+      <h2 class="subp_no">Subp. 12a.</h2>
+      <h2 class="headnote">Limit of detection (LOD). </h2>
+      <p>"Limit of detection" or "LOD" means the lowest concentration of the drug that can be detected by a particular laboratory method.</p>
+    </div>
+    <div id="rule.7890.0100.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.7890.0100.12">§</a>
+      <h2 class="subp_no">Subp. 12b.</h2>
+      <h2 class="headnote">Limit of quantitation (LOQ). </h2>
+      <p>"Limit of quantitation" or "LOQ" means the lowest concentration of the drug that can be reliably quantified by a particular laboratory method and is generally higher than the LOD.</p>
+    </div>
+    <div id="rule.7890.0100.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.7890.0100.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Medication. </h2>
+      <p>"Medication" is a substance, compound, or element, or combination thereof, which is or can be administered to a horse for the purpose of preventing, curing, or alleviating the effects of any disease, condition, ailment, or infirmity, or symptom thereof, or for altering in any way the behavior, attitude, temperament, or performance of a horse, including athletic performance. Medication includes all alkalinizing agents, analgesics, anesthetics, depressants, narcotics, stimulants, tranquilizers, and other classifications of medications. Nothing herein shall be deemed to include:</p>
+      <div id="rule.7890.0100.13.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7890.0100.13.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Nonsteroidal anti-inflammatory drugs (NSAIDs):</p>
+        <div id="rule.7890.0100.13.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7890.0100.13.A.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>The use of one of the following three approved NSAIDs shall be permitted under the following conditions:</p>
+          <div id="rule.7890.0100.13.A.1.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.7890.0100.13.A.1.a">§</a>
+            <h5 class="unit_no">(a) </h5>
+            <p>phenylbutazone, provided that the test sample does not contain more than 0.3 micrograms of the substance thereof per milliliter of blood plasma or serum; or</p>
+          </div>
+          <div id="rule.7890.0100.13.A.1.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.7890.0100.13.A.1.b">§</a>
+            <h5 class="unit_no">(b) </h5>
+            <p>flunixin, provided that the test sample does not contain more than five nanograms of the substance thereof per milliliter of blood plasma or serum; or</p>
+          </div>
+          <div id="rule.7890.0100.13.A.1.c" class="unit">
+            <a title="Link to unit c" class="permalink" href="#rule.7890.0100.13.A.1.c">§</a>
+            <h5 class="unit_no">(c) </h5>
+            <p>ketoprofen, provided that the test sample does not contain more than two nanograms of the substance thereof per milliliter of blood plasma or serum.</p>
+          </div>
+        </div>
+        <div id="rule.7890.0100.13.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7890.0100.13.A.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>No NSAIDs can be administered within the 48 hours before post time for the race in which the horse is entered. The use of all but one of the approved NSAIDs shall be discontinued at least 48 hours before the post time for the race in which the horse is entered.</p>
+        </div>
+        <div id="rule.7890.0100.13.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7890.0100.13.A.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>The presence of more than one NSAID in the post-race test sample, or sample taken after an official timed workout, is not permitted and shall constitute a Class B violation under the Association of Racing Commissioners International Uniform Classification Guidelines for Foreign Substances and Recommended Penalties.</p>
+        </div>
+        <div id="rule.7890.0100.13.A.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.7890.0100.13.A.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>Any horse to which an NSAID has been administered shall be subject to having a blood and/or urine sample taken at the direction of the official veterinarian to determine the quantitative NSAID levels and/or the presence of other drugs which may be present in the blood or urine sample.</p>
+        </div>
+      </div>
+      <div id="rule.7890.0100.13.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7890.0100.13.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Furosemide, provided, however, that it is administered pursuant to the provisions of part <a href="/rules/7890.0140">7890.0140</a>, subpart 7a. The concentration of furosemide must not exceed 100 nanograms per milliliter of serum or plasma in the post-race blood sample.</p>
+      </div>
+      <div id="rule.7890.0100.13.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7890.0100.13.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Topical applications, such as antiseptics, ointments, salves, leg rubs, and leg paints which may contain antibiotics (excluding procaine penicillin and chloramphenicol) but which shall not contain ethanol, DMSO, corticosteroids, topical anesthetics including benzocaine and lidocaine, or other medications.</p>
+      </div>
+      <div id="rule.7890.0100.13.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7890.0100.13.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Vitamins and electrolytes, provided the vitamins and electrolytes are administered orally and do not contain any medications, sodium bicarbonate, or other alkalinizing agents.</p>
+      </div>
+      <div id="rule.7890.0100.13.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7890.0100.13.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>Electrolytes except those containing sodium bicarbonate or other alkalinizing agents.</p>
+      </div>
+    </div>
+    <div id="rule.7890.0100.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.7890.0100.13">§</a>
+      <h2 class="subp_no">Subp. 13a.</h2>
+      <h2 class="headnote">Metabolite. </h2>
+      <p>"Metabolite" means the substance produced by the metabolism of a specific medication.</p>
+    </div>
+    <div id="rule.7890.0100.13" class="subp repealed">
+      <a title="Link to subpart 13" class="permalink" href="#rule.7890.0100.13">§</a>
+      <h2 class="subp_no">Subp. 13b. </h2>
+      <p>[Repealed, 41 SR 1322]</p>
+    </div>
+    <div id="rule.7890.0100.13c" class="subp">
+      <a title="Link to subpart 13c" class="permalink" href="#rule.7890.0100.13c">§</a>
+      <h2 class="subp_no">Subp. 13c.</h2>
+      <h2 class="headnote">Measurement uncertainty (MU). </h2>
+      <p>"Measurement uncertainty" means a value (with units of concentration) that is determined experimentally and characterizes the variability of the analytical process. It is used to eliminate all reasonable variability originating from the measurement process. It is a property of the method used and unique to each laboratory unless measures have been taken to standardize between laboratories.</p>
+    </div>
+    <div id="rule.7890.0100.14" class="subp">
+      <a title="Link to subpart 14" class="permalink" href="#rule.7890.0100.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <h2 class="headnote">Narcotic. </h2>
+      <p>"Narcotic" is a substance used to induce a sleep or stupor and at the same time relieve pain.</p>
+    </div>
+    <div id="rule.7890.0100.14" class="subp">
+      <a title="Link to subpart 14" class="permalink" href="#rule.7890.0100.14">§</a>
+      <h2 class="subp_no">Subp. 14a.</h2>
+      <h2 class="headnote">NSAID stacking. </h2>
+      <p>"NSAID stacking" occurs when a post-race sample is found to contain the presence of multiple nonsteroidal anti-inflammatory drugs in violation of the restrictions in subpart 13, item A, and part <a href="/rules/7890.0110">7890.0110</a>, subpart 10.</p>
+    </div>
+    <div id="rule.7890.0100.14" class="subp repealed">
+      <a title="Link to subpart 14" class="permalink" href="#rule.7890.0100.14">§</a>
+      <h2 class="subp_no">Subp. 14b.</h2>
+      <p>[Repealed, 40 SR 1393]</p>
+    </div>
+    <div id="rule.7890.0100.14c" class="subp">
+      <a title="Link to subpart 14c" class="permalink" href="#rule.7890.0100.14c">§</a>
+      <h2 class="subp_no">Subp. 14c.</h2>
+      <h2 class="headnote">NSAIDs. </h2>
+      <p>"NSAIDs" means nonsteroidal anti-inflammatory drugs.</p>
+    </div>
+    <div id="rule.7890.0100.14d" class="subp">
+      <a title="Link to subpart 14d" class="permalink" href="#rule.7890.0100.14d">§</a>
+      <h2 class="subp_no">Subp. 14d.</h2>
+      <h2 class="headnote">Overage. </h2>
+      <p>"Overage" means the detection of any medication or metabolites, substance foreign to the natural horse, androgenic anabolic steroid, or endogenous, dietary, or environmental substance in a test sample that exceeds the regulatory limits as established by subpart 13, items A to D, and part <a href="/rules/7890.0110">7890.0110</a>, subparts 7, item C; 7a; 9; and 10.</p>
+    </div>
+    <div id="rule.7890.0100.14e" class="subp">
+      <a title="Link to subpart 14e" class="permalink" href="#rule.7890.0100.14e">§</a>
+      <h2 class="subp_no">Subp. 14e.</h2>
+      <h2 class="headnote">PO. </h2>
+      <p>"PO" means orally.</p>
+    </div>
+    <div id="rule.7890.0100.15" class="subp">
+      <a title="Link to subpart 15" class="permalink" href="#rule.7890.0100.15">§</a>
+      <h2 class="subp_no">Subp. 15.</h2>
+      <h2 class="headnote">Positive test. </h2>
+      <p>"Positive test" means the detection of any medication or metabolites, substance foreign to the natural horse, androgenic anabolic steroid, or endogenous, dietary, or environmental substance thereof in a test sample above the limit of detection of the official testing laboratory.</p>
+    </div>
+    <div id="rule.7890.0100.15" class="subp">
+      <a title="Link to subpart 15" class="permalink" href="#rule.7890.0100.15">§</a>
+      <h2 class="subp_no">Subp. 15a.</h2>
+      <h2 class="headnote">Regulatory limit. </h2>
+      <p>"Regulatory limit" is the concentration of a drug and/or its metabolite below which no administrative action is taken.</p>
+    </div>
+    <div id="rule.7890.0100.16" class="subp">
+      <a title="Link to subpart 16" class="permalink" href="#rule.7890.0100.16">§</a>
+      <h2 class="subp_no">Subp. 16.</h2>
+      <h2 class="headnote">Stimulant. </h2>
+      <p>"Stimulant" is a substance used to increase or excite the function of the body, including the cardiovascular system, pulmonary system, urinary system, nervous system, musculoskeletal system, or any other systemic function of the body.</p>
+    </div>
+    <div id="rule.7890.0100.16" class="subp">
+      <a title="Link to subpart 16" class="permalink" href="#rule.7890.0100.16">§</a>
+      <h2 class="subp_no">Subp. 16a.</h2>
+      <h2 class="headnote">Synthetic analogue. </h2>
+      <p>"Synthetic analogue" means a molecular or chemical compound made in a laboratory that is structurally similar to the natural compound and exhibits similar effects.</p>
+    </div>
+    <div id="rule.7890.0100.16" class="subp">
+      <a title="Link to subpart 16" class="permalink" href="#rule.7890.0100.16">§</a>
+      <h2 class="subp_no">Subp. 16b. </h2>
+      <h2 class="headnote">TCO<sub>2</sub>. </h2>
+      <p>"TCO<sub>2</sub>" means the total concentration of all forms of carbon dioxide in the sample including bicarbonate and carbonate as well as dissolved CO<sub>2</sub>.</p>
+    </div>
+    <div id="rule.7890.0100.17" class="subp">
+      <a title="Link to subpart 17" class="permalink" href="#rule.7890.0100.17">§</a>
+      <h2 class="subp_no">Subp. 17.</h2>
+      <h2 class="headnote">Test level. </h2>
+      <p>"Test level" means the concentration of NSAIDs, furosemide, medications or metabolites, substances foreign to the natural horse, androgenic anabolic steroids, or endogenous, dietary, or environmental substances found in a test sample.</p>
+    </div>
+    <div id="rule.7890.0100.18" class="subp">
+      <a title="Link to subpart 18" class="permalink" href="#rule.7890.0100.18">§</a>
+      <h2 class="subp_no">Subp. 18.</h2>
+      <h2 class="headnote">Test sample. </h2>
+      <p>"Test sample" means any bodily substance including blood, urine, saliva, hair, or other substance designated by the commission, taken from a horse under the supervision of the commission veterinarian for the purpose of analysis.</p>
+    </div>
+    <div id="rule.7890.0100.18" class="subp">
+      <a title="Link to subpart 18" class="permalink" href="#rule.7890.0100.18">§</a>
+      <h2 class="subp_no">Subp. 18a.</h2>
+      <h2 class="headnote">Threshold. </h2>
+      <p>"Threshold" means a concentration of a substance in the serum, plasma, or urine of a horse above which a laboratory reports a finding.</p>
+    </div>
+    <div id="rule.7890.0100.19" class="subp">
+      <a title="Link to subpart 19" class="permalink" href="#rule.7890.0100.19">§</a>
+      <h2 class="subp_no">Subp. 19.</h2>
+      <h2 class="headnote">Tranquilizer. </h2>
+      <p>"Tranquilizer" is a substance used to alter the psychic state.</p>
+    </div>
+    <div id="rule.7890.0100.19" class="subp">
+      <a title="Link to subpart 19" class="permalink" href="#rule.7890.0100.19">§</a>
+      <h2 class="subp_no">Subp. 19a. </h2>
+      <h2 class="headnote">Venom. </h2>
+      <p>"Venom" means toxic or poisonous secretions of an animal such as the snake, snail, scorpion, spider, and others. </p>
+    </div>
+    <div id="rule.7890.0100.20" class="subp">
+      <a title="Link to subpart 20" class="permalink" href="#rule.7890.0100.20">§</a>
+      <h2 class="subp_no">Subp. 20.</h2>
+      <h2 class="headnote">Veterinarian. </h2>
+      <p>"Veterinarian" means a doctor of veterinary medicine licensed by the commission to practice at a Minnesota racetrack.</p>
+    </div>
+    <div id="rule.7890.0100.21" class="subp">
+      <a title="Link to subpart 21" class="permalink" href="#rule.7890.0100.21">§</a>
+      <h2 class="subp_no">Subp. 21.</h2>
+      <h2 class="headnote">Veterinarian's list. </h2>
+      <p>"Veterinarian's list" means the tabulation of horses required to be maintained by part <a href="/rules/7877.0175">7877.0175</a>, subpart 8.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7890.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/240.03">240.03</a>; <a href="/statutes/cite/240.13">240.13</a>; <a href="/statutes/cite/240.15">240.15</a>; <a href="/statutes/cite/240.16">240.16</a>; <a href="/statutes/cite/240.19">240.19</a>; <a href="/statutes/cite/240.23">240.23</a>; <a href="/statutes/cite/240.24">240.24</a></p>
+  </div>
+  <div class="history" id="rule.7890.0100.history">
+    <h2>History: </h2>
+    <p>9 SR 2527; 10 SR 1908; 13 SR 38; 15 SR 2307; 16 SR 2207; 24 SR 1568; 25 SR 1609; 26 SR 1438; 28 SR 1482; 31 SR 1277; 33 SR 8; 34 SR 83; 34 SR 1135; 35 SR 375; 35 SR 627; 36 SR 1407; 37 SR 1664; 39 SR 1739; 40 SR 1393; 41 SR 1322; 44 SR 1047</p>
+  </div>
+  <div class="published" id="rule.7890.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> April 22, 2020</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7890.0110">
+    <h1 class="headnote">7890.0110 MEDICATIONS AND PRACTICES PROHIBITED.</h1>
+    <div id="rule.7890.0110.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7890.0110.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Administration. </h2>
+      <p>No person shall administer or cause to be administered to a horse within 48 hours of a race in which it is scheduled to run any medication (except as permitted by part <a href="/rules/7890.0100">7890.0100</a>, subpart 13, items A to D) by injection, oral or topical administration, rectal infusion or suppository, or by inhalation and no horse participating in a race shall carry in its body any substance foreign to the natural horse, except as permitted by subparts 7, item C, 7a, 9, and 10 and part <a href="/rules/7890.0100">7890.0100</a>, subpart 13, items A to D. Post-race samples of plasma, serum, hair, or urine must not contain any substances, drugs, medications, or metabolites of substances, drugs, or medications not specifically permitted by commission rule or law.</p>
+    </div>
+    <div id="rule.7890.0110.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7890.0110.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Nasogastric tube. </h2>
+      <p>The use of a nasogastric tube for the administration of any substance to an entered horse within the 48-hour period prior to post time shall not be permitted without prior permission of the commission veterinarian. No licensee other than a veterinarian shall possess a nasogastric tube on the grounds of an association under the jurisdiction of the commission. For purposes of this subpart, "nasogastric tube" means any hose or tube more than 12 inches in length and more than one-quarter inch in diameter.</p>
+    </div>
+    <div id="rule.7890.0110.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7890.0110.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Extracorporeal shock wave therapy or radial pulse wave therapy. </h2>
+      <p>The use of extracorporeal shock wave therapy or radial pulse wave therapy shall not be permitted unless the following conditions are met:</p>
+      <div id="rule.7890.0110.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7890.0110.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> any treated horse shall not be permitted to have a timed workout or race for a minimum of ten days following treatment with day one being the first day of treatment;</p>
+      </div>
+      <div id="rule.7890.0110.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7890.0110.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the use of extracorporeal shock wave therapy or radial pulse wave therapy machines shall be limited to veterinarians licensed by the commission and must be performed in a central location at the licensed racetrack determined by the commission veterinarian during hours specified by the commission veterinarian;</p>
+      </div>
+      <div id="rule.7890.0110.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7890.0110.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> any extracorporeal shock wave therapy or radial pulse wave therapy machines on association grounds must be registered with the commission veterinarian prior to use; and</p>
+      </div>
+      <div id="rule.7890.0110.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7890.0110.3.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> all extracorporeal shock wave therapy or radial pulse wave therapy treatments must be recorded on a form prescribed by the commission, and provided to the commission veterinarian 24 hours prior to treatment.</p>
+      </div>
+    </div>
+    <div id="rule.7890.0110.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7890.0110.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Blood doping agents. </h2>
+      <p>The possession or use of blood doping agents by any person, including but not limited to the following blood doping agents, on the premises of a facility under the jurisdiction of the commission is forbidden:</p>
+      <div id="rule.7890.0110.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7890.0110.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Erythropoietin;</p>
+      </div>
+      <div id="rule.7890.0110.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7890.0110.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Darbepoetin;</p>
+      </div>
+      <div id="rule.7890.0110.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7890.0110.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Oxyglobin®; and</p>
+      </div>
+      <div id="rule.7890.0110.4.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7890.0110.4.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Hemopure®.</p>
+      </div>
+    </div>
+    <div id="rule.7890.0110.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7890.0110.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Discontinuance of treatments. </h2>
+      <p> The use of all NSAIDs shall be discontinued at least 48 hours before the post time for the race in which the horse is entered. The use of any intra-articular corticosteroid shall be discontinued at least seven days before post time for the race in which the horse is entered. The presence of only one corticosteroid is permitted in a post-race sample.</p>
+    </div>
+    <div id="rule.7890.0110.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7890.0110.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Possession. </h2>
+      <p>The possession or use of a drug, substance, venom, medication, or blood doping agent for which a recognized analytical method to detect and confirm the administration of such substance has not been developed on the premises of a facility under the jurisdiction of the commission is prohibited.</p>
+    </div>
+    <div id="rule.7890.0110.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7890.0110.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Use. </h2>
+      <p>The use of agents that elevate the horse's bicarbonate level, TCO<sub>2</sub>, or pH level above those existing naturally in the untreated horse at normal physiological concentrations is prohibited. The following also apply to TCO<sub>2</sub>:</p>
+      <div id="rule.7890.0110.7.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7890.0110.7.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> A commission veterinarian may draw whole blood, serum, or plasma samples from a horse for the purpose of obtaining a TCO<sub>2</sub> level.</p>
+      </div>
+      <div id="rule.7890.0110.7.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7890.0110.7.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Blood samples for TCO<sub>2</sub> may be drawn prior to or after the race. Samples drawn prior to a race shall be drawn before the official post time. For the purpose of harness racing, blood samples shall be drawn prior to warm-up. Samples drawn after the race shall be drawn no sooner than 90 minutes following official post time for that race.</p>
+      </div>
+      <div id="rule.7890.0110.7.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7890.0110.7.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The pre-race or post-race TCO<sub>2</sub> level in the blood shall not exceed 37 millimoles per liter of blood.</p>
+      </div>
+      <div id="rule.7890.0110.7.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7890.0110.7.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> The provisions of part <a href="/rules/7892.0120">7892.0120</a>, subpart 5, pertaining to split samples, shall not apply to blood samples drawn for the purpose of TCO<sub>2</sub> testing.</p>
+      </div>
+      <div id="rule.7890.0110.7.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7890.0110.7.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> Provisions for split sample testing for TCO<sub>2</sub> analysis shall be arranged by the trainer or designee at the time of sampling. The trainer shall be responsible for the cost of split sample testing. The trainer or designee shall make arrangements for payment prior to or at the time of sampling. The split sample shall be sent to the commission contract laboratory as a separate blind sample. No other provisions for split sample testing shall be available.</p>
+      </div>
+    </div>
+    <div id="rule.7890.0110.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7890.0110.7">§</a>
+      <h2 class="subp_no">Subp. 7a.</h2>
+      <h2 class="headnote">Androgenic-anabolic steroids (AAS). </h2>
+      <p>No Androgenic-anabolic steroids (AAS) shall be permitted in test samples collected from racing horses except for endogenous concentrations of nandrolone and naturally occurring substances boldenone and testosterone at concentrations less than the indicated thresholds. Concentrations of these AAS shall not exceed the following plasma or serum thresholds for free (i.e. not conjugated) substance or urine threshold concentrations for total (i.e., free drug or metabolite and drug or metabolite liberated from its conjugates):</p>
+      <div id="rule.7890.0110.7.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7890.0110.7.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Boldenone - 15 ng/ml of total boldenone in urine of male horses other than geldings; 1 ng/ml in fillies, mares, and geldings; or not greater than 25 pg/ml of boldenone in plasma or serum of all horses regardless of sex.</p>
+      </div>
+      <div id="rule.7890.0110.7.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7890.0110.7.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>Nandrolone:</p>
+        <div id="rule.7890.0110.7.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7890.0110.7.B.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>in geldings - 1 ng/ml total nandrolone in urine or not greater than 25 pg/ml of nandrolone in plasma or serum;</p>
+        </div>
+        <div id="rule.7890.0110.7.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7890.0110.7.B.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>in fillies and mares - 1 ng/ml total nandrolone in urine or not greater than 25 pg/ml of nandrolone in plasma or serum; and</p>
+        </div>
+        <div id="rule.7890.0110.7.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7890.0110.7.B.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>in male horses other than geldings - 45 ng/ml of metabolite (5α-oestrane-3β, 17α-diol in urine).</p>
+        </div>
+      </div>
+      <div id="rule.7890.0110.7.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7890.0110.7.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>Testosterone:</p>
+        <div id="rule.7890.0110.7.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7890.0110.7.C.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>in geldings - 20 ng/ml total testosterone in urine or 100 pg/ml of testosterone in plasma or serum;</p>
+        </div>
+        <div id="rule.7890.0110.7.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7890.0110.7.C.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>in fillies and mares - 55 ng/ml total testosterone in urine or 100 pg/ml of testosterone in plasma or serum; </p>
+        </div>
+        <div id="rule.7890.0110.7.C.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7890.0110.7.C.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>in fillies and mares that are confirmed at the time of racing as being pregnant, testosterone is not regulated; and</p>
+        </div>
+        <div id="rule.7890.0110.7.C.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.7890.0110.7.C.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>in male horses other than geldings 2,000 pg/ml of plasma or serum.</p>
+          <p>All other AAS are prohibited in racing horses.</p>
+          <p>The sex of all horses shall be identified on all samples sent to the laboratory. Any horse to which one of these AAS has been administered in order to assist in the recovery from an illness or injury may be placed on the veterinarian's list in order to monitor the concentration of the drug or metabolite in urine. After the concentration has fallen below the designated threshold for the administered AAS, the horse is eligible to be removed from the list.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.7890.0110.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7890.0110.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Prohibition. </h2>
+      <p>The possession or use of anabolic androgenic steroids other than as provided in subpart 7a, naturally occurring venoms, derivatives of venoms, synthetic analogues of venoms, derivatives of synthetic analogues of venoms, growth hormone, blood doping agents, or any substance that enhances the oxygenation of equine tissue by any person on the premises of any licensed facility under the jurisdiction of the commission is not permitted.</p>
+    </div>
+    <div id="rule.7890.0110.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.7890.0110.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Endogenous, dietary, and environmental substances. </h2>
+      <p>No endogenous, dietary, or environmental substances shall be allowed in the test sample of a horse except as provided in the Racing Commissioners International Endogenous, Dietary, or Environmental Substances Schedule, which is incorporated by reference.</p>
+    </div>
+    <div id="rule.7890.0110.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.7890.0110.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Medications. </h2>
+      <p>No medications other than those specifically permitted under this chapter shall be allowed in the post-race test sample of a horse. Serum or urine thresholds on permitted controlled therapeutic medications shall not exceed those found in the Association of Racing Commissioners International Controlled Therapeutic Medication Schedule for Horses, which is incorporated by reference.</p>
+    </div>
+    <div id="rule.7890.0110.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.7890.0110.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Medical labeling. </h2>
+      <div id="rule.7890.0110.11.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7890.0110.11.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>No person on association grounds where horses are lodged or kept, excluding licensed veterinarians, shall have in or upon association grounds which that person occupies or has the right to occupy, or in that person's personal property or effects or vehicle in that person's care, custody, or control, a drug, medication, chemical, foreign substance, or other substance that is prohibited in a horse on a race day unless the product is labeled in accordance with this subpart.</p>
+      </div>
+      <div id="rule.7890.0110.11.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7890.0110.11.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>Any drug or medication that is used or kept on association grounds and that, by federal or state law, requires a prescription must have been validly prescribed by a duly licensed veterinarian, and in compliance with the applicable state statutes. All allowable medications must be labeled in accordance with state and federal laws and shall have a prescription label that is securely attached and clearly ascribed to show the following:</p>
+        <div id="rule.7890.0110.11.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7890.0110.11.B.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>the name, address, and telephone number of the company manufacturing the medication;</p>
+        </div>
+        <div id="rule.7890.0110.11.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7890.0110.11.B.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>the lot number and expiration date of the medication;</p>
+        </div>
+        <div id="rule.7890.0110.11.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7890.0110.11.B.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>the name, address, and telephone number of the veterinarian prescribing or dispensing the medication;</p>
+        </div>
+        <div id="rule.7890.0110.11.B.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.7890.0110.11.B.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>the name of each patient (horse) for whom the medication is prescribed or dispensed;</p>
+        </div>
+        <div id="rule.7890.0110.11.B.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.7890.0110.11.B.5">§</a>
+          <h4 class="subitem_no">(5) </h4>
+          <p>the name of the person (trainer) to whom the medication was dispensed;</p>
+        </div>
+        <div id="rule.7890.0110.11.B.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.7890.0110.11.B.6">§</a>
+          <h4 class="subitem_no">(6) </h4>
+          <p>the name, active ingredient, and quantity of the medication prescribed;</p>
+        </div>
+        <div id="rule.7890.0110.11.B.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.7890.0110.11.B.7">§</a>
+          <h4 class="subitem_no">(7) </h4>
+          <p>the dose, dosage, route of administration, and duration of treatment; and</p>
+        </div>
+        <div id="rule.7890.0110.11.B.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.7890.0110.11.B.8">§</a>
+          <h4 class="subitem_no">(8) </h4>
+          <p>cautionary statements as needed.</p>
+          <p class="bl">Possession of an expired prescription medication is considered a violation of the rule.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.7890.0110.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.7890.0110.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Compounded medications on association grounds. </h2>
+      <div id="rule.7890.0110.12.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7890.0110.12.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Veterinary drugs shall be compounded in accordance with all applicable state and federal laws. Compounded medication shall be dispensed only by a prescription issued by a licensed veterinarian to meet the medical needs of a specific horse and for use only in that specific horse.</p>
+      </div>
+      <div id="rule.7890.0110.12.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7890.0110.12.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>All compounded medications must be labeled in accordance with part <a href="/rules/7890.0110">7890.0110</a>, subpart 11.</p>
+      </div>
+      <div id="rule.7890.0110.12.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7890.0110.12.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>Possession of an improperly labeled medication by a veterinarian, trainer, groom, or any other licensee is considered a violation.</p>
+      </div>
+    </div>
+    <div id="rule.7890.0110.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.7890.0110.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Use of electrical or mechanical devices. </h2>
+      <p>No electrical, mechanical, or battery-powered device or machine may be used to administer therapy or treatment to a horse within 48 hours of the time the horse is scheduled to race, unless approved in advance by the stewards in consultation with the commission veterinarian.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7890.0110.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/240.03">240.03</a>; <a href="/statutes/cite/240.23">240.23</a>; <a href="/statutes/cite/240.24">240.24</a></p>
+  </div>
+  <div class="history" id="rule.7890.0110.history">
+    <h2>History: </h2>
+    <p>9 SR 2527; 10 SR 1908; 11 SR 2201; 12 SR 2393; 31 SR 1277; 33 SR 8; 34 SR 83; 35 SR 375; 35 SR 627; 36 SR 1407; 39 SR 1739; 40 SR 1393; 41 SR 1322; 42 SR 1258; 44 SR 1047</p>
+  </div>
+  <div class="published" id="rule.7890.0110.published">
+    <h2>Published Electronically:</h2>
+    <p> April 22, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7890.0120">
+    <h1 class="headnote">7890.0120 REPORTING PROCEDURES.</h1>
+    <div id="rule.7890.0120.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7890.0120.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Veterinarians must keep records. </h2>
+      <p> Veterinarians must submit daily to the commission veterinarian, in writing or electronically on a prescribed form, a report of all horses treated at a licensed racetrack. The form shall contain the date and time, name of horse treated, trainer of horse, any medications, drugs, substances (as provided in part <a href="/rules/7890.0100">7890.0100</a>, subpart 13, items A to D), or procedures prescribed, administered, dispensed, or performed for horses registered at a current race meeting, and any other information requested by the commission veterinarian. The form must be filed by the treating veterinarian not later than noon on the day following treatment. The form shall be signed by hand or digitally by the treating veterinarian. The form is considered private and its content shall not be disclosed except in the course of an investigation of a possible violation of chapters 7869 to 7899, or in a proceeding before the stewards or commission, or to the trainer or owner of record at the time of treatment. A timely and accurate filing of the form that is consistent with the analytical results of a positive test may be used as a mitigating factor in determining the nature and extent, if any, of a rules violation.</p>
+    </div>
+    <div id="rule.7890.0120.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7890.0120.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 44 SR 1047]</p>
+    </div>
+    <div id="rule.7890.0120.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7890.0120.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Administration of furosemide to be reported. </h2>
+      <p>If a horse is to race with furosemide in its system, the trainer or other representative shall be responsible for legibly and clearly marking the information on the entry blank for each race the horse shall be entered in.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7890.0120.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/240.03">240.03</a>; <a href="/statutes/cite/240.23">240.23</a>; <a href="/statutes/cite/240.24">240.24</a></p>
+  </div>
+  <div class="history" id="rule.7890.0120.history">
+    <h2>History: </h2>
+    <p>10 SR 1908; 11 SR 2201; 31 SR 1277; 34 SR 1135; 35 SR 627; L 2011 c 76 art 1 sec 80; 42 SR 1258; 44 SR 1047</p>
+  </div>
+  <div class="published" id="rule.7890.0120.published">
+    <h2>Published Electronically:</h2>
+    <p> April 22, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7890.0130">
+    <h1 class="headnote">7890.0130 FINDINGS OF CHEMIST.</h1>
+    <div id="rule.7890.0130.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7890.0130.1">§</a>
+      <h2 class="subp_no">Subpart 1. </h2>
+      <h2 class="headnote">Prima facie evidence. </h2>
+      <p>A finding by a chemist of any positive test or overage in the test sample of a horse taken after a race or official timed workout shall be considered prima facie evidence that the medication or metabolite, androgenic anabolic steroid, substance foreign to the natural horse, or endogenous, dietary, or environmental substance, NSAID, or furosemide was administered to the horse prior to the race or official timed workout and carried in the body of the horse while participating in the race or official timed workout. A horse racing on furosemide must show a detectable concentration of the drug or metabolites in the post-race serum or plasma sample. A finding by a chemist of any venom or blood doping agent in the test sample of a horse shall be considered prima facie evidence that the venom or blood doping agent was administered to the horse prior to the race or official timed workout and carried in the body of the horse while participating in a race or official timed workout. A finding by a chemist of a level of TCO<sub>2</sub> greater than 37 millimoles per liter of blood in the test sample of a horse shall be considered prima facie evidence that an alkalinizing agent was administered to the horse prior to the race or official timed workout after which the test sample was taken. </p>
+    </div>
+    <div id="rule.7890.0130.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7890.0130.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Distributed purse money. </h2>
+      <p>The fact that purse money has been distributed prior to the issuance of the chemist's report shall not be deemed a finding that no medication or metabolites, androgenic anabolic steroids, substance foreign to the natural horse, or endogenous, dietary, or environmental substances, NSAIDs or furosemide exceeding allowable levels was administered to the horse earning such purse money in violation of this chapter.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7890.0130.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/240.03">240.03</a>; <a href="/statutes/cite/240.13">240.13</a>; <a href="/statutes/cite/240.15">240.15</a>; <a href="/statutes/cite/240.19">240.19</a>; <a href="/statutes/cite/240.23">240.23</a>; <a href="/statutes/cite/240.24">240.24</a></p>
+  </div>
+  <div class="history" id="rule.7890.0130.history">
+    <h2>History: </h2>
+    <p>9 SR 2527; 10 SR 1908; 12 SR 2393; 16 SR 2207; 25 SR 1609; 28 SR 1482; 31 SR 1277; 33 SR 8; 40 SR 1393; 41 SR 1322</p>
+  </div>
+  <div class="published" id="rule.7890.0130.published">
+    <h2>Published Electronically:</h2>
+    <p> June 8, 2017</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7890.0140">
+    <h1 class="headnote">7890.0140 BLEEDERS.</h1>
+    <div id="rule.7890.0140.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7890.0140.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Examination of bleeders. </h2>
+      <p>A horse that is alleged to have bled externally from one or both nostrils in Minnesota must be physically examined by a commission veterinarian in order to confirm its inclusion on the bleeder list and veterinarian's list. The examination must be performed within 1-1/2 hours following the finish of a race or exercise in which the horse has participated.</p>
+    </div>
+    <div id="rule.7890.0140.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7890.0140.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Confirmation of bleeder must be certified. </h2>
+      <p>The confirmation of a bleeder examined pursuant to subpart 1 must be certified in writing by the commission veterinarian and such horse must be included on the bleeder list. Upon request, a copy of the certification shall be provided to the owner of the horse or his or her agent.</p>
+    </div>
+    <div id="rule.7890.0140.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7890.0140.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Bleeders imported from other jurisdictions. </h2>
+      <p>A horse shipped into Minnesota from another jurisdiction shall be allowed to race on furosemide provided it raced on furosemide in its last start, and documentation to that effect is submitted to and accepted by the commission veterinarian at the Minnesota racetrack to which it is shipped; and that this transmission occurs prior to the initial entry of the horse into a race at the current race meeting.</p>
+    </div>
+    <div id="rule.7890.0140.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7890.0140.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Horses placed on bleeder list. </h2>
+      <p>Bleeders shall be placed on a bleeder list and the list shall be kept in the commission veterinarian's office. Horses certified as having bled in Minnesota shall also be placed on the veterinarian's list at the time of the observed bleeding and shall be ineligible to be entered in a race pursuant to subpart 5.</p>
+    </div>
+    <div id="rule.7890.0140.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7890.0140.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Restrictions on confirmed bleeders. </h2>
+      <p>Confirmed bleeders shall be subject to the following restrictions.</p>
+      <div id="rule.7890.0140.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7890.0140.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> For the first observed bleeding, the horse shall be placed on the bleeder list and the veterinarian's list and shall not be removed from the veterinarian's list without the approval of the commission veterinarian. Such a horse shall be ineligible to race for at least 14 days following the observed bleeding.</p>
+      </div>
+      <div id="rule.7890.0140.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7890.0140.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> When a horse has been observed bleeding for the second time within a 365-day period, the horse shall be placed on the veterinarian's list and shall not be removed from the list without the approval of the commission veterinarian. Such a horse shall be ineligible to race for at least 30 days following the observed bleeding.</p>
+      </div>
+      <div id="rule.7890.0140.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7890.0140.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> When a horse has been observed bleeding for the third time within a 365-day period, the horse shall be placed on the veterinarian's list and shall not be removed from the list for at least 180 days, and not until the commission veterinarian has approved its removal.</p>
+      </div>
+      <div id="rule.7890.0140.5.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7890.0140.5.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> When a horse has been observed bleeding for a fourth time within a 365-day period, the horse shall be placed on the veterinarian's list and will be permanently ineligible to race in Minnesota.</p>
+      </div>
+      <div id="rule.7890.0140.5.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7890.0140.5.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> Following a bleeding episode in another jurisdiction, a horse shall not be eligible to race in Minnesota for at least 14 days or for a longer period if deemed medically necessary in the professional opinion of the commission veterinarian after considering the horse's past bleeding history.</p>
+      </div>
+      <div id="rule.7890.0140.5.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7890.0140.5.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> For the purposes of counting the number of days a horse is ineligible to run, the day the horse bled externally is the first day of the recovery period.</p>
+      </div>
+      <div id="rule.7890.0140.5.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.7890.0140.5.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> The voluntary administration of furosemide without an external bleeding incident shall not subject a horse to the initial period of ineligibility as defined by this subpart.</p>
+      </div>
+    </div>
+    <div id="rule.7890.0140.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7890.0140.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Furosemide may be permitted. </h2>
+      <p>A horse is eligible to race with furosemide if the licensed trainer and licensed veterinarian determine that it would be in the horse's best interests to race with furosemide. Once a horse has raced with furosemide, it must continue to race with furosemide in all subsequent races unless a request is made to discontinue the use. If the use of furosemide is discontinued, the horse shall be prohibited from again racing with furosemide unless it is later observed to be bleeding pursuant to subpart 1 or the horse is claimed or transferred to a different licensed trainer. A horse that is claimed or transferred to a different licensed trainer is eligible to race with furosemide if the new trainer and a licensed veterinarian employed by the new owner or trainer determine that it would be in the horse's best interest to race with furosemide. Requests for the use of or discontinuance of furosemide must be made to the commission veterinarian by the horse's current trainer or assistant trainer on a form prescribed by the commission on or before the day of entry into the race for which the request is made.</p>
+    </div>
+    <div id="rule.7890.0140.7" class="subp repealed">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7890.0140.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <p>[Repealed, 14 SR 332]</p>
+    </div>
+    <div id="rule.7890.0140.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7890.0140.7">§</a>
+      <h2 class="subp_no">Subp. 7a. </h2>
+      <h2 class="headnote">Conditions required for furosemide administration. </h2>
+      <p>Furosemide shall be administered intravenously by a licensed veterinarian employed by the owner or trainer of the horse, or by the commission veterinarian. The furosemide must be administered a minimum of four hours before scheduled post time for any bleeder entered to race and the dose level of furosemide must be no less than 150 milligrams and must not exceed 250 milligrams (no less than three nor more than five milliliters of a 50 milligram/milliliter or five percent solution) per administration.</p>
+      <p>The practicing veterinarian must deposit with the commission veterinarian an unopened supply of furosemide and sterile hypodermic needles and syringes to be used for the administration. The furosemide must be administered under the supervision of a person employed by the commission.</p>
+      <p>A horse on the official furosemide list must show a detectable concentration of the drug in the post-race serum or plasma sample.</p>
+    </div>
+    <div id="rule.7890.0140.8" class="subp repealed">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7890.0140.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <p>[Repealed, 14 SR 332]</p>
+    </div>
+    <div id="rule.7890.0140.9" class="subp repealed">
+      <a title="Link to subpart 9" class="permalink" href="#rule.7890.0140.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <p>[Repealed, 14 SR 332]</p>
+    </div>
+    <div id="rule.7890.0140.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.7890.0140.10">§</a>
+      <h2 class="subp_no">Subp. 10. </h2>
+      <h2 class="headnote">Responsibility of trainer. </h2>
+      <p>The trainer is responsible for ensuring that the horse is available at the appropriate time for its treatment. After having been administered furosemide, the horse shall at all times be in the care, custody, and under the supervision of the trainer or a licensed person assigned by the trainer. The horse must remain in its own stall until it is taken to the paddock to be saddled or harnessed for a race. It shall not be handled by anyone other than the trainer, the owner, or the employees listed on the trainer's signed statement. If emergency veterinary attention becomes necessary, the trainer is responsible for immediately notifying the commission veterinarian of the nature of the need and of the identity of the responding veterinarian. The trainer shall be responsible for the guarding, condition, care, and handling of the horse at all times and ensuring that a handler is present to restrain and serve as a designated witness to the furosemide administration. If no handler is present and the administration time has passed, no furosemide shall be administered and the stewards shall be notified. Trainers are responsible for ensuring that a veterinarian licensed by the commission has agreed to administer furosemide at the designated time.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7890.0140.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/240.03">240.03</a>; <a href="/statutes/cite/240.08">240.08</a>; <a href="/statutes/cite/240.13">240.13</a>; <a href="/statutes/cite/240.15">240.15</a>; <a href="/statutes/cite/240.16">240.16</a>; <a href="/statutes/cite/240.19">240.19</a>; <a href="/statutes/cite/240.23">240.23</a>; <a href="/statutes/cite/240.24">240.24</a></p>
+  </div>
+  <div class="history" id="rule.7890.0140.history">
+    <h2>History: </h2>
+    <p>9 SR 2527; 10 SR 1908; 13 SR 38; 14 SR 332; 14 SR 2008; 16 SR 2207; 20 SR 2592; 22 SR 1785; 24 SR 1568; 25 SR 1609; 26 SR 1438; 31 SR 1277; 33 SR 8; 35 SR 627; 40 SR 1393; 42 SR 1258; 44 SR 1047</p>
+  </div>
+  <div class="published" id="rule.7890.0140.published">
+    <h2>Published Electronically:</h2>
+    <p> April 22, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7890.0150">
+    <h1 class="headnote">7890.0150 DISCLOSURE OF APPROVED MEDICATIONS TO PUBLIC.</h1>
+    <p>The names of all horses that have been approved for race day use of furosemide must be identified in the daily racing program. Horses that are racing for the first time using furosemide must be so identified in the daily racing program.</p>
+  </div>
+  <div class="stat_auth" id="rule.7890.0150.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/240.03">240.03</a>; <a href="/statutes/cite/240.13">240.13</a>; <a href="/statutes/cite/240.15">240.15</a>; <a href="/statutes/cite/240.19">240.19</a>; <a href="/statutes/cite/240.23">240.23</a>; <a href="/statutes/cite/240.24">240.24</a></p>
+  </div>
+  <div class="history" id="rule.7890.0150.history">
+    <h2>History: </h2>
+    <p>10 SR 1908; 11 SR 2201; 16 SR 2207; 25 SR 1609; 31 SR 1277; 39 SR 1739; 44 SR 1047</p>
+  </div>
+  <div class="published" id="rule.7890.0150.published">
+    <h2>Published Electronically:</h2>
+    <p> April 22, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7890.0160">
+    <h1 class="headnote">7890.0160 RESPONSIBILITY OF VETERINARIAN.</h1>
+    <p>No veterinarian may administer a medication, alkalinizing agent, blood doping agent, venom, or substance foreign to the natural horse to any horse that is scheduled to race within 48 hours, except as permitted in part <a href="/rules/7890.0100">7890.0100</a>, subpart 13, or in the case of a medical emergency requiring immediate treatment, without the prior permission of the commission veterinarian. No veterinarian may place a nasogastric tube in a horse that is scheduled to race within 48 hours, except in the case of a medical emergency requiring immediate treatment. No veterinarian may enter the stall of or otherwise handle a horse that is scheduled to race on race day, except in the case of a medical emergency requiring immediate treatment without the prior permission of the commission veterinarian. In emergency cases it is the responsibility of the attending veterinarian to notify the commission veterinarian of the nature of the emergency and the exact treatment provided. The notification must be made as soon as practical (within one-half hour of an emergency that occurs during training or racing hours or by 8:00 a.m. on the morning following an emergency which occurred during evening or night hours) and on a form prescribed by the commission. At the request of the commission veterinarian, the veterinarian must provide radiographs, laboratory tests, and results of other diagnostic procedures within 24 hours. </p>
+  </div>
+  <div class="stat_auth" id="rule.7890.0160.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/240.13">240.13</a>; <a href="/statutes/cite/240.15">240.15</a>; <a href="/statutes/cite/240.16">240.16</a>; <a href="/statutes/cite/240.19">240.19</a>; <a href="/statutes/cite/240.23">240.23</a>; <a href="/statutes/cite/240.24">240.24</a></p>
+  </div>
+  <div class="history" id="rule.7890.0160.history">
+    <h2>History: </h2>
+    <p>16 SR 2207; 24 SR 1568; 31 SR 1277; 33 SR 8; 34 SR 1135</p>
+  </div>
+  <div class="published" id="rule.7890.0160.published">
+    <h2>Published Electronically:</h2>
+    <p> February 24, 2010</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
