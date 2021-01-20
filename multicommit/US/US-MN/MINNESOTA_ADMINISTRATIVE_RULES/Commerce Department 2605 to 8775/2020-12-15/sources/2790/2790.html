@@ -1,0 +1,2214 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            2790.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/120">Commerce Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/2790/">Chapter 2790</a>
+            </li>
+        
+    
+        
+            <li>Part 2790.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/2790.0200/">2790.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/2790.0100/2014-01-18%2002:03:36+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 2790</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2790/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2790/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2790/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 2790.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2790.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.0100">
+    <h1 class="headnote">2790.0100 DEFINITIONS.</h1>
+    <div id="rule.2790.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2790.0100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>For the purposes of this chapter the terms in this part have the meanings given them.</p>
+    </div>
+    <div id="rule.2790.0100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2790.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Advertisement. </h2>
+      <p>"Advertisement" includes:</p>
+      <div id="rule.2790.0100.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2790.0100.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> printed and published material, audio visual material, and descriptive literature of an insurer or agent used in direct mail, newspapers, magazines, other periodicals, radio scripts, television scripts, billboards and other similar displays, excluding advertisements prepared for the sole purpose of obtaining employees, agents, or agencies;</p>
+      </div>
+      <div id="rule.2790.0100.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2790.0100.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> descriptive literature and sales ads of all kinds issued by an insurer or agent for presentation to members of the public, including but not limited to circulars, leaflets, booklets, depictions, illustrations, and form letters;</p>
+      </div>
+      <div id="rule.2790.0100.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2790.0100.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> prepared sales talks, presentations, and material for use by agents and representations made by agents in accordance with these talks, presentations, and materials;</p>
+      </div>
+      <div id="rule.2790.0100.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2790.0100.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> statements, written or oral, by an agent.</p>
+      </div>
+    </div>
+    <div id="rule.2790.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2790.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Agent, agents, or agencies. </h2>
+      <p>"Agent," "agents," or "agencies" includes insurance agents and agencies licensed pursuant to Minnesota Statutes, chapter 60K, insurance agencies, and designated representatives of these agents or agencies.</p>
+    </div>
+    <div id="rule.2790.0100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2790.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Exception. </h2>
+      <p>"Exception" includes any provision in a policy whereby coverage for a specified hazard is entirely eliminated; it is a statement of risk not assumed under the policy.</p>
+    </div>
+    <div id="rule.2790.0100.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2790.0100.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Insurer. </h2>
+      <p>"Insurer" includes any individual, corporation, association, partnership, reciprocal exchange, Lloyd's, fraternal benefits society, self-insurer, surplus line insurer, pooled or joint self-insurance group, or self-insurance administrator, nonprofit service plan, and any other legal entity engaged in the advertisement of a policy. An insurer includes an affiliate of a group of insurers under common management and control.</p>
+    </div>
+    <div id="rule.2790.0100.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.2790.0100.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Limitation. </h2>
+      <p>"Limitation" means any provision which restricts coverage under the policy other than an exception or a reduction.</p>
+    </div>
+    <div id="rule.2790.0100.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.2790.0100.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Policy. </h2>
+      <p>"Policy" includes any policy, plan, certificate, contract, agreement, statement of coverage, rider or endorsement, binder, or other evidence of coverage which provides insurance or self-insurance, whether on an indemnity, reimbursement, service, or prepaid basis. "Policy" includes any subscriber contract issuing coverage under a self-insurance plan, annuity, group self-insurance, or pooled or joint self-insurance employee plan.</p>
+    </div>
+    <div id="rule.2790.0100.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.2790.0100.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Reduction. </h2>
+      <p>"Reduction" includes any provision which reduces the amount of a benefit; a risk of loss is assumed but payment upon the occurrence of the loss is limited to some amount or period less than would be otherwise payable had the reduction not been used.</p>
+    </div>
+    <div id="rule.2790.0100.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.2790.0100.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Self-insurer. </h2>
+      <p>"Self-insurer" includes any entity authorized pursuant to Minnesota Statutes, sections <a href="/statutes/cite/65B.48">65B.48</a> and <a href="/statutes/cite/176.181">176.181</a>, Minnesota Statutes, chapter 62H, Laws of Minnesota 1983, chapter 290, section 171, or Minnesota Statutes, section <a href="/statutes/cite/471.981">471.981</a> and includes any entity which, for compensation employs the services of vendors of risk management services in the administration of a self-insurance plan as defined by Minnesota Statutes, section <a href="/statutes/cite/60A.23">60A.23</a>, subdivision 8.</p>
+    </div>
+    <div id="rule.2790.0100.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.2790.0100.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Similar policies. </h2>
+      <p>"Similar policies" include policies which provide similar benefits even though there may be differences in benefit amounts, elimination periods, renewal terms, or ancillary benefits.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2790.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.0100.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.0200">
+    <h1 class="headnote repealed">2790.0200</h1>
+    <p>[Repealed, 13 SR 1378]</p>
+  </div>
+  <div class="published" id="rule.2790.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.0300">
+    <h1 class="headnote">2790.0300 APPLICABILITY.</h1>
+    <p>This chapter applies to any insurance advertisement or representation, written or oral, as defined in this chapter, which is intended for presentation, distribution, or dissemination in the state of Minnesota, directly or indirectly, by or on behalf of any insurer or agent.</p>
+    <p>This chapter is not all inclusive. The fact that a practice is not specifically prohibited in this chapter does not imply acceptance of the practice. This chapter is to be construed in a manner so as to carry out the stated and implied purpose of Minnesota Statutes, chapters 60A and 72A.</p>
+  </div>
+  <div class="stat_auth" id="rule.2790.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.0300.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.0400">
+    <h1 class="headnote">2790.0400 CONSTRUCTION.</h1>
+    <div id="rule.2790.0400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2790.0400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Advertising or representations. </h2>
+      <p>Whether an advertisement or representation, written or oral, has a capacity or tendency to mislead or deceive is determined by the commissioner of commerce from the overall impression that the advertisement may be reasonably expected to create upon a person of average education or intelligence, unique to the particular type of audience to which the advertisement is directed, and whether it may be reasonably comprehended by the segment of the public to which it is directed.</p>
+    </div>
+    <div id="rule.2790.0400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2790.0400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Department policy. </h2>
+      <p>The policy of the Department of Commerce, in interpreting the meaning of this chapter when applied to a specific advertisement, will be to take into consideration the content, detail, character, purpose, and use of the advertisement, and specifically, whether the advertisement is the direct or principal sales inducement, or whether its function is to invite inquiry for details of the insurance advertised, either by follow-up literature or by personal interview.</p>
+    </div>
+    <div id="rule.2790.0400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2790.0400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Method of disclosure of required information. </h2>
+      <p>All information required to be disclosed by this chapter must be set out clearly, conspicuously, and in close conjunction with the statements to which the information relates or under appropriate captions of such prominence that it is readily noticed and not minimized, rendered obscure, or presented in an ambiguous fashion or intermingled with the contents of the advertisement or representation, whether written or oral, so as to be confusing or misleading.</p>
+    </div>
+    <div id="rule.2790.0400.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2790.0400.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Advertisements. </h2>
+      <p>Advertisements and representations must be sufficiently complete and clear, under the circumstances in which they are made, to avoid deception or the capacity or tendency to mislead or deceive. Words or phrases, the meaning of which is clear only by implication or by familiarity with insurance terminology, must not be used.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2790.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.0400.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.0500">
+    <h1 class="headnote">2790.0500 DECEPTIVE WORDS, PHRASES, OR ILLUSTRATIONS.</h1>
+    <div id="rule.2790.0500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2790.0500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">General prohibition. </h2>
+      <p>No advertisement or representation, written or oral, may omit information or use words, phrases, statements, references, or illustrations if the omission of the information or use of the words, phrases, statements, references, or illustrations has the capacity, tendency, or effect of misleading or deceiving purchasers or prospective purchasers as to the nature or extent of any policy benefit payable, loss covered, or premium payable. The fact that the policy offered is made available to a prospective insured for inspection prior to consummation of the sale or an offer is made to refund the premium if the purchaser is not satisfied does not remedy misleading statements.</p>
+    </div>
+    <div id="rule.2790.0500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2790.0500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Coverage terms. </h2>
+      <p>No advertisement may contain or use words or phrases such as "all," "full," "complete," "comprehensive," "unlimited," "up to," "as high as," "this policy will help pay your hospital and surgical bills," "this policy will help fill some of the gaps that Medicare and your present insurance leave out," "this policy will help to replace your income," when used to express loss of time benefits or similar words and phrases, in a deceptive or misleading manner so as to exaggerate any benefits beyond the terms of the policy.</p>
+    </div>
+    <div id="rule.2790.0500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2790.0500.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Statements regarding tax benefits. </h2>
+      <p>An advertisement must not state a policy's benefits are tax-free unless an explanation of the rules applicable to the taxation of these types of policy benefits are clearly shown with equal prominence and in close conjunction with the statement. An advertisement of a benefit for which payment is conditioned upon confinement in a hospital or similar facility must not state that the benefit is tax-free.</p>
+    </div>
+    <div id="rule.2790.0500.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2790.0500.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Benefit terms. </h2>
+      <p>An advertisement may not use the expressions "extra cash," "cash income," "income," "cash," or similar words or phrases in such a way as to imply that the insured will receive benefits in excess of the expenses incurred while being sick, injured, or hospitalized.</p>
+    </div>
+    <div id="rule.2790.0500.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2790.0500.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Payment terms. </h2>
+      <p>The words "free," "no cost," "without cost," "no additional cost," "at no extra cost," "without additional cost," or words of similar import, may not be used with respect to any benefit or service being made available with the policy unless true and accurate. An advertisement may specify the charge for a benefit or a service or may state that a charge is included in the premium, or use other similar language.</p>
+    </div>
+    <div id="rule.2790.0500.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.2790.0500.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Dividends. </h2>
+      <p>Dividends are a return of premium and it is misleading and deceptive to refer to them as being tax-free, or to use words of similar import, unless they are used within an instructive context and the nature of dividend as a return of premium is clearly indicated.</p>
+    </div>
+    <div id="rule.2790.0500.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.2790.0500.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Dread disease policies. </h2>
+      <p>A policy covering only one disease or a list of specified diseases must not be advertised so as to imply coverage beyond the terms of the policy. A particular disease shall not be referred to in more than one term so as to imply broader coverage than is the fact.</p>
+    </div>
+    <div id="rule.2790.0500.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.2790.0500.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Policy limitations. </h2>
+      <p>The benefits of a policy which pays varying amounts for the same loss occurring under different conditions or which pays benefits only when a loss occurs under certain conditions, must not be advertised without disclosing the limitations or reductions under which the benefits referred to are provided by the policy.</p>
+    </div>
+    <div id="rule.2790.0500.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.2790.0500.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Maximum benefits. </h2>
+      <p>The maximum benefit available under a policy must not be emphasized in a manner which exaggerates its relationship to any internal limits or other conditions of the policy. Phrases such as "this policy pays $1,800 for hospital room and board expenses" are incomplete without indicating the maximum daily benefit and the maximum time limit for hospital room and board expenses.</p>
+    </div>
+    <div id="rule.2790.0500.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.2790.0500.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Aggregate benefits. </h2>
+      <p>The aggregate amounts or the monthly or weekly benefits payable under coverage such as hospital or similar facility confinement indemnity or home care nursing must not be emphasized unless the actual amounts payable per day are disclosed with substantially equal prominence and in close conjunction with the statement. Any limitation or reduction in the policy and the number of days of coverage provided must be disclosed.</p>
+    </div>
+    <div id="rule.2790.0500.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.2790.0500.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">False statements regarding coverage. </h2>
+      <p>An advertisement must not state or imply that each member under a family policy is covered as to the maximum benefits advertised when such is not the case.</p>
+    </div>
+    <div id="rule.2790.0500.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.2790.0500.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Exaggeration of certain diseases. </h2>
+      <p>The importance of diseases rarely or never found in the class of persons to whom the policy is offered shall not be exaggerated in an advertisement.</p>
+    </div>
+    <div id="rule.2790.0500.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.2790.0500.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Benefit examples. </h2>
+      <p>Examples of what benefits may be paid under a policy must be shown only for losses from common illnesses or injuries rather than exceptional or rare illnesses or injuries.</p>
+    </div>
+    <div id="rule.2790.0500.14" class="subp">
+      <a title="Link to subpart 14" class="permalink" href="#rule.2790.0500.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <h2 class="headnote">Benefit clarification. </h2>
+      <p>When a range of hospital room expense benefits is set forth in an advertisement, it must be made clear that the insured will receive only the benefit indicated in the policy purchased. It must not be implied that the insured may select a room expense benefit at the time of hospitalization.</p>
+    </div>
+    <div id="rule.2790.0500.15" class="subp">
+      <a title="Link to subpart 15" class="permalink" href="#rule.2790.0500.15">§</a>
+      <h2 class="subp_no">Subp. 15.</h2>
+      <h2 class="headnote">Benefit increases at time of disability. </h2>
+      <p>An advertisement must not imply that the amount of benefits payable under a loss-of-time policy may be increased at time of disability according to the needs of the insured.</p>
+    </div>
+    <div id="rule.2790.0500.16" class="subp">
+      <a title="Link to subpart 16" class="permalink" href="#rule.2790.0500.16">§</a>
+      <h2 class="subp_no">Subp. 16.</h2>
+      <h2 class="headnote">Misleading payment claims. </h2>
+      <p>An advertisement must not state that the insurer "pays hospital, surgical, medical bills," "pays dollars to offset the cost of medical care," "safeguards your standard of living," "pays full coverage," "pays complete coverage," "pays for financial needs," "provides for replacement of your lost paycheck," "guarantees your paycheck," "guarantees your income," "continues your income," "provides a guaranteed paycheck," "provides a guaranteed income," or "fills the gaps in Medicare," or use similar words or phrases unless the statement is literally true.</p>
+    </div>
+    <div id="rule.2790.0500.17" class="subp">
+      <a title="Link to subpart 17" class="permalink" href="#rule.2790.0500.17">§</a>
+      <h2 class="subp_no">Subp. 17.</h2>
+      <h2 class="headnote">Premium levels. </h2>
+      <p>An advertisement shall not state that premiums will not be changed in the future unless such is the fact.</p>
+    </div>
+    <div id="rule.2790.0500.18" class="subp">
+      <a title="Link to subpart 18" class="permalink" href="#rule.2790.0500.18">§</a>
+      <h2 class="subp_no">Subp. 18.</h2>
+      <h2 class="headnote">Deductibles. </h2>
+      <p>An advertisement which states dollar amounts of benefits payable and premiums must clearly indicate the provisions of any deductible under a policy.</p>
+    </div>
+    <div id="rule.2790.0500.19" class="subp">
+      <a title="Link to subpart 19" class="permalink" href="#rule.2790.0500.19">§</a>
+      <h2 class="subp_no">Subp. 19.</h2>
+      <h2 class="headnote">Other insurance. </h2>
+      <p>If a policy contains any of the following or similar provisions, an advertisement referring to the policy must not state that benefits are payable in addition to other insurance unless the statement contains an appropriate reference to the coverage excepted:</p>
+      <div id="rule.2790.0500.19.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2790.0500.19.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> an "other insurance" exception, reduction, limitation, or deductible;</p>
+      </div>
+      <div id="rule.2790.0500.19.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2790.0500.19.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> a "coordination of benefits" or "nonduplication" provision;</p>
+      </div>
+      <div id="rule.2790.0500.19.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2790.0500.19.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> an "other insurance in this company" provision;</p>
+      </div>
+      <div id="rule.2790.0500.19.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2790.0500.19.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> an "insurance in another insurer's" provision;</p>
+      </div>
+      <div id="rule.2790.0500.19.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2790.0500.19.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> a "relation of earnings to insurance" provision;</p>
+      </div>
+      <div id="rule.2790.0500.19.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.2790.0500.19.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> a workers' compensation, employer's liability, occupational disease law, or automobile no-fault exception, reduction, or limitation;</p>
+      </div>
+      <div id="rule.2790.0500.19.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.2790.0500.19.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> a reduction based on social security benefits or other disability benefits; or</p>
+      </div>
+      <div id="rule.2790.0500.19.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.2790.0500.19.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> a Medicare exception, reduction, or limitation.</p>
+      </div>
+    </div>
+    <div id="rule.2790.0500.20" class="subp">
+      <a title="Link to subpart 20" class="permalink" href="#rule.2790.0500.20">§</a>
+      <h2 class="subp_no">Subp. 20.</h2>
+      <h2 class="headnote">Immediate coverage or guaranteed issuance. </h2>
+      <p> An advertisement may refer to immediate coverage or guaranteed issuance of a policy only if suitable administrative procedures exist so that the policy is issued within a reasonable time after the application is received.</p>
+    </div>
+    <div id="rule.2790.0500.21" class="subp">
+      <a title="Link to subpart 21" class="permalink" href="#rule.2790.0500.21">§</a>
+      <h2 class="subp_no">Subp. 21.</h2>
+      <h2 class="headnote">Premium increases or premium reductions. </h2>
+      <p>If an advertisement indicates an initial premium which differs from the renewal premium on the same mode, the renewal premium shall be disclosed with equal prominence and in close conjunction with any statement of the initial premium. Any increase in premium or reduction in coverage because of age shall be clearly disclosed.</p>
+    </div>
+    <div id="rule.2790.0500.22" class="subp">
+      <a title="Link to subpart 22" class="permalink" href="#rule.2790.0500.22">§</a>
+      <h2 class="subp_no">Subp. 22.</h2>
+      <h2 class="headnote">Preexisting conditions. </h2>
+      <p>An advertisement must not state that the policy contains no waiting period unless preexisting conditions are covered immediately or unless the effect of preexisting conditions is disclosed with equal prominence and in close conjunction with the statement.</p>
+    </div>
+    <div id="rule.2790.0500.23" class="subp">
+      <a title="Link to subpart 23" class="permalink" href="#rule.2790.0500.23">§</a>
+      <h2 class="subp_no">Subp. 23.</h2>
+      <h2 class="headnote">Age limits. </h2>
+      <p>An advertisement must not state that no age limit applies to an insured or applicant unless application from applicants of any age are considered in good faith, and the statement clearly indicates the date or age to which the policy may be renewed or that the company may refuse renewal.</p>
+    </div>
+    <div id="rule.2790.0500.24" class="subp">
+      <a title="Link to subpart 24" class="permalink" href="#rule.2790.0500.24">§</a>
+      <h2 class="subp_no">Subp. 24.</h2>
+      <h2 class="headnote">Health provisions. </h2>
+      <p>An advertisement shall not state that no medical, doctor's, or physical examination is required or that no health, medical, or doctor's statements or questions are required or that the examination, statements, or questions are waived or otherwise state or imply that the applicant's physical condition or medical history will not affect the policy unless:</p>
+      <div id="rule.2790.0500.24.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2790.0500.24.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the statement indicates with equal prominence that it applies only to the issuance of the policy or to both the issuance of the policy and the payment of claims; and</p>
+      </div>
+      <div id="rule.2790.0500.24.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2790.0500.24.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> preexisting conditions are covered immediately under the policy or the period of time following the effective date of the policy during which preexisting conditions are not covered is disclosed with equal prominence and in close conjunction with the statement.</p>
+      </div>
+    </div>
+    <div id="rule.2790.0500.25" class="subp">
+      <a title="Link to subpart 25" class="permalink" href="#rule.2790.0500.25">§</a>
+      <h2 class="subp_no">Subp. 25.</h2>
+      <h2 class="headnote">Limited accident and health policies. </h2>
+      <p>An advertisement of a limited accident and health policy must prominently indicate that the policy provides limited coverage with an appropriate statement such as "this is a cancer only policy" or "this is an automobile accident only policy," "this is an accident policy only -- this policy does not allow coverage for sickness," "this policy provides dental insurance only."</p>
+    </div>
+    <div id="rule.2790.0500.26" class="subp">
+      <a title="Link to subpart 26" class="permalink" href="#rule.2790.0500.26">§</a>
+      <h2 class="subp_no">Subp. 26.</h2>
+      <h2 class="headnote">Exceptions, reductions, or limitations. </h2>
+      <p>An advertisement must not set out exceptions, reductions, or limitations from a policy worded in a positive manner to imply that they are beneficial features such as describing a waiting period as a benefit builder. Words and phrases used to disclose exceptions, reductions, or limitations shall fairly and accurately describe their negative features. The words "only," "minimum," "just," "merely," or similar words or phrases must not be used to refer to exceptions, reductions, or limitations.</p>
+    </div>
+    <div id="rule.2790.0500.27" class="subp">
+      <a title="Link to subpart 27" class="permalink" href="#rule.2790.0500.27">§</a>
+      <h2 class="subp_no">Subp. 27.</h2>
+      <h2 class="headnote">Misleading cost statements. </h2>
+      <p>An advertisement must not state or imply, or use similar words or phrases to the effect that because no insurance agent will call and no commissions will be paid to agents, the policy is a low cost plan, unless literally true.</p>
+    </div>
+    <div id="rule.2790.0500.28" class="subp">
+      <a title="Link to subpart 28" class="permalink" href="#rule.2790.0500.28">§</a>
+      <h2 class="subp_no">Subp. 28.</h2>
+      <h2 class="headnote">Awards. </h2>
+      <p>Devices such as a safe driver's award and other such awards must not be used in connection with an advertisement, except advertisements for property and casualty insurance.</p>
+    </div>
+    <div id="rule.2790.0500.29" class="subp">
+      <a title="Link to subpart 29" class="permalink" href="#rule.2790.0500.29">§</a>
+      <h2 class="subp_no">Subp. 29.</h2>
+      <h2 class="headnote">Applications. </h2>
+      <p>An advertisement must not use an application which is deceptively similar to paper currency, bonds, or stock certificates.</p>
+    </div>
+    <div id="rule.2790.0500.30" class="subp">
+      <a title="Link to subpart 30" class="permalink" href="#rule.2790.0500.30">§</a>
+      <h2 class="subp_no">Subp. 30.</h2>
+      <h2 class="headnote">Mandated benefits. </h2>
+      <p>An advertisement must not exaggerate the effect of statutorily mandated benefits or required policy provisions or imply that these provisions are unique to the advertised policy.</p>
+    </div>
+    <div id="rule.2790.0500.31" class="subp">
+      <a title="Link to subpart 31" class="permalink" href="#rule.2790.0500.31">§</a>
+      <h2 class="subp_no">Subp. 31.</h2>
+      <h2 class="headnote">Statements of coverage. </h2>
+      <p>An advertisement must state clearly the insurance coverage being offered.</p>
+    </div>
+    <div id="rule.2790.0500.32" class="subp">
+      <a title="Link to subpart 32" class="permalink" href="#rule.2790.0500.32">§</a>
+      <h2 class="subp_no">Subp. 32.</h2>
+      <h2 class="headnote">Medicare supplement policies. </h2>
+      <p>An advertisement which refers to a policy as being a "Medicare supplement" policy must, in addition to the other disclosure requirements required by law, comply with the following requirements:</p>
+      <div id="rule.2790.0500.32.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2790.0500.32.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> contain a prominent statement indicating which Medicare benefits the policy is intended to supplement, for example, hospital benefits; and which Medicare benefits the policy will not supplement, for example, nursing home benefits; and must clearly disclose any gaps in Medicare coverage for which the policy does not provide benefits;</p>
+      </div>
+      <div id="rule.2790.0500.32.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2790.0500.32.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> clearly indicate the extent and amount of the benefits if the policy benefits are on an expenses-incurred basis beyond what Medicare covers;</p>
+      </div>
+      <div id="rule.2790.0500.32.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2790.0500.32.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> clearly indicate the classification of the Medicare supplement coverage being offered by the policy as defined by Minnesota Statutes, section <a href="/statutes/cite/62A.31">62A.31</a>;</p>
+      </div>
+      <div id="rule.2790.0500.32.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2790.0500.32.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> must not imply or state that the policy is in any manner related to the federal Medicare program or any other governmental program.</p>
+      </div>
+    </div>
+    <div id="rule.2790.0500.33" class="subp">
+      <a title="Link to subpart 33" class="permalink" href="#rule.2790.0500.33">§</a>
+      <h2 class="subp_no">Subp. 33.</h2>
+      <h2 class="headnote">Federal program information. </h2>
+      <p>An advertisement which offers to provide information concerning the federal Medicare program or any related government program or changes in the program must:</p>
+      <div id="rule.2790.0500.33.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2790.0500.33.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> include no reference to the program on the envelope, the reply envelope, or on the address side of the reply postal card, if any;</p>
+      </div>
+      <div id="rule.2790.0500.33.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2790.0500.33.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> include on any page containing a reference to the program an equally prominent statement to the effect that in providing supplemental coverage the insurer and agent involved in the solicitation are not in any manner connected with the program;</p>
+      </div>
+      <div id="rule.2790.0500.33.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2790.0500.33.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> contain a statement that it is an advertisement for insurance or is intended to obtain insurance prospects;</p>
+      </div>
+      <div id="rule.2790.0500.33.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2790.0500.33.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> prominently identify the insurer or insurers which will issue the coverage; and</p>
+      </div>
+      <div id="rule.2790.0500.33.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2790.0500.33.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> prominently state that any material or information offered will be delivered in person by a representative of the insurer, if that is the case.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2790.0500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.0500.history">
+    <h2>History: </h2>
+    <p>9 SR 175; 17 SR 1279; L 2014 c 291 art 9 s 5</p>
+  </div>
+  <div class="published" id="rule.2790.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> August 12, 2014</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.0550">
+    <h1 class="headnote">2790.0550 REGULATION OF BUSINESS OF FINANCIAL PLANNING.</h1>
+    <div id="rule.2790.0550.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2790.0550.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Definition. </h2>
+      <p>"Business of financial planning" means providing, or offering to provide, financial planning services or financial counseling or advice, on a group or individual basis. An agent or insurer who, on advertisements, cards, signs, circulars, letterheads, or in any other manner, indicates that he or she is a "financial planner," "financial counselor," "financial adviser," "investment counselor," "estate planner," "investment adviser," "financial consultant," or any other similar designation or title or combination thereof, is considered to be representing himself or herself to be engaged in the business of financial planning.</p>
+    </div>
+    <div id="rule.2790.0550.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2790.0550.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Prohibition. </h2>
+      <p>No agent or insurer may represent on advertisements, cards, signs, circulars, letterheads, or in any other manner, that he or she is engaged in the business of financial planning unless he or she provides a disclosure document to the client. The document must be signed by the client, and a copy must be left with the client. The disclosure document must contain the following:</p>
+      <div id="rule.2790.0550.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2790.0550.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the basis of any fees, commissions, or other compensation received by him or her in connection with the rendering of financial planning services or financial counseling or advice in the following language:</p>
+        <p>"My compensation may be based on the following:</p>
+        <p>(a) ... commissions generated from the products I sell you,</p>
+        <p>(b) ... fees, or</p>
+        <p>(c) ... a combination of (a) and (b). [Comments.]";</p>
+      </div>
+      <div id="rule.2790.0550.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2790.0550.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the name and address of any company or firm that supplies the financial services or products offered or sold by him or her in the following language:</p>
+        <p>"I am authorized to offer or sell products and/or services issued by or through the following firm(s):</p>
+        <p class="bl">[List]</p>
+        <p>The products will be traded, distributed, or placed through the clearing/trading firm(s) of:</p>
+        <p class="bl">[List]";</p>
+      </div>
+      <div id="rule.2790.0550.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2790.0550.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the license(s) held by the person under Minnesota Statutes, chapter 60A, 80A, or 82 in the following language:</p>
+        <p>"I am licensed in Minnesota as a(n):</p>
+        <p>(a) ... insurance agent,</p>
+        <p>(b) ... securities agent or broker/dealer,</p>
+        <p>(c) ... real estate broker or salesperson,</p>
+        <p>(d) ... investment adviser"; and</p>
+      </div>
+      <div id="rule.2790.0550.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2790.0550.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> the specific identity of any financial products or services (by category, for example mutual funds, stocks, or limited partnerships) the person is authorized to offer or sell in the following language:</p>
+        <p>"The license(s) entitles me to offer and sell the following products and/or services:</p>
+        <p>(a) ... securities, specifically the following: [List],</p>
+        <p>(b) ... real property,</p>
+        <p>(c) ... insurance,</p>
+        <p>(d) ... other: [List]."</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2790.0550.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/45.023">45.023</a>; <a href="/statutes/cite/60A.17">60A.17</a>; <a href="/statutes/cite/80A.25">80A.25</a>; <a href="/statutes/cite/82.28">82.28</a>; <a href="/statutes/cite/82.47">82.47</a><a href="/statutes/cite/; 82.89">; 82.89</a></p>
+  </div>
+  <div class="history" id="rule.2790.0550.history">
+    <h2>History: </h2>
+    <p>10 SR 274; L 2004 c 203 art 2 s 61</p>
+  </div>
+  <div class="published" id="rule.2790.0550.published">
+    <h2>Published Electronically:</h2>
+    <p> September 18, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.0600">
+    <h1 class="headnote">2790.0600 EXCEPTIONS, REDUCTIONS, AND LIMITATIONS.</h1>
+    <div id="rule.2790.0600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2790.0600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Disclosure. </h2>
+      <p>When an advertisement for health or accident insurance refers to any dollar amount of benefits payable, period of time for which any benefit is payable, cost of a policy, specific policy benefit, or the loss for which the benefit is payable, it must also disclose those exceptions, reductions, and limitations, including waiting, elimination, probationary, or similar periods, and preexisting condition exceptions, affecting the basic provisions of the policy without which the advertisement would have the capacity and tendency to mislead or deceive.</p>
+    </div>
+    <div id="rule.2790.0600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2790.0600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Preexisting conditions summary. </h2>
+      <p>If the policy advertised does not provide immediate coverage for preexisting conditions, an application or enrollment form contained in or included with an advertisement to be completed by the applicant and returned to the insurer must contain a question or statement immediately preceding the applicant's signature line which summarizes the preexisting condition provisions of the policy.</p>
+    </div>
+    <div id="rule.2790.0600.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2790.0600.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Preexisting conditions disclosure. </h2>
+      <p>An advertisement must in negative terms disclose the extent to which any loss is not covered if the cause of the loss is a condition which exists prior to the effective date of the policy. The expression "preexisting conditions" shall not be used unless appropriately defined.</p>
+    </div>
+    <div id="rule.2790.0600.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2790.0600.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Medical exam disclosure. </h2>
+      <p>If a medical examination is required for a policy, an advertisement for that policy must disclose this requirement.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2790.0600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.0600.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.0700">
+    <h1 class="headnote">2790.0700 RENEWABILITY, CANCELABILITY, AND TERMINATION.</h1>
+    <p>An advertisement which refers to renewability, cancelability, or termination of a policy, or which refers to a policy benefit, or which states or illustrates time or age in connection with eligibility of applicants or continuation of the policy, must disclose the provisions relating to renewability, cancelability, and termination and any modification of benefits, losses covered, or premiums because of age or for other reasons, in a manner which would not have the capacity or tendency to mislead, deceive, minimize, or render obscure the qualifying conditions. An advertisement of a group or blanket policy which would otherwise be subject to the disclosure requirements of this part need not disclose the policy's provisions relating to renewability, cancelability, and termination. The advertisement must provide, however, as a minimum, that an insured's coverage is contingent upon his or her continued membership in the group and the continuation of the plan.</p>
+  </div>
+  <div class="stat_auth" id="rule.2790.0700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.0700.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.0700.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.0800">
+    <h1 class="headnote">2790.0800 IDENTITY.</h1>
+    <div id="rule.2790.0800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2790.0800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Disclosure. </h2>
+      <p>The identity of the insurer, agents, or agency must be made clear in all advertisements or representations, whether written or oral.</p>
+    </div>
+    <div id="rule.2790.0800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2790.0800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Names. </h2>
+      <p>An advertisement or representation, whether written or oral, must not use a trade name, an insurance group designation, the name of the parent company of the insurer, the name of a government agency or program, the name of a department or division of an insurer, the name of an agency, the name of any other organization, a service mark, a slogan, a symbol, or any other device which has the capacity or tendency to mislead or deceive as to the identify of the insurer, agents, or agency.</p>
+    </div>
+    <div id="rule.2790.0800.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2790.0800.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Connection with government agency. </h2>
+      <p>An advertisement or representation, whether written or oral, must not use any combination of words, symbols, or materials which, by its content, phraseology, shape, color, nature, or other characteristics, is so similar to combinations of words, symbols, or materials used by federal, state, or local government agencies that it tends to confuse or mislead prospective buyers into believing that the solicitation is in some manner connected with the government agency.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2790.0800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.0800.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.0800.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.0900">
+    <h1 class="headnote">2790.0900 TESTIMONIALS, ENDORSEMENTS, OR COMMENDATIONS BY THIRD PARTIES.</h1>
+    <div id="rule.2790.0900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2790.0900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Disclosure of interests. </h2>
+      <p>If a person, group, or association making a testimonial, endorsement, or a commendatory statement concerning the insurer has a financial interest in the insurer or a related entity as a stockholder, director, officer, employee, or otherwise, the facts must be disclosed in the advertisement or representation, whether written or oral. If the person, organization, or association is compensated for making a testimonial, endorsement, or commendatory statement, the facts must be disclosed in the advertisement or representation, whether written or oral, by language fully disclosing that compensation was paid. This part does not require disclosure of union "scale" wages required by union rules if the payment is actually for the "scale" for television or radio performances. The payment of substantial amounts, directly or indirectly, for "travel and entertainment," for filming or recording of television or radio advertisements remove the filming and recording from the category of an unsolicited testimonial and require disclosure of the compensation.</p>
+    </div>
+    <div id="rule.2790.0900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2790.0900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Approvals or endorsements. </h2>
+      <p>An advertisement or representation, whether written or oral, must not state or imply that an insurer or a policy has been approved or endorsed by any individual, group of individuals, society, association, or other organizations, unless that is the fact, and only if any proprietary relationship between an organization and the insurer is disclosed. If the entity making the endorsement or testimonial has been formed by the insurer or is owned or controlled by the insurer or by a person or persons who are in control of the insurer, the facts must be disclosed in the advertisement.</p>
+    </div>
+    <div id="rule.2790.0900.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2790.0900.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Genuineness. </h2>
+      <p>A testimonial, endorsement, or commendatory statement used in an advertisement or representation, whether written or oral, must be genuine, represent the current opinion of the author, be applicable to the policy advertised, and be accurately reproduced.</p>
+    </div>
+    <div id="rule.2790.0900.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2790.0900.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">General restrictions. </h2>
+      <p>An insurer, agent, or agency shall not use a testimonial, endorsement, or commendatory statement in any advertisement or representation, whether written or oral:</p>
+      <div id="rule.2790.0900.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2790.0900.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> which is fictional;</p>
+      </div>
+      <div id="rule.2790.0900.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2790.0900.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> where the insurer, agent, or agency has some information indicating a substantial change of view on the part of the author;</p>
+      </div>
+      <div id="rule.2790.0900.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2790.0900.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> where more than two years have elapsed from the date of the testimonial or the last confirmation of the statement without obtaining a confirmation that the statement represents the author's current opinion;</p>
+      </div>
+      <div id="rule.2790.0900.4.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2790.0900.4.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> which does not accurately reflect the present practice of the insurer, agent, or agency;</p>
+      </div>
+      <div id="rule.2790.0900.4.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2790.0900.4.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> which refers to a policy other than the one for which such statement was given, unless the statement clearly has some reasonable application to the other policy;</p>
+      </div>
+      <div id="rule.2790.0900.4.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.2790.0900.4.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> in which a change or omission has been effected which alters or distorts its meaning or intent as originally written; or</p>
+      </div>
+      <div id="rule.2790.0900.4.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.2790.0900.4.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> if it contains a description of benefit payments which does not disclose the true nature of the insurance coverage under which the benefits were paid.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2790.0900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.0900.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.0900.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.1000">
+    <h1 class="headnote">2790.1000 JURISDICTIONAL LICENSING.</h1>
+    <div id="rule.2790.1000.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2790.1000.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Misrepresentation. </h2>
+      <p>An advertisement which may be seen or heard beyond the limits of the jurisdiction in which the insurer is licensed must not imply licensing beyond those limits.</p>
+    </div>
+    <div id="rule.2790.1000.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2790.1000.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Disclosure. </h2>
+      <p>Advertisements by direct mail insurers must indicate that the insurer is licensed in a specified state or states, or is not licensed in a specified state or states, by use of some language such as "This company is licensed in state A" or "This company is not licensed in state B."</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2790.1000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.1000.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.1000.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.1100">
+    <h1 class="headnote">2790.1100 APPROVAL BY GOVERNMENT AGENCY.</h1>
+    <div id="rule.2790.1100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2790.1100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Misleading advertisements. </h2>
+      <p>An advertisement or representation, whether written or oral, must not state or imply, or otherwise create the impression directly or indirectly, that the insurer, its financial condition or status, the payment of its claims, its policy forms or the merits or desirability of its policy forms or kinds or plans of insurance are approved, endorsed, or accredited by any agency of this state or the federal government, unless that is the fact.</p>
+    </div>
+    <div id="rule.2790.1100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2790.1100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Licensing as endorsement disclaimed. </h2>
+      <p>In any advertisement or representation, whether written or oral, any reference to licensing must contain an appropriate disclaimer that the reference is not to be construed as an endorsement or implied endorsement of the insurer, agent, or agencies by the Department of Commerce or any other agency of this state.</p>
+    </div>
+    <div id="rule.2790.1100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2790.1100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Reproduction of report of examination prohibited. </h2>
+      <p>No advertisement or representation, whether written or oral, may reproduce any portion of a Department of Commerce report of examination.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2790.1100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.1100.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.1100.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.1200">
+    <h1 class="headnote">2790.1200 INTRODUCTORY, INITIAL, OR SPECIAL OFFERS IN LIMITED ENROLLMENT PERIODS.</h1>
+    <div id="rule.2790.1200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2790.1200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Regulation. </h2>
+      <p>An advertisement or representation, whether written or oral, must not state or imply that a policy or combination of policies is an introductory, initial, or special offer and that the applicant will receive advantages not available at a later date by accepting the offer, that only a limited number of policies will be sold, that a time is fixed for the discontinuance of the sale of the policy advertised because of special advantages available in the policies, or that an applicant will receive special advantages by enrolling within an open enrollment period or by a deadline date, unless that is fact.</p>
+    </div>
+    <div id="rule.2790.1200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2790.1200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Disclosure of enrollment period. </h2>
+      <p>A written advertisement shall not state or imply that enrollment under a policy is limited to a specific period unless the period of time permitted to enroll is disclosed.</p>
+    </div>
+    <div id="rule.2790.1200.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2790.1200.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Disclosure of similar offers. </h2>
+      <p>If the insurer making a special offer has previously offered the same or similar policy on the same basis or intends to repeat the current offer for the same or similar policy, the advertisement or representation, whether written or oral, must so indicate.</p>
+    </div>
+    <div id="rule.2790.1200.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2790.1200.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Limits of timing of enrollment periods. </h2>
+      <p>An insurer must not establish for residents of this state a limited enrollment period within which an individual policy or certificate may be purchased less than six months after the close of an earlier limited enrollment period for the same or similar policy or certificate. This restriction also applies to all advertisements or representations, whether written or oral, soliciting enrollment under mass marketed or direct response solicitations for life or health insurance coverage.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2790.1200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.1200.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.1200.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.1300">
+    <h1 class="headnote">2790.1300 GROUP, QUASI-GROUP, OR SPECIAL CLASS IMPLICATIONS.</h1>
+    <p>An advertisement or representation, whether written or oral, must not state or imply that prospective policyholders or members of a particular class of individuals become group or quasi-group members or are uniquely eligible for a special policy or coverage and as such will be subject to special rates or underwriting privileges or that a particular coverage or policy is exclusively for preferred risk, a particular segment of people, or a particular age group or groups, unless that is the fact.</p>
+  </div>
+  <div class="stat_auth" id="rule.2790.1300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.1300.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.1300.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.1400">
+    <h1 class="headnote">2790.1400 IDENTIFICATION OF PLAN OR NUMBERS OF POLICIES.</h1>
+    <div id="rule.2790.1400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2790.1400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Benefits to depend on plan selected. </h2>
+      <p>When an advertisement or representation, whether written or oral, refers to a choice regarding benefit amounts, it must disclose that the benefit amounts provided will depend upon the plan selected and that the premium will vary with the amount of the benefits.</p>
+    </div>
+    <div id="rule.2790.1400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2790.1400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Benefits requiring combination of policies. </h2>
+      <p>When an advertisement refers to various benefits which may be contained in two or more policies, other than group policies, it must disclose that the benefits are provided only through a combination of the policies.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2790.1400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.1400.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.1400.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.1500">
+    <h1 class="headnote">2790.1500 USE OF STATISTICS.</h1>
+    <div id="rule.2790.1500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2790.1500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Relevant facts. </h2>
+      <p>An advertisement or representation, whether written or oral, relating to the dollar amounts of claims paid, the number of persons insured, or similar statistical information relating to any insurer or policy must not be used unless it accurately reflects all of the relevant facts. Irrelevant statistical data shall not be used. The sources of all statistical information must be disclosed in the advertisement or representation.</p>
+    </div>
+    <div id="rule.2790.1500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2790.1500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Applicable statistics. </h2>
+      <p>An advertisement or representation, whether written or oral, must not imply that any statistics used are derived from the policy advertised unless those statistics are derived from the policy.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2790.1500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.1500.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.1500.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.1600">
+    <h1 class="headnote">2790.1600 INSPECTION OF POLICY.</h1>
+    <div id="rule.2790.1600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2790.1600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Effect. </h2>
+      <p>An offer in an advertisement or representation, whether written or oral, of free inspection of a policy or offer of a premium refund is not a cure for misleading or deceptive statements contained in the advertisement or representation.</p>
+    </div>
+    <div id="rule.2790.1600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2790.1600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Return disclosure. </h2>
+      <p>An advertisement or representation, whether written or oral, which refers to the provision in the policy advertised or represented regarding the right to return the policy must disclose the time limitation applicable to this right.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2790.1600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.1600.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.1600.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.1700">
+    <h1 class="headnote">2790.1700 DISPARAGING COMPARISONS AND STATEMENTS.</h1>
+    <p>An advertisement must not directly or indirectly make unfair or incomplete comparisons of policies or benefits or otherwise falsely or unfairly disparage, discredit, or criticize competitors, their policies, services, or business methods or competing marketing methods.</p>
+  </div>
+  <div class="stat_auth" id="rule.2790.1700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.1700.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.1700.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.1750">
+    <h1 class="headnote repealed">2790.1750</h1>
+    <p>[Repealed, L 2007 c 104 sec 23]</p>
+  </div>
+  <div class="published" id="rule.2790.1750.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.1751">
+    <h1 class="headnote repealed">2790.1751</h1>
+    <p>[Repealed, L 2007 c 104 sec 23] </p>
+  </div>
+  <div class="published" id="rule.2790.1751.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.1800">
+    <h1 class="headnote">2790.1800 STATEMENT ABOUT AN INSURER.</h1>
+    <p>An advertisement must not contain statements which are untrue in fact or by implication misleading with respect to the insurer's assets, corporate structure, financial standing, age, experience, or relative position in the insurance business.</p>
+  </div>
+  <div class="stat_auth" id="rule.2790.1800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.1800.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.1800.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.1900">
+    <h1 class="headnote">2790.1900 SERVICE FACILITIES.</h1>
+    <p>An advertisement or representation, whether written or oral, must not contain untrue statements with respect to the time within which claims are paid or statements which imply that claim settlements will be liberal or generous beyond the terms of the policy, or contain a description of a claim which involves unique or highly unusual circumstances.</p>
+  </div>
+  <div class="stat_auth" id="rule.2790.1900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.1900.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.1900.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.2000">
+    <h1 class="headnote">2790.2000 INSURER'S ADVERTISING FILE.</h1>
+    <div id="rule.2790.2000.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2790.2000.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Retention of copies. </h2>
+      <p>Each insurer shall maintain at its home or principal office a complete file containing every printed, published, or prepared advertisement of individual policies and typical printed, published, or prepared advertisements of blanket, franchise, or group policies hereafter disseminated in this or any other state whether or not licensed in the other state. A notation must be attached to each advertisement in the file indicating the manner and extent of distribution and the form number of any policy, amendment, rider, or endorsement form advertised. The company must be able to identify and provide a copy of the policy advertised, together with any amendment, rider, or endorsement applicable thereto. All advertisements must be maintained for a period of not less than three years. The file is subject to regular and periodic inspection by the Department of Commerce.</p>
+    </div>
+    <div id="rule.2790.2000.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2790.2000.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Affidavit with annual statement. </h2>
+      <p>Each insurer required to file an annual statement which is now or which hereafter becomes subject to the provisions of this chapter must file with the Department of Commerce together with its annual statement, a certificate executed by an authorized officer of the insurer wherein it is stated that to the best of their knowledge, information, and belief, that the advertisements which were disseminated by the insurer during the preceding statement year complied or were made to comply in all respects with the provisions of the insurance laws of this state as implemented and interpreted by this chapter.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2790.2000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.2000.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.2000.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.2100">
+    <h1 class="headnote">2790.2100 RESPONSIBILITY OF INSURER, AGENT, OR AGENCY.</h1>
+    <div id="rule.2790.2100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2790.2100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">System of control required. </h2>
+      <p>Every insurer, agent, or agency shall establish and at all times maintain a system of control over the content, form, and method of advertisements and representations, oral and written, concerning its policies. All advertisements and representations, whether written or oral, regardless of by whom written, created, designed, or presented, shall be the responsibility of the insurer whose policies are so advertised or represented.</p>
+    </div>
+    <div id="rule.2790.2100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2790.2100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Prior approval by insurer. </h2>
+      <p>An insurer shall require its agents or agencies and any other person or agency preparing advertisements naming the insurer or its products to submit proposed advertisements to it for approval prior to use.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2790.2100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS c 60A; 72A</p>
+  </div>
+  <div class="history" id="rule.2790.2100.history">
+    <h2>History: </h2>
+    <p>9 SR 175</p>
+  </div>
+  <div class="published" id="rule.2790.2100.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2790.2200">
+    <h1 class="headnote">2790.2200 PENALTY.</h1>
+    <p>Violations of this chapter subject the violator to the penalties described in Minnesota Statutes, chapters 45, 60A, and 62A.</p>
+  </div>
+  <div class="stat_auth" id="rule.2790.2200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/45.023">45.023</a>; <a href="/statutes/cite/45.025">45.025</a></p>
+  </div>
+  <div class="history" id="rule.2790.2200.history">
+    <h2>History: </h2>
+    <p>9 SR 175; 13 SR 1378</p>
+  </div>
+  <div class="published" id="rule.2790.2200.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

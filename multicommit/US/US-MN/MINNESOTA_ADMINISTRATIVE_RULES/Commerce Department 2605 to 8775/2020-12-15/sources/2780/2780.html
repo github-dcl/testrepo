@@ -1,0 +1,2362 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            2780.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/120">Commerce Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/2780/">Chapter 2780</a>
+            </li>
+        
+    
+        
+            <li>Part 2780.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/2780.0200/">2780.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/2780.0100/2014-01-18%2002:32:12+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 2780</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2780/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2780/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2780/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 2780.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2780.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.0100">
+    <h1 class="headnote">2780.0100 DEFINITIONS.</h1>
+    <div id="rule.2780.0100.1" class="subp repealed">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2780.0100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <p>[Repealed, 12 SR 846]</p>
+    </div>
+    <div id="rule.2780.0100.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2780.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 12 SR 846]</p>
+    </div>
+    <div id="rule.2780.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2780.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Classification. </h2>
+      <p>"Classification" means the manual classification as determined by the Workers' Compensation Insurers Rating Association's manual of rules, rates, and classifications approved for use in Minnesota by the commissioner, pursuant to Minnesota Statutes, section <a href="/statutes/cite/79.071">79.071</a>.</p>
+    </div>
+    <div id="rule.2780.0100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2780.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Commissioner. </h2>
+      <p>"Commissioner" means the commissioner of commerce.</p>
+    </div>
+    <div id="rule.2780.0100.5" class="subp repealed">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2780.0100.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <p>[Repealed, 12 SR 846]</p>
+    </div>
+    <div id="rule.2780.0100.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.2780.0100.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Current ratio. </h2>
+      <p>"Current ratio" means the ratio of current assets to current liabilities in the most recent financial statement.</p>
+    </div>
+    <div id="rule.2780.0100.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.2780.0100.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Deficit. </h2>
+      <p>"Deficit" as regards the group self-insurer's fund means the excess of the amount necessary to fulfill all obligations under the Workers' Compensation Act for all fund years that the group has been in operation over all fund moneys.</p>
+    </div>
+    <div id="rule.2780.0100.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.2780.0100.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Fund. </h2>
+      <p>"Fund" means self-insurer's fund.</p>
+    </div>
+    <div id="rule.2780.0100.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.2780.0100.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Fund year. </h2>
+      <p>"Fund year" for group self-insurers means that period of time which the group self-insurer shall designate for the purposes of collecting premiums from its members and for determining any deficit or surplus. Such period of time shall correspond with the fiscal year of the group. Any claim arising within the accident year upon which the fund year is based shall be included in that fund year.</p>
+    </div>
+    <div id="rule.2780.0100.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.2780.0100.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Modified premium. </h2>
+      <p>"Modified premium" means the total manual premium as defined in the Workers' Compensation Insurers Rating Association's manual of rules, classification, and rates approved for use in Minnesota, modified by an experience rating plan approved by the commissioner, pursuant to Minnesota Statutes, section <a href="/statutes/cite/79.071">79.071</a>.</p>
+    </div>
+    <div id="rule.2780.0100.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.2780.0100.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Self-insurer. </h2>
+      <p>"Self-insurer" means both individual and group self-insurers unless the context clearly indicates a more restrictive definition.</p>
+    </div>
+    <div id="rule.2780.0100.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.2780.0100.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Self-insurer's fund. </h2>
+      <p>"Self-insurer's fund" means any monetary fund or account created by a group self-insurer to pay workers' compensation claims due under the Workers' Compensation Act.</p>
+    </div>
+    <div id="rule.2780.0100.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.2780.0100.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Surplus. </h2>
+      <p>"Surplus," as regards the group self-insurer's fund, means the excess of all fund moneys over the amount necessary to fulfill all obligations under the Workers' Compensation Act for all fund years that the group has been in operation.</p>
+    </div>
+    <div id="rule.2780.0100.14" class="subp">
+      <a title="Link to subpart 14" class="permalink" href="#rule.2780.0100.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <h2 class="headnote">Workers' Compensation Act. </h2>
+      <p>"Workers' Compensation Act" means Minnesota Statutes, chapter 176.</p>
+    </div>
+    <div id="rule.2780.0100.15" class="subp">
+      <a title="Link to subpart 15" class="permalink" href="#rule.2780.0100.15">§</a>
+      <h2 class="subp_no">Subp. 15.</h2>
+      <h2 class="headnote">Workers' Compensation Reinsurance Association; WCRA. </h2>
+      <p>"Workers' Compensation Reinsurance Association" means that association governed by Minnesota Statutes, sections <a href="/statutes/cite/79.34">79.34</a> to <a href="/statutes/cite/79.40">79.40</a>.</p>
+    </div>
+    <div id="rule.2780.0100.16" class="subp">
+      <a title="Link to subpart 16" class="permalink" href="#rule.2780.0100.16">§</a>
+      <h2 class="subp_no">Subp. 16.</h2>
+      <h2 class="headnote">Workers' compensation service company. </h2>
+      <p>"Workers' compensation service company" means an entity which has obtained a license from the commissioner pursuant to parts <a href="/rules/2780.6100">2780.6100</a> to <a href="/rules/2780.6900">2780.6900</a> to contract with self-insurers for the purpose of providing services necessary to plan and maintain an approved self-insurance program. An employer that has been granted the authority to self-insure pursuant to parts <a href="/rules/2780.1100">2780.1100</a> to <a href="/rules/2780.1700">2780.1700</a> and administers its own self-insurance program shall be deemed a duly licensed workers' compensation service company for the purposes of servicing a self-insurance program of any affiliated company.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/45.023">45.023</a>; <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="history" id="rule.2780.0100.history">
+    <h2>History: </h2>
+    <p>L 1983 c 289 s 114 subd 1; L 1984 c 655 art 1 s 92; 12 SR 846</p>
+  </div>
+  <div class="published" id="rule.2780.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.0200">
+    <h1 class="headnote repealed">2780.0200</h1>
+    <p>[Repealed, 12 SR 846]</p>
+  </div>
+  <div class="published" id="rule.2780.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.0300">
+    <h1 class="headnote repealed">2780.0300</h1>
+    <p>[Repealed, 12 SR 846]</p>
+  </div>
+  <div class="published" id="rule.2780.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.0400">
+    <h1 class="headnote">2780.0400 INTEREST ON SECURITIES.</h1>
+    <div id="rule.2780.0400.1" class="subp repealed">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2780.0400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <p>[Repealed, 18 SR 1472]</p>
+    </div>
+    <div id="rule.2780.0400.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2780.0400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, L 1992 c 510 art 5 s 10]</p>
+    </div>
+    <div id="rule.2780.0400.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2780.0400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, L 1992 c 510 art 5 s 10]</p>
+    </div>
+    <div id="rule.2780.0400.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2780.0400.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Interest. </h2>
+      <p>Interest accruing on any negotiable securities deposited shall be collected and transmitted to the depositor, provided that the depositor is not in default in payment of compensation, premiums due to WCRA, or any assessments levied by the Department of Labor and Industry under Minnesota Statutes, section <a href="/statutes/cite/176.131">176.131</a>.</p>
+    </div>
+    <div id="rule.2780.0400.5" class="subp repealed">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2780.0400.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <p>[Repealed, 12 SR 846]</p>
+    </div>
+    <div id="rule.2780.0400.6" class="subp repealed">
+      <a title="Link to subpart 6" class="permalink" href="#rule.2780.0400.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <p>[Repealed, L 1992 c 510 art 5 s 10]</p>
+    </div>
+    <div id="rule.2780.0400.7" class="subp repealed">
+      <a title="Link to subpart 7" class="permalink" href="#rule.2780.0400.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <p>[Repealed, L 1992 c 510 art 5 s 10]</p>
+    </div>
+    <div id="rule.2780.0400.8" class="subp repealed">
+      <a title="Link to subpart 8" class="permalink" href="#rule.2780.0400.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <p>[Repealed, L 1992 c 510 art 5 s 10]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/45.023">45.023</a>; <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="history" id="rule.2780.0400.history">
+    <h2>History: </h2>
+    <p>L 1992 c 510 art 5 s 10; 18 SR 1472</p>
+  </div>
+  <div class="published" id="rule.2780.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.0500">
+    <h1 class="headnote">2780.0500 FILING REPORTS.</h1>
+    <p>Filing reports:</p>
+    <div id="rule.2780.0500.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2780.0500.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> Incurred losses, paid and unpaid, specifying indemnity and medical losses by classification, payroll by classification, and current estimated outstanding liability for workers' compensation shall be reported to the commissioner by each self-insurer on a calendar year basis, in a manner and on forms available from the commissioner. Payroll information must be filed by April 1 of the following year, and loss information and total workers' compensation liability must be filed by August 1 of the following year.</p>
+    </div>
+    <div id="rule.2780.0500.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2780.0500.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> Each self-insurer shall, under oath, attest to the accuracy of each report submitted pursuant to item A. Upon sufficient cause, the commissioner shall require the self-insurer to submit a certified audit of payroll and claim records conducted by an independent auditor approved by the commissioner, based on generally accepted accounting principles and generally accepted auditing standards, and supported by an actuarial review and opinion of the future contingent liabilities. The basis for sufficient cause shall include the following factors: where the losses reported appear significantly different from similar type businesses; where major changes in the reports exist from year to year, which are not solely attributable to economic factors; or where the commissioner has reason to believe that the losses and payroll in the report do not accurately reflect the losses and payroll of that employer. If any discrepancy is found, the commissioner shall require changes in the self-insurer's or workers' compensation service company record keeping practices.</p>
+    </div>
+    <div id="rule.2780.0500.C" class="item repealed">
+      <a title="Link to item C" class="permalink" href="#rule.2780.0500.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> [Repealed, L 1999 c 177 s 88]</p>
+    </div>
+    <div id="rule.2780.0500.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.2780.0500.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> Each individual self-insurer shall, within four months after the end of its fiscal year, annually file with the commissioner its latest 10K report required by the Securities and Exchange Commission. If an individual self-insurer does not prepare a 10K report, it shall file an annual certified financial statement, together with such other financial information as the commissioner may require to substantiate data in the financial statement.</p>
+    </div>
+    <div id="rule.2780.0500.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.2780.0500.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> Each group self-insurer shall, within four months after the end of the fiscal year for that group, annually file a statement showing the combined net worth of its members based upon an accounting review performed by a certified public accountant, together with such other financial information the commissioner may require to substantiate data in the group's summary statement. This item shall not apply if the applicable financial requirements have been waived pursuant to part <a href="/rules/2780.2300">2780.2300</a>.</p>
+    </div>
+    <div id="rule.2780.0500.F" class="item">
+      <a title="Link to item F" class="permalink" href="#rule.2780.0500.F">§</a>
+      <h3 class="item_no">F.</h3>
+      <p> In addition to the financial statements required by items D and E, interim financial statements or 10Q reports required by the Securities and Exchange Commission may be required by the commissioner upon an indication that there has been deterioration in the self-insurer's financial condition, including a worsening of current ratio, lessening of net worth, net loss of income, the downgrading of the company's bond rating, or any other significant change that may adversely affect the self-insurer's ability to pay expected losses. Any self-insurer that files an 8K report with the Securities and Exchange Commission shall also file a copy of the report with the commissioner within 30 days of the filing with the Securities and Exchange Commission.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.0500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="history" id="rule.2780.0500.history">
+    <h2>History: </h2>
+    <p>L 1999 c 177 s 88</p>
+  </div>
+  <div class="published" id="rule.2780.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.0600">
+    <h1 class="headnote">2780.0600 GROUNDS FOR REVOCATION OF SELF-INSURANCE AUTHORITY.</h1>
+    <p>The following shall constitute grounds for revocation of the authority to self-insure:</p>
+    <div id="rule.2780.0600.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2780.0600.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> failure to comply with parts <a href="/rules/2780.0100">2780.0100</a> to <a href="/rules/2780.5000">2780.5000</a>;</p>
+    </div>
+    <div id="rule.2780.0600.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2780.0600.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> failure to comply with any lawful order of the commissioner;</p>
+    </div>
+    <div id="rule.2780.0600.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.2780.0600.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> failure to comply with any provision of the Workers' Compensation Act;</p>
+    </div>
+    <div id="rule.2780.0600.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.2780.0600.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> a deterioration of financial condition adversely affecting the self-insurer's ability to pay expected losses, including a worsening of the current ratio, a lessening of net worth, a net loss of income, or the failure of the self-insurer to meet the net worth standards of part <a href="/rules/2780.1200">2780.1200</a>, subpart 1, or <a href="/rules/2780.2200">2780.2200</a>;</p>
+    </div>
+    <div id="rule.2780.0600.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.2780.0600.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> committing an unfair or deceptive act or practice as defined in Minnesota Statutes, section <a href="/statutes/cite/72A.20">72A.20</a>; or</p>
+    </div>
+    <div id="rule.2780.0600.F" class="item">
+      <a title="Link to item F" class="permalink" href="#rule.2780.0600.F">§</a>
+      <h3 class="item_no">F.</h3>
+      <p> failure to abide by the plan of operation of the WCRA.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.0600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.1100">
+    <h1 class="headnote">2780.1100 APPLICATION FOR SELF-INSURER STATUS.</h1>
+    <div id="rule.2780.1100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2780.1100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Procedure. </h2>
+      <p>Each employer desiring to self-insure individually shall apply to the commissioner on forms available from the commissioner. The commissioner shall grant or deny the application within 30 days after a complete application is filed. Such time limit may be extended for another 30 days upon 15 days' prior notice to the applicant. Any grant of authority to self-insure shall continue in effect until revoked by order of the commissioner or until such time as the employer becomes insured.</p>
+    </div>
+    <div id="rule.2780.1100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2780.1100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Certified financial statement. </h2>
+      <p>Each application for self-insurance shall be accompanied by a certified financial statement. Certified financial statements for a period ending more than six months prior to the date of the application must be accompanied by an affidavit, signed by a company officer under oath, stating that there has been no material lessening of the net worth nor other adverse changes in its financial condition since the end of the period.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.1100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.1100.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.1200">
+    <h1 class="headnote">2780.1200 FINANCIAL STANDARDS.</h1>
+    <div id="rule.2780.1200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2780.1200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Net worth. </h2>
+      <p>Each individual self-insurer shall have and maintain a net worth at least equal to the greater of ten times the retention limit selected with the WCRA or one-third the amount of the self-insurer's current annual modified premium. The requirements of this subpart shall be modified if the self-insurer can demonstrate through a reinsurance program, other than coverage provided by the WCRA, that it can pay expected losses without endangering the financial stability of the company.</p>
+    </div>
+    <div id="rule.2780.1200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2780.1200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Assets, net worth, and liquidity. </h2>
+      <p>Each individual self-insurer shall have and maintain sufficient assets, net worth, and liquidity to promptly and completely meet all of its obligations that may arise under the Workers' Compensation Act. In determining whether a self-insurer meets this requirement, the commissioner shall consider the self-insurer's current ratio; its long-term and short-term debt to equity ratios; its net worth; financial characteristics of the particular industry in which the self-insurer is involved; any recent changes in the management and ownership of the company; any excess insurance purchased by the self-insurer from a licensed company or an authorized surplus line carrier, other than excess insurance from the WCRA; any other financial data submitted to the commissioner by the company; and the company's workers' compensation experience for the last four years.</p>
+    </div>
+    <div id="rule.2780.1200.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2780.1200.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Guarantee by affiliates. </h2>
+      <p>Where an employer seeking to self-insure fails to meet the financial requirements set forth in subparts 1 and 2, the commissioner shall grant authority to self-insure provided that an affiliated company, whose financial statement is filed with the commissioner and meets the requirements set forth in subparts 1 and 2, provides a written guarantee adopted by resolution of its board of directors that it will pay all workers' compensation claims incurred by its affiliate, and that it will not terminate the guarantee under any circumstances without first giving the commissioner and its affiliate 30 days' written notice. If said guarantee is withdrawn or if the guarantor ceases being an affiliate, the affiliate shall give written notice to the commissioner and the self-insured. The self-insured's authority to self-insure shall automatically terminate upon expiration of the 30-day notice period.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.1200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.1200.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.1300">
+    <h1 class="headnote">2780.1300 AGREEMENT TO PAY BENEFITS.</h1>
+    <p>Each individual self-insurer shall agree to fully discharge by cash payment, or other form of benefit approved by the Department of Labor and Industry, all amounts required to be paid by the provisions of the Workers' Compensation Act.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.1300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.1300.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.1400">
+    <h1 class="headnote">2780.1400 DEPOSIT OF SECURITIES OR BONDS.</h1>
+    <div id="rule.2780.1400.1" class="subp repealed">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2780.1400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <p>[Repealed, 12 SR 846]</p>
+    </div>
+    <div id="rule.2780.1400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2780.1400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Exemption. </h2>
+      <p>No deposit shall be required of a self-insurer that has had its workers' compensation liability guaranteed pursuant to part <a href="/rules/2780.1200">2780.1200</a>, subpart 3, provided that the affiliated company is required to make a deposit and the self-insurer's outstanding workers' compensation liability is included in the determination of the affiliate's deposit.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.1400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.1400.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.1500">
+    <h1 class="headnote">2780.1500 ADMINISTRATION OF CLAIMS.</h1>
+    <div id="rule.2780.1500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2780.1500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Equitable. </h2>
+      <p>Each individual self-insurer shall administer insurance claims in a fair and equitable manner.</p>
+    </div>
+    <div id="rule.2780.1500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2780.1500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Qualifications of administrators. </h2>
+      <p>Each individual self-insurer shall designate those employees who will administer their self-insurance program, and shall specify their qualifications to engage in the administration of the self-insurance program. If a self-insurer contracts with another entity for the administration of its program, including adjustments of claims or administration of loss control or safety engineering programs, the self-insurer shall only contract with a workers' compensation service company duly licensed for those specific areas of program administration.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.1500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.1500.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.1600">
+    <h1 class="headnote">2780.1600 SALE OR MERGER OF SELF-INSURER.</h1>
+    <p>When a self-insurer is sold to or merged with another entity, the self-insurer shall give notice to the commissioner within 30 days of the sale or merger. At that time, the new owner shall file a consolidated financial statement, and the commissioner shall have the discretion to revoke the employer's authority to self-insure if the consolidated financial statement does not meet the requirements of part <a href="/rules/2780.1200">2780.1200</a>, subparts 1 and 2. The burden shall be on the new owner to qualify pursuant to parts <a href="/rules/2780.1100">2780.1100</a> to <a href="/rules/2780.1800">2780.1800</a>.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.1600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.1600.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.1700">
+    <h1 class="headnote">2780.1700 FEDERAL GUARANTEE; EXEMPTION.</h1>
+    <p>Any employer whose workers' compensation liability has been guaranteed by the federal government shall not be required to file a certified financial statement pursuant to part <a href="/rules/2780.1200">2780.1200</a>, subpart 2, provided that on termination of any such guarantee, the employer's authority to self-insure shall be void.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.1700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.1700.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.1800">
+    <h1 class="headnote">2780.1800 NOTICE OF VOLUNTARY TERMINATION.</h1>
+    <p>Any individual self-insurer that voluntarily terminates its self-insurance authority shall give notice to the commissioner not less than 30 days before the termination is to occur.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.1800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.1800.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.2100">
+    <h1 class="headnote">2780.2100 APPLICATIONS FOR GROUP SELF-INSURANCE.</h1>
+    <p>Applications for group self-insurance:</p>
+    <div id="rule.2780.2100.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2780.2100.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> Two or more employers in the same industry may apply to the commissioner for the authority to self-insure as a group on forms available from the commissioner. This initial application shall be accompanied by a copy of the bylaws or plan of operation adopted by the group. Such bylaws or plan of operation shall conform to the conditions prescribed by parts <a href="/rules/2780.2100">2780.2100</a> to <a href="/rules/2780.5000">2780.5000</a>. The commissioner shall approve or disapprove the bylaws within 30 days unless a question as to the legality of a specific bylaw or plan provision has been referred to the Attorney General's Office. The commissioner shall make a determination as to the application within 15 days after receipt of the requested response from the Attorney General's Office.</p>
+    </div>
+    <div id="rule.2780.2100.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2780.2100.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> After the initial application and the bylaws or plan of operation have been approved by the commissioner or at the time of the initial application, the group shall submit the names of employers that will be members of the group; an indemnity agreement providing for joint and several liability for all group members for any and all workers' compensation claims incurred by any member of the group, as set forth in part <a href="/rules/2780.9920">2780.9920</a>, signed by an officer of each member; and an accounting review performed by a certified public accountant. A certified financial audit may be filed in lieu of an accounting review.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.2100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.2100.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.2200">
+    <h1 class="headnote">2780.2200 FINANCIAL STANDARDS.</h1>
+    <p>A group proposing to self-insure shall have and maintain:</p>
+    <div id="rule.2780.2200.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2780.2200.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> A combined net worth of all of the members of at least equal to the greater of ten times the retention selected with the WCRA or one-third of the current annual modified premium of the members. The requirements of this item shall be modified if the self-insurer can demonstrate that through excess insurance, other than coverage provided by the WCRA, that it can pay expected losses.</p>
+    </div>
+    <div id="rule.2780.2200.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2780.2200.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> Sufficient assets, net worth, and liquidity to promptly and completely meet all obligations of its members under the Workers' Compensation Act. In determining whether a group is in sound financial condition, consideration shall be given to the combined net worth of the member companies; the consolidated long-term and short-term debt to equity ratios of the member companies; the particular industry that the member companies are engaged in; any excess insurance other than reinsurance with the WCRA, purchased by the group from an insurer licensed in Minnesota or from an authorized surplus line carrier; other financial data requested by the commissioner or submitted by the group; and the combined workers' compensation experience of the group for the last four years.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.2200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.2200.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.2300">
+    <h1 class="headnote">2780.2300 WAIVER OF FINANCIAL REQUIREMENTS.</h1>
+    <p>The financial requirements of parts <a href="/rules/2780.2100">2780.2100</a>, item B, and <a href="/rules/2780.2200">2780.2200</a> shall be waived if the group self-insurer has purchased aggregate excess insurance from an insurer licensed to do business in the state of Minnesota, and that excess insurance indemnifies all losses of the group self-insurer, other than those reimbursable by the Workers' Compensation Reinsurance Association, in excess of the annual premiums collected by the group less the sum of annual administrative costs, premiums payable to the Workers' Compensation Reinsurance Association, and premiums payable to the excess insurer. If aggregate excess insurance is terminated, the service company shall inform the commissioner within two days after receipt of notice of cancellation.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.2300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.2300.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.2400">
+    <h1 class="headnote">2780.2400 PROCESSING APPLICATION.</h1>
+    <p>The commissioner shall grant or deny the group's application to self-insure within 30 days after a complete application has been filed, provided that such time may be extended for an additional 30 days upon 15 days prior notice to the applicant. The commissioner shall grant approval for self-insurance upon a determination that the financial ability of the self-insurer's group is sufficient to fulfill all joint and several obligations of the member companies that may arise under the Workers' Compensation Act; the gross annual premium of the group members is at least $300,000; the group has established a fund pursuant to parts <a href="/rules/2780.4100">2780.4100</a> to <a href="/rules/2780.5000">2780.5000</a>; the group has contracted with a licensed workers' compensation service company to administer its program; the required securities or surety bond shall be on deposit prior to the effective date of coverage for any member; and all of the member companies are engaged in the same industry. Such approval shall be effective until revoked by order of the commissioner or until the employer members of the group become insured.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.2400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.2400.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.2500">
+    <h1 class="headnote">2780.2500 ADMINISTRATION OF PROGRAM.</h1>
+    <p>Each group self-insurer shall contract with a workers' compensation service company licensed pursuant to parts <a href="/rules/2780.6100">2780.6100</a> to <a href="/rules/2780.6900">2780.6900</a> to administer its program, or employ such personnel that will qualify the group as a licensed workers' compensation service company. The service company shall have the sole authority to make claim and reserve determinations regarding injured workers of the member employers.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.2500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.2500.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.2600">
+    <h1 class="headnote">2780.2600 GROUP SELF-INSURER'S FUND.</h1>
+    <p>Each group self-insurer shall establish a group self-insurer's fund pursuant to parts <a href="/rules/2780.4100">2780.4100</a> to <a href="/rules/2780.5000">2780.5000</a>, which shall be administered by the board of directors of the group.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.2600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.2600.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.2700">
+    <h1 class="headnote repealed">2780.2700</h1>
+    <p>[Repealed, 12 SR 846; L 1989 c 260 s 25]</p>
+  </div>
+  <div class="published" id="rule.2780.2700.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.2800">
+    <h1 class="headnote">2780.2800 GROUP MEMBERSHIP.</h1>
+    <div id="rule.2780.2800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2780.2800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Period. </h2>
+      <p>An employer must belong to the group for at least one year. If a member voluntarily terminates its membership in a group during the second or third year of membership, the group self-insurer shall assess the following member at least the following penalties: 25 percent of the premium due from that member for that year if termination occurs within the second year of membership, and 15 percent of the premium due from that member for that year if termination occurs within the third year. No penalty shall be required if an employer's withdrawal is due to merger, dissolution, sale of the company, or change in the type of business so that it is no longer engaged in the same industry as the rest of the employers of the group. Following the completion of three consecutive years of membership in the group, withdrawal from the group shall be allowed without penalty, provided that 90 days' advance written notice is given to the board of directors of the group, and the group's plan of operation or bylaws allow such withdrawal without a penalty. Any penalty assessed pursuant to this subpart shall be paid to the group's self-insurer's fund.</p>
+    </div>
+    <div id="rule.2780.2800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2780.2800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Withdrawal or expulsion. </h2>
+      <p>Upon receipt of any notice of a member to withdraw or a decision by the board of directors to expel a member, the group self-insurer shall give immediate notice to the commissioner and then, as soon as practicable, reevaluate its net worth and financial condition. If the consolidated net worth or financial condition of the group, excluding the terminating or expelled member, fails to meet the requirements specified in part <a href="/rules/2780.2200">2780.2200</a>, the group shall so notify the commissioner within 15 days and advise the commissioner of its plan for bringing the group into compliance with part <a href="/rules/2780.2200">2780.2200</a>.</p>
+    </div>
+    <div id="rule.2780.2800.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2780.2800.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Filing of membership. </h2>
+      <p>The group self-insurer shall file with the commissioner the name of all employer members accepted into the group. The group shall not accept any liability for a new member until a signed indemnity agreement in the form set forth in part <a href="/rules/2780.9920">2780.9920</a> has been completed by that new member and filed with the commissioner.</p>
+    </div>
+    <div id="rule.2780.2800.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2780.2800.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Prohibited members. </h2>
+      <p>Each group self-insurer shall be prohibited from accepting as a member any employer that owes an outstanding debt to a previous group self-insurer. A judgment obtained under the laws of Minnesota shall be required as proof of such debt. If a group has such an employer member, upon receipt of the required proof the fund administrator shall issue 30 days' notice of cancellation to the member.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.2800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.2800.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.2900">
+    <h1 class="headnote">2780.2900 BYLAWS AND PLANS OF OPERATION.</h1>
+    <div id="rule.2780.2900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2780.2900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Adopting. </h2>
+      <p>The directors of each group self-insurer shall cause to be adopted a set of bylaws or plan of operation that shall govern the operation of the group. All bylaws or plans of operation or amendments thereto shall be subject to prior approval by the commissioner, pursuant to part <a href="/rules/2780.2100">2780.2100</a>, item A.</p>
+    </div>
+    <div id="rule.2780.2900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2780.2900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Content. </h2>
+      <p>These bylaws or plans of operation shall contain the following subjects:</p>
+      <div id="rule.2780.2900.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2780.2900.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> qualifications for group self-insurer membership, including underwriting considerations;</p>
+      </div>
+      <div id="rule.2780.2900.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2780.2900.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the method for selecting the board of directors, including the directors' terms of office;</p>
+      </div>
+      <div id="rule.2780.2900.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2780.2900.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the procedure for amending the bylaws or plan of operation;</p>
+      </div>
+      <div id="rule.2780.2900.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2780.2900.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> investment of all assets of the fund;</p>
+      </div>
+      <div id="rule.2780.2900.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2780.2900.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> frequency and extent of loss control or safety engineering services provided to members;</p>
+      </div>
+      <div id="rule.2780.2900.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.2780.2900.2.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> a schedule for payment and collection of premiums;</p>
+      </div>
+      <div id="rule.2780.2900.2.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.2780.2900.2.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> expulsion procedures, including expulsion for nonpayment of premiums and expulsion for excessive losses;</p>
+      </div>
+      <div id="rule.2780.2900.2.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.2780.2900.2.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> delineation of authority granted to the administrator;</p>
+      </div>
+      <div id="rule.2780.2900.2.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.2780.2900.2.I">§</a>
+        <h3 class="item_no">I.</h3>
+        <p> delineation of authority granted to the service company;</p>
+      </div>
+      <div id="rule.2780.2900.2.J" class="item">
+        <a title="Link to item J" class="permalink" href="#rule.2780.2900.2.J">§</a>
+        <h3 class="item_no">J.</h3>
+        <p> basis for determining premium contributions by members, including any experience rating program;</p>
+      </div>
+      <div id="rule.2780.2900.2.K" class="item">
+        <a title="Link to item K" class="permalink" href="#rule.2780.2900.2.K">§</a>
+        <h3 class="item_no">K.</h3>
+        <p> procedures for resolving disputes between members of the group, which shall not include submitting them to the commissioner; and</p>
+      </div>
+      <div id="rule.2780.2900.2.L" class="item">
+        <a title="Link to item L" class="permalink" href="#rule.2780.2900.2.L">§</a>
+        <h3 class="item_no">L.</h3>
+        <p> basis for determining distribution of any surplus to the members, or assessing the membership to make up any deficit.</p>
+      </div>
+    </div>
+    <div id="rule.2780.2900.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2780.2900.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Annual review. </h2>
+      <p>The directors shall review at least annually the following items for the purpose of determining whether these areas of concern are being adequately provided for:</p>
+      <div id="rule.2780.2900.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2780.2900.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> service company performance;</p>
+      </div>
+      <div id="rule.2780.2900.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2780.2900.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> loss control and safety engineering;</p>
+      </div>
+      <div id="rule.2780.2900.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2780.2900.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> investment policies;</p>
+      </div>
+      <div id="rule.2780.2900.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2780.2900.3.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> collection of delinquent debts;</p>
+      </div>
+      <div id="rule.2780.2900.3.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2780.2900.3.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> expulsion procedures;</p>
+      </div>
+      <div id="rule.2780.2900.3.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.2780.2900.3.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> initial member review;</p>
+      </div>
+      <div id="rule.2780.2900.3.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.2780.2900.3.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> administrator performance; and</p>
+      </div>
+      <div id="rule.2780.2900.3.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.2780.2900.3.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> claims handling and claims reporting.</p>
+      </div>
+    </div>
+    <div id="rule.2780.2900.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2780.2900.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Mandatory filing. </h2>
+      <p>All group self-insurers shall file copies of its current bylaws or plan of operation with the commissioner. Any changes in the bylaws or plan of operation shall be filed with the commissioner no later than 30 days prior to their taking effect. The commissioner reserves the right to order the group self-insurers to rescind or revoke any bylaw or plan of operation if it is in violation of parts <a href="/rules/2780.0100">2780.0100</a> to <a href="/rules/2780.9920">2780.9920</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.2900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.2900.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.3000">
+    <h1 class="headnote">2780.3000 RECORDS.</h1>
+    <p>All group self-insurers shall maintain at a location within the state of Minnesota such records as are necessary to verify the accuracy and completeness of all reports submitted to the commissioner pursuant to this chapter. However, the group self-insurers shall be authorized to transfer their financial records to the offices of the certified public accountant for the group self-insurers upon the written permission of the commissioner. In addition, if the group self-insurer has contracted with a service company for claims handling, then the claims files and related records may be located at the offices of the service company. The location of these records shall be designated with the application for self-insurance authority and thereafter shall be provided to the commissioner through written notice of any change in its location within 30 days of any such change.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.3000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.3000.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.3100">
+    <h1 class="headnote">2780.3100 NONCOMPLIANCE.</h1>
+    <p>Failure of any employer to maintain membership in any group while not otherwise procuring insurance for its workers' compensation liability may subject the employer to the penalties provided in Minnesota Statutes, sections <a href="/statutes/cite/176.181">176.181</a> and <a href="/statutes/cite/176.183">176.183</a>.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.3100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.3100.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.3200">
+    <h1 class="headnote">2780.3200 WCRA MEMBERSHIP.</h1>
+    <p>The group self-insurer shall be considered a single entity for the purposes of membership in the WCRA and for the purposes of any assessment levied upon self-insurers pursuant to the Workers' Compensation Act.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.3200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.3200.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.3300">
+    <h1 class="headnote">2780.3300 BUSINESS TRUST OR INCORPORATION PROHIBITED.</h1>
+    <p>The group self-insurer shall not incorporate or form a business trust pursuant to Minnesota Statutes, chapter 318.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.3300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.3300.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.3400">
+    <h1 class="headnote">2780.3400 NOTICE OF VOLUNTARY TERMINATION.</h1>
+    <p>Any group self-insurer that voluntarily terminates its self-insurance authority shall give notice to the commissioner not less than 30 days before the termination is to occur.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.3400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.3400.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.4100">
+    <h1 class="headnote">2780.4100 PAYMENT TO FUND.</h1>
+    <p>Each group self-insurer shall, not less than ten days prior to the proposed effective date of the group, submit evidence that cash premiums equal to not less than 20 percent of the current year's modified workers' compensation insurance premium reduced by an appropriate premium discount for each employer has been paid into a common claims fund, maintained by the group in a designated depository. The remaining balance of the member's premium, which shall be at least the current year's modified workers' compensation insurance premium reduced by any appropriate premium discount less the initial cash premium, shall be paid to the group in a reasonable manner over the remainder of the year. Payments in subsequent years shall be made according to the schedule in the manual of rules, classifications, and rates approved for use in Minnesota; provided that a reduction in the manual premium shall be allowed if based on bona fide savings in the expenses of the group, or an actuary who is a member of the Casualty Actuarial Society certifies that a reduction should be permitted based on the losses of the group and that a deficit has not occurred in any of the last three years. Each group self-insurer shall initiate proceedings against a member when that member becomes more than 15 days delinquent in any payment of premium to the fund.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.4100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.4100.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.4200">
+    <h1 class="headnote">2780.4200 COMMINGLING OF ASSETS.</h1>
+    <p>There shall be no commingling of any assets of the group self-insurer's fund with the assets of any individual member employer or with any other account of the group unrelated to payment of workers' compensation liability incurred by the group.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.4200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.4200.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.4300">
+    <h1 class="headnote">2780.4300 ADMINISTRATORS, DIRECTORS, AND FISCAL AGENTS.</h1>
+    <div id="rule.2780.4300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2780.4300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Designation. </h2>
+      <p>The group self-insurer shall designate a fiscal agent and/or administrator to administer the financial affairs of the fund. Such fiscal agent or administrator shall furnish a fidelity bond with the self-insurer as obligee, in an amount sufficient to protect the fund against the misappropriation or misuse of any money or securities. Such fiscal agent or administrator shall not be an owner, officer, or employee of the service company or any affiliate of the service company.</p>
+    </div>
+    <div id="rule.2780.4300.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2780.4300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Control of funds. </h2>
+      <p>All funds shall remain in the control of the group self-insurer or its authorized administrator. One or more revolving funds for payment of compensation benefits due may be established for the use of the authorized service company. The service company shall furnish a fidelity bond covering its employees, with the self-insurer as obligee, in an amount sufficient to protect all money placed in such revolving fund. Should the fidelity bond of the fiscal agent and/or administrator also cover the money in the revolving fund, the service company shall not be required to furnish a fidelity bond.</p>
+    </div>
+    <div id="rule.2780.4300.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2780.4300.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Use of funds. </h2>
+      <p>No director, fiscal agent, or administrator of a group self-insurer shall utilize any of the money collected as premiums for any purpose unrelated to workers' compensation insurance. No director, fiscal agent, or administrator shall borrow any money from the self-insurer's fund or in the name of the self-insurer's fund.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.4300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.4300.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.4400">
+    <h1 class="headnote">2780.4400 ANNUAL AUDIT.</h1>
+    <p>The accounts and records of the group self-insurer's fund shall be audited annually. Audits shall be made by certified public accountants, based on generally accepted accounting principles and generally accepted auditing standards, and supported by actuarial review and opinion of the future contingent liabilities, in order to determine the solvency of the self-insurer's fund. All audits required by this part shall be filed with the commissioner 90 days after the close of the fiscal year for the group self-insurer. The commissioner may require a special audit to be made at other times if the financial stability of the fund or the adequacy of its monetary reserves is in question.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.4400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.4400.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.4500">
+    <h1 class="headnote">2780.4500 INVESTMENTS.</h1>
+    <p>Cash assets of the self-insurer's fund may be invested as provided in Minnesota Statutes, section <a href="/statutes/cite/60A.11">60A.11</a> for a casualty insurance company, provided that investment in common stock, real estate, or indebtedness from any member company is prohibited. In addition, investment in the following is allowed:</p>
+    <div id="rule.2780.4500.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2780.4500.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> savings accounts or certificates of deposit in a duly chartered commercial bank located within the state of Minnesota and insured through the Federal Deposit Insurance Corporation;</p>
+    </div>
+    <div id="rule.2780.4500.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2780.4500.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> share accounts or savings certificates in a duly chartered savings association located within the state of Minnesota and insured through the Federal Savings and Loan Insurance Corporation;</p>
+    </div>
+    <div id="rule.2780.4500.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.2780.4500.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> direct obligations of the United States Treasury, such as notes, bonds, or bills;</p>
+    </div>
+    <div id="rule.2780.4500.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.2780.4500.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> any bond or security issued by the state of Minnesota and backed by the full faith and credit of the state; or</p>
+    </div>
+    <div id="rule.2780.4500.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.2780.4500.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> any credit union where the employees of the self-insurer are members, provided that such credit union is located in Minnesota, licensed by the state of Minnesota, and insured through the Federal Deposit Insurance Corporation.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.4500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="history" id="rule.2780.4500.history">
+    <h2>History: </h2>
+    <p>L 1995 c 202 art 1 s 25</p>
+  </div>
+  <div class="published" id="rule.2780.4500.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.4600">
+    <h1 class="headnote">2780.4600 PURCHASE OF SECURITIES.</h1>
+    <p>Any securities purchased by the group self-insurer's fund shall be in such denominations and with dates of maturity to insure that securities may be redeemable at sufficient time and in sufficient amounts to meet the fund's current and long-term liabilities.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.4600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.4600.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.4700">
+    <h1 class="headnote">2780.4700 ANNUAL REPORT.</h1>
+    <p>The self-insurer shall report annually, as part of its financial statement, a schedule showing the disposition of all investment income earned during the immediately preceding year.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.4700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.4700.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.4800">
+    <h1 class="headnote repealed">2780.4800</h1>
+    <p>[Repealed, L 1994 c 485 s 66]</p>
+  </div>
+  <div class="published" id="rule.2780.4800.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.4900">
+    <h1 class="headnote">2780.4900 NOTICE OF REFUND.</h1>
+    <p>The group self-insurer shall give notice to the commissioner of any refund. Said notice shall be accompanied by a statement from the self-insurer's certified public accountant certifying that the proposed refund is in compliance with part <a href="/rules/2780.4800">2780.4800</a>.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.4900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.4900.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.5000">
+    <h1 class="headnote">2780.5000 DEFICITS.</h1>
+    <div id="rule.2780.5000.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2780.5000.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Payment. </h2>
+      <p>In the event of a deficit in any fund year, such deficit shall be paid up immediately, either from surplus from a fund year other than the current fund year or by assessment of the membership. The commissioner shall be notified within ten days of any transfer of surplus funds.</p>
+    </div>
+    <div id="rule.2780.5000.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2780.5000.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Assessment. </h2>
+      <p>If the commissioner finds that any deficit has not been paid up, the commissioner shall order an assessment to be levied against the members of a group self-insurer sufficient to make up any deficit.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.5000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="history" id="rule.2780.5000.history">
+    <h2>History: </h2>
+    <p>17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.2780.5000.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.6100">
+    <h1 class="headnote">2780.6100 LICENSE APPLICATION.</h1>
+    <div id="rule.2780.6100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2780.6100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope of license. </h2>
+      <p>Any person or entity desiring to be licensed as a workers' compensation service company shall apply to the commissioner on forms available from the commissioner. The license shall designate areas of administrative services that the service company shall be authorized to perform. Any license granted shall be effective for a period of two years unless revoked by order of the commissioner.</p>
+    </div>
+    <div id="rule.2780.6100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2780.6100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Content. </h2>
+      <p>In support of the application, a workers' compensation service company shall submit:</p>
+      <div id="rule.2780.6100.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2780.6100.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> summary information concerning its organization and staff;</p>
+      </div>
+      <div id="rule.2780.6100.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2780.6100.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> detailed resumes of all employees, or employees of any subcontractor, with administrative or professional capacity; such resumes shall indicate the areas of administration in which each employee shall work and the qualifications and experience of the employee relating to that area;</p>
+      </div>
+      <div id="rule.2780.6100.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2780.6100.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> a description of the administrative services intended to be provided; and</p>
+      </div>
+      <div id="rule.2780.6100.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2780.6100.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> the identity of the owners of the service company, including all members of a partnership and all officers of a corporation.</p>
+      </div>
+    </div>
+    <div id="rule.2780.6100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2780.6100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Certification. </h2>
+      <p>The application shall be accompanied by a certification that the applicant has employed or has contracted with competent individuals to provide those services intended to be provided to self-insurers.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.6100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.6100.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.6200">
+    <h1 class="headnote">2780.6200 SUPERVISORY PERSONNEL.</h1>
+    <p>If the workers' compensation service company intends to provide claims adjusting, the service company or its subcontractor shall have supervisory personnel who possess at least three years' experience adjusting workers' compensation claims. Further, the workers' compensation service company or subcontractor shall have at least one adjuster who holds a license under Minnesota Statutes, chapter 72B, and shall be situated within the state of Minnesota.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.6200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.6200.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.6300">
+    <h1 class="headnote">2780.6300 RESIDENTIAL AGENT.</h1>
+    <p>The workers' compensation service company shall have within the state of Minnesota an employee who is able to act as a resident agent, authorized to act in all matters concerning the service company.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.6300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.6300.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.6400">
+    <h1 class="headnote">2780.6400 ACCOUNTANTS.</h1>
+    <p>The workers' compensation service company shall have employed or retained experienced accountants when necessary to the providing of the administrative services to a self-insurer, when the prospective self-insurer does not provide such expertise.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.6400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.6400.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.6500">
+    <h1 class="headnote">2780.6500  PROCESSING OF APPLICATION.</h1>
+    <p>The commissioner shall grant or deny the license within 30 days after a complete application has been filed showing compliance with parts <a href="/rules/2780.6100">2780.6100</a> to <a href="/rules/2780.6400">2780.6400</a>. However, if any applicant, an affiliated company of the applicant, or owner or officer of the applicant has committed an act or practice in connection with the administration of claims that is defined as unfair or deceptive in Minnesota Statutes, section <a href="/statutes/cite/72A.20">72A.20</a>, the applicant shall be denied a license under this part. Any applicant who is denied a license pursuant to this part may, within 30 days after denial by the commissioner, demand a hearing pursuant to Minnesota Statutes, chapter 14. The commissioner shall have the burden of proof at any such hearing to prove that the applicant has committed such a practice.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.6500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.6500.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.6600">
+    <h1 class="headnote">2780.6600 INSPECTION OF RECORDS.</h1>
+    <p>Any records of a workers' compensation service company relating to any of the services offered or provided to any self-insurer shall be open to inspection by the commissioner during normal business hours.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.6600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.6600.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.6700">
+    <h1 class="headnote">2780.6700 INVESTIGATION.</h1>
+    <p>Each workers' compensation service company may be investigated by the commissioner upon reasonable belief that the service company is not in compliance with this chapter or is improperly administering workers' compensation claims pursuant to the Workers' Compensation Act. If the commissioner determines that the service company is not in compliance with this chapter or the Workers' Compensation Act, the service company shall be liable for the cost of the investigation.</p>
+  </div>
+  <div class="stat_auth" id="rule.2780.6700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.6700.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.6800">
+    <h1 class="headnote">2780.6800 REVOCATION.</h1>
+    <div id="rule.2780.6800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2780.6800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Contested case. </h2>
+      <p>Revocation of any workers' compensation service company license shall be pursuant to the contested case procedure in Minnesota Statutes, chapter 14.</p>
+    </div>
+    <div id="rule.2780.6800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2780.6800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Grounds. </h2>
+      <p>Grounds for revocation of the workers' compensation service company license shall be maintenance of inadequate loss reserves; violation of any of the foregoing rules; violation of any provision of the Workers' Compensation Act; or committing an unfair or deceptive act or practice as defined in Minnesota Statutes, section <a href="/statutes/cite/72A.20">72A.20</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.6800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.6800.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.6900">
+    <h1 class="headnote">2780.6900 REPORTS.</h1>
+    <div id="rule.2780.6900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2780.6900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Responsibility. </h2>
+      <p>Each workers' compensation service company shall be expected to file, or attempt to ensure that the self-insurers it services file, all required reports relating to those services that they provide by the dates established by statute or by these rules. Such reports shall include the following: loss information reports required by part <a href="/rules/2780.0500">2780.0500</a>; reports required by the WCRA; and any report required by the Minnesota Department of Labor and Industry.</p>
+    </div>
+    <div id="rule.2780.6900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2780.6900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Termination of contract. </h2>
+      <p>Each workers' compensation service company shall report to the commissioner the termination of any service contract entered into with a self-insurer within ten days of such termination.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2780.6900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.6900.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.9910">
+    <h1 class="headnote repealed">2780.9910</h1>
+    <p>[Repealed, 12 SR 846]</p>
+  </div>
+  <div class="published" id="rule.2780.9910.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2780.9920">
+    <h1 class="headnote">2780.9920 INDEMNITY AGREEMENT.</h1>
+    <p class="ce">INDEMNITY AGREEMENT</p>
+    <p>1. Whereas, (name of company) has agreed to be and has been accepted as a member of (name of Group Self-Insurer).</p>
+    <p>2. Whereas, (name of company) has agreed to be bound by all of the provisions of the Minnesota Workers' Compensation Act and all Rules promulgated thereunder.</p>
+    <p>3. Whereas, that (name of company) has agreed to be bound by the bylaws or plan of operation and all amendments thereto of (name of Group Self-Insurer).</p>
+    <p>4. Whereas, that (name of company) has agreed to be jointly and severally liable for all claims and expenses of all the members of (name of Group Self-Insurer) arising in any fund year in which (name of company) is a member of the group. Provided that if (name of company) is not a member for the full year, it shall be only liable for a pro rata share of that liability.</p>
+    <p>IN WITNESS WHEREOF, the (name of company) and (name of group self-insurer) have caused this indemnity agreement to be executed by its authorized officers:</p>
+    <table>
+      <col style="width:50.7692307692308%">
+      <col style="width:49.2307692307692%">
+      <tr>
+        <td>Group Self-Insurer's Name</td>
+        <td>Company Name</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <span>By:</span>
+          <span class="leader_test">_</span>
+        </td>
+        <td>
+          <span>By:</span>
+          <span class="leader_test">_</span>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>
+          <span>Date:</span>
+          <span class="leader_test">_</span>
+        </td>
+        <td>
+          <span>Date:</span>
+          <span class="leader_test">_</span>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class="stat_auth" id="rule.2780.9920.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/176.181">176.181</a></p>
+  </div>
+  <div class="published" id="rule.2780.9920.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

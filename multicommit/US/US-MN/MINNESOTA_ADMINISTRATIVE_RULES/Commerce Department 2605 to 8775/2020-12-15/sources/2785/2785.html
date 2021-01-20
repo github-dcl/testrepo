@@ -1,0 +1,2415 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            2785.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/120">Commerce Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/2785/">Chapter 2785</a>
+            </li>
+        
+    
+        
+            <li>Part 2785.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/2785.0200/">2785.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/2785.0100/2014-01-18%2002:33:31+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 2785</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2785/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2785/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2785/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 2785.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2785.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2785.0100">
+    <h1 class="headnote">2785.0100  DEFINITIONS.</h1>
+    <div id="rule.2785.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2785.0100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>For the purposes of parts <a href="/rules/2785.0100">2785.0100</a> to <a href="/rules/2785.1600">2785.1600</a>, the terms defined in this part have the meanings given them.</p>
+    </div>
+    <div id="rule.2785.0100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2785.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Board. </h2>
+      <p>"Board" means a pool's board of trustees.</p>
+    </div>
+    <div id="rule.2785.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2785.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Bylaws. </h2>
+      <p>"Bylaws" means the statements and organizational documents adopted by a plan that prescribe its purpose, government, and administration.</p>
+    </div>
+    <div id="rule.2785.0100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2785.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Commissioner. </h2>
+      <p> "Commissioner" means the commissioner of the Department of Commerce.</p>
+    </div>
+    <div id="rule.2785.0100.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2785.0100.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Coverage. </h2>
+      <p>"Coverage" means the right of a covered person or entity to benefits or indemnification provided directly or indirectly by a pool, by virtue of the coverage document.</p>
+    </div>
+    <div id="rule.2785.0100.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.2785.0100.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Coverage document. </h2>
+      <p>"Coverage document" means the document specifying the characteristics and duration of coverage provided through a pool. Characteristics of coverage include the kind of loss or benefit that the pool will reimburse, subject to specific exclusions, limitations, or deductibles.</p>
+    </div>
+    <div id="rule.2785.0100.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.2785.0100.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Days. </h2>
+      <p>"Days" means calendar days.</p>
+    </div>
+    <div id="rule.2785.0100.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.2785.0100.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Employee health benefit pool. </h2>
+      <p>"Employee health benefit pool" means a pool that covers employee health benefits, disability benefits, or both.</p>
+    </div>
+    <div id="rule.2785.0100.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.2785.0100.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Financial administrator. </h2>
+      <p>"Financial administrator" means an entity employing persons trained and experienced in money management and investments, and possessing no less than five years' experience as an organization in money management and investments with demonstrated competence.</p>
+    </div>
+    <div id="rule.2785.0100.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.2785.0100.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Fund year. </h2>
+      <p>"Fund year" means a pool's 12-month fiscal year.</p>
+    </div>
+    <div id="rule.2785.0100.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.2785.0100.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Member. </h2>
+      <p>"Member" means a political subdivision or private employer member of a pool. Reference to actions of a member include actions on behalf of the member's covered employees or other covered persons.</p>
+    </div>
+    <div id="rule.2785.0100.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.2785.0100.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Political subdivision. </h2>
+      <p>"Political subdivision," in reference to employee health benefit pools, means the same as defined in Minnesota Statutes, section <a href="/statutes/cite/471.617">471.617</a>, subdivision 2, and in reference to all other pools means the same as defined in Minnesota Statutes, section <a href="/statutes/cite/471.98">471.98</a>, subdivision 2.</p>
+    </div>
+    <div id="rule.2785.0100.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.2785.0100.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Pool. </h2>
+      <p>"Pool" means any self-insurance fund or agreement for the reciprocal assumption of risk established by or among two or more political subdivisions for coverage of their respective risks, but also includes private employers for the purpose of a public/private pool. Reference to actions of a pool include actions by the pool's designated agents.</p>
+    </div>
+    <div id="rule.2785.0100.14" class="subp">
+      <a title="Link to subpart 14" class="permalink" href="#rule.2785.0100.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <h2 class="headnote">Premium. </h2>
+      <p>"Premium" means the amount paid or to be paid for coverage by members. Premium does not include assessments or penalties.</p>
+    </div>
+    <div id="rule.2785.0100.15" class="subp">
+      <a title="Link to subpart 15" class="permalink" href="#rule.2785.0100.15">§</a>
+      <h2 class="subp_no">Subp. 15.</h2>
+      <h2 class="headnote">Public/private pool. </h2>
+      <p>"Public/private pool" means a workers' compensation pool including as members a political subdivision and one or more private employers.</p>
+    </div>
+    <div id="rule.2785.0100.16" class="subp">
+      <a title="Link to subpart 16" class="permalink" href="#rule.2785.0100.16">§</a>
+      <h2 class="subp_no">Subp. 16.</h2>
+      <h2 class="headnote">Runoff pool. </h2>
+      <p>"Runoff pool" means a pool that no longer has authority to self-insure, but that continues to exist for the purpose of paying claims, preparing reports, and administering transactions associated with the period when the pool provided coverage.</p>
+    </div>
+    <div id="rule.2785.0100.17" class="subp">
+      <a title="Link to subpart 17" class="permalink" href="#rule.2785.0100.17">§</a>
+      <h2 class="subp_no">Subp. 17.</h2>
+      <h2 class="headnote">Self-insure. </h2>
+      <p>"Self-insure" means to assume primary liability or responsibility for certain risks or benefits, rather than transferring liability or responsibility to some other entity.</p>
+    </div>
+    <div id="rule.2785.0100.18" class="subp">
+      <a title="Link to subpart 18" class="permalink" href="#rule.2785.0100.18">§</a>
+      <h2 class="subp_no">Subp. 18.</h2>
+      <h2 class="headnote">Service company. </h2>
+      <p>"Service company" means an entity licensed under Minnesota Statutes, section <a href="/statutes/cite/60A.23">60A.23</a>, subdivision 8, and rules adopted thereunder, as a self-insurance plan administrator, or an entity named in Minnesota Statutes, section <a href="/statutes/cite/60A.23">60A.23</a>, subdivision 8, paragraph (1), clause (a) or (b).</p>
+    </div>
+    <div id="rule.2785.0100.19" class="subp">
+      <a title="Link to subpart 19" class="permalink" href="#rule.2785.0100.19">§</a>
+      <h2 class="subp_no">Subp. 19.</h2>
+      <h2 class="headnote">Sponsoring association. </h2>
+      <p>"Sponsoring association" means a statewide nonprofit organization of political subdivisions that sponsors or organizes a pool, and which has as its primary purpose providing services to Minnesota political subdivisions that are not related to insurance or self-insurance.</p>
+    </div>
+    <div id="rule.2785.0100.20" class="subp">
+      <a title="Link to subpart 20" class="permalink" href="#rule.2785.0100.20">§</a>
+      <h2 class="subp_no">Subp. 20.</h2>
+      <h2 class="headnote">Surplus. </h2>
+      <p>"Surplus" means a pool's total assets minus total liabilities. Surplus includes paid-in capital and retained earnings. The amount of a pool's surplus is determined according to the instructions provided for a pool's financial statements.</p>
+    </div>
+    <div id="rule.2785.0100.21" class="subp">
+      <a title="Link to subpart 21" class="permalink" href="#rule.2785.0100.21">§</a>
+      <h2 class="subp_no">Subp. 21.</h2>
+      <h2 class="headnote">Workers' compensation pool. </h2>
+      <p>"Workers' compensation pool" means a pool that covers workers' compensation liability, employer's liability, or both.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2785.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/471.617">471.617</a>; <a href="/statutes/cite/471.982">471.982</a></p>
+  </div>
+  <div class="history" id="rule.2785.0100.history">
+    <h2>History: </h2>
+    <p>10 SR 274</p>
+  </div>
+  <div class="published" id="rule.2785.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2785.0200">
+    <h1 class="headnote">2785.0200 PURPOSE.</h1>
+    <p>Parts <a href="/rules/2785.0100">2785.0100</a> to <a href="/rules/2785.1600">2785.1600</a> govern the formation, operation, and dissolution of political subdivision self-insurance pools. They are intended to ensure that the financial integrity of these pools is maintained, and that they are administered competently and equitably.</p>
+  </div>
+  <div class="stat_auth" id="rule.2785.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/471.617">471.617</a>; <a href="/statutes/cite/471.982">471.982</a></p>
+  </div>
+  <div class="history" id="rule.2785.0200.history">
+    <h2>History: </h2>
+    <p>10 SR 274</p>
+  </div>
+  <div class="published" id="rule.2785.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2785.0300">
+    <h1 class="headnote">2785.0300 SCOPE.</h1>
+    <p>The following are subject to the requirements of parts <a href="/rules/2785.0100">2785.0100</a> to <a href="/rules/2785.1600">2785.1600</a>:</p>
+    <div id="rule.2785.0300.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2785.0300.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> political subdivision self-insurance pools;</p>
+    </div>
+    <div id="rule.2785.0300.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2785.0300.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> political subdivisions of Minnesota that form, join, or leave a self-insurance pool;</p>
+    </div>
+    <div id="rule.2785.0300.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.2785.0300.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> private Minnesota employers that form, join, or leave a self-insurance pool including a political subdivision; and</p>
+    </div>
+    <div id="rule.2785.0300.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.2785.0300.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> service companies that provide services to a pool.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2785.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/471.617">471.617</a>; <a href="/statutes/cite/471.982">471.982</a></p>
+  </div>
+  <div class="history" id="rule.2785.0300.history">
+    <h2>History: </h2>
+    <p>10 SR 274</p>
+  </div>
+  <div class="published" id="rule.2785.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2785.0400">
+    <h1 class="headnote">2785.0400 BYLAWS.</h1>
+    <div id="rule.2785.0400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2785.0400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Content. </h2>
+      <p>Bylaws may contain any provisions that do not conflict with parts <a href="/rules/2785.0100">2785.0100</a> to <a href="/rules/2785.1600">2785.1600</a>. Bylaws must, at a minimum, contain the following provisions:</p>
+      <div id="rule.2785.0400.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.0400.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the pool's name, purpose, fiscal year, and initial date of existence;</p>
+      </div>
+      <div id="rule.2785.0400.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.0400.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> definitions of key terms;</p>
+      </div>
+      <div id="rule.2785.0400.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2785.0400.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> a statement of the powers, duties, and responsibilities assigned to the board, the service company, the financial administrator, and reserved by the membership;</p>
+      </div>
+      <div id="rule.2785.0400.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2785.0400.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> the number, term of office, and method of selection and replacement of the members of the board;</p>
+      </div>
+      <div id="rule.2785.0400.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2785.0400.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> the procedure for calling board meetings;</p>
+      </div>
+      <div id="rule.2785.0400.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.2785.0400.1.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> the method of periodic selection and review of the service company and financial administrator;</p>
+      </div>
+      <div id="rule.2785.0400.1.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.2785.0400.1.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> the procedure for amending the bylaws;</p>
+      </div>
+      <div id="rule.2785.0400.1.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.2785.0400.1.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> the procedure for resolving disputes among members, which must not include submitting disputes to the commissioner;</p>
+      </div>
+      <div id="rule.2785.0400.1.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.2785.0400.1.I">§</a>
+        <h3 class="item_no">I.</h3>
+        <p> the criteria for membership in the pool, including standards of financial integrity and loss experience;</p>
+      </div>
+      <div id="rule.2785.0400.1.J" class="item">
+        <a title="Link to item J" class="permalink" href="#rule.2785.0400.1.J">§</a>
+        <h3 class="item_no">J.</h3>
+        <p> the procedure for admitting new members to the pool;</p>
+      </div>
+      <div id="rule.2785.0400.1.K" class="item">
+        <a title="Link to item K" class="permalink" href="#rule.2785.0400.1.K">§</a>
+        <h3 class="item_no">K.</h3>
+        <p> the criteria for expelling members from the pool, including nonpayment of premium;</p>
+      </div>
+      <div id="rule.2785.0400.1.L" class="item">
+        <a title="Link to item L" class="permalink" href="#rule.2785.0400.1.L">§</a>
+        <h3 class="item_no">L.</h3>
+        <p> the procedure for withdrawal and expulsion of members from the pool, including the minimum required period of membership;</p>
+      </div>
+      <div id="rule.2785.0400.1.M" class="item">
+        <a title="Link to item M" class="permalink" href="#rule.2785.0400.1.M">§</a>
+        <h3 class="item_no">M.</h3>
+        <p> a statement of the coverages the pool intends to provide;</p>
+      </div>
+      <div id="rule.2785.0400.1.N" class="item">
+        <a title="Link to item N" class="permalink" href="#rule.2785.0400.1.N">§</a>
+        <h3 class="item_no">N.</h3>
+        <p> the procedure for adding and dropping a member's participation in a particular coverage;</p>
+      </div>
+      <div id="rule.2785.0400.1.O" class="item">
+        <a title="Link to item O" class="permalink" href="#rule.2785.0400.1.O">§</a>
+        <h3 class="item_no">O.</h3>
+        <p> a schedule for premium payments by members and, if applicable, their employees;</p>
+      </div>
+      <div id="rule.2785.0400.1.P" class="item">
+        <a title="Link to item P" class="permalink" href="#rule.2785.0400.1.P">§</a>
+        <h3 class="item_no">P.</h3>
+        <p> the procedure for changing premium rates;</p>
+      </div>
+      <div id="rule.2785.0400.1.Q" class="item">
+        <a title="Link to item Q" class="permalink" href="#rule.2785.0400.1.Q">§</a>
+        <h3 class="item_no">Q.</h3>
+        <p> the procedure for levying and collecting an assessment;</p>
+      </div>
+      <div id="rule.2785.0400.1.R" class="item">
+        <a title="Link to item R" class="permalink" href="#rule.2785.0400.1.R">§</a>
+        <h3 class="item_no">R.</h3>
+        <p> a statement of who may have access to pool funds and for what purposes;</p>
+      </div>
+      <div id="rule.2785.0400.1.S" class="item">
+        <a title="Link to item S" class="permalink" href="#rule.2785.0400.1.S">§</a>
+        <h3 class="item_no">S.</h3>
+        <p> the procedure for distributing dividends, and the eligibility of past members and past covered employees for dividends; and</p>
+      </div>
+      <div id="rule.2785.0400.1.T" class="item">
+        <a title="Link to item T" class="permalink" href="#rule.2785.0400.1.T">§</a>
+        <h3 class="item_no">T.</h3>
+        <p> the procedure for distributing any assets remaining upon the pool's dissolution.</p>
+      </div>
+    </div>
+    <div id="rule.2785.0400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2785.0400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Adoption and changes. </h2>
+      <p>The bylaws must be adopted in writing by all initial members. Authority to change the bylaws must reside with the membership or the board, according to the terms of the bylaws. Authority to change the bylaws may not be delegated to a contractor or other outside party. The pool must file bylaw changes with the commissioner not less than 30 days after adoption.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2785.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/471.617">471.617</a>; <a href="/statutes/cite/471.982">471.982</a></p>
+  </div>
+  <div class="history" id="rule.2785.0400.history">
+    <h2>History: </h2>
+    <p>10 SR 274</p>
+  </div>
+  <div class="published" id="rule.2785.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2785.0500">
+    <h1 class="headnote">2785.0500 BOARD.</h1>
+    <div id="rule.2785.0500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2785.0500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Structure. </h2>
+      <p>A pool must have a board of trustees consisting of at least three persons, who must be officials or employees of the members or of the sponsoring association, if any. No member may have more than one representative on the board, unless the pool has only two members, in which case each member must have at least one representative on the board. The sponsoring association must not have majority representation on the board. No trustee may be an employee, agent, or representative of the pool's service company, financial administrator, insurer, or other person or entity under contract with the pool, except that a trustee may be an employee, agent, or representative of the sponsoring association. Trustees shall be elected by the membership, or appointed by the sponsoring association. One trustee shall be designated the chairperson. The board shall meet no less than four times annually.</p>
+    </div>
+    <div id="rule.2785.0500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2785.0500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Duties. </h2>
+      <p>The board is responsible for operation of the pool. The board may delegate some or all of its responsibilities to the chairperson or other trustees between board meetings. All responsibilities of the pool not expressly delegated by the board or parts <a href="/rules/2785.0100">2785.0100</a> to <a href="/rules/2785.1600">2785.1600</a> are the responsibility of the board. The board shall, at a minimum, have the following responsibilities:</p>
+      <div id="rule.2785.0500.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.0500.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> fiduciary responsibility for the pool's operation and financial condition;</p>
+      </div>
+      <div id="rule.2785.0500.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.0500.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> selection, supervision, and evaluation of the service company, financial administrator, accountant, insurer, and any other contractors;</p>
+      </div>
+      <div id="rule.2785.0500.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2785.0500.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> on the basis of the pool's overall financial condition, authorizing changes in premium, reserve, or investment practices; and declaring assessments or dividends as appropriate;</p>
+      </div>
+      <div id="rule.2785.0500.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2785.0500.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> approving all reports concerning the pool's operations and status to the commissioner;</p>
+      </div>
+      <div id="rule.2785.0500.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2785.0500.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> monitoring delinquent premiums, loss experience, and the financial condition of individual members; and authorizing disciplinary action or expulsion as appropriate;</p>
+      </div>
+      <div id="rule.2785.0500.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.2785.0500.2.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> authorizing acceptance or rejection of applications for membership;</p>
+      </div>
+      <div id="rule.2785.0500.2.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.2785.0500.2.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> as permitted by the bylaws, making or recommending changes to the bylaws for the improvement of the pool's operation and financial integrity; and</p>
+      </div>
+      <div id="rule.2785.0500.2.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.2785.0500.2.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> monitoring the pool's compliance with all statutes and rules governing its operation.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2785.0500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/471.617">471.617</a>; <a href="/statutes/cite/471.982">471.982</a></p>
+  </div>
+  <div class="history" id="rule.2785.0500.history">
+    <h2>History: </h2>
+    <p>10 SR 274</p>
+  </div>
+  <div class="published" id="rule.2785.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2785.0600">
+    <h1 class="headnote">2785.0600 APPLICATION.</h1>
+    <div id="rule.2785.0600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2785.0600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Initial application. </h2>
+      <p>Two or more political subdivisions may apply to the commissioner for authority to form a self-insurance pool. One or more private employers and a political division may apply for authority to form a public/private pool, if statutorily authorized. Applications must be submitted on forms prescribed by the commissioner. Applications must be submitted not later than 60 days prior to the requested date for authority to self-insure. Applications submitted without responses to certain questions, or with responses that are inadequate, must be returned to the applicant for resubmission. Applications not returned to the applicant for resubmission within 14 days of receipt must be approved or disapproved within 60 days of receipt.</p>
+    </div>
+    <div id="rule.2785.0600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2785.0600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Prior existing pools. </h2>
+      <p>Pools in existence at the time parts <a href="/rules/2785.0100">2785.0100</a> to <a href="/rules/2785.1600">2785.1600</a> are effective must submit their initial application for self-insurance authority no later than December 1, 1985.</p>
+    </div>
+    <div id="rule.2785.0600.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2785.0600.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Renewal application. </h2>
+      <p>Existing plans may apply for renewal of their self-insurance authority by so indicating on their annual status report preceding expiration of their current authority. Applications must be approved or disapproved within 60 days of receipt of the status report.</p>
+    </div>
+    <div id="rule.2785.0600.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2785.0600.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Merger. </h2>
+      <p>Two or more existing pools may apply to merge, provided the merged pool assumes all financial and regulatory obligations of the former pools. Merger applications are subject to the same requirements as prospective new pools.</p>
+    </div>
+    <div id="rule.2785.0600.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2785.0600.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Approval or disapproval. </h2>
+      <p>Upon approval of an application, the commissioner shall issue an order authorizing the proposed self-insurance pool. Initial authorization orders for new pools shall be effective for 27 months after the initial authorization date. Renewal authorization orders shall be for two-year periods. Approval of applications for authority to self-insure must be granted if the proposed pool conforms with:</p>
+      <div id="rule.2785.0600.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.0600.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> all requirements of parts <a href="/rules/2785.0100">2785.0100</a> to <a href="/rules/2785.1600">2785.1600</a>;</p>
+      </div>
+      <div id="rule.2785.0600.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.0600.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> all applicable requirements of Minnesota insurance statutes and rules, as described in part <a href="/rules/2785.1000">2785.1000</a>, subpart 2;</p>
+      </div>
+      <div id="rule.2785.0600.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2785.0600.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Minnesota Statutes, sections <a href="/statutes/cite/72A.19">72A.19</a> to <a href="/statutes/cite/72A.32">72A.32</a>; and</p>
+      </div>
+      <div id="rule.2785.0600.5.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2785.0600.5.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> all applicable requirements of other Minnesota statutes and rules.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2785.0600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/471.617">471.617</a>; <a href="/statutes/cite/471.982">471.982</a></p>
+  </div>
+  <div class="history" id="rule.2785.0600.history">
+    <h2>History: </h2>
+    <p>10 SR 274</p>
+  </div>
+  <div class="published" id="rule.2785.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2785.0700">
+    <h1 class="headnote">2785.0700 ENDING SELF-INSURANCE, RUNOFF PERIOD, AND PLAN DISSOLUTION.</h1>
+    <div id="rule.2785.0700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2785.0700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Ending self-insurance authority. </h2>
+      <p>A pool may decide to end its self-insurance authority and cease to provide coverage effective at the end of a fund year. The pool must notify the commissioner within 14 days of such a decision. A pool may not elect to end its self-insurance authority less than 45 days prior to the end of the fund year in question. Voluntary ending of self-insurance authority does not constitute pool dissolution under subpart 4.</p>
+    </div>
+    <div id="rule.2785.0700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2785.0700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Revocation of self-insurance authority. </h2>
+      <p>The commissioner shall, by order, revoke the authority of a pool to self-insure upon no less than ten days' written notice if any of the following events occur or conditions develop, and if the commissioner judges them to be material:</p>
+      <div id="rule.2785.0700.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.0700.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> failure of the pool to comply with parts <a href="/rules/2785.0100">2785.0100</a> to <a href="/rules/2785.1600">2785.1600</a>, or with other applicable Minnesota statutes or rules;</p>
+      </div>
+      <div id="rule.2785.0700.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.0700.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> failure of the pool to comply with any lawful order of the commissioner;</p>
+      </div>
+      <div id="rule.2785.0700.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2785.0700.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> commission by the pool of an unfair or deceptive practice as defined in Minnesota Statutes, sections <a href="/statutes/cite/72A.17">72A.17</a> to <a href="/statutes/cite/72A.32">72A.32</a>, or in related rules; or</p>
+      </div>
+      <div id="rule.2785.0700.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2785.0700.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> a deterioration of the pool's financial integrity to the extent that its present or future ability to meet obligations promptly and in full is or will be significantly impaired.</p>
+      </div>
+    </div>
+    <div id="rule.2785.0700.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2785.0700.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Runoff period. </h2>
+      <p>A pool shall continue to exist as a runoff pool after its authority to self-insure has ended, for the purpose of paying claims, preparing reports, and administering transactions associated with the period when the pool provided coverage. A runoff pool must continue to comply with parts <a href="/rules/2785.0100">2785.0100</a> to <a href="/rules/2785.1600">2785.1600</a>, and with other applicable Minnesota statutes and rules. Authority to exist as a runoff plan is open-ended, and does not require renewal of authority under part <a href="/rules/2785.0600">2785.0600</a>, subpart 3.</p>
+    </div>
+    <div id="rule.2785.0700.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2785.0700.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Dissolution. </h2>
+      <p>A pool, including a runoff pool, that desires to cease existence shall apply to the commissioner for authorization to dissolve. Applications must be approved or disapproved within 60 days of receipt. Dissolution without authorization is prohibited and void, and does not absolve a pool or runoff pool from fulfilling its continuing obligations, and does not absolve its members from assessments under part <a href="/rules/2785.1400">2785.1400</a>, subpart 3. The pool's assets at dissolution must be distributed to the members and covered persons as provided in the bylaws. Authorization to dissolve must be granted if either of the following conditions are met:</p>
+      <div id="rule.2785.0700.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.0700.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the pool demonstrates that it has no outstanding liabilities, including incurred but not reported liabilities; or</p>
+      </div>
+      <div id="rule.2785.0700.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.0700.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the pool has obtained an irrevocable commitment from a licensed insurer that provides for payment of all outstanding liabilities, and for providing all related services, including payment of claims, preparation of reports, and administration of transactions associated with the period when the pool provided coverage.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2785.0700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/471.617">471.617</a>; <a href="/statutes/cite/471.982">471.982</a></p>
+  </div>
+  <div class="history" id="rule.2785.0700.history">
+    <h2>History: </h2>
+    <p>10 SR 274</p>
+  </div>
+  <div class="published" id="rule.2785.0700.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2785.0800">
+    <h1 class="headnote">2785.0800 ADMINISTRATION.</h1>
+    <div id="rule.2785.0800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2785.0800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Service company. </h2>
+      <p>A pool must contract with a service company for services necessary to the pool's day-to-day operations, except services and responsibilities reserved to the members, the board, individual trustees, the financial administrator, the accountant, or other contractors. The service company must have expertise in and be licensed for the coverages the pool provides. Subject to the oversight of the board, the service company shall, directly or through subcontractors, provide all services directly related to the administration of coverage. These services include but are not limited to:</p>
+      <div id="rule.2785.0800.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.0800.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> accounting and record keeping;</p>
+      </div>
+      <div id="rule.2785.0800.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.0800.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> billing and collection of premiums and assessments;</p>
+      </div>
+      <div id="rule.2785.0800.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2785.0800.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> claims investigation, settlement, and reserving;</p>
+      </div>
+      <div id="rule.2785.0800.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2785.0800.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> claims payment, including claims wholly or partially subject to stop-loss insurance or member deductibles;</p>
+      </div>
+      <div id="rule.2785.0800.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2785.0800.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> general administration;</p>
+      </div>
+      <div id="rule.2785.0800.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.2785.0800.1.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> loss control, safety programs, or both; and</p>
+      </div>
+      <div id="rule.2785.0800.1.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.2785.0800.1.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> underwriting.</p>
+      </div>
+    </div>
+    <div id="rule.2785.0800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2785.0800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Financial administrator. </h2>
+      <p>A pool must contract with a financial administrator for investment of the pool's assets and other financial or accounting services. No staff member of the financial administrator may be an owner, officer, employee, or agent of the service company, or of a subcontractor of the service company.</p>
+    </div>
+    <div id="rule.2785.0800.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2785.0800.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Record keeping. </h2>
+      <p>A pool must maintain within Minnesota all records necessary to verify the accuracy and completeness of all reports submitted to the commissioner under part <a href="/rules/2785.1600">2785.1600</a>. The commissioner may examine the pool's records in order to ascertain the pool's compliance with parts <a href="/rules/2785.0100">2785.0100</a> to <a href="/rules/2785.1600">2785.1600</a>, and with other applicable statutes and rules. All records concerning claims, reserves, financial transactions, and other matters necessary for the pool's operations are the pool's property.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2785.0800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/471.617">471.617</a>; <a href="/statutes/cite/471.982">471.982</a></p>
+  </div>
+  <div class="history" id="rule.2785.0800.history">
+    <h2>History: </h2>
+    <p>10 SR 274</p>
+  </div>
+  <div class="published" id="rule.2785.0800.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2785.0900">
+    <h1 class="headnote">2785.0900 MEMBERSHIP.</h1>
+    <div id="rule.2785.0900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2785.0900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Availability. </h2>
+      <p>Pool membership is open only to political subdivisions of Minnesota, except that private employers may join a public/private pool. A pool may establish other nondiscriminatory criteria for membership. Nothing in parts <a href="/rules/2785.0100">2785.0100</a> to <a href="/rules/2785.1600">2785.1600</a> requires a pool to accept members that do not meet the pool's underwriting standards.</p>
+    </div>
+    <div id="rule.2785.0900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2785.0900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Joining. </h2>
+      <p>New members must be admitted according to the standards and procedures specified in the bylaws. Membership is not effective before the applicant has signed a membership agreement affirming its commitment to comply with the bylaws and parts <a href="/rules/2785.0100">2785.0100</a> to <a href="/rules/2785.1600">2785.1600</a>, including joint and several liability. The membership agreement must disclose that under the rules governing the pool, the board of trustees, or the Minnesota commissioner of commerce may order that an assessment be levied against the members, if necessary to maintain the pool's sound financial condition.</p>
+    </div>
+    <div id="rule.2785.0900.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2785.0900.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Public/private pool membership. </h2>
+      <p>Only Minnesota domiciled employers whose primary places of employment are within 40 miles of a political subdivision pool member are eligible for membership in a public/private pool. If all political subdivisions elect to withdraw from a public/private pool, the pool's authority to self-insure is terminated simultaneously with the date of the last political division's withdrawal. As a condition of a private employer's membership in a public/private pool, the employer must furnish a surety bond in a form prescribed by the commissioner. The pool shall be the bond's obligee, conditioned on the employer's paying all premiums, penalties, and assessments when due. The bond must be maintained on file with the commissioner until the end of the period of continuing liability, or until the pool terminates, whichever occurs first. The period of continuing liability is as defined in part <a href="/rules/2785.1400">2785.1400</a>, subpart 1. The bond must provide a penalty amount no less than:</p>
+      <div id="rule.2785.0900.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.0900.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the greatest one-year premium paid by the member for the coverage through the pool during the past three years;</p>
+      </div>
+      <div id="rule.2785.0900.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.0900.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> if the member has not belonged to the pool for one full fund year, the annual premium to be paid by the member for the first year's coverage; or</p>
+      </div>
+      <div id="rule.2785.0900.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2785.0900.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> if the member no longer belongs to the pool, the greatest one-year premium paid by the past member during the final three years in the pool.</p>
+      </div>
+    </div>
+    <div id="rule.2785.0900.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2785.0900.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Leaving. </h2>
+      <p>The membership agreement must state the procedures for leaving the pool. A member must notify the pool of its desire to withdraw not less than 30 days before the date upon which it desires to withdraw. If the board determines that the withdrawal would cause the pool to be in violation of the minimum annual premium requirement or would compromise the pool's financial integrity, the pool must notify the commissioner as required under part <a href="/rules/2785.1100">2785.1100</a>, subpart 2. Withdrawal is prohibited and void unless:</p>
+      <div id="rule.2785.0900.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.0900.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the member has belonged to the pool continuously for the period required by the bylaws, which shall provide for:</p>
+        <div id="rule.2785.0900.4.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.2785.0900.4.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> a minimum of one complete fund year, in the case of employee health benefit pools; or</p>
+        </div>
+        <div id="rule.2785.0900.4.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.2785.0900.4.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> a minimum of three complete fund years, in the case of all other pools; and</p>
+        </div>
+      </div>
+      <div id="rule.2785.0900.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.0900.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> all outstanding premiums and assessments owed by the member have been paid.</p>
+      </div>
+    </div>
+    <div id="rule.2785.0900.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2785.0900.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Expulsion. </h2>
+      <p>No less often than annually a pool must compare the status and experience of each member with the criteria for expulsion in the bylaws. Expulsion is subject to the procedures and requirements for voluntary withdrawal of a member, except that:</p>
+      <div id="rule.2785.0900.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.0900.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> a member may be expelled with outstanding premiums or assessments owing; and</p>
+      </div>
+      <div id="rule.2785.0900.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.0900.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> a member may be expelled notwithstanding that the minimum term of membership has not been satisfied.</p>
+      </div>
+    </div>
+    <div id="rule.2785.0900.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.2785.0900.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Runoff pool membership. </h2>
+      <p>After revocation of a pool's self-insurance authority or after a pool notifies the commissioner in writing of its intent to end self-insurance authority voluntarily, no member may join, leave, or be expelled from the pool.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2785.0900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/471.617">471.617</a>; <a href="/statutes/cite/471.982">471.982</a></p>
+  </div>
+  <div class="history" id="rule.2785.0900.history">
+    <h2>History: </h2>
+    <p>10 SR 274</p>
+  </div>
+  <div class="published" id="rule.2785.0900.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2785.1000">
+    <h1 class="headnote">2785.1000 COVERAGE.</h1>
+    <div id="rule.2785.1000.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2785.1000.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Distinct pool types. </h2>
+      <p>Employee health benefit pools and workers' compensation pools may provide only the coverages specified in the definitions for that pool type. Other pools may not provide any of the coverages permitted for employee health benefit pools and workers' compensation pools.</p>
+    </div>
+    <div id="rule.2785.1000.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2785.1000.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Coverage administration and related requirements. </h2>
+      <p>Pools are subject to the requirements of Minnesota statutes and rules applicable to insurance companies providing insurance in Minnesota similar to the pool's coverage. These include requirements contained in Minnesota Statutes, chapters 60A, 62A, 62E, 65A, 65B, 70A, 72A, 72C, 79, and 176, and rules adopted under these chapters, concerning:</p>
+      <div id="rule.2785.1000.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.1000.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> filing and requesting approval for coverage documents and rates;</p>
+      </div>
+      <div id="rule.2785.1000.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.1000.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> coverage document content and language;</p>
+      </div>
+      <div id="rule.2785.1000.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2785.1000.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> mandated benefits, including coverage conversion and continuation requirements;</p>
+      </div>
+      <div id="rule.2785.1000.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2785.1000.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> coverage administration, including notices to covered parties;</p>
+      </div>
+      <div id="rule.2785.1000.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2785.1000.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> underwriting;</p>
+      </div>
+      <div id="rule.2785.1000.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.2785.1000.2.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> claim administration; and</p>
+      </div>
+      <div id="rule.2785.1000.2.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.2785.1000.2.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> other practices affecting coverage.</p>
+      </div>
+    </div>
+    <div id="rule.2785.1000.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2785.1000.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Uniform underwriting. </h2>
+      <p>All coverages offered by a pool must be available according to the same underwriting standards to all members and, if applicable, to all members' employees.</p>
+    </div>
+    <div id="rule.2785.1000.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2785.1000.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Continuing responsibility. </h2>
+      <p>Notwithstanding cancellation or termination of coverage to a particular member, ceasing to offer a particular coverage, or ending or revocation of authority to self-insure, a pool retains indefinitely all responsibilities to members and other covered persons associated with the period while coverage was in force. This responsibility ceases only after a pool dissolves under part <a href="/rules/2785.0700">2785.0700</a>, subpart 4.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2785.1000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/471.617">471.617</a>; <a href="/statutes/cite/471.982">471.982</a></p>
+  </div>
+  <div class="history" id="rule.2785.1000.history">
+    <h2>History: </h2>
+    <p>10 SR 274</p>
+  </div>
+  <div class="published" id="rule.2785.1000.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2785.1100">
+    <h1 class="headnote">2785.1100 PREMIUMS, CASH FLOW, AND DIVIDENDS.</h1>
+    <div id="rule.2785.1100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2785.1100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Minimum annual premium. </h2>
+      <p>All pools must have and maintain an annual premium volume of no less that $300,000. A pool or prospective pool may apply to the commissioner for reduction of the minimum annual premium requirement, stating the amount of reduction requested and the supporting rationale and data. The commissioner must approve the applications within 60 days after receipt if the pool has demonstrated that the lesser premium volume would not compromise its financial integrity and stability.</p>
+    </div>
+    <div id="rule.2785.1100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2785.1100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Monitoring premium volume. </h2>
+      <p>A pool must monitor its premium volume. If premium decreases to an annualized volume of less than $400,000, or less than 133 percent of the amount approved pursuant to subpart 1, the pool must notify the commissioner at monthly intervals of the then-current annualized premium volume, until the annualized volume exceeds $400,000. "Annualized premium volume" means the gross premiums written for the previous 12 months. If premium decreases to an annualized volume of less than $300,000, or a lesser amount if approved pursuant to subpart 1, the pool must notify the commissioner:</p>
+      <div id="rule.2785.1100.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.1100.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> of its intent to end its self-insurance authority; or</p>
+      </div>
+      <div id="rule.2785.1100.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.1100.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> of its proposal for restoring compliance with subpart 1. If the proposal is unlikely, in the commissioner's judgment, to restore compliance with subpart 1 within 90 days, or if after 90 days the pool continues to be out of compliance, the commissioner shall revoke the pool's self-insurance authority.</p>
+      </div>
+    </div>
+    <div id="rule.2785.1100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2785.1100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Surplus or stop-loss advancement. </h2>
+      <p>A pool may protect itself from cash flow difficulties by methods including but not limited to the following:</p>
+      <div id="rule.2785.1100.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.1100.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> establishing and maintaining a surplus consisting of funds contributed by members and the pool's retained earnings; or</p>
+      </div>
+      <div id="rule.2785.1100.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.1100.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> obtaining language in the pool's stop-loss insurance policy requiring the insurer to advance funds to the pool if the policy limits have been or are likely to be exceeded. The funds may be considered an advance against the insurer's potential liability for the policy period.</p>
+      </div>
+    </div>
+    <div id="rule.2785.1100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2785.1100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">New pool deposit premium. </h2>
+      <p>As a condition for authorization to self-insure a prospective pool must submit evidence that an initial premium payment has been made. The following requirements also apply to premium payments in a pool's first year of operation:</p>
+      <div id="rule.2785.1100.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.1100.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> For all pools except employee health benefit pools, the initial payment must equal no less than 50 percent of the initial members' first year premium. If the initial payment is less than 100 percent of the initial members' first year premium, the remainder of the initial members' first year premium must be paid in three or more equal installments at equal intervals throughout the year.</p>
+      </div>
+      <div id="rule.2785.1100.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.1100.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> For employee health benefit pools, the initial premium payment must be no less than 25 percent of the initial members' first year premium. If the initial payment is less than 100 percent of the initial members' first year premium, the remainder of the initial members' first year premium must be paid in six or more equal installments at equal intervals throughout the year.</p>
+      </div>
+      <div id="rule.2785.1100.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2785.1100.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> A prospective pool may apply to the commissioner for reduction of the new pool deposit premium requirement, stating the payment schedule requested and the supporting rationale and data. The commissioner must approve the applications within 60 days after receipt if the pool has demonstrated that a less restrictive payment schedule would not compromise its ability to pay large claims promptly during its first year of operation. The commissioner must consider arrangements the pool has made under subpart 3 in evaluating the application.</p>
+      </div>
+    </div>
+    <div id="rule.2785.1100.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2785.1100.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Premium payments. </h2>
+      <p>A pool may permit installment payments if payment is always due before premium is to be earned. A pool shall promptly take appropriate action to collect premiums, assessments, or penalties that are past due. Collection costs are the obligation of the delinquent member.</p>
+    </div>
+    <div id="rule.2785.1100.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.2785.1100.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Dividend procedures. </h2>
+      <p>A pool may declare and pay a dividend or distribution from its surplus only if:</p>
+      <div id="rule.2785.1100.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.1100.6.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the dividend would not cause the pool's surplus to be negative;</p>
+      </div>
+      <div id="rule.2785.1100.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.1100.6.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the pool does not have a stop-loss advancement liability or other borrowed money; and</p>
+      </div>
+      <div id="rule.2785.1100.6.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2785.1100.6.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> for workers' compensation pools, the dividend will not be paid sooner than one year after it is declared, and at the time of payment the conditions of items A and B are fulfilled.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2785.1100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/471.617">471.617</a>; <a href="/statutes/cite/471.982">471.982</a></p>
+  </div>
+  <div class="history" id="rule.2785.1100.history">
+    <h2>History: </h2>
+    <p>10 SR 274</p>
+  </div>
+  <div class="published" id="rule.2785.1100.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2785.1200">
+    <h1 class="headnote">2785.1200 RESERVES.</h1>
+    <p>A pool must establish reserves for all incurred losses, both reported and unreported, and for unearned premiums. To the extent that the amount of a loss is uncertain, the reserve must be set conservatively. As the degree of uncertainty concerning a loss is changed by new events or information, the amount of the reserve must be changed appropriately. Accounting for reserves must be as required by the financial statement forms and instructions, under part <a href="/rules/2785.1600">2785.1600</a>, subpart 2.</p>
+  </div>
+  <div class="stat_auth" id="rule.2785.1200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/471.617">471.617</a>; <a href="/statutes/cite/471.982">471.982</a></p>
+  </div>
+  <div class="history" id="rule.2785.1200.history">
+    <h2>History: </h2>
+    <p>10 SR 274</p>
+  </div>
+  <div class="published" id="rule.2785.1200.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2785.1300">
+    <h1 class="headnote">2785.1300 STOP-LOSS INSURANCE.</h1>
+    <div id="rule.2785.1300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2785.1300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Purchase and change. </h2>
+      <p>A pool may purchase stop-loss insurance for indemnification of a portion of its losses. If the pool determines that a stop-loss insurance policy will be terminated or modified causing a violation of subpart 2, or otherwise compromising the pool's financial integrity, the pool must notify the commissioner prior to the termination or modification taking effect. The pool must indicate what corrective action will be taken.</p>
+    </div>
+    <div id="rule.2785.1300.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2785.1300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Required stop-loss coverage. </h2>
+      <p>All pools except employee health benefit pools are restricted in the amount of potential liability they may retain on any one incident to ten percent of its annual premium volume during the most recent fund year, plus 20 percent of its surplus. The restriction for pools without a year's experience is based on the pool's estimated premium volume during the first full fund year. All liability in excess of the restricted amount must be assumed by a stop-loss insurer under contract with the pool and licensed to do business in Minnesota. For employee health benefit pools required to maintain individual excess stop-loss insurance under Minnesota Statutes, section <a href="/statutes/cite/471.617">471.617</a>, subdivision 3, the self-insured retention per person per year shall not exceed $50,000.</p>
+    </div>
+    <div id="rule.2785.1300.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2785.1300.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Return of liability. </h2>
+      <p>No liability transferred to an insurer under subpart 2 may, directly or indirectly, be returned to a pool or a member.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2785.1300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/471.617">471.617</a>; <a href="/statutes/cite/471.982">471.982</a></p>
+  </div>
+  <div class="history" id="rule.2785.1300.history">
+    <h2>History: </h2>
+    <p>10 SR 274</p>
+  </div>
+  <div class="published" id="rule.2785.1300.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2785.1400">
+    <h1 class="headnote">2785.1400 DEFICIT AND ASSESSMENTS.</h1>
+    <div id="rule.2785.1400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2785.1400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Joint and several liability. </h2>
+      <p>Each current member is jointly and severally liable for all liabilities and expenses of the pool. Each past member is jointly and severally liable for all liabilities and expenses of the pool during the period of continuing liability. After the period of continuing liability, past members are no longer jointly and severally liable for the pool's liabilities and expenses, except as provided in subpart 2. The period of continuing liability for past members varies according to the type of pool, as follows:</p>
+      <div id="rule.2785.1400.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.1400.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> for employee health benefit pools, past members continue to be jointly and severally liable for three complete fund years after leaving the pool;</p>
+      </div>
+      <div id="rule.2785.1400.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.1400.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> for workers' compensation pools, past members continue to be jointly and severally liable for ten complete fund years after leaving the pool; and</p>
+      </div>
+      <div id="rule.2785.1400.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2785.1400.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> for all other pools, past members continue to be jointly and severally liable for five complete fund years after leaving the pool.</p>
+      </div>
+    </div>
+    <div id="rule.2785.1400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2785.1400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Runoff pool liability. </h2>
+      <p>If a pool's self-insurance authority is ended under part <a href="/rules/2785.0700">2785.0700</a>, subpart 1 or 2, members and past members continue to be jointly and severally liable for the pool's liabilities and expenses until final pool dissolution, as follows:</p>
+      <div id="rule.2785.1400.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.1400.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> all members at the time self-insurance authority is ended continue to be jointly and severally liable until the pool is dissolved; and</p>
+      </div>
+      <div id="rule.2785.1400.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.1400.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> all past members that were jointly and severally liable under the standards of subpart 1 at the time self-insurance authority is ended continue to be jointly and severally liable until the pool is dissolved.</p>
+      </div>
+    </div>
+    <div id="rule.2785.1400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2785.1400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Correction of a deficit. </h2>
+      <p>If the board determines that the pool's total liabilities exceed its total assets, the board must restore a positive surplus within 90 days after the determination. A deficit may be corrected using one or more of the following types of assessments. A pool may, in a particular case, elect to assess some but not all jointly and severally liable members and past members. Methods of assessment must not exclude liable members or past members arbitrarily, or impose arbitrary amounts in relation to the amounts imposed on other members and past members. The bylaws may state what methods of assessment are preferred. The commissioner must order an assessment to correct a deficit using the procedure described in item A, if the board fails to do so when required.</p>
+      <div id="rule.2785.1400.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.1400.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> All jointly and severally liable members and past members may be assessed proportionately to their share of the total premiums paid and owed during the assessment base period. The assessment base period at the time of a pool's self-insurance authority ending under part <a href="/rules/2785.0700">2785.0700</a>, subpart 1 or 2, shall remain the basis of assessments under this item until final pool dissolution. The assessment base period includes all completed quarters of the current fund year, and includes the following periods depending on the type of pool:</p>
+        <div id="rule.2785.1400.3.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.2785.1400.3.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> for employee health benefit pools, the most recent three complete fund years;</p>
+        </div>
+        <div id="rule.2785.1400.3.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.2785.1400.3.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> for workers' compensation pools, the most recent ten complete fund years; and</p>
+        </div>
+        <div id="rule.2785.1400.3.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.2785.1400.3.A.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> for all other pools, the most recent five complete fund years.</p>
+        </div>
+      </div>
+      <div id="rule.2785.1400.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.1400.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Jointly and severally liable members and past members may be assessed according to a formula stated in the bylaws, whereby members and past members with worse than average losses pay more than those with better loss experience.</p>
+      </div>
+      <div id="rule.2785.1400.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2785.1400.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Jointly and severally liable members and past members may be assessed according to a formula stated in the bylaws, whereby current members pay more than past members.</p>
+      </div>
+      <div id="rule.2785.1400.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2785.1400.3.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Jointly and severally liable members and past members may be assessed accordingly to a formula stated in the bylaws, whereby members belonging to the pool in poor loss years pay more than members belonging to the pool in better loss years.</p>
+      </div>
+      <div id="rule.2785.1400.3.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2785.1400.3.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> Jointly and severally liable members and past members may be assessed according to any formula stated in the bylaws, including combinations of items A to D, if the formula is consistent with the requirements of this part.</p>
+      </div>
+    </div>
+    <div id="rule.2785.1400.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2785.1400.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Assessment to increase surplus. </h2>
+      <p>The board may assess current members in order to increase the surplus. The assessment may be made without the existence of a deficit in order to forestall a deficit, or otherwise to improve the pool's financial strength. The assessment may be calculated using any reasonable procedure, consistent with the pool's bylaws.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2785.1400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/471.617">471.617</a>; <a href="/statutes/cite/471.982">471.982</a></p>
+  </div>
+  <div class="history" id="rule.2785.1400.history">
+    <h2>History: </h2>
+    <p>10 SR 274</p>
+  </div>
+  <div class="published" id="rule.2785.1400.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2785.1500">
+    <h1 class="headnote">2785.1500 FINANCIAL INTEGRITY.</h1>
+    <div id="rule.2785.1500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2785.1500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Fidelity bond. </h2>
+      <p>All contractors and individuals who handle pool funds or who will have authority to gain access to pool funds, including board members, must be covered by a fidelity bond. The bond must cover losses from dishonesty, robbery, forgery or alteration, misplacement, or mysterious and unexplainable disappearance. The amount of coverage for each occurrence must be $300,000 or more. The pool must purchase a fidelity bond covering the required contractors and individuals, or submit separate proof of coverage for all required contractors and individuals not covered under the plan's bond.</p>
+    </div>
+    <div id="rule.2785.1500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2785.1500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Integrity of assets. </h2>
+      <p>A pool's assets:</p>
+      <div id="rule.2785.1500.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.1500.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> must not be commingled with the assets of any member;</p>
+      </div>
+      <div id="rule.2785.1500.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.1500.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> must not be loaned to anyone for any purpose or used as security for a loan, except as permitted under subpart 5 for investments;</p>
+      </div>
+      <div id="rule.2785.1500.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2785.1500.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> must be employed solely for the purposes stated in the bylaws, and in compliance with parts <a href="/rules/2785.0100">2785.0100</a> to <a href="/rules/2785.1600">2785.1600</a> and related statutes; and</p>
+      </div>
+      <div id="rule.2785.1500.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2785.1500.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> must not be considered the property or right of any member or covered person, except:</p>
+        <div id="rule.2785.1500.2.D.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.2785.1500.2.D.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> for benefits under the coverage documents;</p>
+        </div>
+        <div id="rule.2785.1500.2.D.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.2785.1500.2.D.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> for dividends declared in accordance with part <a href="/rules/2785.1100">2785.1100</a>, subpart 5; and</p>
+        </div>
+        <div id="rule.2785.1500.2.D.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.2785.1500.2.D.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> for a portion of the assets remaining after the plan's dissolution, in accordance with part <a href="/rules/2785.0700">2785.0700</a>, subpart 4.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.2785.1500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2785.1500.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Sources and uses of funds. </h2>
+      <p>A pool may expend funds for payment of losses and expenses, and for other costs customarily borne by insurers under conventional insurance policies in Minnesota. Except as provided in part <a href="/rules/2785.1100">2785.1100</a>, subpart 3, item B, a pool must not borrow money or issue debt instruments. A pool may bring legal suits to collect delinquent debts. A pool must not obtain funds through subrogation of the rights of covered persons. A pool may receive funds only from:</p>
+      <div id="rule.2785.1500.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.1500.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> its members as premiums, assessments, or penalties;</p>
+      </div>
+      <div id="rule.2785.1500.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.1500.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> its insurers or indemnitors pursuant to insurance or indemnification agreements;</p>
+      </div>
+      <div id="rule.2785.1500.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2785.1500.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> dividends, interest, or the proceeds of sale of investments;</p>
+      </div>
+      <div id="rule.2785.1500.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2785.1500.3.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> refunds of excess payments;</p>
+      </div>
+      <div id="rule.2785.1500.3.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2785.1500.3.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> coordination of benefits with other insurance or group self-insurance coverages;</p>
+      </div>
+      <div id="rule.2785.1500.3.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.2785.1500.3.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> collection of money owed to the pool;</p>
+      </div>
+      <div id="rule.2785.1500.3.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.2785.1500.3.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> the special compensation fund under Minnesota Statutes, chapter 176, for workers' compensation pools only; or</p>
+      </div>
+      <div id="rule.2785.1500.3.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.2785.1500.3.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> indemnification under Minnesota Statutes, section <a href="/statutes/cite/176.181">176.181</a>, subdivision 5, for workers' compensation pools only. Public/private pools are eligible for indemnification under this part only in the amount of the public members' liability to the pool.</p>
+      </div>
+    </div>
+    <div id="rule.2785.1500.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2785.1500.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Separate accounts. </h2>
+      <p>A pool may establish separate accounts for the payment of claims or certain types of expenses. These accounts must be used only by the service company, its authorized subcontractors, or the financial administrator, as appropriate to the account's purpose. The amount in these special accounts must not exceed an amount reasonably sufficient to pay the claims or expenses for which it is established. All monetary and investment assets not in such accounts must be under the control of the pool's financial administrator.</p>
+    </div>
+    <div id="rule.2785.1500.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2785.1500.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Investments. </h2>
+      <p>A pool's investments are subject to Minnesota Statutes, section <a href="/statutes/cite/118A.04">118A.04</a>, as regards both permitted types of investments, maturities, and depositories. In addition, a pool must not invest in securities or debt of a member, or a member's parent, subsidiary, or affiliate; or any person or entity under contract with the pool. For this purpose, the state of Minnesota is not considered a political subdivision's parent or affiliate.</p>
+    </div>
+    <div id="rule.2785.1500.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.2785.1500.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Monitoring financial condition. </h2>
+      <p>The board must regularly monitor the pool's revenues, expenses, and loss development, and evaluate its current and expected financial condition. The board must attempt in good faith to maintain or restore the pool's sound financial condition, using any means at its disposal. These means include but are not limited to adjusting premium rates, underwriting standards, dividend rates, expulsion standards, and other powers granted in parts <a href="/rules/2785.0100">2785.0100</a> to <a href="/rules/2785.1600">2785.1600</a> and the bylaws. If the commissioner judges that the board's actions are inadequate to maintain or restore the pool's sound financial condition, the commissioner shall, as appropriate: order an increase in the premium rates; revoke the pool's self-insurance authority; or order that an assessment be levied against the members.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2785.1500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/471.617">471.617</a>; <a href="/statutes/cite/471.982">471.982</a></p>
+  </div>
+  <div class="history" id="rule.2785.1500.history">
+    <h2>History: </h2>
+    <p>10 SR 274; L 1996 c 399 art 2 s 12</p>
+  </div>
+  <div class="published" id="rule.2785.1500.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2785.1600">
+    <h1 class="headnote">2785.1600 REPORTING.</h1>
+    <div id="rule.2785.1600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2785.1600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Financial statements. </h2>
+      <p>A pool must prepare annual financial statements containing a balance sheet; a statement of revenues, expenses, and surplus; a statement of changes in financial position; and a schedule of investments. The statements must be prepared on forms and according to instructions prescribed by the commissioner. The financial statements must be filed with the commissioner no later than March 1 of each year, or if the pool's fund year is other than the calendar year, no later than 60 days after the end of the pool's fund year. The financial statements must be audited by an independent certified public accountant, and the auditor's report must be submitted no later than 180 days after the end of the pool's fund year. For employee health benefit pools, the first annual financial statement and every second annual financial statement thereafter must be accompanied by a statement from a qualified actuary concerning the balance sheet items that are based on actuarial assumptions and methods. The form of the actuary's statement and the scope of the actuarial review must be according to instructions prescribed by the commissioner.</p>
+    </div>
+    <div id="rule.2785.1600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2785.1600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Quarterly reports. </h2>
+      <p>If the commissioner determines that a pool's financial integrity is deteriorating, to the extent that if then-current trends continue for two years or less, the pool's ability to meet obligations promptly and in full will be significantly impaired, the commissioner shall require the pool to file quarterly reports with the commissioner no later than 30 days after the end of the first, second, and third quarters of each fund year. The commissioner shall remove the requirement to file quarterly reports if the conditions warranting the requirement no longer exist. Quarterly reports must contain statements of the pool's:</p>
+      <div id="rule.2785.1600.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.1600.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> current total cash on hand and on deposit, and total investment;</p>
+      </div>
+      <div id="rule.2785.1600.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.1600.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> current total reserve for unearned and advance premiums, and total reserve for outstanding losses reported and unreported;</p>
+      </div>
+      <div id="rule.2785.1600.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2785.1600.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> dividends declared and dividends paid during the quarter;</p>
+      </div>
+      <div id="rule.2785.1600.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2785.1600.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> gross premiums written during the quarter;</p>
+      </div>
+      <div id="rule.2785.1600.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.2785.1600.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> losses paid during the quarter;</p>
+      </div>
+      <div id="rule.2785.1600.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.2785.1600.2.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> current total members; and</p>
+      </div>
+      <div id="rule.2785.1600.2.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.2785.1600.2.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> any other matters the commissioner requests that the board address.</p>
+      </div>
+    </div>
+    <div id="rule.2785.1600.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2785.1600.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Extraordinary audits. </h2>
+      <p>Upon sufficient cause, the commissioner shall require a pool to investigate the accuracy of one or more entries on its financial statements or quarterly reports, and to report its findings. If necessary for the investigation's purposes, the commissioner shall require a pool to hire a qualified actuary, claims specialist, auditor, or other specialist as appropriate to the type of entry being investigated. If warranted by the investigation's findings, the commissioner shall require changes in the pool's reserving, accounting, or record keeping practices. These extraordinary audits are in addition to the commissioner's rights to examine self-insurance pools directly, as applicable to insurance companies under Minnesota Statutes, sections <a href="/statutes/cite/60A.03">60A.03</a>, subdivisions 3, 5, and 6, and <a href="/statutes/cite/60A.031">60A.031</a>. Sufficient cause includes:</p>
+      <div id="rule.2785.1600.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2785.1600.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> losses that appear significantly different than losses experienced by other self-insurance pools or insurance companies for similar coverage;</p>
+      </div>
+      <div id="rule.2785.1600.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2785.1600.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> unusual changes in the amount of entries from period to period that are not sufficiently explained by the financial statements or footnotes; or</p>
+      </div>
+      <div id="rule.2785.1600.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2785.1600.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> other indications that a pool's financial statements may not accurately reflect the pool's status and transactions.</p>
+      </div>
+    </div>
+    <div id="rule.2785.1600.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2785.1600.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Annual status report. </h2>
+      <p>No later than 60 days after the end of a pool's fund year, a pool must file with the commissioner a statement describing any changes that have occurred in the information filed with its initial application for authority to self-insure, or with the pool's most recent status report. The status report must be filed in a form and according to instructions prescribed by the commissioner.</p>
+    </div>
+    <div id="rule.2785.1600.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2785.1600.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Penalty. </h2>
+      <p>The financial statements and status report required under subparts 1 and 4 are considered together to be a pool's annual statement. This filing and other filings required by parts <a href="/rules/2785.0100">2785.0100</a> to <a href="/rules/2785.1600">2785.1600</a> and related statutes are subject to Minnesota Statutes, section <a href="/statutes/cite/72A.061">72A.061</a>, as applicable to licensed insurance companies for comparable filings.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2785.1600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/471.617">471.617</a>; <a href="/statutes/cite/471.982">471.982</a></p>
+  </div>
+  <div class="history" id="rule.2785.1600.history">
+    <h2>History: </h2>
+    <p>10 SR 274</p>
+  </div>
+  <div class="published" id="rule.2785.1600.published">
+    <h2>Published Electronically:</h2>
+    <p> September 14, 2007</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
