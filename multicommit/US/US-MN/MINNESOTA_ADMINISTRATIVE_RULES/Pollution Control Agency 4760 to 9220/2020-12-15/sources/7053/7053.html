@@ -1,0 +1,2431 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            7053.0115 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/167">Pollution Control Agency</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/7053/">Chapter 7053</a>
+            </li>
+        
+    
+        
+            <li>Part 7053.0115</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/7053.0135/">7053.0135</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/7053.0115/2014-01-18%2007:20:36+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 7053</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7053/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7053/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7053/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 7053.0115</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7053.0115/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7053.0115">
+    <h1 class="headnote">7053.0115 SCOPE.</h1>
+    <p>Parts <a href="/rules/7053.0135">7053.0135</a> to <a href="/rules/7053.0405">7053.0405</a> apply to all discharges of sewage, industrial, and other wastes to all waters of the state, both surface and underground. This chapter applies to point source and nonpoint source discharges. Other regulations of general or specific application that include any more stringent effluent limits or prohibitions are preserved.</p>
+    <p>Water quality standards applicable to waters of the state are in chapter 7050. Water quality standards applicable to waters in the Lake Superior basin are in chapter 7052.</p>
+  </div>
+  <div class="stat_auth" id="rule.7053.0115.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/115.44">115.44</a></p>
+  </div>
+  <div class="history" id="rule.7053.0115.history">
+    <h2>History: </h2>
+    <p>32 SR 1699</p>
+  </div>
+  <div class="published" id="rule.7053.0115.published">
+    <h2>Published Electronically:</h2>
+    <p> April 1, 2008</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7053.0135">
+    <h1 class="headnote">7053.0135 GENERAL DEFINITIONS.</h1>
+    <div id="rule.7053.0135.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7053.0135.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>For purposes of this chapter, the following terms have the meanings given them.</p>
+    </div>
+    <div id="rule.7053.0135.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7053.0135.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Terms defined in statute. </h2>
+      <p>The terms "waters of the state," "point source," "sewage," "industrial wastes," and "other wastes," as well as any other terms for which definitions are given in the pollution control statutes, have the meanings given them in Minnesota Statutes, sections <a href="/statutes/cite/115.01">115.01</a> and <a href="/statutes/cite/115.41">115.41</a>, with the exception that disposal systems or treatment works operated under permit or certificate of compliance of the agency are not "waters of the state." </p>
+    </div>
+    <div id="rule.7053.0135.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7053.0135.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Seven-day ten-year low flow or 7Q<sub>10</sub>.</h2>
+      <div id="rule.7053.0135.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0135.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> "Seven-day ten-year low flow" or "7Q<sub>10</sub>" means the lowest average seven-day flow with a once in ten-year recurrence interval. A 7Q<sub>10</sub> is derived by identifying the lowest average flow for a seven-consecutive-day period from daily flow records for each year of record, from a continuous flow gauging station. The seven-day average low flow values for each year are arrayed in order of magnitude and fitted to a probability distribution. The 7Q<sub>10</sub> is the stream or river flow that is equal to or exceeded by 90 percent of the values in the distribution.</p>
+      </div>
+      <div id="rule.7053.0135.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0135.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The period of record for determining the specific flow for the stated recurrence interval, where records are available, shall include at least the most recent ten years of record, including flow records obtained after establishment of flow regulation devices, if any. Where stream flow records are not available, the flow may be estimated on the basis of available information on the watershed characteristics, precipitation, runoff, and other relevant data. The calculations shall not be applied to lakes and their embayments which have no comparable flow recurrence interval. </p>
+      </div>
+    </div>
+    <div id="rule.7053.0135.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7053.0135.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Thirty-day ten-year low flow or 30Q<sub>10</sub>. </h2>
+      <p>"Thirty-day ten-year low flow" or "30Q<sub>10</sub>" means the lowest average 30-day flow with a once in ten-year recurrence interval. A 30Q<sub>10</sub> is derived using the same methods used to derive a 7Q<sub>10</sub>, and the guidelines regarding period of record for flow data and estimating a 7Q<sub>10</sub> apply equally to determining a 30Q<sub>10</sub>, as described in subpart 3. The calculations shall not be applied to lakes and their embayments which have no comparable flow recurrence interval. </p>
+    </div>
+    <div id="rule.7053.0135.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7053.0135.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Commissioner. </h2>
+      <p>"Commissioner" means the commissioner of the Pollution Control Agency or the commissioner's designee.</p>
+    </div>
+    <div id="rule.7053.0135.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7053.0135.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Effluent limit. </h2>
+      <p>The terms "effluent limit" (equals "effluent limitation"), "point source," and "national pollutant discharge elimination system" have the meanings given them in part <a href="/rules/7001.1020">7001.1020</a>.</p>
+    </div>
+    <div id="rule.7053.0135.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7053.0135.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Nonpoint source. </h2>
+      <p>"Nonpoint source" means a land management or land use activity that contributes or may contribute to ground and surface water pollution as a result of runoff, seepage, or percolation and that is not defined as a point source under Minnesota Statutes, section <a href="/statutes/cite/115.01">115.01</a>, subdivision 11.</p>
+    </div>
+    <div id="rule.7053.0135.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7053.0135.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Physical alteration. </h2>
+      <p>"Physical alteration" means the dredging, filling, draining, or permanent inundating of a wetland. Restoring a degraded wetland by reestablishing its hydrology is not a physical alteration.</p>
+    </div>
+    <div id="rule.7053.0135.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.7053.0135.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Surface waters. </h2>
+      <p>"Surface waters" means waters of the state, excluding groundwater as defined in Minnesota Statutes, section <a href="/statutes/cite/115.01">115.01</a>, subdivision 6.</p>
+    </div>
+    <div id="rule.7053.0135.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.7053.0135.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Other terms. </h2>
+      <p>Other terms and abbreviations used in this chapter that are not specifically defined in applicable federal or state law must be construed in conformance with the context, in relation to the applicable section of the statutes pertaining to the matter, and current professional usage.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7053.0135.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/115.44">115.44</a></p>
+  </div>
+  <div class="history" id="rule.7053.0135.history">
+    <h2>History: </h2>
+    <p>32 SR 1699</p>
+  </div>
+  <div class="published" id="rule.7053.0135.published">
+    <h2>Published Electronically:</h2>
+    <p> April 1, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7053.0155">
+    <h1 class="headnote">7053.0155 DETERMINATION OF COMPLIANCE.</h1>
+    <p> In making tests or analyses of the waters of the state, sewage, industrial wastes, or other wastes to determine water quality condition and compliance with effluent limits and nonpoint source reduction measures, samples must be collected in a manner and place, and of such type, number, and frequency, as may be considered necessary by the agency to adequately reflect the condition of the waters, the composition of the effluents, and the effects of the pollutants upon the uses specified in part <a href="/rules/7050.0140">7050.0140</a>. The samples must be collected, preserved, and analyzed following accepted quality control and quality assurance methods and according to the procedures in Code of Federal Regulations, title 40, part 136. The agency may accept or may develop other methods, procedures, guidelines, or criteria for collecting and analyzing effluent samples and measuring water quality characteristics.</p>
+  </div>
+  <div class="stat_auth" id="rule.7053.0155.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/115.44">115.44</a></p>
+  </div>
+  <div class="history" id="rule.7053.0155.history">
+    <h2>History: </h2>
+    <p>32 SR 1699</p>
+  </div>
+  <div class="published" id="rule.7053.0155.published">
+    <h2>Published Electronically:</h2>
+    <p> April 1, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7053.0195">
+    <h1 class="headnote">7053.0195 VARIANCE FROM DISCHARGE EFFLUENT LIMITS OR TREATMENT REQUIREMENTS.</h1>
+    <div id="rule.7053.0195.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7053.0195.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Applicability. </h2>
+      <p>A variance under this part is a temporary change in a discharge effluent limit or treatment requirement for a specified pollutant that reflects the highest attainable conditions for a permittee during the term of the variance. This part applies to variance requests from individual point source discharges to surface waters of the state for any provision of this chapter that is included in a permit. To be eligible for a variance from a discharge effluent limit or treatment requirement, the permittee must demonstrate to the agency that the permittee has met the conditions specified in part <a href="/rules/7050.0190">7050.0190</a>, subpart 1, items A to C.</p>
+    </div>
+    <div id="rule.7053.0195.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7053.0195.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Listing. </h2>
+      <p>The agency shall advise the United States Environmental Protection Agency of variances granted by the agency under this part, together with information as to the need for the variance. The agency must list all variances as required in part <a href="/rules/7050.0190">7050.0190</a>, subpart 2.</p>
+    </div>
+    <div id="rule.7053.0195.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7053.0195.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, 41 SR 463]</p>
+    </div>
+    <div id="rule.7053.0195.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7053.0195.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Conditions for approval. </h2>
+      <p>To be eligible for a preliminary determination by the agency to grant the variance, the permittee must meet the conditions specified in part <a href="/rules/7050.0190">7050.0190</a>, subpart 4, items A to D.</p>
+    </div>
+    <div id="rule.7053.0195.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7053.0195.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Submittal and notice requirements. </h2>
+      <p>Variance application submittal, public notice of the agency's preliminary determination to grant the variance, and notice requirements must conform to part <a href="/rules/7000.7000">7000.7000</a>.</p>
+    </div>
+    <div id="rule.7053.0195.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7053.0195.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Agency final decision; variance requirements. </h2>
+      <p>The agency must make a final decision regarding the variance request that conforms to the procedural requirements in part <a href="/rules/7000.7000">7000.7000</a>. If the agency grants the variance, the permit issued by the agency must include and incorporate the terms and conditions of the variance specified in part <a href="/rules/7050.0190">7050.0190</a>, subpart 6.</p>
+    </div>
+    <div id="rule.7053.0195.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7053.0195.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Renewal. </h2>
+      <p>To be eligible for renewal of a variance, the permittee is subject to the requirements of subparts 1 to 6.</p>
+    </div>
+    <div id="rule.7053.0195.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7053.0195.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Term and expiration. </h2>
+      <p>The terms and conditions of a variance from a discharge effluent limit or treatment requirement are included and incorporated in the permit issued by the agency. The term of a variance must only be as long as necessary to achieve the highest attainable condition. For a variance with the term greater than five years, only if requested in writing by the permittee, the agency shall reevaluate the variance every five years in accordance with Code of Federal Regulations, title 40, section 131.14 (b)(1)(v) and (vi), as provided by the Federal Register, volume 80, page 51048. If the permittee does not request a reevaluation, the variance expires at the end of the five-year period.</p>
+    </div>
+    <div id="rule.7053.0195.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.7053.0195.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Public notice and review. </h2>
+      <p>The agency shall provide public notice and review all variances currently in effect as required in part <a href="/rules/7050.0190">7050.0190</a>, subpart 9. Variances from water quality standards are granted by the agency under parts <a href="/rules/7000.7000">7000.7000</a>, <a href="/rules/7050.0190">7050.0190</a>, and <a href="/rules/7052.0280">7052.0280</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7053.0195.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/115.44">115.44</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7053.0195.history">
+    <h2>History: </h2>
+    <p>32 SR 1699; 41 SR 463</p>
+  </div>
+  <div class="published" id="rule.7053.0195.published">
+    <h2>Published Electronically:</h2>
+    <p> October 24, 2016</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7053.0205">
+    <h1 class="headnote">7053.0205 GENERAL REQUIREMENTS FOR DISCHARGES TO WATERS OF THE STATE.</h1>
+    <div id="rule.7053.0205.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7053.0205.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Untreated sewage. </h2>
+      <p>No untreated sewage may be discharged into any waters of the state. Effective disinfection of any discharges, including combined flows of sewage and storm water, shall be required when necessary to protect the specified uses of the waters of the state.</p>
+    </div>
+    <div id="rule.7053.0205.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7053.0205.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Nuisance conditions prohibited. </h2>
+      <p>No sewage, industrial waste, or other wastes may be discharged from either point or nonpoint sources into any waters of the state so as to cause any nuisance conditions, such as the presence of significant amounts of floating solids, scum, visible oil film, excessive suspended solids, material discoloration, obnoxious odors, gas ebullition, deleterious sludge deposits, undesirable slimes or fungus growths, aquatic habitat degradation, excessive growths of aquatic plants, or other offensive or harmful effects.</p>
+    </div>
+    <div id="rule.7053.0205.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7053.0205.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Inadequate treatment. </h2>
+      <p>Existing discharges of inadequately treated sewage, industrial waste, or other wastes shall be abated, treated, or controlled so as to comply with the applicable limits. Separation of sanitary sewage from natural runoff may be required when necessary to ensure continuous effective treatment of sewage.</p>
+    </div>
+    <div id="rule.7053.0205.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7053.0205.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Highest levels of effluent quality. </h2>
+      <p>The highest levels of effluent quality, including, but not limited to, five-day carbonaceous biochemical oxygen demand, that are attainable through continuous operation at the maximum capability of all primary and secondary units of treatment works or their equivalent, discharging effluents into the waters of the state, must be maintained in order to enhance conditions for the specified uses.</p>
+    </div>
+    <div id="rule.7053.0205.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7053.0205.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Mixing zones and compliance with water quality standards.</h2>
+      <div id="rule.7053.0205.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0205.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Reasonable allowance must be made for dilution of the effluents that are in compliance with this chapter, following discharge into waters of the state. The agency, by allowing dilution, shall consider the effect on all uses of the waters of the state into which the effluents are discharged. The extent of dilution allowed regarding any specific discharge as specified in subpart 7 must not violate the applicable water quality standards in chapters 7050 and 7052, including the antidegradation requirements contained in those chapters. This subpart also applies in cases where a Class 7 water is tributary to a Class 2 water.</p>
+      </div>
+      <div id="rule.7053.0205.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0205.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Means for expediting mixing and dispersion of sewage, industrial waste, or other waste effluents in the receiving waters must be provided so far as practicable when deemed necessary by the agency to maintain the quality of the receiving waters according to chapters 7050 and 7052.</p>
+      </div>
+      <div id="rule.7053.0205.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7053.0205.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Mixing zones must be established by the agency on an individual basis, with primary consideration being given to the following guidelines:</p>
+        <div id="rule.7053.0205.5.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7053.0205.5.C.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> mixing zones in rivers shall permit an acceptable passageway for the movement of fish;</p>
+        </div>
+        <div id="rule.7053.0205.5.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7053.0205.5.C.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> the total mixing zone or zones at any transect of the stream should contain no more than 25 percent of the cross sectional area or volume of flow of the stream and should not extend over more than 50 percent of the width;</p>
+        </div>
+        <div id="rule.7053.0205.5.C.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7053.0205.5.C.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> mixing zone characteristics shall not be lethal to aquatic organisms;</p>
+        </div>
+        <div id="rule.7053.0205.5.C.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.7053.0205.5.C.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> for contaminants other than heat, the final acute value, as defined in part <a href="/rules/7050.0218">7050.0218</a>, subpart 3, item Y, for toxic pollutants should not be exceeded as a one-day mean concentration at any point in the mixing zone;</p>
+        </div>
+        <div id="rule.7053.0205.5.C.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.7053.0205.5.C.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> mixing zones should be as small as possible and not intersect spawning or nursery areas, migratory routes, water intakes, or mouths of rivers; and</p>
+        </div>
+        <div id="rule.7053.0205.5.C.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.7053.0205.5.C.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> overlapping of mixing zones should be minimized and measures taken to prevent adverse synergistic effects.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.7053.0205.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7053.0205.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Other requirements preserved. </h2>
+      <p>The requirements of this chapter, and specifically the requirements in parts <a href="/rules/7053.0215">7053.0215</a> and <a href="/rules/7053.0225">7053.0225</a>, are in addition to any requirement imposed on a discharge by the Clean Water Act, United States Code, title 33, sections 1251 et seq., and its implementing regulations. In the case of a conflict between the requirements of this chapter, chapters 7050 and 7052, and the requirements of the Clean Water Act or its implementing regulations, the more stringent requirement controls.</p>
+    </div>
+    <div id="rule.7053.0205.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7053.0205.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Minimum stream flow.</h2>
+      <div id="rule.7053.0205.7.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0205.7.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p>Except as provided in items B and C, discharges of sewage, industrial waste, or other wastes must be controlled so that the water quality standards are maintained at all stream flows that are equal to or greater than the 7Q<sub>10</sub> for the critical month or months.</p>
+      </div>
+      <div id="rule.7053.0205.7.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0205.7.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p> Discharges of ammonia in sewage, industrial waste, or other wastes must be controlled so that the ammonia water quality standard is maintained at all stream flows that are equal to or exceeded by the 30Q<sub>10</sub> for the critical month or months.</p>
+      </div>
+      <div id="rule.7053.0205.7.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7053.0205.7.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>Discharges of total phosphorus in sewage, industrial waste, or other wastes must be controlled so that the eutrophication water quality standard is maintained for the long-term summer concentration of total phosphorus, when averaged over all flows, except where a specific flow is identified in chapter 7050. When setting the effluent limit for total phosphorus, the commissioner shall consider the discharger's efforts to control phosphorus as well as reductions from other sources, including nonpoint and runoff from permitted municipal storm water discharges.</p>
+      </div>
+      <div id="rule.7053.0205.7.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7053.0205.7.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Allowance must not be made in the design of treatment works for low stream flow augmentation unless the flow augmentation of minimum flow is dependable and controlled under applicable laws or regulations.</p>
+      </div>
+    </div>
+    <div id="rule.7053.0205.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7053.0205.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Water quality based effluent limits. </h2>
+      <p>Notwithstanding parts <a href="/rules/7053.0235">7053.0235 </a>and <a href="/rules/7053.0245">7053.0245</a>, the agency may require a specific discharger to meet effluent limits for specific pollutants or whole effluent toxicity that are necessary to maintain the water quality of the receiving water at the standards established in chapters 7050 and 7052, including the antidegradation requirements contained in those chapters. Any effluent limit determined to be necessary under this subpart and part <a href="/rules/7053.0235">7053.0235</a> may only be required of a discharger after the discharger has been given notice of the specific effluent limits and an opportunity for public hearing, provided that compliance with the requirements of chapter 7001 regarding notice of national pollutant discharge elimination system and state disposal system permits satisfies the notice and opportunity for hearing requirements of this subpart.</p>
+    </div>
+    <div id="rule.7053.0205.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.7053.0205.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Water quality standard-based ammonia effluent limits. </h2>
+      <p>For the purpose of establishing limits to meet the ammonia water quality standard, a statistic that estimates the central value, such as the mean or median, for ambient pH and temperature of the receiving water for the critical months must be used.</p>
+    </div>
+    <div id="rule.7053.0205.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.7053.0205.9">§</a>
+      <h2 class="subp_no">Subp. 9a.</h2>
+      <h2 class="headnote">Water quality standard-based TSS effluent limits. </h2>
+      <div id="rule.7053.0205.9.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0205.9.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>When the agency establishes effluent limits to meet a total suspended solids (TSS) water quality standard and the water quality standard of the receiving water is:</p>
+        <div id="rule.7053.0205.9.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7053.0205.9.A.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>less than 30 mg/L and a continuous discharger is involved; or</p>
+        </div>
+        <div id="rule.7053.0205.9.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7053.0205.9.A.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>less than 45 mg/L and either an aerated pond or a controlled discharger is involved,</p>
+          <p class="bl">the agency shall establish an appropriate water quality-based effluent limit (WQBEL) considering the discharger's nonvolatile suspended solids (NVSS) concentration.</p>
+        </div>
+      </div>
+      <div id="rule.7053.0205.9.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0205.9.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>The WQBEL shall be determined by considering all of the individual suspended solids data points collected during the period for which the standard is designed to be protective. WQBEL calculations shall also consider the flow and TSS concentrations observed in the receiving water during the corresponding time period. WQBEL is expressed as long-term, 90th percentile values (for example, April to September) to ensure protection during the time period the standard is designed to protect.</p>
+      </div>
+    </div>
+    <div id="rule.7053.0205.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.7053.0205.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Alternative waste treatment. </h2>
+      <p>After providing an opportunity for public hearing, the agency shall accept effective loss prevention, water conservation measures, or process changes or other waste control measures or arrangements if it finds that the measures, changes, or arrangements are equivalent to the waste treatment measures required for compliance with applicable effluent or water quality standards or load allocations.</p>
+    </div>
+    <div id="rule.7053.0205.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.7053.0205.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Liquid substances. </h2>
+      <p>Liquid substances that are not commonly considered to be sewage or industrial waste, but that could constitute a pollution hazard, must be stored according to chapter 7151. Other wastes as defined by law or other substances that could constitute a pollution hazard, including substances from nonpoint sources and households, must not be deposited in any manner such that the same may be likely to gain entry into any waters of the state in excess of or contrary to any of the standards in this chapter and chapters 7050 and 7052 or cause pollution as defined by law.</p>
+    </div>
+    <div id="rule.7053.0205.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.7053.0205.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Point source dischargers must report to agency. </h2>
+      <p>All persons operating or responsible for sewage, industrial waste, or other waste disposal systems that are adjacent to or that discharge effluents to waters of the state shall submit a report to the agency upon request on the operation of the disposal system, the effluent flow, and the characteristics of the effluents and receiving waters. Sufficient data on measurements, observations, sampling, and analyses, and other pertinent information must be furnished as may be required by the agency to adequately evaluate the condition of the disposal system, the effluent, and the waters receiving or affected by the effluent.</p>
+    </div>
+    <div id="rule.7053.0205.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.7053.0205.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Compliance with permit conditions. </h2>
+      <p>A person who is in compliance with the terms and conditions of the person's permit issued under chapter 7001 must not be deemed in violation of any water quality standard in chapters 7050 and 7052 for which a corresponding effluent limit is established in the permit. However, exceedances of the water quality standards in a receiving water constitutes grounds for modification of a permit for any discharger to the receiving water who is causing or contributing to the exceedances. Chapter 7001 governs the modification of any such permit.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7053.0205.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/115.44">115.44</a></p>
+  </div>
+  <div class="history" id="rule.7053.0205.history">
+    <h2>History: </h2>
+    <p>32 SR 1699; 39 SR 154; 32 SR 1699; 39 SR 154; 41 SR 545</p>
+  </div>
+  <div class="published" id="rule.7053.0205.published">
+    <h2>Published Electronically:</h2>
+    <p> November 20, 2017</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7053.0215">
+    <h1 class="headnote">7053.0215 REQUIREMENTS FOR POINT SOURCE DISCHARGES OF SEWAGE.</h1>
+    <div id="rule.7053.0215.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7053.0215.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Minimum secondary treatment for municipal point source and other point source dischargers of sewage. </h2>
+      <p>The agency shall require secondary treatment as a minimum for all municipal point source dischargers and other point source dischargers of sewage. For purposes of this part, "municipal" has the adjective meaning of municipality as defined in part <a href="/rules/7001.1020">7001.1020</a>, subpart 18. "Secondary treatment facilities" means works that will provide effective sedimentation, biochemical oxidation, and disinfection, or the equivalent, including effluents conforming to the following:</p>
+      <table>
+        <col style="width:30.7692307692308%">
+        <col style="width:69.2307692307692%">
+        <tr>
+          <td>Characteristic or Pollutant </td>
+          <td>Limiting Concentration or Range*</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Five-day carbonaceous biochemical oxygen demand*</td>
+          <td class="valign_top">25 mg/L</td>
+        </tr>
+        <tr>
+          <td>Fecal coliform group organisms **</td>
+          <td class="valign_top">200 organisms per 100 milliliters</td>
+        </tr>
+        <tr>
+          <td>Total suspended solids*</td>
+          <td>30 mg/L</td>
+        </tr>
+        <tr>
+          <td>Oil</td>
+          <td>Essentially free of visible oil</td>
+        </tr>
+        <tr>
+          <td>Phosphorus</td>
+          <td>See part 7053.0255</td>
+        </tr>
+        <tr>
+          <td>pH range</td>
+          <td>6.0 - 9.0</td>
+        </tr>
+        <tr>
+          <td class="valign_top">Toxic or corrosive pollutants </td>
+          <td>Concentrations of toxic or corrosive pollutants shall not cause acute toxicity to humans or other animals or plant life or directly damage real property or exceed the final acute value unless the effluent satisfies the whole effluent toxicity test. If a whole effluent toxicity test performed on the effluent results in less than 50 percent mortality of the test organisms, the effluent must not be considered acutely toxic unless the commissioner finds that the test species do not represent sensitive organisms in the affected surface water body or the whole effluent test was performed on a sample not representative of the effluent quality. The final acute value and whole effluent toxicity test are defined in part 7050.0218, subpart 3, items Y and AAA, respectively.</td>
+        </tr>
+      </table>
+      <p>*The arithmetic mean for concentrations of five-day carbonaceous biochemical oxygen demand and total suspended solids shall not exceed the stated values in any calendar month. In any calendar week, the arithmetic mean for concentrations of five-day carbonaceous biochemical oxygen demand shall not exceed 40 milligrams per liter and total suspended solids shall not exceed 45 milligrams per liter.</p>
+      <p>**Disinfection of wastewater effluents to reduce the levels of fecal coliform organisms to the stated value is required from April 1 through October 31 for Class 2 waters and May 1 through October 31 for Class 7 waters, except that where the effluent is discharged 25 miles or less upstream of a water intake supplying a potable water system, the reduction to the stated value is required all year. The stated value is not to be exceeded in any calendar month as determined by the geometric mean of all the samples collected in a given calendar month. The application of the fecal coliform group organism limit is limited to sewage or other effluents containing admixtures of sewage and do not apply to industrial wastes, except when the presence of sewage, fecal coliform organisms, or viable pathogenic organisms in such wastes is known or reasonably certain. Analysis of samples for fecal coliform group organisms by either the multiple tube fermentation or the membrane filter techniques is acceptable.</p>
+    </div>
+    <div id="rule.7053.0215.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7053.0215.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Exception for existing trickling filter facilities.</h2>
+      <div id="rule.7053.0215.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0215.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The secondary treatment effluent limits in subpart 1, for five-day carbonaceous biochemical oxygen demand and total suspended solids, do not apply to municipal point source dischargers and other point source dischargers of sewage that meet all of the following conditions:</p>
+        <div id="rule.7053.0215.2.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7053.0215.2.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> the treatment facility was in operation on January 1, 1987;</p>
+        </div>
+        <div id="rule.7053.0215.2.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7053.0215.2.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> the treatment facility uses a trickling filter as the principal method of biologically treating the wastewater; and</p>
+        </div>
+        <div id="rule.7053.0215.2.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7053.0215.2.A.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> the discharger has been incapable of consistently meeting the effluent limits for five-day carbonaceous biochemical oxygen demand or total suspended solids contained in subpart 1.</p>
+        </div>
+      </div>
+      <div id="rule.7053.0215.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0215.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> For those municipal point source dischargers and other point source dischargers of sewage that meet the conditions of item A, the following effluent limits for five-day carbonaceous biochemical oxygen demand and total suspended solids apply as the arithmetic mean of all samples collected during a calendar month.</p>
+        <table>
+          <col style="width:64.0625%">
+          <col style="width:35.9375%">
+          <tr>
+            <td>Five-day carbonaceous biochemical oxygen demand</td>
+            <td>40 mg/L*</td>
+          </tr>
+          <tr>
+            <td>Total suspended solids</td>
+            <td>45 mg/L**</td>
+          </tr>
+        </table>
+        <p>*In any calendar week, the arithmetic mean for five-day carbonaceous biochemical oxygen demand shall not exceed 60 milligrams per liter.</p>
+        <p>**The arithmetic mean for any calendar week shall not exceed 65 milligrams per liter for total suspended solids.</p>
+      </div>
+      <div id="rule.7053.0215.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7053.0215.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The other effluent limits in subpart 1 apply to those municipal point source dischargers and other point source dischargers of sewage whose limits for five-day carbonaceous biochemical oxygen demand and total suspended solids are established by this subpart.</p>
+      </div>
+    </div>
+    <div id="rule.7053.0215.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7053.0215.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Exception for pond facilities.</h2>
+      <div id="rule.7053.0215.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0215.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The secondary treatment effluent limits in subpart 1 for total suspended solids do not apply to municipal point source dischargers and other point source dischargers of sewage that operate stabilization ponds or aerated ponds as the principal method of biologically treating the wastewater.</p>
+      </div>
+      <div id="rule.7053.0215.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0215.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> For such treatment works, the effluent limit for total suspended solids for a discharge from the pond is as follows:</p>
+        <table>
+          <col style="width:41.6666666666667%">
+          <col style="width:58.3333333333333%">
+          <tr>
+            <td class="valign_top">Total suspended solids</td>
+            <td>45 mg/L* (arithmetic mean of all samples collected during any calendar month)</td>
+          </tr>
+        </table>
+        <p>*The arithmetic mean for any calendar week shall not exceed 65 milligrams per liter for total suspended solids.</p>
+      </div>
+      <div id="rule.7053.0215.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7053.0215.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The other effluent limits in subpart 1 apply to those municipal point source dischargers and other point source dischargers of sewage whose limits for total suspended solids are established by this subpart.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7053.0215.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/115.44">115.44</a></p>
+  </div>
+  <div class="history" id="rule.7053.0215.history">
+    <h2>History: </h2>
+    <p>32 SR 1699</p>
+  </div>
+  <div class="published" id="rule.7053.0215.published">
+    <h2>Published Electronically:</h2>
+    <p> November 20, 2017</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7053.0225">
+    <h1 class="headnote">7053.0225 REQUIREMENTS FOR POINT SOURCE DISCHARGES OF INDUSTRIAL OR OTHER WASTES.</h1>
+    <div id="rule.7053.0225.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7053.0225.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Applicable effluent limits. </h2>
+      <p>Any person discharging industrial or other wastes from a point source shall comply with the requirements in items A to C.</p>
+      <div id="rule.7053.0225.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0225.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Point source dischargers of industrial or other wastes must comply with all applicable federal standards adopted by the United States Environmental Protection Agency under sections 301, 306, and 307 of the Clean Water Act, United States Code, title 33, sections 1311, 1316, and 1317. Code of Federal Regulations, title 40, parts 401 through 469, are incorporated by reference.</p>
+      </div>
+      <div id="rule.7053.0225.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0225.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> If effluent limits for five-day carbonaceous biochemical oxygen demand, total suspended solids, pH, or oil are not established by the federal standards under item A for any point source discharger of industrial or other wastes, the point source discharger shall comply with the effluent limits for those substances established in part <a href="/rules/7053.0215">7053.0215</a>, subpart 1, or with such other equivalent mass limits established under part <a href="/rules/7053.0205">7053.0205</a>, subpart 8, if applicable.</p>
+      </div>
+      <div id="rule.7053.0225.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7053.0225.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Point source dischargers of industrial or other wastes shall comply with all additional effluent limits established by the agency in any permit proceeding for that discharger through application of the criteria provided by Code of Federal Regulations, title 40, part 125, subpart A.</p>
+      </div>
+    </div>
+    <div id="rule.7053.0225.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7053.0225.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Feedlot exemption. </h2>
+      <p>The requirements of subpart 1, items B and C, do not apply to animal feedlots.</p>
+    </div>
+    <div id="rule.7053.0225.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7053.0225.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Dredge disposal exemption. </h2>
+      <p>The requirements for total suspended solids and phosphorus under subpart 1, item B, and for phosphorus under subpart 4, do not apply to waters discharged from a dredge disposal facility and returned to the water body where the water was removed if:</p>
+      <div id="rule.7053.0225.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0225.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> best management practices and best practicable technology are established in a state disposal system permit for the facility; and</p>
+      </div>
+      <div id="rule.7053.0225.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0225.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the designated uses as established under parts <a href="/rules/7050.0140">7050.0140</a> and <a href="/rules/7050.0400">7050.0400</a> to <a href="/rules/7050.0470">7050.0470</a> are maintained.</p>
+      </div>
+    </div>
+    <div id="rule.7053.0225.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7053.0225.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Nutrient control requirements. </h2>
+      <p>In addition to the requirements of subpart 1, a person discharging industrial or other wastes from a point source shall comply with the nutrient control requirements of part <a href="/rules/7053.0255">7053.0255</a>.</p>
+    </div>
+    <div id="rule.7053.0225.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7053.0225.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Exception for total suspended solids limits for ponds. </h2>
+      <p>A point source discharger of industrial or other wastes that uses a stabilization pond or aerated pond as the principal method of biologically treating the waste shall comply with subparts 1 to 4, except that the total suspended solids effluent limits applicable to a discharger under subpart 1, item B, are the limits in part <a href="/rules/7053.0215">7053.0215</a>, subpart 3, rather than the total suspended solids limits in part <a href="/rules/7053.0215">7053.0215</a>, subpart 1.</p>
+    </div>
+    <div id="rule.7053.0225.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7053.0225.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Toxic or corrosive pollutants. </h2>
+      <p>In addition to the requirements of subpart 1, a person discharging industrial or other wastes from a point source shall comply with the control requirements of part <a href="/rules/7053.0215">7053.0215</a>, subpart 1, for toxic or corrosive pollutants.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7053.0225.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/115.44">115.44</a></p>
+  </div>
+  <div class="history" id="rule.7053.0225.history">
+    <h2>History: </h2>
+    <p>32 SR 1699</p>
+  </div>
+  <div class="published" id="rule.7053.0225.published">
+    <h2>Published Electronically:</h2>
+    <p> April 1, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7053.0235">
+    <h1 class="headnote">7053.0235 ADVANCED WASTEWATER TREATMENT REQUIREMENTS.</h1>
+    <div id="rule.7053.0235.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7053.0235.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Inadequate dilution. </h2>
+      <p>In any instance where it is evident that the minimal treatment specified in part <a href="/rules/7053.0215">7053.0215</a>, subpart 1, or <a href="/rules/7053.0225">7053.0225</a> and dispersion are not effective in preventing pollution, or if at the applicable flows it is evident that the specified stream flow is inadequate to protect the water quality standards specified in chapters 7050 and 7052, the specific standards may be interpreted as effluent limits for control purposes. In addition, the following effluent limits may be applied without any allowance for dilution where stream flow or other factors are such as to prevent adequate dilution or where it is otherwise necessary to protect the waters of the state for the stated uses:</p>
+      <table>
+        <col style="width:50%">
+        <col style="width:50%">
+        <tr>
+          <td>Pollutant</td>
+          <td>Limits</td>
+        </tr>
+        <tr>
+          <td>Five-day carbonaceous biochemical oxygen demand</td>
+          <td>5 mg/L (arithmetic mean of all samples taken during any calendar month)</td>
+        </tr>
+      </table>
+      <p>The five milligrams per liter limit shall not apply to discharges to surface waters classified as limited resource value waters, pursuant to parts <a href="/rules/7050.0140">7050.0140</a>, subpart 8, and <a href="/rules/7050.0400">7050.0400</a> to <a href="/rules/7050.0470">7050.0470</a>, except as may be needed to comply with part <a href="/rules/7053.0245">7053.0245</a>, subpart 3.</p>
+    </div>
+    <div id="rule.7053.0235.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7053.0235.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Limits for pond facilities. </h2>
+      <p>The concentrations specified in part <a href="/rules/7053.0215">7053.0215</a>, subpart 1, or, if applicable, part <a href="/rules/7053.0225">7053.0225</a>, may be used in lieu of the limit in this part if the discharge of effluent is restricted to the spring flush or other high runoff periods when the stream flow rate above the discharge point is sufficiently greater than the effluent flow rate to ensure that the applicable water quality standards are met during the discharge period.</p>
+    </div>
+    <div id="rule.7053.0235.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7053.0235.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Variability of operation. </h2>
+      <p>If treatment works are designed and constructed to meet the specified limits given in this part for a continuous discharge, at the discretion of the agency the operation of such works may allow for the effluent quality to vary between the limits specified in this part and in part <a href="/rules/7053.0215">7053.0215</a>, subpart 1, or, if applicable, part <a href="/rules/7053.0225">7053.0225</a>, provided the water quality standards and all other requirements of the agency and the United States Environmental Protection Agency are being met. The variability of operation must be based on adequate monitoring of the treatment works and the effluent and receiving waters as specified by the agency.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7053.0235.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/115.44">115.44</a></p>
+  </div>
+  <div class="history" id="rule.7053.0235.history">
+    <h2>History: </h2>
+    <p>32 SR 1699</p>
+  </div>
+  <div class="published" id="rule.7053.0235.published">
+    <h2>Published Electronically:</h2>
+    <p> April 1, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7053.0245">
+    <h1 class="headnote">7053.0245 REQUIREMENTS FOR POINT SOURCE DISCHARGES TO LIMITED RESOURCE VALUE WATERS.</h1>
+    <div id="rule.7053.0245.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7053.0245.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Effluent limits. </h2>
+      <p>For point source discharges of sewage, industrial, or other wastes to surface waters classified as limited resource value waters pursuant to parts <a href="/rules/7050.0140">7050.0140</a>, subpart 8, and <a href="/rules/7050.0400">7050.0400</a> to <a href="/rules/7050.0470">7050.0470</a>, the agency shall require treatment facilities that will provide effluents conforming to the following limits:</p>
+      <table>
+        <col style="width:50%">
+        <col style="width:50%">
+        <tr>
+          <td>Pollutant</td>
+          <td>Limiting Concentration</td>
+        </tr>
+        <tr>
+          <td>Five-day carbonaceous biochemical oxygen demand</td>
+          <td>15 mg/L* (arithmetic mean of all samples taken during any calendar month)</td>
+        </tr>
+      </table>
+      <p>*This 15 milligrams per liter limit does not apply to discharges to limited resource value waters if the principal method of treatment is through stabilization ponds, in which case the limits in parts <a href="/rules/7053.0215">7053.0215</a>, subpart 3, and <a href="/rules/7053.0225">7053.0225</a>, subpart 5, apply. All effluent limits specified in part <a href="/rules/7053.0215">7053.0215</a>, subpart 1, are also applicable to dischargers of sewage to limited resource value waters, provided that toxic or corrosive pollutants are limited to the extent necessary to protect the designated uses of the receiving water or affected downstream waters.</p>
+    </div>
+    <div id="rule.7053.0245.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7053.0245.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Alternative secondary treatment effluent limits. </h2>
+      <p>The agency shall allow treatment works to be constructed or operated to produce effluents to limited resource value waters at levels up to those stated in part <a href="/rules/7053.0215">7053.0215</a>, provided that it is demonstrated that the water quality standards for limited resource value waters will be maintained during all periods of discharge from the treatment facilities.</p>
+    </div>
+    <div id="rule.7053.0245.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7053.0245.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Protection of downstream waters. </h2>
+      <p>Notwithstanding the effluent limits established by this part, the quality of limited resource value waters must not allow a violation of applicable water quality standards in waters of the state that are connected to or affected by water classified as limited resource value waters.</p>
+    </div>
+    <div id="rule.7053.0245.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7053.0245.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Public waters designation unaffected. </h2>
+      <p>The classification of surface waters as limited resource value waters pursuant to parts <a href="/rules/7050.0140">7050.0140</a>, subpart 8, and <a href="/rules/7050.0400">7050.0400</a> to <a href="/rules/7050.0470">7050.0470</a>, does not supersede, alter, or replace the classification and designation of such waters as public waters pursuant to Minnesota Statutes, chapter 103G.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7053.0245.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/115.44">115.44</a></p>
+  </div>
+  <div class="history" id="rule.7053.0245.history">
+    <h2>History: </h2>
+    <p>32 SR 1699</p>
+  </div>
+  <div class="published" id="rule.7053.0245.published">
+    <h2>Published Electronically:</h2>
+    <p> April 1, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7053.0255">
+    <h1 class="headnote">7053.0255 PHOSPHORUS EFFLUENT LIMITS FOR POINT SOURCE DISCHARGES OF SEWAGE, INDUSTRIAL, AND OTHER WASTES.</h1>
+    <div id="rule.7053.0255.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7053.0255.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The phosphorus effluent limits in this part are in addition to the effluent limits specified elsewhere in this chapter. In the event of any conflict between this part and other applicable regulations, the more stringent requirement applies.</p>
+    </div>
+    <div id="rule.7053.0255.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7053.0255.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Definitions. </h2>
+      <p>For the purposes of this part, the following definitions apply. Other relevant definitions are found in part <a href="/rules/7050.0150">7050.0150</a>, subpart 4.</p>
+      <div id="rule.7053.0255.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0255.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> "122-day ten-year low flow" or "122Q<sub>10</sub>" means the lowest average 122-day flow with a once in ten-year recurrence interval. A 122Q<sub>10</sub> is derived using the same methods used to derive a 7Q<sub>10</sub>, and the guidelines regarding period of record for flow data and estimating a 7Q<sub>10</sub> apply equally to determining a 122Q<sub>10</sub> as described in part <a href="/rules/7053.0135">7053.0135</a>, subpart 3.</p>
+      </div>
+      <div id="rule.7053.0255.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0255.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> "Affects" means a measurable increase in the adverse effects of phosphorus loading as determined by monitoring or modeling, including, but not limited to, an increase in chlorophyll-a concentrations, a decrease in water transparency, or an increase in the frequency or duration of nuisance algae blooms, from an individual point source discharge.</p>
+      </div>
+      <div id="rule.7053.0255.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7053.0255.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> "Expanded discharge" means a disposal system that after May 1, 2008, discharges more than 1,800 pounds of total phosphorus per year to a surface water on an annual average basis, and increases in wastewater treatment capacity as indicated by an increase in the:</p>
+        <div id="rule.7053.0255.2.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7053.0255.2.C.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> design average wet weather flow for the wettest 30-day period for point source dischargers of sewage with a continuous discharge, typically a mechanical facility; </p>
+        </div>
+        <div id="rule.7053.0255.2.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7053.0255.2.C.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> design average wet weather flow for the wettest 180-day period for point source dischargers of sewage with a controlled discharge, typically a pond facility; or</p>
+        </div>
+        <div id="rule.7053.0255.2.C.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7053.0255.2.C.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> design average daily flow rate for dischargers of industrial or other wastes.</p>
+        </div>
+      </div>
+      <div id="rule.7053.0255.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7053.0255.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> "Lake" means an enclosed basin filled or partially filled with standing fresh water with a maximum depth greater than 15 feet. Lakes may have no inlet or outlet, an inlet or outlet, or both an inlet and outlet.</p>
+      </div>
+      <div id="rule.7053.0255.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7053.0255.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> "Measurable increase" or "measurable impact" means a change in trophic status that can be discerned above the normal variability in water quality data using a weight of evidence approach. The change in trophic status does not require a demonstration of statistical significance to be considered measurable. Mathematical models may be used as a tool in the data analysis to help predict changes in trophic status.</p>
+      </div>
+      <div id="rule.7053.0255.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7053.0255.2.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> "New discharge" means a discharge that was not in existence before May 1, 2008, and discharges more than 1,800 pounds of total phosphorus per year.</p>
+      </div>
+      <div id="rule.7053.0255.2.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.7053.0255.2.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> "Reservoir" means a body of water in a natural or artificial basin or water course where the outlet or flow is artificially controlled by a structure such as a dam. Reservoirs are distinguished from river systems by having a hydraulic residence time of at least 14 days. For purposes of this item, residence time is determined using a flow equal to the 122Q<sub>10</sub> for the months of June through September, a 122Q<sub>10</sub> for the summer months.</p>
+      </div>
+      <div id="rule.7053.0255.2.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.7053.0255.2.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> "Shallow lake" means an enclosed basin filled or partially filled with standing fresh water with a maximum depth of 15 feet or less or with 80 percent or more of the lake area shallow enough to support emergent and submerged rooted aquatic plants (the littoral zone). It is uncommon for shallow lakes to thermally stratify during the summer. The quality of shallow lakes will permit the propagation and maintenance of a healthy indigenous aquatic community, and they will be suitable for boating and other forms of aquatic recreation for which they may be usable. For purposes of this chapter, shallow lakes will be differentiated from wetlands and lakes on a case-by-case basis. Wetlands are defined in part <a href="/rules/7050.0186">7050.0186</a>, subpart 1a.</p>
+      </div>
+    </div>
+    <div id="rule.7053.0255.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7053.0255.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Total phosphorus effluent limits.</h2>
+      <div id="rule.7053.0255.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0255.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Phosphorus removal to one milligram per liter is required when subitem (1), (2), or (3) applies:</p>
+        <div id="rule.7053.0255.3.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7053.0255.3.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> the discharge of effluent is directly to or affects a lake, shallow lake, or reservoir;</p>
+        </div>
+        <div id="rule.7053.0255.3.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7053.0255.3.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> the discharge is to the specific basins and water bodies designated in subpart 5; or</p>
+        </div>
+        <div id="rule.7053.0255.3.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7053.0255.3.A.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> the discharge is new or expanded as defined in subpart 2, except when the discharger can demonstrate to the commissioner that the discharger qualifies for an alternative phosphorus limit as provided in subpart 4.</p>
+        </div>
+      </div>
+      <div id="rule.7053.0255.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0255.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> If a phosphorus effluent limit is required under item A, removal of nutrients from all wastes must be provided to the fullest practicable extent wherever sources of nutrients are considered to be actually or potentially detrimental to preservation or enhancement of the designated water uses. Dischargers required to control nutrients under this part are subject to the variance provisions of parts <a href="/rules/7000.7000">7000.7000</a> and <a href="/rules/7053.0195">7053.0195</a>.</p>
+      </div>
+    </div>
+    <div id="rule.7053.0255.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7053.0255.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Alternative phosphorus effluent limits for new or expanded discharges. </h2>
+      <p>New or expanded discharges subject to a one milligram per liter phosphorus effluent limit in subpart 3, item A, subitem (3), may request an alternative limit or no limit if one or more of items A to C apply. New or expanded discharges are defined in subpart 2. The exemptions in this subpart do not apply to facilities that discharge directly to or affect a lake, shallow lake, or reservoir or to discharges to the waters listed in subpart 5. Dischargers seeking an alternative limit due to very high per capita treatment costs or economic hardship must apply for a variance under parts <a href="/rules/7000.7000">7000.7000</a> and <a href="/rules/7053.0195">7053.0195</a>.</p>
+      <p>The information submitted to the commissioner for consideration of an alternative limit must include, at a minimum, a description of the treatment technology used, influent and effluent total phosphorus concentrations, a phosphorus management plan for the facility, descriptions of any measures already taken to reduce phosphorus sources to the facility, and expected reductions in phosphorus concentrations following implementation of the phosphorus management plan. The discharger may qualify for an alternative total phosphorus limit or no limit if it can demonstrate:</p>
+      <div id="rule.7053.0255.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0255.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the discharge is to or upstream of a water body listed on the applicable impaired water list, section 303(d) of the Clean Water Act, and the subsequent total maximum daily load study is complete and approved by the United States Environmental Protection Agency, as required by Code of Federal Regulations, title 40, part 130, section 7, at the time the new or expanding facility is in the planning and design phase. The total maximum daily load study must have considered impacts from phosphorus loading on the impaired water body. In this case, the total maximum daily load study will determine the applicable phosphorus effluent limit;</p>
+      </div>
+      <div id="rule.7053.0255.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0255.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the environmental benefits to be achieved by meeting a phosphorus limit are outweighed or negated by the environmental harm caused by meeting a limit; or</p>
+      </div>
+      <div id="rule.7053.0255.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7053.0255.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the treatment works, regardless of the type of treatment technology, uses chemical addition to achieve compliance with the one milligram per liter limit and the discharge is to a receiving stream in a watershed listed in subitems (1) to (3). In this case the discharger may be granted a seasonal one milligram per liter limit, applicable from May 1 through September 30 and not applicable from October 1 through April 30:</p>
+        <div id="rule.7053.0255.4.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7053.0255.4.C.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> the lower Mississippi River and its tributaries from the mouth of the Chippewa River in Wisconsin to the Minnesota border;</p>
+        </div>
+        <div id="rule.7053.0255.4.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7053.0255.4.C.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> the Bois de Sioux and Red Rivers and their tributaries from the southern end of Lake Traverse at Browns Valley to the Canadian border; and</p>
+        </div>
+        <div id="rule.7053.0255.4.C.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7053.0255.4.C.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> the Missouri, Des Moines, and Cedar Rivers and their tributaries in Minnesota.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.7053.0255.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7053.0255.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Designated waters. </h2>
+      <p>The one milligram per liter phosphorus limit established in subpart 3 applies to the waters designated in items A to F.</p>
+      <div id="rule.7053.0255.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0255.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> All intrastate waters lying within the drainage basin of Lake Superior in the counties of Aitkin, Carlton, Cook, Itasca, Lake, Pine, and St. Louis (Townships 45 to 65 North, Ranges 7 East to 23 West).</p>
+      </div>
+      <div id="rule.7053.0255.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0255.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The interstate waters of Lake St. Croix in Washington County (Townships 26 to 30 North, Range 20 West).</p>
+      </div>
+      <div id="rule.7053.0255.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7053.0255.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The St. Louis River from its source at Seven Beaver Lake (Township 58 North, Range 12 West) to and including St. Louis Bay (Townships 49 and 50 North, Ranges 14 and 15 West) and Superior Bay (Townships 49 and 50 North, Ranges 13 and 14 West).</p>
+      </div>
+      <div id="rule.7053.0255.5.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7053.0255.5.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> The Mississippi River from its source to the Blandin Dam at the outlet of Paper Mill Reservoir in the city of Grand Rapids approximately 400 feet upstream from the bridge on U.S. Highway 169 including Lake Andrusia (Township 146 North, Range 31 West), Lake Bemidji (Townships 146 and 147 North, Range 33 West), Cass Lake (Townships 145 and 146 North, Ranges 30 and 31 West), Lake Itasca (Township 143 North, Range 36 West), Pokegama Lake (Townships 54 and 55 North, Ranges 25 and 26 West), and Winnibigoshish Lake (Townships 145, 146, and 147 North, Ranges 27, 28, and 29 West).</p>
+      </div>
+      <div id="rule.7053.0255.5.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7053.0255.5.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> The Little Minnesota River and Big Stone Lake from the South Dakota border crossing to the outlet of Big Stone Lake at the dam immediately upstream from the U.S. Highway 12 bridge in Ortonville.</p>
+      </div>
+      <div id="rule.7053.0255.5.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7053.0255.5.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> Albert Lea Lake (Township 102 North, Ranges 20 and 21 West) in Freeborn County.</p>
+      </div>
+    </div>
+    <div id="rule.7053.0255.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7053.0255.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Averaging period for phosphorus limit. </h2>
+      <p>The phosphorus limit required under subpart 3 must be a calendar month arithmetic mean unless the commissioner finds, after considering the criteria listed in items A and B, that a different averaging period is acceptable. In no case shall the one milligram per liter limit exceed a moving mean of 12 monthly values reported on a monthly basis or a simple mean for a specified period, not to exceed 12 months. Calendar month effluent limits in effect as of February 7, 2000, must remain in effect unless an assessment of the criteria listed in items A and B indicate a different averaging period is acceptable. An averaging period other than monthly is acceptable when:</p>
+      <div id="rule.7053.0255.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0255.6.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> there is no measurable or predictable difference in the adverse effects of the phosphorus loading from the facility on the receiving water or downstream water resources compared to the loading that would result using a 30-day average limit; and</p>
+      </div>
+      <div id="rule.7053.0255.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0255.6.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the treatment technologies being considered offer environmental, financial, or other benefits.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7053.0255.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/115.44">115.44</a></p>
+  </div>
+  <div class="history" id="rule.7053.0255.history">
+    <h2>History: </h2>
+    <p>32 SR 1699</p>
+  </div>
+  <div class="published" id="rule.7053.0255.published">
+    <h2>Published Electronically:</h2>
+    <p> April 1, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7053.0265">
+    <h1 class="headnote">7053.0265 DISCHARGE RESTRICTIONS APPLICABLE TO MISSISSIPPI RIVER FROM RUM RIVER TO ST. ANTHONY FALLS.</h1>
+    <div id="rule.7053.0265.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7053.0265.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope and beneficial uses. </h2>
+      <p>The restrictions on discharges specified in this part are applicable to that portion of the Mississippi River from, but not including, the mouth of the Rum River to the upper lock and dam at St. Anthony Falls, approximately at the northeastward extension of Fifth Avenue South in the city of Minneapolis, and tributary streams. The primary use of these waters is as a source of public water supply for drinking, food processing, and related purposes. Other uses applicable to these waters are defined in parts <a href="/rules/7050.0410">7050.0410</a>, <a href="/rules/7050.0430">7050.0430</a>, and <a href="/rules/7050.0470">7050.0470</a>, subpart 4.</p>
+    </div>
+    <div id="rule.7053.0265.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7053.0265.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Discharges prohibited. </h2>
+      <p>Discharges listed in items A to C are prohibited to the waters defined in subpart 1.</p>
+      <div id="rule.7053.0265.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0265.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Raw sewage and industrial waste or other wastes, treated or untreated, containing viable pathogenic organisms or any substances that may cause disease, endanger the public health, or otherwise impair the quality of the receiving waters for public water supply.</p>
+      </div>
+      <div id="rule.7053.0265.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0265.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Treated sewage effluent from any source, including, without limitation, discharges from watercraft.</p>
+      </div>
+      <div id="rule.7053.0265.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7053.0265.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Treated sewage, industrial waste, or other wastes so as to cause any material increase in taste, odor, color, or turbidity above natural levels or otherwise to impair the quality of the water so as to render it objectionable or unsuitable as a source of water supply.</p>
+      </div>
+    </div>
+    <div id="rule.7053.0265.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7053.0265.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Variance. </h2>
+      <p>The variance provisions of parts <a href="/rules/7000.7000">7000.7000</a> and <a href="/rules/7053.0195 ">7053.0195 </a>are applicable to this part.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7053.0265.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/115.44">115.44</a></p>
+  </div>
+  <div class="history" id="rule.7053.0265.history">
+    <h2>History: </h2>
+    <p>32 SR 1699</p>
+  </div>
+  <div class="published" id="rule.7053.0265.published">
+    <h2>Published Electronically:</h2>
+    <p> April 1, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7053.0275">
+    <h1 class="headnote">7053.0275 ANTIBACKSLIDING.</h1>
+    <div id="rule.7053.0275.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7053.0275.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Antibacksliding applies. </h2>
+      <p>Any point source discharger of sewage, industrial, or other wastes for which a national pollutant discharge elimination system permit has been issued by the agency that contains effluent limits more stringent than those that would be established by parts <a href="/rules/7053.0215">7053.0215</a> to <a href="/rules/7053.0265">7053.0265</a> shall continue to meet the effluent limits established by the permit, unless the permittee establishes that less stringent effluent limits are allowable pursuant to federal law, under section 402(o) of the Clean Water Act, United States Code, title 33, section 1342.</p>
+    </div>
+    <div id="rule.7053.0275.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7053.0275.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Less stringent effluent limits. </h2>
+      <p>If a permittee establishes that it is entitled to less stringent effluent limits under subpart 1, the agency shall establish new effluent limits according to the criteria in items A to F.</p>
+      <div id="rule.7053.0275.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0275.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> If past treatment performance data are representative of future performance, the new effluent limits must reflect the level of pollutant control that has been consistently achieved by the permittee in the past.</p>
+      </div>
+      <div id="rule.7053.0275.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0275.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> If changes in the rate of production or in other operational aspects of the facility make past treatment performance data unrepresentative of future performance, in establishing new effluent limits, the agency shall consider: (1) the performance capabilities of the existing treatment facility under the changed factors; and (2) the performance capabilities of any additional treatment facilities that may be required by the agency as a result of the changed factors. The new effluent limits must be as stringent as is reasonable, applying good engineering design practices and operational and maintenance practices for the existing treatment facilities and any additional treatment facilities that may be required.</p>
+      </div>
+      <div id="rule.7053.0275.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7053.0275.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The new effluent limits must reflect the performance capabilities of all treatment facilities under proper operation and maintenance practices.</p>
+      </div>
+      <div id="rule.7053.0275.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7053.0275.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> In no event may the new effluent limits be less stringent than the effluent limits established under parts <a href="/rules/7053.0215">7053.0215</a> to <a href="/rules/7053.0265">7053.0265</a>.</p>
+      </div>
+      <div id="rule.7053.0275.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7053.0275.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> In all cases, the beneficial uses and the water quality standards in chapters 7050 and 7052 must be maintained in the receiving water.</p>
+      </div>
+      <div id="rule.7053.0275.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7053.0275.2.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> If less stringent effluent limits are established in the permit, the agency may also establish other reasonable and necessary conditions for the new permit. </p>
+        <p>A request for less stringent effluent limits in a permit shall be made according to part <a href="/rules/7001.0190">7001.0190</a>, subpart 1. The agency shall follow the procedures in part <a href="/rules/7001.0190">7001.0190</a>, subpart 1, in acting upon a request for new effluent limits.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7053.0275.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/115.44">115.44</a></p>
+  </div>
+  <div class="history" id="rule.7053.0275.history">
+    <h2>History: </h2>
+    <p>32 SR 1699</p>
+  </div>
+  <div class="published" id="rule.7053.0275.published">
+    <h2>Published Electronically:</h2>
+    <p> April 1, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7053.0305">
+    <h1 class="headnote">7053.0305 REQUIREMENTS FOR ANIMAL FEEDLOTS.</h1>
+    <div id="rule.7053.0305.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7053.0305.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Definitions. </h2>
+      <p>For purposes of this part, the terms in items A to D have the meanings given them.</p>
+      <div id="rule.7053.0305.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0305.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> "Animal feedlot" has the meaning given in part <a href="/rules/7020.0300">7020.0300</a>, subpart 3.</p>
+      </div>
+      <div id="rule.7053.0305.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0305.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> "Animal manure" has the meaning given in part <a href="/rules/7020.0300">7020.0300</a>, subpart 4.</p>
+      </div>
+      <div id="rule.7053.0305.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7053.0305.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> "Manure storage area" has the meaning given in part <a href="/rules/7020.0300">7020.0300</a>, subpart 14.</p>
+      </div>
+      <div id="rule.7053.0305.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7053.0305.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> "Treatment works" has the meaning given in Minnesota Statutes, section <a href="/statutes/cite/115.01">115.01</a>, subdivision 21, and includes a vegetated filter or buffer strip located between an animal feedlot or a manure storage area and a receiving water.</p>
+      </div>
+    </div>
+    <div id="rule.7053.0305.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7053.0305.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Effluent limits for a discharge.</h2>
+      <div id="rule.7053.0305.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0305.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Any person discharging pollutants to surface waters of the state from an animal feedlot or manure storage area who is not regulated by federal requirements under part <a href="/rules/7053.0225">7053.0225</a>, subpart 1, shall comply with the following limits after allowance for pollutant removal by a treatment works:</p>
+        <table>
+          <col style="width:50%">
+          <col style="width:50%">
+          <tr>
+            <td>Pollutant</td>
+            <td>Limiting Concentration</td>
+          </tr>
+          <tr>
+            <td class="valign_top">Five-day biochemical oxygen demand</td>
+            <td>25 mg/L (arithmetic mean of all samples taken during any calendar month)</td>
+          </tr>
+        </table>
+        <p>If the discharge is directly to or affects a lake, shallow lake, or reservoir, or to the waters listed in part <a href="/rules/7053.0255">7053.0255</a>, subpart 5, the person discharging the pollutants shall comply with the nutrient control requirements in part <a href="/rules/7053.0255">7053.0255</a>, subpart 3, items A and B. Feedlots are not considered new or expanded discharges as defined in part <a href="/rules/7053.0255">7053.0255</a>, subpart 2.</p>
+      </div>
+      <div id="rule.7053.0305.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0305.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The effluent limits in item A are not applicable whenever rainfall events, either chronic or catastrophic, cause an overflow from an animal feedlot or manure storage area designed, constructed, and operated:</p>
+        <div id="rule.7053.0305.2.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7053.0305.2.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> to meet the effluent limits in item A for rainfall events less than or equal to a 25-year, 24-hour rainfall event for that location; or</p>
+        </div>
+        <div id="rule.7053.0305.2.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7053.0305.2.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> to collect and contain the runoff from a 25-year, 24-hour rainfall event for that location.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7053.0305.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/115.44">115.44</a></p>
+  </div>
+  <div class="history" id="rule.7053.0305.history">
+    <h2>History: </h2>
+    <p>32 SR 1699</p>
+  </div>
+  <div class="published" id="rule.7053.0305.published">
+    <h2>Published Electronically:</h2>
+    <p> April 1, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7053.0405">
+    <h1 class="headnote">7053.0405 REQUIREMENTS FOR AQUACULTURE FACILITIES.</h1>
+    <div id="rule.7053.0405.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7053.0405.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Definitions. </h2>
+      <p>For purposes of this part, the terms in items A to G have the meanings given them.</p>
+      <div id="rule.7053.0405.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0405.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> "Aquaculture therapeutics" means drugs, medications, or disease control chemicals that are approved for concentrated aquatic animal production facility use by the United States Food and Drug Administration or the United States Environmental Protection Agency. </p>
+      </div>
+      <div id="rule.7053.0405.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0405.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> "Aquatic animal production" means harvest of unprocessed aquatic animals, including mortalities, where the animals are fed fish food.</p>
+      </div>
+      <div id="rule.7053.0405.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7053.0405.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> "Chemical additive" means an aquaculture therapeutic, growth-inducing compound, hormone, or algal control product that is added to a concentrated aquatic animal production facility.</p>
+      </div>
+      <div id="rule.7053.0405.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7053.0405.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> "Cold water aquatic animals" means aquatic animals in the Salmonidae family of fish, such as trout and salmon.</p>
+      </div>
+      <div id="rule.7053.0405.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7053.0405.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> "Concentrated aquatic animal production facility" means a hatchery, fish farm, or other facility that contains, grows, or holds aquatic animals as described in subitems (1) to (4).</p>
+        <div id="rule.7053.0405.1.E.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7053.0405.1.E.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> Cold water aquatic animal facilities that produce more that 9,090 harvest weight kilograms (approximately 20,000 pounds) of aquatic animals per year or feed more than 2,272 kilograms (approximately 5,000 pounds) of food during the calendar month of maximum feeding.</p>
+        </div>
+        <div id="rule.7053.0405.1.E.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7053.0405.1.E.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> Warm and cool water aquatic animal facilities that produce more than 45,454 harvest weight kilograms (approximately 100,000 pounds) of aquatic animals per year.</p>
+        </div>
+        <div id="rule.7053.0405.1.E.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7053.0405.1.E.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> Case-by-case designation of concentrated aquatic animal production facilities. The commissioner may designate any warm, cool, or cold water aquatic animal production facility as a concentrated aquatic animal facility upon determining that it may cause a violation of an applicable state or federal water quality rule or regulation. In making this designation, the commissioner shall consider the following factors:</p>
+          <div id="rule.7053.0405.1.E.3.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.7053.0405.1.E.3.a">§</a>
+            <h5 class="unit_no">(a)</h5>
+            <p> the location and quality of the receiving waters;</p>
+          </div>
+          <div id="rule.7053.0405.1.E.3.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.7053.0405.1.E.3.b">§</a>
+            <h5 class="unit_no">(b)</h5>
+            <p> the holding, feeding, and production capacities of the facility; and</p>
+          </div>
+          <div id="rule.7053.0405.1.E.3.c" class="unit">
+            <a title="Link to unit c" class="permalink" href="#rule.7053.0405.1.E.3.c">§</a>
+            <h5 class="unit_no">(c)</h5>
+            <p> the quantity and nature of the pollutants reaching waters of the state.</p>
+            <p>A permit application is not required from a concentrated aquatic animal production facility designated under this item until the commissioner has conducted an on-site inspection of the facility and has determined that the facility is required to be regulated under the permit program. A permit is required under this subitem only after the facility has been given notice of the commissioner's determination and an opportunity to request a hearing as provided in part <a href="/rules/7000.1800">7000.1800</a>.</p>
+          </div>
+        </div>
+        <div id="rule.7053.0405.1.E.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.7053.0405.1.E.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> Harvest weight is considered the weight of aquatic animal product that leaves a production facility, minus the weight of aquatic animal product that enters the same production facility.</p>
+        </div>
+      </div>
+      <div id="rule.7053.0405.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7053.0405.1.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> "Fish food" means materials including processed feeds, grains and seeds, plants, plant wastes, meat, and dead fish or other dead animal parts, but not including living aquatic animals, for the purposes of sustaining growth, repairing vital processes, or furnishing energy for aquatic animals present in the facility.</p>
+      </div>
+      <div id="rule.7053.0405.1.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.7053.0405.1.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> "Warm and cool water aquatic animals" means all other aquatic animals not included in the Salmonidae family of fish.</p>
+      </div>
+    </div>
+    <div id="rule.7053.0405.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7053.0405.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Permit required. </h2>
+      <p>No person may construct, operate, or maintain a concentrated aquatic animal production facility until the agency has issued a national pollutant discharge elimination system and state disposal system (NPDES/SDS) permit for the facility according to chapter 7001. Production levels of multiple projects and multiple stages of a single project that are connected actions or phased actions shall be considered in total under subpart 1, item E.</p>
+    </div>
+    <div id="rule.7053.0405.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7053.0405.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Treatment technology discharge requirements.</h2>
+      <div id="rule.7053.0405.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0405.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> All concentrated aquatic animal production facilities shall collect, remove, treat, and properly dispose of unconsumed fish food and fish wastes.</p>
+      </div>
+      <div id="rule.7053.0405.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0405.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> All concentrated aquatic animal production facilities that discharge industrial or other wastes to waters of the state shall comply with the requirements of parts <a href="/rules/7053.0225">7053.0225</a>, subparts 1, 3, 4, and 5, and <a href="/rules/7053.0275">7053.0275</a>.</p>
+      </div>
+    </div>
+    <div id="rule.7053.0405.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7053.0405.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Additional requirements. </h2>
+      <p>Except as expressly excluded in this part, the construction, operation, and maintenance of a concentrated aquatic animal production facility shall comply with the requirements of this chapter and chapters 7050 and 7052.</p>
+    </div>
+    <div id="rule.7053.0405.5" class="subp repealed">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7053.0405.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <p>[Repealed, 38 SR 1001]</p>
+    </div>
+    <div id="rule.7053.0405.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7053.0405.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Special conditions.</h2>
+      <div id="rule.7053.0405.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7053.0405.6.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> In addition to the requirements for monitoring, testing, and reporting under part <a href="/rules/7001.0150">7001.0150</a>, subpart 2, item B, the permittee shall report the aquatic animal production and amount of fish food used. The commissioner may require the permittee to monitor receiving waters to determine natural background levels and baseline quality and to determine compliance with state and federal antidegradation and water quality standard requirements. The monitoring shall consider natural seasonal and year-to-year variations in background levels and baseline quality.</p>
+      </div>
+      <div id="rule.7053.0405.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7053.0405.6.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The permittee shall transport aquatic animal mortalities for rendering or disposal at a land-based facility. Aquatic animal mortalities shall not be disposed of in waters of the state. The permittee shall prevent blood produced through harvest of aquatic animals from entering waters of the state untreated. The blood generated shall be transported to a land-based rendering or disposal facility approved by the commissioner or discharged to a publicly owned treatment works according to the applicable publicly owned treatment works national pollutant discharge elimination system or state disposal system (NPDES/SDS) permit.</p>
+      </div>
+      <div id="rule.7053.0405.6.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7053.0405.6.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The permittee shall maintain an operation record book of daily operations and other occurrences that may affect water quality including addition of fish food, composition of fish food, aquatic animal transfers and harvests, cleaning, mortalities, major weather events, and power failures. The operation record book must be available at all times for inspection and copying by the commissioner.</p>
+      </div>
+      <div id="rule.7053.0405.6.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7053.0405.6.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> The permittee shall submit an annual report to the commissioner. The report shall include:</p>
+        <div id="rule.7053.0405.6.D.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7053.0405.6.D.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> a general description of the operations conducted for the past calendar year;</p>
+        </div>
+        <div id="rule.7053.0405.6.D.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7053.0405.6.D.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> a summary of the monitoring data;</p>
+        </div>
+        <div id="rule.7053.0405.6.D.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7053.0405.6.D.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> the mass of aquatic animals currently at the facility;</p>
+        </div>
+        <div id="rule.7053.0405.6.D.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.7053.0405.6.D.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> aquatic animal production at the facility for the past calendar year;</p>
+        </div>
+        <div id="rule.7053.0405.6.D.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.7053.0405.6.D.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> methods, amounts, and locations of the removal and disposal of waste fish food, filter backwash, sludges, sediments, mortalities, and other accumulated solids generated at the facility; and</p>
+        </div>
+        <div id="rule.7053.0405.6.D.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.7053.0405.6.D.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> proposed changes in operation or production for the coming year.</p>
+        </div>
+      </div>
+      <div id="rule.7053.0405.6.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7053.0405.6.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> The discharge of water treatment and chemical additives must comply with parts <a href="/rules/7050.0218">7050.0218</a> and <a href="/rules/7050.0221">7050.0221</a> to <a href="/rules/7050.0227">7050.0227</a>.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7053.0405.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/115.44">115.44</a></p>
+  </div>
+  <div class="history" id="rule.7053.0405.history">
+    <h2>History: </h2>
+    <p>32 SR 1699; 38 SR 1001</p>
+  </div>
+  <div class="published" id="rule.7053.0405.published">
+    <h2>Published Electronically:</h2>
+    <p> January 22, 2014</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

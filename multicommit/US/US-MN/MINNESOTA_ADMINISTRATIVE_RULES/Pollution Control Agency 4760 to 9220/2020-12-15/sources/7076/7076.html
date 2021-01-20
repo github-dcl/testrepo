@@ -1,0 +1,2531 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            7076.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/167">Pollution Control Agency</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/7076/">Chapter 7076</a>
+            </li>
+        
+    
+        
+            <li>Part 7076.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/7076.0110/">7076.0110</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/7076.0100/2014-01-18%2007:17:53+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 7076</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7076/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7076/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7076/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 7076.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7076.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0100">
+    <h1 class="headnote">7076.0100 PURPOSE.</h1>
+    <p>This chapter provides for the administration of the state clean water partnership financial assistance program and the federal nonpoint source management program as provided by the federal Water Pollution Control Act, United States Code, title 33, sections 1329 and 1330, as amended, commonly referred to as sections 319 and 320 of the federal Clean Water Act. Parts <a href="/rules/7076.0100">7076.0100</a> to <a href="/rules/7076.0290">7076.0290</a> implement these programs by establishing the conditions under which the agency may award state matching grants, provide technical assistance for the development and implementation of nonpoint source projects, and award low-interest loans from the state clean water revolving fund for the implementation of nonpoint source projects.</p>
+  </div>
+  <div class="stat_auth" id="rule.7076.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103F.745">103F.745</a>; <a href="/statutes/cite/115.10">115.10</a></p>
+  </div>
+  <div class="history" id="rule.7076.0100.history">
+    <h2>History: </h2>
+    <p>13 SR 661; 20 SR 1245; L 2008 c 277 art 3 s 4; 37 SR 1334</p>
+  </div>
+  <div class="published" id="rule.7076.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0110">
+    <h1 class="headnote">7076.0110 DEFINITIONS.</h1>
+    <div id="rule.7076.0110.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0110.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The terms used in parts <a href="/rules/7076.0100">7076.0100</a> to <a href="/rules/7076.0290">7076.0290</a> have the meanings given them in Minnesota Statutes, chapter 116, and rules adopted under that chapter and the meanings given them in this part. If terms defined in this part conflict with the definitions in Minnesota Statutes, chapter 116, and the rules adopted under that chapter, the definitions in this part govern.</p>
+    </div>
+    <div id="rule.7076.0110.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7076.0110.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Agency. </h2>
+      <p>"Agency" means the Pollution Control Agency.</p>
+    </div>
+    <div id="rule.7076.0110.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7076.0110.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Best management practices. </h2>
+      <p>"Best management practices" has the meaning given it in Minnesota Statutes, section <a href="/statutes/cite/103F.711">103F.711</a>, subdivision 3.</p>
+    </div>
+    <div id="rule.7076.0110.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7076.0110.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Commissioner. </h2>
+      <p>"Commissioner" means the commissioner of the Pollution Control Agency or delegate.</p>
+    </div>
+    <div id="rule.7076.0110.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7076.0110.4">§</a>
+      <h2 class="subp_no">Subp. 4a.</h2>
+      <h2 class="headnote">Financial assistance. </h2>
+      <p>"Financial assistance" means a project grant or project loan.</p>
+    </div>
+    <div id="rule.7076.0110.5" class="subp repealed">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7076.0110.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <p>[Repealed, 16 SR 584]</p>
+    </div>
+    <div id="rule.7076.0110.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7076.0110.5">§</a>
+      <h2 class="subp_no">Subp. 5a.</h2>
+      <h2 class="headnote">Loan sponsor. </h2>
+      <p>"Loan sponsor" means a local unit of government that enters into a loan contract with the agency. There may be more than one loan sponsor for a project.</p>
+    </div>
+    <div id="rule.7076.0110.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7076.0110.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Local share. </h2>
+      <p>"Local share" means the contributions of a local unit of government and project partners to the eligible cost of a project, including the value of cash expenditures; project loans used on eligible project activities; and in kind contributions of labor, equipment, material, and real property used for and expended on eligible project activities.</p>
+    </div>
+    <div id="rule.7076.0110.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7076.0110.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Local unit of government. </h2>
+      <p>"Local unit of government" has the meaning given it in Minnesota Statutes, section <a href="/statutes/cite/103F.711">103F.711</a>, subdivision 5.</p>
+    </div>
+    <div id="rule.7076.0110.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7076.0110.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Local water plan. </h2>
+      <p>"Local water plan" means a comprehensive water plan authorized under Minnesota Statutes, chapter 103B; a surface water management plan required under Minnesota Statutes, section <a href="/statutes/cite/103B.231">103B.231</a>; or an overall plan required under Minnesota Statutes, chapter 103D, that has been approved by the Board of Water and Soil Resources.</p>
+    </div>
+    <div id="rule.7076.0110.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7076.0110.8">§</a>
+      <h2 class="subp_no">Subp. 8a.</h2>
+      <h2 class="headnote">Measurable outcomes. </h2>
+      <p>"Measurable outcomes" has the meaning given under Minnesota Statutes, section <a href="/statutes/cite/3.303#stat.3.303.10">3.303, subdivision 10</a>, paragraph (b).</p>
+    </div>
+    <div id="rule.7076.0110.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.7076.0110.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Nonpoint source. </h2>
+      <p>"Nonpoint source" has the meaning given it in Minnesota Statutes, section <a href="/statutes/cite/103F.711">103F.711</a>, subdivision 6.</p>
+    </div>
+    <div id="rule.7076.0110.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.7076.0110.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Official controls. </h2>
+      <p>"Official controls" means ordinances and regulations that control the physical development of the whole or part of a local unit of government or that implement the general objectives of the local unit of government.</p>
+    </div>
+    <div id="rule.7076.0110.11" class="subp repealed">
+      <a title="Link to subpart 11" class="permalink" href="#rule.7076.0110.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <p>[Repealed, 16 SR 584]</p>
+    </div>
+    <div id="rule.7076.0110.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.7076.0110.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Project. </h2>
+      <p>"Project" has the meaning given it in Minnesota Statutes, section <a href="/statutes/cite/103F.711">103F.711</a>, subdivision 8.</p>
+    </div>
+    <div id="rule.7076.0110.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.7076.0110.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Project area. </h2>
+      <p>"Project area" means the area identified as hydrologically contributing to the water of concern.</p>
+    </div>
+    <div id="rule.7076.0110.14" class="subp repealed">
+      <a title="Link to subpart 14" class="permalink" href="#rule.7076.0110.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <p>[Repealed, 20 SR 1245]</p>
+    </div>
+    <div id="rule.7076.0110.15" class="subp repealed">
+      <a title="Link to subpart 15" class="permalink" href="#rule.7076.0110.15">§</a>
+      <h2 class="subp_no">Subp. 15.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0110.16" class="subp repealed">
+      <a title="Link to subpart 16" class="permalink" href="#rule.7076.0110.16">§</a>
+      <h2 class="subp_no">Subp. 16.</h2>
+      <p>[Repealed, 16 SR 584]</p>
+    </div>
+    <div id="rule.7076.0110.17" class="subp repealed">
+      <a title="Link to subpart 17" class="permalink" href="#rule.7076.0110.17">§</a>
+      <h2 class="subp_no">Subp. 17.</h2>
+      <p>[Repealed, 16 SR 584]</p>
+    </div>
+    <div id="rule.7076.0110.18" class="subp repealed">
+      <a title="Link to subpart 18" class="permalink" href="#rule.7076.0110.18">§</a>
+      <h2 class="subp_no">Subp. 18.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0110.18" class="subp repealed">
+      <a title="Link to subpart 18" class="permalink" href="#rule.7076.0110.18">§</a>
+      <h2 class="subp_no">Subp. 18a.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0110.19" class="subp">
+      <a title="Link to subpart 19" class="permalink" href="#rule.7076.0110.19">§</a>
+      <h2 class="subp_no">Subp. 19.</h2>
+      <h2 class="headnote">Project grant or grant. </h2>
+      <p>"Project grant" or "grant" means a grant from the agency to the project sponsor for the implementation of a nonpoint source project.</p>
+    </div>
+    <div id="rule.7076.0110.19" class="subp">
+      <a title="Link to subpart 19" class="permalink" href="#rule.7076.0110.19">§</a>
+      <h2 class="subp_no">Subp. 19a.</h2>
+      <h2 class="headnote">Project loan. </h2>
+      <p>"Project loan" or "loan" means a loan from the agency to the loan sponsor for the implementation of a nonpoint source project.</p>
+    </div>
+    <div id="rule.7076.0110.19" class="subp">
+      <a title="Link to subpart 19" class="permalink" href="#rule.7076.0110.19">§</a>
+      <h2 class="subp_no">Subp. 19b.</h2>
+      <h2 class="headnote">Project loan set rate. </h2>
+      <p>"Project loan set rate" means the prime interest rate as published in the current Wall Street Journal.</p>
+    </div>
+    <div id="rule.7076.0110.19c" class="subp">
+      <a title="Link to subpart 19c" class="permalink" href="#rule.7076.0110.19c">§</a>
+      <h2 class="subp_no">Subp. 19c.</h2>
+      <h2 class="headnote">Project period. </h2>
+      <p>"Project period" means a three-year period as found in a project contract for completion of project activities defined in a project work plan. This period may be extended an additional year upon written approval by the commissioner.</p>
+    </div>
+    <div id="rule.7076.0110.19d" class="subp">
+      <a title="Link to subpart 19d" class="permalink" href="#rule.7076.0110.19d">§</a>
+      <h2 class="subp_no">Subp. 19d.</h2>
+      <h2 class="headnote">Project partners. </h2>
+      <p>"Project partners" means local individuals and local organizations that will assist the project sponsor in the development and implementation of the project.</p>
+    </div>
+    <div id="rule.7076.0110.20" class="subp">
+      <a title="Link to subpart 20" class="permalink" href="#rule.7076.0110.20">§</a>
+      <h2 class="subp_no">Subp. 20.</h2>
+      <h2 class="headnote">Project sponsor. </h2>
+      <p>"Project sponsor" means the local unit of government that is responsible for development and implementation of the project, applies for financial assistance, and is a party to all grant and loan contracts entered into by the agency to provide financial assistance.</p>
+    </div>
+    <div id="rule.7076.0110.20" class="subp repealed">
+      <a title="Link to subpart 20" class="permalink" href="#rule.7076.0110.20">§</a>
+      <h2 class="subp_no">Subp. 20a.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0110.20" class="subp repealed">
+      <a title="Link to subpart 20" class="permalink" href="#rule.7076.0110.20">§</a>
+      <h2 class="subp_no">Subp. 20b.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0110.20c" class="subp">
+      <a title="Link to subpart 20c" class="permalink" href="#rule.7076.0110.20c">§</a>
+      <h2 class="subp_no">Subp. 20c.</h2>
+      <h2 class="headnote">Second-tier borrower. </h2>
+      <p>"Second-tier borrower" means a person who receives a second-tier loan from a loan sponsor.</p>
+    </div>
+    <div id="rule.7076.0110.20d" class="subp">
+      <a title="Link to subpart 20d" class="permalink" href="#rule.7076.0110.20d">§</a>
+      <h2 class="subp_no">Subp. 20d.</h2>
+      <h2 class="headnote">Second-tier loan. </h2>
+      <p>"Second-tier loan" means a loan made by the loan sponsor, using project loan funds, for implementation of project activities by a person other than the loan sponsor.</p>
+    </div>
+    <div id="rule.7076.0110.20e" class="subp">
+      <a title="Link to subpart 20e" class="permalink" href="#rule.7076.0110.20e">§</a>
+      <h2 class="subp_no">Subp. 20e.</h2>
+      <h2 class="headnote">State revolving fund. </h2>
+      <p>"State revolving fund" means the state clean water revolving fund created by Minnesota Statutes, section <a href="/statutes/cite/446A.07">446A.07</a>.</p>
+    </div>
+    <div id="rule.7076.0110.21" class="subp">
+      <a title="Link to subpart 21" class="permalink" href="#rule.7076.0110.21">§</a>
+      <h2 class="subp_no">Subp. 21.</h2>
+      <h2 class="headnote">Water pollution. </h2>
+      <p>"Water pollution" has the meaning given it in Minnesota Statutes, section <a href="/statutes/cite/115.01">115.01</a>, subdivision 13.</p>
+    </div>
+    <div id="rule.7076.0110.22" class="subp">
+      <a title="Link to subpart 22" class="permalink" href="#rule.7076.0110.22">§</a>
+      <h2 class="subp_no">Subp. 22.</h2>
+      <h2 class="headnote">Waters of the state. </h2>
+      <p>"Waters of the state" has the meaning given it in Minnesota Statutes, section <a href="/statutes/cite/115.01">115.01</a>, subdivision 22.</p>
+    </div>
+    <div id="rule.7076.0110.23" class="subp">
+      <a title="Link to subpart 23" class="permalink" href="#rule.7076.0110.23">§</a>
+      <h2 class="subp_no">Subp. 23.</h2>
+      <h2 class="headnote">Water of concern. </h2>
+      <p>"Water of concern" means the specific surface water or groundwater of the state which the project is focused on protecting, enhancing, or restoring.</p>
+    </div>
+    <div id="rule.7076.0110.24" class="subp">
+      <a title="Link to subpart 24" class="permalink" href="#rule.7076.0110.24">§</a>
+      <h2 class="subp_no">Subp. 24.</h2>
+      <h2 class="headnote">Work plan. </h2>
+      <p>"Work plan" means a document prepared by a project sponsor that describes in detail the work activities to be undertaken by the sponsor to fulfill the requirements of Minnesota Statutes, sections <a href="/statutes/cite/103F.701">103F.701</a> to <a href="/statutes/cite/103F.755">103F.755</a>, and is approved by the commissioner.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7076.0110.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103F.745">103F.745</a>; <a href="/statutes/cite/115.10">115.10</a></p>
+  </div>
+  <div class="history" id="rule.7076.0110.history">
+    <h2>History: </h2>
+    <p>13 SR 661; 16 SR 584; 20 SR 1245; L 2008 c 277 art 3 s 4; L 2011 c 107 s 107; 37 SR 1334</p>
+  </div>
+  <div class="published" id="rule.7076.0110.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0120">
+    <h1 class="headnote">7076.0120 AVAILABLE ASSISTANCE.</h1>
+    <div id="rule.7076.0120.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0120.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Grants. </h2>
+      <p>The grants available for nonpoint source projects are for a maximum of 50 percent of the eligible cost of the project.</p>
+    </div>
+    <div id="rule.7076.0120.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0120.1">§</a>
+      <h2 class="subp_no">Subp. 1a.</h2>
+      <h2 class="headnote">Loans. </h2>
+      <p>Loans may cover up to 100 percent of the eligible costs of the project or may be used to finance the local share of a project grant. </p>
+    </div>
+    <div id="rule.7076.0120.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7076.0120.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Technical assistance. </h2>
+      <p>Within the limits of available resources, the agency may provide technical assistance to local units of government in order to ensure efficient and effective development and implementation of projects. </p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7076.0120.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103F.745">103F.745</a>; <a href="/statutes/cite/115.10">115.10</a></p>
+  </div>
+  <div class="history" id="rule.7076.0120.history">
+    <h2>History: </h2>
+    <p>13 SR 661; 16 SR 584; 20 SR 1245; 37 SR 1334</p>
+  </div>
+  <div class="published" id="rule.7076.0120.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0130">
+    <h1 class="headnote">7076.0130 ELIGIBILITY CRITERIA.</h1>
+    <div id="rule.7076.0130.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0130.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Grant-eligible proposers. </h2>
+      <p>Only local units of government are eligible to apply for grants and receive technical assistance. A local unit of government is eligible to apply for grants and request technical assistance if it has the following:</p>
+      <div id="rule.7076.0130.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7076.0130.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the authority to coordinate and enter into contracts with local, state, and federal agencies and private organizations for the purpose of carrying out a project;</p>
+      </div>
+      <div id="rule.7076.0130.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7076.0130.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the authority to generate cash revenues and in kind contributions for the local share of a project; and</p>
+      </div>
+      <div id="rule.7076.0130.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7076.0130.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> an approved local water plan that addresses the water of concern.</p>
+      </div>
+    </div>
+    <div id="rule.7076.0130.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0130.1">§</a>
+      <h2 class="subp_no">Subp. 1a.</h2>
+      <h2 class="headnote">Loan-eligible proposers. </h2>
+      <p>Only local units of government that meet the requirements of subpart 1 are eligible to apply for loans and receive technical assistance. A local unit of government is eligible to receive a loan if it has the following:</p>
+      <div id="rule.7076.0130.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7076.0130.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the ability to pledge its full faith and credit to ensure repayment of a project loan;</p>
+      </div>
+      <div id="rule.7076.0130.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7076.0130.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the authority to generate cash revenues for the repayment of a loan; and</p>
+      </div>
+      <div id="rule.7076.0130.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7076.0130.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the authority to enter into a loan agreement with the agency.</p>
+        <p>If the local unit of government submitting the proposal does not meet the criteria in items A to C, it must submit a resolution from at least one local unit of government that does meet the criteria stating that the loan-eligible local unit of government resolves to participate in the project as a loan sponsor.</p>
+      </div>
+    </div>
+    <div id="rule.7076.0130.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7076.0130.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Eligible costs. </h2>
+      <p>Project costs are eligible for financial assistance if they are reasonable, necessary, and allocable to the project. The dredging of harbors, lakes, ditches, constructed wetlands, and existing sedimentation basins; sewage treatment system upgrades; and the use of ferric chloride, aluminum sulfate, or other chemicals to precipitate phosphorus are eligible for loan funds but are not eligible for grant funds. In addition, costs related to any of the following activities are eligible for financial assistance:</p>
+      <div id="rule.7076.0130.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7076.0130.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> water quality monitoring, water resource and project area data and information collection, data and information analysis and assessment, and related tasks;</p>
+      </div>
+      <div id="rule.7076.0130.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7076.0130.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> fiscal and management activities including report preparation;</p>
+      </div>
+      <div id="rule.7076.0130.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7076.0130.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> selection, design, layout, and installation of best management practices consistent with the federal Water Pollution Control Act, United States Code, title 33, sections 1329 and 1330, referred to as sections 319 and 320 of the federal Clean Water Act, as amended;</p>
+      </div>
+      <div id="rule.7076.0130.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7076.0130.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> development, review, and inspection of procedures for the installation, operation, and maintenance of best management practices;</p>
+      </div>
+      <div id="rule.7076.0130.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7076.0130.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> the costs of implementation of best management practices for animal feedlot operations if the best management practice installation is not related to a criminal enforcement action or a civil enforcement action involving financial penalties;</p>
+      </div>
+      <div id="rule.7076.0130.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7076.0130.2.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> development and implementation of public education materials and activities;</p>
+      </div>
+      <div id="rule.7076.0130.2.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.7076.0130.2.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> development and implementation of official controls;</p>
+      </div>
+      <div id="rule.7076.0130.2.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.7076.0130.2.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> acquisition of easements and property; and</p>
+      </div>
+      <div id="rule.7076.0130.2.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.7076.0130.2.I">§</a>
+        <h3 class="item_no">I.</h3>
+        <p> other activities determined by the agency or established by federal regulation to be necessary to carry out the project.</p>
+      </div>
+    </div>
+    <div id="rule.7076.0130.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7076.0130.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Ineligible costs. </h2>
+      <p>Ineligible costs include any costs that are not related to the activities in subpart 2. Costs identified under subpart 2 are ineligible if the related project activities are started before the grant contract has been signed by the commissioner or before the loan contract has been signed by the commissioner and the commissioner of management and budget. In addition, the following costs are ineligible for financial assistance whether or not they relate to the activities in subpart 2:</p>
+      <div id="rule.7076.0130.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7076.0130.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> operation and maintenance of best management practices;</p>
+      </div>
+      <div id="rule.7076.0130.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7076.0130.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> activities regulated by the Petroleum Tank Release Cleanup Act, Minnesota Statutes, chapter 115C; the Environmental Response Compensation and Liability Act, Minnesota Statutes, chapter 115B; the Agricultural Chemical Liability Act, Minnesota Statutes, chapter 18D; the Comprehensive Environmental Response, Compensation, and Liability Act, United States Code, title 42, sections 9601 to 9675; and the Resource Conservation and Recovery Act, United States Code, title 42, sections 6901 to 6991;</p>
+      </div>
+      <div id="rule.7076.0130.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7076.0130.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> activities regulated by the national pollutant discharge elimination system permit program, parts <a href="/rules/7001.1000">7001.1000</a> to <a href="/rules/7001.1100">7001.1100</a>, except that the following are eligible costs:</p>
+        <div id="rule.7076.0130.3.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7076.0130.3.C.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> the costs of outreach, technical assistance, and education activities concerning animal waste management, and the costs of best management practices for animal feedlot operations are eligible if the implementation activities are part of an eligible watershed or groundwater project and if the best management practice installation is not related to a criminal enforcement action or a civil enforcement action involving financial penalties; and</p>
+        </div>
+        <div id="rule.7076.0130.3.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7076.0130.3.C.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> the costs of outreach, technical assistance, implementation of source control and runoff control best management practices, and education activities related to storm water control;</p>
+        </div>
+      </div>
+      <div id="rule.7076.0130.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7076.0130.3.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> activities regulated by a condition of a solid waste or hazardous waste permit or the agency solid waste rules, chapter 7035; or the agency hazardous waste rules, chapter 7045;</p>
+      </div>
+      <div id="rule.7076.0130.3.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7076.0130.3.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> activities funded by state or federal grants or loans for publicly owned treatment works;</p>
+      </div>
+      <div id="rule.7076.0130.3.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7076.0130.3.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> regulated practices to control spills of pesticides, fertilizer, petroleum, and related materials from bulk storage facilities;</p>
+      </div>
+      <div id="rule.7076.0130.3.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.7076.0130.3.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> regulated practices to manage toxic or hazardous materials;</p>
+      </div>
+      <div id="rule.7076.0130.3.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.7076.0130.3.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> commercial operations and industrial processes and land use and land management activities directly related to commercial operations and industrial processes including plant yards, access roads, drainage ponds, refuse piles, storage piles, and material product loading areas, excluding farming operations occurring on the farm itself;</p>
+      </div>
+      <div id="rule.7076.0130.3.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.7076.0130.3.I">§</a>
+        <h3 class="item_no">I.</h3>
+        <p> active and inactive mining activities;</p>
+      </div>
+      <div id="rule.7076.0130.3.J" class="item">
+        <a title="Link to item J" class="permalink" href="#rule.7076.0130.3.J">§</a>
+        <h3 class="item_no">J.</h3>
+        <p> building and utility construction;</p>
+      </div>
+      <div id="rule.7076.0130.3.K" class="item">
+        <a title="Link to item K" class="permalink" href="#rule.7076.0130.3.K">§</a>
+        <h3 class="item_no">K.</h3>
+        <p> highway and road construction;</p>
+      </div>
+      <div id="rule.7076.0130.3.L" class="item">
+        <a title="Link to item L" class="permalink" href="#rule.7076.0130.3.L">§</a>
+        <h3 class="item_no">L.</h3>
+        <p> activities intended primarily for flood control; and</p>
+      </div>
+      <div id="rule.7076.0130.3.M" class="item">
+        <a title="Link to item M" class="permalink" href="#rule.7076.0130.3.M">§</a>
+        <h3 class="item_no">M.</h3>
+        <p> activities that violate local, state, and federal statutes, rules, and regulations.</p>
+      </div>
+    </div>
+    <div id="rule.7076.0130.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7076.0130.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Eligible local share for project grants. </h2>
+      <p>Any grant- or loan-eligible project costs as described in subparts 2 and 3 that are not funded through a project grant are eligible as local share. At least 30 percent of the project costs must be derived from nonstate and nonfederal sources. Project loans are considered nonstate and nonfederal sources for the purposes of this subpart. Costs incurred by a land occupier or project partner for the installation of best management practices may be considered a part of the local share provided the following conditions are met:</p>
+      <div id="rule.7076.0130.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7076.0130.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the primary purpose of the best management practices is for protection, enhancement, or restoration of water quality;</p>
+      </div>
+      <div id="rule.7076.0130.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7076.0130.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> any structural best management practices must be designed for a minimum effective life of ten years;</p>
+      </div>
+      <div id="rule.7076.0130.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7076.0130.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> any equipment purchased for operational best management practices must have a minimum effective life of ten years and be maintained or replaced by the land occupier during this period of time, or there must be a plan approved by the commissioner scheduling the phase-out of the operational best management practices; and</p>
+      </div>
+      <div id="rule.7076.0130.4.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7076.0130.4.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> there must be an operation and maintenance plan for the minimum effective life of the best management practices.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7076.0130.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103F.745">103F.745</a>; <a href="/statutes/cite/115.10">115.10</a></p>
+  </div>
+  <div class="history" id="rule.7076.0130.history">
+    <h2>History: </h2>
+    <p>13 SR 661; 16 SR 584; 20 SR 1245; L 2009 c 101 art 2 s 109; 37 SR 1334</p>
+  </div>
+  <div class="published" id="rule.7076.0130.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0140">
+    <h1 class="headnote">7076.0140 NOTICE OF FINANCIAL ASSISTANCE AVAILABILITY.</h1>
+    <div id="rule.7076.0140.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0140.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Notice. </h2>
+      <p>The commissioner will provide notice that proposals for project grants and loans will be accepted whenever the commissioner determines that funds are available to award the financial assistance. Notice will be provided through the agency's website, through the state's electronic financial portal, or by publication in the State Register. The notice will contain the requirements necessary for the proposal and a deadline for proposal submittal, which must be no less than 60 days from the date of notification.</p>
+    </div>
+    <div id="rule.7076.0140.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7076.0140.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0140.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7076.0140.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Financial assistance proposal periods. </h2>
+      <p>The commissioner must establish at least one financial assistance proposal period each calendar year, if funds are available.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7076.0140.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103F.745">103F.745</a>; <a href="/statutes/cite/115.10">115.10</a></p>
+  </div>
+  <div class="history" id="rule.7076.0140.history">
+    <h2>History: </h2>
+    <p>13 SR 661; 16 SR 584; 20 SR 1245; 37 SR 1334; 38 SR 1001</p>
+  </div>
+  <div class="published" id="rule.7076.0140.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2018</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0150">
+    <h1 class="headnote">7076.0150 FINANCIAL ASSISTANCE PROPOSAL.</h1>
+    <div id="rule.7076.0150.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0150.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">General requirements. </h2>
+      <p>The financial assistance proposal must be submitted by the project sponsor on an agency form designed to comply with subpart 2. </p>
+    </div>
+    <div id="rule.7076.0150.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7076.0150.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Proposal requirements. </h2>
+      <p>A project proposal must contain the following information:</p>
+      <div id="rule.7076.0150.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7076.0150.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> a resolution by the project sponsor, authorizing the filing of the proposal and designating an official authorized to execute the grant and loan proposal;</p>
+      </div>
+      <div id="rule.7076.0150.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7076.0150.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> written statement that the project sponsor has consulted with the local water planning authority, soil and water conservation districts, and watershed districts in the project area in preparing the proposal;</p>
+      </div>
+      <div id="rule.7076.0150.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7076.0150.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> identification of local units of government, agencies, and organizations that will be involved in the project;</p>
+      </div>
+      <div id="rule.7076.0150.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7076.0150.2.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>an estimated project budget and the amount of grant and loan funding requested, based on estimated project costs;</p>
+      </div>
+      <div id="rule.7076.0150.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7076.0150.2.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>a list identifying the amount, type, and source of the local share;</p>
+      </div>
+      <div id="rule.7076.0150.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7076.0150.2.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>preliminary goals and objectives;</p>
+      </div>
+      <div id="rule.7076.0150.2.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.7076.0150.2.G">§</a>
+        <h3 class="item_no">G. </h3>
+        <p>a statement of existing water quality conditions and problems and the existing and desired uses of the water of concern;</p>
+      </div>
+      <div id="rule.7076.0150.2.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.7076.0150.2.H">§</a>
+        <h3 class="item_no">H. </h3>
+        <p>an identification and summary of activities that the grant and loan would make possible;</p>
+      </div>
+      <div id="rule.7076.0150.2.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.7076.0150.2.I">§</a>
+        <h3 class="item_no">I. </h3>
+        <p>a preliminary schedule of project activities;</p>
+      </div>
+      <div id="rule.7076.0150.2.J" class="item">
+        <a title="Link to item J" class="permalink" href="#rule.7076.0150.2.J">§</a>
+        <h3 class="item_no">J. </h3>
+        <p>documents required by state or federal statutes, rules, and regulations; and</p>
+      </div>
+      <div id="rule.7076.0150.2.K" class="item">
+        <a title="Link to item K" class="permalink" href="#rule.7076.0150.2.K">§</a>
+        <h3 class="item_no">K. </h3>
+        <p>if the proposer is requesting a loan:</p>
+        <div id="rule.7076.0150.2.K.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7076.0150.2.K.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>identification of the dedicated sources of revenue to be used for repayment of the project loan from the agency;</p>
+        </div>
+        <div id="rule.7076.0150.2.K.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7076.0150.2.K.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>a resolution from each loan sponsor authorizing the filing of the proposal, stating:</p>
+          <div id="rule.7076.0150.2.K.2.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.7076.0150.2.K.2.a">§</a>
+            <h5 class="unit_no">(a) </h5>
+            <p>the total project loan amount requested; and</p>
+          </div>
+          <div id="rule.7076.0150.2.K.2.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.7076.0150.2.K.2.b">§</a>
+            <h5 class="unit_no">(b) </h5>
+            <p>the amount of the total loan that the loan sponsor is requesting which, when added to all other loan sponsor requests, must equal the total project loan request; and</p>
+          </div>
+        </div>
+        <div id="rule.7076.0150.2.K.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7076.0150.2.K.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>an opinion and supporting documentation from the project sponsor's attorney stating that the project sponsor and participating local units of government have the legal authority to conduct the project.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.7076.0150.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7076.0150.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7076.0150.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103F.745">103F.745</a>; <a href="/statutes/cite/115.10">115.10</a></p>
+  </div>
+  <div class="history" id="rule.7076.0150.history">
+    <h2>History: </h2>
+    <p>13 SR 661; 16 SR 584; 20 SR 1245; 37 SR 1334</p>
+  </div>
+  <div class="published" id="rule.7076.0150.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0160">
+    <h1 class="headnote">7076.0160 REJECTION OF FINANCIAL ASSISTANCE PROPOSAL.</h1>
+    <div id="rule.7076.0160.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0160.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Grounds. </h2>
+      <p>A proposal for financial assistance shall be rejected by the commissioner for the following reasons:</p>
+      <div id="rule.7076.0160.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7076.0160.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> an ineligible proposer;</p>
+      </div>
+      <div id="rule.7076.0160.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7076.0160.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> ineligible costs;</p>
+      </div>
+      <div id="rule.7076.0160.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7076.0160.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> a late submittal; </p>
+      </div>
+      <div id="rule.7076.0160.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7076.0160.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> failure to comply with any requirement of statute or rule;</p>
+      </div>
+      <div id="rule.7076.0160.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7076.0160.1.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>recent agency experience of grant noncompliance by the local unit of government; or</p>
+      </div>
+      <div id="rule.7076.0160.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7076.0160.1.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>an incomplete proposal.</p>
+      </div>
+    </div>
+    <div id="rule.7076.0160.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7076.0160.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Procedure. </h2>
+      <p>The commissioner shall review each financial assistance proposal within 30 days after the deadline for proposal submittal. The commissioner shall notify each rejected proposer of the rejection of its proposal and the reasons for the rejection, as provided under subpart 1.</p>
+    </div>
+    <div id="rule.7076.0160.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7076.0160.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Effect of rejection. </h2>
+      <p>A proposer whose proposal is rejected may reapply in a subsequent proposal period to be considered for financial assistance.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7076.0160.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103F.745">103F.745</a>; <a href="/statutes/cite/115.10">115.10</a></p>
+  </div>
+  <div class="history" id="rule.7076.0160.history">
+    <h2>History: </h2>
+    <p>13 SR 661; 16 SR 584; 20 SR 1245; 37 SR 1334</p>
+  </div>
+  <div class="published" id="rule.7076.0160.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0170">
+    <h1 class="headnote">7076.0170 PROJECT RANKING.</h1>
+    <div id="rule.7076.0170.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0170.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Process of ranking. </h2>
+      <p>Upon completion of the commissioner's review of the proposals for acceptability, the agency shall rank the acceptable proposals in order of priority. Each project for which an acceptable proposal has been submitted must be awarded the number of priority points to which the project is entitled under subpart 2. The proposal with the highest number of priority points will be given the highest priority. All proposals will be given a ranking depending on the number of points awarded. </p>
+    </div>
+    <div id="rule.7076.0170.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7076.0170.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Priority points for project proposals. </h2>
+      <div id="rule.7076.0170.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7076.0170.2.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>The agency must use the criteria in item B to determine the number of priority points to be awarded in the evaluation of each project proposal. Each project shall receive a whole number from zero to ten under each of the following criteria, depending on how well the project satisfies each criteria. The number of points awarded under each of the criteria assigned by the agency must be added together to determine the project's total point value. This total number must be used to determine the project's overall ranking and priority.</p>
+      </div>
+      <div id="rule.7076.0170.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7076.0170.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The criteria for the project proposals are as follows:</p>
+        <div id="rule.7076.0170.2.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7076.0170.2.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> the extent to which the project proposal clearly identifies water quality concerns, goals, and objectives;</p>
+        </div>
+        <div id="rule.7076.0170.2.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7076.0170.2.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> the extent to which the proposed project demonstrates a high potential for project success based on participation, coordination, and cooperation between local units of government, public agencies, and other local stakeholders within the project area;</p>
+        </div>
+        <div id="rule.7076.0170.2.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7076.0170.2.B.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> the extent to which the proposed project activities are technically feasible relative to the cost of the project; and</p>
+        </div>
+        <div id="rule.7076.0170.2.B.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.7076.0170.2.B.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> the extent to which the proposed project activities will lead to protection, enhancement, or restoration of the water of concern.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.7076.0170.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7076.0170.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0170.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7076.0170.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7076.0170.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103F.745">103F.745</a>; <a href="/statutes/cite/115.10">115.10</a></p>
+  </div>
+  <div class="history" id="rule.7076.0170.history">
+    <h2>History: </h2>
+    <p>13 SR 661; 16 SR 584; 20 SR 1245; 37 SR 1334</p>
+  </div>
+  <div class="published" id="rule.7076.0170.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0180">
+    <h1 class="headnote">7076.0180 ALLOCATION OF FUNDING.</h1>
+    <div id="rule.7076.0180.1" class="subp repealed">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0180.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0180.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7076.0180.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Grant fund allocation. </h2>
+      <p>Within 60 days following the close of a proposal period, the agency shall determine how much of the funds will be made available for project grant awards. In deciding how much money to make available for new grant awards, the agency shall consider the necessity to have money available for subsequent grant periods and other factors relating to the agency's ability to ensure that money will be available for upcoming projects. If the agency is appropriated grant funding for special purposes, that funding can be set aside for a designated use.</p>
+    </div>
+    <div id="rule.7076.0180.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7076.0180.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0180.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7076.0180.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Loan fund allocation. </h2>
+      <p>Within 60 days following the close of a proposal period, the agency shall determine how much of the loan funding will be made available for project loan awards. In deciding how much money to make available for new loan awards, the agency shall consider the necessity to have money available for subsequent loan periods and other factors relating to the agency's ability to ensure that money will be available for upcoming projects.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7076.0180.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103F.745">103F.745</a>; <a href="/statutes/cite/115.10">115.10</a></p>
+  </div>
+  <div class="history" id="rule.7076.0180.history">
+    <h2>History: </h2>
+    <p>13 SR 661; 16 SR 584; 20 SR 1245; 37 SR 1334</p>
+  </div>
+  <div class="published" id="rule.7076.0180.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0190">
+    <h1 class="headnote">7076.0190 SELECTION OF PROJECTS FOR AWARD.</h1>
+    <div id="rule.7076.0190.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0190.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Ranking. </h2>
+      <p>The agency shall complete its ranking of all projects for which an acceptable proposal has been submitted within 60 days of the close of the proposal period. </p>
+    </div>
+    <div id="rule.7076.0190.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7076.0190.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Projects funded. </h2>
+      <p>The agency shall offer financial assistance to the highest priority proposals within the limits of available funds established under part <a href="/rules/7076.0180">7076.0180</a>. A project that receives 50 percent or less of the available points will not be considered for award of funds.</p>
+    </div>
+    <div id="rule.7076.0190.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7076.0190.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Agency decision. </h2>
+      <p>All decisions of the agency in ranking projects and awarding financial assistance must be made by the commissioner.</p>
+    </div>
+    <div id="rule.7076.0190.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7076.0190.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Timing. </h2>
+      <p>The agency shall make its decision on fund allocation, project ranking, and projects to which financial assistance will be awarded within 60 days following the close of the proposal period. After the decision is made, a proposer may request a written explanation of the priority points awarded the proposal by the agency.</p>
+    </div>
+    <div id="rule.7076.0190.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7076.0190.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Reapplication. </h2>
+      <p>A proposer whose proposal is not awarded financial assistance may reapply in a subsequent proposal period to be considered for financial assistance.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7076.0190.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103F.745">103F.745</a>; <a href="/statutes/cite/115.10">115.10</a></p>
+  </div>
+  <div class="history" id="rule.7076.0190.history">
+    <h2>History: </h2>
+    <p>13 SR 661; 16 SR 584; 20 SR 1245; 37 SR 1334</p>
+  </div>
+  <div class="published" id="rule.7076.0190.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0200">
+    <h1 class="headnote repealed">7076.0200</h1>
+    <p>[Repealed, 37 SR 1334]</p>
+  </div>
+  <div class="published" id="rule.7076.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0210">
+    <h1 class="headnote">7076.0210 GRANT CONDITIONS.</h1>
+    <div id="rule.7076.0210.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0210.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Amount. </h2>
+      <p>A grant may be made for a maximum of 50 percent of the eligible cost of the project. When awarding grants, the agency may award the project all or part of the grant request identified in the proposal.</p>
+    </div>
+    <div id="rule.7076.0210.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7076.0210.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 20 SR 1245]</p>
+    </div>
+    <div id="rule.7076.0210.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7076.0210.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Grant contract. </h2>
+      <p>The project sponsor must enter into a grant contract with the agency to receive grant funds. The grant contract may be amended upon agreement of the agency and the project sponsor and execution by all the parties that signed the original contract, or their successors in office. Grant increase amendments shall be subject to the availability of funds. The project period for a grant shall be for up to three years, with a possible one-year extension upon approval by the commissioner. The grant contract must:</p>
+      <div id="rule.7076.0210.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7076.0210.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> establish the terms and conditions of the grant;</p>
+      </div>
+      <div id="rule.7076.0210.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7076.0210.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> provide that the project sponsor may enter into subcontracts, under terms and conditions specified by the agency, to complete the work specified in the contract;</p>
+      </div>
+      <div id="rule.7076.0210.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7076.0210.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> provide that cost overruns are the sole responsibility of the project sponsor;</p>
+      </div>
+      <div id="rule.7076.0210.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7076.0210.3.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> require that the project sponsor submit periodic progress reports and a final report to the commissioner in a format and schedule prescribed by the commissioner; and</p>
+      </div>
+      <div id="rule.7076.0210.3.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7076.0210.3.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> incorporate terms and conditions required by federal or state statutes, rules, and regulations.</p>
+      </div>
+    </div>
+    <div id="rule.7076.0210.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7076.0210.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Records. </h2>
+      <p>The project sponsor shall maintain all records relating to the receipt and expenditure of grant funds for at least six years from the date of termination of the grant contract. Records relating to the installation, operation, and maintenance of best management practices shall be maintained for three years beyond the design or useful life of the practice.</p>
+    </div>
+    <div id="rule.7076.0210.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7076.0210.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Audit. </h2>
+      <p>The project sponsor must agree that the books, records, documents, and accounting procedures and practices of the project sponsor relevant to this program may be examined at any reasonable time and location by the commissioner, legislative auditor, or state auditor.</p>
+    </div>
+    <div id="rule.7076.0210.6" class="subp repealed">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7076.0210.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <p>[Repealed, 20 SR 1245]</p>
+    </div>
+    <div id="rule.7076.0210.7" class="subp repealed">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7076.0210.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <p>[Repealed, 20 SR 1245]</p>
+    </div>
+    <div id="rule.7076.0210.8" class="subp repealed">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7076.0210.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <p>[Repealed, 20 SR 1245]</p>
+    </div>
+    <div id="rule.7076.0210.9" class="subp repealed">
+      <a title="Link to subpart 9" class="permalink" href="#rule.7076.0210.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <p>[Repealed, 20 SR 1245]</p>
+    </div>
+    <div id="rule.7076.0210.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.7076.0210.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Eligible costs. </h2>
+      <p>No grant funds shall be provided to the project sponsor for grant eligible project activities started before the project period established in the grant contract or continuing after the end of the project period established in the grant contract.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7076.0210.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103F.745">103F.745</a>; <a href="/statutes/cite/115.10">115.10</a></p>
+  </div>
+  <div class="history" id="rule.7076.0210.history">
+    <h2>History: </h2>
+    <p>13 SR 661; 16 SR 584; 20 SR 1245; 37 SR 1334</p>
+  </div>
+  <div class="published" id="rule.7076.0210.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0215">
+    <h1 class="headnote">7076.0215 LOAN CONDITIONS.</h1>
+    <div id="rule.7076.0215.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0215.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Amount. </h2>
+      <p>A loan may be made for up to 100 percent of the eligible cost of a project, or for all or part of the local share of a project grant. When awarding loans, the agency may award the project all or part of the loan request identified in the proposal.</p>
+    </div>
+    <div id="rule.7076.0215.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7076.0215.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Interest rate. </h2>
+      <p>The interest rate of the project loan must be at or below the project loan set rate. The commissioner shall determine the project loan interest rate for each application cycle based on current market conditions, the project loan set rate, and the need to maintain the fiscal integrity of the state revolving fund.</p>
+    </div>
+    <div id="rule.7076.0215.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7076.0215.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Second-tier loans. </h2>
+      <p>A loan sponsor awarded a loan by the agency may use the funds it receives to provide loans to second-tier borrowers. The loan sponsor must provide the information and assurances required in the loan contract as described in subpart 5.</p>
+    </div>
+    <div id="rule.7076.0215.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7076.0215.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Repayment. </h2>
+      <p>Repayment of loan funds received must begin not more than one year after the end of the project period, and the loan must be fully amortized not later than 20 years after the end of the project period. Loan repayments must be remitted to the agency at least annually, according to a schedule set forth in the loan contract.</p>
+    </div>
+    <div id="rule.7076.0215.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7076.0215.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Loan contract. </h2>
+      <p>To receive loan funds, the project sponsor and one or more loan sponsors must enter into a loan contract with the agency. A loan contract may be amended upon agreement of the agency, the project sponsor, and the loan sponsor and executed by all parties that signed the original contract, or their successors in office. Loan increase amendments are subject to the availability of funds. The project period for a loan shall be for up to three years, with a possible one-year extension upon approval by the commissioner. All loan contracts must:</p>
+      <div id="rule.7076.0215.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7076.0215.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> establish the terms and conditions of the loan;</p>
+      </div>
+      <div id="rule.7076.0215.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7076.0215.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> require the loan sponsor to undertake an irrevocable obligation and secure the project loan with its full faith and credit, and include an opinion from a bond counsel attorney stating that the loan sponsor has the authority to pledge its full faith and credit;</p>
+      </div>
+      <div id="rule.7076.0215.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7076.0215.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> establish default provisions;</p>
+      </div>
+      <div id="rule.7076.0215.5.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7076.0215.5.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> establish the roles and responsibilities of the project sponsor and any loan sponsors in regards to the coordination and management of the project;</p>
+      </div>
+      <div id="rule.7076.0215.5.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7076.0215.5.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> provide that any subcontracts entered into by the project sponsor or loan sponsors to complete the work specified in the loan contract must include the terms and conditions specified by the agency;</p>
+      </div>
+      <div id="rule.7076.0215.5.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7076.0215.5.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> require that the project sponsor submit periodic progress reports and a final report to the commissioner in a form and schedule prescribed by the commissioner;</p>
+      </div>
+      <div id="rule.7076.0215.5.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.7076.0215.5.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> establish the guidelines for and management of a second-tier loan program, if any;</p>
+      </div>
+      <div id="rule.7076.0215.5.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.7076.0215.5.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> provide that the agency is not responsible for cost overruns; and</p>
+      </div>
+      <div id="rule.7076.0215.5.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.7076.0215.5.I">§</a>
+        <h3 class="item_no">I.</h3>
+        <p> incorporate terms and conditions required by federal or state statutes, rules, and regulations.</p>
+      </div>
+    </div>
+    <div id="rule.7076.0215.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7076.0215.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Records. </h2>
+      <p>The project sponsor and any loan sponsors must maintain all records relating to the receipt and expenditure of loan funds for at least six years from the date of termination of the loan contract, according to the responsibilities identified in the loan contract. Records relating to the installation, operation, and maintenance of best management practices must be maintained for three years beyond the design or useful life of the practice.</p>
+    </div>
+    <div id="rule.7076.0215.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7076.0215.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Audit. </h2>
+      <p>The project sponsor and any loan sponsors must obtain audits in accordance with the Single Audit Act of 1984, United States Code, title 31, sections 7501 to 7507, and federal Environmental Protection Agency regulations, including Code of Federal Regulations, title 40, section 31.26, as applicable. All books, records, documents, and accounting procedures and practices of the project sponsor and any loan sponsors relevant to this program may be examined at any reasonable time and location by the commissioner, the legislative auditor, the state auditor, or the Environmental Protection Agency.</p>
+    </div>
+    <div id="rule.7076.0215.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7076.0215.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Eligible costs. </h2>
+      <p>No loan funds shall be provided to the loan sponsor for loan-eligible project activities started before the project period established in the loan contract, or continuing after the end of the project period established in the loan contract.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7076.0215.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103F.745">103F.745</a></p>
+  </div>
+  <div class="history" id="rule.7076.0215.history">
+    <h2>History: </h2>
+    <p>20 SR 1245; 37 SR 1334</p>
+  </div>
+  <div class="published" id="rule.7076.0215.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0220">
+    <h1 class="headnote repealed">7076.0220</h1>
+    <p>[Repealed, 20 SR 1245]</p>
+  </div>
+  <div class="published" id="rule.7076.0220.published">
+    <h2>Published Electronically:</h2>
+    <p> November 3, 1998</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0225">
+    <h1 class="headnote">7076.0225 WORK PLAN AND REPORTS FOR PROJECT GRANTS AND LOANS.</h1>
+    <div id="rule.7076.0225.1" class="subp repealed">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0225.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0225.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0225.1">§</a>
+      <h2 class="subp_no">Subp. 1a.</h2>
+      <h2 class="headnote">Work plan. </h2>
+      <p>The project sponsor, in cooperation with agency staff, must prepare a work plan after the grant and loan is awarded, in a form prescribed by the commissioner, and must submit the work plan to the commissioner for approval. The work plan must provide measurable outcomes. When selecting best management practices for inclusion in a project, the project sponsor shall consider each of the following factors in evaluating the best management practices:</p>
+      <div id="rule.7076.0225.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7076.0225.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>whether the best management practice will achieve the desired project objectives;</p>
+      </div>
+      <div id="rule.7076.0225.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7076.0225.1.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>whether the best management practice will create other water quality or environmental problems;</p>
+      </div>
+      <div id="rule.7076.0225.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7076.0225.1.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>the degree of nonpoint source control achieved for the amount of resources allocated for that control;</p>
+      </div>
+      <div id="rule.7076.0225.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7076.0225.1.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>whether a less costly best management practice could achieve a similar result;</p>
+      </div>
+      <div id="rule.7076.0225.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7076.0225.1.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>whether the best management practice is reasonably suited for the individual site or priority management area; and</p>
+      </div>
+      <div id="rule.7076.0225.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7076.0225.1.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>the likelihood of adoption of the best management practice.</p>
+      </div>
+    </div>
+    <div id="rule.7076.0225.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7076.0225.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Semiannual progress report. </h2>
+      <p>The project sponsor must submit a progress report to the commissioner, in a form prescribed by the commissioner, by August 1 and February 1 for the six-month period of January through June and July through December, respectively, of each calendar year of the project period.</p>
+    </div>
+    <div id="rule.7076.0225.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7076.0225.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0225.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7076.0225.3">§</a>
+      <h2 class="subp_no">Subp. 3a.</h2>
+      <h2 class="headnote">Project review and budget adjustment. </h2>
+      <p>Upon expenditure of 50 percent of the project grant or loan, the project sponsor must submit to the commissioner for review and approval a detailed summary of project expenditures and completed work activities. The commissioner shall review the summary to verify cost eligibility and acceptable completion of work plan activities, to compare actual expenditures with the approved project work plan budget, and to verify that the terms of the grant or loan contract are being met.</p>
+    </div>
+    <div id="rule.7076.0225.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7076.0225.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0225.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7076.0225.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Project final report. </h2>
+      <p>Upon completion of the project, and in a form prescribed by the commissioner, the project sponsor must submit to the commissioner for review and approval a detailed summary of project expenditures, completed work activities, and measurable outcomes. The commissioner shall review the summary to verify cost eligibility and acceptable completion of work plan activities, to compare actual expenditures with the approved project work plan budget, and to verify that the terms of the grant or loan contract are being met. If the commissioner finds that any funds were used for ineligible project costs, those funds must be returned to the agency, along with any interest or fees, as outlined in the contract.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7076.0225.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103F.745">103F.745</a></p>
+  </div>
+  <div class="history" id="rule.7076.0225.history">
+    <h2>History: </h2>
+    <p>20 SR 1245; 37 SR 1334</p>
+  </div>
+  <div class="published" id="rule.7076.0225.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0230">
+    <h1 class="headnote repealed">7076.0230</h1>
+    <div id="rule.7076.0230.1" class="subp repealed">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0230.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0230.1" class="subp repealed">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0230.1">§</a>
+      <h2 class="subp_no">Subp. 1a.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0230.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7076.0230.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0230.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7076.0230.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, 16 SR 584]</p>
+    </div>
+  </div>
+  <div class="published" id="rule.7076.0230.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0240">
+    <h1 class="headnote repealed">7076.0240</h1>
+    <div id="rule.7076.0240.1" class="subp repealed">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0240.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0240.1" class="subp repealed">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0240.1">§</a>
+      <h2 class="subp_no">Subp. 1a.</h2>
+      <p>[Repealed, 20 SR 1245]</p>
+    </div>
+    <div id="rule.7076.0240.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7076.0240.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0240.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7076.0240.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0240.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7076.0240.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0240.5" class="subp repealed">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7076.0240.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <p>[Repealed, 16 SR 584]</p>
+    </div>
+  </div>
+  <div class="published" id="rule.7076.0240.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0250">
+    <h1 class="headnote repealed">7076.0250</h1>
+    <p>[Repealed, 37 SR 1334]</p>
+  </div>
+  <div class="published" id="rule.7076.0250.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0260">
+    <h1 class="headnote repealed">7076.0260</h1>
+    <p>[Repealed, 37 SR 1334]</p>
+  </div>
+  <div class="published" id="rule.7076.0260.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0270">
+    <h1 class="headnote repealed">7076.0270</h1>
+    <p>[Repealed, 37 SR 1334]</p>
+  </div>
+  <div class="published" id="rule.7076.0270.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0280">
+    <h1 class="headnote">7076.0280 GRANT PAYMENTS.</h1>
+    <div id="rule.7076.0280.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0280.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Initial payment. </h2>
+      <p>After the commissioner has signed the grant contract between the agency and the project sponsor, and contingent upon the availability of grant funds, the agency shall provide to the project sponsor 25 percent of the grant award provided in the grant contract. After the project sponsor has spent this amount, the sponsor shall provide, in a form prescribed by the commissioner, an accounting for the grant and match expenditures to the commissioner for review.</p>
+    </div>
+    <div id="rule.7076.0280.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7076.0280.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0280.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7076.0280.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0280.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7076.0280.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0280.5" class="subp repealed">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7076.0280.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0280.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7076.0280.5">§</a>
+      <h2 class="subp_no">Subp. 5a.</h2>
+      <h2 class="headnote">Reimbursement payments. </h2>
+      <p>Following approval of the accounting in subpart 1, the agency shall promptly pay the project sponsor for any expenses incurred after the sponsor presents an itemized invoice, in a form prescribed by the commissioner, for work actually performed.</p>
+    </div>
+    <div id="rule.7076.0280.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7076.0280.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Final payment. </h2>
+      <p>The agency shall withhold a minimum of ten percent of the grant award until the agency is satisfied that the project has been completed according to the terms of the grant contract and parts <a href="/rules/7076.0100">7076.0100</a> to <a href="/rules/7076.0290">7076.0290</a>. More than ten percent of the grant award shall be withheld if, after the project review outlined in part <a href="/rules/7076.0225">7076.0225</a>, subpart 3a, the costs necessary to complete the project are less than those identified in the grant contract. </p>
+    </div>
+    <div id="rule.7076.0280.7" class="subp repealed">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7076.0280.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <p>[Repealed, 20 SR 1245]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7076.0280.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103F.745">103F.745</a>; <a href="/statutes/cite/115.10">115.10</a></p>
+  </div>
+  <div class="history" id="rule.7076.0280.history">
+    <h2>History: </h2>
+    <p>13 SR 661; 16 SR 584; 20 SR 1245; L 2009 c 101 art 2 s 109; 37 SR 1334</p>
+  </div>
+  <div class="published" id="rule.7076.0280.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0285">
+    <h1 class="headnote">7076.0285 LOAN PAYMENTS.</h1>
+    <div id="rule.7076.0285.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7076.0285.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Payments. </h2>
+      <p>The project sponsor or loan sponsor must submit to the agency a certification of incurred costs in a form and schedule prescribed by the agency, which certifies that eligible costs have been incurred, but not necessarily paid, by the project sponsor or loan sponsor for work on the project. Upon receiving the certification, the agency must pay the project sponsor or loan sponsor if the sponsor is in compliance with the conditions of the loan contract and the requirements of parts <a href="/rules/7076.0100">7076.0100</a> to <a href="/rules/7076.0290">7076.0290</a>.</p>
+    </div>
+    <div id="rule.7076.0285.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7076.0285.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+    <div id="rule.7076.0285.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7076.0285.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, 37 SR 1334]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7076.0285.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103F.745">103F.745</a></p>
+  </div>
+  <div class="history" id="rule.7076.0285.history">
+    <h2>History: </h2>
+    <p>20 SR 1245; L 2009 c 101 art 2 s 109; 37 SR 1334</p>
+  </div>
+  <div class="published" id="rule.7076.0285.published">
+    <h2>Published Electronically:</h2>
+    <p> March 20, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7076.0290">
+    <h1 class="headnote">7076.0290 RESCISSION OF FINANCIAL ASSISTANCE.</h1>
+    <p>The agency may rescind and seek repayment of a financial assistance award if the project is not being completed in accordance with the terms and conditions of the grant or loan contract, including time schedules.</p>
+  </div>
+  <div class="stat_auth" id="rule.7076.0290.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103F.745">103F.745</a>; <a href="/statutes/cite/115.10">115.10</a></p>
+  </div>
+  <div class="history" id="rule.7076.0290.history">
+    <h2>History: </h2>
+    <p>13 SR 661; 20 SR 1245</p>
+  </div>
+  <div class="published" id="rule.7076.0290.published">
+    <h2>Published Electronically:</h2>
+    <p> November 3, 1998</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
