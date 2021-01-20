@@ -1,0 +1,1728 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            1652.0010 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/109">Rural Finance Authority</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/1652/">Chapter 1652</a>
+            </li>
+        
+    
+        
+            <li>Part 1652.0010</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/1652.0020/">1652.0020</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/1652.0010/2014-01-18%2001:42:27+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 1652</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1652/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1652/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1652/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 1652.0010</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1652.0010/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1652.0010">
+    <h1 class="headnote">1652.0010 ESTABLISHMENT OF PROGRAM; PROGRAM RULES.</h1>
+    <div id="rule.1652.0010.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1652.0010.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Establishment of program. </h2>
+      <p>The authority, by its Resolution No. 92-06, has established an agricultural business enterprise loan program, comprising the issuance of bonds to finance loans to be made to a small business, as defined in Minnesota Statutes, section <a href="/statutes/cite/41C.02">41C.02</a>, subdivision 2.</p>
+    </div>
+    <div id="rule.1652.0010.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1652.0010.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Authority and purpose. </h2>
+      <p>Parts <a href="/rules/1652.0010">1652.0010</a> to <a href="/rules/1652.0080">1652.0080</a> are adopted by the authority pursuant to Minnesota Statutes, section <a href="/statutes/cite/41C.13">41C.13</a>, to define and provide for the administration of the program.</p>
+    </div>
+    <div id="rule.1652.0010.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1652.0010.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Application. </h2>
+      <p>Parts <a href="/rules/1652.0010">1652.0010</a> to <a href="/rules/1652.0080">1652.0080</a> apply to all applications for and loans made and bonds issued pursuant to the program, the use of loan proceeds, all loan applicants, and all eligible borrowers and lenders participating in the program.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1652.0010.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/41C.13">41C.13</a></p>
+  </div>
+  <div class="history" id="rule.1652.0010.history">
+    <h2>History: </h2>
+    <p>17 SR 2323</p>
+  </div>
+  <div class="published" id="rule.1652.0010.published">
+    <h2>Published Electronically:</h2>
+    <p> May 8, 1997</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1652.0020">
+    <h1 class="headnote">1652.0020 DEFINITIONS.</h1>
+    <div id="rule.1652.0020.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1652.0020.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The definitions in this part apply to parts <a href="/rules/1652.0010">1652.0010</a> to <a href="/rules/1652.0080">1652.0080</a>.</p>
+    </div>
+    <div id="rule.1652.0020.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1652.0020.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Act. </h2>
+      <p>"Act" means the Minnesota Agricultural Development Act, Minnesota Statutes, chapter 41C.</p>
+    </div>
+    <div id="rule.1652.0020.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1652.0020.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Agricultural business activity. </h2>
+      <p>"Agricultural business activity" means the general processing of agricultural products and the manufacturing, assembly, or fabrication of agriculture-related equipment.</p>
+    </div>
+    <div id="rule.1652.0020.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1652.0020.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Applicant. </h2>
+      <p>"Applicant" means a small business who submits a completed application for a loan under the program to the authority.</p>
+    </div>
+    <div id="rule.1652.0020.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1652.0020.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Application. </h2>
+      <p>"Application" means an application for a loan under the program in the form prescribed by the authority or its executive director.</p>
+    </div>
+    <div id="rule.1652.0020.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1652.0020.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Authority. </h2>
+      <p>"Authority" means the Minnesota Rural Finance Authority established by Minnesota Statutes, section <a href="/statutes/cite/41B.025">41B.025</a>, acting through its board or its duly authorized officers.</p>
+    </div>
+    <div id="rule.1652.0020.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.1652.0020.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Bond. </h2>
+      <p>"Bond" means a special, limited obligation revenue bond issued by the authority to an eligible lender to finance a loan to an eligible borrower for an eligible purpose pursuant to a loan agreement between the eligible lender and the authority.</p>
+    </div>
+    <div id="rule.1652.0020.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.1652.0020.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Borrower. </h2>
+      <p> "Borrower" means an eligible borrower who has received a loan under the program.</p>
+    </div>
+    <div id="rule.1652.0020.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.1652.0020.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Code. </h2>
+      <p>"Code" means the Internal Revenue Code of 1986, as amended, and all rules, regulations, and revenue procedures issued under it.</p>
+    </div>
+    <div id="rule.1652.0020.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.1652.0020.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Depreciable agricultural business property. </h2>
+      <p>"Depreciable agricultural business property" means property of a character that is subject to the allowance for depreciation under the code and that is to be owned and used by an eligible borrower in an agricultural business enterprise.</p>
+    </div>
+    <div id="rule.1652.0020.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.1652.0020.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Eligible borrower. </h2>
+      <p>"Eligible borrower" means a small business, as defined in Minnesota Statutes, section <a href="/statutes/cite/645.445">645.445</a>, subdivision 2, that:</p>
+      <div id="rule.1652.0020.11.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1652.0020.11.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> will engage in an agricultural business enterprise;</p>
+      </div>
+      <div id="rule.1652.0020.11.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1652.0020.11.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> will be the "principal user" of the property financed under the code, and will materially and substantially participate in the operation of the business of which the property is a part; and</p>
+      </div>
+      <div id="rule.1652.0020.11.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1652.0020.11.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> has not received other similar tax-exempt financing from the authority in an amount which, together with the current loan, exceeds $250,000.</p>
+      </div>
+    </div>
+    <div id="rule.1652.0020.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.1652.0020.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Eligible lender. </h2>
+      <p>"Eligible lender" means a bank, credit union, savings association, insurance company, or other financial institution authorized to do business in Minnesota, or an individual.</p>
+    </div>
+    <div id="rule.1652.0020.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.1652.0020.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Eligible purpose. </h2>
+      <p>"Eligible purpose" means the acquisition or improvement of real or personal property for use in new or expanded operations of an agricultural business enterprise located or to be located in a Minnesota community with a population of 5,000 or less.</p>
+    </div>
+    <div id="rule.1652.0020.14" class="subp">
+      <a title="Link to subpart 14" class="permalink" href="#rule.1652.0020.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <h2 class="headnote">Executive director. </h2>
+      <p>"Executive director" means the authority's executive director or any other officer duly authorized to act on behalf of the authority's board or its executive director.</p>
+    </div>
+    <div id="rule.1652.0020.15" class="subp">
+      <a title="Link to subpart 15" class="permalink" href="#rule.1652.0020.15">§</a>
+      <h2 class="subp_no">Subp. 15.</h2>
+      <h2 class="headnote">Improvements. </h2>
+      <p>"Improvements" means items that, when complete, become part of the real or personal property used in an agricultural business enterprise.</p>
+    </div>
+    <div id="rule.1652.0020.16" class="subp">
+      <a title="Link to subpart 16" class="permalink" href="#rule.1652.0020.16">§</a>
+      <h2 class="subp_no">Subp. 16.</h2>
+      <h2 class="headnote">Lender. </h2>
+      <p>"Lender" means an eligible lender who has purchased a bond under the program.</p>
+    </div>
+    <div id="rule.1652.0020.17" class="subp">
+      <a title="Link to subpart 17" class="permalink" href="#rule.1652.0020.17">§</a>
+      <h2 class="subp_no">Subp. 17.</h2>
+      <h2 class="headnote">Loan. </h2>
+      <p>"Loan" means the loan of the proceeds of a bond to an eligible borrower for an eligible purpose pursuant to a loan agreement between the authority and the eligible borrower.</p>
+    </div>
+    <div id="rule.1652.0020.18" class="subp">
+      <a title="Link to subpart 18" class="permalink" href="#rule.1652.0020.18">§</a>
+      <h2 class="subp_no">Subp. 18.</h2>
+      <h2 class="headnote">Principal user. </h2>
+      <p>"Principal user" means a person who is a principal owner, a principal lessee, a principal output purchaser, or an "other" principal user as defined in the code.</p>
+    </div>
+    <div id="rule.1652.0020.19" class="subp">
+      <a title="Link to subpart 19" class="permalink" href="#rule.1652.0020.19">§</a>
+      <h2 class="subp_no">Subp. 19.</h2>
+      <h2 class="headnote">Program. </h2>
+      <p>"Program" means the agricultural business enterprise loan program established by the authority.</p>
+    </div>
+    <div id="rule.1652.0020.20" class="subp">
+      <a title="Link to subpart 20" class="permalink" href="#rule.1652.0020.20">§</a>
+      <h2 class="subp_no">Subp. 20.</h2>
+      <h2 class="headnote">Related person. </h2>
+      <p>"Related person" means a spouse, a lineal descendent, a brother or sister, or a partnership or corporation owned, directly or indirectly, more than 50 percent by the borrower or one or more of the persons listed in this subpart.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1652.0020.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/41C.13">41C.13</a></p>
+  </div>
+  <div class="history" id="rule.1652.0020.history">
+    <h2>History: </h2>
+    <p>17 SR 2323; L 1995 c 202 art 1 s 25</p>
+  </div>
+  <div class="published" id="rule.1652.0020.published">
+    <h2>Published Electronically:</h2>
+    <p> May 8, 1997</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1652.0030">
+    <h1 class="headnote">1652.0030 BORROWER ELIGIBILITY.</h1>
+    <div id="rule.1652.0030.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1652.0030.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Eligibility. </h2>
+      <p>To be eligible for a loan under the program an applicant must be an eligible borrower.</p>
+    </div>
+    <div id="rule.1652.0030.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1652.0030.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Certification. </h2>
+      <p>An applicant must certify to the authority in each loan application that the applicant understands and meets the definition of eligible borrower for the program.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1652.0030.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/41C.13">41C.13</a></p>
+  </div>
+  <div class="history" id="rule.1652.0030.history">
+    <h2>History: </h2>
+    <p>17 SR 2323</p>
+  </div>
+  <div class="published" id="rule.1652.0030.published">
+    <h2>Published Electronically:</h2>
+    <p> May 8, 1997</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1652.0040">
+    <h1 class="headnote">1652.0040 OPERATION OF PROGRAM.</h1>
+    <div id="rule.1652.0040.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1652.0040.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Loan transactions and security.</h2>
+      <div id="rule.1652.0040.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1652.0040.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The authority shall make loans to eligible borrowers for eligible purposes pursuant to a loan agreement between the authority as lender and the eligible borrower as borrower. The loans must be evidenced by promissory notes payable to the authority or its assigns, and except as provided in item E must be unsecured.</p>
+      </div>
+      <div id="rule.1652.0040.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1652.0040.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> A loan may not be made if it violates any of the restrictions in subitems (1) to (6).</p>
+        <div id="rule.1652.0040.1.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1652.0040.1.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> The amount of a loan, together with the amount of any similar loan made to the same borrower or a related person or entity, may not exceed $250,000.</p>
+        </div>
+        <div id="rule.1652.0040.1.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1652.0040.1.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> Ninety-five percent of the loan proceeds must be expended for an eligible purpose, and not more than two percent of the loan proceeds may be used to pay loan transaction costs.</p>
+        </div>
+        <div id="rule.1652.0040.1.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1652.0040.1.B.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> The maturity of a loan or portion of a loan made to finance improvements or depreciable property to be used in an agricultural business enterprise may not exceed 120 percent of the useful life of the improvements or property under the code.</p>
+        </div>
+        <div id="rule.1652.0040.1.B.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.1652.0040.1.B.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> Not more than five percent of the loan proceeds may be used to refinance existing indebtedness, or to finance the purchase or improvement of a residence or working capital or inventory. Use of loan proceeds for reimbursement of costs incurred before adoption by the authority of a preliminary resolution approving a loan and the issuance of a bond to fund it as described in part <a href="/rules/1652.0060">1652.0060</a> or money borrowed to pay such costs constitutes use of loan proceeds for working capital or refinancing.</p>
+        </div>
+        <div id="rule.1652.0040.1.B.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.1652.0040.1.B.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> All loan proceeds must be expended within six months of the loan closing or the first date on which loan proceeds are disbursed, whichever is later, or all proceeds must be expended within 18 months of the loan closing or the first date on which loan proceeds are disbursed, whichever is later, in which event the borrower must furnish to the authority all information as to the investment of loan proceeds and any money required to be rebated to the United States under section 148 of the code.</p>
+        </div>
+        <div id="rule.1652.0040.1.B.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.1652.0040.1.B.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> Loan proceeds may not be used to finance the purchase of land, improvements, or depreciable property from a related person or entity.</p>
+        </div>
+      </div>
+      <div id="rule.1652.0040.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1652.0040.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The authority shall issue a bond to provide money to fund each loan. The authority has no other money available for this purpose. The bond must be issued to the eligible lender who has agreed with the eligible borrower to finance the eligible borrower's loan by jointly submitting a loan application in accordance with part <a href="/rules/1652.0050">1652.0050</a>. The bond must be issued in fully registered form pursuant to a loan agreement between the lender and the authority.</p>
+      </div>
+      <div id="rule.1652.0040.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1652.0040.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> The bond must be a special, limited obligation of the authority payable solely from loan payments payable by the eligible borrower under the borrower's loan agreement and the promissory note evidencing the loan, which will be assigned to the lender and pledged to the payment of the principal of and interest on the bond, without recourse to the authority. The bond must not be a general obligation of the authority, the state of Minnesota, or any department, agency, or political subdivision of the state, and the full faith and credit of the authority, the state, or any department, agency, or political subdivision of the state must not be pledged for its payment.</p>
+      </div>
+      <div id="rule.1652.0040.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1652.0040.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> A bond may be additionally secured by a mortgage on or security interest in the property financed or other property provided by the borrower, or by personal guaranties made by the borrower or another individual. All agreements and documents providing or evidencing such additional security must be entered into between the borrower or another individual and the lender. The authority may not be a party to the agreement or document and may not be responsible in any way with respect to the authorization, execution, effectiveness, or adequacy of the additional security.</p>
+      </div>
+    </div>
+    <div id="rule.1652.0040.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1652.0040.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Loan evaluation. </h2>
+      <p>The lender must determine and evaluate the eligible borrower's financial condition, net worth, and ability to repay the loan of the bond proceeds to be made by the authority, and the lender is solely responsible for that determination. The authority may not make any independent evaluation of any of these matters, but must rely upon certifications provided to it by the applicant and the lender as part of an application.</p>
+    </div>
+    <div id="rule.1652.0040.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1652.0040.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Loan terms. </h2>
+      <p>The payment terms of each loan and the bond that will be issued to fund the loan must be identical and, subject to the applicable provisions of state and federal law or the code, must be established by the eligible borrower and the lender.</p>
+    </div>
+    <div id="rule.1652.0040.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1652.0040.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Loan documents. </h2>
+      <p>Except as provided in subpart 1 with respect to certain loan security agreements, all loan and bond transactions must be evidenced by use of the authority's standard loan documents. The documentation must include loan agreements, a promissory note, a bond, various closing certificates, legal opinions, and other documents the authority requires.</p>
+    </div>
+    <div id="rule.1652.0040.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1652.0040.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Tax exemption.</h2>
+      <div id="rule.1652.0040.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1652.0040.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The authority shall try to issue each bond as a "qualified small issue bond" within the meaning of section 144(a) of the code. Interest payable on a qualified small issue bond is not includable in gross income of the recipient for federal income tax purposes, or in net income of individuals, estates, or trusts for Minnesota income tax purposes. At the loan closing, the authority shall furnish to the lender an opinion of an attorney or firm of attorneys nationally recognized as bond counsel as to the validity of the bond and the tax-exempt nature of the interest payable on the bond, addressed to the lender. The form of that opinion is available upon request to the authority by any eligible lender joining in a loan application.</p>
+      </div>
+      <div id="rule.1652.0040.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1652.0040.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The lender may not rely upon information provided by the authority as to state and federal tax warranties or covenants made by the authority in the loan documents, but may rely on the legal opinion.</p>
+      </div>
+      <div id="rule.1652.0040.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1652.0040.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The lender is responsible to determine the applicability and effect of other state and federal laws on the lender's income, deductions, or tax status for state and federal tax purposes as a result of the purchase of a bond.</p>
+      </div>
+    </div>
+    <div id="rule.1652.0040.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1652.0040.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Use of bond proceeds; certification. </h2>
+      <p>Bond proceeds may not be used for a purpose other than an eligible purpose or by a person other than an eligible borrower. Following disbursement of the bond proceeds, the lender and borrower may be required to certify to the authority that the proceeds were used for an eligible purpose by an eligible borrower, and evidencing compliance with subpart 1, item B.</p>
+    </div>
+    <div id="rule.1652.0040.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.1652.0040.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Assignment of bond. </h2>
+      <p>A lender may assign a bond in whole or in part to any person, but the lender is responsible for compliance with all state and federal laws applicable to the assignment. Servicing of the loan may also be assigned, but must at all times be with an eligible lender. The authority must be notified in writing prior to assignment of servicing of a loan.</p>
+    </div>
+    <div id="rule.1652.0040.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.1652.0040.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Assumption of loans, substitution of collateral, and transfer of property. </h2>
+      <p>Loans may not be assumed without the prior approval of the authority, and then only if the purchaser of the property is an eligible borrower. The benefits of the loan made at the tax-exempt rate from the proceeds of an authority bond must remain with an eligible borrower, and no other person or entity to whom property is traded or otherwise transferred may obtain the benefits of the authority loan.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1652.0040.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/41C.13">41C.13</a></p>
+  </div>
+  <div class="history" id="rule.1652.0040.history">
+    <h2>History: </h2>
+    <p>17 SR 2323</p>
+  </div>
+  <div class="published" id="rule.1652.0040.published">
+    <h2>Published Electronically:</h2>
+    <p> May 8, 1997</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1652.0050">
+    <h1 class="headnote">1652.0050 APPLICATION PROCEDURES.</h1>
+    <div id="rule.1652.0050.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1652.0050.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Application.</h2>
+      <div id="rule.1652.0050.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1652.0050.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> An applicant and an eligible lender who wish to request the authority to make a loan to the applicant and issue a bond to the lender to fund the loan must jointly complete, sign, and submit to the authority an application, and prepare and submit to the authority all supporting documents identified in the application.</p>
+      </div>
+      <div id="rule.1652.0050.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1652.0050.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The lender shall present these documents to the authority. Presentation of the documents constitutes an offer to purchase a bond to fund the loan.</p>
+      </div>
+      <div id="rule.1652.0050.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1652.0050.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Lenders shall use their own forms of financial statement and other forms considered necessary to document the eligibility of the applicant. Financial statements must be dated as of a date not more than 15 days before the date on which the application is submitted to the authority.</p>
+      </div>
+    </div>
+    <div id="rule.1652.0050.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1652.0050.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Application fee. </h2>
+      <p>The applicant shall provide to the eligible lender for submission to the authority with the application, a check payable to the Minnesota Department of Agriculture in an amount established by the authority under Minnesota Statutes, section <a href="/statutes/cite/41C.12">41C.12</a>, as an application fee. The fee is not refundable.</p>
+    </div>
+    <div id="rule.1652.0050.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1652.0050.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Volume cap allocation charge. </h2>
+      <p>The applicant shall also provide to the eligible lender for submission to the authority with the application, a check payable to the Minnesota Department of Agriculture in the amount determined under Minnesota Statutes, section <a href="/statutes/cite/474A.03">474A.03</a>, as a volume cap allocation fee. If the application is approved and the authority makes application for a volume cap allocation as described in part <a href="/rules/1652.0060">1652.0060</a>, subpart 2, the check must be endorsed to the commissioner of management and budget in payment of the application fee imposed by Minnesota Statutes, chapter 474A. If the application is rejected, the volume cap allocation fee must be returned to the applicant.</p>
+    </div>
+    <div id="rule.1652.0050.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1652.0050.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Authority review. </h2>
+      <p>The executive director shall review the information provided and accept or reject the application. If the information provided is not sufficient to make a determination, the executive director shall request additional information from the lender and applicant. The executive director's review must include, but is not limited to, whether the loan complies with the act and parts <a href="/rules/1652.0010">1652.0010</a> to <a href="/rules/1652.0080">1652.0080</a>. The authority shall notify the lender whether the application has been approved or rejected. If the application is not approved, a written notice must state the reasons for disapproval.</p>
+    </div>
+    <div id="rule.1652.0050.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1652.0050.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Administrative reconsideration. </h2>
+      <p>If a proposed application is not approved by the executive director, the applicant or the lender may petition the executive director for an administrative reconsideration. The petition must be in writing and must be sent within 15 business days of the date of the disapproval. The petition must state the petitioner's reasons for disagreeing with the disapproval and may include additional information relevant to the request for reconsideration. Within 15 business days of receiving the petition, the executive director shall send a written response to the petitioner upholding or reversing the original decision and giving the reasons for the decision.</p>
+    </div>
+    <div id="rule.1652.0050.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1652.0050.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Appeal. </h2>
+      <p>A petitioner may appeal the executive director's reconsideration directly to the authority's board, by written notice to the executive director within 15 business days of receiving the executive director's reconsideration decision. The decision of the board is final.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1652.0050.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/41C.13">41C.13</a></p>
+  </div>
+  <div class="history" id="rule.1652.0050.history">
+    <h2>History: </h2>
+    <p>17 SR 2323; L 2009 c 101 art 2 s 109</p>
+  </div>
+  <div class="published" id="rule.1652.0050.published">
+    <h2>Published Electronically:</h2>
+    <p> August 7, 2009</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1652.0060">
+    <h1 class="headnote">1652.0060 HEARING AND OTHER PROCEDURAL REQUIREMENTS.</h1>
+    <div id="rule.1652.0060.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1652.0060.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Hearing and approval requirement. </h2>
+      <p>Under section 147(f) of the code, in order to make the interest payable on a bond excludable from gross income for federal tax purposes, prior to the issuance of the bond, the authority or its designated representative must hold a public hearing on the issuance of the bond, and the issuance of the bond must be approved by an "applicable elected representative" of the state, which means, in this case, the governor or another elected official of the state designated by the governor. Notice of the hearing must be published at least 14 days before the hearing in a newspaper of general circulation in the state and where the property is being financed is or is to be located. The notice must set the date, time, place, and purpose of the hearing; the authority's intention to issue the bond; the maximum principal amount of the bond to be issued; the source of payment of the bond; the purpose for which the proceeds of the bond will be loaned to the borrower; the name of the borrower; and the location of the property being acquired with the proceeds of the loan or where it will be used.</p>
+    </div>
+    <div id="rule.1652.0060.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1652.0060.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Volume cap allocation requirement. </h2>
+      <p>Under section 146 of the code, in order to make the interest payable on a bond excludable from gross income for federal tax purposes, the authority must obtain a volume cap allocation in an amount equal to the amount of the bond, pursuant to the state volume cap allocation law, Minnesota Statutes, chapter 474A. In order to obtain a volume cap allocation, the authority must submit an application for it to the state Department of Management and Budget together with a preliminary resolution of the authority approving the loan and the issuance of a bond to fund it, a statement of bond counsel that the proposed bond requires an allocation under Minnesota Statutes, chapter 474A, and a statement that the bond is a "qualified small issue bond" within the meaning of section 144 of the code. The authority has no control over whether a volume cap allocation will be received with respect to any volume cap application submitted by it.</p>
+    </div>
+    <div id="rule.1652.0060.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1652.0060.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Executive director authority. </h2>
+      <p>If upon review of a loan application and all supporting documents and other information requested by the authority in connection with the application, the executive director or the program director determines that the application is in compliance with the program and parts <a href="/rules/1652.0010">1652.0010</a> to <a href="/rules/1652.0080">1652.0080</a>, the executive director may:</p>
+      <div id="rule.1652.0060.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1652.0060.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> cause a preliminary resolution approving the loan and the issuance of the bond requested by the application to be placed upon the agenda of the next meeting of the authority for consideration by it;</p>
+      </div>
+      <div id="rule.1652.0060.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1652.0060.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> establish a date, time, and place of the public hearing required as described in subpart 1 and cause notice to be published, which date must be at least three business days after the meeting of the authority at which the preliminary resolution approving the loan and bond described in the notice will be considered by the authority;</p>
+      </div>
+      <div id="rule.1652.0060.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1652.0060.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> conduct, or designate other members of the authority's staff to conduct, the public hearing; and</p>
+      </div>
+      <div id="rule.1652.0060.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1652.0060.3.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> following adoption of the preliminary resolution by the authority, make application for a volume cap allocation as described in subpart 2.</p>
+      </div>
+    </div>
+    <div id="rule.1652.0060.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1652.0060.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Preliminary resolution. </h2>
+      <p>The authority shall consider the adoption of the preliminary resolution described in subpart 3 at its first meeting following approval of an application by the executive director or program director.</p>
+    </div>
+    <div id="rule.1652.0060.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1652.0060.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Public hearing. </h2>
+      <p>Each public hearing must be held at the offices of the authority during regular business hours on regular business days. A person appearing at the hearing must be allowed to present views either orally or in writing. The person conducting the hearing shall make a written record of the hearing and all information or views presented at the hearing. The record must be maintained as part of the public records of the authority.</p>
+    </div>
+    <div id="rule.1652.0060.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1652.0060.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Public approval. </h2>
+      <p>Following the public hearing, if no information is presented indicating that the loan to be made and the bond to be issued are not in accordance with the program and parts <a href="/rules/1652.0010">1652.0010</a> to <a href="/rules/1652.0080">1652.0080</a>, the executive director shall cause to be prepared and sent to the governor's office, or the office of the elected official of the state designated by the governor, a statement describing each bond or series of bonds it proposes to issue, along with a summary of the public comments received at the hearing. Any information received at the hearing must be presented to the authority at its next meeting, at which the authority shall confirm or take further action on the application in question that may be indicated.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1652.0060.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/41C.13">41C.13</a></p>
+  </div>
+  <div class="history" id="rule.1652.0060.history">
+    <h2>History: </h2>
+    <p>17 SR 2323; L 2009 c 101 art 2 s 109</p>
+  </div>
+  <div class="published" id="rule.1652.0060.published">
+    <h2>Published Electronically:</h2>
+    <p> August 7, 2009</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1652.0070">
+    <h1 class="headnote">1652.0070 LOAN DOCUMENTS; CLOSING PROCEDURES.</h1>
+    <div id="rule.1652.0070.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1652.0070.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Loan documents. </h2>
+      <p>The executive director shall cause to be prepared and revised from time to time as necessary, standard forms of all loan documents and closing documents necessary to evidence a bond and related loan transaction, and shall provide the forms to all applicants and prospective lenders. All bond and loan transactions must be done on standard forms, with only insertions and changes necessary to accurately reflect the transaction in question or to assure compliance with the code.</p>
+    </div>
+    <div id="rule.1652.0070.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1652.0070.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Lender's responsibility. </h2>
+      <p>The lender should use its own form of additional security documents (mortgage, security agreement, or guarantee) it believes are necessary and appropriate under the particular loan circumstances. These items must be referenced in the bond documents. Any additional requirements not specifically provided for in the bond documents, such as insurance coverage and amounts, must also be added. It is the lender's responsibility to ensure that any security documents that the lender requires in a transaction have been completed and signed, and that any financing statements have been filed, mortgages recorded, or any other necessary steps taken to protect the lender's interests. The authority makes no warranties or representations with respect to the effectiveness, validity, or priority of any liens or security interests, that a lender has, or believes it may have, with respect to a particular loan or bond.</p>
+    </div>
+    <div id="rule.1652.0070.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1652.0070.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Authority's responsibility. </h2>
+      <p>The authority shall by resolution authorize all documents to be executed by it and is responsible for the preparation, execution, and delivery by the borrower and the authority of the authority's loan documents and closing documents; compliance with the procedures specified in part <a href="/rules/1652.0060">1652.0060</a>; the issuance of necessary legal opinions by the authority's bond counsel; the filing with the Internal Revenue Service of all reports and forms required to be filed in connection with the issuance of a bond; and the furnishing of fully executed copies of those items to the borrower and the lender.</p>
+    </div>
+    <div id="rule.1652.0070.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1652.0070.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Origination fee and closing costs. </h2>
+      <p>At the loan closing, the applicant shall deliver to the authority a check payable to the Minnesota Department of Agriculture in an amount equal to 1.5 percent of the amount of the loan as an origination fee. The authority shall estimate and the borrower shall pay all closing costs at closing. Loan proceeds may be used to pay closing costs subject to the limitation established by the code which is described in part <a href="/rules/1652.0040">1652.0040</a>, subpart 1, item B, subitem (2).</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1652.0070.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/41C.13">41C.13</a></p>
+  </div>
+  <div class="history" id="rule.1652.0070.history">
+    <h2>History: </h2>
+    <p>17 SR 2323</p>
+  </div>
+  <div class="published" id="rule.1652.0070.published">
+    <h2>Published Electronically:</h2>
+    <p> May 8, 1997</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1652.0080">
+    <h1 class="headnote">1652.0080 GENERAL MATTERS.</h1>
+    <div id="rule.1652.0080.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1652.0080.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Forms. </h2>
+      <p>The executive director shall prepare and, as needed, revise and amend forms necessary for administration and implementation of the program. The number and type of forms must be sufficient to safeguard the interests of the authority. The authority shall annually assess the effectiveness of parts <a href="/rules/1652.0010">1652.0010</a> to <a href="/rules/1652.0080">1652.0080</a> and its administrative procedures, including all forms, and make any modifications which, in the judgment of the authority, are necessary or would facilitate efficient operation of the program.</p>
+    </div>
+    <div id="rule.1652.0080.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1652.0080.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Waivers. </h2>
+      <p>The authority or the executive director may waive or vary particular provisions of parts <a href="/rules/1652.0010">1652.0010</a> to <a href="/rules/1652.0080">1652.0080</a> to conform to requirements of the code necessary to make the interest on any bond excludable from gross income of the recipient for federal tax purposes, or to avoid inequitable, harsh, or unforeseen results from the application of parts <a href="/rules/1652.0010">1652.0010</a> to <a href="/rules/1652.0080">1652.0080</a>. No waiver may conflict with Minnesota Statutes, chapter 41C.</p>
+    </div>
+    <div id="rule.1652.0080.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1652.0080.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Right to audit. </h2>
+      <p>The authority shall have the right to audit at any time the records of the lender and the borrower relating to a loan and bond to ensure that bond proceeds were used for an eligible purpose by an eligible borrower.</p>
+    </div>
+    <div id="rule.1652.0080.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1652.0080.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Data privacy. </h2>
+      <p>Financial information, including credit reports, financial statements, and net worth calculations received by the authority regarding any loan and the name of each eligible borrower who is the recipient of a loan are private data under Minnesota Statutes, chapter 13, and section <a href="/statutes/cite/41B.211">41B.211</a>, and may be disclosed only in accordance with Minnesota Statutes, chapter 13, and section <a href="/statutes/cite/41B.211">41B.211</a>. The name of an eligible borrower, the proposed amount of any loan, the purpose of the loan, and the location of the property to be acquired with the loan proceeds or the location where it is to be used must be disclosed as provided in part <a href="/rules/1652.0060">1652.0060</a> and as required by the code in order to make the interest payable on the bond issued to fund the loan excludable from gross income for federal tax purposes.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1652.0080.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/41C.13">41C.13</a></p>
+  </div>
+  <div class="history" id="rule.1652.0080.history">
+    <h2>History: </h2>
+    <p>17 SR 2323</p>
+  </div>
+  <div class="published" id="rule.1652.0080.published">
+    <h2>Published Electronically:</h2>
+    <p> May 8, 1997</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
