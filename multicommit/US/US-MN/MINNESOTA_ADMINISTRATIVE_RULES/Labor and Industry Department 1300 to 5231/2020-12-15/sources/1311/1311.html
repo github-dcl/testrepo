@@ -1,0 +1,2601 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            1311.0010 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/151">Labor and Industry Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/1311/">Chapter 1311</a>
+            </li>
+        
+    
+        
+            <li>Part 1311.0010</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/1311.0020/">1311.0020</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/1311.0010/2020-03-31%2011:30:21+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 1311</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1311/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1311/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1311/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 1311.0010</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1311.0010/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0010">
+    <h1 class="headnote">1311.0010 ADOPTION BY REFERENCE OF THE INTERNATIONAL EXISTING BUILDING CODE.</h1>
+    <div id="rule.1311.0010.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.0010.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">General. </h2>
+      <p>For the purposes of this chapter, "IEBC" means the 2018 edition of the International Existing Building Code as promulgated by the International Code Council (ICC), Washington, D.C. The IEBC is incorporated by reference and made a part of the Minnesota State Building Code, except as qualified by the applicable provisions in Minnesota Rules, chapter <a href="/rules/1300">1300</a>, and as amended in this chapter. Portions of this publication reproduce excerpts from the 2018 IEBC, International Code Council (ICC), Washington, D.C., reproduced with permission, all rights reserved. The 2018 IEBC is not subject to frequent change and a copy of the 2018 IEBC, with amendments for use in Minnesota, is available in the office of the commissioner of labor and industry.</p>
+    </div>
+    <div id="rule.1311.0010.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.0010.1">§</a>
+      <h2 class="subp_no">Subp. 1a.</h2>
+      <h2 class="headnote">Deleted appendices. </h2>
+      <p>The appendices to the IEBC are deleted and are not made a part of this code.</p>
+    </div>
+    <div id="rule.1311.0010.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1311.0010.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Mandatory chapters. </h2>
+      <p>IEBC chapters 2 to 16 are required and are incorporated into the Minnesota State Building Code, except as qualified by the applicable provisions in Minnesota Rules, chapter <a href="/rules/1300">1300</a>, and as amended by this chapter. Amendments to IEBC section 305 are incorporated by reference in this chapter, but the amendments to that section are located in Minnesota Rules, chapter 1341, the Minnesota Accessibility Code. Referenced documents cited in IEBC section 305, and Minnesota Rules, chapter 1341, apply, unless otherwise stated or deleted. For the complete application and mandatory requirements relating to IEBC section 305, see Minnesota Rules, chapter 1341.</p>
+    </div>
+    <div id="rule.1311.0010.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1311.0010.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Replacement chapters and provisions. </h2>
+      <p>The following IEBC chapters or sections are deleted and replaced with the provisions listed in items A to D:</p>
+      <div id="rule.1311.0010.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1311.0010.3.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p><b>Administration.</b> Chapter 1 of the 2018 IEBC and any references to code administration in this code are deleted and replaced with Minnesota Rules, chapter <a href="/rules/1300">1300</a>, Administration of the State Building Code.</p>
+      </div>
+      <div id="rule.1311.0010.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1311.0010.3.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p><b>Elevators and platform lift provisions.</b> Reference to elevator and platform lift provisions in the IEBC mean Minnesota Rules, chapter 1307, Minnesota Elevators and Related Devices, adopted pursuant to Minnesota Statutes, section <a href="/statutes/cite/326B.106#stat.326B.106.1">326B.106, subdivision 1</a>.</p>
+      </div>
+      <div id="rule.1311.0010.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1311.0010.3.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p><b>Flood hazard or floodproofing provisions.</b> Any flood hazard or floodproofing provisions in the IEBC and any reference to those provisions are deleted in their entirety. Requirements for floodproofing are located in Minnesota Rules, chapter <a href="/rules/1335">1335</a>, Floodproofing Regulations.</p>
+      </div>
+      <div id="rule.1311.0010.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1311.0010.3.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p><b>Construction safeguards.</b> IEBC chapter 15, Construction Standards, is deleted and replaced with IBC chapter 33 as adopted and amended in Minnesota Rules, chapter <a href="/rules/1305">1305</a>, Safeguards During Construction.</p>
+      </div>
+    </div>
+    <div id="rule.1311.0010.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1311.0010.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Seismic or earthquake provisions. </h2>
+      <p> Any seismic or earthquake provisions of the IEBC and any references to them are deleted and are not made a part of this code.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1311.0010.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1311.0010.history">
+    <h2>History: </h2>
+    <p>27 SR 1479; L 2007 c 140 art 1 s 1; L 2007 c 140 art 4 s 61; art 13 s 4; 39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0010.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0020">
+    <h1 class="headnote">1311.0020 REFERENCES TO OTHER INTERNATIONAL CODE COUNCIL CODES.</h1>
+    <div id="rule.1311.0020.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.0020.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">General. </h2>
+      <p>References to other codes and standards promulgated by the International Code Council in the IEBC are modified as established in this part.</p>
+    </div>
+    <div id="rule.1311.0020.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1311.0020.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Building code. </h2>
+      <p>References to the "building code," the "Minnesota Building Code," the "International Building Code," or "IBC" in this code mean Minnesota Rules, chapter <a href="/rules/1305">1305</a>, Adoption of the International Building Code, adopted pursuant to Minnesota Statutes, section <a href="/statutes/cite/326B.106#stat.326B.106.1">326B.106, subdivision 1</a>.</p>
+    </div>
+    <div id="rule.1311.0020.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1311.0020.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Fire code. </h2>
+      <p>References to the "International Fire Code" do not apply and are deleted.</p>
+    </div>
+    <div id="rule.1311.0020.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1311.0020.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Property maintenance code. </h2>
+      <p>References to the "property maintenance code" or the "International Property Maintenance Code" in this code do not apply and are deleted.</p>
+    </div>
+    <div id="rule.1311.0020.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1311.0020.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Fuel gas code. </h2>
+      <p>References to the "fuel gas code" or the "International Fuel Gas Code" in this code mean Minnesota Rules, chapter <a href="/rules/1346">1346</a>, Minnesota Mechanical and Fuel Gas Codes, adopted pursuant to Minnesota Statutes, section <a href="/statutes/cite/326B.106#stat.326B.106.1">326B.106, subdivision 1</a>.</p>
+    </div>
+    <div id="rule.1311.0020.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1311.0020.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Mechanical code. </h2>
+      <p>References to the "mechanical code" or the "International Mechanical Code" in this code mean Minnesota Rules, chapter <a href="/rules/1346">1346</a>, Minnesota Mechanical and Fuel Gas Codes, adopted pursuant to Minnesota Statutes, section <a href="/statutes/cite/326B.106#stat.326B.106.1">326B.106, subdivision 1</a>.</p>
+    </div>
+    <div id="rule.1311.0020.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.1311.0020.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Plumbing code. </h2>
+      <p>References to the "plumbing code" or the "International Plumbing Code" in this code mean Minnesota Rules, chapter <a href="/rules/4714">4714</a>, Plumbing Code, adopted pursuant to Minnesota Statutes, section <a href="/statutes/cite/326B.43">326B.43</a>.</p>
+    </div>
+    <div id="rule.1311.0020.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.1311.0020.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Energy conservation code. </h2>
+      <p>References to the "energy conservation code" or the "International Energy Conservation Code" in this code mean Minnesota Rules, chapters <a href="/rules/1322">1322</a> and <a href="/rules/1323">1323</a>, Minnesota Residential and Commercial Energy Codes, adopted pursuant to Minnesota Statutes, section <a href="/statutes/cite/326B.106#stat.326B.106.1">326B.106, subdivision 1</a>.</p>
+    </div>
+    <div id="rule.1311.0020.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.1311.0020.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Residential code. </h2>
+      <p>References to the "residential code" or the "International Residential Code" in this code do not apply and are deleted.</p>
+    </div>
+    <div id="rule.1311.0020.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.1311.0020.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Private sewage disposal code. </h2>
+      <p>References to the "private sewage disposal code" or the "International Private Sewage Disposal Code" in this code mean Minnesota Rules, chapter <a href="/rules/7080">7080</a>, the Minnesota Pollution Control Agency's minimum standards and criteria for individual sewage treatment systems adopted pursuant to Minnesota Statutes, chapters <a href="/statutes/cite/103F">103F</a>, <a href="/statutes/cite/103G">103G</a>, <a href="/statutes/cite/115">115</a>, and <a href="/statutes/cite/116">116</a>.</p>
+    </div>
+    <div id="rule.1311.0020.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.1311.0020.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Electrical code. </h2>
+      <p>References to the "electrical code" or NFPA 70's "National Electrical Code" in this code mean Minnesota Rules, chapter <a href="/rules/1315">1315</a>, Minnesota Electrical Code, adopted pursuant to Minnesota Statutes, section <a href="/statutes/cite/326B.35">326B.35</a>.</p>
+    </div>
+    <div id="rule.1311.0020.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.1311.0020.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Minnesota State Building Code. </h2>
+      <p>References to the "Minnesota State Building Code" in this chapter shall have the same meaning as "code" in part <a href="/rules/1300.0070">1300.0070</a>, subpart 8.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1311.0020.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0020.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 40 SR 71; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0020.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0103">
+    <h1 class="headnote repealed">1311.0103</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="published" id="rule.1311.0103.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0109">
+    <h1 class="headnote repealed">1311.0109</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="published" id="rule.1311.0109.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0110">
+    <h1 class="headnote repealed">1311.0110</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="published" id="rule.1311.0110.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0201">
+    <h1 class="headnote repealed">1311.0201</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="published" id="rule.1311.0201.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0202">
+    <h1 class="headnote">1311.0202 SECTION 202, GENERAL DEFINITIONS.</h1>
+    <div id="rule.1311.0202.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.0202.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">
+        <b>Section 202, General definitions; added. </b>
+      </h2>
+      <p class="in">The following definitions are added to IEBC section 202 as follows:</p>
+      <p class="bl"><b>APPROVED.</b> "Approved" means approval by the building official, pursuant to the Minnesota State Building Code, by reason of: inspection, investigation, or testing; accepted principles; computer simulations; research reports; or testing performed by either a licensed engineer or by a locally or nationally recognized testing laboratory.</p>
+      <p class="bl"><b>CODE.</b> For purposes of this chapter, "the code" or "this code" means Minnesota Rules, chapter <a href="/rules/1311">1311</a>, Adoption of the International Existing Building Code.</p>
+    </div>
+    <div id="rule.1311.0202.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1311.0202.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Section 202, General definitions; amended. </h2>
+      <p>The following definitions in IEBC section 202 are amended to read as follows:</p>
+      <p class="bl"><b>CODE OFFICIAL.</b> "Code official" and "building code official" have the same meaning as "building official" in part <a href="/rules/1300.0070">1300.0070</a>, subpart 5.</p>
+      <p class="bl"><b>EXISTING BUILDING. </b>"Existing building" means a building erected prior to the effective date of this code, or one for which a legal building permit has been issued.</p>
+      <p class="bl"><b>HISTORIC BUILDING.</b> "Historic building" has the meaning given in part <a href="/rules/1300.0070">1300.0070</a>, subpart 12a.</p>
+      <p class="bl"><b>REPAIR. </b>"Repair" means the reconstruction, individual component replacement, or renewal of any part of an existing building for the purpose of its maintenance or to correct damage.</p>
+      <p class="bl"><b>SUBSTANTIAL DAMAGE.</b> "Substantial damage" means damage of any origin sustained by a structure whereby the cost of restoring the structure to its before-damaged condition would equal or exceed 50 percent of the market value of the structure before the damage occurred.</p>
+      <p class="bl"><b>SUBSTANTIAL IMPROVEMENT.</b> "Substantial improvement" means any repair, alteration, addition, or improvement of a building or structure, the cost of which equals or exceeds 50 percent of the market value of the structure, before the improvement or repair is started. If the structure has sustained substantial damage, any repairs are considered substantial improvement regardless of the actual repair work performed. The term does not, however, include either of the following:</p>
+      <p class="bi">1. any project for improvement of a building required to correct existing health, sanitary, or safety code violations identified by the code official and that is the minimum necessary to ensure safe living conditions; or</p>
+      <p class="bi">2. any alteration of a historic building, provided that the alteration will not preclude the building's continued designation as a historic building.</p>
+      <p class="bl"><b>TECHNICALLY INFEASIBLE, ACCESSIBILITY. </b>"Technically infeasible, accessibility" means an alteration of a building that has little likelihood of being accomplished because the existing structural conditions require the removal or alteration of a load-bearing member that is an essential part of the structural frame, or because other physical or site constraints prohibit modification or addition of elements, spaces, or features which are in full and strict compliance with the minimum requirements for new construction and which are necessary to provide accessibility.</p>
+      <p class="bl"><b>TECHNICALLY INFEASIBLE, STAIR CONSTRUCTION. </b>"Technically infeasible, stair construction" means an alteration of a building that has little likelihood of being accomplished because the existing structural conditions require the removal or alteration of a load-bearing structural element that is an essential part of the structural frame, or because other existing physical or site constraints prohibit modification or addition of elements, spaces, or features which are in full and strict compliance with the minimum requirements for stair construction.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1311.0202.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1311.0202.history">
+    <h2>History: </h2>
+    <p>27 SR 1479; L 2007 c 140 art 4 s 61; art 13 s 4; 39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0202.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0203">
+    <h1 class="headnote repealed">1311.0203</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="published" id="rule.1311.0203.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0205">
+    <h1 class="headnote repealed">1311.0205</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="published" id="rule.1311.0205.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0206">
+    <h1 class="headnote repealed">1311.0206</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="published" id="rule.1311.0206.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0301">
+    <h1 class="headnote">1311.0301 SECTION 301, ADMINISTRATION.</h1>
+    <div id="rule.1311.0301.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.0301.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Section 301.3.1 Prescriptive compliance methods. </h2>
+      <p>IEBC section 301.3.1 is amended to read as follows:</p>
+      <p class="bi"><b>301.3.1 Prescriptive compliance methods.</b> Alterations, additions, or changes of occupancy complying with chapter 5 of this code shall be considered in compliance with the provisions of this code.</p>
+    </div>
+    <div id="rule.1311.0301.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1311.0301.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Section 301.5 Compliance with accessibility. </h2>
+      <p>IEBC section 301.5 is amended to read as follows:</p>
+      <p class="bl"><b>301.5 Compliance with accessibility.</b> Accessibility requirements for existing buildings shall comply with Minnesota Rules, chapter 1341, the Minnesota Accessibility Code.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1311.0301.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1311.0301.history">
+    <h2>History: </h2>
+    <p>27 SR 1479; L 2007 c 140 art 4 s 61; art 13 s 4; 39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0301.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0302">
+    <h1 class="headnote">1311.0302 SECTION 302, GENERAL PROVISIONS.</h1>
+    <p>IEBC section 302.3 is amended by adding a subsection to read as follows:</p>
+    <p class="bi"><b>302.3.1 Window cleaning anchors.</b> Building anchors for window cleaning safety shall comply with the Minnesota State Building Code.</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.0302.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0302.history">
+    <h2>History: </h2>
+    <p>44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0302.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0305">
+    <h1 class="headnote">1311.0305 SECTION 305, ACCESSIBILITY FOR EXISTING BUILDINGS.</h1>
+    <p>IEBC section 305.1 is amended to read as follows:</p>
+    <p class="bl"><b>305.1 General.</b> Existing buildings or portions of existing buildings undergoing maintenance, change of occupancy, additions, alterations, or reconstruction due to substantial damage or substantial improvements shall be made accessible to persons with disabilities as required by Minnesota Rules, chapter 1341. Refer to Minnesota Rules, chapter 1341, the Minnesota Accessibility Code, for the complete application of section 305.</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.0305.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0305.history">
+    <h2>History: </h2>
+    <p>44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0305.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0401">
+    <h1 class="headnote repealed">1311.0401</h1>
+    <p>[Repealed, 44 SR 487]</p>
+  </div>
+  <div class="published" id="rule.1311.0401.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0402">
+    <h1 class="headnote repealed">1311.0402</h1>
+    <p>[Renumbered <a href="/rules/1311.0502">1311.0502</a>]</p>
+  </div>
+  <div class="published" id="rule.1311.0402.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0403">
+    <h1 class="headnote repealed">1311.0403</h1>
+    <p>[Renumbered <a href="/rules/1311.0503">1311.0503</a>]</p>
+  </div>
+  <div class="published" id="rule.1311.0403.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0404">
+    <h1 class="headnote repealed">1311.0404</h1>
+    <p>[Repealed, 44 SR 487]</p>
+  </div>
+  <div class="published" id="rule.1311.0404.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0405">
+    <h1 class="headnote repealed">1311.0405</h1>
+    <p>[Renumbered <a href="/rules/1311.0504">1311.0504</a>]</p>
+  </div>
+  <div class="part" id="rule.1311.0405">
+    <h1 class="headnote">1311.0405 SECTION 405, STRUCTURAL.</h1>
+    <p>IEBC section 405.2.4 is amended to read as follows:</p>
+    <p class="bi"><b>405.2.4 Substantial structural damage to gravity load-carrying components. </b>Gravity load-carrying components that have sustained substantial structural damage shall be rehabilitated to comply with the applicable provisions for all dead, live, or snow loads, including snow drift effects, in the International Building Code. Undamaged gravity load-carrying components that receive dead, live, or snow loads from rehabilitated components shall also be rehabilitated or shown to have the capacity to carry the design loads of the rehabilitation design.</p>
+    <p class="bl">(IEBC subsection 405.2.4.1 and the exceptions remain unchanged.)</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.0405.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0405.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0405.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0407">
+    <h1 class="headnote repealed">1311.0407</h1>
+    <p>[Renumbered <a href="/rules/1311.0506">1311.0506</a>]</p>
+  </div>
+  <div class="published" id="rule.1311.0407.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0408">
+    <h1 class="headnote repealed">1311.0408</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="published" id="rule.1311.0408.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0409">
+    <h1 class="headnote repealed">1311.0409</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="published" id="rule.1311.0409.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0410">
+    <h1 class="headnote repealed">1311.0410</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="published" id="rule.1311.0410.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0411">
+    <h1 class="headnote repealed">1311.0411</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="published" id="rule.1311.0411.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0413">
+    <h1 class="headnote repealed">1311.0413</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="published" id="rule.1311.0413.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0501">
+    <h1 class="headnote repealed">1311.0501</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="published" id="rule.1311.0501.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0502">
+    <h1 class="headnote">1311.0502 SECTION 502, ADDITIONS.</h1>
+    <div id="rule.1311.0502.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.0502.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Section 502.4 Existing structural elements carrying gravity load. </h2>
+      <p>IEBC section 502.4 is amended to read as follows:</p>
+      <p class="bl"><b>502.4 Existing structural elements carrying gravity load. </b>Any existing gravity load-carrying structural element for which an addition and its related alterations cause an increase in design dead, live, or snow load, including snow drift effects, that increases the demand-capacity ratio to more than 105 percent shall be replaced or altered as needed to carry the gravity loads required by the International Building Code for new structures. The evaluation of demand-capacity ratios and calculation of design gravity loads, forces, and capacities shall account for the cumulative effects of additions and alterations since original construction. Any existing gravity load-carrying structural element whose vertical load-carrying capacity is decreased as a part of the addition and its related alteration shall be considered an altered element subject to the requirements of IEBC section 503.3. Any existing element that will form part of the lateral load path for any part of the addition shall be considered an existing lateral load-carrying structural element subject to the requirements of IEBC section 502.5.</p>
+      <p class="bl">(The exception remains unchanged.)</p>
+    </div>
+    <div id="rule.1311.0502.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.0502.1">§</a>
+      <h2 class="subp_no">Subp. 1a.</h2>
+      <h2 class="headnote">Section 502.5 Existing structural elements carrying lateral load. </h2>
+      <p>The first exception to IEBC section 502.5 is amended to read as follows:</p>
+      <p class="bi">1. Any existing lateral load-carrying structural element for which an addition causes an increase in demand-capacity ratio to no more than 110 percent shall be permitted to remain unaltered. For purposes of calculating demand-capacity ratios, the demand shall consider applicable load combinations with design lateral loads or forces in accordance with IBC section 1609. For purposes of this exception, comparisons of demand-capacity ratios and calculation of design lateral loads, forces, and capacities shall account for the cumulative effects of additions and alterations since original construction.</p>
+      <p class="bl">(The second exception remains unchanged.)</p>
+    </div>
+    <div id="rule.1311.0502.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1311.0502.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Section 502.6 Smoke alarms in existing portions of a building. </h2>
+      <p>IEBC section 502.6 is amended to read as follows:</p>
+      <p class="bl"><b>502.6 Smoke alarms in existing portions of a building.</b> Where an addition is made to a building or structure of a Group R or I-1 occupancy, the existing building shall be provided with smoke alarms in accordance with the Minnesota Building Code, chapter 1305.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1311.0502.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1311.0502.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0502.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0503">
+    <h1 class="headnote repealed">1311.0503</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="part" id="rule.1311.0503">
+    <h1 class="headnote">1311.0503 SECTION 503, ALTERATIONS.</h1>
+    <div id="rule.1311.0503.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.0503.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Section 503.1 General. </h2>
+      <p>IEBC section 503.1, the exceptions, are amended to read as follows:</p>
+      <p class="bi">
+        <b>Exceptions:</b>
+      </p>
+      <p class="bi">1. An existing stairway shall not be required to comply with the requirements of the International Building Code provided the existing or replacement stairway complies with the following: Existing stairs in buildings shall be permitted to remain if the rise does not exceed 8.25 inches (210 mm) and the run is not less than 9 inches (229 mm). Existing stairs are permitted to have a minimum width of 36 inches (914 mm), but not less than the width required for the number of occupants served, as determined by the International Building Code.</p>
+      <p class="bi">2. The replacement of an existing stairway may maintain its original rise and run if compliance with exception 1 is technically infeasible.</p>
+      <p class="bi">3. Handrails otherwise required to comply with IBC chapter 10 shall not be required to comply with handrail extension requirements if the handrail extensions hinder the required means of egress.</p>
+    </div>
+    <div id="rule.1311.0503.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1311.0503.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Section 503.3 Existing structural elements carrying gravity load. </h2>
+      <p>IEBC section 503.3 is amended to read as follows:</p>
+      <p class="bl"><b>503.3 Existing structural elements carrying gravity load. </b>Any existing gravity load-carrying structural element for which an alteration causes an increase in design dead, live, or snow load, including snow drift effect, that increase the demand-capacity ratio to more than 105 percent shall be replaced or altered as needed to carry the gravity loads as required by the International Building Code for new structures. The evaluation of demand-capacity ratios and calculation of design gravity loads, forces, and capacities shall account for the cumulative effects of additions and alterations since original construction. Any existing gravity load-carrying structural element whose gravity load-carrying capacity is decreased as a part of the alteration shall be shown to have the capacity to resist the applicable design gravity loads required by the International Building Code for new structures.</p>
+      <p class="bl">(The exceptions remain unchanged.)</p>
+    </div>
+    <div id="rule.1311.0503.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1311.0503.2">§</a>
+      <h2 class="subp_no">Subp. 2a.</h2>
+      <h2 class="headnote">Section 503.4 Existing structural elements carrying lateral load. </h2>
+      <p>The exception to IEBC section 503.4 is amended to read as follows:</p>
+      <p class="bi"><b>Exception:</b> Any existing lateral load-carrying structural element for which an alteration causes an increase in demand-capacity ratio to no more than 110 percent shall be permitted to remain unaltered. For purposes of calculating demand-capacity ratios, the demand shall consider applicable load combinations with design lateral loads or forces in accordance with IBC section 1609. For purposes of this exception, comparisons of demand-capacity ratios and calculation of design lateral loads, forces, and capacities shall account for the cumulative effects of additions and alterations since original construction.</p>
+    </div>
+    <div id="rule.1311.0503.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1311.0503.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, 39 SR 95]</p>
+    </div>
+    <div id="rule.1311.0503.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1311.0503.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <p>[Repealed, 39 SR 95]</p>
+    </div>
+    <div id="rule.1311.0503.5" class="subp repealed">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1311.0503.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <p>[Repealed, 39 SR 95]</p>
+    </div>
+    <div id="rule.1311.0503.6" class="subp repealed">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1311.0503.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <p>[Repealed, 39 SR 95]</p>
+    </div>
+    <div id="rule.1311.0503.7" class="subp repealed">
+      <a title="Link to subpart 7" class="permalink" href="#rule.1311.0503.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <p>[Repealed, 39 SR 95]</p>
+    </div>
+    <div id="rule.1311.0503.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.1311.0503.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Section 503.14 Smoke alarms. </h2>
+      <p>IEBC section 503.14 is amended to read as follows:</p>
+      <p class="bl"><b>503.14 Smoke alarms. </b>Individual sleeping units and individual dwelling units in Group R and I-1 occupancies shall be provided with smoke alarms in accordance with the Minnesota Building Code, chapter 1305.</p>
+    </div>
+    <div id="rule.1311.0503.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.1311.0503.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Section 503.15 Carbon monoxide alarms. </h2>
+      <p>IEBC section 503.15 is amended to read as follows:</p>
+      <p class="bl"><b>503.15 Carbon monoxide alarms.</b> Carbon monoxide alarms shall be provided to protect sleeping units and dwelling units in Group I-1, I-2, I-4, and R occupancies in accordance with IBC section 915.</p>
+      <p class="bl">(The exceptions remain unchanged.)</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1311.0503.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1311.0503.history">
+    <h2>History: </h2>
+    <p>27 SR 1479; L 2007 c 140 art 4 s 61; art 13 s 4; 39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0503.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0504">
+    <h1 class="headnote">1311.0504 SECTION 504, FIRE ESCAPES.</h1>
+    <p>IEBC section 504.4 is amended to read as follows:</p>
+    <p class="bl"><b>504.4 Dimensions. </b>Existing and replacement fire escape stairs shall meet the minimum width, capacity, riser height, and tread depth as specified in Table 504.4.</p>
+    <table>
+      <col style="width:33.3333333333333%">
+      <col style="width:33.3333333333333%">
+      <col style="width:33.3333333333333%">
+      <tr>
+        <td colspan="3" style="text-align: center;">TABLE  504.4<br>DIMENSIONS FOR EXISTING AND REPLACEMENT FIRE ESCAPE STAIRS</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">Feature</td>
+        <td style="text-align: center;">Serving More Than 10 Occupants</td>
+        <td style="text-align: center;">Serving 10 or Fewer Occupants</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">Minimum Width</td>
+        <td style="text-align: center;">22 inches</td>
+        <td style="text-align: center;">18 inches</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">Maximum Riser Height</td>
+        <td style="text-align: center;">9 inches</td>
+        <td style="text-align: center;">12 inches</td>
+      </tr>
+      <tr>
+        <td style="text-align: center;">Minimum Tread Depth</td>
+        <td style="text-align: center;">9 inches</td>
+        <td style="text-align: center;">6 inches</td>
+      </tr>
+    </table>
+  </div>
+  <div class="stat_auth" id="rule.1311.0504.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1311.0504.history">
+    <h2>History: </h2>
+    <p>27 SR 1479; L 2007 c 140 art 4 s 61; art 13 s 4; 39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0504.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0505">
+    <h1 class="headnote repealed">1311.0505</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="part" id="rule.1311.0505">
+    <h1 class="headnote">1311.0505 SECTION 505, WINDOWS AND EMERGENCY ESCAPE OPENINGS.</h1>
+    <div id="rule.1311.0505.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.0505.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">
+        <b>Section 505.3 Replacement window emergency escape and rescue openings.</b>
+      </h2>
+      <p>IEBC section 505.3 is amended by adding a subsection to read as follows:</p>
+      <p class="bi"><b>505.3.1 Licensed facilities.</b> Windows in rooms used for foster care or day care licensed or registered by the state of Minnesota shall comply with the provisions of section 505.3 or all of the following conditions, whichever is more restrictive:</p>
+      <p class="bi2">a. minimum of 20 inches in clear opening width;</p>
+      <p class="bi2">b. minimum of 20 inches in clear opening height;</p>
+      <p class="bi2">c. minimum of 648 square inches (4.5 square feet) clear opening; and</p>
+      <p class="bi2">d. maximum of 48 inches from the floor to the bottom of the clear opening.</p>
+    </div>
+    <div id="rule.1311.0505.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1311.0505.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Section 505.4 Emergency escape and rescue openings.</h2>
+      <p>IEBC section 505.4 is amended to read as follows:</p>
+      <p class="bl"><b>505.4 Emergency escape and rescue openings.</b> Emergency escape and rescue openings shall be operational from the inside of the room without the use of keys or tools. Bars, grilles, grates, or similar devices are permitted to be placed over emergency escape and rescue openings provided that the minimum net clear opening size complies with the code that was in effect at the time of construction and such devices shall be releasable or removable from the inside without the use of a key, tool, or force greater than that which is required for normal operation of the escape and rescue opening. Where such bars, grilles, grates, or similar devices are installed, they shall not reduce the net clear opening of the emergency escape and rescue openings.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1311.0505.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0505.history">
+    <h2>History: </h2>
+    <p>44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0505.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0506">
+    <h1 class="headnote">1311.0506 SECTION 506, CHANGE OF OCCUPANCY.</h1>
+    <div id="rule.1311.0506.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.0506.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Section 506.1 Compliance. </h2>
+      <p>IEBC section 506.1 is amended to read as follows:</p>
+      <p class="bl"><b>506.1 Compliance. </b>Changes in the use or occupancy of any building that would place the building in a different division of the same group of occupancy or in a different group of occupancies shall be permitted if such building is made to comply with the requirements of the International Building Code for such division or group of occupancy. Subject to the approval of the building official, the use or occupancy of existing buildings shall be permitted to be changed and the building is allowed to be occupied for purposes in other groups without conforming to all of the requirements of this code for those groups, provided the new or proposed use is equally or less hazardous, based on life and fire risk, than the existing use based on Table 506.1.</p>
+      <p class="bi"><b>Exception:</b> The building need not be made to comply with IBC chapter 16 unless required by section 506.4.</p>
+      <p class="bl">(IEBC subsection 506.1.1 remains unchanged.)</p>
+    </div>
+    <div id="rule.1311.0506.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1311.0506.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Table 506.1 Life safety and fire risk. </h2>
+      <p>IEBC section 506.1 is amended by adding a table to read as follows:</p>
+      <table>
+        <col style="width:50%">
+        <col style="width:50%">
+        <tr>
+          <td colspan="2" style="text-align: center;">TABLE  506.1 LIFE SAFETY AND FIRE RISK</td>
+        </tr>
+        <tr>
+          <td>RELATIVE HAZARD</td>
+          <td>OCCUPANCY CLASSIFICATION<sup>(a)</sup></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>1 (Highest Hazard)</td>
+          <td>H, I-2, I-3</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td> A-1, A-2, A-3, A-4</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>A-5, E, 1-1, R-1, R-2,  I-4</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td> R-3, R-4,  M</td>
+        </tr>
+        <tr>
+          <td>5 </td>
+          <td>B, F-1, S-1, IRC-1, IRC-3</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>F-2, S-2, IRC-2</td>
+        </tr>
+        <tr>
+          <td>7 (Lowest Hazard)</td>
+          <td>U, IRC-4</td>
+        </tr>
+      </table>
+      <p><sup>(a)</sup> IRC-1, IRC-2, IRC-3, and IRC-4 occupancy classifications are included only to determine relative hazard level where residential structures are converted to nonresidential uses in a change of occupancy. See part <a href="/rules/1300.0070">1300.0070</a>, subpart 12b, for occupancy classifications.</p>
+    </div>
+    <div id="rule.1311.0506.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1311.0506.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Section 506.1.2 Small assembly spaces. </h2>
+      <p>IEBC section 506.1 is amended by adding a subsection to read as follows:</p>
+      <p class="bi"><b>506.1.2 Small assembly spaces. </b>The following rooms and spaces shall not be classified as assembly occupancies:</p>
+      <p class="bi2">1. A room or space used for assembly purposes with an occupant load of less than 50 persons and accessory to another occupancy shall be classified as part of that occupancy or as a Group B occupancy.</p>
+      <p class="bi2">2. A room or space used for assembly purposes that is less than 750 square feet (70 m<sup>2</sup>) in area and accessory to another occupancy shall be classified as part of that occupancy or as a Group B occupancy.</p>
+    </div>
+    <div id="rule.1311.0506.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1311.0506.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Section 506.4.1 Live loads. </h2>
+      <p>The exception to IEBC section 506.4.1 is amended to read as follows:</p>
+      <p class="bi2"><b>Exception:</b> Structural elements whose demand-capacity ratio considering the change of occupancy is not more than 105 percent of the demand-capacity ratio based on previously approved live loads need not comply with this section. For purposes of this exception, the comparison of demand-capacity ratios and calculation of design gravity loads, forces, and capacities shall account for the cumulative effects of additions and alterations since original construction.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1311.0506.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1311.0506.history">
+    <h2>History: </h2>
+    <p>27 SR 1479; L 2007 c 140 art 4 s 61; art 13 s 4; 39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0506.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0601">
+    <h1 class="headnote repealed">1311.0601</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="published" id="rule.1311.0601.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0603">
+    <h1 class="headnote repealed">1311.0603</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="published" id="rule.1311.0603.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0604">
+    <h1 class="headnote repealed">1311.0604</h1>
+    <p>[Repealed, 39 SR 95]</p>
+  </div>
+  <div class="published" id="rule.1311.0604.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0606">
+    <h1 class="headnote repealed">1311.0606</h1>
+    <p>[Renumbered <a href="/rules/1311.0405">1311.0405</a>]</p>
+  </div>
+  <div class="published" id="rule.1311.0606.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0702">
+    <h1 class="headnote">1311.0702 SECTION 702, BUILDING ELEMENTS AND MATERIALS.</h1>
+    <p>IEBC section 702.5 is amended and a subsection is added to read as follows:</p>
+    <p class="bl"><b>702.5 Replacement window emergency escape and rescue openings.</b> Where windows are required to provide emergency escape and rescue openings in Group R-2 and R-3 occupancies, replacement windows shall be exempt from the requirements of IBC sections 1030.2, 1030.3, and 1030.4, provided that the replacement window meets the following conditions:</p>
+    <p class="bi">1. The replacement window is the manufacturer's largest standard size window that will fit within the existing frame or existing rough opening. The replacement window shall be permitted to be of the same operating style as the existing window or a style that provides for an equal or greater window opening area than the existing window.</p>
+    <p>2. The replacement window is not part of a change of occupancy.</p>
+    <p class="bl">Window opening control devices complying with ASTM F2090 shall be permitted for use on windows required to provide emergency escape and rescue openings.</p>
+    <p class="bl"><b>702.5.1 Licensed facilities.</b> Windows in rooms used for foster care or day care licensed or registered by the state of Minnesota shall comply with the provisions of section 702.5 or all of the following conditions, whichever is more restrictive:</p>
+    <p class="bi">a. minimum of 20 inches in clear opening width;</p>
+    <p class="bi">b. minimum of 20 inches in clear opening height;</p>
+    <p class="bi">c. minimum of 648 square inches (4.5 square feet) clear opening; and</p>
+    <p class="bi">d. maximum of 48 inches from the floor to the bottom of the clear opening.</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.0702.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0702.history">
+    <h2>History: </h2>
+    <p>44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0702.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0704">
+    <h1 class="headnote">1311.0704 SECTION 704, MEANS OF EGRESS.</h1>
+    <p><b>Section 704.1 General. </b>IEBC section 704.1 is amended to read as follows:</p>
+    <p class="bl"><b>704.1 General. </b>Alterations shall be done in a manner that maintains the level of fire protection provided for the means of egress.</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.0704.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0704.history">
+    <h2>History: </h2>
+    <p>39 SR 95</p>
+  </div>
+  <div class="published" id="rule.1311.0704.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0706">
+    <h1 class="headnote">1311.0706 SECTION 706, STRUCTURAL.</h1>
+    <p>IEBC section 706.2 is amended to read as follows:</p>
+    <p class="bl"><b>706.2 Addition or replacement of roofing or replacement of equipment.</b> Any existing gravity load-carrying structural element for which an alteration causes an increase in design dead, live, or snow load, including snow drift effects, that increases the demand-capacity ratio to more than 105 percent shall be replaced or altered as needed to carry the gravity loads required by the International Building Code for new structures. The evaluation of demand-capacity ratios and calculation of design gravity loads, forces, and capacities shall account for the cumulative effects of additions and alterations since original construction.</p>
+    <p class="bi">
+      <b>Exceptions:</b>
+    </p>
+    <p class="bi">1. Buildings of Group R occupancy with not more than five dwelling or sleeping units used solely for residential purposes where the altered building complies with the conventional light-frame construction methods of the International Building Code.</p>
+    <p class="bi">2. Buildings in which the increased dead load is due entirely to the addition of a second layer of roof covering weighing 3 pounds per square foot (0.1437 kN/m<sup>2</sup>) or less over an existing single layer of roof covering.</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.0706.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0706.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0706.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0707">
+    <h1 class="headnote">1311.0707 SECTION 707, ENERGY CONSERVATION.</h1>
+    <p><b>Section 707 Energy conservation. </b>IEBC section 707 is amended by deleting the section in its entirety and replacing it with the following:</p>
+    <p class="bl"><b>707 Energy conservation. </b>For energy conservation requirements, see Minnesota Rules, chapters 1322 and 1323, as applicable.</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.0707.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0707.history">
+    <h2>History: </h2>
+    <p>39 SR 95</p>
+  </div>
+  <div class="published" id="rule.1311.0707.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0801">
+    <h1 class="headnote">1311.0801 SECTION 801, GENERAL.</h1>
+    <p>IEBC section 801.1 is amended by deleting the exception and amending the section to read follows:</p>
+    <p class="bl"><b>801.1 Scope. </b>Level 2 alterations as described in IEBC section 603 shall comply with the requirements of this chapter.</p>
+    <p class="bi">(The exception pertaining to accessibility requirements is deleted.)</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.0801.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0801.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0801.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0802">
+    <h1 class="headnote repealed">1311.0802</h1>
+    <p>[Repealed, 44 SR 487]</p>
+  </div>
+  <div class="published" id="rule.1311.0802.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0803">
+    <h1 class="headnote repealed">1311.0803</h1>
+    <p>[Repealed, 44 SR 487]</p>
+  </div>
+  <div class="published" id="rule.1311.0803.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0805">
+    <h1 class="headnote">1311.0805 SECTION 805, MEANS OF EGRESS.</h1>
+    <div id="rule.1311.0805.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.0805.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Section 805.2 General. </h2>
+      <p>IEBC section 805.2 is amended to read as follows:</p>
+      <p class="bl"><b>805.2 General. </b>The means of egress shall comply with the requirements of IEBC section 805.</p>
+      <p class="bi2"><b>Exception: </b>Means of egress conforming to the requirements of the Minnesota Building Code chapter under which the building was constructed shall be considered compliant means of egress if, in the opinion of the code official, they do not constitute a distinct hazard to life.</p>
+    </div>
+    <div id="rule.1311.0805.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1311.0805.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 44 SR 487]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1311.0805.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0805.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0805.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0806">
+    <h1 class="headnote">1311.0806 SECTION 806, STRUCTURAL.</h1>
+    <div id="rule.1311.0806.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.0806.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Section 806.2 Existing structural elements carrying gravity loads. </h2>
+      <p>IEBC section 806.2 is amended to read as follows:</p>
+      <p class="bl"><b>806.2 Existing structural elements carrying gravity loads.</b> Any existing gravity load-carrying structural element for which an alteration causes an increase in design dead, live, or snow load, including snow drift effects, that increases the demand-capacity ratio to more than 105 percent shall be replaced or altered as needed to carry the gravity loads required by the International Building Code for new structures. The evaluation of demand-capacity ratios and calculation of design gravity loads, forces, and capacities shall account for the cumulative effects of additions and alterations since original construction. Any existing gravity load-carrying structural element whose gravity load-carrying capacity is decreased as part of the alteration shall be shown to have the capacity to resist the applicable design dead, live, and snow loads, including snow drift effects, required by the International Building Code for new structures.</p>
+      <p class="bl">(The exceptions remain unchanged.)</p>
+    </div>
+    <div id="rule.1311.0806.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1311.0806.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Section 806.3 Existing structural elements resisting lateral loads. </h2>
+      <p>The exception to section 806.3 is amended to read as follows:</p>
+      <p class="bi"><b>Exception:</b> Any existing lateral load-carrying structural element for which an alteration causes an increase in demand-capacity ratio to no more than 110 percent shall be permitted to remain unaltered. For purposes of calculating demand-capacity ratios, the demand shall consider applicable load combinations with design lateral loads or forces in accordance with IBC section 1609. For purposes of this exception, comparisons of demand-capacity ratios and calculation of design lateral loads, forces, and capacities shall account for the cumulative effects of additions and alterations since original construction.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1311.0806.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0806.history">
+    <h2>History: </h2>
+    <p>44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0806.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0807">
+    <h1 class="headnote repealed">1311.0807</h1>
+    <p>[Repealed, 44 SR 487]</p>
+  </div>
+  <div class="part" id="rule.1311.0807">
+    <h1 class="headnote">1311.0807 SECTION 807, ELECTRICAL.</h1>
+    <div id="rule.1311.0807.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.0807.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Section 807.1 New installations. </h2>
+      <p>IEBC section 807.1 is amended to read as follows:</p>
+      <p class="bl"><b>807.1 New installations. </b>All newly installed electrical equipment and wiring relating to work done in any work area shall comply with the materials and methods requirements of NFPA 70.</p>
+    </div>
+    <div id="rule.1311.0807.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1311.0807.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Section 807.2 Existing installations. </h2>
+      <p>IEBC section 807.2 is amended to read as follows:</p>
+      <p class="bl"><b>807.2 Existing installations. </b>Existing wiring in all work areas in Group A-1, A-2, A-5, H, and I occupancies shall be upgraded to meet the materials and methods requirements of NFPA 70.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1311.0807.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0807.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0807.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0808">
+    <h1 class="headnote repealed">1311.0808</h1>
+    <p>[Renumbered <a href="/rules/1311.0807">1311.0807</a>]</p>
+  </div>
+  <div class="published" id="rule.1311.0808.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0809">
+    <h1 class="headnote">1311.0809 SECTION 809, PLUMBING.</h1>
+    <p>IEBC section 809.1 is amended to read as follows:</p>
+    <p class="bl"><b>809.1 Minimum fixtures. </b>Where the occupant load of the story is increased by more than 20 percent, plumbing fixtures for the story shall be provided in quantities specified in Minnesota Rules, chapter <a href="/rules/1305">1305</a>, based on the increased occupant load.</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.0809.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0809.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0809.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0810">
+    <h1 class="headnote repealed">1311.0810</h1>
+    <p>[Renumbered <a href="/rules/1311.0809">1311.0809</a>]</p>
+  </div>
+  <div class="part" id="rule.1311.0810">
+    <h1 class="headnote">1311.0810 SECTION 810, ENERGY CONSERVATION.</h1>
+    <p class="in">IEBC section 810.1 is amended to read as follows:</p>
+    <p class="bl"><b>810.1 Minimum requirements. </b>For energy conservation requirements, see Minnesota Rules, chapters <a href="/rules/1322">1322</a> and <a href="/rules/1323">1323</a>, as applicable.</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.0810.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0810.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0810.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0811">
+    <h1 class="headnote repealed">1311.0811</h1>
+    <p>[Renumbered <a href="/rules/1311.0810">1311.0810</a>]</p>
+  </div>
+  <div class="published" id="rule.1311.0811.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0901">
+    <h1 class="headnote">1311.0901 SECTION 901, GENERAL.</h1>
+    <p class="in">IEBC section 901.2 is amended by deleting the exception to section 901.2.</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.0901.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0901.history">
+    <h2>History: </h2>
+    <p>44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0901.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0903">
+    <h1 class="headnote">1311.0903 SECTION 903, BUILDING ELEMENTS AND MATERIALS.</h1>
+    <p><b>Section 903.2.1 Separation required. </b>IEBC section 903.2.1 is amended to read as follows:</p>
+    <p class="bl"><b>903.2.1 Separation required. </b>Where the work area is in any attached dwelling unit in Group R-3 occupancies, walls separating the dwelling units that are not continuous from the foundation to the underside of the roof sheathing shall be constructed to provide continuous fire separation using construction materials consistent with the existing wall or complying with the requirements for new structures. All work shall be performed on the side of the dwelling unit wall that is part of the work area.</p>
+    <p class="bi"><b>Exception: </b>Where alterations or repairs do not result in the removal of wall or ceiling finishes exposing the structure, walls are not required to be continuous through concealed floor spaces.</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.0903.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0903.history">
+    <h2>History: </h2>
+    <p>39 SR 95</p>
+  </div>
+  <div class="published" id="rule.1311.0903.published">
+    <h2>Published Electronically:</h2>
+    <p> January 26, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0907">
+    <h1 class="headnote">1311.0907 SECTION 907, ENERGY CONSERVATION.</h1>
+    <p>IEBC section 907.1 is amended to read as follows:</p>
+    <p class="bl"><b>907.1 Minimum requirements. </b>For energy conservation requirements, see Minnesota Rules, chapters <a href="/rules/1322">1322</a> and <a href="/rules/1323">1323</a>, as applicable.</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.0907.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.0907.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.0907.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.0908">
+    <h1 class="headnote repealed">1311.0908</h1>
+    <p>[Renumbered <a href="/rules/1311.0907">1311.0907</a>]</p>
+  </div>
+  <div class="published" id="rule.1311.0908.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.1006">
+    <h1 class="headnote">1311.1006 SECTION 1006, STRUCTURAL.</h1>
+    <p class="in">The exception to IEBC section 1006.1 is amended to read as follows:</p>
+    <p class="bi"><b>Exception:</b> Structural elements whose demand-capacity ratio considering the change of occupancy is not more than 105 percent of the demand-capacity ratio based on previously approved live loads. The evaluation of demand-capacity ratios and calculation of design gravity loads, forces, and capacities shall account for the cumulative effects of additions and alterations since original construction.</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.1006.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.1006.history">
+    <h2>History: </h2>
+    <p>44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.1006.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.1007">
+    <h1 class="headnote repealed">1311.1007</h1>
+    <p>[Repealed, 44 SR 487]</p>
+  </div>
+  <div class="published" id="rule.1311.1007.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.1009">
+    <h1 class="headnote">1311.1009 SECTION 1009, PLUMBING.</h1>
+    <p>IEBC section 1009.1 is amended to read as follows:</p>
+    <p class="bl"><b>1009.1 Increased demand. </b>Where the occupancy of an existing building or part of an existing building is changed such that the new occupancy is subject to increased or different plumbing fixture requirements in accordance with Minnesota Rules, chapter <a href="/rules/1305">1305</a>, or to increased water supply requirements in accordance with Minnesota Rules, chapter <a href="/rules/4714">4714</a>, the new occupancy shall comply with Minnesota Rules, chapter <a href="/rules/4714">4714</a>.</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.1009.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.1009.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 40 SR 71; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.1009.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.1010">
+    <h1 class="headnote repealed">1311.1010</h1>
+    <p>[Renumbered <a href="/rules/1311.1009">1311.1009</a>]</p>
+  </div>
+  <div class="published" id="rule.1311.1010.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.1011">
+    <h1 class="headnote">1311.1011 SECTION 1011, CHANGE OF OCCUPANCY CLASSIFICATION.</h1>
+    <div id="rule.1311.1011.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.1011.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Section 1011.1.1 Compliance with chapter 9. </h2>
+      <p>IEBC section 1011.1.1 is amended to read as follows:</p>
+      <p class="bi"><b>1011.1.1 Compliance with chapter 9.</b> The requirements of IEBC chapter 9 shall be applicable throughout the building for the new occupancy classification based on the separation conditions in sections 1011.1.1.1 and 1011.1.1.2.</p>
+      <p class="bi2">(IEBC subsections 1011.1.1.1 and 1011.1.1.2 remain unchanged.)</p>
+    </div>
+    <div id="rule.1311.1011.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1311.1011.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Section 1011.2.1 Fire sprinkler system. </h2>
+      <p>IEBC section 1011.2.1 is amended to read as follows:</p>
+      <p class="bi"><b>1011.2.1 Fire sprinkler system. </b>Where a change in occupancy classification occurs that requires an automatic fire sprinkler system to be provided based on the new occupancy in accordance with Minnesota Rules, chapter <a href="/rules/1305">1305</a>, such system shall be provided throughout the area where the change of occupancy occurs.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1311.1011.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.1011.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.1011.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.1012">
+    <h1 class="headnote repealed">1311.1012</h1>
+    <p>[Renumbered <a href="/rules/1311.1011">1311.1011</a>]</p>
+  </div>
+  <div class="published" id="rule.1311.1012.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.1103">
+    <h1 class="headnote">1311.1103 SECTION 1103, STRUCTURAL.</h1>
+    <div id="rule.1311.1103.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.1103.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Section 1103.1 Additional gravity loads. </h2>
+      <p>IEBC section 1103.1 is amended to read as follows:</p>
+      <p class="bl"><b>1103.1 Additional gravity loads.</b> Any existing gravity load-carrying structural element for which an addition and its related alterations cause an increase in design dead, live, or snow load, including snow drift effects, that increases the demand-capacity ratio to more than 105 percent shall be replaced or altered as needed to carry the gravity loads required by the International Building Code for new structures. The evaluation of demand-capacity ratios and calculation of design gravity loads, forces, and capacities shall account for the cumulative effects of additions and alterations since original construction. Any existing gravity load-carrying structural element whose gravity load-carrying capacity is decreased as part of the addition and its related alterations shall be considered to be an altered element subject to the requirements of section 806.2. Any existing element that will form part of the lateral load path for any part of the addition shall be considered to be an existing lateral load-carrying structural element subject to the requirements of section 1103.3.</p>
+      <p class="bl">(The exceptions remain unchanged.)</p>
+    </div>
+    <div id="rule.1311.1103.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1311.1103.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Section 1103.2 Lateral force-resisting systems. </h2>
+      <p>The exceptions to IEBC section 1103.2 are amended to read as follows:</p>
+      <p class="bi">
+        <b>Exceptions:</b>
+      </p>
+      <p class="bi">1. Buildings of Group R occupancy with no more than five dwelling or sleeping units used solely for residential purposes where the existing building and the addition comply with the conventional light-frame construction methods of the IBC.</p>
+      <p class="bi">2. Any existing lateral load-carrying structural element for which an addition causes an increase in demand-capacity ratio to no more than 110 percent shall be permitted to remain unaltered. For purposes of calculating demand-capacity ratios, the demand shall consider applicable load combinations with design lateral loads or forces in accordance with IBC section 1609. For purposes of this exception, comparisons of demand-capacity ratios and calculation of design lateral loads, forces, and capacities shall account for the cumulative effects of additions and alterations since original construction.</p>
+    </div>
+    <div id="rule.1311.1103.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1311.1103.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, 44 SR 487]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1311.1103.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.1103.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.1103.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.1105">
+    <h1 class="headnote">1311.1105 SECTION 1105, CARBON MONOXIDE ALARMS IN GROUPS I-1, I-2, I-4, AND R.</h1>
+    <p>IEBC section 1105.1 is amended to read as follows:</p>
+    <p class="bl"><b>1105.1 Carbon monoxide alarms in existing portions of a building.</b> Where an addition is made to a building or structure of a Group I-1, I-2, I-4, or R occupancy, the existing building shall be equipped with carbon monoxide alarms in accordance with IBC section 915.</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.1105.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.1105.history">
+    <h2>History: </h2>
+    <p>44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.1105.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.1106">
+    <h1 class="headnote">1311.1106 SECTION 1106, STORM SHELTERS.</h1>
+    <p>IEBC section 1106.1 is amended to read as follows:</p>
+    <p class="bl"><b>1106.1 Addition to a Group E occupancy.</b> Where an addition with an occupant load of 50 or more is made to an existing Group E occupancy, the addition shall have a storm shelter constructed in accordance with ICC 500 in the following counties: Anoka, Benton, Blue Earth, Brown, Carver, Chippewa, Chisago, Cottonwood, Dakota, Dodge, Faribault, Fillmore, Freeborn, Goodhue, Hennepin, Houston, Isanti, Jackson, Kandiyohi, LeSueur, Lincoln, Lyon, Martin, McLeod, Meeker, Murray, Nicollet, Nobles, Olmsted, Pipestone, Ramsey, Redwood, Renville, Rice, Rock, Scott, Sherburne, Sibley, Steele, Stearns, Swift, Wabasha, Waseca, Washington, Watonwan, Winona, Wright, and Yellow Medicine.</p>
+    <p class="bi">
+      <b>Exceptions:</b>
+    </p>
+    <p class="bi">1. Group E day care facilities.</p>
+    <p class="bi">2. Group E occupancies accessory to places of religious worship.</p>
+    <p class="bi">3. Additions meeting the requirements for shelter design in ICC 500.</p>
+    <p class="bi">(Subsections 1106.1.1 and 1106.1.2 remain unchanged.)</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.1106.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.1106.history">
+    <h2>History: </h2>
+    <p>44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.1106.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.1201">
+    <h1 class="headnote">1311.1201 SECTION 1201, GENERAL.</h1>
+    <p>IEBC section 1201.2 is amended to read as follows:</p>
+    <p class="bl"><b>1201.2 Report. </b>A historic building undergoing alteration or change of occupancy shall be investigated and evaluated. A written report shall be prepared and filed with the code official by a registered design professional when such a report is necessary in the opinion of the code official. The report shall identify each required safety feature that is in compliance with this chapter and where compliance with provisions of this chapter would be damaging to the contributing historic features.</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.1201.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.1201.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.1201.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.1203">
+    <h1 class="headnote repealed">1311.1203</h1>
+    <p>[Repealed, 44 SR 487]</p>
+  </div>
+  <div class="published" id="rule.1311.1203.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.1301">
+    <h1 class="headnote repealed">1311.1301</h1>
+    <p>[Renumbered <a href="/rules/1311.1401">1311.1401</a>]</p>
+  </div>
+  <div class="part" id="rule.1311.1301">
+    <h1 class="headnote">1311.1301 SECTION 1301, GENERAL.</h1>
+    <div id="rule.1311.1301.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.1301.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Section 1301.2 Applicability. </h2>
+      <p>IEBC section 1301.2 is amended to read as follows:</p>
+      <p class="bl"><b>1301.2 Applicability. </b>Structures existing prior to the effective date of this code, in which there is work involving additions, alterations, or change of occupancy shall be made to conform to the requirements of IEBC chapter 13 or the provisions of IEBC chapters 6 to 12. The provisions of sections 1301.2.1 to 1301.2.5 shall apply to existing occupancies that will continue to be, or are proposed to be, in Groups A, B, E, F, I-2, M, R, and S. These provisions shall not apply to buildings with occupancies in Group H, I-1, I-3, or I-4.</p>
+      <p class="bl">(IEBC subsections 1301.2.1, 1301.2.2, 1301.2.3, 1301.2.4, and 1301.2.5 remain unchanged.)</p>
+    </div>
+    <div id="rule.1311.1301.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1311.1301.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Section 1301.3.1 Hazards. </h2>
+      <p>IEBC section 1301.3.1 is amended to read as follows:</p>
+      <p class="bi"><b>1301.3.1 Hazards. </b>Where the code official determines that an unsafe condition or hazardous building, as defined in Minnesota Statutes, section <a href="/statutes/cite/463.15">463.15</a>, exists as provided for in Minnesota Rules, part <a href="/rules/1300.0180">1300.0180</a>, such unsafe condition or hazard shall be abated in accordance with Minnesota Statutes, sections <a href="/statutes/cite/463.15">463.15</a> to <a href="/statutes/cite/463.26">463.26</a>.</p>
+    </div>
+    <div id="rule.1311.1301.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1311.1301.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Section 1301.3.2 Compliance with other codes. </h2>
+      <p>IEBC section 1301.3.2 is amended to read as follows:</p>
+      <p class="bi"><b>1301.3.2 Compliance with other codes.</b> Compliance with other codes is deleted in its entirety.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1311.1301.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.1301.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.1301.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.1302">
+    <h1 class="headnote repealed">1311.1302</h1>
+    <p>[Renumbered <a href="/rules/1311.1402">1311.1402</a>]</p>
+  </div>
+  <div class="published" id="rule.1311.1302.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.1401">
+    <h1 class="headnote repealed">1311.1401</h1>
+    <p>[Renumbered <a href="/rules/1311.1301">1311.1301</a>]</p>
+  </div>
+  <div class="part" id="rule.1311.1401">
+    <h1 class="headnote">1311.1401 SECTION 1401, GENERAL.</h1>
+    <p>IEBC section 1401.2 is amended to read as follows:</p>
+    <p class="bl"><b>1401.2 Conformance. </b>Buildings that are unsafe, as provided in Minnesota Rules, part <a href="/rules/1300.0180">1300.0180</a>, shall not be moved. Any repair, alteration, or change of occupancy undertaken within the moved structure shall comply with the requirements of this code applicable to the work being performed. Any field-fabricated elements shall comply with the requirements of the International Building Code.</p>
+  </div>
+  <div class="stat_auth" id="rule.1311.1401.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.1401.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.1401.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1311.1402">
+    <h1 class="headnote">1311.1402 SECTION 1402, REQUIREMENTS.</h1>
+    <div id="rule.1311.1402.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1311.1402.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Section 1402.3 Wind loads. </h2>
+      <p>IEBC section 1402.3 is amended to read as follows:</p>
+      <p class="bl"><b>1402.3 Wind loads. </b>Buildings shall comply with International Building Code wind provisions, as applicable.</p>
+      <p class="bi">
+        <b>Exceptions:</b>
+      </p>
+      <p class="bi">1. Detached one- and two-family dwellings and Group U occupancies where wind loads at the new location are not higher than those at the previous location.</p>
+      <p class="bi">2. Structural elements whose demand-capacity ratio is not increased to more than 110 percent. For purposes of this exception, comparisons of demand-capacity ratios and calculation of design lateral loads, forces, and capacities shall account for the cumulative effects of additions and alterations since original construction.</p>
+    </div>
+    <div id="rule.1311.1402.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1311.1402.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Section 1402.5 Snow loads. </h2>
+      <p>IEBC section 1402.5 is amended to read as follows:</p>
+      <p class="bl"><b>1402.5 Snow loads.</b> Structures shall comply with International Building Code snow loads as applicable where snow loads at the new location are higher than those at the previous location.</p>
+      <p class="bi"><b>Exception:</b> Structural elements whose demand-capacity ratio is not increased to more than 105 percent. For purposes of this exception, comparisons of demand-capacity ratios ad calculation of design gravity loads, forces, and capacities shall account for the cumulative effects of additions and alterations since original construction.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1311.1402.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1311.1402.history">
+    <h2>History: </h2>
+    <p>39 SR 95; 44 SR 487</p>
+  </div>
+  <div class="published" id="rule.1311.1402.published">
+    <h2>Published Electronically:</h2>
+    <p> March 31, 2020</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
