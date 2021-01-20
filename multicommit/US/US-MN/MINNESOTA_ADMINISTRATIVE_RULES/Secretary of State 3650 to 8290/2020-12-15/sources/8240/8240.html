@@ -1,0 +1,2445 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            8240.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/133">Secretary of State</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/8240/">Chapter 8240</a>
+            </li>
+        
+    
+        
+            <li>Part 8240.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/8240.0200/">8240.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/8240.0100/2014-01-18%2010:00:09+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 8240</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/8240/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/8240/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/8240/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 8240.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/8240.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.0100">
+    <h1 class="headnote">8240.0100 DEFINITIONS.</h1>
+    <div id="rule.8240.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8240.0100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>Terms used in this chapter have the meanings given them.</p>
+    </div>
+    <div id="rule.8240.0100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8240.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Election cycle. </h2>
+      <p>"Election cycle" means the period from January 1 of an even-numbered year until December 31 of an odd-numbered year.</p>
+    </div>
+    <div id="rule.8240.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8240.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Home county. </h2>
+      <p>"Home county" means the county where the administrative offices of a municipality or school district are located.</p>
+    </div>
+    <div id="rule.8240.0100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8240.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Municipal clerk. </h2>
+      <p>"Municipal clerk" means the person authorized or required to administer elections in a municipality.</p>
+    </div>
+    <div id="rule.8240.0100.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8240.0100.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">School district clerk. </h2>
+      <p>"School district clerk" means the person authorized or required to administer the school district election.</p>
+    </div>
+    <div id="rule.8240.0100.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.8240.0100.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Training authority. </h2>
+      <p>"Training authority" means a county auditor and designees or the municipal election official to whom the county auditor has delegated election judge training duties.</p>
+    </div>
+    <div id="rule.8240.0100.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.8240.0100.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Training program. </h2>
+      <p>"Training program" means a system of instruction to promote the competence of election officials by supplying necessary information to improve election-related skills.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8240.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.0100.history">
+    <h2>History: </h2>
+    <p>20 SR 2787; 25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.0200">
+    <h1 class="headnote">8240.0200 SCOPE.</h1>
+    <div id="rule.8240.0200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8240.0200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Election judge training. </h2>
+      <p>Parts <a href="/rules/8240.1100">8240.1100</a> and <a href="/rules/8240.1300">8240.1300</a> to <a href="/rules/8240.2500">8240.2500</a> establish the program for training election judges required by Minnesota Statutes, section <a href="/statutes/cite/204B.25">204B.25</a>.</p>
+    </div>
+    <div id="rule.8240.0200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8240.0200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Municipal clerk training. </h2>
+      <p>Part <a href="/rules/8240.2700">8240.2700</a> establishes the program for training municipal clerks required by Minnesota Statutes, section <a href="/statutes/cite/204B.25">204B.25</a>, subdivision 4.</p>
+    </div>
+    <div id="rule.8240.0200.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8240.0200.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">School district clerk training. </h2>
+      <p>Part <a href="/rules/8240.2800">8240.2800</a> establishes the program for training school district clerks required by Minnesota Statutes, section <a href="/statutes/cite/204B.25">204B.25</a>, subdivision 4.</p>
+    </div>
+    <div id="rule.8240.0200.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8240.0200.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">County auditor certification. </h2>
+      <p>Part <a href="/rules/8240.2900">8240.2900</a> establishes the program for certifying county auditors in election administration required by Minnesota Statutes, section <a href="/statutes/cite/204B.27">204B.27</a>, subdivision 10.</p>
+    </div>
+    <div id="rule.8240.0200.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8240.0200.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Minimum standards.</h2>
+      <div id="rule.8240.0200.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8240.0200.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> This chapter is the minimum standard required for training conducted under Minnesota Statutes, sections <a href="/statutes/cite/204B.25">204B.25</a> and <a href="/statutes/cite/204B.27">204B.27</a>, subdivision 10.</p>
+      </div>
+      <div id="rule.8240.0200.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8240.0200.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> When a part in this chapter establishes a specific length of time for a training course, the length of the course must be the shorter of the length specified or the length of time necessary to cover the content required for that course.</p>
+      </div>
+      <div id="rule.8240.0200.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8240.0200.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Nothing in this chapter restricts training authorities from implementing training programs more comprehensive than are required by this chapter.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8240.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.0200.history">
+    <h2>History: </h2>
+    <p>20 SR 2787; 25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.0300">
+    <h1 class="headnote">8240.0300 PROFICIENCY DEMONSTRATION.</h1>
+    <p>To successfully complete a course required by this chapter, a person must take the entire course and demonstrate proficiency to the person teaching the course. A person may demonstrate proficiency through completion of self-administered worksheets, hands-on demonstrations, or other methods approved by the secretary of state. A person may consult the training materials provided during a training course while demonstrating proficiency for that course. The secretary of state must not require the use of graded or pass/fail tests to determine proficiency.</p>
+  </div>
+  <div class="stat_auth" id="rule.8240.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.0300.history">
+    <h2>History: </h2>
+    <p>25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.1000">
+    <h1 class="headnote repealed">8240.1000</h1>
+    <p>[Repealed, 20 SR 2787]</p>
+  </div>
+  <div class="published" id="rule.8240.1000.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.1050">
+    <h1 class="headnote">8240.1050 ELECTION CONFERENCE.</h1>
+    <p>An auditor shall attend an election conference given by the secretary of state once every election cycle.</p>
+  </div>
+  <div class="stat_auth" id="rule.8240.1050.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.1050.history">
+    <h2>History: </h2>
+    <p>25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.1050.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.1100">
+    <h1 class="headnote">8240.1100 "TRAIN THE TRAINER" SESSION.</h1>
+    <p>Before each state primary election, each training authority shall attend training on adult education methods (i.e. "Train the Trainer" classes) conducted by the secretary of state. If a county auditor delegates the duty to train election judges to a municipal election official and an election is to take place in that municipality before the next training conference held by the secretary of state, the county auditor shall train the municipal election official in administration of a training program.</p>
+    <p>"Train the trainer" classes given by an individual other than a county auditor or the secretary of state may fulfill the requirements of this part if the person taking the class submits a course description to the secretary of state and the secretary determines, based upon that course description, that the training covers adult education methods.</p>
+  </div>
+  <div class="stat_auth" id="rule.8240.1100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.1100.history">
+    <h2>History: </h2>
+    <p>25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.1100.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.1200">
+    <h1 class="headnote">8240.1200 TRAINING PROGRAM.</h1>
+    <p>A training program consists of a basic training course; a head election judge training course; an emergency training course for election judges and head election judges; in municipalities conducting absentee voting pursuant to Minnesota Statutes, section <a href="/statutes/cite/203B.11">203B.11</a>, a health care facility absentee voting course; any other election judge training course required by the training authority; a course on adult education methods; a municipal clerk election administration training course; a school district clerk election administration training course; and a county auditor election administration course. The person responsible for training may design the courses to meet the election conditions peculiar to the jurisdiction, but the courses must meet at least the minimum standards in parts <a href="/rules/8240.1600">8240.1600</a> to <a href="/rules/8240.2900">8240.2900</a>.</p>
+  </div>
+  <div class="stat_auth" id="rule.8240.1200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.1200.history">
+    <h2>History: </h2>
+    <p>25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.1200.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.1300">
+    <h1 class="headnote">8240.1300 ELECTION JUDGE BASIC TRAINING REQUIREMENT.</h1>
+    <div id="rule.8240.1300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8240.1300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Election judge basic training course. </h2>
+      <p>To serve as an election judge, a person must successfully complete a basic training course that meets the requirements of part <a href="/rules/8240.1600">8240.1600</a>.</p>
+    </div>
+    <div id="rule.8240.1300.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8240.1300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Certification of training. </h2>
+      <p>A training authority must issue a certification of election judge basic training to a person who successfully completes a basic training course.</p>
+    </div>
+    <div id="rule.8240.1300.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8240.1300.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Maintaining certification. </h2>
+      <p>A person must successfully complete the basic training course once every 24 months to remain qualified to serve as an election judge.</p>
+    </div>
+    <div id="rule.8240.1300.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8240.1300.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Timing. </h2>
+      <p>The basic training course must be conducted not more than 60 days before the state primary election or fewer than three days before the state general election.</p>
+    </div>
+    <div id="rule.8240.1300.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8240.1300.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Training between primary and general elections. </h2>
+      <p>An election judge who successfully completes the training required by parts <a href="/rules/8240.0100">8240.0100</a> to <a href="/rules/8240.2500">8240.2500</a> for a state primary election is not required to complete additional training for the succeeding general election.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8240.1300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.1300.history">
+    <h2>History: </h2>
+    <p>17 SR 8; 20 SR 2787; 25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.1300.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.1350">
+    <h1 class="headnote">8240.1350 HEAD ELECTION JUDGE TRAINING REQUIREMENT.</h1>
+    <div id="rule.8240.1350.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8240.1350.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Head election judge training. </h2>
+      <p>Before serving as a head election judge, a person must successfully complete a basic election judge training course that meets the requirements of part <a href="/rules/8240.1600">8240.1600</a> and a head election judge training course that meets the requirements of part <a href="/rules/8240.1750">8240.1750</a>.</p>
+    </div>
+    <div id="rule.8240.1350.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8240.1350.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Certification of training. </h2>
+      <p>A training authority must issue a certification of head election judge training to a person who successfully completes a head election judge training course.</p>
+    </div>
+    <div id="rule.8240.1350.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8240.1350.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Maintaining certification. </h2>
+      <p>A person must successfully complete the head election judge training course every 24 months to remain eligible to serve as a head election judge.</p>
+    </div>
+    <div id="rule.8240.1350.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8240.1350.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Supplemental head election judge training. </h2>
+      <p>A training authority may require head election judges to attend a supplemental head election judge training course for an election. A head election judge must attend the supplemental training course to be eligible to serve as a head election judge for that election.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8240.1350.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.1350.history">
+    <h2>History: </h2>
+    <p>25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.1350.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.1400">
+    <h1 class="headnote">8240.1400 HEALTH CARE FACILITY ABSENTEE VOTING REQUIREMENT.</h1>
+    <div id="rule.8240.1400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8240.1400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Health care facility absentee voting course. </h2>
+      <p>Each election judge who conducts absentee voting in health care facilities under Minnesota Statutes, section <a href="/statutes/cite/203B.11">203B.11</a>, shall successfully complete a course for health care facility absentee voting that meets the requirements of part <a href="/rules/8240.1800">8240.1800</a> in addition to the election judge basic training course.</p>
+    </div>
+    <div id="rule.8240.1400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8240.1400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Certification of training. </h2>
+      <p>A training authority must issue a certification of health care facility absentee voting training to a person who successfully completes a health care facility absentee voting training course.</p>
+    </div>
+    <div id="rule.8240.1400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8240.1400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Maintaining certification. </h2>
+      <p>A person must successfully complete the health care facility absentee voting course every 24 months to remain eligible to conduct absentee voting in a health care facility.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8240.1400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.1400.history">
+    <h2>History: </h2>
+    <p>17 SR 1279; 25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.1400.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.1500">
+    <h1 class="headnote">8240.1500 EMERGENCY TRAINING REQUIREMENT.</h1>
+    <div id="rule.8240.1500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8240.1500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Emergency election judge training. </h2>
+      <p>An election judge who is appointed after the training period ends and who has not successfully completed the basic training course conducted for that election must complete the emergency training course as provided in part <a href="/rules/8240.1900">8240.1900</a> before serving as an election judge.</p>
+    </div>
+    <div id="rule.8240.1500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8240.1500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Emergency head election judge training. </h2>
+      <p>A head election judge who is appointed after the training period ends and who has not successfully completed a head election judge training course must complete the emergency head election judge training course as provided in part <a href="/rules/8240.1950">8240.1950</a> before serving as a head election judge.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8240.1500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.1500.history">
+    <h2>History: </h2>
+    <p>17 SR 1279; 25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.1500.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.1600">
+    <h1 class="headnote">8240.1600 ELECTION JUDGE BASIC TRAINING COURSE.</h1>
+    <div id="rule.8240.1600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8240.1600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Length. </h2>
+      <p>The election judge basic training course must be at least two hours long.</p>
+    </div>
+    <div id="rule.8240.1600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8240.1600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Materials. </h2>
+      <p>The training authority shall provide examples of all forms which election judges must complete in the course of their duties; with examples of forms of identification acceptable for purposes of election day registration, including any forms of student identification issued by educational institutions in the area; and with the materials contemplated in the training plan. Additional materials may be provided by the training authority as the authority considers useful.</p>
+    </div>
+    <div id="rule.8240.1600.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8240.1600.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Use of equipment. </h2>
+      <p>An electronic voting system or specimen paper ballot and ballot box must be used at each training session to familiarize each election judge with the voting procedures for the method of voting employed in the precinct where the judge will serve.</p>
+    </div>
+    <div id="rule.8240.1600.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8240.1600.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Course content. </h2>
+      <p>A basic training course must include necessary information and skill development in the following areas:</p>
+      <div id="rule.8240.1600.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8240.1600.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> how to use the training materials to find answers to questions arising in the polling place on election day;</p>
+      </div>
+      <div id="rule.8240.1600.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8240.1600.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> preparations on election day before polls open;</p>
+      </div>
+      <div id="rule.8240.1600.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8240.1600.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> judges' duties during voting hours:</p>
+        <div id="rule.8240.1600.4.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.8240.1600.4.C.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> election day voter registration;</p>
+        </div>
+        <div id="rule.8240.1600.4.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.8240.1600.4.C.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> persons allowed in polling place;</p>
+        </div>
+        <div id="rule.8240.1600.4.C.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.8240.1600.4.C.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> challenge process;</p>
+        </div>
+        <div id="rule.8240.1600.4.C.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.8240.1600.4.C.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> voting process;</p>
+        </div>
+        <div id="rule.8240.1600.4.C.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.8240.1600.4.C.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> spoiled ballots;</p>
+        </div>
+        <div id="rule.8240.1600.4.C.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.8240.1600.4.C.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> assistance to disabled voters; and</p>
+        </div>
+        <div id="rule.8240.1600.4.C.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.8240.1600.4.C.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> absentee ballots;</p>
+        </div>
+      </div>
+      <div id="rule.8240.1600.4.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8240.1600.4.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> basic election judges' duties after polls close;</p>
+      </div>
+      <div id="rule.8240.1600.4.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.8240.1600.4.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> new laws, rules, forms, and procedures;</p>
+      </div>
+      <div id="rule.8240.1600.4.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.8240.1600.4.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> major problems at prior elections; and</p>
+      </div>
+      <div id="rule.8240.1600.4.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.8240.1600.4.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> how to follow instructions from the head election judge.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8240.1600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.1600.history">
+    <h2>History: </h2>
+    <p>17 SR 1279; 23 SR 459; 25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.1600.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.1650">
+    <h1 class="headnote repealed">8240.1650</h1>
+    <p>[Repealed, 25 SR 112]</p>
+  </div>
+  <div class="published" id="rule.8240.1650.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.1655">
+    <h1 class="headnote">8240.1655 QUALIFICATIONS FOR TRAINEE ELECTION JUDGES.</h1>
+    <div id="rule.8240.1655.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8240.1655.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Requirement. </h2>
+      <p>Trainee election judges appointed under Minnesota Statutes, section <a href="/statutes/cite/204B.19">204B.19</a>, must meet the requirements of this part.</p>
+    </div>
+    <div id="rule.8240.1655.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8240.1655.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Training. </h2>
+      <p>A trainee election judge must successfully complete the basic election judge training course as defined in part <a href="/rules/8240.1600">8240.1600</a> before serving in a special, primary, or general election.</p>
+    </div>
+    <div id="rule.8240.1655.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8240.1655.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Qualifications. </h2>
+      <p>A trainee election judge must be a United States citizen, must be at least 16 years of age, and must meet any residency requirement specified in Minnesota Statutes, section <a href="/statutes/cite/204B.19">204B.19</a>, subdivision 6. Trainee election judges must provide certification from their school that they are enrolled in a Minnesota high school, and are performing at an academic level acceptable to the principal of the trainee's high school. A trainee election judge who is home-schooled must provide certification from the trainee's parent that the trainee is performing at an academic level acceptable to serve as a trainee election judge.</p>
+    </div>
+    <div id="rule.8240.1655.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8240.1655.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Appointment. </h2>
+      <p>Trainee election judges may be appointed by the municipality or school district conducting the election if:</p>
+      <div id="rule.8240.1655.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8240.1655.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the trainee election judge is appointed without party affiliation;</p>
+      </div>
+      <div id="rule.8240.1655.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8240.1655.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the trainee election judge has submitted a written request, approved and signed by the trainee's parent or guardian, to be absent from school to the principal of the trainee's high school;</p>
+      </div>
+      <div id="rule.8240.1655.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8240.1655.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> a certificate from the appointing authority is submitted with the request stating the date and hours the student will serve as a trainee election judge;</p>
+      </div>
+      <div id="rule.8240.1655.4.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8240.1655.4.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> the request and certificate are submitted to the student's principal at least ten days before the election; and</p>
+      </div>
+      <div id="rule.8240.1655.4.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.8240.1655.4.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> the appointment will not require the trainee election judge to serve past 10:00 p.m.</p>
+      </div>
+    </div>
+    <div id="rule.8240.1655.5" class="subp repealed">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8240.1655.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <p>[Repealed, 25 SR 112]</p>
+    </div>
+    <div id="rule.8240.1655.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.8240.1655.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Number of trainee election judges allowed per precinct. </h2>
+      <p>No more than one-third of the election judges at a precinct may be trainees.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8240.1655.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.1655.history">
+    <h2>History: </h2>
+    <p>17 SR 8; 25 SR 112; 34 SR 1561; 43 SR 437</p>
+  </div>
+  <div class="published" id="rule.8240.1655.published">
+    <h2>Published Electronically:</h2>
+    <p> October 15, 2018</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.1700">
+    <h1 class="headnote repealed">8240.1700</h1>
+    <p>[Repealed, 25 SR 112]</p>
+  </div>
+  <div class="published" id="rule.8240.1700.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.1750">
+    <h1 class="headnote">8240.1750 HEAD ELECTION JUDGE TRAINING.</h1>
+    <div id="rule.8240.1750.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8240.1750.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Length. </h2>
+      <p>A head election judge training course must be at least one hour long.</p>
+    </div>
+    <div id="rule.8240.1750.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8240.1750.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Course content. </h2>
+      <p>The head election judge training course must include information on the following topics:</p>
+      <div id="rule.8240.1750.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8240.1750.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> head election judges' duties before election day;</p>
+      </div>
+      <div id="rule.8240.1750.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8240.1750.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> head election judges' duties to open the polling place on election day;</p>
+      </div>
+      <div id="rule.8240.1750.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8240.1750.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> how to use the voting equipment;</p>
+      </div>
+      <div id="rule.8240.1750.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8240.1750.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> how to provide emergency election judge training;</p>
+      </div>
+      <div id="rule.8240.1750.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.8240.1750.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> how to use the training materials to find answers to questions arising in the polling place on election day;</p>
+      </div>
+      <div id="rule.8240.1750.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.8240.1750.2.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> how to help election judges work together in the polling place;</p>
+      </div>
+      <div id="rule.8240.1750.2.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.8240.1750.2.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> head election judges' duties at the polling place after the polls close; and</p>
+      </div>
+      <div id="rule.8240.1750.2.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.8240.1750.2.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> how to return election materials to the local election official after the ballots have been counted.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8240.1750.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.1750.history">
+    <h2>History: </h2>
+    <p>25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.1750.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.1800">
+    <h1 class="headnote">8240.1800 COURSE FOR HEALTH CARE FACILITY ABSENTEE VOTING.</h1>
+    <div id="rule.8240.1800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8240.1800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Length. </h2>
+      <p>The health care facility absentee voting course must be at least one hour long.</p>
+    </div>
+    <div id="rule.8240.1800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8240.1800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Course content. </h2>
+      <p>The course content must include information on the following topics:</p>
+      <div id="rule.8240.1800.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8240.1800.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> who is eligible to vote absentee from health care facilities;</p>
+      </div>
+      <div id="rule.8240.1800.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8240.1800.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> application process;</p>
+      </div>
+      <div id="rule.8240.1800.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8240.1800.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> registration process, including methods for providing proof of residence;</p>
+      </div>
+      <div id="rule.8240.1800.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8240.1800.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> assistance to voters;</p>
+      </div>
+      <div id="rule.8240.1800.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.8240.1800.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> voting procedures;</p>
+      </div>
+      <div id="rule.8240.1800.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.8240.1800.2.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> procedures for transporting voted ballots;</p>
+      </div>
+      <div id="rule.8240.1800.2.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.8240.1800.2.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> names and addresses of eligible health care facilities;</p>
+      </div>
+      <div id="rule.8240.1800.2.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.8240.1800.2.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> name of contact person at each facility; and</p>
+      </div>
+      <div id="rule.8240.1800.2.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.8240.1800.2.I">§</a>
+        <h3 class="item_no">I.</h3>
+        <p> particular problems encountered in previous elections.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8240.1800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.1800.history">
+    <h2>History: </h2>
+    <p>25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.1800.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.1900">
+    <h1 class="headnote">8240.1900 EMERGENCY ELECTION JUDGE TRAINING COURSE.</h1>
+    <div id="rule.8240.1900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8240.1900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">At the polls. </h2>
+      <p>The head election judge shall conduct emergency training if needed at the polling place. The training authority shall provide an outline of emergency training procedures and otherwise ensure that the head election judge is prepared to conduct emergency training, if necessary.</p>
+    </div>
+    <div id="rule.8240.1900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8240.1900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Course content. </h2>
+      <p>The head election judge shall review with a replacement judge all procedures and duties that are assigned to the replacement judge.</p>
+    </div>
+    <div id="rule.8240.1900.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8240.1900.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Ongoing instruction. </h2>
+      <p>The head election judge shall provide additional instruction to the replacement judge as necessary throughout election day.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8240.1900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.1900.history">
+    <h2>History: </h2>
+    <p>17 SR 1279; 25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.1900.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.1950">
+    <h1 class="headnote">8240.1950 EMERGENCY HEAD ELECTION JUDGE TRAINING.</h1>
+    <p>The training authority shall conduct emergency head election judge training if needed. The county auditor shall provide each training authority with an outline of emergency training procedures and a checklist of head election judge duties.</p>
+  </div>
+  <div class="stat_auth" id="rule.8240.1950.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.1950.history">
+    <h2>History: </h2>
+    <p>25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.1950.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.2000">
+    <h1 class="headnote">8240.2000 TRAINING MATERIALS.</h1>
+    <p>The secretary of state shall provide the county auditor with Minnesota Election Judge Guides and training materials concerning changes in election laws, rules, forms, and procedures. The county auditor shall transmit these materials to training authorities in the county. The training authority shall provide election judges with copies of the Minnesota Election Judge Guide to use at training sessions, with at least one copy for each head election judge. The municipal clerk or, for school district elections not held on the same day as another election, the school district clerk shall ensure that a Minnesota Election Judge Guide is available at each polling place on election day for use by the election judges.</p>
+  </div>
+  <div class="stat_auth" id="rule.8240.2000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.2000.history">
+    <h2>History: </h2>
+    <p>25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.2000.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.2100">
+    <h1 class="headnote">8240.2100 TRAINING RECORD.</h1>
+    <p>Each municipal clerk, and county auditor in unorganized territory, shall maintain a record of all election judges who receive training. The record must contain the election judge's name; precinct of residence; party affiliation, if any; dates of training; type of course completed on each date; and dates of election judge service. The record must be kept current for each election judge in the county or municipality.</p>
+  </div>
+  <div class="stat_auth" id="rule.8240.2100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.2100.history">
+    <h2>History: </h2>
+    <p>17 SR 1279; 25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.2100.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.2200">
+    <h1 class="headnote">8240.2200 REMOVING ELECTION JUDGE FROM RECORD.</h1>
+    <p>An election judge may be removed from the training record who has not received election judge basic training during the preceding two years.</p>
+  </div>
+  <div class="stat_auth" id="rule.8240.2200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.2200.history">
+    <h2>History: </h2>
+    <p>17 SR 1279; 25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.2200.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.2300">
+    <h1 class="headnote">8240.2300 CERTIFICATION OF TRAINING.</h1>
+    <p>A certification of training issued for completing an election judge training course must include the election judge's name, municipality, date of training, course completed, and the signature of the training authority.</p>
+  </div>
+  <div class="stat_auth" id="rule.8240.2300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.2300.history">
+    <h2>History: </h2>
+    <p>17 SR 1279; 25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.2300.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.2400">
+    <h1 class="headnote">8240.2400 TRAINING PLAN.</h1>
+    <div id="rule.8240.2400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8240.2400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Content. </h2>
+      <p>Each training authority shall prepare a training plan.</p>
+      <p>The training plan must include the names of persons conducting training; number of sessions planned; projected attendance at each session; training materials to be used; training methods employed; and an outline of the content of each election judge training course.</p>
+      <p>Copies of all materials that will be distributed at the training sessions must be included with the training plan.</p>
+    </div>
+    <div id="rule.8240.2400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8240.2400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Inspection. </h2>
+      <p>The training plan must be available for public inspection.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8240.2400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.2400.history">
+    <h2>History: </h2>
+    <p>12 SR 2215; 20 SR 2787; 25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.2400.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.2500">
+    <h1 class="headnote">8240.2500 IN-SERVICE REVIEW.</h1>
+    <p>After each primary election and before each ensuing general, special, or municipal election, the training authority shall confer or correspond with the head election judge of each precinct to review problems or questions encountered at the primary. The training authority shall analyze problems indicated by the election returns, incorrect registrations, election judge comments, or voter complaints and shall answer questions of the head judges.</p>
+  </div>
+  <div class="stat_auth" id="rule.8240.2500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.2500.history">
+    <h2>History: </h2>
+    <p>17 SR 1279; 25 SR 112</p>
+  </div>
+  <div class="published" id="rule.8240.2500.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.2600">
+    <h1 class="headnote repealed">8240.2600</h1>
+    <p>[Repealed, 20 SR 2787]</p>
+  </div>
+  <div class="published" id="rule.8240.2600.published">
+    <h2>Published Electronically:</h2>
+    <p> May 9, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.2700">
+    <h1 class="headnote">8240.2700 MUNICIPAL CLERK TRAINING REQUIREMENT.</h1>
+    <div id="rule.8240.2700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8240.2700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Certification required. </h2>
+      <p>To administer an election, a municipal clerk must successfully complete an initial municipal clerk election administration training course and must remain certified in election administration under this part.</p>
+    </div>
+    <div id="rule.8240.2700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8240.2700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Length of initial training. </h2>
+      <p>An initial municipal clerk election administration training course consists of five hours of training given by a county auditor or the secretary of state. The five hours of training must be completed within one election cycle.</p>
+    </div>
+    <div id="rule.8240.2700.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8240.2700.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Initial certification. </h2>
+      <p>The home county auditor must issue the initial certification of election administration to a municipal clerk who successfully completes the municipal clerk election administration training course. The initial certification of election administration is valid until the end of the election cycle after the election cycle in which the certification was issued.</p>
+    </div>
+    <div id="rule.8240.2700.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8240.2700.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Biennial certification maintenance requirement. </h2>
+      <p> To remain certified in election administration after receiving the initial certification, a municipal clerk must successfully complete four hours of election administration training during each election cycle. The certification maintenance training must be given by a county auditor or the secretary of state and must be completed before the expiration date of the clerk's certification. The clerk must provide the home county auditor with proof that the clerk has completed certification maintenance training before the expiration date of the clerk's certification. At the beginning of each election cycle, the home county auditor shall issue a new certification of election administration to a municipal clerk who has completed the biennial certification maintenance requirement. The new certification of election administration is valid until the end of the election cycle in which the new certification was issued.</p>
+    </div>
+    <div id="rule.8240.2700.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8240.2700.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Training content. </h2>
+      <p>An election administration training course for municipal clerks must include training on:</p>
+      <div id="rule.8240.2700.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8240.2700.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> candidate filings;</p>
+      </div>
+      <div id="rule.8240.2700.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8240.2700.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> campaign practices;</p>
+      </div>
+      <div id="rule.8240.2700.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8240.2700.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> campaign finance requirements;</p>
+      </div>
+      <div id="rule.8240.2700.5.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8240.2700.5.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> the election calendar;</p>
+      </div>
+      <div id="rule.8240.2700.5.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.8240.2700.5.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> ballot preparation;</p>
+      </div>
+      <div id="rule.8240.2700.5.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.8240.2700.5.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> election judge recruitment and duties;</p>
+      </div>
+      <div id="rule.8240.2700.5.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.8240.2700.5.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> notice requirements;</p>
+      </div>
+      <div id="rule.8240.2700.5.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.8240.2700.5.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> voting systems, if used in the municipality;</p>
+      </div>
+      <div id="rule.8240.2700.5.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.8240.2700.5.I">§</a>
+        <h3 class="item_no">I.</h3>
+        <p> mail elections;</p>
+      </div>
+      <div id="rule.8240.2700.5.J" class="item">
+        <a title="Link to item J" class="permalink" href="#rule.8240.2700.5.J">§</a>
+        <h3 class="item_no">J.</h3>
+        <p> absentee voting;</p>
+      </div>
+      <div id="rule.8240.2700.5.K" class="item">
+        <a title="Link to item K" class="permalink" href="#rule.8240.2700.5.K">§</a>
+        <h3 class="item_no">K. </h3>
+        <p>security practices; and</p>
+      </div>
+      <div id="rule.8240.2700.5.L" class="item">
+        <a title="Link to item L" class="permalink" href="#rule.8240.2700.5.L">§</a>
+        <h3 class="item_no">L.</h3>
+        <p> post-election duties.</p>
+      </div>
+    </div>
+    <div id="rule.8240.2700.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.8240.2700.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Alternative training. </h2>
+      <p>Election administration training given by an individual other than a county auditor or the secretary of state may fulfill up to four hours of the initial certification requirement or three hours of the biennial certification maintenance requirement if the training covers topics listed in subpart 5. The municipal clerk must provide the home county auditor with a description of the course to receive credit for the alternative training. The home county auditor must review the course description to determine whether the alternative training covers topics listed in subpart 5.</p>
+    </div>
+    <div id="rule.8240.2700.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.8240.2700.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Credit for election judge training. </h2>
+      <p>Time spent attending the adult education training methods course required by part <a href="/rules/8240.1100">8240.1100</a> must not be counted toward fulfillment of a clerk's initial certification requirement or biennial certification maintenance requirement. Time spent teaching the first session of each type of election judge training or attending any type of election judge training may be counted toward fulfillment of a clerk's initial certification requirement or biennial certification maintenance requirement.</p>
+    </div>
+    <div id="rule.8240.2700.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.8240.2700.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Record. </h2>
+      <p>The home county auditor must keep a record of all municipal clerks who receive election administration training. The record must contain the clerk's name, the clerk's municipality, the name and date of any completed training course, the date certification was completed, the name and date of any completed post-certification courses, and the date the clerk's certification expires. The auditor may remove a clerk's name from the record if the clerk's certification has been expired for at least two years.</p>
+    </div>
+    <div id="rule.8240.2700.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.8240.2700.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Emergency training. </h2>
+      <p>A municipal clerk who has taken office less than six months before an election may administer that election after completing two hours of emergency training given by the home county auditor or secretary of state.</p>
+    </div>
+    <div id="rule.8240.2700.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.8240.2700.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Certification for municipal staff. </h2>
+      <p>Municipal employees designated by the municipal clerk may attend municipal clerk election administration training courses. The home county auditor shall issue a certification of election administration to a municipal designee who successfully completes a municipal clerk election administration training course.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8240.2700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.2700.history">
+    <h2>History: </h2>
+    <p>25 SR 112; 43 SR 437</p>
+  </div>
+  <div class="published" id="rule.8240.2700.published">
+    <h2>Published Electronically:</h2>
+    <p> October 15, 2018</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.2800">
+    <h1 class="headnote">8240.2800 SCHOOL DISTRICT CLERK TRAINING REQUIREMENT.</h1>
+    <div id="rule.8240.2800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8240.2800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Certification required. </h2>
+      <p>To administer an election, a school district clerk must successfully complete an initial school district clerk election administration training course and must remain certified in election administration under this part.</p>
+    </div>
+    <div id="rule.8240.2800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8240.2800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Length of initial training. </h2>
+      <p>An initial school district clerk election administration training course consists of five hours of training given by a county auditor or the secretary of state. The five hours of training must be completed within one election cycle.</p>
+    </div>
+    <div id="rule.8240.2800.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8240.2800.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Initial certification. </h2>
+      <p>The home county auditor must issue the initial certification of election administration to a school district clerk who successfully completes the school district clerk election administration training course. The initial certification of election administration is valid until the end of the election cycle after the cycle in which the certification was issued.</p>
+    </div>
+    <div id="rule.8240.2800.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8240.2800.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Biennial certification maintenance requirement. </h2>
+      <p>To remain certified in election administration after receiving the initial certification, a school district clerk must successfully complete four hours of election administration training during each election cycle. The certification maintenance training must be given by a county auditor or the secretary of state and must be completed before the expiration date of the clerk's certification. The clerk must provide the home county auditor with proof that the clerk has completed certification maintenance training before the expiration date of the clerk's certification. At the beginning of an election cycle, the home county auditor shall issue a new certification of election administration to a school district clerk who has completed the biennial certification maintenance requirement. The new certification of election administration is valid until the end of the election cycle in which the new certification was issued.</p>
+    </div>
+    <div id="rule.8240.2800.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8240.2800.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Training content. </h2>
+      <p>An election administration training course for school district clerks must include training on:</p>
+      <div id="rule.8240.2800.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8240.2800.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> candidate filings;</p>
+      </div>
+      <div id="rule.8240.2800.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8240.2800.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> campaign practices;</p>
+      </div>
+      <div id="rule.8240.2800.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8240.2800.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> campaign finance requirements;</p>
+      </div>
+      <div id="rule.8240.2800.5.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8240.2800.5.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> the election calendar;</p>
+      </div>
+      <div id="rule.8240.2800.5.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.8240.2800.5.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> ballot preparation;</p>
+      </div>
+      <div id="rule.8240.2800.5.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.8240.2800.5.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> election judge duties;</p>
+      </div>
+      <div id="rule.8240.2800.5.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.8240.2800.5.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> notice requirement;</p>
+      </div>
+      <div id="rule.8240.2800.5.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.8240.2800.5.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> voting systems, if used in the school district;</p>
+      </div>
+      <div id="rule.8240.2800.5.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.8240.2800.5.I">§</a>
+        <h3 class="item_no">I.</h3>
+        <p> mail elections;</p>
+      </div>
+      <div id="rule.8240.2800.5.J" class="item">
+        <a title="Link to item J" class="permalink" href="#rule.8240.2800.5.J">§</a>
+        <h3 class="item_no">J.</h3>
+        <p> absentee voting;</p>
+      </div>
+      <div id="rule.8240.2800.5.K" class="item">
+        <a title="Link to item K" class="permalink" href="#rule.8240.2800.5.K">§</a>
+        <h3 class="item_no">K. </h3>
+        <p>security practices; and</p>
+      </div>
+      <div id="rule.8240.2800.5.L" class="item">
+        <a title="Link to item L" class="permalink" href="#rule.8240.2800.5.L">§</a>
+        <h3 class="item_no">L.</h3>
+        <p> post-election duties.</p>
+      </div>
+    </div>
+    <div id="rule.8240.2800.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.8240.2800.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Alternative training. </h2>
+      <p>Election administration training given by an individual other than a county auditor or the secretary of state may fulfill up to four hours of the initial election administration training course or three hours of the biennial certification maintenance requirement if the training covers topics listed in subpart 5. The school district clerk must provide the home county auditor with a description of the course to receive credit for the alternative training. The home county auditor must review the course description to determine whether the alternative training covers topics listed in subpart 5.</p>
+    </div>
+    <div id="rule.8240.2800.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.8240.2800.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Credit for election judge training. </h2>
+      <p>Time spent attending any type of election judge training may be counted toward fulfillment of a clerk's initial certification requirement or biennial certification maintenance requirement.</p>
+    </div>
+    <div id="rule.8240.2800.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.8240.2800.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Record. </h2>
+      <p>The home county auditor must keep a record of all school district clerks who receive election administration training. The record must contain the clerk's name, the clerk's school district, the name and date of any completed training course, the date certification was completed, the name and date of any completed post-certification courses, and the date the clerk's certification expires. The auditor may remove a clerk's name from the record if the clerk's certification has been expired for at least two years.</p>
+    </div>
+    <div id="rule.8240.2800.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.8240.2800.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Emergency training. </h2>
+      <p>A school district clerk who has taken office less than six months before an election may administer that election after completing two hours of emergency training given by the home county auditor or secretary of state.</p>
+    </div>
+    <div id="rule.8240.2800.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.8240.2800.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Certification for school district staff. </h2>
+      <p>School district employees designated by the school district clerk may attend school district clerk election administration training courses. The home county auditor shall issue a certification of election administration to a school district designee who successfully completes a school district clerk election administration training course.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8240.2800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.2800.history">
+    <h2>History: </h2>
+    <p>25 SR 112; 43 SR 437</p>
+  </div>
+  <div class="published" id="rule.8240.2800.published">
+    <h2>Published Electronically:</h2>
+    <p> October 15, 2018</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.2850">
+    <h1 class="headnote repealed">8240.2850</h1>
+    <p>[Repealed, 38 SR 1368]</p>
+  </div>
+  <div class="published" id="rule.8240.2850.published">
+    <h2>Published Electronically:</h2>
+    <p> May 1, 2014</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8240.2900">
+    <h1 class="headnote">8240.2900 COUNTY AUDITOR ELECTION ADMINISTRATION CERTIFICATION.</h1>
+    <div id="rule.8240.2900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8240.2900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Length of initial training. </h2>
+      <p>To be certified in election administration by the secretary of state, a county auditor must successfully complete a county auditor election administration training course. A county auditor election administration training course consists of 15 hours of training given by the secretary of state. The 15 hours of training must be completed within one election cycle.</p>
+    </div>
+    <div id="rule.8240.2900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8240.2900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Initial certification. </h2>
+      <p>The secretary of state must issue the initial certification of election administration to a county auditor who successfully completes the county auditor election administration training course. The initial certification of election administration is valid until December 31 of the calendar year after the election cycle in which the certification was issued.</p>
+    </div>
+    <div id="rule.8240.2900.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8240.2900.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Annual certification maintenance requirement. </h2>
+      <p>To remain certified in election administration after receiving the initial certification, a county auditor must successfully complete two hours of election administration training during each calendar year. The certification maintenance training must be given by the secretary of state and must be completed before the expiration date of the auditor's certification. The auditor must provide the secretary of state with proof that the auditor has completed certification maintenance training before the expiration date of the auditor's certification. The secretary of state shall issue a new certification of election administration to a county auditor who has completed the annual certification maintenance requirement. The new certification of election administration is valid until December 31 of the year in which the new certification was issued.</p>
+    </div>
+    <div id="rule.8240.2900.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8240.2900.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Training content. </h2>
+      <p>An election administration training course for county auditors must include training on:</p>
+      <div id="rule.8240.2900.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8240.2900.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the voter registration system;</p>
+      </div>
+      <div id="rule.8240.2900.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8240.2900.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> candidate filings;</p>
+      </div>
+      <div id="rule.8240.2900.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8240.2900.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> campaign practices;</p>
+      </div>
+      <div id="rule.8240.2900.4.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8240.2900.4.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> campaign finance requirements;</p>
+      </div>
+      <div id="rule.8240.2900.4.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.8240.2900.4.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> the election calendar;</p>
+      </div>
+      <div id="rule.8240.2900.4.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.8240.2900.4.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> ballot preparation;</p>
+      </div>
+      <div id="rule.8240.2900.4.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.8240.2900.4.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> election judge recruitment and duties;</p>
+      </div>
+      <div id="rule.8240.2900.4.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.8240.2900.4.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> mail elections;</p>
+      </div>
+      <div id="rule.8240.2900.4.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.8240.2900.4.I">§</a>
+        <h3 class="item_no">I.</h3>
+        <p> absentee voting;</p>
+      </div>
+      <div id="rule.8240.2900.4.J" class="item">
+        <a title="Link to item J" class="permalink" href="#rule.8240.2900.4.J">§</a>
+        <h3 class="item_no">J.</h3>
+        <p> the election night reporting system;</p>
+      </div>
+      <div id="rule.8240.2900.4.K" class="item">
+        <a title="Link to item K" class="permalink" href="#rule.8240.2900.4.K">§</a>
+        <h3 class="item_no">K. </h3>
+        <p>security practices;</p>
+      </div>
+      <div id="rule.8240.2900.4.L" class="item">
+        <a title="Link to item L" class="permalink" href="#rule.8240.2900.4.L">§</a>
+        <h3 class="item_no">L.</h3>
+        <p> post-election duties; and</p>
+      </div>
+      <div id="rule.8240.2900.4.M" class="item">
+        <a title="Link to item M" class="permalink" href="#rule.8240.2900.4.M">§</a>
+        <h3 class="item_no">M.</h3>
+        <p> the duties performed by municipal and school district clerks.</p>
+      </div>
+    </div>
+    <div id="rule.8240.2900.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8240.2900.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Alternative training. </h2>
+      <p>Election administration training given by an individual other than the secretary of state may fulfill up to 13 hours of the initial certification requirement or one hour of the annual certification maintenance requirement if the training covers topics listed in subpart 4. The county auditor must provide the secretary of state with a description of the course to receive credit for the alternative training. The secretary must review the course description to determine whether the alternative training covers topics listed in subpart 4.</p>
+    </div>
+    <div id="rule.8240.2900.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.8240.2900.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Credit for election judge training. </h2>
+      <p>Time spent attending the adult education training methods course required by part <a href="/rules/8240.1100">8240.1100</a> must not be counted toward fulfillment of an auditor's initial certification requirement or annual certification maintenance requirement. Time spent teaching the first session of each type of election judge training or attending any type of election judge training may be counted toward fulfillment of an auditor's initial certification requirement or annual certification maintenance requirement.</p>
+    </div>
+    <div id="rule.8240.2900.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.8240.2900.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Record. </h2>
+      <p>The secretary of state must keep a record of all county auditors who receive election administration training. The record must contain the auditor's name, the auditor's county, the name and date of any completed training course, the date certification was completed, the name and date of any completed post-certification courses, and the date the auditor's certification expires. The secretary of state may remove an auditor's name from the record if the auditor's certification has been expired for at least two years.</p>
+    </div>
+    <div id="rule.8240.2900.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.8240.2900.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Emergency training. </h2>
+      <p>The secretary of state shall conduct emergency election administration training for a county auditor who has taken office less than two months before an election.</p>
+    </div>
+    <div id="rule.8240.2900.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.8240.2900.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Certification for county election staff. </h2>
+      <p>County employees designated by the county auditor may attend county auditor election administration training courses. The secretary of state shall issue a certification of election administration to a county designee who successfully completes a county auditor election administration training course.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8240.2900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/204B.25">204B.25</a></p>
+  </div>
+  <div class="history" id="rule.8240.2900.history">
+    <h2>History: </h2>
+    <p>25 SR 112; 43 SR 437</p>
+  </div>
+  <div class="published" id="rule.8240.2900.published">
+    <h2>Published Electronically:</h2>
+    <p> October 15, 2018</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
