@@ -1,0 +1,2419 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            6238.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/158">Natural Resources Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/6238/">Chapter 6238</a>
+            </li>
+        
+    
+        
+            <li>Part 6238.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/6238.0200/">6238.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/6238.0100/2014-01-18%2006:41:16+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 6238</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6238/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6238/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6238/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 6238.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6238.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.0100">
+    <h1 class="headnote repealed">6238.0100</h1>
+    <div id="rule.6238.0100.1" class="subp repealed">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6238.0100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0100.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6238.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0100.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6238.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0100.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6238.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0100.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6238.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4a.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0100.5" class="subp repealed">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6238.0100.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0100.6" class="subp repealed">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6238.0100.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <p>[Repealed, 32 SR 724]</p>
+    </div>
+    <div id="rule.6238.0100.6" class="subp repealed">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6238.0100.6">§</a>
+      <h2 class="subp_no">Subp. 6a.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0100.7" class="subp repealed">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6238.0100.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0100.7" class="subp repealed">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6238.0100.7">§</a>
+      <h2 class="subp_no">Subp. 7a.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0100.8" class="subp repealed">
+      <a title="Link to subpart 8" class="permalink" href="#rule.6238.0100.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+  </div>
+  <div class="published" id="rule.6238.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.0200">
+    <h1 class="headnote repealed">6238.0200</h1>
+    <div id="rule.6238.0200.1" class="subp repealed">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6238.0200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0200.1" class="subp repealed">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6238.0200.1">§</a>
+      <h2 class="subp_no">Subp. 1a.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0200.1" class="subp repealed">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6238.0200.1">§</a>
+      <h2 class="subp_no">Subp. 1b.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0200.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6238.0200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0200.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6238.0200.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0200.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6238.0200.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0200.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6238.0200.4">§</a>
+      <h2 class="subp_no">Subp. 4a.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0200.5" class="subp repealed">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6238.0200.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0200.6" class="subp repealed">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6238.0200.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0200.7" class="subp repealed">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6238.0200.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <p>[Repealed, 38 SR 299]</p>
+    </div>
+    <div id="rule.6238.0200.8" class="subp repealed">
+      <a title="Link to subpart 8" class="permalink" href="#rule.6238.0200.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <p>[Repealed, 32 SR 724]</p>
+    </div>
+  </div>
+  <div class="published" id="rule.6238.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.0300">
+    <h1 class="headnote repealed">6238.0300</h1>
+    <p>[Repealed, 38 SR 299]</p>
+  </div>
+  <div class="published" id="rule.6238.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.0400">
+    <h1 class="headnote repealed">6238.0400</h1>
+    <p>[Repealed, 38 SR 299]</p>
+  </div>
+  <div class="published" id="rule.6238.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.0500">
+    <h1 class="headnote repealed">6238.0500</h1>
+    <p>[Repealed, 38 SR 299]</p>
+  </div>
+  <div class="published" id="rule.6238.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.0600">
+    <h1 class="headnote repealed">6238.0600</h1>
+    <p>[Repealed, 38 SR 299]</p>
+  </div>
+  <div class="published" id="rule.6238.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.0700">
+    <h1 class="headnote repealed">6238.0700</h1>
+    <p>[Repealed, 38 SR 299]</p>
+  </div>
+  <div class="published" id="rule.6238.0700.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.0800">
+    <h1 class="headnote repealed">6238.0800</h1>
+    <p>[Repealed, 38 SR 299]</p>
+  </div>
+  <div class="published" id="rule.6238.0800.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.0900">
+    <h1 class="headnote repealed">6238.0900</h1>
+    <p>[Repealed, 38 SR 299]</p>
+  </div>
+  <div class="published" id="rule.6238.0900.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.1000">
+    <h1 class="headnote repealed">6238.1000</h1>
+    <p>[Repealed, 38 SR 299]</p>
+  </div>
+  <div class="published" id="rule.6238.1000.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.1100">
+    <h1 class="headnote repealed">6238.1100</h1>
+    <p>[Repealed, 38 SR 299]</p>
+  </div>
+  <div class="published" id="rule.6238.1100.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.1200">
+    <h1 class="headnote">6238.1200 DEFINITIONS.</h1>
+    <div id="rule.6238.1200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6238.1200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The terms used in this chapter have the meanings given them in this part.</p>
+    </div>
+    <div id="rule.6238.1200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6238.1200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Abatement. </h2>
+      <p>"Abatement" means using raptors to remove animals from undesirable locations through disturbance or capture.</p>
+    </div>
+    <div id="rule.6238.1200.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6238.1200.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Abatement permit. </h2>
+      <p>"Abatement permit" means a permit issued under part <a href="/rules/6238.1250">6238.1250</a>, subpart 6, for residents to conduct abatement activities using raptors.</p>
+    </div>
+    <div id="rule.6238.1200.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6238.1200.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Bred in captivity or captive-bred. </h2>
+      <p>"Bred in captivity" or "captive-bred" means raptors, including eggs, hatched or produced in captivity from parents that mated or otherwise transferred gametes in captivity or were artificially inseminated.</p>
+    </div>
+    <div id="rule.6238.1200.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6238.1200.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Commissioner. </h2>
+      <p>"Commissioner" means the commissioner of natural resources.</p>
+    </div>
+    <div id="rule.6238.1200.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6238.1200.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Eyases. </h2>
+      <p>"Eyases" means young raptors not yet capable of sustained flight.</p>
+    </div>
+    <div id="rule.6238.1200.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6238.1200.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Falconry or practice of falconry. </h2>
+      <p>"Falconry" or "practice of falconry" means training raptors for pursuit of wild game and hunting wild game with raptors. Falconry includes taking raptors from the wild to use in the sport and caring for, training, and transporting raptors held for falconry.</p>
+    </div>
+    <div id="rule.6238.1200.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.6238.1200.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Falconry permit. </h2>
+      <p>"Falconry permit" means a permit issued under part <a href="/rules/6238.1250">6238.1250</a>, subpart 2, for residents and, under part <a href="/rules/6238.1250">6238.1250</a>, subpart 3, for nonresidents who practice falconry in Minnesota for more than 120 days within a given year to take, possess, transport, transfer, use, sell, purchase, or barter raptors or offer to sell, purchase, or barter raptors.</p>
+    </div>
+    <div id="rule.6238.1200.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.6238.1200.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Federal regulations. </h2>
+      <p>"Federal regulations" means Code of Federal Regulations, title 50, sections <a href="/statutes/cite/21.29">21.29</a> and <a href="/statutes/cite/21.30">21.30</a>.</p>
+    </div>
+    <div id="rule.6238.1200.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.6238.1200.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Hacking. </h2>
+      <p>"Hacking" means the temporary release of a falconry raptor or a raptor produced under a propagation permit to the wild so that it must survive on its own.</p>
+    </div>
+    <div id="rule.6238.1200.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.6238.1200.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Hybrid. </h2>
+      <p>"Hybrid" means offspring of birds listed as two or more distinct species or subspecies.</p>
+    </div>
+    <div id="rule.6238.1200.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.6238.1200.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Imprinted raptor. </h2>
+      <p>"Imprinted raptor" means a raptor that is hand-raised from two weeks of age until it has fledged and that has identified itself with humans rather than its own species. An imprinted raptor is considered to be so for its entire lifetime.</p>
+    </div>
+    <div id="rule.6238.1200.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.6238.1200.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Nonresident take permit. </h2>
+      <p>"Nonresident take permit" means a permit issued under part <a href="/rules/6238.1250">6238.1250</a>, subpart 4, for residents of the United States who are not Minnesota residents to take and possess wild Minnesota raptors while in Minnesota and to transport or receive wild Minnesota raptors directly from the state of Minnesota.</p>
+    </div>
+    <div id="rule.6238.1200.14" class="subp">
+      <a title="Link to subpart 14" class="permalink" href="#rule.6238.1200.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <h2 class="headnote">Passage raptor. </h2>
+      <p>"Passage raptor" means a fledged juvenile raptor less than one year old that is capable of flight.</p>
+    </div>
+    <div id="rule.6238.1200.15" class="subp">
+      <a title="Link to subpart 15" class="permalink" href="#rule.6238.1200.15">§</a>
+      <h2 class="subp_no">Subp. 15.</h2>
+      <h2 class="headnote">Propagation permit. </h2>
+      <p>"Propagation permit" means a permit issued under part <a href="/rules/6238.1250">6238.1250</a>, subpart 5, for residents to breed and raise raptors; capture raptors from the wild; and possess, transport, import, purchase, barter, or offer to sell, purchase, or barter any raptor, raptor egg, or raptor semen for propagation purposes.</p>
+    </div>
+    <div id="rule.6238.1200.16" class="subp">
+      <a title="Link to subpart 16" class="permalink" href="#rule.6238.1200.16">§</a>
+      <h2 class="subp_no">Subp. 16.</h2>
+      <h2 class="headnote">Raptor. </h2>
+      <p>"Raptor" means a bird of the family Falconidae, the great horned owl (<i>Bubo virginianus</i>), or a bird of the family Accipitridae, other than the bald eagle (<i>Haliaeetus leucocephalus</i>).</p>
+    </div>
+    <div id="rule.6238.1200.17" class="subp">
+      <a title="Link to subpart 17" class="permalink" href="#rule.6238.1200.17">§</a>
+      <h2 class="subp_no">Subp. 17.</h2>
+      <h2 class="headnote">Raptors not native to Minnesota. </h2>
+      <p>"Raptors not native to Minnesota" means any raptor species that does not naturally spend some portion of its life cycle, including migration, breeding, or wintering, in Minnesota.</p>
+    </div>
+    <div id="rule.6238.1200.18" class="subp">
+      <a title="Link to subpart 18" class="permalink" href="#rule.6238.1200.18">§</a>
+      <h2 class="subp_no">Subp. 18.</h2>
+      <h2 class="headnote">Season. </h2>
+      <p>"Season" in falconry means from May 1 to April 30 of the next year.</p>
+    </div>
+    <div id="rule.6238.1200.19" class="subp">
+      <a title="Link to subpart 19" class="permalink" href="#rule.6238.1200.19">§</a>
+      <h2 class="subp_no">Subp. 19.</h2>
+      <h2 class="headnote">Season of experience. </h2>
+      <p>"Season of experience" means the experience gained by a falconer who has one or more raptors in the falconer's possession for a minimum of six calendar months within a season. Half months are counted from the first day of the month to the 15th day of the month or from the 16th day of the month to the last day of the month. Periods less than half months are not included in the total.</p>
+    </div>
+    <div id="rule.6238.1200.20" class="subp">
+      <a title="Link to subpart 20" class="permalink" href="#rule.6238.1200.20">§</a>
+      <h2 class="subp_no">Subp. 20.</h2>
+      <h2 class="headnote">Take. </h2>
+      <p>"Take" means to trap, capture, or attempt to trap or capture wild raptors, raptor eggs, or raptor semen for falconry or propagation purposes.</p>
+    </div>
+    <div id="rule.6238.1200.21" class="subp">
+      <a title="Link to subpart 21" class="permalink" href="#rule.6238.1200.21">§</a>
+      <h2 class="subp_no">Subp. 21.</h2>
+      <h2 class="headnote">Wild Minnesota raptor. </h2>
+      <p>"Wild Minnesota raptor" means a wild raptor that was removed from the wild within the state of Minnesota.</p>
+    </div>
+    <div id="rule.6238.1200.22" class="subp">
+      <a title="Link to subpart 22" class="permalink" href="#rule.6238.1200.22">§</a>
+      <h2 class="subp_no">Subp. 22.</h2>
+      <h2 class="headnote">Wild raptor. </h2>
+      <p>"Wild raptor" means a raptor or raptor egg removed from the wild for falconry or propagation. A wild raptor remains a wild raptor regardless of how long the bird is held in captivity or whether the bird is transferred to another permittee or permit type; however, the wild raptor is considered to be taken from the wild only by the person who originally captured the raptor. The wild raptor is not considered to be taken from the wild by any subsequent permittee to whom the raptor is legally transferred.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6238.1200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.401">97A.401</a>; <a href="/statutes/cite/97A.418">97A.418</a>; <a href="/statutes/cite/97B.105">97B.105</a></p>
+  </div>
+  <div class="history" id="rule.6238.1200.history">
+    <h2>History: </h2>
+    <p>38 SR 299</p>
+  </div>
+  <div class="published" id="rule.6238.1200.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.1250">
+    <h1 class="headnote">6238.1250 PERMIT REQUIREMENTS.</h1>
+    <div id="rule.6238.1250.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6238.1250.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">State and federal regulations. </h2>
+      <p>All persons conducting activities under subparts 2 to 6 must comply with all applicable provisions of this chapter and federal regulations. Permits issued under this part shall include:</p>
+      <div id="rule.6238.1250.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6238.1250.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>conditions that specify measures to prevent adverse impacts to wild populations;</p>
+      </div>
+      <div id="rule.6238.1250.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6238.1250.1.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>restrictions for compliance with other game and fish laws; and</p>
+      </div>
+      <div id="rule.6238.1250.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6238.1250.1.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>other restrictions for public health and safety and for the welfare of raptors described in this chapter.</p>
+      </div>
+    </div>
+    <div id="rule.6238.1250.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6238.1250.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Resident falconry permit requirements. </h2>
+      <p>All Minnesota residents who practice falconry within the state must obtain a Minnesota falconry permit from the commissioner. A person must not take, possess, transport, transfer, use, sell, purchase, or barter raptors or offer to sell, purchase, or barter raptors or their eggs without a falconry permit issued under this subpart, except as provided under subparts 3 to 5 and Minnesota Statutes, section <a href="/statutes/cite/97A.401">97A.401</a>.</p>
+    </div>
+    <div id="rule.6238.1250.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6238.1250.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Nonresident falconry permit requirements. </h2>
+      <div id="rule.6238.1250.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6238.1250.3.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>This subpart applies to a resident of the United States who is not a Minnesota resident and who has in possession a valid permit or other written documentation that authorizes the person to practice falconry in the state, tribe, or territory of the person's residence.</p>
+      </div>
+      <div id="rule.6238.1250.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6238.1250.3.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>A nonresident described under item A who moves to Minnesota or who practices falconry in Minnesota for 120 days or more within a given year must obtain a Minnesota falconry permit. The nonresident must submit a copy of the permit or documentation that authorizes the person to practice falconry in the state, tribe, or territory of the person's residence and apply for a Minnesota falconry permit under part <a href="/rules/6238.1300">6238.1300</a>, except that the nonresident need only comply with part <a href="/rules/6238.1300">6238.1300</a>, subpart 1, items C and D. If approved, the Minnesota permit shall be for the same or an equivalent permit class listed on the falconry permit of the state, tribe, or territory of the person's residence.</p>
+      </div>
+      <div id="rule.6238.1250.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6238.1250.3.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>A nonresident described under item A may transport, possess, and use raptors for falconry purposes without obtaining a Minnesota falconry permit, provided such activities do not exceed 120 days within a given year.</p>
+      </div>
+      <div id="rule.6238.1250.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6238.1250.3.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>While in this state, nonresidents conducting activities under this subpart must comply with all applicable provisions of this chapter.</p>
+      </div>
+      <div id="rule.6238.1250.3.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6238.1250.3.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>A nonresident described under item A may acquire, transfer, and sell propagated raptors or their eggs or transfer wild raptors that are not wild Minnesota raptors from or to a person with a falconry or propagation permit issued under this part.</p>
+      </div>
+      <div id="rule.6238.1250.3.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.6238.1250.3.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>For all raptors acquired under this subpart, a nonresident must submit the report required under part <a href="/rules/6238.1650">6238.1650</a>, subpart 1, to the commissioner, in addition to any required reporting to the person's state of residence.</p>
+      </div>
+    </div>
+    <div id="rule.6238.1250.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6238.1250.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Nonresident take permit requirements. </h2>
+      <p>A nonresident described in subpart 3, item A, must obtain a nonresident take permit, issued by the commissioner, to take and possess wild Minnesota raptors while in Minnesota and to transport or receive wild Minnesota raptors directly from the state of Minnesota, except that a nonresident described in subpart 3, item B, who has obtained a Minnesota falconry permit does not need a nonresident take permit unless the nonresident is removing a wild Minnesota raptor from the state of Minnesota. Nonresident take permits are valid for up to one year and do not need to be renewed to maintain possession of a wild Minnesota raptor previously transported outside of Minnesota under a valid nonresident take permit. The nonresident take permittee must submit a summary of the activities conducted under the permit to the commissioner by January 31 of the following year. Nonresident take permittees must follow all other applicable provisions under subpart 3.</p>
+    </div>
+    <div id="rule.6238.1250.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6238.1250.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Propagation permit requirements. </h2>
+      <p>A person must obtain a propagation permit, issued by the commissioner, to breed or raise raptors; capture raptors from the wild for propagation purposes; or possess, transport, import, purchase, barter, or offer to sell, purchase, or barter any raptor, raptor egg, or raptor semen for propagation purposes.</p>
+    </div>
+    <div id="rule.6238.1250.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6238.1250.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Abatement permit requirements. </h2>
+      <p>A person must obtain an abatement permit, issued by the commissioner, to use raptors to remove animals from undesirable locations through disturbance or capture or to remove animals under a state or federal depredation permit through disturbance or capture. Other permits or licenses may be required under game and fish laws for the capture or taking of animals. An abatement permit may contain specifications on raptors authorized for use in abatement activities; qualifications, requirements, and restrictions for subpermittees; requirements on raptor transfers between abatement permittees and their subpermittees; and other requirements necessary to administer abatement permits, the raptors used for abatement, and abatement jobs performed. Minnesota falconers do not need an abatement permit to disturb or capture game species during the game season, provided no payment is received for the activity and they have the appropriate game permit, license, or stamp for the game to be taken or disturbed.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6238.1250.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.401">97A.401</a>; <a href="/statutes/cite/97A.418">97A.418</a>; <a href="/statutes/cite/97B.105">97B.105</a></p>
+  </div>
+  <div class="history" id="rule.6238.1250.history">
+    <h2>History: </h2>
+    <p>38 SR 299</p>
+  </div>
+  <div class="published" id="rule.6238.1250.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.1300">
+    <h1 class="headnote">6238.1300 PERMIT QUALIFICATIONS.</h1>
+    <div id="rule.6238.1300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6238.1300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Permit application. </h2>
+      <p>A form, provided by the commissioner, must be submitted to obtain the following permits and renewal of the following permits: falconry, nonresident take, propagation, abatement, and eagle. The commissioner shall specify the information or supporting documentation required on the application, including information or documentation required by federal regulations. In addition to other requested documentation, the documentation under items A to D must be submitted for falconry permits and the documentation under items C and D must be submitted for propagation and abatement permits:</p>
+      <div id="rule.6238.1300.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6238.1300.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>documentation of a passing score of at least 80 percent on a supervised examination provided by the commissioner. A person who fails to score at least 80 percent on the examination must wait a minimum of two weeks before retaking the examination;</p>
+      </div>
+      <div id="rule.6238.1300.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6238.1300.1.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>a sponsorship acceptance letter from a sponsor for an individual who is applying for a falconry permit at the junior apprentice or apprentice level, who is a new resident of the United States, or who has had a falconry permit revoked and is eligible for reinstatement;</p>
+      </div>
+      <div id="rule.6238.1300.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6238.1300.1.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>documentation of inspection and approval of the applicant's raptor equipment and housing facilities, including indoor mews and outdoor weathering area, by an agent of the commissioner to ensure compliance with standards under federal regulations. This item also applies to permit renewal and upgrade. Other documentation, such as photographs and schematics, must be submitted when multiple raptors will be housed in the permittee's facilities; and</p>
+      </div>
+      <div id="rule.6238.1300.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6238.1300.1.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>a form provided by the commissioner and signed by the applicant stating that the falconer or propagator has read and understands all applicable state and federal regulations; will maintain the facilities and equipment according to federal regulations for the duration of the permit; and will allow inspection of the facilities, equipment, raptors, and supporting documentation according to federal regulations.</p>
+      </div>
+    </div>
+    <div id="rule.6238.1300.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6238.1300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Propagation permits. </h2>
+      <p>To obtain a propagation permit, in addition to the requirements in subpart 1, a person must:</p>
+      <div id="rule.6238.1300.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6238.1300.2.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>be the holder of a valid master falconry permit in good standing under part <a href="/rules/6238.1350">6238.1350</a>, item D; or</p>
+      </div>
+      <div id="rule.6238.1300.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6238.1300.2.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>demonstrate through written or other documentation at least two years' experience propagating raptors and:</p>
+        <div id="rule.6238.1300.2.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.6238.1300.2.B.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>have a valid general falconry permit in good standing under part <a href="/rules/6238.1350">6238.1350</a>, item C, with 24 months' experience with a raptor at the general level; or</p>
+        </div>
+        <div id="rule.6238.1300.2.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.6238.1300.2.B.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>be conducting research on raptors for an educational or governmental institution and submit a research proposal.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.6238.1300.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6238.1300.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Eagle permits. </h2>
+      <p>A master falconer in good standing may apply to possess up to three eagles, which count as part of the falconer's raptor possession limit. To obtain an eagle permit, falconers must submit the supporting documentation required by federal regulations. Falconers may not possess bald eagles under a permit issued under this subpart.</p>
+    </div>
+    <div id="rule.6238.1300.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6238.1300.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Abatement permits. </h2>
+      <p>To obtain an abatement permit, a person must be the holder of a valid master falconry permit in good standing under part <a href="/rules/6238.1350">6238.1350</a>, item D, in addition to the requirements in subpart 1. Holders of a valid master falconry permit in good standing under part <a href="/rules/6238.1350">6238.1350</a>, item D, or a valid general falconry permit in good standing under part <a href="/rules/6238.1350">6238.1350</a>, item C, may conduct abatement activities as subpermittees of a holder of an abatement permit.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6238.1300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.401">97A.401</a>; <a href="/statutes/cite/97A.418">97A.418</a></p>
+  </div>
+  <div class="history" id="rule.6238.1300.history">
+    <h2>History: </h2>
+    <p>38 SR 299</p>
+  </div>
+  <div class="published" id="rule.6238.1300.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.1350">
+    <h1 class="headnote">6238.1350 PERMIT CLASSES; REQUIREMENTS.</h1>
+    <p>Specifications for permit classes are contained in items A to F. Permittees under all permit classes are only allowed to take or possess raptors defined under part <a href="/rules/6238.1200">6238.1200</a>, subpart 16, unless further restricted in this part and in federal regulations.</p>
+    <div id="rule.6238.1350.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.6238.1350.A">§</a>
+      <h3 class="item_no">A. </h3>
+      <p>A junior apprentice falconry permittee:</p>
+      <div id="rule.6238.1350.A.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.6238.1350.A.1">§</a>
+        <h4 class="subitem_no">(1) </h4>
+        <p>must be at least 12 years old and less than 16 years old;</p>
+      </div>
+      <div id="rule.6238.1350.A.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.6238.1350.A.2">§</a>
+        <h4 class="subitem_no">(2) </h4>
+        <p>must have a parent or legal guardian sign the application. The parent or guardian must agree to take legal responsibility for the activities of the permittee;</p>
+      </div>
+      <div id="rule.6238.1350.A.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.6238.1350.A.3">§</a>
+        <h4 class="subitem_no">(3) </h4>
+        <p>must have a sponsor who is the holder of a valid master falconry permit or who is the holder of a valid general falconry permit and has two seasons of experience or 24 total months of experience with the sponsor's own raptors at the general level. A sponsor must not have more than three apprentices at any one time. A permittee must notify the commissioner within ten days if there is a change in sponsorship;</p>
+      </div>
+      <div id="rule.6238.1350.A.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.6238.1350.A.4">§</a>
+        <h4 class="subitem_no">(4) </h4>
+        <p>must not possess more than one raptor and must not obtain more than two wild raptors for replacement during any season;</p>
+      </div>
+      <div id="rule.6238.1350.A.5" class="subitem">
+        <a title="Link to subitem 5" class="permalink" href="#rule.6238.1350.A.5">§</a>
+        <h4 class="subitem_no">(5) </h4>
+        <p>must house the raptor at the legal residence of an adult, preferably a parent or legal guardian, who is in possession of a valid falconry permit or at the permitted location of the adult's raptors. If the adult falconry permittee is an apprentice, only one raptor is allowed under either the junior apprentice falconry permit or the adult's permit unless the raptor is housed with the sponsor;</p>
+      </div>
+      <div id="rule.6238.1350.A.6" class="subitem">
+        <a title="Link to subitem 6" class="permalink" href="#rule.6238.1350.A.6">§</a>
+        <h4 class="subitem_no">(6) </h4>
+        <p>may take and possess only red-tailed hawk (<i>Buteo jamaicensis</i>); and</p>
+      </div>
+      <div id="rule.6238.1350.A.7" class="subitem">
+        <a title="Link to subitem 7" class="permalink" href="#rule.6238.1350.A.7">§</a>
+        <h4 class="subitem_no">(7) </h4>
+        <p>must not possess an imprinted raptor or a raptor that was taken from the wild as a nestling.</p>
+      </div>
+    </div>
+    <div id="rule.6238.1350.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.6238.1350.B">§</a>
+      <h3 class="item_no">B. </h3>
+      <p>An apprentice falconry permittee:</p>
+      <div id="rule.6238.1350.B.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.6238.1350.B.1">§</a>
+        <h4 class="subitem_no">(1) </h4>
+        <p>must be at least 16 years old;</p>
+      </div>
+      <div id="rule.6238.1350.B.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.6238.1350.B.2">§</a>
+        <h4 class="subitem_no">(2) </h4>
+        <p>must have a parent or legal guardian sign the application if the permittee is under 18 years old, in which case the parent or guardian must agree to take legal responsibility for the activities of the permittee;</p>
+      </div>
+      <div id="rule.6238.1350.B.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.6238.1350.B.3">§</a>
+        <h4 class="subitem_no">(3) </h4>
+        <p>must have a sponsor, regardless of the age of the permittee. A permittee must notify the commissioner within ten days if there is a change in sponsorship. A sponsor must be the holder of a valid master falconry permit or the holder of a valid general falconry permit who has two seasons of experience or 24 total months of experience with the sponsor's own raptors at the general level. A sponsor may have no more than three apprentices at any one time. All new residents of the United States age 16 or older must be initially permitted at the apprentice level. After a minimum of four months of practicing falconry with their own raptors, new residents of the United States with falconry records from their country of origin and their sponsor's approval may apply for a general or master falconry permit;</p>
+      </div>
+      <div id="rule.6238.1350.B.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.6238.1350.B.4">§</a>
+        <h4 class="subitem_no">(4) </h4>
+        <p>must not possess more than one raptor and must not obtain more than two wild raptors for replacement during any season;</p>
+      </div>
+      <div id="rule.6238.1350.B.5" class="subitem">
+        <a title="Link to subitem 5" class="permalink" href="#rule.6238.1350.B.5">§</a>
+        <h4 class="subitem_no">(5) </h4>
+        <p>may take and possess only passage red-tailed hawk (<i>Buteo jamaicensis</i>), except that, with approval from the permittee's sponsor, an apprentice permittee with a minimum of two seasons of experience may take and possess any raptor allowed for an apprentice class falconer under federal regulations and under part <a href="/rules/6238.1200">6238.1200</a>, subpart 16; and</p>
+      </div>
+      <div id="rule.6238.1350.B.6" class="subitem">
+        <a title="Link to subitem 6" class="permalink" href="#rule.6238.1350.B.6">§</a>
+        <h4 class="subitem_no">(6) </h4>
+        <p>must not possess an imprinted raptor or a raptor that was taken from the wild as a nestling.</p>
+      </div>
+    </div>
+    <div id="rule.6238.1350.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.6238.1350.C">§</a>
+      <h3 class="item_no">C. </h3>
+      <p>A general falconry permittee:</p>
+      <div id="rule.6238.1350.C.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.6238.1350.C.1">§</a>
+        <h4 class="subitem_no">(1) </h4>
+        <p>must be at least 18 years old;</p>
+      </div>
+      <div id="rule.6238.1350.C.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.6238.1350.C.2">§</a>
+        <h4 class="subitem_no">(2) </h4>
+        <p>must submit documentation from the permittee's junior apprentice or apprentice sponsor stating that the permittee has practiced falconry under the sponsor's supervision as a junior apprentice or apprentice falconer for at least two seasons of experience with the permittee's own raptors and the permittee's training included capturing, maintaining, training, flying, hunting, and releasing raptors;</p>
+      </div>
+      <div id="rule.6238.1350.C.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.6238.1350.C.3">§</a>
+        <h4 class="subitem_no">(3) </h4>
+        <p>must not possess more than two raptors and must not obtain more than two wild raptors for replacement during any season;</p>
+      </div>
+      <div id="rule.6238.1350.C.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.6238.1350.C.4">§</a>
+        <h4 class="subitem_no">(4) </h4>
+        <p>may take and possess any raptor, except the permittee must not possess, take, or transport a bald eagle, white-tailed eagle (<i>Haliaeetus albicilla</i>), Steller's sea-eagle (<i>Haliaeetus pelagicus</i>), or golden eagle (<i>Aquila chrysaetos</i>) or any species listed as threatened or endangered under state or federal regulations; and</p>
+      </div>
+      <div id="rule.6238.1350.C.5" class="subitem">
+        <a title="Link to subitem 5" class="permalink" href="#rule.6238.1350.C.5">§</a>
+        <h4 class="subitem_no">(5) </h4>
+        <p>may possess captive-bred raptors and hybrids.</p>
+      </div>
+    </div>
+    <div id="rule.6238.1350.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.6238.1350.D">§</a>
+      <h3 class="item_no">D. </h3>
+      <p>A master falconry permittee:</p>
+      <div id="rule.6238.1350.D.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.6238.1350.D.1">§</a>
+        <h4 class="subitem_no">(1) </h4>
+        <p>must have at least five seasons of experience with the permittee's own raptors as a general falconer;</p>
+      </div>
+      <div id="rule.6238.1350.D.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.6238.1350.D.2">§</a>
+        <h4 class="subitem_no">(2) </h4>
+        <p>must not possess more than five raptors except as authorized under an abatement permit under part <a href="/rules/6238.1250">6238.1250</a>, subpart 6;</p>
+      </div>
+      <div id="rule.6238.1350.D.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.6238.1350.D.3">§</a>
+        <h4 class="subitem_no">(3) </h4>
+        <p>must not possess more than three wild raptors at any time;</p>
+      </div>
+      <div id="rule.6238.1350.D.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.6238.1350.D.4">§</a>
+        <h4 class="subitem_no">(4) </h4>
+        <p>must not obtain more than two wild raptors during any season;</p>
+      </div>
+      <div id="rule.6238.1350.D.5" class="subitem">
+        <a title="Link to subitem 5" class="permalink" href="#rule.6238.1350.D.5">§</a>
+        <h4 class="subitem_no">(5) </h4>
+        <p>must not take any species listed as endangered in state or federal regulations, but may transport or possess endangered species according to applicable rules;</p>
+      </div>
+      <div id="rule.6238.1350.D.6" class="subitem">
+        <a title="Link to subitem 6" class="permalink" href="#rule.6238.1350.D.6">§</a>
+        <h4 class="subitem_no">(6) </h4>
+        <p>must not take, transport, or possess a golden eagle, white-tailed eagle, or Steller's sea-eagle for falconry purposes, unless authorized in writing according to appropriate federal regulations and approved by the commissioner; and</p>
+      </div>
+      <div id="rule.6238.1350.D.7" class="subitem">
+        <a title="Link to subitem 7" class="permalink" href="#rule.6238.1350.D.7">§</a>
+        <h4 class="subitem_no">(7) </h4>
+        <p>must not take in any 12-month period, as a part of the three wild raptor limitation, more than one raptor listed as threatened in state or federal regulations, and then only according to applicable state and federal regulations.</p>
+      </div>
+    </div>
+    <div id="rule.6238.1350.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.6238.1350.E">§</a>
+      <h3 class="item_no">E. </h3>
+      <p>A propagation permittee:</p>
+      <div id="rule.6238.1350.E.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.6238.1350.E.1">§</a>
+        <h4 class="subitem_no">(1) </h4>
+        <p>must meet the minimum qualifications under part <a href="/rules/6238.1300">6238.1300</a>, subpart 2, and must comply with all applicable provisions in this chapter and associated federal regulations;</p>
+      </div>
+      <div id="rule.6238.1350.E.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.6238.1350.E.2">§</a>
+        <h4 class="subitem_no">(2) </h4>
+        <p>must not possess more than six raptors under the propagation permit as a standard propagator unless:</p>
+        <div id="rule.6238.1350.E.2.a" class="unit">
+          <a title="Link to unit a" class="permalink" href="#rule.6238.1350.E.2.a">§</a>
+          <h5 class="unit_no">(a) </h5>
+          <p>the propagation is conducted for a specialized purpose such as education, business, reintroduction, research, abatement, or another similar activity authorized by the commissioner; and</p>
+        </div>
+        <div id="rule.6238.1350.E.2.b" class="unit">
+          <a title="Link to unit b" class="permalink" href="#rule.6238.1350.E.2.b">§</a>
+          <h5 class="unit_no">(b) </h5>
+          <p>the propagator has submitted a proposal or business plan that outlines the number and type of raptors to be propagated, facility schematics, number of assistants that are necessary to care for the raptors, documentation necessary to determine compliance with state law pertaining to the operation of large animal facilities, and other information the commissioner deems necessary for public health and safety and for the welfare of the raptors;</p>
+        </div>
+      </div>
+      <div id="rule.6238.1350.E.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.6238.1350.E.3">§</a>
+        <h4 class="subitem_no">(3) </h4>
+        <p>must transfer propagated young to another permit type or permittee within one year of hatch unless the propagated young will be included under the six raptor limit for standard propagators or included under the limit specified in the permit of a specialized propagation program issued under subitem (2), units (a) and (b). If the propagated raptors are to be released to the wild, the propagator must comply with part <a href="/rules/6238.1500 ">6238.1500 </a>and federal regulations;</p>
+      </div>
+      <div id="rule.6238.1350.E.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.6238.1350.E.4">§</a>
+        <h4 class="subitem_no">(4) </h4>
+        <p>must have adequate raptor propagation facilities maintained according to federal regulations for the number and species of raptors to be held under the permit;</p>
+      </div>
+      <div id="rule.6238.1350.E.5" class="subitem">
+        <a title="Link to subitem 5" class="permalink" href="#rule.6238.1350.E.5">§</a>
+        <h4 class="subitem_no">(5) </h4>
+        <p>must not take more than two passage raptors from the wild per year under the permit, which also counts against the take limit under a general or a master falconry permit held by the propagation permittee;</p>
+      </div>
+      <div id="rule.6238.1350.E.6" class="subitem">
+        <a title="Link to subitem 6" class="permalink" href="#rule.6238.1350.E.6">§</a>
+        <h4 class="subitem_no">(6) </h4>
+        <p>must not possess more than six wild raptors total, including the number of wild raptors possessed under a general or master falconry permit held by the propagation permittee; and</p>
+      </div>
+      <div id="rule.6238.1350.E.7" class="subitem">
+        <a title="Link to subitem 7" class="permalink" href="#rule.6238.1350.E.7">§</a>
+        <h4 class="subitem_no">(7) </h4>
+        <p>must submit a completed propagation form provided by the commissioner by January 31 of each year for January 1 through December 31 of the preceding year.</p>
+      </div>
+    </div>
+    <div id="rule.6238.1350.F" class="item">
+      <a title="Link to item F" class="permalink" href="#rule.6238.1350.F">§</a>
+      <h3 class="item_no">F. </h3>
+      <p>An abatement permittee:</p>
+      <div id="rule.6238.1350.F.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.6238.1350.F.1">§</a>
+        <h4 class="subitem_no">(1) </h4>
+        <p>must meet the minimum qualifications under part <a href="/rules/6238.1300">6238.1300</a>, subpart 4, and must comply with all applicable provisions in this chapter, associated federal regulations under Code of Federal Regulations, title 50, section <a href="/statutes/cite/21.29">21.29</a>, and federal abatement regulations and requirements;</p>
+      </div>
+      <div id="rule.6238.1350.F.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.6238.1350.F.2">§</a>
+        <h4 class="subitem_no">(2) </h4>
+        <p>may have subpermittees under the permittee's abatement permit. A subpermittee must be a Minnesota falconer with a valid general or master falconry permit;</p>
+      </div>
+      <div id="rule.6238.1350.F.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.6238.1350.F.3">§</a>
+        <h4 class="subitem_no">(3) </h4>
+        <p>is responsible for the conduct of subpermittees on the permit while the subpermittees conduct abatement activities;</p>
+      </div>
+      <div id="rule.6238.1350.F.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.6238.1350.F.4">§</a>
+        <h4 class="subitem_no">(4) </h4>
+        <p>must not use wild raptors in abatement activities;</p>
+      </div>
+      <div id="rule.6238.1350.F.5" class="subitem">
+        <a title="Link to subitem 5" class="permalink" href="#rule.6238.1350.F.5">§</a>
+        <h4 class="subitem_no">(5) </h4>
+        <p>must not use golden eagles in abatement activities;</p>
+      </div>
+      <div id="rule.6238.1350.F.6" class="subitem">
+        <a title="Link to subitem 6" class="permalink" href="#rule.6238.1350.F.6">§</a>
+        <h4 class="subitem_no">(6) </h4>
+        <p>must carry a copy of the abatement permit while conducting abatement activities. A subpermittee must carry a copy of the abatement permit that the subpermittee is working under while conducting abatement activities;</p>
+      </div>
+      <div id="rule.6238.1350.F.7" class="subitem">
+        <a title="Link to subitem 7" class="permalink" href="#rule.6238.1350.F.7">§</a>
+        <h4 class="subitem_no">(7) </h4>
+        <p>may possess additional propagated raptors under a falconry permit for abatement use, provided the permittee submits a proposal or business plan that outlines the number and type of raptors, facility schematics, number of assistants that are necessary to care for the raptors, documentation necessary to determine compliance with state law pertaining to the operation of large animal facilities, and other information the commissioner deems necessary for public health and safety and for the welfare of the raptors; and</p>
+      </div>
+      <div id="rule.6238.1350.F.8" class="subitem">
+        <a title="Link to subitem 8" class="permalink" href="#rule.6238.1350.F.8">§</a>
+        <h4 class="subitem_no">(8) </h4>
+        <p>must submit a completed abatement form provided by the commissioner by January 31 of each year for January 1 to December 31 of the preceding year.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6238.1350.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.401">97A.401</a>; <a href="/statutes/cite/97A.418">97A.418</a>; <a href="/statutes/cite/97B.105">97B.105</a></p>
+  </div>
+  <div class="history" id="rule.6238.1350.history">
+    <h2>History: </h2>
+    <p>38 SR 299</p>
+  </div>
+  <div class="published" id="rule.6238.1350.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.1400">
+    <h1 class="headnote">6238.1400 RESTRICTIONS ON TAKING RAPTORS.</h1>
+    <div id="rule.6238.1400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6238.1400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Raptors taken in Minnesota. </h2>
+      <div id="rule.6238.1400.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6238.1400.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>A permittee taking raptors from the wild in this state must comply with this part and applicable federal regulations.</p>
+      </div>
+      <div id="rule.6238.1400.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6238.1400.1.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>The commissioner may include conditions in a permit to prevent depletion of wild raptor populations. These conditions include:</p>
+        <div id="rule.6238.1400.1.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.6238.1400.1.B.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>limits on the number of raptors that may be taken;</p>
+        </div>
+        <div id="rule.6238.1400.1.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.6238.1400.1.B.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>restrictions on species of raptors that may be taken;</p>
+        </div>
+        <div id="rule.6238.1400.1.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.6238.1400.1.B.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>limits on the geographical area where raptors may be taken;</p>
+        </div>
+        <div id="rule.6238.1400.1.B.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.6238.1400.1.B.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>restrictions on when raptors may be taken; and</p>
+        </div>
+        <div id="rule.6238.1400.1.B.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.6238.1400.1.B.5">§</a>
+          <h4 class="subitem_no">(5) </h4>
+          <p>other similar conditions that the commissioner deems necessary to prevent depletion of wild raptor populations.</p>
+        </div>
+      </div>
+      <div id="rule.6238.1400.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6238.1400.1.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>A trap used to capture raptors must be attended at all times, except a trap that entirely encapsulates the raptor within a protective cage must be checked at least once every 24 hours.</p>
+      </div>
+      <div id="rule.6238.1400.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6238.1400.1.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>If a raptor is injured while a permittee is attempting to take the raptor, the permittee must report the injury to the commissioner, whether the raptor is kept or given directly to a veterinarian, a permitted wildlife rehabilitator, or an appropriate wildlife agency employee as provided under federal regulations.</p>
+      </div>
+      <div id="rule.6238.1400.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6238.1400.1.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>Permits under this chapter do not authorize trespass. A permittee must not take raptors within state parks, state scientific and natural areas, state wildlife management areas, or state game refuges unless specifically authorized in a permit from the commissioner. A permittee must not take raptors from private property without permission from the property owner.</p>
+      </div>
+      <div id="rule.6238.1400.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.6238.1400.1.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>Taking a raptor from the wild, as well as any subsequent transfer of the wild raptor, must be reported according to federal regulations, with the reporting form submitted to the commissioner according to part <a href="/rules/6238.1650">6238.1650</a>, subpart 1, within ten days of the taking or transfer.</p>
+      </div>
+      <div id="rule.6238.1400.1.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.6238.1400.1.G">§</a>
+        <h3 class="item_no">G. </h3>
+        <p>Wild raptors must not be purchased, sold, traded, or bartered, but may only be transferred or released. As provided under federal regulations, a raptor may be transferred to another permit type if the recipient of the raptor, which could be the possessor, has the necessary permit for the other activity. Both the transferor and transferee must report the transfer to the commissioner within ten days by submitting a reporting form under part <a href="/rules/6238.1650">6238.1650</a>, subpart 1, and each must also submit any documentation required under federal regulations, such as veterinarian or rehabilitator certification, at that time.</p>
+      </div>
+    </div>
+    <div id="rule.6238.1400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6238.1400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Raptor take time periods. </h2>
+      <div id="rule.6238.1400.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6238.1400.2.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Eyases may be taken from the wild from May 27 through July 31 only. A person must be a general or master falconer or have the equivalent classification in the person's state, tribe, or territory of residence to take eyases from the wild. A permittee must not take more than two eyases during a calendar year. At least one eyas must be left in a nest from which other eyases are taken.</p>
+      </div>
+      <div id="rule.6238.1400.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6238.1400.2.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>Passage raptors may be taken from the wild from August 21 through February 28 only.</p>
+      </div>
+      <div id="rule.6238.1400.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6238.1400.2.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>A permittee under this chapter must not take raptors over one year old from the wild, except for:</p>
+        <div id="rule.6238.1400.2.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.6238.1400.2.C.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>American kestrels and great horned owls; and</p>
+        </div>
+        <div id="rule.6238.1400.2.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.6238.1400.2.C.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>any raptor, other than state or federally listed endangered or threatened species, taken under a depredation or special purpose permit under Minnesota Statutes, section <a href="/statutes/cite/97A.401">97A.401</a>, and used for falconry by general or master falconers.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6238.1400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.401">97A.401</a>; <a href="/statutes/cite/97A.418">97A.418</a></p>
+  </div>
+  <div class="history" id="rule.6238.1400.history">
+    <h2>History: </h2>
+    <p>38 SR 299</p>
+  </div>
+  <div class="published" id="rule.6238.1400.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.1450">
+    <h1 class="headnote">6238.1450 RESTRICTIONS ON IMPORTING RAPTORS INTO MINNESOTA.</h1>
+    <div id="rule.6238.1450.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6238.1450.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Importing hybrid raptors and raptors not native to Minnesota. </h2>
+      <p>A permittee who plans to obtain a hybrid raptor or raptor not native to Minnesota from outside the state must notify the commissioner ten days before importing the raptor and must submit a reporting form under part <a href="/rules/6238.1650">6238.1650</a>, subpart 1, to the commissioner within ten days of obtaining the raptor. A permittee must obtain the required Board of Animal Health certification from a veterinarian and submit a copy to the commissioner before importation.</p>
+    </div>
+    <div id="rule.6238.1450.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6238.1450.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Importing raptors native to Minnesota. </h2>
+      <p>A permittee who obtains a raptor that is native to Minnesota while outside the state must submit a reporting form under part <a href="/rules/6238.1650">6238.1650</a>, subpart 1, to the commissioner within ten days of obtaining the raptor. A permittee must obtain the required Board of Animal Health certification from a veterinarian and submit a copy to the commissioner before importation.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6238.1450.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.401">97A.401</a>; <a href="/statutes/cite/97A.418">97A.418</a></p>
+  </div>
+  <div class="history" id="rule.6238.1450.history">
+    <h2>History: </h2>
+    <p>38 SR 299</p>
+  </div>
+  <div class="published" id="rule.6238.1450.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.1500">
+    <h1 class="headnote">6238.1500 FLYING AND INTENTIONAL RELEASE OF RAPTORS.</h1>
+    <div id="rule.6238.1500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6238.1500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Flying raptors. </h2>
+      <p>Permits under this chapter do not authorize trespass. All applicable state and federal trespass regulations must be followed. Further restrictions on the practice of hunting by falconry are provided under part <a href="/rules/6234.0800">6234.0800</a> and in federal regulations. All applicable state and federal game and fish laws, licenses, permits, and stamps apply for taking game.</p>
+    </div>
+    <div id="rule.6238.1500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6238.1500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Flying hybrid raptors or raptors not native to Minnesota. </h2>
+      <p>When flown free, a hybrid raptor or a raptor that is not native to Minnesota must have at least two functioning radio transmitters attached to assist in locating the raptor. A raptor listed as an unregulated species under part <a href="/rules/6216.0270">6216.0270</a> is exempt from this subpart. A raptor designated as appropriate for introduction according to the process under part <a href="/rules/6216.0290">6216.0290</a> for the review of proposed introductions of unlisted nonnative species is exempt from this subpart.</p>
+    </div>
+    <div id="rule.6238.1500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6238.1500.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Intentional release of raptors. </h2>
+      <p>A person must not permanently release a hybrid raptor into the wild. A person must not permanently release a raptor that is not native to Minnesota into the wild. A person releasing a raptor into the wild:</p>
+      <div id="rule.6238.1500.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6238.1500.3.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>must obtain permission from the commissioner to release a captive-bred raptor species that is native to Minnesota;</p>
+      </div>
+      <div id="rule.6238.1500.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6238.1500.3.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>may hack the raptor and allow it to adjust to the wild, at an appropriate time of year and an appropriate location, according to federal regulations;</p>
+      </div>
+      <div id="rule.6238.1500.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6238.1500.3.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>must make a reasonable determination that a raptor held in captivity for an extended period of time can capture and consume native prey prior to release into the wild;</p>
+      </div>
+      <div id="rule.6238.1500.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6238.1500.3.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>must release the raptor only at an appropriate time of year and an appropriate location for the species to be released;</p>
+      </div>
+      <div id="rule.6238.1500.3.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6238.1500.3.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>must remove falconry bands before release and surrender the bands to the commissioner, but propagation bands must be left in place; and</p>
+      </div>
+      <div id="rule.6238.1500.3.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.6238.1500.3.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>must report release of the raptor within ten days as provided under part <a href="/rules/6238.1650">6238.1650</a>, subpart 1.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6238.1500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.401">97A.401</a>; <a href="/statutes/cite/97B.105">97B.105</a></p>
+  </div>
+  <div class="history" id="rule.6238.1500.history">
+    <h2>History: </h2>
+    <p>38 SR 299</p>
+  </div>
+  <div class="published" id="rule.6238.1500.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.1550">
+    <h1 class="headnote">6238.1550 TRANSPORTING, RELOCATING, AND HOLDING RAPTORS.</h1>
+    <div id="rule.6238.1550.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6238.1550.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">State and federal regulations. </h2>
+      <p>This part and applicable federal regulations apply when transporting, relocating, housing, and temporarily holding raptors in the state.</p>
+    </div>
+    <div id="rule.6238.1550.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6238.1550.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Carrying permit when trapping, transporting, working with, or flying raptor. </h2>
+      <p>A person trapping, transporting, working with, or flying raptors must have the person's permits, or legible copies of the permits, in the person's immediate possession when not at the location of the person's permitted raptor facilities.</p>
+    </div>
+    <div id="rule.6238.1550.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6238.1550.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Permanent change of address. </h2>
+      <p>A person with a falconry or propagation permit must report a permanent change in the location of permitted facilities to the commissioner within five days following the move. Until new facilities are inspected, the permittee must house raptors as described under subpart 7. Persons moving out of state must comply with required notifications under federal regulations.</p>
+    </div>
+    <div id="rule.6238.1550.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6238.1550.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Multiple facilities; part-year residents. </h2>
+      <p>If a permittee houses permitted raptors in a location other than the permittee's primary facilities for more than 120 consecutive days, the facilities at the other location must comply with federal regulations and be listed on the permit. A permittee who resides part of the year in another jurisdiction may be required to obtain a permit in the state, tribe, or territory where the permittee lives part time.</p>
+    </div>
+    <div id="rule.6238.1550.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6238.1550.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Location of facilities. </h2>
+      <p>Falconry facilities may be on property not owned by the permittee if the permittee's primary residence is also located at that property. The falconry facilities may be on property owned by the permittee that is not the permittee's primary residence if the facilities are 30 miles or less from the permittee's primary residence or if the facilities are over 30 miles from the permittee's primary residence and used for 120 days or less annually. Regardless of location, the raptors must be maintained in a humane and healthy manner, and the facilities must comply with federal regulations.</p>
+    </div>
+    <div id="rule.6238.1550.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6238.1550.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Temporary care. </h2>
+      <p>A permitted raptor, including a nestling, may be temporarily held by a person other than the permittee according to federal regulations. The permittee must inform the commissioner, in writing, within ten days of the transfer, specifying where the raptor is being held, the reason for the transfer, who is to care for the raptor, what that person is allowed to do with the raptor, and approximately how many days the raptor is expected to be in the care of the person. If the person caring for the raptor is a permitted falconer or propagator, the raptor must be reported as a loan or transfer with appropriate paperwork submitted within ten days as provided under part <a href="/rules/6238.1650">6238.1650</a>, subpart 1.</p>
+    </div>
+    <div id="rule.6238.1550.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6238.1550.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Temporary facilities. </h2>
+      <p>A raptor may be transported or held in temporary facilities for a period not to exceed 30 days, unless written authorization to extend the period is obtained from the commissioner. The temporary facilities must provide a suitable perch and protection from predators, domestic animals, extreme temperatures, wind, and excessive disturbance. If the temporary facilities are to be used more than 120 calendar days, the falconry permittee must follow federal regulations for falconry facilities, have the facilities inspected, and request an updated permit with the change of address or the addition of the secondary housing location.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6238.1550.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.401">97A.401</a>; <a href="/statutes/cite/97A.418">97A.418</a>; <a href="/statutes/cite/97B.105">97B.105</a></p>
+  </div>
+  <div class="history" id="rule.6238.1550.history">
+    <h2>History: </h2>
+    <p>38 SR 299</p>
+  </div>
+  <div class="published" id="rule.6238.1550.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.1600">
+    <h1 class="headnote">6238.1600 BANDING OR TAGGING OF RAPTORS.</h1>
+    <div id="rule.6238.1600.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.6238.1600.A">§</a>
+      <h3 class="item_no">A. </h3>
+      <p>All propagated and wild raptors for falconry or propagation purposes must be banded according to federal regulations, except that banding applies to all raptor species and hybrid raptors. In addition to bands, a permittee may use International Organization for Standardization (ISO)-compliant microchips (134.2 kHz), but microchips must not be used alone unless the permittee provides documentation of health issues or injury that prevents the use of the bands on the raptor according to federal regulations.</p>
+    </div>
+    <div id="rule.6238.1600.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.6238.1600.B">§</a>
+      <h3 class="item_no">B. </h3>
+      <p>Captive-bred nestlings must be banded with a numbered, seamless metal United States Fish and Wildlife Service band provided by the United States Fish and Wildlife Service or by the commissioner. The band is generally referred to as a propagation band.</p>
+    </div>
+    <div id="rule.6238.1600.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.6238.1600.C">§</a>
+      <h3 class="item_no">C. </h3>
+      <p>Propagated raptors that have been transferred to another permit type or permittee or that have lost their propagation band and wild raptors must be banded with a permanent, nonreusable, numbered plastic United States Fish and Wildlife Service leg band supplied by the commissioner. The band is generally referred to as a falconry band.</p>
+    </div>
+    <div id="rule.6238.1600.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.6238.1600.D">§</a>
+      <h3 class="item_no">D. </h3>
+      <p>Eagles must be banded with an eagle band provided by the United States Fish and Wildlife Service or by the commissioner. The band is generally referred to as an eagle band.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6238.1600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.401">97A.401</a></p>
+  </div>
+  <div class="history" id="rule.6238.1600.history">
+    <h2>History: </h2>
+    <p>38 SR 299</p>
+  </div>
+  <div class="published" id="rule.6238.1600.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.1650">
+    <h1 class="headnote">6238.1650 REPORTING REQUIREMENTS.</h1>
+    <div id="rule.6238.1650.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6238.1650.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Required federal reporting; permittee's duties. </h2>
+      <div id="rule.6238.1650.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6238.1650.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>A permittee must comply with reporting requirements under federal regulations and must submit a paper or digital copy of the federal reporting form to the commissioner within ten days of the date that:</p>
+        <div id="rule.6238.1650.1.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.6238.1650.1.A.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>the permittee takes, purchases, receives, or otherwise acquires a raptor;</p>
+        </div>
+        <div id="rule.6238.1650.1.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.6238.1650.1.A.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>the permittee sells, barters, or otherwise disposes of a raptor;</p>
+        </div>
+        <div id="rule.6238.1650.1.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.6238.1650.1.A.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>the permittee transfers a raptor to another type of permit (their own or that of another permittee), except that falconers do not need to transfer a raptor from a falconry permit to the permittee's own propagation permit if the raptor is used in propagation for less than eight months in a given year;</p>
+        </div>
+        <div id="rule.6238.1650.1.A.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.6238.1650.1.A.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>the permittee loans a raptor or has a raptor returned from a loan. A raptor may be loaned between falconers or propagators for up to 120 days, after which the raptor must be either returned to the permittee or transferred to the recipient's permit. During the time of loan, the raptor counts toward the limit of the original holder. Upon transfer, the raptor counts toward the limit of the recipient;</p>
+        </div>
+        <div id="rule.6238.1650.1.A.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.6238.1650.1.A.5">§</a>
+          <h4 class="subitem_no">(5) </h4>
+          <p>the permittee loses a raptor to the wild and does not recover the raptor within 30 days, except that hybrid raptors and raptors not native to Minnesota must also be reported within 48 hours according to the invasive species rules under part <a href="/rules/6216.0280">6216.0280</a>;</p>
+        </div>
+        <div id="rule.6238.1650.1.A.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.6238.1650.1.A.6">§</a>
+          <h4 class="subitem_no">(6) </h4>
+          <p>a raptor dies while under a permit;</p>
+        </div>
+        <div id="rule.6238.1650.1.A.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.6238.1650.1.A.7">§</a>
+          <h4 class="subitem_no">(7) </h4>
+          <p>a raptor is stolen from the permittee; or</p>
+        </div>
+        <div id="rule.6238.1650.1.A.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.6238.1650.1.A.8">§</a>
+          <h4 class="subitem_no">(8) </h4>
+          <p>the permittee rebands or microchips a raptor, except that old band removal must be reported within five days. The reporting form must include the old band number and the new band or microchip number.</p>
+        </div>
+      </div>
+      <div id="rule.6238.1650.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6238.1650.1.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>Under item A, subitems (2) to (4), a permittee must verify that any person receiving a raptor from the permittee has obtained all required permits necessary to receive the raptor.</p>
+      </div>
+      <div id="rule.6238.1650.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6238.1650.1.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>A permittee must keep copies of all submissions listed under item A for a minimum of five years from the submission date.</p>
+      </div>
+    </div>
+    <div id="rule.6238.1650.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6238.1650.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Required possession reporting. </h2>
+      <p>Annually or as requested according to federal regulations, holders of falconry and propagation permits must report to the commissioner:</p>
+      <div id="rule.6238.1650.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6238.1650.2.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>for all raptors in possession at the time of the report, the species, band numbers, sex (if known), and age (if known); whether wild or propagated; the date acquired; and where and, if applicable, from whom acquired;</p>
+      </div>
+      <div id="rule.6238.1650.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6238.1650.2.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>for all raptors possessed since the previously submitted report but no longer in possession at the time of the current report, the species, band numbers, sex (if known), and age (if known); the date acquired; where and, if applicable, from whom acquired; and the date of disposition listing to whom given or whether the raptor escaped, died, or was released; and</p>
+      </div>
+      <div id="rule.6238.1650.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6238.1650.2.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>all unused bands in possession.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6238.1650.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.401">97A.401</a>; <a href="/statutes/cite/97A.418">97A.418</a></p>
+  </div>
+  <div class="history" id="rule.6238.1650.history">
+    <h2>History: </h2>
+    <p>38 SR 299</p>
+  </div>
+  <div class="published" id="rule.6238.1650.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.1700">
+    <h1 class="headnote">6238.1700 PERMIT DURATION, RENEWAL, AND TERMINATION.</h1>
+    <div id="rule.6238.1700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6238.1700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Duration of permits; nontransferable. </h2>
+      <p>Falconry, propagation, and abatement permits are valid for three years or until September 30 of the third year following issuance, whichever comes first. Nonresident take permits are valid for one year or until December 31, whichever comes first. Permits are not transferable.</p>
+    </div>
+    <div id="rule.6238.1700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6238.1700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Permit renewal. </h2>
+      <p>Falconry, abatement, and propagation permits are renewable. A request for renewal must be made at least 30 days before the permit expiration date.</p>
+    </div>
+    <div id="rule.6238.1700.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6238.1700.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Transfer of raptors if permittee dies. </h2>
+      <p>A surviving spouse, executor, administrator, or other legal representative of a deceased permittee may transfer or sell any propagated raptor or transfer any wild raptor held by the permittee to another permittee authorized to possess raptors within 90 days of the death of the permittee, provided the recipient is allowed to possess that species and the recipient's permit raptor quota is not exceeded. The commissioner shall make temporary exceptions in quota or species in order to place a raptor, if necessary. The transaction must be reported within ten days as provided under part <a href="/rules/6238.1650">6238.1650</a>, subpart 1. Wild Minnesota raptors must either be released according to part <a href="/rules/6238.1500">6238.1500</a>, subpart 3, or transferred to another falconer. After 90 days, disposition of a raptor held under the permit of a deceased person is at the discretion of the commissioner.</p>
+    </div>
+    <div id="rule.6238.1700.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6238.1700.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Permit revocation. </h2>
+      <p>A permittee violating this chapter is subject to permit revocation, and all raptors held are subject to seizure and confiscation in the manner provided by law. If a permit issued under this chapter is revoked, all other permits that the permittee holds under this chapter shall be revoked at that time. For any activities under this chapter that also require federal permits, if the permittee's federal permit is revoked, the associated state permit shall be revoked pending reinstatement of the federal permit. Permittees who have any incidence of raptor mortality or a high incidence of raptor loss are subject to additional review. Examples of review are additional inspections and required submission of veterinarian's or rehabilitator's notes or necropsies on the subject raptors. If evidence is provided to the commissioner that the permittee is neglecting the health, safety, or welfare of raptors in the permittee's possession, the permittee is subject to one or more of the following measures:</p>
+      <div id="rule.6238.1700.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6238.1700.4.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>reduction in permit class;</p>
+      </div>
+      <div id="rule.6238.1700.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6238.1700.4.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>required sponsorship; or</p>
+      </div>
+      <div id="rule.6238.1700.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6238.1700.4.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>permit revocation.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6238.1700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.401">97A.401</a>; <a href="/statutes/cite/97A.418">97A.418</a></p>
+  </div>
+  <div class="history" id="rule.6238.1700.history">
+    <h2>History: </h2>
+    <p>38 SR 299</p>
+  </div>
+  <div class="published" id="rule.6238.1700.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6238.1750">
+    <h1 class="headnote">6238.1750 DISCLAIMER OF LIABILITY.</h1>
+    <p>A permit issued under this chapter is permissive only and no liability is incurred by the state or by any of its officers, agents, or employees by reason of issuing the permit or by reason of any acts or operations of the permittee or any wildlife. At all times, the state, its officers, agents, and employees are held harmless from any liability for damage or injury arising from issuing the permit.</p>
+  </div>
+  <div class="stat_auth" id="rule.6238.1750.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.401">97A.401</a>; <a href="/statutes/cite/97A.418">97A.418</a></p>
+  </div>
+  <div class="history" id="rule.6238.1750.history">
+    <h2>History: </h2>
+    <p>38 SR 299</p>
+  </div>
+  <div class="published" id="rule.6238.1750.published">
+    <h2>Published Electronically:</h2>
+    <p> September 5, 2013</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
