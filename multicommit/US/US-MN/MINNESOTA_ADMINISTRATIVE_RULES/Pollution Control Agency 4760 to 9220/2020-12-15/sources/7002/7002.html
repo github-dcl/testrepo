@@ -1,0 +1,3227 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            7002.0005 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/167">Pollution Control Agency</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/7002/">Chapter 7002</a>
+            </li>
+        
+    
+        
+            <li>Part 7002.0005</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/7002.0010/">7002.0010</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/7002.0005/2014-01-18%2006:48:54+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 7002</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7002/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7002/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7002/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 7002.0005</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7002.0005/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0005">
+    <h1 class="headnote">7002.0005 SCOPE.</h1>
+    <p>Parts <a href="/rules/7002.0005">7002.0005</a> to <a href="/rules/7002.0085">7002.0085</a> apply to all persons required to obtain an air emission permit from the Minnesota Pollution Control Agency under chapter 7007.</p>
+  </div>
+  <div class="stat_auth" id="rule.7002.0005.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.386">14.386</a>; <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0005.history">
+    <h2>History: </h2>
+    <p>17 SR 440; 18 SR 1059; 28 SR 316</p>
+  </div>
+  <div class="published" id="rule.7002.0005.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0010">
+    <h1 class="headnote repealed">7002.0010</h1>
+    <p>[Repealed, 17 SR 440]</p>
+  </div>
+  <div class="published" id="rule.7002.0010.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0015">
+    <h1 class="headnote">7002.0015 DEFINITIONS.</h1>
+    <div id="rule.7002.0015.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7002.0015.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>For the purposes of parts <a href="/rules/7002.0005">7002.0005</a> to <a href="/rules/7002.0085">7002.0085</a>, the terms defined in this part have the meanings given them. The definitions in the state air pollution control rules as defined in part <a href="/rules/7005.0100">7005.0100</a> apply unless the terms are defined in this part.</p>
+    </div>
+    <div id="rule.7002.0015.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7002.0015.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 21 SR 165]</p>
+    </div>
+    <div id="rule.7002.0015.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7002.0015.2">§</a>
+      <h2 class="subp_no">Subp. 2a.</h2>
+      <h2 class="headnote">Chargeable pollutant. </h2>
+      <p>"Chargeable pollutant" means the following:</p>
+      <div id="rule.7002.0015.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7002.0015.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> nitrogen oxides (NO<sub>x</sub>) or any volatile organic compound; and</p>
+      </div>
+      <div id="rule.7002.0015.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7002.0015.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> PM-10, sulfur dioxide, lead, and any other pollutant for which a national ambient air quality standard has been promulgated, except carbon monoxide.</p>
+      </div>
+    </div>
+    <div id="rule.7002.0015.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7002.0015.2">§</a>
+      <h2 class="subp_no">Subp. 2b.</h2>
+      <h2 class="headnote">Dollar per ton figure or $X. </h2>
+      <p>"Dollar per ton figure" or "$X" means the dollar amount assessed for each ton of chargeable pollutant determined under part <a href="/rules/7002.0045">7002.0045</a>.</p>
+    </div>
+    <div id="rule.7002.0015.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7002.0015.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Emission inventory. </h2>
+      <p>"Emission inventory" means the inventory of actual emissions required under part <a href="/rules/7019.3000">7019.3000</a>.</p>
+    </div>
+    <div id="rule.7002.0015.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7002.0015.3">§</a>
+      <h2 class="subp_no">Subp. 3a.</h2>
+      <h2 class="headnote">Emission reporting facility. </h2>
+      <p>"Emission reporting facility" means any facility for which the owner or operator of the facility must obtain an air emission permit under chapter 7007 except any facility permitted under part <a href="/rules/7007.1120">7007.1120</a>, registration permit option B.</p>
+    </div>
+    <div id="rule.7002.0015.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7002.0015.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <p>[Repealed, 21 SR 165]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0015.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0015.history">
+    <h2>History: </h2>
+    <p>17 SR 440; 18 SR 1059; 21 SR 165</p>
+  </div>
+  <div class="published" id="rule.7002.0015.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0016">
+    <h1 class="headnote">7002.0016 AIR QUALITY PERMIT APPLICATION FEES AND ADDITIONAL FEES.</h1>
+    <div id="rule.7002.0016.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7002.0016.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Fee required. </h2>
+      <p>A person who applies for an air quality permit or permit amendment under chapter 7007, excluding reissuance of individual state or Part 70 operating permits, or who submits an applicability request shall submit with the application or applicability request the appropriate application fee. Failure to submit the fee as specified in part <a href="/rules/7002.0019">7002.0019</a>, subpart 1, renders the application incomplete and the agency shall suspend processing of the application until the fee is received. Fees are nonrefundable.</p>
+    </div>
+    <div id="rule.7002.0016.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7002.0016.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Fee determination. </h2>
+      <p>Application fees and additional fees are based on a point system established in part <a href="/rules/7002.0019">7002.0019</a>. The points shall be multiplied by the dollar per point value as determined in part <a href="/rules/7002.0018">7002.0018</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0016.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0016.history">
+    <h2>History: </h2>
+    <p>34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0016.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0017">
+    <h1 class="headnote">7002.0017 AIR QUALITY PERMIT APPLICATION AND ADDITIONAL FEE TARGET.</h1>
+    <p>The agency shall set the application and additional fee target as described in items A to C.</p>
+    <div id="rule.7002.0017.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7002.0017.A">§</a>
+      <h3 class="item_no">A. </h3>
+      <p>The unadjusted fee target is $4,000,000 for each new biennium (biennial target), as modified according to item B.</p>
+    </div>
+    <div id="rule.7002.0017.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7002.0017.B">§</a>
+      <h3 class="item_no">B. </h3>
+      <p>Beginning July 1, 2011, and each biennium thereafter, the unadjusted fee target in item A shall be adjusted for inflation using the aggregated annual consumer price index since 2009 and becomes the new unadjusted fee target.</p>
+    </div>
+    <div id="rule.7002.0017.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7002.0017.C">§</a>
+      <h3 class="item_no">C. </h3>
+      <p>The adjusted fee target is the unadjusted fee target adjusted as follows:</p>
+      <div id="rule.7002.0017.C.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.7002.0017.C.1">§</a>
+        <h4 class="subitem_no">(1) </h4>
+        <p>if the agency failed to collect its fee target the previous biennium, after making reasonable effort to do so, the shortfall must be added to the next biennium's fee target; and</p>
+      </div>
+      <div id="rule.7002.0017.C.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.7002.0017.C.2">§</a>
+        <h4 class="subitem_no">(2) </h4>
+        <p>if the agency collected more than its fee target the previous biennium, the excess must be subtracted from the next biennium's fee target.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0017.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0017.history">
+    <h2>History: </h2>
+    <p>34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0017.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0018">
+    <h1 class="headnote">7002.0018 COMPUTATION OF DOLLAR PER POINT FOR AIR PERMITS.</h1>
+    <p>The agency computes the dollar per point value for each biennium as follows:</p>
+    <p class="bl">$ per point = T/(A + B) rounded up to the next five dollar increment, where:</p>
+    <p class="bl">$ per point = dollar amount applied to points determined under part <a href="/rules/7002.0019">7002.0019</a>.</p>
+    <p class="bl">T = adjusted fee target, as determined in part <a href="/rules/7002.0017">7002.0017</a>, item C.</p>
+    <p class="bl">A = the previous five-year annual average number of points for each type of permit application in part <a href="/rules/7002.0019">7002.0019</a>, subpart 1.</p>
+    <p class="bl">B = the previous five-year annual average number of points for each type of additional activity in part <a href="/rules/7002.0019">7002.0019</a>, subpart 2.</p>
+  </div>
+  <div class="stat_auth" id="rule.7002.0018.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0018.history">
+    <h2>History: </h2>
+    <p>34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0018.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0019">
+    <h1 class="headnote">7002.0019 AIR QUALITY PERMIT APPLICATION FEES AND ADDITIONAL FEES.</h1>
+    <div id="rule.7002.0019.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7002.0019.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Application points. </h2>
+      <p>The points assessed for permit application types designated in this subpart shall be multiplied by the dollar per point value as determined in part <a href="/rules/7002.0018">7002.0018</a> to calculate the application fee.</p>
+      <table>
+        <col style="width:6.153846153846154%">
+        <col style="width:84.6153846153846%">
+        <col style="width:9.23076923076923%">
+        <tr>
+          <td colspan="2">
+            <b>Application Type</b>
+          </td>
+          <td style="text-align: right;">
+            <b>Points</b>
+          </td>
+        </tr>
+        <tr>
+          <td class="valign_top">A.</td>
+          <td class="valign_top">Administrative amendment or administrative change of name, ownership, or control</td>
+          <td class="valign_top" style="text-align: right;">1</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td class="valign_top">One point shall be assessed for a request for an administrative amendment or a request for change in name, ownership, or control of a stationary source as addressed in part <a href="/rules/7007.1100">7007.1100</a>, subpart 8; <a href="/rules/7007.1110">7007.1110</a>, subpart 15; <a href="/rules/7007.1142">7007.1142</a>, subpart 5; or <a href="/rules/7007.1400">7007.1400</a>.</td>
+          <td class="valign_top" style="text-align: right;"></td>
+        </tr>
+        <tr>
+          <td class="valign_top">B.</td>
+          <td class="valign_top">Registration permit</td>
+          <td style="text-align: right;">2</td>
+        </tr>
+        <tr>
+          <td class="valign_top">C.</td>
+          <td class="valign_top">State general permit</td>
+          <td style="text-align: right;">3</td>
+        </tr>
+        <tr>
+          <td class="valign_top">D.</td>
+          <td class="valign_top">Part 70 general permit</td>
+          <td style="text-align: right;">4</td>
+        </tr>
+        <tr>
+          <td class="valign_top">E.</td>
+          <td class="valign_top">Minor amendment</td>
+          <td style="text-align: right;">4</td>
+        </tr>
+        <tr>
+          <td class="valign_top">F.</td>
+          <td class="valign_top">Capped permit</td>
+          <td style="text-align: right;">4</td>
+        </tr>
+        <tr>
+          <td class="valign_top">G.</td>
+          <td class="valign_top">Applicability requests</td>
+          <td style="text-align: right;">10</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td>These points shall be applied to each request received for determination of the applicability of rules in advance of receipt of a permit application. If multiple requests for reviews are submitted to the Pollution Control Agency over time, each request is subject to the fee.</td>
+          <td style="text-align: right;"></td>
+        </tr>
+        <tr>
+          <td class="valign_top">H.</td>
+          <td class="valign_top">Moderate amendment</td>
+          <td style="text-align: right;">15</td>
+        </tr>
+        <tr>
+          <td class="valign_top">I.</td>
+          <td class="valign_top">Major amendment</td>
+          <td style="text-align: right;">25</td>
+        </tr>
+        <tr>
+          <td class="valign_top">J.</td>
+          <td class="valign_top">Individual state permit</td>
+          <td style="text-align: right;">50</td>
+        </tr>
+        <tr>
+          <td class="valign_top">K.</td>
+          <td class="valign_top">Individual Part 70 permit</td>
+          <td style="text-align: right;">75</td>
+        </tr>
+      </table>
+    </div>
+    <div id="rule.7002.0019.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7002.0019.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Additional points. </h2>
+      <p>The points assessed for activities designated in this subpart shall be multiplied by the dollar per point value as determined in part <a href="/rules/7002.0018">7002.0018 </a>to calculate the additional fee.</p>
+      <table>
+        <col style="width:6.153846153846154%">
+        <col style="width:84.6153846153846%">
+        <col style="width:9.23076923076923%">
+        <tr>
+          <td></td>
+          <td>
+            <b>Activity</b>
+          </td>
+          <td style="text-align: right;">
+            <b>Points</b>
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: right;"></td>
+          <td></td>
+          <td style="text-align: right;"></td>
+        </tr>
+        <tr>
+          <td>A.</td>
+          <td>Modeling review</td>
+          <td style="text-align: right;">15</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>The points for modeling review shall not be assessed for screening modeling or CAPS modeling.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">B.</td>
+          <td>Best available control technology (BACT) review</td>
+          <td style="text-align: right;">15</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td>BACT points shall be applied for each prevention of significant deterioration (PSD) pollutant analyzed.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">C.</td>
+          <td>Lowest achievable emission rate (LAER) review</td>
+          <td style="text-align: right;">15</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td>LAER points shall be applied for each nonattainment new source review (NSR) pollutant analyzed.</td>
+          <td style="text-align: right;"></td>
+        </tr>
+        <tr>
+          <td class="valign_top">D.</td>
+          <td>Clean Air  Act, section 110(a)(2)(D)(i)(I) review</td>
+          <td class="valign_top" style="text-align: right;">10</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td>Points shall be applied for a review of any standard or other requirement related to interstate transport of pollutants established under section 110(a)(2)(D)(i)(I).</td>
+          <td class="valign_top" style="text-align: right;"></td>
+        </tr>
+        <tr>
+          <td class="valign_top">E.</td>
+          <td>Part 75 continuous emission monitoring analysis</td>
+          <td class="valign_top" style="text-align: right;">10</td>
+        </tr>
+        <tr>
+          <td class="valign_top">F.</td>
+          <td>New source performance standard (NSPS) review</td>
+          <td style="text-align: right;">10</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td>Points shall be applied for each applicable standard but do not apply to registration, capped, or general permit applications.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">G.</td>
+          <td>National emission standards for hazardous air pollutants (NESHAP) review</td>
+          <td style="text-align: right;">10</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td>Points shall be applied for each applicable standard but do not apply to registration, capped, or general permit applications.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">H.</td>
+          <td>Case-by-case maximum achievable control technology (MACT) review</td>
+          <td style="text-align: right;">20</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td>Points shall be applied for each applicable source category reviewed.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">I.</td>
+          <td>Netting</td>
+          <td style="text-align: right;">10</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td>Points shall be applied for each prevention of significant deterioration (PSD) pollutant for which a netting analysis is performed.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">J.</td>
+          <td>Limit to remain below programmatic regulatory threshold</td>
+          <td style="text-align: right;">10</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td>Points shall be applied, if applicable, to each of the following regulatory programs: Part 70, NESHAP, EAW, AERA, NSPS, PSD, and nonattainment NSR.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">K.</td>
+          <td>Plantwide applicability limit (PAL)</td>
+          <td style="text-align: right;">20</td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td>Points shall be applied for each prevention of significant deterioration (PSD) pollutant for which a plantwide applicability limit is established.</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">L.</td>
+          <td>Air emission risk analysis (AERA) review</td>
+          <td style="text-align: right;">15</td>
+        </tr>
+        <tr>
+          <td class="valign_top">M.</td>
+          <td>Variance request under part <a href="/rules/7000.7000">7000.7000</a></td>
+          <td style="text-align: right;">35</td>
+        </tr>
+        <tr>
+          <td class="valign_top">N.</td>
+          <td>Confidentiality request under part <a href="/rules/7000.1300">7000.1300</a></td>
+          <td style="text-align: right;">2</td>
+        </tr>
+        <tr>
+          <td class="valign_top">O.</td>
+          <td>Environmental assessment worksheet (EAW) review</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Points shall be assigned as follows:</td>
+          <td style="text-align: right;"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td style="text-align: left;">Part <a href="/rules/4410.4300">4410.4300</a>, subparts 18, item A; and 29</td>
+          <td style="text-align: right;">15</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Part <a href="/rules/4410.4300">4410.4300</a>, subparts 8, items A and B; 10, items A, B, and E; 16, items A and D; 17, items A to C and E to G; and 18, items C, D, and E</td>
+          <td class="valign_top" style="text-align: right;">35</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Part <a href="/rules/4410.4300">4410.4300</a>, subparts 4; 5, item A, subitems (1) and (2); 13; 15; 16, items B and C; and 17, item D</td>
+          <td class="valign_top" style="text-align: right;">70</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>A fee for EAW review shall be charged only if the project falls into a mandatory category specified in part <a href="/rules/4410.4300">4410.4300</a>, the agency is the designated responsible governmental unit (RGU), and an air or water permit is required for the project. If a facility requires both an air and water permit, the points for an EAW review shall be charged only once and multiplied by the lower of the dollar per point value for an air or water permit.</td>
+          <td style="text-align: right;"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0019.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0019.history">
+    <h2>History: </h2>
+    <p>34 SR 1205; 41 SR 763</p>
+  </div>
+  <div class="published" id="rule.7002.0019.published">
+    <h2>Published Electronically:</h2>
+    <p> December 27, 2019</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0020">
+    <h1 class="headnote repealed">7002.0020</h1>
+    <p>[Repealed, 17 SR 440]</p>
+  </div>
+  <div class="published" id="rule.7002.0020.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0021">
+    <h1 class="headnote">7002.0021 CAPPED COSTS FOR SMALL BUSINESSES AND CITIES.</h1>
+    <p>For one year after July 1, 2009, the combined cost of the application fee and an invoice for additional fees for a small business or small city, as determined under Minnesota Statutes, section <a href="/statutes/cite/14.127#stat.14.127.1">14.127, subdivision 1</a>, is capped at $25,000.</p>
+  </div>
+  <div class="stat_auth" id="rule.7002.0021.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0021.history">
+    <h2>History: </h2>
+    <p>34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0021.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0022">
+    <h1 class="headnote">7002.0022 PAYMENT OF APPLICATION AND ADDITIONAL FEES.</h1>
+    <p>Application fees assessed under part <a href="/rules/7002.0019">7002.0019</a>, subpart 1, shall be submitted with the application and made payable to the Minnesota Pollution Control Agency. Additional fees assessed under part <a href="/rules/7002.0019">7002.0019</a>, subpart 2, shall be paid within 30 days of the invoice date from the agency. The person submitting the fee shall make the payment as directed in the invoice. Final action on the permit shall not be taken until all invoices are paid.</p>
+  </div>
+  <div class="stat_auth" id="rule.7002.0022.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0022.history">
+    <h2>History: </h2>
+    <p>34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0022.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0023">
+    <h1 class="headnote">7002.0023 NOTIFICATION OF ERROR OF ADDITIONAL FEE.</h1>
+    <p>A person who believes that the assessed additional fee under part <a href="/rules/7002.0019">7002.0019</a>, subpart 2, is in error shall provide a written explanation of the person's position to the commissioner within 60 days of the invoice date. The assessed fee shall be paid in the time frame required in part <a href="/rules/7002.0022">7002.0022</a>. The commissioner shall, within 60 days of the timely receipt of the person's written explanation:</p>
+    <div id="rule.7002.0023.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7002.0023.A">§</a>
+      <h3 class="item_no">A. </h3>
+      <p>provide a written explanation of why the fee was not in error; or</p>
+    </div>
+    <div id="rule.7002.0023.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7002.0023.B">§</a>
+      <h3 class="item_no">B. </h3>
+      <p>if the commissioner finds that the assessed fee was in error, refund the overpayment.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0023.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0023.history">
+    <h2>History: </h2>
+    <p>34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0023.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0025">
+    <h1 class="headnote">7002.0025 ANNUAL EMISSION FEE RATES.</h1>
+    <div id="rule.7002.0025.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7002.0025.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Calculation of fee.</h2>
+      <div id="rule.7002.0025.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7002.0025.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Owners or operators of emission reporting facilities shall be assessed an annual emission fee for each ton of a chargeable pollutant emitted to the air by the facility. Emission reporting facilities shall be assessed a fee of $X for each ton of any chargeable pollutant as established in the most recently available emission inventory.</p>
+      </div>
+      <div id="rule.7002.0025.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7002.0025.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Notwithstanding item A, the owner or operator of any emission reporting facility or any facility issued an option B registration permit under part <a href="/rules/7007.1120">7007.1120</a> that chooses to be assessed a fee under item C, subitem (1), with less than one ton of total actual emissions shall be assessed an annual fee of $25.</p>
+      </div>
+      <div id="rule.7002.0025.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7002.0025.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> As described in subitems (1) and (2), the owner or operator of a facility issued an option B registration permit under part <a href="/rules/7007.1120">7007.1120</a> shall be assessed an annual emission fee based on either the reported quantity of VOC-containing materials purchased or used (whichever was stated in the facility's permit application) or the actual emissions from the use of VOC-containing materials.</p>
+        <div id="rule.7002.0025.1.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7002.0025.1.C.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> If the owner or operator chooses to be assessed the fee based on the actual emissions from the use of VOC-containing materials, the facility's actual emissions shall be determined in accordance with parts <a href="/rules/7019.3000">7019.3000</a> to <a href="/rules/7019.3090">7019.3090</a>. The assessed fee shall be determined in accordance with item A.</p>
+        </div>
+        <div id="rule.7002.0025.1.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7002.0025.1.C.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> If the owner or operator chooses to be assessed the fee based on the quantity of VOC-containing materials purchased or used (whichever was stated in the facility's permit application), the fee shall be:</p>
+          <div id="rule.7002.0025.1.C.2.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.7002.0025.1.C.2.a">§</a>
+            <h5 class="unit_no">(a)</h5>
+            <p> $50 if the quantity of VOC-containing materials is less than or equal to 1,000 gallons; or</p>
+          </div>
+          <div id="rule.7002.0025.1.C.2.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.7002.0025.1.C.2.b">§</a>
+            <h5 class="unit_no">(b)</h5>
+            <p> $140 if the quantity of VOC-containing materials is more than 1,000 and less than 2,000 gallons.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="rule.7002.0025.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7002.0025.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 21 SR 165]</p>
+    </div>
+    <div id="rule.7002.0025.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7002.0025.2">§</a>
+      <h2 class="subp_no">Subp. 2a.</h2>
+      <p>[Repealed, L 2012 c 272 s 98]</p>
+    </div>
+    <div id="rule.7002.0025.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7002.0025.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Facilities failing to submit emissions inventories. </h2>
+      <p>If an emission reporting facility fails to submit an emissions inventory as required by part <a href="/rules/7019.3000">7019.3000</a>, it shall be assessed an annual fee for that facility that is $X times 1-1/2 times the most recent actual emissions in tons for which an emissions fee was assessed under part <a href="/rules/7019.3000">7019.3000</a>. If the facility has never submitted an emissions inventory as required under part <a href="/rules/7019.3000">7019.3000</a>, but has submitted a permit application under chapter 7007, it shall be assessed an annual emission fee for that facility that is $X times 1-1/2 times the estimated actual emissions as stated in the facility's permit application.</p>
+      <p>If the owner or operator of a facility that is required to obtain a permit under chapter 7007 has not submitted a permit application which includes an estimate of the actual emissions, it shall be assessed an annual fee that is $X times 1-1/2 times the estimated potential to emit of that facility, as defined in part <a href="/rules/7005.0100">7005.0100</a>, subpart 35a.</p>
+      <p>If a facility issued an option B registration permit fails to submit an emission inventory, it shall be assessed an annual fee of $210.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0025.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0025.history">
+    <h2>History: </h2>
+    <p>17 SR 440; 18 SR 614; 21 SR 165; 32 SR 904; L 2012 c 272 s 98</p>
+  </div>
+  <div class="published" id="rule.7002.0025.published">
+    <h2>Published Electronically:</h2>
+    <p> August 3, 2012</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0030">
+    <h1 class="headnote repealed">7002.0030</h1>
+    <p>[Repealed, 17 SR 440]</p>
+  </div>
+  <div class="published" id="rule.7002.0030.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0035">
+    <h1 class="headnote">7002.0035 AIR QUALITY ANNUAL FEE TARGET.</h1>
+    <p>The annual fee target shall be set as described in items A and B.</p>
+    <div id="rule.7002.0035.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7002.0035.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> The unadjusted fee target shall be the greater of the following:</p>
+      <div id="rule.7002.0035.A.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.7002.0035.A.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> the sum of:</p>
+        <div id="rule.7002.0035.A.1.a" class="unit">
+          <a title="Link to unit a" class="permalink" href="#rule.7002.0035.A.1.a">§</a>
+          <h5 class="unit_no">(a)</h5>
+          <p> the amount directly appropriated to the Air Quality Division from the environmental fund for that fiscal year; and</p>
+        </div>
+        <div id="rule.7002.0035.A.1.b" class="unit">
+          <a title="Link to unit b" class="permalink" href="#rule.7002.0035.A.1.b">§</a>
+          <h5 class="unit_no">(b)</h5>
+          <p> the Air Quality Division's portion of the appropriation from the environmental fund to the agency's general support program, as determined by using the indirect cost allocation plan approved by the Minnesota Department of Management and Budget under Minnesota Statutes, section <a href="/statutes/cite/16A.127">16A.127</a>, subdivision 4; or</p>
+        </div>
+      </div>
+      <div id="rule.7002.0035.A.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.7002.0035.A.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> the amount calculated by multiplying $25 per ton, adjusted for inflation since 1989, times the number of tons of each chargeable pollutant listed in the most recently available emission inventory. No pollutant shall be double counted. A maximum of 4,000 tons per pollutant per facility shall be used for this calculation. The adjustment for inflation shall be in accordance with the adjustment described in Minnesota Statutes, section <a href="/statutes/cite/116.07">116.07</a>, subdivision 4d, paragraph (d).</p>
+      </div>
+    </div>
+    <div id="rule.7002.0035.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7002.0035.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> The amounts described in item A must be adjusted as follows:</p>
+      <div id="rule.7002.0035.B.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.7002.0035.B.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> if the agency failed to collect its fee target the previous year, after making reasonable efforts to do so, the shortfall must be added to the next year's fee target;</p>
+      </div>
+      <div id="rule.7002.0035.B.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.7002.0035.B.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> if the agency collected more than its fee target the previous year, the excess must be subtracted from the next year's fee target; and</p>
+      </div>
+      <div id="rule.7002.0035.B.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.7002.0035.B.3">§</a>
+        <h4 class="subitem_no">(3)</h4>
+        <p> for any year, the commissioner may increase the fee target by up to five percent to reflect the anticipated fee nonpayment rate. This increase must not be considered for purposes of calculating a deficit under subitem (1).</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0035.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0035.history">
+    <h2>History: </h2>
+    <p>17 SR 440; 21 SR 165; L 2009 c 101 art 2 s 109</p>
+  </div>
+  <div class="published" id="rule.7002.0035.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0040">
+    <h1 class="headnote repealed">7002.0040</h1>
+    <p>[Repealed, 17 SR 440]</p>
+  </div>
+  <div class="published" id="rule.7002.0040.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0045">
+    <h1 class="headnote">7002.0045 COMPUTATION OF THE DOLLAR PER TON FIGURE.</h1>
+    <p>The dollar per ton figure "$X" used in part <a href="/rules/7002.0025">7002.0025</a> shall be computed as follows:</p>
+    <p>$X = [F - [ P + R + ($25 x N)]]/(T - L)</p>
+    <p class="bl">where:</p>
+    <p>$X = Dollar amount per ton figure.</p>
+    <p>F = Total annual fee target, as determined in part <a href="/rules/7002.0035">7002.0035</a>.</p>
+    <p>P = Total amount billed as newly permitted facility fees in the previous calendar year under part <a href="/rules/7002.0025">7002.0025</a>, subpart 2a.</p>
+    <p>R = Total amount to be billed under part <a href="/rules/7002.0025">7002.0025</a>, subpart 1, item C, subitem (2), as option B registration permit annual emission fees based on the quantity of VOC-containing materials purchased or used.</p>
+    <p>N = Total number of emission reporting facilities and facilities issued option B registration permits that are assessed an annual emission fee based on actual emissions under part <a href="/rules/7002.0025">7002.0025</a>, subpart 1, item C, subitem (1), with less than one ton of total actual emissions of chargeable pollutants.</p>
+    <p>T = Total number of tons of all chargeable pollutants listed in the most recently available annual emissions inventory emitted from emission reporting facilities and facilities issued option B registration permits that are assessed an annual emission fee based on actual emissions under part <a href="/rules/7002.0025">7002.0025</a>, subpart 1, item C, subitem (1). No pollutant shall be double counted.</p>
+    <p>L = Total number of tons of all chargeable pollutants listed in the most recently available annual emission inventory emitted from emission reporting facilities and facilities issued option B registration permits that are assessed an annual emission fee based on actual emissions under part <a href="/rules/7002.0025">7002.0025</a>, subpart 1, item C, subitem (1), that emit less than one ton of total actual emissions of chargeable pollutants. No pollutant shall be double counted.</p>
+  </div>
+  <div class="stat_auth" id="rule.7002.0045.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.386">14.386</a>; <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0045.history">
+    <h2>History: </h2>
+    <p>17 SR 440; 21 SR 165; 28 SR 316</p>
+  </div>
+  <div class="published" id="rule.7002.0045.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0050">
+    <h1 class="headnote repealed">7002.0050</h1>
+    <p>[Repealed, 17 SR 440]</p>
+  </div>
+  <div class="published" id="rule.7002.0050.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0055">
+    <h1 class="headnote repealed">7002.0055</h1>
+    <p>[Repealed, 28 SR 316]</p>
+  </div>
+  <div class="published" id="rule.7002.0055.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0060">
+    <h1 class="headnote repealed">7002.0060</h1>
+    <p>[Repealed, 17 SR 440]</p>
+  </div>
+  <div class="published" id="rule.7002.0060.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0065">
+    <h1 class="headnote">7002.0065 PAYMENT OF ANNUAL FEES.</h1>
+    <p>Fees assessed under part <a href="/rules/7002.0025">7002.0025</a> shall be paid within 30 days of the invoice date. The person submitting the fee shall make the payment as directed in the invoice.</p>
+  </div>
+  <div class="stat_auth" id="rule.7002.0065.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.386">14.386</a>; <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0065.history">
+    <h2>History: </h2>
+    <p>17 SR 440; 21 SR 165; 28 SR 316; 34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0065.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0070">
+    <h1 class="headnote repealed">7002.0070</h1>
+    <p>[Repealed, 17 SR 440]</p>
+  </div>
+  <div class="published" id="rule.7002.0070.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0075">
+    <h1 class="headnote">7002.0075 NOTIFICATION OF ERROR OF ANNUAL FEE. </h1>
+    <p>A person who believes that the assessed annual emission fee is in error shall provide a written explanation of the person's position to the commissioner within 60 days of the invoice date. A person who believes that an error exists in emissions inventory data shall submit an explanation in accordance with part <a href="/rules/7019.3000">7019.3000</a>, subpart 2. The assessed fee shall be paid in the time frame required in part <a href="/rules/7002.0065">7002.0065</a>. The commissioner shall, within 60 days of the timely receipt of the person's written explanation:</p>
+    <div id="rule.7002.0075.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7002.0075.A">§</a>
+      <h3 class="item_no">A. </h3>
+      <p>provide a written explanation of why the fee was not in error; or</p>
+    </div>
+    <div id="rule.7002.0075.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7002.0075.B">§</a>
+      <h3 class="item_no">B. </h3>
+      <p>if the commissioner finds that the assessed fee was in error, refund the overpayment.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0075.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0075.history">
+    <h2>History: </h2>
+    <p>17 SR 440; 21 SR 165; 28 SR 1482; 34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0075.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0080">
+    <h1 class="headnote repealed">7002.0080</h1>
+    <p>[Repealed, 17 SR 440]</p>
+  </div>
+  <div class="published" id="rule.7002.0080.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0085">
+    <h1 class="headnote">7002.0085 LATE PAYMENT FEE.</h1>
+    <p>A permittee subject to one or more fees under parts <a href="/rules/7002.0005 ">7002.0005 </a>to <a href="/rules/7002.0045">7002.0045</a> shall pay a late payment fee of ten percent of the payment due for failure to pay an assessed fee within 60 days of the invoice date. At 30-day intervals thereafter, the permittee shall be assessed an additional ten percent of the original payment for failure to pay the assessed fee within that 30-day period. All late fees are due upon receipt of an invoice.</p>
+  </div>
+  <div class="stat_auth" id="rule.7002.0085.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.386">14.386</a>; <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0085.history">
+    <h2>History: </h2>
+    <p>17 SR 440; 21 SR 165; 28 SR 316; 34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0085.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0090">
+    <h1 class="headnote repealed">7002.0090</h1>
+    <p>[Repealed, 17 SR 440]</p>
+  </div>
+  <div class="published" id="rule.7002.0090.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0095">
+    <h1 class="headnote repealed">7002.0095</h1>
+    <p>[Repealed, 21 SR 165]</p>
+  </div>
+  <div class="published" id="rule.7002.0095.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0100">
+    <h1 class="headnote repealed">7002.0100</h1>
+    <p>[Repealed, 17 SR 440]</p>
+  </div>
+  <div class="published" id="rule.7002.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0110">
+    <h1 class="headnote repealed">7002.0110</h1>
+    <p>[Repealed, 17 SR 440]</p>
+  </div>
+  <div class="published" id="rule.7002.0110.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0210">
+    <h1 class="headnote">7002.0210 SCOPE.</h1>
+    <p>Parts <a href="/rules/7002.0210">7002.0210</a> to <a href="/rules/7002.0310">7002.0310</a> apply to all persons required to obtain a permit from the Minnesota Pollution Control Agency as described in parts <a href="/rules/7001.0020">7001.0020</a>, items C to F, and <a href="/rules/7090.0030">7090.0030</a>.</p>
+  </div>
+  <div class="stat_auth" id="rule.7002.0210.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16A.128">16A.128</a>; <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0210.history">
+    <h2>History: </h2>
+    <p>10 SR 2010; 16 SR 1799; 21 SR 1642; 25 SR 834; 34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0210.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0220">
+    <h1 class="headnote">7002.0220 DEFINITIONS.</h1>
+    <div id="rule.7002.0220.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7002.0220.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>For the purpose of parts <a href="/rules/7002.0210">7002.0210</a> to <a href="/rules/7002.0310">7002.0310</a>, the terms defined in this part have the meanings given them.</p>
+    </div>
+    <div id="rule.7002.0220.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7002.0220.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Agency. </h2>
+      <p>"Agency" means the Minnesota Pollution Control Agency.</p>
+    </div>
+    <div id="rule.7002.0220.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7002.0220.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Commissioner. </h2>
+      <p>"Commissioner" means the chief executive officer of the Minnesota Pollution Control Agency.</p>
+    </div>
+    <div id="rule.7002.0220.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7002.0220.3">§</a>
+      <h2 class="subp_no">Subp. 3a.</h2>
+      <h2 class="headnote">General construction storm water permit. </h2>
+      <p> "General construction storm water permit" means an NPDES general permit for storm water discharges associated with construction activity as defined in part <a href="/rules/7090.0080">7090.0080</a>, subpart 4.</p>
+    </div>
+    <div id="rule.7002.0220.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7002.0220.3">§</a>
+      <h2 class="subp_no">Subp. 3b.</h2>
+      <h2 class="headnote">General industrial storm water permit. </h2>
+      <p> "General industrial storm water permit" means an NPDES general permit for storm water discharges associated with industrial activity as defined in part <a href="/rules/7090.0080">7090.0080</a>, subpart 6.</p>
+    </div>
+    <div id="rule.7002.0220.3c" class="subp">
+      <a title="Link to subpart 3c" class="permalink" href="#rule.7002.0220.3c">§</a>
+      <h2 class="subp_no">Subp. 3c.</h2>
+      <h2 class="headnote">General municipal separate storm sewer system (MS4) permit. </h2>
+      <p>"General municipal separate storm sewer system (MS4) permit" means an NPDES permit for storm water discharges associated with municipal separate storm sewer systems as required under part <a href="/rules/7090.0030">7090.0030</a>, subpart 1, item A.</p>
+    </div>
+    <div id="rule.7002.0220.3d" class="subp">
+      <a title="Link to subpart 3d" class="permalink" href="#rule.7002.0220.3d">§</a>
+      <h2 class="subp_no">Subp. 3d.</h2>
+      <h2 class="headnote">Individual storm water permit. </h2>
+      <p>"Individual storm water permit" means an NPDES permit for storm water discharges associated with a specific site and type of activity as defined under Code of Federal Regulations, title 40, section 122.26(b)(4), (7), and (14)-(16). </p>
+    </div>
+    <div id="rule.7002.0220.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7002.0220.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Major NPDES facility. </h2>
+      <p>"Major NPDES facility" means a wastewater treatment discharger designated by the commissioner and the regional administrator of the United States Environmental Protection Agency as part of the annual work plan that is developed in accordance with and that is subject to the public participation requirements of Code of Federal Regulations, title 40, part 35, and subject to review and approval of the agency. The agency and the United States Environmental Protection Agency shall designate the following types of facilities as major NPDES facilities unless the agency and the United States Environmental Protection Agency find that the facility does not have a potential for significantly impacting water quality:</p>
+      <div id="rule.7002.0220.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7002.0220.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> a publicly owned treatment facility with an average design flow of 1,000,000 gallons per day or more;</p>
+      </div>
+      <div id="rule.7002.0220.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7002.0220.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> an electrical generating facility that is not primarily standby or a peaking facility with a generation capacity of 100 megawatts or greater;</p>
+      </div>
+      <div id="rule.7002.0220.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7002.0220.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> a facility that is a primary industry as defined in Code of Federal Regulations, title 40, section 122.2, or other industry that discharges quantities of process wastewater, which are significant due to the volume, pollutant loading, or other discharge parameters or the character of the receiving water; or</p>
+      </div>
+      <div id="rule.7002.0220.4.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7002.0220.4.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> a facility with an actual or potential discharge of toxic pollutants under section 307(a)(1) of the Clean Water Act, United States Code, title 33, section 1317.</p>
+      </div>
+    </div>
+    <div id="rule.7002.0220.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7002.0220.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Municipal permit. </h2>
+      <p>"Municipal permit" means a permit issued to a municipality as defined in part <a href="/rules/7001.1020">7001.1020</a>, subpart 18, for the discharge or disposal of wastewater which is five percent or more sewage. Permits issued to municipalities for facilities treating or disposing of waste that is less than five percent sewage shall be considered nonmunicipal permits.</p>
+    </div>
+    <div id="rule.7002.0220.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7002.0220.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">National pollutant discharge elimination system (NPDES). </h2>
+      <p>"National pollutant discharge elimination system (NPDES)" has the meaning given it in part <a href="/rules/7001.1020">7001.1020</a>, subpart 19.</p>
+    </div>
+    <div id="rule.7002.0220.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7002.0220.6">§</a>
+      <h2 class="subp_no">Subp. 6a.</h2>
+      <h2 class="headnote">Sanitary sewer extension permit. </h2>
+      <p>"Sanitary sewer extension permit" means a state disposal system permit for the extension, addition, or change of a municipal sanitary system.</p>
+    </div>
+    <div id="rule.7002.0220.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7002.0220.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Sewage. </h2>
+      <p>"Sewage" has the meaning given in part <a href="/rules/7080.1100">7080.1100</a>, subpart 73.</p>
+    </div>
+    <div id="rule.7002.0220.8" class="subp repealed">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7002.0220.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <p>[Repealed, 21 SR 1642]</p>
+    </div>
+    <div id="rule.7002.0220.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.7002.0220.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">State disposal system permit. </h2>
+      <p>"State disposal system permit" means a permit for a disposal system that may be constructed and operated without an NPDES permit.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0220.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16A.128">16A.128</a>; <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0220.history">
+    <h2>History: </h2>
+    <p>10 SR 2010; L 1987 c 186 s 15; 12 SR 1336; 16 SR 1799; 19 SR 1901; 21 SR 1642; 30 SR 125; 34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0220.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0230">
+    <h1 class="headnote">7002.0230 FEE DETERMINATION.</h1>
+    <p>The agency shall calculate application fees, additional fees, and annual fees based upon parts <a href="/rules/7002.0250">7002.0250</a> to <a href="/rules/7002.0310">7002.0310</a>.</p>
+  </div>
+  <div class="stat_auth" id="rule.7002.0230.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16A.128">16A.128</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0230.history">
+    <h2>History: </h2>
+    <p>10 SR 2010; 16 SR 1799; 34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0230.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0240">
+    <h1 class="headnote">7002.0240 PAYMENT OF FEES.</h1>
+    <p>A person submitting a fee as required in part <a href="/rules/7002.0253">7002.0253</a>, subpart 1, or <a href="/rules/7002.0254 ">7002.0254 </a>shall make the fee payable to the "Minnesota Pollution Control Agency" and submit it with the permit application. A person submitting a fee as required in part <a href="/rules/7002.0253">7002.0253</a>, subpart 2, or <a href="/rules/7002.0310">7002.0310</a> shall make the payment as directed in the invoice. Final action on the permit shall not be taken until all invoices are paid.</p>
+  </div>
+  <div class="stat_auth" id="rule.7002.0240.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16A.128">16A.128</a>; <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0240.history">
+    <h2>History: </h2>
+    <p>10 SR 2010; 16 SR 1799; 25 SR 834; 34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0240.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0250">
+    <h1 class="headnote">7002.0250 WATER QUALITY PERMIT APPLICATION FEE.</h1>
+    <div id="rule.7002.0250.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7002.0250.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Fee required. </h2>
+      <p>A person who applies for a water quality permit to construct, install, modify, or operate a facility, as described in parts <a href="/rules/7001.0020">7001.0020</a>, subpart 2, items C to F, and <a href="/rules/7090.0030">7090.0030</a>, excluding changes in ownership or control, name or address changes other than changes in facility location, and interim and construction short-form permits issued under chapter 7020, shall submit with the application the appropriate application fee. Failure to submit the fee as specified in part <a href="/rules/7002.0253">7002.0253</a>, subpart 1, renders the application incomplete and the agency shall suspend processing of the application until the fee is received. Application fees are nonrefundable.</p>
+    </div>
+    <div id="rule.7002.0250.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7002.0250.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Fee determination. </h2>
+      <p>Application fees, except storm water application fees as required in part <a href="/rules/7002.0254">7002.0254</a>, are based on a point system established in part <a href="/rules/7002.0253">7002.0253</a>. The points shall be multiplied by the dollar per point value as determined in part <a href="/rules/7002.0252">7002.0252</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0250.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0250.history">
+    <h2>History: </h2>
+    <p>10 SR 2010; 12 SR 1336; 25 SR 834; 30 SR 125; 34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0250.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0251">
+    <h1 class="headnote">7002.0251 WATER QUALITY PERMIT APPLICATION AND ADDITIONAL FEE TARGET.</h1>
+    <p>The agency shall set the application and additional fee target as described in items A and C.</p>
+    <div id="rule.7002.0251.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7002.0251.A">§</a>
+      <h3 class="item_no">A. </h3>
+      <p>The unadjusted fee target is $6,000,000 for each biennium (biennial target), as modified according to item B.</p>
+    </div>
+    <div id="rule.7002.0251.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7002.0251.B">§</a>
+      <h3 class="item_no">B. </h3>
+      <p>Beginning July 1, 2011, and each biennium thereafter, the unadjusted fee target in item A shall be adjusted for inflation using the aggregated annual consumer price index since 2009 and becomes the new unadjusted fee target.</p>
+    </div>
+    <div id="rule.7002.0251.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7002.0251.C">§</a>
+      <h3 class="item_no">C. </h3>
+      <p>The adjusted fee target is the unadjusted fee target adjusted as follows:</p>
+      <div id="rule.7002.0251.C.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.7002.0251.C.1">§</a>
+        <h4 class="subitem_no">(1) </h4>
+        <p>if the agency failed to collect its fee target the previous biennium, the shortfall must be added to the next biennium's fee target; and</p>
+      </div>
+      <div id="rule.7002.0251.C.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.7002.0251.C.2">§</a>
+        <h4 class="subitem_no">(2) </h4>
+        <p>if the agency collected more than its fee target the previous biennium, the excess must be subtracted from the next biennium's fee target.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0251.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0251.history">
+    <h2>History: </h2>
+    <p>34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0251.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0252">
+    <h1 class="headnote">7002.0252 COMPUTATION OF DOLLAR PER POINT FOR WATER PERMITS.</h1>
+    <p>The agency computes the dollar per point value for each biennium as follows:</p>
+    <p class="bl">$ per point = T/(A + B) rounded up to the next five dollar increment, where:</p>
+    <p class="bl">$ per point = dollar amount applied to points determined under part <a href="/rules/7002.0253">7002.0253</a>.</p>
+    <p class="bl">T = adjusted fee target, as determined in part <a href="/rules/7002.0251">7002.0251</a>, item C.</p>
+    <p class="bl">A = the previous five-year annual average number of points for each type of permit application in part <a href="/rules/7002.0253">7002.0253</a>, subpart 1.</p>
+    <p class="bl">B = the previous five-year annual average number of points for each type of additional activity in part <a href="/rules/7002.0253">7002.0253</a>, subpart 2.</p>
+  </div>
+  <div class="stat_auth" id="rule.7002.0252.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0252.history">
+    <h2>History: </h2>
+    <p>34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0252.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0253">
+    <h1 class="headnote">7002.0253 WATER QUALITY PERMIT APPLICATION FEES AND ADDITIONAL FEES.</h1>
+    <div id="rule.7002.0253.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7002.0253.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Application points. </h2>
+      <p>The points assessed for each permit application, amendment, or water quality effluent limitation review designated in this subpart shall be multiplied by the dollar per point value as determined in part <a href="/rules/7002.0252">7002.0252</a> to calculate the application fee.</p>
+      <div id="rule.7002.0253.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7002.0253.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>A person requesting a water quality effluent limitation review shall pay a fee equal to five points for each preliminary effluent limit request submitted in advance of or separate from an NPDES/SDS permit application. If multiple requests for reviews are submitted to the agency over time, each request is subject to the fee.</p>
+      </div>
+      <div id="rule.7002.0253.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7002.0253.1.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>A person submitting an application for a feedlot permit shall be assessed as follows:</p>
+        <div id="rule.7002.0253.1.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7002.0253.1.B.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>for coverage under a general feedlot permit to construct or operate, a fee equivalent to two points;</p>
+        </div>
+        <div id="rule.7002.0253.1.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7002.0253.1.B.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>for modification of activities under a general feedlot permit, a fee equivalent to two points;</p>
+        </div>
+        <div id="rule.7002.0253.1.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7002.0253.1.B.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>for issuance of an individual feedlot permit to construct or modify, a fee equivalent to six points; and</p>
+        </div>
+        <div id="rule.7002.0253.1.B.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.7002.0253.1.B.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>for reissuance of an individual feedlot permit, a fee equivalent to two points.</p>
+        </div>
+      </div>
+      <div id="rule.7002.0253.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7002.0253.1.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>A person submitting an application for discharge of wastewater, operation of a disposal system, or biosolids treatment or storage shall be assessed as follows:</p>
+        <div id="rule.7002.0253.1.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7002.0253.1.C.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>for coverage under or modification of a general permit to construct or operate, a fee equivalent to four points;</p>
+        </div>
+        <div id="rule.7002.0253.1.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7002.0253.1.C.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>for issuance of an individual wastewater permit or biosolids treatment or storage permit for a new facility, a fee equivalent to 30 points;</p>
+        </div>
+        <div id="rule.7002.0253.1.C.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7002.0253.1.C.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>for a major modification with no construction, a fee equivalent to eight points;</p>
+        </div>
+        <div id="rule.7002.0253.1.C.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.7002.0253.1.C.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>for a major modification with construction but with no increase in design flow, a fee equivalent to eight points;</p>
+        </div>
+        <div id="rule.7002.0253.1.C.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.7002.0253.1.C.5">§</a>
+          <h4 class="subitem_no">(5) </h4>
+          <p>for a major modification with construction and an increase in design flow, a fee equivalent to 30 points;</p>
+        </div>
+        <div id="rule.7002.0253.1.C.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.7002.0253.1.C.6">§</a>
+          <h4 class="subitem_no">(6) </h4>
+          <p>for a minor modification requested by the permittee and not for the purpose of correcting permit errors, a fee equivalent to four points;</p>
+        </div>
+        <div id="rule.7002.0253.1.C.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.7002.0253.1.C.7">§</a>
+          <h4 class="subitem_no">(7) </h4>
+          <p>for reissuance of an individual permit, with no modifications requested by the permittee, a fee equivalent to four points;</p>
+        </div>
+        <div id="rule.7002.0253.1.C.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.7002.0253.1.C.8">§</a>
+          <h4 class="subitem_no">(8) </h4>
+          <p>for issuance of an individual pretreatment permit, a fee equivalent to eight points; and</p>
+        </div>
+        <div id="rule.7002.0253.1.C.9" class="subitem">
+          <a title="Link to subitem 9" class="permalink" href="#rule.7002.0253.1.C.9">§</a>
+          <h4 class="subitem_no">(9) </h4>
+          <p>for issuance of an individual dredge material disposal permit, a fee equivalent to eight points.</p>
+        </div>
+      </div>
+      <div id="rule.7002.0253.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7002.0253.1.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>A person submitting an application for a sewer extension shall be assessed based on the additional design flow as follows:</p>
+        <div id="rule.7002.0253.1.D.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7002.0253.1.D.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>to increase flows from 0 to 0.10 million gallons per day (MGD), a fee equivalent to one point;</p>
+        </div>
+        <div id="rule.7002.0253.1.D.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7002.0253.1.D.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>to increase flows from greater than 0.10 to 1.0 MGD, a fee equivalent to two points; and</p>
+        </div>
+        <div id="rule.7002.0253.1.D.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7002.0253.1.D.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>to increase flows greater than 1.0 MGD, a fee equivalent to three points.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.7002.0253.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7002.0253.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Additional points. </h2>
+      <p>The points assessed for activities designated in this subpart shall be multiplied by the dollar per point value as determined in part <a href="/rules/7002.0252">7002.0252 </a>to calculate the additional fee.</p>
+      <div id="rule.7002.0253.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7002.0253.2.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>A person submitting an individual permit application under subpart 1 with a new or increased maximum daily design flow for an industrial facility, or average wet weather design flow for all other facilities, shall be assessed a fee according to this item. The flow determination does not include noncontact cooling water, which is assessed points under item B:</p>
+        <div id="rule.7002.0253.2.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7002.0253.2.A.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>if the resulting flow increase is 0 to 0.20 MGD, no additional fee shall be assessed;</p>
+        </div>
+        <div id="rule.7002.0253.2.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7002.0253.2.A.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>if the resulting flow increase is greater than 0.20 MGD and less than 1.0 MGD, a fee equivalent to five points;</p>
+        </div>
+        <div id="rule.7002.0253.2.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7002.0253.2.A.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>if the resulting flow increase is equal to or greater than 1.0 MGD and less than 5 MGD, a fee equivalent to ten points;</p>
+        </div>
+        <div id="rule.7002.0253.2.A.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.7002.0253.2.A.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>if the resulting flow increase is equal to or greater than 5 MGD and less than 20 MGD, a fee equivalent to 20 points;</p>
+        </div>
+        <div id="rule.7002.0253.2.A.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.7002.0253.2.A.5">§</a>
+          <h4 class="subitem_no">(5) </h4>
+          <p>if the resulting flow increase is equal to or greater than 20 MGD and less than 50 MGD, a fee equivalent to 30 points;</p>
+        </div>
+        <div id="rule.7002.0253.2.A.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.7002.0253.2.A.6">§</a>
+          <h4 class="subitem_no">(6) </h4>
+          <p>if the resulting flow increase is equal to or greater than 50 MGD, a fee equivalent to 40 points; and</p>
+        </div>
+        <div id="rule.7002.0253.2.A.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.7002.0253.2.A.7">§</a>
+          <h4 class="subitem_no">(7) </h4>
+          <p>if the resulting flow is from mine pit or quarry dewatering or sewer extensions, no additional fee shall be assessed.</p>
+        </div>
+      </div>
+      <div id="rule.7002.0253.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7002.0253.2.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>A person submitting an application for an individual permit that includes the discharge of noncontact cooling water shall be assessed a fee based on the increased maximum daily design flow resulting from new or modified noncontact cooling water discharge as follows:</p>
+        <div id="rule.7002.0253.2.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7002.0253.2.B.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>if the resulting increase in flow is less than 50 MGD, a fee equivalent to five points; and</p>
+        </div>
+        <div id="rule.7002.0253.2.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7002.0253.2.B.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>if the resulting increase in flow is equal to or greater than 50 MGD, a fee equivalent to 20 points.</p>
+        </div>
+      </div>
+      <div id="rule.7002.0253.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7002.0253.2.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>If a permit application requires a nondegradation review under parts <a href="/rules/7050.0186">7050.0186</a>, <a href="/rules/7050.0250">7050.0250</a> to <a href="/rules/7050.0335">7050.0335</a>, or <a href="/rules/7052.0300">7052.0300</a> to <a href="/rules/7052.0330">7052.0330</a>, the applicant shall pay a fee equivalent to 20 points.</p>
+      </div>
+      <div id="rule.7002.0253.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7002.0253.2.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>If a permit applicant requests a variance under part <a href="/rules/7000.7000">7000.7000</a>, the applicant shall pay a fee equivalent to 35 points.</p>
+      </div>
+      <div id="rule.7002.0253.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7002.0253.2.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>If a person makes a confidentiality request under part <a href="/rules/7000.1300">7000.1300</a>, the applicant shall pay a fee equivalent to two points. This fee applies regardless of whether it is requested as part of a permit application.</p>
+      </div>
+      <div id="rule.7002.0253.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7002.0253.2.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>If an EAW is required under a mandatory category specified in part <a href="/rules/4410.4300">4410.4300</a>, the agency is the designated responsible governmental unit (RGU), and an air or water permit is required for the project, the applicant shall pay fees as described in subitems (1) to (3). If a facility requires both an air and water permit, the points for an EAW review shall be assessed only once. The agency shall use the lower of the dollar per point value for an air or water permit as calculated in part <a href="/rules/7002.0018">7002.0018</a> or <a href="/rules/7002.0252">7002.0252</a> to calculate the fee. Fees shall be assessed as follows:</p>
+        <div id="rule.7002.0253.2.F.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7002.0253.2.F.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>if an applicant is required to complete an EAW under part <a href="/rules/4410.4300">4410.4300</a>, subpart 18, item A, or 29, a fee equivalent to 15 points;</p>
+        </div>
+        <div id="rule.7002.0253.2.F.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7002.0253.2.F.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>if an applicant is required to complete an EAW under part <a href="/rules/4410.4300">4410.4300</a>, subpart 8, item A or B; 10, items A, B, and E; 16, item A or D; 17, items A to C or E to G; or 18, item C, D, or E, a fee equivalent to 35 points; and</p>
+        </div>
+        <div id="rule.7002.0253.2.F.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7002.0253.2.F.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>if an applicant is required to complete an EAW under part <a href="/rules/4410.4300">4410.4300</a>, subpart 4; 5, item A, subitem (1) or (2); 13; 15; 16, item B or C; or 17, item D, a fee equivalent to 70 points.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0253.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0253.history">
+    <h2>History: </h2>
+    <p>34 SR 1205; 38 SR 1535; 34 SR 1205; 38 SR 1535; 41 SR 545</p>
+  </div>
+  <div class="published" id="rule.7002.0253.published">
+    <h2>Published Electronically:</h2>
+    <p> December 27, 2019</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0254">
+    <h1 class="headnote">7002.0254 WATER QUALITY STORM WATER PERMIT APPLICATION FEES.</h1>
+    <p>For persons submitting an application to receive a permit related to storm water activities, the following fees shall be paid:</p>
+    <div id="rule.7002.0254.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7002.0254.A">§</a>
+      <h3 class="item_no">A. </h3>
+      <p>for coverage under a general construction storm water permit, $400;</p>
+    </div>
+    <div id="rule.7002.0254.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7002.0254.B">§</a>
+      <h3 class="item_no">B. </h3>
+      <p>for coverage under an MS4 permit or modification of an MS4 permit, other than modification of a storm water pollution prevention program, $400;</p>
+    </div>
+    <div id="rule.7002.0254.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7002.0254.C">§</a>
+      <h3 class="item_no">C. </h3>
+      <p>for coverage under or modification of a general industrial storm water permit, $400; and</p>
+    </div>
+    <div id="rule.7002.0254.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.7002.0254.D">§</a>
+      <h3 class="item_no">D. </h3>
+      <p>for those required to obtain an individual storm water permit, $400 for the initial application, for modifications, and for reissuance.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0254.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0254.history">
+    <h2>History: </h2>
+    <p>34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0254.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0255">
+    <h1 class="headnote">7002.0255 CAPPED COSTS FOR SMALL BUSINESSES AND CITIES.</h1>
+    <p>For one year after July 1, 2009, the combined cost of the application fee and an invoice for additional fees for a small business or small city, as determined under Minnesota Statutes, section <a href="/statutes/cite/14.127#stat.14.127.1">14.127, subdivision 1</a>, is capped at $25,000.</p>
+  </div>
+  <div class="stat_auth" id="rule.7002.0255.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0255.history">
+    <h2>History: </h2>
+    <p>34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0255.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0258">
+    <h1 class="headnote">7002.0258 NOTIFICATION OF ERROR.</h1>
+    <p>A person who believes that the assessed additional fee under part <a href="/rules/7002.0253">7002.0253</a>, subpart 2, is in error shall provide a written explanation of the person's position to the commissioner within 60 days of the invoice date. The assessed fee shall be paid in the time frame required in part <a href="/rules/7002.0240">7002.0240</a>. The commissioner shall, within 60 days of the timely receipt of the person's written explanation:</p>
+    <div id="rule.7002.0258.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7002.0258.A">§</a>
+      <h3 class="item_no">A. </h3>
+      <p>provide a written explanation of why the fee was not in error; or</p>
+    </div>
+    <div id="rule.7002.0258.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7002.0258.B">§</a>
+      <h3 class="item_no">B. </h3>
+      <p>if the commissioner finds that the assessed fee was in error, refund the overpayment.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0258.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0258.history">
+    <h2>History: </h2>
+    <p>34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0258.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0260">
+    <h1 class="headnote repealed">7002.0260</h1>
+    <p>[Repealed, 16 SR 1799]</p>
+  </div>
+  <div class="published" id="rule.7002.0260.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0270">
+    <h1 class="headnote">7002.0270 ANNUAL FEE.</h1>
+    <p>All persons required to obtain a permit listed in part <a href="/rules/7002.0310">7002.0310</a>, subparts 1, 2, and 3, shall pay an annual fee for processing of the permit and enforcement of applicable statutes and rules as described in items A to D. The annual fee shall be paid within 30 days of the invoice date from the agency.</p>
+    <div id="rule.7002.0270.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7002.0270.A">§</a>
+      <h3 class="item_no">A. </h3>
+      <p>A permittee holding a new or reissued permit is subject to the fees established in part <a href="/rules/7002.0310">7002.0310</a>.</p>
+    </div>
+    <div id="rule.7002.0270.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7002.0270.B">§</a>
+      <h3 class="item_no">B. </h3>
+      <p>An applicant for reissuance of an expired permit under part <a href="/rules/7001.0160 ">7001.0160 </a>must pay fees set in part <a href="/rules/7002.0310">7002.0310</a>.</p>
+    </div>
+    <div id="rule.7002.0270.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7002.0270.C">§</a>
+      <h3 class="item_no">C. </h3>
+      <p>A permittee holding an individual storm water permit must pay the fee set in part <a href="/rules/7002.0310">7002.0310</a>, subpart 2, item B, under "other nonmunicipal."</p>
+    </div>
+    <div id="rule.7002.0270.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.7002.0270.D">§</a>
+      <h3 class="item_no">D. </h3>
+      <p>A permittee holding a permit issued under chapter 7020 must pay fees as follows:</p>
+      <div id="rule.7002.0270.D.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.7002.0270.D.1">§</a>
+        <h4 class="subitem_no">(1) </h4>
+        <p>individual NPDES permits, fees set in part <a href="/rules/7002.0310">7002.0310</a>, subpart 2, item B, under "other nonmunicipal";</p>
+      </div>
+      <div id="rule.7002.0270.D.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.7002.0270.D.2">§</a>
+        <h4 class="subitem_no">(2) </h4>
+        <p>individual SDS permits that regulate animal feedlots capable of holding 1,000 or more animal units or manure storage areas capable of holding the manure produced by 1,000 or more animal units, the same fees required under subitem (1);</p>
+      </div>
+      <div id="rule.7002.0270.D.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.7002.0270.D.3">§</a>
+        <h4 class="subitem_no">(3) </h4>
+        <p>general feedlot permits, fees set in part <a href="/rules/7002.0310">7002.0310</a>, subpart 3, under "general";</p>
+      </div>
+      <div id="rule.7002.0270.D.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.7002.0270.D.4">§</a>
+        <h4 class="subitem_no">(4) </h4>
+        <p>interim permits, no fees; and</p>
+      </div>
+      <div id="rule.7002.0270.D.5" class="subitem">
+        <a title="Link to subitem 5" class="permalink" href="#rule.7002.0270.D.5">§</a>
+        <h4 class="subitem_no">(5) </h4>
+        <p>construction short-form permits, no fees.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0270.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16A.128">16A.128</a>; <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0270.history">
+    <h2>History: </h2>
+    <p>10 SR 2010; 16 SR 1799; 19 SR 1901; 25 SR 834; 34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0270.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0280">
+    <h1 class="headnote">7002.0280 NOTIFICATION OF ERROR.</h1>
+    <p>A person who thinks that an annual fee for a specific facility is in error shall provide written notice of the error to the director of Minnesota Pollution Control Agency Fiscal Services, along with the assessed fee. If the director of the Minnesota Pollution Control Agency Fiscal Services finds, upon reviewing the data, that the assessed fee was in error, the overpayment shall be refunded to the permittee or credited to the permittee's account.</p>
+  </div>
+  <div class="stat_auth" id="rule.7002.0280.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16A.128">16A.128</a>; <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0280.history">
+    <h2>History: </h2>
+    <p>10 SR 2010; 16 SR 1799; 25 SR 834</p>
+  </div>
+  <div class="published" id="rule.7002.0280.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0290">
+    <h1 class="headnote">7002.0290 LATE PAYMENT FEE.</h1>
+    <p>A permittee subject to one or more fees under parts <a href="/rules/7002.0210">7002.0210</a> to <a href="/rules/7002.0310 ">7002.0310 </a>shall pay a late payment fee of ten percent of the payment due for failure to pay an assessed fee within 60 days of the invoice date. At 30-day intervals thereafter, the permittee shall be assessed an additional ten percent of the original payment for failure to pay the assessed fee within that 30-day period. All late fees are due upon receipt of an invoice.</p>
+  </div>
+  <div class="stat_auth" id="rule.7002.0290.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0290.history">
+    <h2>History: </h2>
+    <p>10 SR 2010; 34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0290.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0300">
+    <h1 class="headnote repealed">7002.0300</h1>
+    <p>[Repealed, 34 SR 1205]</p>
+  </div>
+  <div class="published" id="rule.7002.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0305">
+    <h1 class="headnote repealed">7002.0305</h1>
+    <p>[Repealed, 34 SR 1205]</p>
+  </div>
+  <div class="published" id="rule.7002.0305.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0310">
+    <h1 class="headnote">7002.0310  WATER QUALITY ANNUAL PERMIT FEES.</h1>
+    <div id="rule.7002.0310.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7002.0310.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Major NPDES permit fees. </h2>
+      <p>The following annual fee shall be paid by a permittee that has received a major NPDES permit:</p>
+      <div id="rule.7002.0310.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7002.0310.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Municipal permits:</p>
+        <table>
+          <col style="width:57.4468085106383%">
+          <col style="width:21.2765957446809%">
+          <col style="width:21.2765957446809%">
+          <tr>
+            <td>Design Flow in Million Gallons per Day (MGD)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">Annual Fee</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: center;"></td>
+          </tr>
+          <tr>
+            <td>50 and over</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">$175,500</td>
+          </tr>
+          <tr>
+            <td>20 to 49.99</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">$40,350</td>
+          </tr>
+          <tr>
+            <td>5 to 19.99</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">$14,350</td>
+          </tr>
+          <tr>
+            <td>Up to 4.99</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">$5,900</td>
+          </tr>
+        </table>
+      </div>
+      <div id="rule.7002.0310.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7002.0310.1.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>Nonmunicipal permits:</p>
+        <table>
+          <col style="width:57.4468085106383%">
+          <col style="width:21.2765957446809%">
+          <col style="width:21.2765957446809%">
+          <tr>
+            <td>Design Flow in Million Gallons per Day (MGD)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">Annual Fee</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="text-align: right;"></td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td>20 to 49.99</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">$44,200</td>
+          </tr>
+          <tr>
+            <td>5 to 19.99</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">$18,250</td>
+          </tr>
+          <tr>
+            <td>Up to 4.99</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">$8,450</td>
+          </tr>
+          <tr>
+            <td>Cooling or mine pit dewatering (any flow)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">$16,900</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="rule.7002.0310.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7002.0310.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Nonmajor NPDES and state disposal permit fees. </h2>
+      <p>The following annual fee shall be paid by a permittee not designated as a major NPDES facility and by a permittee that has received a state disposal system permit.</p>
+      <div id="rule.7002.0310.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7002.0310.2.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Municipal permits:</p>
+        <table>
+          <col style="width:57.4468085106383%">
+          <col style="width:21.2765957446809%">
+          <col style="width:21.2765957446809%">
+          <tr>
+            <td>Design Flow in Million Gallons per Day (MGD)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">Annual Fee</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="text-align: right;"></td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td>Greater than .100</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">$1,450</td>
+          </tr>
+          <tr>
+            <td>0 to .100</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">$505</td>
+          </tr>
+          <tr>
+            <td>Facilities for the treatment or storage of biosolids only</td>
+            <td style="text-align: center;"></td>
+            <td class="valign_top" style="text-align: right;">$500</td>
+          </tr>
+        </table>
+      </div>
+      <div id="rule.7002.0310.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7002.0310.2.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>Nonmunicipal permits:</p>
+        <table>
+          <col style="width:57.4468085106383%">
+          <col style="width:21.2765957446809%">
+          <col style="width:21.2765957446809%">
+          <tr>
+            <td>Design Flow in Million Gallons per Day (MGD)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">Annual Fee</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="text-align: right;"></td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td>Sewage 0 to .100</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">$495</td>
+          </tr>
+          <tr>
+            <td>Individual storm water permits</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">$1,230</td>
+          </tr>
+          <tr>
+            <td>Other nonmunicipal (any flow)</td>
+            <td style="text-align: center;"></td>
+            <td style="text-align: right;">$1,230</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="rule.7002.0310.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7002.0310.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Other water quality permit fees. </h2>
+      <p>The following annual fee shall be paid by a permittee that received a general permit as defined in part <a href="/rules/7001.0010">7001.0010</a>, subpart 4.</p>
+      <table>
+        <col style="width:57.4468085106383%">
+        <col style="width:21.2765957446809%">
+        <col style="width:21.2765957446809%">
+        <tr>
+          <td></td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: right;">Annual Fee</td>
+        </tr>
+        <tr>
+          <td>General</td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: right;">$345</td>
+        </tr>
+        <tr>
+          <td>General industrial storm water permit</td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: right;">$400</td>
+        </tr>
+        <tr>
+          <td>General construction storm water permit</td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: right;">0</td>
+        </tr>
+        <tr>
+          <td>General MS4 storm water permit</td>
+          <td style="text-align: center;"></td>
+          <td style="text-align: right;">0</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0310.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16A.128">16A.128</a>; <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7002.0310.history">
+    <h2>History: </h2>
+    <p>10 SR 2010; 12 SR 1336; 14 SR 1878; 16 SR 1799; 19 SR 1901; 34 SR 1205</p>
+  </div>
+  <div class="published" id="rule.7002.0310.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0400">
+    <h1 class="headnote">7002.0400 SCOPE; DEFINITIONS.</h1>
+    <div id="rule.7002.0400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7002.0400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>Parts <a href="/rules/7002.0400">7002.0400</a> to <a href="/rules/7002.0435">7002.0435</a> apply to laboratories required to be certified according to parts <a href="/rules/7001.4310">7001.4310</a> to <a href="/rules/7001.4390">7001.4390</a>.</p>
+    </div>
+    <div id="rule.7002.0400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7002.0400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Definitions. </h2>
+      <p>The terms used in parts <a href="/rules/7002.0400">7002.0400</a> to <a href="/rules/7002.0435">7002.0435</a> have the meanings given under part <a href="/rules/7001.4310">7001.4310</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.84">115.84</a></p>
+  </div>
+  <div class="history" id="rule.7002.0400.history">
+    <h2>History: </h2>
+    <p>39 SR 1718</p>
+  </div>
+  <div class="published" id="rule.7002.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> June 25, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0410">
+    <h1 class="headnote repealed">7002.0410</h1>
+    <p>[Repealed, L 1995 c 233 art 3 s 5; L 1995 c 248 art 3 s 5]</p>
+  </div>
+  <div class="published" id="rule.7002.0410.published">
+    <h2>Published Electronically:</h2>
+    <p> June 25, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0415">
+    <h1 class="headnote">7002.0415 FEE DETERMINATION.</h1>
+    <div id="rule.7002.0415.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7002.0415.A">§</a>
+      <h3 class="item_no">A. </h3>
+      <p>Certification fees under parts <a href="/rules/7002.0415">7002.0415</a> to <a href="/rules/7002.0435">7002.0435</a> are based on the number, type, and complexity of analytical methods that a laboratory is certified to perform.</p>
+    </div>
+    <div id="rule.7002.0415.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7002.0415.B">§</a>
+      <h3 class="item_no">B. </h3>
+      <p>The fee formula is designed to collect revenue equal to the certification program's expenses by using a system of points to equitably distribute the fees among all laboratories certified by the agency. Each fee item is assigned a point value under part <a href="/rules/7002.0435">7002.0435</a>. Once the dollar per point value is determined under part <a href="/rules/7002.0425">7002.0425</a>, it is multiplied by the total number of points for each application. </p>
+    </div>
+    <div id="rule.7002.0415.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7002.0415.C">§</a>
+      <h3 class="item_no">C. </h3>
+      <p>The agency must annually establish the fee target in an amount necessary to cover costs of reviewing applications, issuing certifications, conducting laboratory evaluations, training, collecting fees, and providing compliance assistance and other anticipated costs of administering the certification program. After the first year of the program, the fee target must be based on the actual costs to administer the certification program in the previous calendar year, with any necessary adjustments to cover costs according to this item.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0415.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.84">115.84</a></p>
+  </div>
+  <div class="history" id="rule.7002.0415.history">
+    <h2>History: </h2>
+    <p>39 SR 1718</p>
+  </div>
+  <div class="published" id="rule.7002.0415.published">
+    <h2>Published Electronically:</h2>
+    <p> June 25, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0420">
+    <h1 class="headnote repealed">7002.0420</h1>
+    <p>[Repealed, L 1995 c 233 art 3 s 5; L 1995 c 248 art 3 s 5]</p>
+  </div>
+  <div class="published" id="rule.7002.0420.published">
+    <h2>Published Electronically:</h2>
+    <p> June 25, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0425">
+    <h1 class="headnote">7002.0425 COMPUTATION OF DOLLAR PER POINT VALUE.</h1>
+    <p>The agency computes the dollar per point value for each year as follows:</p>
+    <p class="ce">$ per point = T/B</p>
+    <p class="bl">where:</p>
+    <p class="bl">$ per point is the dollar amount applied to each point;</p>
+    <p class="bl">T is the fee target calculated according to part <a href="/rules/7002.0415">7002.0415</a>, item C; and</p>
+    <p class="bl">B is the sum of all points for participating laboratories during the previous calendar year.</p>
+  </div>
+  <div class="stat_auth" id="rule.7002.0425.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.84">115.84</a></p>
+  </div>
+  <div class="history" id="rule.7002.0425.history">
+    <h2>History: </h2>
+    <p>39 SR 1718</p>
+  </div>
+  <div class="published" id="rule.7002.0425.published">
+    <h2>Published Electronically:</h2>
+    <p> June 25, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0430">
+    <h1 class="headnote repealed">7002.0430</h1>
+    <p>[Repealed, L 1995 c 233 art 3 s 5; L 1995 c 248 art 3 s 5]</p>
+  </div>
+  <div class="published" id="rule.7002.0430.published">
+    <h2>Published Electronically:</h2>
+    <p> June 25, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0435">
+    <h1 class="headnote">7002.0435 LABORATORY CERTIFICATION APPLICATION FEES.</h1>
+    <div id="rule.7002.0435.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7002.0435.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Payment of fees. </h2>
+      <div id="rule.7002.0435.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7002.0435.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Certification for a calendar year is provisional until the laboratory's certification application is paid.</p>
+      </div>
+      <div id="rule.7002.0435.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7002.0435.1.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>Fees are nonrefundable once an invoice has been issued.</p>
+      </div>
+    </div>
+    <div id="rule.7002.0435.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7002.0435.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Application points. </h2>
+      <p>The points assessed for certification application or category types designated in this subpart are multiplied by the dollar per point value determined under part <a href="/rules/7002.0425">7002.0425</a> to calculate the appropriate fee.</p>
+      <table>
+        <col style="width:7.692307692307693%">
+        <col style="width:76.9230769230769%">
+        <col style="width:15.3846153846154%">
+        <tr>
+          <td colspan="2">Application or category type</td>
+          <td style="text-align: left;">Points</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>A.</td>
+          <td>Initial application</td>
+          <td style="text-align: center;">6</td>
+        </tr>
+        <tr>
+          <td>B.</td>
+          <td>Renewal application</td>
+          <td style="text-align: center;">4</td>
+        </tr>
+        <tr>
+          <td>C.</td>
+          <td>Voluntary field tests</td>
+          <td style="text-align: center;">0</td>
+        </tr>
+        <tr>
+          <td>D.</td>
+          <td>Oxygen utilization</td>
+          <td style="text-align: center;">1</td>
+        </tr>
+        <tr>
+          <td>E.</td>
+          <td>Nitrogen</td>
+          <td style="text-align: center;">1</td>
+        </tr>
+        <tr>
+          <td>F.</td>
+          <td>Phosphorus</td>
+          <td style="text-align: center;">1</td>
+        </tr>
+        <tr>
+          <td>G.</td>
+          <td>Physical</td>
+          <td style="text-align: center;">1</td>
+        </tr>
+        <tr>
+          <td>H.</td>
+          <td>Microbiology</td>
+          <td style="text-align: center;">1</td>
+        </tr>
+        <tr>
+          <td>I.</td>
+          <td>General I</td>
+          <td style="text-align: center;">1</td>
+        </tr>
+        <tr>
+          <td>J.</td>
+          <td>General II</td>
+          <td style="text-align: center;">2</td>
+        </tr>
+        <tr>
+          <td>K.</td>
+          <td>General III</td>
+          <td style="text-align: center;">4</td>
+        </tr>
+        <tr>
+          <td>L.</td>
+          <td>Metals</td>
+          <td style="text-align: center;">4</td>
+        </tr>
+        <tr>
+          <td class="valign_top">M.</td>
+          <td>Organics, purgeable, Gas Chromatograph, and Gas Chromatograph Mass Spectrometer</td>
+          <td style="text-align: center;">4</td>
+        </tr>
+        <tr>
+          <td>N.</td>
+          <td>Organics, semivolatile, Gas Chromatograph Mass Spectrometer</td>
+          <td style="text-align: center;">4</td>
+        </tr>
+        <tr>
+          <td>O.</td>
+          <td>Organics, organochlorine compounds</td>
+          <td style="text-align: center;">4</td>
+        </tr>
+      </table>
+    </div>
+    <div id="rule.7002.0435.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7002.0435.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Revised applications.</h2>
+      <div id="rule.7002.0435.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7002.0435.3.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>A laboratory submitting a revised application to add a new test category to the laboratory's certification must pay:</p>
+        <div id="rule.7002.0435.3.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7002.0435.3.A.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>the full category fee if the application is submitted to the agency on or before July 1; or</p>
+        </div>
+        <div id="rule.7002.0435.3.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7002.0435.3.A.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>50 percent of the category fee if the application is submitted to the agency after July 1.</p>
+        </div>
+      </div>
+      <div id="rule.7002.0435.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7002.0435.3.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>A laboratory submitting a revised application to add a test method for a parameter in a category for which the laboratory is already certified must pay 25 percent of the total category fee for the parameter.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7002.0435.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.84">115.84</a></p>
+  </div>
+  <div class="history" id="rule.7002.0435.history">
+    <h2>History: </h2>
+    <p>39 SR 1718</p>
+  </div>
+  <div class="published" id="rule.7002.0435.published">
+    <h2>Published Electronically:</h2>
+    <p> June 25, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0440">
+    <h1 class="headnote repealed">7002.0440</h1>
+    <p>[Repealed, L 1995 c 233 art 3 s 5; L 1995 c 248 art 3 s 5]</p>
+  </div>
+  <div class="published" id="rule.7002.0440.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0450">
+    <h1 class="headnote repealed">7002.0450</h1>
+    <p>[Repealed, L 1995 c 233 art 3 s 5; L 1995 c 248 art 3 s 5]</p>
+  </div>
+  <div class="published" id="rule.7002.0450.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0460">
+    <h1 class="headnote repealed">7002.0460</h1>
+    <p>[Repealed, L 1995 c 233 art 3 s 5; L 1995 c 248 art 3 s 5]</p>
+  </div>
+  <div class="published" id="rule.7002.0460.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0470">
+    <h1 class="headnote repealed">7002.0470</h1>
+    <p>[Repealed, L 1995 c 233 art 3 s 5; L 1995 c 248 art 3 s 5]</p>
+  </div>
+  <div class="published" id="rule.7002.0470.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0480">
+    <h1 class="headnote repealed">7002.0480</h1>
+    <p>[Repealed, L 1995 c 233 art 3 s 5; L 1995 c 248 art 3 s 5]</p>
+  </div>
+  <div class="published" id="rule.7002.0480.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7002.0490">
+    <h1 class="headnote repealed">7002.0490</h1>
+    <p>[Repealed, L 1995 c 233 art 3 s 5; L 1995 c 248 art 3 s 5]</p>
+  </div>
+  <div class="published" id="rule.7002.0490.published">
+    <h2>Published Electronically:</h2>
+    <p> March 11, 2010</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

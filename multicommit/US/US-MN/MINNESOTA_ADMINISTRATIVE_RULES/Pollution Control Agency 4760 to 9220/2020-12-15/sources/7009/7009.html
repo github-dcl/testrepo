@@ -1,0 +1,2524 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            7009.0010 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/167">Pollution Control Agency</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/7009/">Chapter 7009</a>
+            </li>
+        
+    
+        
+            <li>Part 7009.0010</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/7009.0020/">7009.0020</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/7009.0010/2017-01-27%2015:41:45+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 7009</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7009/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7009/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7009/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 7009.0010</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7009.0010/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.0010">
+    <h1 class="headnote">7009.0010 DEFINITIONS.</h1>
+    <div id="rule.7009.0010.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7009.0010.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>For the purpose of parts <a href="/rules/7009.0010">7009.0010</a> to <a href="/rules/7009.0080">7009.0080</a>, the following terms have the meanings given them.</p>
+    </div>
+    <div id="rule.7009.0010.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7009.0010.1">§</a>
+      <h2 class="subp_no">Subp. 1a.</h2>
+      <h2 class="headnote">Averaging time. </h2>
+      <p>"Averaging time" means the time period specified in part <a href="/rules/7009.0080">7009.0080</a> over which air pollution concentration data are averaged in preparation for comparison to the ambient air quality standard. </p>
+    </div>
+    <div id="rule.7009.0010.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7009.0010.1">§</a>
+      <h2 class="subp_no">Subp. 1b.</h2>
+      <h2 class="headnote">Form of the standard. </h2>
+      <p>"Form of the standard" means the method used to determine whether ambient air quality pollutant concentrations exceed the numeric level of the applicable primary or secondary ambient air quality standard.</p>
+    </div>
+    <div id="rule.7009.0010.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7009.0010.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Primary ambient air quality standards; primary standards. </h2>
+      <p>"Primary ambient air quality standards" or "primary standards" mean levels established to protect the public health from adverse effects. The adverse effects that the standards should protect against include acute or chronic subjective symptoms and physiological changes that are likely to interfere with normal activity in healthy or sensitive individuals or to interfere unreasonably with the enjoyment of life or property.</p>
+    </div>
+    <div id="rule.7009.0010.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7009.0010.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Secondary ambient air quality standards; secondary standards. </h2>
+      <p>"Secondary ambient air quality standards" or "secondary standards" mean levels established to protect the public welfare from any known or anticipated adverse effects, such as injury to agricultural crops and livestock, damage to or deterioration of property, annoyance and nuisance of persons, or hazards to air and ground transportation.</p>
+    </div>
+    <div id="rule.7009.0010.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7009.0010.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Total suspended particulate. </h2>
+      <p>"Total suspended particulate" has the meaning given in Code of Federal Regulations, title 40, section 51.100 (ss), as amended.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7009.0010.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.0010.history">
+    <h2>History: </h2>
+    <p>18 SR 614; 41 SR 763</p>
+  </div>
+  <div class="published" id="rule.7009.0010.published">
+    <h2>Published Electronically:</h2>
+    <p> January 27, 2017</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.0020">
+    <h1 class="headnote">7009.0020 PROHIBITED EMISSIONS.</h1>
+    <p>No person shall emit any pollutant in such an amount or in such a manner as to cause or contribute to a violation of any Minnesota ambient air quality standard under part <a href="/rules/7009.0080">7009.0080 </a>beyond the person's property line, provided however, that in the event the general public has access to the person's property or portion thereof, the ambient air quality standards apply in those locations. The general public does not include employees or other categories of people who have been directly authorized by the property owner to enter or remain on the property for a limited period of time and for a specific purpose.</p>
+  </div>
+  <div class="stat_auth" id="rule.7009.0020.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.0020.history">
+    <h2>History: </h2>
+    <p>18 SR 614; 41 SR 763</p>
+  </div>
+  <div class="published" id="rule.7009.0020.published">
+    <h2>Published Electronically:</h2>
+    <p> January 27, 2017</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.0030">
+    <h1 class="headnote">7009.0030 ENFORCEMENT.</h1>
+    <p>The requirement in part <a href="/rules/7009.0020">7009.0020</a> applies without respect to whether emission rules stated in other air pollution control rules of the agency are also being violated. However, in enforcing the ambient air quality standards specified in parts <a href="/rules/7009.0010">7009.0010</a> to <a href="/rules/7009.0080">7009.0080</a>, the agency shall not seek payment of a civil or criminal penalty from a person to or with whom a permit or stipulation agreement has been issued or entered into by the agency if and only if:</p>
+    <div id="rule.7009.0030.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7009.0030.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> that permit or stipulation agreement establishes emission limitations or standards of performance for the pollutant or precursor thereof for which there is an ambient air quality standard which has been violated; and</p>
+    </div>
+    <div id="rule.7009.0030.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7009.0030.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> the person to or with whom the permit or stipulation agreement has been issued or entered into by the agency was in compliance with the corresponding emission limitations and standards of performance at the time of the violation of the ambient air quality standard.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7009.0030.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.0030.history">
+    <h2>History: </h2>
+    <p>18 SR 614</p>
+  </div>
+  <div class="published" id="rule.7009.0030.published">
+    <h2>Published Electronically:</h2>
+    <p> April 18, 2000</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.0040">
+    <h1 class="headnote">7009.0040 ENFORCEMENT; OPTIONS.</h1>
+    <p>Notwithstanding part <a href="/rules/7009.0030">7009.0030</a>, any violations of the ambient air quality standards shall constitute grounds for the modification or revocation of a permit, for action by the agency to amend a stipulation agreement, or for other enforcement action by the agency to further require reduction or control of that person's emissions.</p>
+  </div>
+  <div class="stat_auth" id="rule.7009.0040.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.0040.history">
+    <h2>History: </h2>
+    <p>18 SR 614</p>
+  </div>
+  <div class="published" id="rule.7009.0040.published">
+    <h2>Published Electronically:</h2>
+    <p> April 18, 2000</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.0050">
+    <h1 class="headnote">7009.0050 INTERPRETATION AND MEASUREMENT METHODOLOGY, EXCEPT FOR HYDROGEN SULFIDE.</h1>
+    <p>For all ambient air quality standards except hydrogen sulfide, interpretation of the standards and measurements made to determine compliance with the standards shall be performed as set forth in:</p>
+    <div id="rule.7009.0050.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7009.0050.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> Code of Federal Regulations, title 40, part 50, National Primary and Secondary Ambient Air Quality Standards, as amended; or</p>
+    </div>
+    <div id="rule.7009.0050.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7009.0050.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> Code of Federal Regulations, title 40, part 53-Ambient Air Monitoring Reference and Equivalent Methods, as amended; and</p>
+    </div>
+    <div id="rule.7009.0050.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7009.0050.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> Code of Federal Regulations, title 40, part 58, Ambient Air Quality Surveillance, as amended.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7009.0050.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.0050.history">
+    <h2>History: </h2>
+    <p>18 SR 614; 19 SR 550; 23 SR 2224</p>
+  </div>
+  <div class="published" id="rule.7009.0050.published">
+    <h2>Published Electronically:</h2>
+    <p> April 18, 2000</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.0060">
+    <h1 class="headnote">7009.0060 MEASUREMENT METHODOLOGY FOR HYDROGEN SULFIDE.</h1>
+    <p>For hydrogen sulfide, measurements made to determine compliance with the standards shall be performed in accordance with any measurement method approved by the commissioner. The commissioner shall approve a measurement method where the sensitivity, precision, accuracy, response time, and interference levels of the method are comparable to that of the measurement methods for the other pollutants described in part <a href="/rules/7009.0050">7009.0050</a>; and when the person seeking to take the measurement has developed and submitted to the agency a quality assurance plan that provides operational procedures for each of the activities described in Code of Federal Regulations, as amended, title 40, part 58, appendix A.2.2, Quality Assurance Requirements for State and Local Air Monitoring Stations.</p>
+  </div>
+  <div class="stat_auth" id="rule.7009.0060.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.0060.history">
+    <h2>History: </h2>
+    <p>L 1987 c 186 s 15; 18 SR 614; 19 SR 550</p>
+  </div>
+  <div class="published" id="rule.7009.0060.published">
+    <h2>Published Electronically:</h2>
+    <p> April 18, 2000</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.0070">
+    <h1 class="headnote repealed">7009.0070</h1>
+    <p>[Repealed, 41 SR 763]</p>
+  </div>
+  <div class="published" id="rule.7009.0070.published">
+    <h2>Published Electronically:</h2>
+    <p> January 27, 2017</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.0080">
+    <h1 class="headnote">7009.0080 MINNESOTA AMBIENT AIR QUALITY STANDARDS.</h1>
+    <p>The following table contains the state ambient air quality standards.</p>
+    <table>
+      <col style="width:19.2307692307692%">
+      <col style="width:19.2307692307692%">
+      <col style="width:19.2307692307692%">
+      <col style="width:19.2307692307692%">
+      <col style="width:23.0769230769231%">
+      <tr>
+        <td>Air Pollutant</td>
+        <td>Level of Primary Standard</td>
+        <td>Level of Secondary Standard</td>
+        <td>Averaging Time</td>
+        <td>Form of the Standard</td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">Hydrogen Sulfide</td>
+        <td class="valign_top">0.05 ppm by volume (70.0 micrograms per cubic meter)</td>
+        <td></td>
+        <td class="valign_top">30-minutes</td>
+        <td class="valign_top">30-minute average not to be exceeded more than two times in a year</td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">0.03 ppm by volume (42.0 micrograms per cubic meter)</td>
+        <td></td>
+        <td class="valign_top">30-minutes</td>
+        <td class="valign_top">30-minute average not to be exceeded more than two times in 5 consecutive days</td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">Ozone</td>
+        <td class="valign_top"> 70 ppb by volume (137 micrograms per cubic meter)</td>
+        <td class="valign_top">Same as primary standard</td>
+        <td class="valign_top">8-hour</td>
+        <td class="valign_top">3-year average of the annual fourth high daily maximum 8-hour concentration does not exceed standard</td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">Carbon Monoxide</td>
+        <td class="valign_top">9 ppm by volume (10 milligrams per cubic meter)</td>
+        <td class="valign_top"></td>
+        <td>8-hour</td>
+        <td>Annual second-high 8-hour concentration does not exceed standard </td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">35 ppm by volume (40 milligrams per cubic meter)</td>
+        <td class="valign_top"></td>
+        <td>1-hour</td>
+        <td>Annual second-high 1-hour concentration does not exceed standard</td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">Sulfur Dioxide</td>
+        <td class="valign_top">30 ppb by volume (79 micrograms per cubic meter)</td>
+        <td></td>
+        <td>Annual average</td>
+        <td>Annual average concentration does not exceed standard</td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>140 ppb (367 micrograms per cubic meter)</td>
+        <td class="valign_top"></td>
+        <td>24-hour</td>
+        <td>Annual second-high 24-hour concentration does not exceed standard</td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>500 ppb by volume (1,310 micrograms per cubic meter)</td>
+        <td>3-hour</td>
+        <td>Annual second-high 3-hour concentration does not exceed the standard</td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">75 ppb (197 micrograms per cubic meter)</td>
+        <td></td>
+        <td class="valign_top">1-hour</td>
+        <td>3-year average of the annual 99th-percentile of daily maximum 1-hour concentrations does not exceed standard</td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Total Suspended Particulate </td>
+        <td>75 micrograms per cubic meter</td>
+        <td>60 micrograms per cubic meter</td>
+        <td>Annual average</td>
+        <td>Annual  geometric mean concentration does not exceed standard</td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">260 micrograms per cubic meter</td>
+        <td class="valign_top">150 micrograms per cubic meter</td>
+        <td>24-hour</td>
+        <td>Annual second-high 24-hour concentration does not exceed standard</td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">Nitrogen Dioxide</td>
+        <td>53 ppb by volume (100 micrograms per cubic meter)</td>
+        <td class="valign_top">Same as primary standard</td>
+        <td>Annual average</td>
+        <td>Annual average concentration does not exceed standard</td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">100 ppb by volume (188 micrograms per cubic meter)</td>
+        <td></td>
+        <td class="valign_top">1-hour</td>
+        <td>3-year average of the annual 98th-percentile of daily maximum 1-hour concentrations does not exceed standard</td>
+      </tr>
+      <tr>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+      </tr>
+      <tr>
+        <td class="valign_top">Lead </td>
+        <td class="valign_top">0.15 micrograms per cubic meter</td>
+        <td class="valign_top">Same as primary standard</td>
+        <td>Rolling 3-month average</td>
+        <td>Maximum 3-month rolling average from 3 consecutive years does not exceed the standard</td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">PM-10</td>
+        <td class="valign_top">150 micrograms per cubic meter</td>
+        <td class="valign_top">Same as primary standard</td>
+        <td>24-hour</td>
+        <td>3-year average of the annual estimated exceedance days is less than or equal to 1</td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">PM-2.5 </td>
+        <td class="valign_top">35 micrograms per cubic meter</td>
+        <td class="valign_top">Same as primary standard</td>
+        <td>24-hour</td>
+        <td>3-year average of the annual 98th-percentile of 24-hour concentrations does not exceed the standard </td>
+      </tr>
+      <tr>
+        <td colspan="4"></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">12.0 micrograms per cubic meter </td>
+        <td class="valign_top">15.0 micrograms per cubic meter</td>
+        <td>Annual average</td>
+        <td>3-year average of the annual seasonally-<br>weighted average does not exceed the standard</td>
+      </tr>
+    </table>
+  </div>
+  <div class="stat_auth" id="rule.7009.0080.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.0080.history">
+    <h2>History: </h2>
+    <p>18 SR 614; 19 SR 550; 22 SR 1237; 23 SR 2224; 41 SR 763</p>
+  </div>
+  <div class="published" id="rule.7009.0080.published">
+    <h2>Published Electronically:</h2>
+    <p> January 27, 2017</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.0090">
+    <h1 class="headnote">7009.0090 NATIONAL AMBIENT AIR QUALITY STANDARDS.</h1>
+    <p>The following national ambient air quality standards, established pursuant to section 109 of the Clean Air Act, are adopted and incorporated by reference. Interpretation of the standards and measurements made to determine compliance with these standards must be performed as specified in part <a href="/rules/7009.0050">7009.0050</a>:</p>
+    <div id="rule.7009.0090.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7009.0090.A">§</a>
+      <h3 class="item_no">A. </h3>
+      <p>sulfur dioxide (SO<sub>2</sub>), Code of Federal Regulations, title 40, sections 50.4, 50.5, and <a href="/statutes/cite/50.17">50.17</a>, as amended;</p>
+    </div>
+    <div id="rule.7009.0090.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7009.0090.B">§</a>
+      <h3 class="item_no">B. </h3>
+      <p>PM-10, Code of Federal Regulations, title 40, section 50.6, as amended;</p>
+    </div>
+    <div id="rule.7009.0090.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7009.0090.C">§</a>
+      <h3 class="item_no">C. </h3>
+      <p>PM-2.5, Code of Federal Regulations, title 40, sections <a href="/statutes/cite/50.13">50.13 </a>and <a href="/statutes/cite/50.18">50.18</a>, as amended;</p>
+    </div>
+    <div id="rule.7009.0090.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.7009.0090.D">§</a>
+      <h3 class="item_no">D. </h3>
+      <p>carbon monoxide (CO), Code of Federal Regulations, title 40, section 50.8, as amended;</p>
+    </div>
+    <div id="rule.7009.0090.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.7009.0090.E">§</a>
+      <h3 class="item_no">E. </h3>
+      <p>ozone (O<sub>3</sub>), Code of Federal Regulations, title 40, sections 50.9 and <a href="/statutes/cite/50.19">50.19</a>, as amended;</p>
+    </div>
+    <div id="rule.7009.0090.F" class="item">
+      <a title="Link to item F" class="permalink" href="#rule.7009.0090.F">§</a>
+      <h3 class="item_no">F. </h3>
+      <p>nitrogen dioxide (NO<sub>2</sub>), Code of Federal Regulations, title 40, section <a href="/statutes/cite/50.11">50.11</a>, as amended; and</p>
+    </div>
+    <div id="rule.7009.0090.G" class="item">
+      <a title="Link to item G" class="permalink" href="#rule.7009.0090.G">§</a>
+      <h3 class="item_no">G. </h3>
+      <p>lead (Pb), Code of Federal Regulations, title 40, section <a href="/statutes/cite/50.16">50.16</a>, as amended.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7009.0090.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.0090.history">
+    <h2>History: </h2>
+    <p>41 SR 763</p>
+  </div>
+  <div class="published" id="rule.7009.0090.published">
+    <h2>Published Electronically:</h2>
+    <p> January 27, 2017</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.1000">
+    <h1 class="headnote">7009.1000 AIR POLLUTION EPISODES.</h1>
+    <p>Parts <a href="/rules/7009.1000">7009.1000</a> to <a href="/rules/7009.1110">7009.1110</a> apply to any owner or operator of any emission facility or stationary source having allowable emissions of any single air pollutant of 250 or more tons per year located within or having air pollutant emissions affecting any area within Minnesota for which an air pollution alert, air pollution warning, air pollution emergency, or air pollution significant harm episode has been declared by the commissioner.</p>
+  </div>
+  <div class="stat_auth" id="rule.7009.1000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.1000.history">
+    <h2>History: </h2>
+    <p>L 1987 c 186 s 15; 13 SR 2154; 18 SR 614; 20 SR 2316</p>
+  </div>
+  <div class="published" id="rule.7009.1000.published">
+    <h2>Published Electronically:</h2>
+    <p> April 18, 2000</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.1010">
+    <h1 class="headnote">7009.1010 DEFINITIONS.</h1>
+    <div id="rule.7009.1010.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7009.1010.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>As used in parts <a href="/rules/7009.1000">7009.1000</a> to <a href="/rules/7009.1110">7009.1110</a>, the following words shall have the meanings defined herein.</p>
+    </div>
+    <div id="rule.7009.1010.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7009.1010.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Air pollutant. </h2>
+      <p>"Air pollutant" means particulate matter, sulfur dioxide, nitrogen oxides, ozone, carbon monoxide, or nonmethane hydrocarbons.</p>
+    </div>
+    <div id="rule.7009.1010.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7009.1010.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Alert level. </h2>
+      <p>"Alert level" means the concentration of pollutants, as specified in part <a href="/rules/7009.1020">7009.1020</a>, at which first stage control actions are to be taken.</p>
+    </div>
+    <div id="rule.7009.1010.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7009.1010.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Allowable emission. </h2>
+      <p>"Allowable emission" means the emission rate calculated using the maximum rated capacity of the emission facility or stationary source, unless the emission facility or stationary source is subject to enforceable permit conditions which limit the operating rate or hours of operation or both, and the applicable standard of performance in agency rules or the standard in the permit, whichever is more stringent.</p>
+    </div>
+    <div id="rule.7009.1010.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7009.1010.4">§</a>
+      <h2 class="subp_no">Subp. 4a.</h2>
+      <h2 class="headnote">Commissioner. </h2>
+      <p>"Commissioner" means the commissioner of the Minnesota Pollution Control Agency or the commissioner's designee.</p>
+    </div>
+    <div id="rule.7009.1010.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7009.1010.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Declaration. </h2>
+      <p>"Declaration" means the formal public notification of an episode made by the commissioner.</p>
+    </div>
+    <div id="rule.7009.1010.6" class="subp repealed">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7009.1010.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <p>[Repealed by amendment, L 1987 c 186 s 15]</p>
+    </div>
+    <div id="rule.7009.1010.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7009.1010.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Emergency level. </h2>
+      <p>"Emergency level" means that concentration of pollutants, as specified in part <a href="/rules/7009.1020">7009.1020</a>, at which third stage control actions are to be taken.</p>
+    </div>
+    <div id="rule.7009.1010.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7009.1010.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Episode. </h2>
+      <p>"Episode" means that period of time during which ambient air concentrations of air pollutants equal or exceed the alert level and meteorological conditions are such that the air pollutant concentrations can be expected to persist or to increase in the absence of control actions.</p>
+    </div>
+    <div id="rule.7009.1010.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.7009.1010.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Significant harm level. </h2>
+      <p>"Significant harm level" means that concentration of pollutants, as specified in part <a href="/rules/7009.1020">7009.1020</a>, at which fourth stage control actions are to be taken.</p>
+    </div>
+    <div id="rule.7009.1010.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.7009.1010.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Warning level. </h2>
+      <p>"Warning level" means that concentration of pollutants, as specified in part <a href="/rules/7009.1020">7009.1020</a>, at which second stage control actions are to be taken.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7009.1010.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.1010.history">
+    <h2>History: </h2>
+    <p>L 1987 c 186 s 15; 13 SR 2154; 18 SR 614</p>
+  </div>
+  <div class="published" id="rule.7009.1010.published">
+    <h2>Published Electronically:</h2>
+    <p> April 18, 2000</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.1020">
+    <h1 class="headnote">7009.1020 EPISODE LEVELS.</h1>
+    <p>The level at which the commissioner shall declare an air pollutant alert, warning, emergency, or significant harm episode shall be determined by table 1 in part <a href="/rules/7009.1060">7009.1060</a>.</p>
+  </div>
+  <div class="stat_auth" id="rule.7009.1020.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.1020.history">
+    <h2>History: </h2>
+    <p>L 1987 c 186 s 15; 18 SR 614</p>
+  </div>
+  <div class="published" id="rule.7009.1020.published">
+    <h2>Published Electronically:</h2>
+    <p> April 18, 2000</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.1030">
+    <h1 class="headnote">7009.1030 EPISODE DECLARATION.</h1>
+    <div id="rule.7009.1030.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7009.1030.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Alert. </h2>
+      <p>An air pollution alert shall be declared by the commissioner when the commissioner finds that the concentration of any air pollutant has reached the alert level at any monitoring site and meteorological conditions are such that the air pollutant concentration can be expected to remain at, or exceed, the alert level for 12 or more hours or, in the case of ozone, to recur the following day at the same or higher levels unless control actions are taken.</p>
+    </div>
+    <div id="rule.7009.1030.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7009.1030.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Warning. </h2>
+      <p>An air pollution warning shall be declared by the commissioner when the commissioner finds that the concentration of any air pollutant has reached the warning level at any monitoring site and meteorological conditions are such that the air pollutant concentration can be expected to remain at, or exceed, the warning level for 12 or more hours or, in the case of ozone, to recur the following day at the same or higher levels unless control actions are taken. An air pollution warning shall also be declared by the commissioner when the commissioner finds that the alert level concentrations for any air pollutant have persisted in the area for 48 hours and are expected to continue for the subsequent 12 hours.</p>
+    </div>
+    <div id="rule.7009.1030.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7009.1030.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Emergency. </h2>
+      <p>An air pollution emergency shall be declared by the commissioner when the concentration of any air pollutant has reached the emergency level at any monitoring site and meteorological conditions are such that the air pollutant concentration can be expected to remain at, or exceed, the emergency level for 12 or more hours or, in the case of ozone, to recur the following day at the same or higher levels unless control actions are taken. An air pollution emergency shall also be declared by the commissioner when the commissioner finds that the warning level concentrations for any air pollutant have persisted in the area for 48 hours and are expected to continue for the subsequent 12 hours.</p>
+    </div>
+    <div id="rule.7009.1030.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7009.1030.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Significant harm episode. </h2>
+      <p>An air pollution significant harm episode shall be declared by the commissioner when the concentration of any air pollutant has reached the significant harm level at any monitoring site and meteorological conditions are such that the air pollutant concentration can be expected to remain at, or exceed, the significant harm level for 12 or more hours or, in the case of ozone, to recur the following day at the same or higher levels unless control actions are taken.</p>
+    </div>
+    <div id="rule.7009.1030.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7009.1030.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Geographical area. </h2>
+      <p>The geographical area subject to episode levels of any air pollutant shall be delineated to the extent feasible and shall be identified in the commissioner's declaration.</p>
+    </div>
+    <div id="rule.7009.1030.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7009.1030.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">End of episode. </h2>
+      <p>The commissioner shall terminate the episode by declaration when:</p>
+      <div id="rule.7009.1030.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7009.1030.6.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the measured air pollutant concentrations no longer satisfy the criteria specified in part <a href="/rules/7009.1020">7009.1020</a>; and</p>
+      </div>
+      <div id="rule.7009.1030.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7009.1030.6.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the meteorological conditions indicate that there will not be a recurrence of episode levels of air pollutants within 24 hours of control actions are reduced or eliminated.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7009.1030.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.1030.history">
+    <h2>History: </h2>
+    <p>L 1987 c 186 s 15; 18 SR 614</p>
+  </div>
+  <div class="published" id="rule.7009.1030.published">
+    <h2>Published Electronically:</h2>
+    <p> April 18, 2000</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.1040">
+    <h1 class="headnote">7009.1040 CONTROL ACTIONS.</h1>
+    <div id="rule.7009.1040.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7009.1040.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Compliance required. </h2>
+      <p>Notwithstanding the provisions of other rules or of any installation permit, operating permit, stipulation agreement, variances, or order of the agency, all persons shall, upon notification by the commissioner or the commissioner's designee, comply with episode control directives issued by the commissioner.</p>
+    </div>
+    <div id="rule.7009.1040.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7009.1040.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Control directive. </h2>
+      <p>Control directives issued to any owner or operator of an emission facility shall be based on the emission reduction plan submitted to the commissioner pursuant to subpart 3; provided, however, that in the event that no emission reduction plan has been approved for such facility, the episode control directives shall be based upon the emission reduction objectives set forth at subpart 4.</p>
+    </div>
+    <div id="rule.7009.1040.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7009.1040.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Episode emission reduction plan. </h2>
+      <p>The owner or operator of each emission facility or stationary source located in an area of the state designated by the commissioner as having exceeded the alert levels in part <a href="/rules/7009.1060">7009.1060</a>, table 1, within the last ten years and having allowable emissions of greater than or equal to 250 tons per year of the pollutant causing the episode, shall submit to the commissioner an episode emission reduction plan to be implemented at the facility or stationary source in the event of a declaration by the commissioner of an air pollution episode. The plan shall be submitted to the commissioner within 90 days of the designation of the area or by September 1, 1995, whichever is later. The plan shall be consistent with the emission reduction objectives in subpart 4 and shall designate at least two individuals to be notified in the event of the declaration of an air pollution episode. The plan shall be subject to the approval of the commissioner. If the commissioner finds that the plan is inconsistent with such emission reduction objectives, the plan shall be returned to the owner or operator along with a written statement of the reason(s) for disapproval. The owner or operator shall correct the deficiency within 30 days of notification of disapproval and shall resubmit the plan to the commissioner.</p>
+    </div>
+    <div id="rule.7009.1040.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7009.1040.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Emission reduction objectives. </h2>
+      <p>For the purpose of these parts, emission reduction objectives shall be as indicated in tables 2 through 6 in parts <a href="/rules/7009.1070">7009.1070</a> to <a href="/rules/7009.1110">7009.1110</a>. In the event of episode levels of both particulate matter and sulfur dioxide the commissioner shall direct coal fired electric power generating facilities which pollutant is to be reduced at each facility.</p>
+    </div>
+    <div id="rule.7009.1040.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7009.1040.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Right to enter. </h2>
+      <p>During the time that an air pollution episode declaration is in effect and has not been terminated, the owner or operator of any emission facility who has been directed to implement any portion of the facility's emission reduction plan shall allow the agency, or any authorized employee or agent of the agency, when authorized by law and upon the presentation of proper credentials to enter upon the property of the owner or operator for the purpose of obtaining information or examining records or conducting surveys or investigations pertaining to the operation of the emission facilities and the control equipment. The owner or operator shall make available on the premises to such agency employee a copy of the episode emission reduction plan for the emission facility and shall, upon request of the agency employee, demonstrate that the control directives issued to the owner or operator are being implemented.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7009.1040.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.1040.history">
+    <h2>History: </h2>
+    <p>L 1987 c 186 s 15; 13 SR 2154; 18 SR 614; 20 SR 2316; 22 SR 1237</p>
+  </div>
+  <div class="published" id="rule.7009.1040.published">
+    <h2>Published Electronically:</h2>
+    <p> April 18, 2000</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.1050">
+    <h1 class="headnote">7009.1050 EMERGENCY POWERS.</h1>
+    <p>Nothing in these parts shall be interpreted to preempt the agency's emergency powers as provided in Minnesota Statutes, section <a href="/statutes/cite/116.11">116.11</a> or to preclude appropriate actions from being taken by the agency to protect the public health.</p>
+  </div>
+  <div class="stat_auth" id="rule.7009.1050.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.1050.history">
+    <h2>History: </h2>
+    <p>18 SR 614</p>
+  </div>
+  <div class="published" id="rule.7009.1050.published">
+    <h2>Published Electronically:</h2>
+    <p> April 18, 2000</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.1060">
+    <h1 class="headnote">7009.1060 TABLE 1.</h1>
+    <table>
+      <col style="width:27.6923076923077%">
+      <col style="width:18.4615384615385%">
+      <col style="width:18.4615384615385%">
+      <col style="width:18.4615384615385%">
+      <col style="width:16.9230769230769%">
+      <tr>
+        <td></td>
+        <td>Alert</td>
+        <td>Warning</td>
+        <td>Emergency</td>
+        <td>Significant<br>Harm</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>SO<sub>2</sub></td>
+        <td>300 ppb</td>
+        <td>600 ppb</td>
+        <td>800 ppb</td>
+        <td>1000 ppb</td>
+      </tr>
+      <tr>
+        <td>24 hr. avg.</td>
+        <td>800 µg/m<sup>3</sup></td>
+        <td>1600 µg/m<sup>3</sup></td>
+        <td>2100 µg/m<sup>3</sup></td>
+        <td>2620 µg/m<sup>3 </sup></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">PM-10 24 hr. avg. </td>
+        <td class="valign_top">350 µg/m<sup>3 </sup></td>
+        <td class="valign_top">420 µg/m<sup>3 </sup></td>
+        <td class="valign_top">500 µg/m<sup>3 </sup></td>
+        <td class="valign_top">600 µg/m<sup>3</sup></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>CO</td>
+        <td>15 ppm</td>
+        <td>30 ppm</td>
+        <td>40 ppm</td>
+        <td>50 ppm</td>
+      </tr>
+      <tr>
+        <td>8 hr. avg.</td>
+        <td>17 mg/m<sup>3</sup></td>
+        <td>34 mg/m<sup>3</sup></td>
+        <td>46 mg/m<sup>3</sup></td>
+        <td>57.5 mg/m<sup>3</sup></td>
+      </tr>
+      <tr>
+        <td class="valign_top">4 hr. avg.</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>86.3 mg/m<sup>3</sup><br>75 ppm</td>
+      </tr>
+      <tr>
+        <td class="valign_top">1 hr. avg.</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>144 mg/m<sup>3</sup><br>125 ppm</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>NO<sub>2</sub></td>
+        <td>150 ppb</td>
+        <td>300 ppb</td>
+        <td>400 ppb</td>
+        <td>500 ppb</td>
+      </tr>
+      <tr>
+        <td>24 hr. avg.</td>
+        <td>282 µg/m<sup>3</sup></td>
+        <td>565 µg/m<sup>3</sup></td>
+        <td>750 µg/m<sup>3</sup></td>
+        <td>938 µg/m<sup>3</sup></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>NO<sub>2</sub></td>
+        <td>600 ppb</td>
+        <td>1200 ppb</td>
+        <td>1600 ppb</td>
+        <td>2000 ppb</td>
+      </tr>
+      <tr>
+        <td>1 hr. avg.</td>
+        <td>1130 µg/m<sup>3</sup></td>
+        <td>2260 µg/m<sup>3</sup></td>
+        <td>3000 µg/m<sup>3</sup></td>
+        <td>3750 µg/m<sup>3</sup></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Ozone</td>
+        <td>200 ppb</td>
+        <td>400 ppb</td>
+        <td>500 ppb</td>
+        <td>600 ppb </td>
+      </tr>
+      <tr>
+        <td>2 hr. avg.</td>
+        <td>400 µg/m<sup>3</sup></td>
+        <td>800 µg/m<sup>3</sup></td>
+        <td>1000 µg/m<sup>3</sup></td>
+        <td>1200 µg/m<sup>3</sup></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+  <div class="stat_auth" id="rule.7009.1060.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/115.03">115.03</a>; <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.1060.history">
+    <h2>History: </h2>
+    <p>18 SR 614; 41 SR 763</p>
+  </div>
+  <div class="published" id="rule.7009.1060.published">
+    <h2>Published Electronically:</h2>
+    <p> January 27, 2017</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.1070">
+    <h1 class="headnote">7009.1070 TABLE 2: EMISSION REDUCTION OBJECTIVES FOR PARTICULATE MATTER.</h1>
+    <table>
+      <col style="width:20%">
+      <col style="width:26.6666666666667%">
+      <col style="width:26.6666666666667%">
+      <col style="width:26.6666666666667%">
+      <tr>
+        <td>EMISSION FACILITY</td>
+        <td>AIR POLLUTION ALERT</td>
+        <td>AIR POLLUTION WARNING</td>
+        <td>AIR POLLUTION EMERGENCY</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>1. Coal or oil-fired electric power generating facilities.</td>
+        <td>a. Substantial reduction by utilization of fuels having lowest available ash content.</td>
+        <td>a. Maximum reduction by utilization of fuels having lowest available ash content.</td>
+        <td>a. Maximum reduction by utilization of fuels having lowest available ash content.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>b. Maximum utilization of midday (12:00 noon to 4:00 p.m.) atmospheric turbulence for boiler lancing and soot blowing</td>
+        <td>b. Maximum utilization of midday (12:00 noon to 4:00 p.m.) atmospheric turbulence for boiler lancing and soot blowing.</td>
+        <td>b. Maximum utilization of midday (12:00 noon to 4:00 p.m.) atmospheric turbulence for boiler lancing and soot blowing.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">c. Substantial reduction by diverting electric power generation to facilities outside of Alert Area.</td>
+        <td>c. Maximum reduction by diverting electric power generation to facilities outside of Warning Area.</td>
+        <td>c. Maximum reduction by diverting electric power generation to facilities outside of Emergency Area.</td>
+      </tr>
+      <tr>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+      </tr>
+      <tr>
+        <td class="valign_top">2. Coal or oil-fired process steam generating facilities</td>
+        <td class="valign_top">a. Substantial reduction by utilization of fuels having lowest available ash content.</td>
+        <td class="valign_top">a. Maximum reduction by utilization of fuels having lowest available ash content.</td>
+        <td class="valign_top">a. Maximum reduction by reducing heat and steam demands to absolute necessities consistent with preventing equipment damage.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">b. Maximum utilization of midday (12:00 noon to 4:00 p.m.) atmospheric turbulence for boiler lancing and soot blowing.</td>
+        <td class="valign_top">b. Maximum utilization of midday (12:00 noon to 4:00 p.m). atmospheric turbulence for boiler lancing and soot blowing</td>
+        <td class="valign_top">b. Maximum utilization of midday (12:00 noon to 4:00 p.m.) atmospheric turbulence for boiler landing and soot blowing.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">c. Reduction of steam load demands consistent with continuing plant operation.</td>
+        <td class="valign_top">c. Reduction of steam load demands consistent with continuing plant operations.</td>
+        <td class="valign_top">c. Taking the action called for in the emergency plan.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top"></td>
+        <td class="valign_top">d. Making ready for use a plan of action to be taken if an emergency develops.</td>
+        <td class="valign_top"></td>
+      </tr>
+      <tr>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+      </tr>
+      <tr>
+        <td class="valign_top">3. A-Manufac- turing, processing, and mining industries.<br>AND<br>B-Other persons required by this rule to prepare standby plans.</td>
+        <td class="valign_top">a. Substantial reduction of air contaminants from manufacturing operations by curtailing, postponing, or deferring production and allied operations.</td>
+        <td class="valign_top">a. Maximum reduction of air contaminants from manufacturing operations by, if necessary, assuming reasonable economic hardship by postponing production and allied operations.</td>
+        <td class="valign_top">a. Elimination of air contaminants from manufacturing operations by ceasing, curtailing, postponing or deferring production and allied operations to the extent possible without causing injury to persons or damage to equipment.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">b. Maximum reduction by deferring trade waste disposal operations which emit particles.</td>
+        <td class="valign_top">b. Maximum reduction by deferring trade waste disposal operations which emit particles.</td>
+        <td>b. Elimination of air contaminants from trade waste disposal processes which emit particles.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>c. Reduction of particulate producing heat load demands for processing consistent with continuing plant operations.</td>
+        <td>c. Reduction of particulate producing heat load demands for processing consistent with continuing plant operations.</td>
+        <td class="valign_top">c. Maximum reduction of particulate producing heat load demands for processing.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">4. Refuse disposal operations.</td>
+        <td>a. Maximum reduction by prevention of open burning.</td>
+        <td>a. Maximum reduction by prevention of open burning.</td>
+        <td>a. Maximum reduction by prevention of open burning.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>b. Substantial reduction by limiting burning of refuse in incinerators to the hours between 12:00 noon and 4:00 p.m.</td>
+        <td class="valign_top">b. Complete elimination of the use of incinerators.</td>
+        <td class="valign_top">b. Complete elimination of the use of incinerators.</td>
+      </tr>
+    </table>
+  </div>
+  <div class="stat_auth" id="rule.7009.1070.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.1070.history">
+    <h2>History: </h2>
+    <p>18 SR 614</p>
+  </div>
+  <div class="published" id="rule.7009.1070.published">
+    <h2>Published Electronically:</h2>
+    <p> April 18, 2000</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.1080">
+    <h1 class="headnote">7009.1080 TABLE 3: EMISSION OBJECTIVES FOR SULFUR OXIDES.</h1>
+    <table>
+      <col style="width:21.3114754098361%">
+      <col style="width:26.2295081967213%">
+      <col style="width:26.2295081967213%">
+      <col style="width:26.2295081967213%">
+      <tr>
+        <td>EMISSION FACILITY</td>
+        <td>AIR POLLUTION ALERT</td>
+        <td>AIR POLLUTION WARNING</td>
+        <td>AIR POLLUTION EMERGENCY</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">1. Coal or oil-fired electric power generating facilities.</td>
+        <td class="valign_top">a. Substantial reduction by utilization of fuels having  lowest available sulfur content.</td>
+        <td class="valign_top">a. Maximum reduction by utilization of fuels having lowest available sulfur content.</td>
+        <td class="valign_top">a. Maximum reduction by utilization of fuels having lowest available sulfur content.</td>
+      </tr>
+      <tr>
+        <td class="valign_top"></td>
+        <td>b. Substantial reduction by diverting electric power generation to facilities outside of Alert Area.</td>
+        <td class="valign_top">b. Maximum reduction by diverting electric power generation to facilities outside of Warning Area. </td>
+        <td class="valign_top">b. Maximum reduction by diverting electric power generation to facilities outside of Emergency Area.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+      </tr>
+      <tr>
+        <td class="valign_top">2. Coal or oil-fired process steam generating facilities.</td>
+        <td class="valign_top">a. Substantial reduction by utilization of fuels having lowest available sulfur content.</td>
+        <td class="valign_top">a. Maximum reduction by utilization of fuels having the lowest available sulfur content.</td>
+        <td class="valign_top">a. Maximum reduction by reducing heat and steam demands to absolute necessities consistent with preventing equipment damage.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">b. Reduction of steam load demands consistent with continuing plant operations.</td>
+        <td class="valign_top">b. Reduction of steam load demands consistent with continuing plant operations.</td>
+        <td class="valign_top">b. Taking the action called for in the emergency plan.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>c. Making ready for use a plan of action to be taken if an emergency develops.</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">3. A-Manufac- <br>turing and processing industries<br>AND<br>B-Other persons required by this rule to prepare standby plans.</td>
+        <td class="valign_top">a. Substantial reduction of air contaminants from manufacturing operations by curtailing, postponing, or deferring production and allied operations.</td>
+        <td class="valign_top">a. Maximum reduction of air contaminants from manufacturing operations by, if necessary, assuming reasonable economic hardship by postponing production and allied operations.</td>
+        <td>a. Elimination of air contaminants from manufacturing operations by ceasing, curtailing, postponing or deferring production and allied operations to the extent possible without causing injury to persons or damage to equipment.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">b. Maximum reduction by deferring trade waste disposal operations which emit sulfur dioxide.</td>
+        <td class="valign_top">b. Maximum reduction by deferring trade waste disposal operations which emit sulfur dioxide.</td>
+        <td class="valign_top">b. Elimination of air contaminants from trade waste disposal processes which emit sulfur dioxide.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">c. Reduction of sulfur dioxide producing heat load demands for processing consistent with continuing plant operations</td>
+        <td>c. Reduction of sulfur dioxide producing heat load demands for processing consistent with continuing plant operations.</td>
+        <td class="valign_top">c. Maximum reduction of sulfur dioxide producing load demands for processing.</td>
+      </tr>
+    </table>
+  </div>
+  <div class="stat_auth" id="rule.7009.1080.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.1080.history">
+    <h2>History: </h2>
+    <p>18 SR 614</p>
+  </div>
+  <div class="published" id="rule.7009.1080.published">
+    <h2>Published Electronically:</h2>
+    <p> April 18, 2000</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.1090">
+    <h1 class="headnote">7009.1090 TABLE 4: EMISSION REDUCTION OBJECTIVES FOR NITROGEN OXIDES.</h1>
+    <table>
+      <col style="width:25%">
+      <col style="width:25%">
+      <col style="width:25%">
+      <col style="width:25%">
+      <tr>
+        <td class="valign_top">EMISSION FACILITY</td>
+        <td class="valign_top">AIR POLLUTION ALERT</td>
+        <td class="valign_top">AIR POLLUTION WARNING</td>
+        <td class="valign_top">AIR POLLUTION EMERGENCY</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">1. Steam-electric power generating facilities.</td>
+        <td class="valign_top">a. Substantial reduction by utilization of fuel which results in the formation of less air contaminant.</td>
+        <td class="valign_top">a. Maximum reduction by utilization of fuel which results in the formation of less air contaminant.</td>
+        <td class="valign_top">a. Maximum reduction by diverting electric power generation to facilities outside of Emergency Area.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">b. Substantial reduction by diverting electric power generation to facilities outside of Alert Area.</td>
+        <td class="valign_top">b. Maximum reduction by diverting electric power generation facilities outside of Warning Area.</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">2. Process steam generating facilities.</td>
+        <td class="valign_top">a. Substantial reduction by utilization of fuel which results in the formation of less air contaminant.</td>
+        <td class="valign_top">a. Maximum reduction by utilization of fuel which results in the formation of less air contaminant.</td>
+        <td class="valign_top">a. Maximum reduction by reducing heat and steam demands to absolute necessities consistent with preventing equipment damage.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>b. Reduction of steam load demands consistent with continuing plant operations.</td>
+        <td>b. Reduction of steam load demands consistent with continuing plant operations.</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td>c. Making ready for use a plan of action to be taken if an emergency develops.</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">3. A-Manufacturing and processing industries.<br>AND<br>B-Other persons required by this rule to prepare standby plans.</td>
+        <td class="valign_top">a. Substantial reduction of air contaminants from manufacturing operations by curtailing, postponing, or deferring production and allied operations.</td>
+        <td class="valign_top">a. Maximum reduction of air contaminants from manufacturing operations by, if necessary, assuming reasonable economic hardship by postponing production and allied operations.</td>
+        <td class="valign_top">a. Elimination of air contaminants from manufacturing operations by ceasing, curtailing, postponing or deferring production and allied operations to the extent possible without causing injury to persons or damage to equipment.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">b. Maximum reduction by deferring trade waste disposal operations which emit nitrogen oxides.</td>
+        <td class="valign_top">b. Maximum reduction by deferring trade waste disposal operations which emit nitrogen oxides.</td>
+        <td class="valign_top">b. Elimination of air contaminants from trade waste disposal processes which emit nitrogen oxides.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">c. Reduction of nitrogen oxide producing heat load demands for processing consistent with continuing plant operations.</td>
+        <td class="valign_top">c. Reduction of nitrogen oxide producing heat load demands for processing consistent with continuing plant operations.</td>
+        <td class="valign_top">c. Maximum reduction of nitrogen oxide producing heat load demands for processing.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">4. Stationary internal combustion engines.</td>
+        <td class="valign_top">a. Reduction of power demands consistent with continuing operations.</td>
+        <td class="valign_top">a. Reduction of power demands consistent with continuing operations.</td>
+        <td class="valign_top">a. Maximum reduction by reducing power demands to absolute necessities consistent with personnel safety and preventing equipment damage.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td class="valign_top">b. Maximum reduction by utilization of fuels or power source which results in the formation of less air contaminants.</td>
+        <td class="valign_top">b. Maximum reduction by utilization of fuels or power source which results in the formation of less air contaminants.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">5. Refuse disposal operations.</td>
+        <td>a. Maximum reduction by prevention of open burning.</td>
+        <td>a. Maximum reduction by prevention of open burning.</td>
+        <td>a. Maximum reduction by prevention of open burning.</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td class="valign_top">b. Substantial reduction by limiting burning of refuse in incinerators to the hours between 12:00 noon and 4:00 p.m.</td>
+        <td class="valign_top">b. Complete elimination of the use of incinerators.</td>
+        <td class="valign_top">b. Complete elimination of the use of incinerators.</td>
+      </tr>
+    </table>
+  </div>
+  <div class="stat_auth" id="rule.7009.1090.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.1090.history">
+    <h2>History: </h2>
+    <p>18 SR 614</p>
+  </div>
+  <div class="published" id="rule.7009.1090.published">
+    <h2>Published Electronically:</h2>
+    <p> April 18, 2000</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.1100">
+    <h1 class="headnote">7009.1100 TABLE 5: EMISSION REDUCTION OBJECTIVES FOR HYDROCARBONS.</h1>
+    <table>
+      <col style="width:25%">
+      <col style="width:25%">
+      <col style="width:25%">
+      <col style="width:25%">
+      <tr>
+        <td class="valign_top">EMISSION FACILITY</td>
+        <td class="valign_top">AIR POLLUTION ALERT</td>
+        <td class="valign_top">AIR POLLUTION WARNING</td>
+        <td class="valign_top">AIR POLLUTION EMERGENCY</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">1. Petroleum products storage and distribution.</td>
+        <td class="valign_top">a. Substantial reduction of air contaminants by curtailing, postponing, or deferring transfer operations.</td>
+        <td class="valign_top">a. Maximum reduction of air contaminants by assuming reasonable economic hardship by postponing transfer operations.</td>
+        <td class="valign_top">a. Elimination of air contaminants by curtailing, postponing, or deferring transfer operations to the extent possible without causing damage to equipment.</td>
+      </tr>
+      <tr>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+      </tr>
+      <tr>
+        <td class="valign_top">2. Surface coating and preparation.</td>
+        <td class="valign_top">a. Substantial reduction of air contaminants by curtailing, postponing, or deferring transfer operations.</td>
+        <td class="valign_top">a. Maximum reduction of air contaminants by assuming reasonable economic hardship by postponing transfer operations.</td>
+        <td class="valign_top">a. Elimination of air contaminants by curtailing, postponing, or deferring transfer operations to the extent possible without causing damage to equipment.</td>
+      </tr>
+      <tr>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+      </tr>
+      <tr>
+        <td class="valign_top">3. A-Manufacturing and processing industries.<br>AND<br>B-Other persons required by this rule to prepare standby plans.</td>
+        <td class="valign_top">a. Substantial reduction of air contaminants from manufacturing operations by curtailing, postponing, or deferring production and allied operations.</td>
+        <td class="valign_top">a. Maximum reduction of air contaminants from manufacturing operations by, if necessary, assuming reasonable economic hardship by postponing production and allied operations.</td>
+        <td class="valign_top">a. Elimination of air contaminants from manufacturing operations by ceasing, curtailing, postponing or deferring production and allied operations to the extent possible without causing injury to persons or damage to equipment.</td>
+      </tr>
+      <tr>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+      </tr>
+      <tr>
+        <td class="valign_top">4. Mobile sources.</td>
+        <td class="valign_top">a. Voluntary reduction in unnecessary vehicle use in response to Agency advisory.</td>
+        <td class="valign_top">a. Voluntary reduction in vehicle use through increased use of public transport, car pools, and van pools.</td>
+        <td class="valign_top">a. Maximum reduction by banning vehicle use except for emergencies.</td>
+      </tr>
+    </table>
+  </div>
+  <div class="stat_auth" id="rule.7009.1100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.1100.history">
+    <h2>History: </h2>
+    <p>18 SR 614</p>
+  </div>
+  <div class="published" id="rule.7009.1100.published">
+    <h2>Published Electronically:</h2>
+    <p> April 18, 2000</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.1110">
+    <h1 class="headnote">7009.1110 TABLE 6: EMISSION REDUCTION OBJECTIVES FOR CARBON MONOXIDE.</h1>
+    <table>
+      <col style="width:25%">
+      <col style="width:25%">
+      <col style="width:25%">
+      <col style="width:25%">
+      <tr>
+        <td class="valign_top">EMISSION FACILITY</td>
+        <td>AIR POLLUTION ALERT</td>
+        <td>AIR POLLUTION WARNING</td>
+        <td>AIR POLLUTION EMERGENCY</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="valign_top">1. A-Manufacturing industries.<br>AND<br>B-Other persons required by this rule to prepare standby plans.</td>
+        <td class="valign_top">a. Substantial reduction of air contaminants from manufacturing operations by curtailing, postponing, or deferring production and allied operations.</td>
+        <td class="valign_top">a. Maximum reduction of air contaminants from manufacturing operations by, if necessary, assuming reasonable economic hardship by postponing production and allied operations.</td>
+        <td class="valign_top">a. Elimination of air contaminants from manufacturing operations by ceasing, curtailing, postponing or deferring production and allied operations to the extent possible without injury to persons or damage to equipment.</td>
+      </tr>
+      <tr>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+      </tr>
+      <tr>
+        <td class="valign_top">2. Refuse disposal operations.</td>
+        <td class="valign_top">a. Maximum reduction by prevention of open burning.</td>
+        <td class="valign_top">a. Maximum reduction by prevention of open burning.</td>
+        <td class="valign_top">a. Maximum reduction by prevention of open burning.</td>
+      </tr>
+      <tr>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+        <td class="valign_top"></td>
+      </tr>
+      <tr>
+        <td class="valign_top">3. Mobile Sources.</td>
+        <td class="valign_top">a. Voluntary reduction in unnecessary vehicle use in response to Agency advisory.</td>
+        <td class="valign_top">a. Voluntary reduction in vehicle use through increased use of public transport, car pools, and van pools.</td>
+        <td class="valign_top">a. Maximum reduction by banning vehicle use except for emergencies.</td>
+      </tr>
+    </table>
+  </div>
+  <div class="stat_auth" id="rule.7009.1110.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.1110.history">
+    <h2>History: </h2>
+    <p>18 SR 614</p>
+  </div>
+  <div class="published" id="rule.7009.1110.published">
+    <h2>Published Electronically:</h2>
+    <p> April 18, 2000</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7009.9000">
+    <h1 class="headnote">7009.9000 DETERMINING CONFORMITY OF GENERAL FEDERAL ACTIONS TO STATE OR FEDERAL IMPLEMENTATION PLANS.</h1>
+    <p>Code of Federal Regulations, title 40, part 51, subpart W, as amended, entitled "Determining Conformity of General Federal Actions to State or Federal Implementation Plans," is adopted and incorporated by reference, with the exception of Code of Federal Regulations, title 40, part 51, subpart W, section 51.851(a).</p>
+  </div>
+  <div class="stat_auth" id="rule.7009.9000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/116.07">116.07</a></p>
+  </div>
+  <div class="history" id="rule.7009.9000.history">
+    <h2>History: </h2>
+    <p>20 SR 1167</p>
+  </div>
+  <div class="published" id="rule.7009.9000.published">
+    <h2>Published Electronically:</h2>
+    <p> April 18, 2000</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
