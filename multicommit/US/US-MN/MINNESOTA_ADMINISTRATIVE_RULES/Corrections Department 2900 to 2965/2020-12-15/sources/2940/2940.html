@@ -1,0 +1,2897 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            2940.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/121">Corrections Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/2940/">Chapter 2940</a>
+            </li>
+        
+    
+        
+            <li>Part 2940.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/2940.0200/">2940.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/2940.0100/2014-01-18%2002:16:04+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 2940</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2940/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2940/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2940/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 2940.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/2940.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.0100">
+    <h1 class="headnote">2940.0100 DEFINITIONS.</h1>
+    <div id="rule.2940.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2940.0100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>As used in this chapter, the following terms have the meanings given them in this part.</p>
+    </div>
+    <div id="rule.2940.0100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2940.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Availability. </h2>
+      <p>"Availability" means the date on which the offender has made bail, bond, or has been released on personal recognizance or no bail required; or completed any local incarceration time which results from a misdemeanor, gross misdemeanor, or felony stayed sentence.</p>
+    </div>
+    <div id="rule.2940.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2940.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Board of Pardons. </h2>
+      <p>"Board of Pardons" means the Board of Pardons established by Minnesota Statutes, chapter 638.</p>
+    </div>
+    <div id="rule.2940.0100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2940.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Bookslip. </h2>
+      <p>"Bookslip" means the form issued by the central office records clerk which designates the agent of record.</p>
+    </div>
+    <div id="rule.2940.0100.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2940.0100.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Case management. </h2>
+      <p>"Case management" means the total system employed in the management of an inmate's case, including but not limited to the development of needs assessments and program plans; conducting progress and reentry reviews; and developing recommendations for conditions of release.</p>
+    </div>
+    <div id="rule.2940.0100.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.2940.0100.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Commissioner. </h2>
+      <p>"Commissioner" means the commissioner of corrections.</p>
+    </div>
+    <div id="rule.2940.0100.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.2940.0100.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">District supervisor. </h2>
+      <p>"District supervisor" means a Department of Corrections field supervisor.</p>
+    </div>
+    <div id="rule.2940.0100.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.2940.0100.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Executive officer of hearings and release. </h2>
+      <p>"Executive officer of hearings and release" means the person to whom the commissioner of corrections has delegated the authority for granting parole and work release; for revoking parole, work release, and supervised release; and for granting discharge from an indeterminate sentence.</p>
+    </div>
+    <div id="rule.2940.0100.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.2940.0100.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Expiration of the determinate sentence. </h2>
+      <p>"Expiration of the determinate sentence" means the date on which the maximum sentence pronounced by the court occurs.</p>
+    </div>
+    <div id="rule.2940.0100.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.2940.0100.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Expiration of the indeterminate sentence. </h2>
+      <p>"Expiration of the indeterminate sentence" means the date on which the maximum sentence pronounced by the court less good time reduction occurs.</p>
+    </div>
+    <div id="rule.2940.0100.11" class="subp repealed">
+      <a title="Link to subpart 11" class="permalink" href="#rule.2940.0100.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <p>[Repealed, 23 SR 808]</p>
+    </div>
+    <div id="rule.2940.0100.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.2940.0100.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Guidelines. </h2>
+      <p>"Guidelines" mean a sentence under Minnesota sentencing guidelines.</p>
+    </div>
+    <div id="rule.2940.0100.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.2940.0100.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Inmate. </h2>
+      <p>"Inmate" means a person committed to the jurisdiction of the commissioner who is imprisoned in a correctional facility or other place designated by the commissioner.</p>
+    </div>
+    <div id="rule.2940.0100.14" class="subp">
+      <a title="Link to subpart 14" class="permalink" href="#rule.2940.0100.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <h2 class="headnote">Institution caseworker. </h2>
+      <p>"Institution caseworker" means the institution's staff person assigned the responsibility of coordinating the development of needs assessment, program plans, progress review, and reentry reviews for those inmates assigned to their caseloads.</p>
+    </div>
+    <div id="rule.2940.0100.15" class="subp repealed">
+      <a title="Link to subpart 15" class="permalink" href="#rule.2940.0100.15">§</a>
+      <h2 class="subp_no">Subp. 15.</h2>
+      <p>[Repealed, 23 SR 808]</p>
+    </div>
+    <div id="rule.2940.0100.16" class="subp">
+      <a title="Link to subpart 16" class="permalink" href="#rule.2940.0100.16">§</a>
+      <h2 class="subp_no">Subp. 16.</h2>
+      <h2 class="headnote">Near the site. </h2>
+      <p>"Near the site" means a place not to exceed 50 miles from the site of the alleged violation.</p>
+    </div>
+    <div id="rule.2940.0100.17" class="subp">
+      <a title="Link to subpart 17" class="permalink" href="#rule.2940.0100.17">§</a>
+      <h2 class="subp_no">Subp. 17.</h2>
+      <h2 class="headnote">Parole. </h2>
+      <p>"Parole" means that portion of an indeterminate sentence served by an inmate in the community under supervision and subject to prescribed rules.</p>
+    </div>
+    <div id="rule.2940.0100.18" class="subp">
+      <a title="Link to subpart 18" class="permalink" href="#rule.2940.0100.18">§</a>
+      <h2 class="subp_no">Subp. 18.</h2>
+      <h2 class="headnote">Probable cause. </h2>
+      <p>"Probable cause" means a finding by a court in an omnibus hearing or by a hearing officer in a probable cause hearing.</p>
+    </div>
+    <div id="rule.2940.0100.19" class="subp">
+      <a title="Link to subpart 19" class="permalink" href="#rule.2940.0100.19">§</a>
+      <h2 class="subp_no">Subp. 19.</h2>
+      <h2 class="headnote">Probable cause hearing. </h2>
+      <p>"Probable cause hearing" means a hearing held to determine if there are reasonable grounds for belief that one or more conditions of release may have been violated.</p>
+    </div>
+    <div id="rule.2940.0100.20" class="subp">
+      <a title="Link to subpart 20" class="permalink" href="#rule.2940.0100.20">§</a>
+      <h2 class="subp_no">Subp. 20.</h2>
+      <h2 class="headnote">Program review team. </h2>
+      <p>"Program review team" means a group of Department of Corrections employees in a correctional facility whose assigned function is to develop needs assessments and program plans and to conduct progress reviews for those inmates assigned to them.</p>
+    </div>
+    <div id="rule.2940.0100.21" class="subp">
+      <a title="Link to subpart 21" class="permalink" href="#rule.2940.0100.21">§</a>
+      <h2 class="subp_no">Subp. 21.</h2>
+      <h2 class="headnote">Projected release date. </h2>
+      <p>"Projected release date" means a date in the future at which an inmate will be released providing the inmate's behavior is satisfactory, the release date was based on complete and accurate information, and the inmate is not considered to be a risk to the public at the time of release.</p>
+    </div>
+    <div id="rule.2940.0100.22" class="subp">
+      <a title="Link to subpart 22" class="permalink" href="#rule.2940.0100.22">§</a>
+      <h2 class="subp_no">Subp. 22.</h2>
+      <h2 class="headnote">Projected release plan. </h2>
+      <p>"Projected release plan" means a proposed plan for an inmate when released to the community, including a place of residence and employment as well as any special or standard conditions which may be imposed at the time of release.</p>
+    </div>
+    <div id="rule.2940.0100.23" class="subp">
+      <a title="Link to subpart 23" class="permalink" href="#rule.2940.0100.23">§</a>
+      <h2 class="subp_no">Subp. 23.</h2>
+      <h2 class="headnote">Public interest. </h2>
+      <p>"Public interest" means the interest the public has in maintaining the integrity of legal sanctions and the rights of citizens.</p>
+    </div>
+    <div id="rule.2940.0100.24" class="subp">
+      <a title="Link to subpart 24" class="permalink" href="#rule.2940.0100.24">§</a>
+      <h2 class="subp_no">Subp. 24.</h2>
+      <h2 class="headnote">Public safety. </h2>
+      <p>"Public safety" means the protection of the public from injury, danger, and violence.</p>
+    </div>
+    <div id="rule.2940.0100.25" class="subp">
+      <a title="Link to subpart 25" class="permalink" href="#rule.2940.0100.25">§</a>
+      <h2 class="subp_no">Subp. 25.</h2>
+      <h2 class="headnote">Reentry review. </h2>
+      <p>"Reentry review" means the review which is held in order to establish conditions of release.</p>
+    </div>
+    <div id="rule.2940.0100.26" class="subp">
+      <a title="Link to subpart 26" class="permalink" href="#rule.2940.0100.26">§</a>
+      <h2 class="subp_no">Subp. 26.</h2>
+      <h2 class="headnote">Releasee. </h2>
+      <p>"Releasee" means a person on parole, work release, or supervised release status from a correctional facility who is under sentence to the commissioner.</p>
+    </div>
+    <div id="rule.2940.0100.27" class="subp">
+      <a title="Link to subpart 27" class="permalink" href="#rule.2940.0100.27">§</a>
+      <h2 class="subp_no">Subp. 27.</h2>
+      <h2 class="headnote">Residential community program. </h2>
+      <p>"Residential community program" means a structured residential program in the community such as a halfway house, chemical dependency treatment center, or another treatment program designed to change the behavior of residents and to protect the public.</p>
+    </div>
+    <div id="rule.2940.0100.28" class="subp">
+      <a title="Link to subpart 28" class="permalink" href="#rule.2940.0100.28">§</a>
+      <h2 class="subp_no">Subp. 28.</h2>
+      <h2 class="headnote">Revocation hearing. </h2>
+      <p>"Revocation hearing" means a hearing held for the purpose of determining whether cause exists for the revocation of parole, work release, or supervised release and for determining whether parole, work release, or supervised release should be revoked and for setting the term of reimprisonment to be served by the violator.</p>
+    </div>
+    <div id="rule.2940.0100.29" class="subp">
+      <a title="Link to subpart 29" class="permalink" href="#rule.2940.0100.29">§</a>
+      <h2 class="subp_no">Subp. 29.</h2>
+      <h2 class="headnote">Risk to the public. </h2>
+      <p>"Risk to the public" means the degree to which an individual is likely to cause injury, damage, loss, pain, or peril to the public or to engage in unlawful sexual behavior involving a victim.</p>
+    </div>
+    <div id="rule.2940.0100.30" class="subp repealed">
+      <a title="Link to subpart 30" class="permalink" href="#rule.2940.0100.30">§</a>
+      <h2 class="subp_no">Subp. 30.</h2>
+      <p>[Repealed, 23 SR 808]</p>
+    </div>
+    <div id="rule.2940.0100.31" class="subp">
+      <a title="Link to subpart 31" class="permalink" href="#rule.2940.0100.31">§</a>
+      <h2 class="subp_no">Subp. 31.</h2>
+      <h2 class="headnote">Supervised release. </h2>
+      <p>"Supervised release" means that portion of a determinate sentence served by an inmate in the community under supervision and subject to prescribed rules, adopted in accordance with Minnesota Statutes, section <a href="/statutes/cite/244.05">244.05</a>.</p>
+    </div>
+    <div id="rule.2940.0100.32" class="subp">
+      <a title="Link to subpart 32" class="permalink" href="#rule.2940.0100.32">§</a>
+      <h2 class="subp_no">Subp. 32.</h2>
+      <h2 class="headnote">Supervising agent. </h2>
+      <p>"Supervising agent" means the parole and probation agent who is assigned to the individual on parole, work release, or supervised release status.</p>
+    </div>
+    <div id="rule.2940.0100.33" class="subp">
+      <a title="Link to subpart 33" class="permalink" href="#rule.2940.0100.33">§</a>
+      <h2 class="subp_no">Subp. 33.</h2>
+      <h2 class="headnote">Working days. </h2>
+      <p>"Working days" means all working days exclusive of legal holidays and weekends.</p>
+    </div>
+    <div id="rule.2940.0100.34" class="subp">
+      <a title="Link to subpart 34" class="permalink" href="#rule.2940.0100.34">§</a>
+      <h2 class="subp_no">Subp. 34.</h2>
+      <h2 class="headnote">Work release. </h2>
+      <p>"Work release" means an extension of confinement in which inmates are conditionally released to work at gainful employment, seek employment, or participate in vocational or educational training in the community while serving their sentence in accordance with Minnesota Statutes, section <a href="/statutes/cite/241.26">241.26</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.0100.history">
+    <h2>History: </h2>
+    <p>L 1983 c 274 s 18; 8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.0200">
+    <h1 class="headnote">2940.0200 PURPOSE.</h1>
+    <p>The purpose of this chapter is to establish the policies, procedures, rules, regulations, and guidelines which will govern the operation of the hearings and release unit established within the Department of Corrections by the commissioner in order to discharge the responsibilities established by law.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.0200.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.0300">
+    <h1 class="headnote">2940.0300 ADMINISTRATION.</h1>
+    <p>For the purpose of coordinating, monitoring, and assuring uniformity and objectivity in the decisions of parole, supervised release, and work release, the commissioner has established the hearings and release unit and appointed an executive officer of hearings and release. The commissioner has delegated to the executive officer of hearings and release the authority to grant parole and work release; to revoke parole, work release, and supervised release; to discharge persons under indeterminate sentences; and to approve the conditions of parole, work release, and supervised release.</p>
+    <p>The executive officer of hearings and release shall be independent from the administration of the institutions and community services division.</p>
+    <p>One or more Department of Corrections staff approved by the commissioner may assist the executive officer of hearings and release in carrying out the officer's responsibilities.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.0300.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 17 SR 1279; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.0400">
+    <h1 class="headnote">2940.0400 EXECUTIVE OFFICER OF HEARINGS AND RELEASE.</h1>
+    <p>The executive officer of hearings and release shall have the authority, under the guidelines prescribed in this chapter, with the exception of those inmates under life sentences, to:</p>
+    <div id="rule.2940.0400.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2940.0400.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> grant parole and work release and discharge inmates with indeterminate sentences;</p>
+    </div>
+    <div id="rule.2940.0400.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2940.0400.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> approve or modify conditions of parole or supervised release as developed by the program review teams;</p>
+    </div>
+    <div id="rule.2940.0400.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.2940.0400.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> restructure conditions of parole or supervised release;</p>
+    </div>
+    <div id="rule.2940.0400.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.2940.0400.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> revoke parole, supervised release, and work release status;</p>
+    </div>
+    <div id="rule.2940.0400.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.2940.0400.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> issue warrants for the apprehension of parolees, supervised releasees, and work releasees;</p>
+    </div>
+    <div id="rule.2940.0400.F" class="item">
+      <a title="Link to item F" class="permalink" href="#rule.2940.0400.F">§</a>
+      <h3 class="item_no">F.</h3>
+      <p> authorize the extradition of absconders from parole, supervised release, and work release; and</p>
+    </div>
+    <div id="rule.2940.0400.G" class="item">
+      <a title="Link to item G" class="permalink" href="#rule.2940.0400.G">§</a>
+      <h3 class="item_no">G.</h3>
+      <p> issue revocation orders to stop time on parolees, supervised releasees, and work releasees who have absconded and to start the time running on the inmates' sentences.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.0400.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.0500">
+    <h1 class="headnote">2940.0500 PROGRAM REVIEW TEAMS.</h1>
+    <p>In each adult institution there shall be one or more program review teams appointed by the institution superintendent or warden. One member of each team shall be designated as the chair.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.0500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.0500.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.2940.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.0600">
+    <h1 class="headnote">2940.0600 TEAM FUNCTIONS.</h1>
+    <p>A program review team shall perform the following functions regarding each inmate:</p>
+    <div id="rule.2940.0600.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2940.0600.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> develop a needs assessment;</p>
+    </div>
+    <div id="rule.2940.0600.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2940.0600.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> develop a program plan;</p>
+    </div>
+    <div id="rule.2940.0600.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.2940.0600.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> develop projected release plans;</p>
+    </div>
+    <div id="rule.2940.0600.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.2940.0600.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> develop institutional transfer recommendations;</p>
+    </div>
+    <div id="rule.2940.0600.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.2940.0600.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> develop recommendations for work release for prerelease purposes;</p>
+    </div>
+    <div id="rule.2940.0600.F" class="item">
+      <a title="Link to item F" class="permalink" href="#rule.2940.0600.F">§</a>
+      <h3 class="item_no">F.</h3>
+      <p> develop recommendations for work release;</p>
+    </div>
+    <div id="rule.2940.0600.G" class="item">
+      <a title="Link to item G" class="permalink" href="#rule.2940.0600.G">§</a>
+      <h3 class="item_no">G.</h3>
+      <p> conduct program plan progress reviews at least once every 12 months;</p>
+    </div>
+    <div id="rule.2940.0600.H" class="item">
+      <a title="Link to item H" class="permalink" href="#rule.2940.0600.H">§</a>
+      <h3 class="item_no">H.</h3>
+      <p> modify needs assessment or program plans as required;</p>
+    </div>
+    <div id="rule.2940.0600.I" class="item">
+      <a title="Link to item I" class="permalink" href="#rule.2940.0600.I">§</a>
+      <h3 class="item_no">I.</h3>
+      <p> develop conditions of parole or supervised release jointly with the inmate's assigned field agent; and</p>
+    </div>
+    <div id="rule.2940.0600.J" class="item">
+      <a title="Link to item J" class="permalink" href="#rule.2940.0600.J">§</a>
+      <h3 class="item_no">J.</h3>
+      <p> conduct reentry reviews.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.0600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.0600.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.0700">
+    <h1 class="headnote">2940.0700 PLANS.</h1>
+    <p>All needs assessments, program, and projected release plans must be in writing and the central office file copy must be forwarded to the hearings and release unit for informational purposes. All conditions of parole or supervised release shall be imposed by the executive officer of hearings and release.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.0700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.0700.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.0700.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.0800">
+    <h1 class="headnote">2940.0800 NEEDS ASSESSMENTS, PROGRAM, AND PROJECTED RELEASE PLANS.</h1>
+    <div id="rule.2940.0800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2940.0800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">60-day limit. </h2>
+      <p>Each inmate shall have a needs assessment, program plan, and projected release plan developed within 60 days of admission.</p>
+    </div>
+    <div id="rule.2940.0800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2940.0800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">General content. </h2>
+      <p>The needs assessment must specify the inmate's needs as identified by the program review committee regarding chemical dependency, sexual deviancy, psychological disorder, and other.</p>
+      <p>The projected release plan shall be based on the inmate's needs and shall contain the conditions required to meet the department's objective of public protection.</p>
+    </div>
+    <div id="rule.2940.0800.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2940.0800.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Developed by team. </h2>
+      <p>The needs assessment, program plan, and projected release plan shall be developed by the program review team, and the central office copy shall be forwarded to the hearings and release unit for information purposes.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.0800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.0800.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.0800.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.0900">
+    <h1 class="headnote">2940.0900 PROGRESS REVIEWS.</h1>
+    <div id="rule.2940.0900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2940.0900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Times of review. </h2>
+      <p>The progress of each inmate under the jurisdiction of the commissioner shall be reviewed at least annually by the program review team. Progress reviews may occur in conjunction with custody status changes and as individual program needs require.</p>
+    </div>
+    <div id="rule.2940.0900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2940.0900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Application. </h2>
+      <p>The inmate's progress reviews may result in the modification of the inmate's needs assessment, modification of program plan, recommendations for institutional transfer, work release recommendations, and the development of conditions of parole or supervised release.</p>
+    </div>
+    <div id="rule.2940.0900.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2940.0900.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Copies forwarded. </h2>
+      <p>The central office copy of the inmate's progress reviews shall be forwarded to the hearings and release unit for information purposes.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.0900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.0900.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.0900.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.1000">
+    <h1 class="headnote">2940.1000 WORK RELEASE FOR PRERELEASE PURPOSES.</h1>
+    <div id="rule.2940.1000.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2940.1000.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Housing facility. </h2>
+      <p>Inmates on prerelease status shall be housed at the Minnesota Correctional Facility-Lino Lakes. Requests for this status shall be coordinated through the work release director at least 90 days prior to the inmate's release date. These inmates will be housed in facilities appropriate to provide the necessary services.</p>
+    </div>
+    <div id="rule.2940.1000.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2940.1000.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Recommendations reviewed. </h2>
+      <p>The recommendations of the program review teams shall be reviewed by the executive officer for granting prerelease status. The executive officer of hearings and release shall make the decision to grant or deny work release status for placement in the prerelease program.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.1000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.1000.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.1000.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.1100">
+    <h1 class="headnote">2940.1100 WORK RELEASE.</h1>
+    <p>Applications for work release must be forwarded to the director of work release for approval. If approved by the director of work release, the application must be considered by the program review team. If approved by the program review team, the recommendation of the program review team must be reviewed by the executive officer of hearings and release for the granting or denial of work release.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.1100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.1100.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.1100.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.1200">
+    <h1 class="headnote">2940.1200 REENTRY REVIEWS.</h1>
+    <div id="rule.2940.1200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2940.1200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Projected release plan. </h2>
+      <p>The institution caseworker and the inmate must complete the projected release plan 105 to 120 days prior to the inmate's established release date. The projected release plan, current case summary, annual progress reviews, and psychological evaluation must be forwarded to the district supervisor or Community Corrections Act contact person of the county in which the offender intends to reside. A copy of that request shall also be forwarded to the district supervisor or Community Corrections Act contact person of the county of commitment.</p>
+    </div>
+    <div id="rule.2940.1200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2940.1200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Supervising agent. </h2>
+      <p>The district supervisor or Community Corrections Act contact person shall assign a supervising agent within 90 days of the offender's release. The name and telephone number of the supervising agent assigned must be sent to the institution caseworker as notification of the supervising agent assignment.</p>
+    </div>
+    <div id="rule.2940.1200.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2940.1200.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Plan concurrence. </h2>
+      <p>The supervising agent shall verify the appropriateness of the release plan. If the supervising agent concurs with the plan, the supervising agent must submit a prerelease report within 65 days of the inmate's release date. If the supervising agent does not concur, he or she must call the institution caseworker. The institution caseworker and the supervising agent shall confer to resolve the difference.</p>
+    </div>
+    <div id="rule.2940.1200.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2940.1200.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Review scheduled. </h2>
+      <p>Within 45 to 60 days of the inmate's release date the institution caseworker or parole unit shall schedule the inmate for a review before the program review team. The program review team shall conduct a reentry review and finalize the projected release plan.</p>
+    </div>
+    <div id="rule.2940.1200.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2940.1200.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Bookslip. </h2>
+      <p>The district supervisor shall request the central office records clerk to issue a bookslip. Upon receipt of a copy of the signed conditions of parole or supervised release by the central office records clerk, a bookslip must be issued.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.1200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.1200.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.2940.1200.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.1300">
+    <h1 class="headnote">2940.1300 FINAL PLAN RECOMMENDATIONS.</h1>
+    <div id="rule.2940.1300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2940.1300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Final review. </h2>
+      <p>The final recommendations regarding release plans which have been developed jointly with the supervising agent, the institution caseworker, and forwarded by the program review team shall be reviewed by the executive officer of the hearings and release unit at least 30 days prior to the inmate's established release date. These reviews shall take place at each Minnesota correctional facility as follows:</p>
+      <div id="rule.2940.1300.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2940.1300.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> at least every ten working days at Minnesota Correctional Facility-Stillwater and Minnesota Correctional Facility-St. Cloud; and</p>
+      </div>
+      <div id="rule.2940.1300.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2940.1300.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> at least every 15 working days at Minnesota Correctional Facility-Shakopee, Minnesota Correctional Facility-Oak Park Heights, and Minnesota Correctional Facility-Lino Lakes.</p>
+      </div>
+    </div>
+    <div id="rule.2940.1300.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2940.1300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Final decision. </h2>
+      <p>The executive officer of hearings and release shall make the final decision regarding the conditions of parole, supervised release, or work release, with the exception of those inmates under life sentences.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.1300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.1300.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808; L 1999 c 86 art 1 s 82</p>
+  </div>
+  <div class="published" id="rule.2940.1300.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.1400">
+    <h1 class="headnote">2940.1400 NOTICE TO INMATES.</h1>
+    <p>At least 30 days prior to the reentry review, the inmate shall receive written notice of the date and time of the review. The notice shall state the purpose of the review, the material to be covered, and the right to review the files, records, and other documents which will be considered at that time. The notice shall also inform the inmate of the right to submit written documentation and to appear and speak on his or her own behalf during the hearing. All inmates shall be notified, in writing, of any decisions which affect their program plans, conditions of release, or release date which occur as a result of program team reviews or through the disciplinary process.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.1400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.1400.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.2940.1400.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.1500">
+    <h1 class="headnote">2940.1500 INMATES WITH INDETERMINATE SENTENCES.</h1>
+    <div id="rule.2940.1500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2940.1500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Concurrent sentences. </h2>
+      <p>When an inmate is under sentence for a pre-May 1, 1980, offense and a guideline sentence concurrently, and the sentence for the pre-May 1, 1980, offense exceeds the guidelines sentence, release shall be considered under Minnesota Statutes 1983 Supplement, section <a href="/statutes/cite/243.05">243.05</a>.</p>
+    </div>
+    <div id="rule.2940.1500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2940.1500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Review of release dates. </h2>
+      <p>Incarcerated inmates with indeterminate sentences governing their release dates which were established prior to July 1, 1982, shall be handled as follows in items A to C.</p>
+      <div id="rule.2940.1500.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2940.1500.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> All release dates established by the Minnesota Corrections Board will be left in full force and effect by the commissioner.</p>
+      </div>
+      <div id="rule.2940.1500.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2940.1500.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Special reviews for the purpose of modifying release dates established by the Minnesota Corrections Board shall be considered by the executive officer of hearings and release for the following reasons:</p>
+        <div id="rule.2940.1500.2.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.2940.1500.2.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> correcting mathematical, data entry, or computational errors; and</p>
+        </div>
+        <div id="rule.2940.1500.2.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.2940.1500.2.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> policy changes established by the commissioner which affect the term of imprisonment.</p>
+        </div>
+      </div>
+      <div id="rule.2940.1500.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2940.1500.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The program review team shall determine if the criteria for a special review have been met. If the criteria have been met, the program review team shall forward the information and a recommendation to the executive officer of hearings and release. The executive officer of hearings and release shall make the final decision regarding the requested adjustment in the release date.</p>
+      </div>
+    </div>
+    <div id="rule.2940.1500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2940.1500.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Application of guidelines. </h2>
+      <p>Minnesota sentencing guidelines policies and procedures must be utilized in determining the term of imprisonment and projected release date of each inmate with an indeterminate sentence whose new admission review occurs after July 1, 1982.</p>
+      <p>The criminal history score shall be based on the inmate's status on the date the indeterminate offense occurred.</p>
+      <div id="rule.2940.1500.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2940.1500.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> To be assigned a juvenile point, the offender must have been under 21 years of age at the time of the offense. If so, standard guidelines policies apply.</p>
+      </div>
+      <div id="rule.2940.1500.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2940.1500.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> To be assigned a custody status point, the offender must have been under applicable Minnesota state guidelines policy custody status at the time the indeterminate offense occurred. If so, standard guidelines policies apply.</p>
+      </div>
+      <div id="rule.2940.1500.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2940.1500.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The only misdemeanor, gross misdemeanor, or felony convictions which shall be utilized to compute the criminal history score shall be those for which the offender had received a stayed or imposed sentence prior to the date on which the indeterminate offense occurred.</p>
+        <p>The program review team shall complete a Minnesota sentencing guidelines worksheet on such inmates and forward the worksheet to the executive officer of hearings and release for approval. If the program review team recommends departure from the guidelines grid, the written reasons for the departure must accompany the worksheet.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.1500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.1500.history">
+    <h2>History: </h2>
+    <p>L 1983 c 274 s 18; 8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.1500.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.1600">
+    <h1 class="headnote">2940.1600 GOOD TIME LOST; EXTENSION OF TERM OF IMPRISONMENT.</h1>
+    <p>All inmates shall be subject to the loss of good time or extension of term of imprisonment for institutional disciplinary infractions as follows in items A to E.</p>
+    <div id="rule.2940.1600.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2940.1600.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> All inmates with indeterminate sentences and established release dates shall have their release date and expiration date extended by one day for each day of good time lost, not to exceed the maximum sentence imposed by the court.</p>
+    </div>
+    <div id="rule.2940.1600.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2940.1600.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> All inmates with indeterminate sentences who have their expiration date as their assigned release date shall have their expiration date extended by one day for each day of good time lost, not to exceed the maximum sentence imposed by the court.</p>
+    </div>
+    <div id="rule.2940.1600.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.2940.1600.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> All inmates with guidelines sentences shall have their supervised release date extended by one day for each day of good time lost or disciplinary confinement time added.</p>
+    </div>
+    <div id="rule.2940.1600.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.2940.1600.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> All parole violators shall have their release date extended by one day for each day of good time lost.</p>
+    </div>
+    <div id="rule.2940.1600.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.2940.1600.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> All violators of supervised release shall have their projected release date extended by one day for each three days of segregation time served.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.1600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.1600.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.1600.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.1700">
+    <h1 class="headnote">2940.1700 OFFENDERS ON PAROLE OR SUPERVISED RELEASE STATUS.</h1>
+    <p>Progress reviews shall be completed annually on all offenders on parole or supervised release status by the supervising agent. Unless the expiration date occurs earlier, offenders on parole status shall be considered for discharge when consistent with public safety.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.1700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.1700.history">
+    <h2>History: </h2>
+    <p>8 SR 2298</p>
+  </div>
+  <div class="published" id="rule.2940.1700.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.1800">
+    <h1 class="headnote">2940.1800 INMATES WITH LIFE SENTENCES.</h1>
+    <div id="rule.2940.1800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2940.1800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Advisory panel. </h2>
+      <p>The commissioner shall convene an advisory panel of Department of Corrections employees, which shall consist of, but not be limited to, the following:</p>
+      <div id="rule.2940.1800.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2940.1800.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the deputy commissioner for institutions;</p>
+      </div>
+      <div id="rule.2940.1800.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2940.1800.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the deputy commissioner for community services;</p>
+      </div>
+      <div id="rule.2940.1800.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2940.1800.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the superintendent or warden of the institution of the inmate's residence; and</p>
+      </div>
+      <div id="rule.2940.1800.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2940.1800.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> the executive officer of the hearings and release unit.</p>
+        <p>The commissioner shall serve as the chair of the advisory panel.</p>
+      </div>
+    </div>
+    <div id="rule.2940.1800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2940.1800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Duties of panel. </h2>
+      <p>The advisory panel shall review each inmate who is serving a life sentence three years prior to the inmate's parole or supervised release eligibility date in order to establish a projected release date or a future review date. The advisory panel shall assist the commissioner in thoroughly considering the inmate's entire case history, including the facts and circumstances of the offense for which the life sentence is being served; past criminal history, institutional adjustment, program team reports, psychological and psychiatric reports where pertinent; and the results of community investigations.</p>
+      <p>The program review team of the inmate's residence shall prepare appropriate reports and recommendations as requested by the institution superintendent or warden.</p>
+    </div>
+    <div id="rule.2940.1800.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2940.1800.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Inmate's rights. </h2>
+      <p>The inmate shall be given 60 days notice prior to the date of review; shall be entitled to submit written documentation in support of his or her position; and shall have the choice to be present at the review hearing.</p>
+      <p>An attorney representing the inmate or an advocate of the inmate's choice shall be allowed at the review hearing.</p>
+      <p>A representative of the ombudsman's office may be present at the review hearing.</p>
+    </div>
+    <div id="rule.2940.1800.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2940.1800.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Duties of officials. </h2>
+      <p>The commissioner may initiate inquiries and take testimony as authorized by Minnesota Statutes, section <a href="/statutes/cite/243.05">243.05</a>.</p>
+      <p>The executive officer of hearings and release shall assist the commissioner in interviewing interested parties and prepare a summary of community input for presentation to the advisory panel.</p>
+      <p>During the deliberative process only members of the advisory panel shall be present unless determined otherwise by the commissioner.</p>
+    </div>
+    <div id="rule.2940.1800.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2940.1800.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Projected release date. </h2>
+      <p>The commissioner shall establish a projected release date for each inmate or continue the case to a future review date. The decision of the commissioner shall be communicated to the inmate in writing within 30 days of the review and shall contain the following:</p>
+      <div id="rule.2940.1800.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2940.1800.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the factors utilized in arriving at the projected release date or a future review date;</p>
+      </div>
+      <div id="rule.2940.1800.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2940.1800.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the future review or projected release date; and</p>
+      </div>
+      <div id="rule.2940.1800.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2940.1800.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> actions by the inmate which could cause the projected release or review date to be changed.</p>
+        <p>The projected release date, once established shall not be modified without a review incorporating the elements of the initial review referred to in subpart 3 with the exception of changes caused by a loss of good time.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.1800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.1800.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 17 SR 1279; 23 SR 808; L 1999 c 86 art 1 s 82</p>
+  </div>
+  <div class="published" id="rule.2940.1800.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.1900">
+    <h1 class="headnote">2940.1900 OBJECTIVE OF PUBLIC SAFETY.</h1>
+    <p>Conditions of parole or supervised release shall be based on the need for public safety. Surveillance with optional treatment programming shall be utilized when consistent with case planning in order to achieve maximum public safety.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.1900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.1900.history">
+    <h2>History: </h2>
+    <p>8 SR 2298</p>
+  </div>
+  <div class="published" id="rule.2940.1900.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.2000">
+    <h1 class="headnote">2940.2000 REQUIREMENTS AND PROHIBITIONS OF RELEASE.</h1>
+    <div id="rule.2940.2000.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2940.2000.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Compliance. </h2>
+      <p>All offenders on parole or supervised release shall be required to comply with the standard conditions of parole or supervised release in subparts 2 to 10.</p>
+    </div>
+    <div id="rule.2940.2000.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2940.2000.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Report. </h2>
+      <p>Releasees upon leaving the institution shall report immediately at the destination specified by the supervising agent.</p>
+    </div>
+    <div id="rule.2940.2000.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2940.2000.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Inform. </h2>
+      <p>Releasees shall at all times follow the instructions of their supervising agent and keep the supervising agent informed of their residence and activities. Releasees shall advise their supervising agent within 24 hours if they are arrested.</p>
+    </div>
+    <div id="rule.2940.2000.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2940.2000.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Contact. </h2>
+      <p>Releasees shall maintain contact with the supervising agent in the manner prescribed by that supervising agent.</p>
+    </div>
+    <div id="rule.2940.2000.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.2940.2000.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Submit reports and respond. </h2>
+      <p>Releasees shall submit reports as required by the supervising agent and shall respond promptly to any communication from their supervising agent.</p>
+    </div>
+    <div id="rule.2940.2000.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.2940.2000.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Intoxicants and drugs. </h2>
+      <p>Releasees shall follow the supervising agent's instructions with respect to the use of intoxicants and shall not possess or use narcotics or other drugs, preparations, or substances as defined by Minnesota Statutes, chapter 152, except those prescribed for the releasee by a licensed physician.</p>
+    </div>
+    <div id="rule.2940.2000.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.2940.2000.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Firearms. </h2>
+      <p>Releasees shall not purchase or otherwise obtain or have in their possession any type of firearm or dangerous weapon as defined by Minnesota Statutes, section <a href="/statutes/cite/609.02">609.02</a>, subdivision 6.</p>
+    </div>
+    <div id="rule.2940.2000.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.2940.2000.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Leaving the state. </h2>
+      <p>Releasees shall not leave the state without the written permission of the supervising agent specifying the terms and conditions under which permission is granted.</p>
+    </div>
+    <div id="rule.2940.2000.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.2940.2000.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Subsequent convictions. </h2>
+      <p>Releasees shall not be convicted of any felony, gross misdemeanor, or any misdemeanor punishable by imprisonment as defined in Minnesota Statutes, section <a href="/statutes/cite/609.02">609.02</a>, or of repeated traffic offenses other than parking violations. Acknowledgment in the form of a confession under oath in open court before a judge may be considered a conviction for the purpose of this condition.</p>
+    </div>
+    <div id="rule.2940.2000.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.2940.2000.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Probable cause to hold. </h2>
+      <p>A finding of probable cause by a court of competent jurisdiction or grand jury indictment shall be considered grounds to hold a releasee in custody unless and until the releasee is found not guilty.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.2000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.2000.history">
+    <h2>History: </h2>
+    <p>8 SR 2298</p>
+  </div>
+  <div class="published" id="rule.2940.2000.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.2100">
+    <h1 class="headnote">2940.2100 SPECIAL CONDITIONS OF RELEASE. </h1>
+    <p>Special conditions of release mean any conditions on the release form other than the standard conditions, setting forth individual specified requirements to be followed by a releasee. These special conditions include:</p>
+    <div id="rule.2940.2100.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2940.2100.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> special conditions which set forth limits regarding contact with specified persons, travel from or to specified locations or areas, or increased contact with the supervising agent beyond that which is considered standard;</p>
+    </div>
+    <div id="rule.2940.2100.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2940.2100.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> participation conditions which require the releasee to be involved in nonresidential therapy or counseling programs; and</p>
+    </div>
+    <div id="rule.2940.2100.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.2940.2100.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> residential conditions which require the releasee to be involved in a residential program.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.2100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.2100.history">
+    <h2>History: </h2>
+    <p>8 SR 2298</p>
+  </div>
+  <div class="published" id="rule.2940.2100.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.2200">
+    <h1 class="headnote">2940.2200 DEVELOPMENT OF SPECIAL CONDITIONS OF RELEASE.</h1>
+    <p>Special conditions of parole or supervised release shall be developed jointly by the program review team and the supervising agent.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.2200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.2200.history">
+    <h2>History: </h2>
+    <p>8 SR 2298</p>
+  </div>
+  <div class="published" id="rule.2940.2200.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.2300">
+    <h1 class="headnote">2940.2300 APPROVAL OF CONDITIONS OF RELEASE.</h1>
+    <p>All conditions of parole or supervised release shall be subject to the approval of the executive officer of hearings and release.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.2300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.2300.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.2300.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.2400">
+    <h1 class="headnote">2940.2400 PLACEMENT IN RESIDENTIAL COMMUNITY PROGRAM.</h1>
+    <p>If placement in a residential community program is prescribed as a special condition of supervised release, failure to enter and complete such a program is grounds for revocation of release. If no community program is available at the time of release, the matter shall be referred to the executive officer of the hearings and release unit for approval of an alternative program or plan.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.2400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.2400.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; L 1999 c 86 art 1 s 82</p>
+  </div>
+  <div class="published" id="rule.2940.2400.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.2500">
+    <h1 class="headnote">2940.2500 NOTICE OF CONDITIONS OF RELEASE.</h1>
+    <p>At the time of release from a correctional facility each inmate shall have read to him or her the conditions of parole or supervised release, and the inmate shall sign the conditions of parole or supervised release. The inmate's signature shall be witnessed by the staff member who read the conditions of parole or supervised release to the inmate.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.2500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.2500.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.2940.2500.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.2600">
+    <h1 class="headnote">2940.2600 COOPERATION OF INMATE REQUIRED.</h1>
+    <p>Refusal to cooperate in determining place of residence, employment plans, or conditions of release shall result in an extension of the inmate's term of imprisonment through the institutional disciplinary process. Inmates serving indeterminate sentences will not be allowed to leave the institution without an approved release plan.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.2600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.2600.history">
+    <h2>History: </h2>
+    <p>8 SR 2298</p>
+  </div>
+  <div class="published" id="rule.2940.2600.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.2700">
+    <h1 class="headnote">2940.2700 RESTRUCTURE OF CONDITIONS OF PAROLE OR SUPERVISED RELEASE.</h1>
+    <div id="rule.2940.2700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2940.2700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Request by offender. </h2>
+      <p>Offenders on parole or supervised release may at any time during their term of release request that the standard or special conditions of release be modified. Their request must be made in writing through their supervising agent who shall submit the request and the supervising agent's recommendation to the hearings and release unit within ten days of its receipt. The executive officer of hearings and release shall review the request and respond in writing within 30 days of the receipt of the request for the modification of the standard or special conditions of release.</p>
+    </div>
+    <div id="rule.2940.2700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2940.2700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Request by supervising agent. </h2>
+      <p>Supervising agents, after consultation with their supervisor, may request a restructure of a client's standard or special conditions of release.</p>
+    </div>
+    <div id="rule.2940.2700.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2940.2700.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Granting of modification. </h2>
+      <p>The executive officer of hearings and release may authorize the supervising agent to modify the standard or special conditions of release or cause the releasee to be brought before the executive officer of hearings and release for a review of the matter of modification. Any modification of the standard or special conditions of release shall be in writing and executed with the same formality as the original conditions.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.2700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.2700.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.2700.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.2800">
+    <h1 class="headnote">2940.2800 WORK RELEASE STATUS.</h1>
+    <div id="rule.2940.2800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2940.2800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Participation. </h2>
+      <p>Participation in the work release program is voluntary on the part of the inmate. Consideration for work release status shall be given to those offenders who have met the Department of Corrections eligibility requirements, have been accepted by the director of work release and recommended by the program review team. The executive officer of hearings and release shall make the decision for the granting or denial of work release.</p>
+    </div>
+    <div id="rule.2940.2800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2940.2800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Violations; revocations. </h2>
+      <p>All violations of work release rules shall be handled according to the approved discipline plan. Revocation of work release status shall be the decision of the executive officer of hearings and release after an appropriate due process hearing.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.2800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.2800.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.2800.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.2900">
+    <h1 class="headnote">2940.2900 WORK RELEASE FOR PRERELEASE PURPOSES.</h1>
+    <div id="rule.2940.2900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2940.2900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Participation. </h2>
+      <p>Participation in the prerelease program is voluntary on the part of the inmate. The procedure for granting work release for placement in the prerelease program shall be for the program review team to make the referral to the executive officer of the hearings and release unit. The executive officer of the hearings and release unit shall make the final decision regarding the granting of work release status for placement in the prerelease program.</p>
+    </div>
+    <div id="rule.2940.2900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2940.2900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Violations. </h2>
+      <p>Violations of work release or prerelease shall be handled through the institutional disciplinary process.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.2900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.2900.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; L 1999 c 86 art 1 s 82</p>
+  </div>
+  <div class="published" id="rule.2940.2900.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.3000">
+    <h1 class="headnote">2940.3000 GROUNDS FOR WARRANTS.</h1>
+    <p>Warrants may be issued for the apprehension and detention of parolees, supervised releasees, and work releasees who are:</p>
+    <div id="rule.2940.3000.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2940.3000.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> alleged to have violated the conditions of their release;</p>
+    </div>
+    <div id="rule.2940.3000.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2940.3000.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> convicted of a new felony and who represent a risk either by absconding or who have a probability of committing acts which are dangerous to the community; or</p>
+    </div>
+    <div id="rule.2940.3000.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.2940.3000.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> the subject of detainers in appropriate cases.</p>
+      <p>When warrants have been issued as detainers for releasees who are being prosecuted for new charges, including violations which are misdemeanors, gross misdemeanors, or felonies, the revocation process shall not begin until the court process has concluded. The court process will be considered concluded by dismissal of charges, a finding of not guilty, or the completion of any local incarceration time imposed by the court.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.3000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.3000.history">
+    <h2>History: </h2>
+    <p>8 SR 2298</p>
+  </div>
+  <div class="published" id="rule.2940.3000.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.3100">
+    <h1 class="headnote">2940.3100 WARRANTS; FORMAL RECOMMENDATION REQUIREMENT.</h1>
+    <p>At any time the releasee is prepared to make bail or has been sentenced by the court, the supervising agent shall submit a written formal recommendation to the executive officer of hearings and release regarding whether to:</p>
+    <div id="rule.2940.3100.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2940.3100.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> maintain the warrant or allow the releasee to make bail; or</p>
+    </div>
+    <div id="rule.2940.3100.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2940.3100.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> cancel the warrant and allow the local sentence imposed to satisfy the violation time. If this is done, a notice of release will be filed by the fugitive unit which provides that the supervising agent be notified 30 or 60 days prior to release.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.3100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.3100.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.3100.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.3200">
+    <h1 class="headnote">2940.3200 ISSUANCE OF WARRANTS.</h1>
+    <p>The executive officer of hearings and release shall have the authority to issue nationwide or statewide warrants on a case-by-case basis in accordance with the procedures in items A to D.</p>
+    <div id="rule.2940.3200.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2940.3200.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> After consultation with his or her supervisor, the supervising agent shall submit a violation report to the executive officer of hearings and release who shall make the final decision regarding the issuance of a warrant.</p>
+    </div>
+    <div id="rule.2940.3200.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2940.3200.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> In emergency situations, the supervising agent shall request authorization for the warrant by telephone. The supervising agent shall call the hearings and release unit and provide the necessary information for warrant authorization.</p>
+    </div>
+    <div id="rule.2940.3200.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.2940.3200.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> Upon approval of the emergency warrant, the hearings and release unit shall provide the fugitive unit with the necessary information, and instruct the fugitive unit to issue the warrant.</p>
+    </div>
+    <div id="rule.2940.3200.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.2940.3200.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> If an emergency warrant is issued, a written violation report must be received by the hearings and release unit within five working days.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.3200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.3200.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808; L 1999 c 86 art 1 s 82</p>
+  </div>
+  <div class="published" id="rule.2940.3200.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.3300">
+    <h1 class="headnote">2940.3300 OTHER ORDERS.</h1>
+    <p>The executive officer of hearings and release shall have the authority to issue orders revoking parole, supervised release, or work release; to stop the time from running on the sentences of releasees who have absconded, and to start the running of the time on the inmate's sentence.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.3300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.3300.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.3300.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.3400">
+    <h1 class="headnote">2940.3400 HOLD ORDERS.</h1>
+    <p>Apprehension and detention orders may be issued by the executive officer of the hearings and release unit or a district supervisor upon written reasons submitted by a supervising agent under authority of Minnesota Statutes, section <a href="/statutes/cite/243.05">243.05</a>. No releasee shall be detained under an apprehension and detention order for more than 72 hours unless revocation proceedings have been initiated by the supervising agent.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.3400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.3400.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; L 1999 c 86 art 1 s 82</p>
+  </div>
+  <div class="published" id="rule.2940.3400.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.3500">
+    <h1 class="headnote">2940.3500 REVOCATION HEARING.</h1>
+    <div id="rule.2940.3500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2940.3500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Location. </h2>
+      <p>Revocation hearings whenever possible must be held in the community where the conviction of the violation of a standard or condition occurred. Separate probable cause hearings may be held if circumstances warrant.</p>
+    </div>
+    <div id="rule.2940.3500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2940.3500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">When held. </h2>
+      <p>All revocation or separate probable cause hearings must be held within 12 working days of the releasee's availability to Department of Corrections.</p>
+    </div>
+    <div id="rule.2940.3500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2940.3500.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Outside metropolitan area. </h2>
+      <p>Outside the metropolitan area, as defined by Minnesota Statutes, section <a href="/statutes/cite/473.121">473.121</a>, revocation or separate probable cause hearings shall be conducted by a Department of Corrections district supervisor other than the supervising agent's supervisor. In cases of special need, the executive officer of hearings and release may conduct the revocation or separate probable cause hearings outside the metropolitan area.</p>
+    </div>
+    <div id="rule.2940.3500.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.2940.3500.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Within metropolitan area. </h2>
+      <p>Within the metropolitan area the hearings shall be conducted by the executive officer of hearings and release.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.3500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.3500.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.3500.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.3600">
+    <h1 class="headnote">2940.3600 REVOCATION GROUNDS.</h1>
+    <p>Grounds for the revocation of parole, work release, or supervised release are as follows in items A to C.</p>
+    <div id="rule.2940.3600.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2940.3600.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> Conviction of a felony, gross misdemeanor, any misdemeanor punishable by imprisonment as defined in Minnesota Statutes, section <a href="/statutes/cite/609.02">609.02</a>, or repeated traffic offenses other than parking violations. Acknowledgment in the form of a confession under oath in open court before a judge may be considered a conviction for the purpose of revocation.</p>
+    </div>
+    <div id="rule.2940.3600.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2940.3600.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> A finding of probable cause by a court of competent jurisdiction or a grand jury indictment shall be considered grounds to hold the offender in custody unless and until the releasee is found not guilty.</p>
+    </div>
+    <div id="rule.2940.3600.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.2940.3600.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> Violation of any standard or special condition of parole or supervised release.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.3600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.3600.history">
+    <h2>History: </h2>
+    <p>8 SR 2298</p>
+  </div>
+  <div class="published" id="rule.2940.3600.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.3700">
+    <h1 class="headnote">2940.3700 ACTIONS.</h1>
+    <p>If the executive officer of hearings and release or a district supervisor finds that releasees are in violation of their parole, work release, or supervised release, the following actions may be taken:</p>
+    <div id="rule.2940.3700.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2940.3700.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> counsel the releasee and continue parole, work release, supervised release without modification;</p>
+    </div>
+    <div id="rule.2940.3700.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2940.3700.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> modify and enlarge the conditions of release; or</p>
+    </div>
+    <div id="rule.2940.3700.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.2940.3700.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> revoke parole, work release, or supervised release and return the releasee to imprisonment for an appropriate period of time not to exceed the time remaining on the releasee's sentence.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.3700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.3700.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.3700.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.3800">
+    <h1 class="headnote">2940.3800 REIMPRISONMENT.</h1>
+    <p>Offenders who have violated the conditions of parole or supervised release and who have been returned to institutional status shall be assigned a release date and a term of reimprisonment, as follows:</p>
+    <div id="rule.2940.3800.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2940.3800.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> up to six months inclusive of any time spent in jail in connection with the violation, for violations of conditions of parole or supervised release other than convictions of or involvement in criminal activity;</p>
+    </div>
+    <div id="rule.2940.3800.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2940.3800.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> up to six months for convictions of misdemeanors or gross misdemeanors;</p>
+    </div>
+    <div id="rule.2940.3800.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.2940.3800.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> six months to expiration of sentence for conviction of a felony; and</p>
+    </div>
+    <div id="rule.2940.3800.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.2940.3800.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> depending on the time remaining to be served on the sentence, the type of violation, and the needs of the offender, up to expiration of the sentence may be assigned as the term of reimprisonment if there is a finding of risk to the public or if repeated violations of the conditions of release occur and the releasee is determined to be unamenable to supervision by the executive officer of hearings and release.</p>
+      <p>The term of reimprisonment under items A to C may be either concurrent or consecutive to incarceration time imposed by a court of law and served locally.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.3800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.3800.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.3800.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.3900">
+    <h1 class="headnote">2940.3900 REVOCATION PROCEDURES; INVESTIGATION AND REPORT.</h1>
+    <p>Supervising agents shall investigate all alleged violations of release and after consultation with their supervisor determine whether grounds exist to begin revocation procedures. If grounds are found to exist justifying the initiation of revocation procedures, a violation report must be submitted to the executive officer of hearings and release together with a recommendation as to the issuance of a warrant directing the apprehension and detention of the releasee pending a hearing.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.3900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.3900.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.3900.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.4000">
+    <h1 class="headnote">2940.4000 EMERGENCY SITUATIONS.</h1>
+    <p>In emergency situations supervising agents after consultation with their supervisor, may call the hearings and release unit to request an emergency warrant. The procedure indicated in parts <a href="/rules/2940.3000">2940.3000</a> to <a href="/rules/2940.3400">2940.3400</a> governs the issuance of emergency warrants.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.4000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.4000.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.4000.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.4100">
+    <h1 class="headnote">2940.4100 INITIATION OF REVOCATION PROCEEDINGS.</h1>
+    <p>If the executive officer of the hearings and release unit determines that revocation proceedings shall be initiated, the supervising agent shall be notified in writing. The executive officer of the hearings and release unit shall send a copy of the violation report to the State Public Defender's Office at the same time that agent is notified to begin revocation proceedings.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.4100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.4100.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; L 1999 c 86 art 1 s 82</p>
+  </div>
+  <div class="published" id="rule.2940.4100.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.4200">
+    <h1 class="headnote">2940.4200 DUTIES OF SUPERVISING AGENT.</h1>
+    <p>Upon receipt of the notice to begin revocation proceedings, the supervising agent shall have the duties in items A to F.</p>
+    <div id="rule.2940.4200.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.2940.4200.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> The agent shall give the releasee a copy of the violation report.</p>
+    </div>
+    <div id="rule.2940.4200.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.2940.4200.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> The supervising agent shall advise the releasee of the purpose of the hearing; the right to a hearing; the right to the assistance of counsel of choice or the services of the State Public Defender; the right to present evidence and to confront and cross-examine witnesses; and the right to admit the violations of release.</p>
+    </div>
+    <div id="rule.2940.4200.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.2940.4200.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> If the releasee signs the admission of violations form, the supervising agent shall notify the fugitive unit to transport the violator to a correctional facility designated by the commissioner.</p>
+    </div>
+    <div id="rule.2940.4200.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.2940.4200.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> Upon return to the correctional facility, the releasee shall be provided with a dispositional hearing within 15 working days at which the supervising agent is not required to be present.</p>
+    </div>
+    <div id="rule.2940.4200.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.2940.4200.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> If the releasee requests a revocation hearing, the supervising agent shall call the hearings and release unit to coordinate a date and time for the hearing.</p>
+    </div>
+    <div id="rule.2940.4200.F" class="item">
+      <a title="Link to item F" class="permalink" href="#rule.2940.4200.F">§</a>
+      <h3 class="item_no">F.</h3>
+      <p> Upon receiving the date and time for the hearing, the supervising agent shall prepare a notice of hearing form, make six copies of the rules of release, six copies of any written evidence, and distribute one set of each according to the distribution indicated on the notice of revocation hearing form.</p>
+      <p>If the releasee is in custody pursuant to a warrant issued by the hearings and release unit, the hearing shall be held within 15 working days immediately after detention, unless good cause is shown for a continuance. At the time notice is given to the releasee, notice shall be sent to the State Public Defender or private counsel.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.4200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.4200.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 17 SR 1279; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.4200.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.4300">
+    <h1 class="headnote">2940.4300 REVOCATION HEARING.</h1>
+    <p>The revocation hearing shall be held near the site of the alleged violation, and conducted by the executive officer of hearings and release or a district supervisor who does not directly supervise the supervising agent alleging the violation. If parole, supervised release, or work release is revoked, the releasee shall be imprisoned in a place determined by the commissioner. Releasees may admit the alleged violations any time prior to the hearing. The admission must be in writing, and releasees must have been notified of the consequences of their admission, including that they may be returned to a correctional facility for a term of imprisonment specified by the executive officer of hearings and release or a district supervisor.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.4300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.4300.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.4300.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.4400">
+    <h1 class="headnote">2940.4400 WARRANTS.</h1>
+    <div id="rule.2940.4400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2940.4400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">General requirement. </h2>
+      <p>Unless taken into custody by a supervising agent under the authority of Minnesota Statutes 1983 Supplement, section <a href="/statutes/cite/243.05">243.05</a>, a releasee shall not be taken into custody unless a warrant is issued by the executive officer of hearings and release.</p>
+    </div>
+    <div id="rule.2940.4400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2940.4400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Content. </h2>
+      <p>Requests for hold orders or warrants must allege the specific facts upon which the alleged violation is based, indicate the sources of information, and cite reasons why detention pending the hearing is necessary.</p>
+    </div>
+    <div id="rule.2940.4400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.2940.4400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Absconding from supervision. </h2>
+      <p>Warrants may be issued in all cases where a releasee has absconded from supervision. Issuance of warrant under these circumstances and the revocation of parole, supervised release, or work release shall stop the time from running on the sentence until the releasee is returned to custody. In all cases where a releasee is returned from out of state, whether by extradition proceedings or waiver of extradition, the hearing shall be held at a location determined by the executive officer of hearings and release.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.4400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.4400.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.4400.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.4500">
+    <h1 class="headnote">2940.4500 FAILURE TO APPEAR.</h1>
+    <p>Failure of a releasee to appear at a revocation or probable cause hearing after having been duly notified will result in the issuance of a warrant for their apprehension and detention and return to custody pending a hearing at a place to be determined by the executive officer of hearings and release.</p>
+  </div>
+  <div class="stat_auth" id="rule.2940.4500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.4500.history">
+    <h2>History: </h2>
+    <p>8 SR 2298; 23 SR 808</p>
+  </div>
+  <div class="published" id="rule.2940.4500.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.4600">
+    <h1 class="headnote repealed">2940.4600</h1>
+    <p>[Repealed, 23 SR 808]</p>
+  </div>
+  <div class="published" id="rule.2940.4600.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.4700">
+    <h1 class="headnote repealed">2940.4700</h1>
+    <p>[Repealed, 23 SR 808]</p>
+  </div>
+  <div class="published" id="rule.2940.4700.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.4800">
+    <h1 class="headnote repealed">2940.4800</h1>
+    <p>[Repealed, 23 SR 808]</p>
+  </div>
+  <div class="published" id="rule.2940.4800.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.4900">
+    <h1 class="headnote repealed">2940.4900</h1>
+    <p>[Repealed, 23 SR 808]</p>
+  </div>
+  <div class="published" id="rule.2940.4900.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.5000">
+    <h1 class="headnote repealed">2940.5000</h1>
+    <p>[Repealed, 23 SR 808]</p>
+  </div>
+  <div class="published" id="rule.2940.5000.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.5100">
+    <h1 class="headnote repealed">2940.5100</h1>
+    <p>[Repealed, 23 SR 808]</p>
+  </div>
+  <div class="published" id="rule.2940.5100.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.5200">
+    <h1 class="headnote repealed">2940.5200</h1>
+    <p>[Repealed, 23 SR 808]</p>
+  </div>
+  <div class="published" id="rule.2940.5200.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.5300">
+    <h1 class="headnote repealed">2940.5300</h1>
+    <p>[Repealed, 23 SR 808]</p>
+  </div>
+  <div class="published" id="rule.2940.5300.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.5400">
+    <h1 class="headnote repealed">2940.5400</h1>
+    <p>[Repealed, 23 SR 808]</p>
+  </div>
+  <div class="published" id="rule.2940.5400.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.5500">
+    <h1 class="headnote repealed">2940.5500</h1>
+    <p>[Repealed, 23 SR 808]</p>
+  </div>
+  <div class="published" id="rule.2940.5500.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.5600">
+    <h1 class="headnote repealed">2940.5600</h1>
+    <p>[Repealed, 23 SR 808]</p>
+  </div>
+  <div class="published" id="rule.2940.5600.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.2940.5700">
+    <h1 class="headnote">2940.5700 REQUEST FOR INTERSTATE SUPERVISION OF MINNESOTA RELEASEE.</h1>
+    <div id="rule.2940.5700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.2940.5700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Request for transfer. </h2>
+      <p>Transfer requests for interstate supervision of a Minnesota releasee must be submitted to the deputy compact administrator, in the central office, at least 60 days but not more than 90 days prior to the established release date. The request shall be submitted on correction form 245, and must include in specific terms the placement offer and employment, as well as the institution caseworker's evaluation and recommendation.</p>
+    </div>
+    <div id="rule.2940.5700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.2940.5700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Material to be submitted. </h2>
+      <p>The following material shall be submitted to the compact administrator:</p>
+      <div id="rule.2940.5700.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.2940.5700.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> three copies of the transfer request correction form 245 (interstate transfer request);</p>
+      </div>
+      <div id="rule.2940.5700.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.2940.5700.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> three copies of correction form 312 (application for compact services);</p>
+      </div>
+      <div id="rule.2940.5700.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.2940.5700.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> three copies of correction form 248 (agreement to return form) signed, dated, and witnessed; and</p>
+      </div>
+      <div id="rule.2940.5700.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.2940.5700.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> three copies of case management progress reports, fingerprints, and photos.</p>
+        <p>On cases already under field services supervision the deputy compact administrator will request the photos, fingerprints, and progress reports from the releasing institution.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.2940.5700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/241.26">241.26</a>; <a href="/statutes/cite/243.05">243.05</a></p>
+  </div>
+  <div class="history" id="rule.2940.5700.history">
+    <h2>History: </h2>
+    <p>8 SR 2298</p>
+  </div>
+  <div class="published" id="rule.2940.5700.published">
+    <h2>Published Electronically:</h2>
+    <p> November 9, 2004</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
