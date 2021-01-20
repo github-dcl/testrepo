@@ -1,0 +1,2543 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            7820.0200 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/138">Public Utilities Commission</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/7820/">Chapter 7820</a>
+            </li>
+        
+    
+        
+            <li>Part 7820.0200</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/7820.0300/">7820.0300</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/7820.0200/2014-01-18%2008:02:37+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 7820</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7820/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7820/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7820/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 7820.0200</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7820.0200/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.0200">
+    <h1 class="headnote">7820.0200 CUSTOMER INFORMATION.</h1>
+    <p>The utility is responsible for informing its customers of the following information as prescribed by the following provisions:</p>
+    <div id="rule.7820.0200.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7820.0200.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> A sign or notice, which shall be approved by the commission, posted prominently and conspicuously at all utility office locations open to the general public. The sign or notice shall state where, when, and to whom a compliant is to be directed, and the address of the Public Utilities Commission and its availability for mediation upon written request.</p>
+    </div>
+    <div id="rule.7820.0200.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7820.0200.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> The utility shall, at its expense, publish customer information, that will be offered to each new customer, and upon request, to any existing customer. This customer information must be submitted to the commission for approval. This customer information must, at a minimum, include the following:</p>
+      <div id="rule.7820.0200.B.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.7820.0200.B.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> The utility's own customer policies governing the following areas: bill collections; notice of disconnection; disconnection of service; reconnection of service; deposit and guarantee requirements; and meter reading procedures.</p>
+      </div>
+      <div id="rule.7820.0200.B.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.7820.0200.B.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> The rate schedule pertaining to the customers of that area. The current rate schedule as required by part <a href="/rules/7820.3200">7820.3200</a> may be attached to the information to meet this requirement.</p>
+      </div>
+      <div id="rule.7820.0200.B.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.7820.0200.B.3">§</a>
+        <h4 class="subitem_no">(3)</h4>
+        <p> The title, addresses, and phone numbers of the department(s) of the utility to which complaints should be directed, including a telephone number for customers to call in emergency situations or a concise statement as to where such information can be obtained.</p>
+      </div>
+      <div id="rule.7820.0200.B.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.7820.0200.B.4">§</a>
+        <h4 class="subitem_no">(4)</h4>
+        <p> The information contained in parts <a href="/rules/7820.0300">7820.0300</a> and <a href="/rules/7820.2700">7820.2700</a> to <a href="/rules/7820.3000">7820.3000</a>.</p>
+      </div>
+      <div id="rule.7820.0200.B.5" class="subitem">
+        <a title="Link to subitem 5" class="permalink" href="#rule.7820.0200.B.5">§</a>
+        <h4 class="subitem_no">(5)</h4>
+        <p> This statement: "The Minnesota Public Utilities Commission regulates this utility and is available for mediation upon written request," and the address of the Minnesota Public Utilities Commission.</p>
+      </div>
+    </div>
+    <div id="rule.7820.0200.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7820.0200.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> The utility's billing statements to its customers must contain this information:</p>
+      <div id="rule.7820.0200.C.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.7820.0200.C.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> This statement: "Register any inquiry or complaint at ..." (and list the address and telephone number of the utility, designating where the customer may initiate an inquiry or a complaint, or a concise statement as to where such information can be obtained).</p>
+      </div>
+      <div id="rule.7820.0200.C.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.7820.0200.C.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> A notice to customers of the availability upon request of the customer information.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.0300">
+    <h1 class="headnote">7820.0300 COMPLAINT PROCEDURES.</h1>
+    <p>The utility shall establish such procedures whereby qualified personnel shall be available during regular business hours to receive and, if possible, resolve all customer inquiries, requests, and complaints.</p>
+    <p>If any complaint cannot be promptly resolved, the utility shall contact the customer within five business days and at least once every 14 calendar days thereafter, and advise the customer regarding the status of its investigation until: the complaint is mutually resolved; or the utility advises the customer of the results of its investigation and final disposition of the matter; or the customer files a written complaint with the Public Utilities Commission or the courts.</p>
+    <p>When the Public Utilities Commission forwards a customer complaint to the utility, the utility shall notify the commission within ten business days regarding the status or disposition of the complaint.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.0400">
+    <h1 class="headnote">7820.0400 COMPLAINT RECORDS.</h1>
+    <p>Each utility shall keep a record of complaints received by it from its customers which shall be classified as directed by the Public Utilities Commission. The record shall show the name and address of the complainant, the date and nature of the complaint, and its disposition and the date thereof. The utility shall keep records of customer complaints in such a manner that will enable it to review and analyze its procedures and actions.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.0500">
+    <h1 class="headnote">7820.0500 REPORTING REQUIREMENT.</h1>
+    <p>Each utility shall file an annual report on or before May 1 with the Public Utilities Commission containing the following information:</p>
+    <div id="rule.7820.0500.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7820.0500.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> The total numbers of resolved and unresolved complaints by class of service and type of complaint.</p>
+    </div>
+    <div id="rule.7820.0500.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7820.0500.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> The total number of customers in each class of service and the total number of customers who initiated service during the past year.</p>
+    </div>
+    <div id="rule.7820.0500.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7820.0500.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> The names, addresses, and telephone numbers of personnel designated and authorized to receive and respond to the requests and directives of the Public Utilities Commission regarding customer inquiries, service requests, and complaints. The utility shall keep this information current and if changes occur, the utility must inform the commission immediately of these changes.</p>
+      <p>This report will be an official document and all information must be verifiable and available for inspection and investigation by commission staff. The utility must provide, upon notice by the commission, an up-to-date report of this type prior to any hearing before the commission, or upon any official request of the commission. The commission shall initially mail copies of the type of form to be used for this report to all utilities regulated hereunder.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.0500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.0600">
+    <h1 class="headnote">7820.0600 INSPECTION.</h1>
+    <p>The utility shall permit authorized Public Utilities Commission staff to inspect, during regular business hours, all of the utility's operations and records relating to customer service.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.0600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.12">216B.12</a></p>
+  </div>
+  <div class="published" id="rule.7820.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.0700">
+    <h1 class="headnote">7820.0700 DEFINITIONS.</h1>
+    <div id="rule.7820.0700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7820.0700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Customer. </h2>
+      <p>"Customer" means any person, firm, association or corporation, or any agency of the federal, state, or local government, being supplied with service by a utility, subject to the jurisdiction of this commission.</p>
+    </div>
+    <div id="rule.7820.0700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7820.0700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Disconnection of service. </h2>
+      <p>"Disconnection of service" means an involuntary cessation of utility service to a customer.</p>
+    </div>
+    <div id="rule.7820.0700.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7820.0700.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Temporary disconnection. </h2>
+      <p>"Temporary disconnection" means a voluntary cessation of utility service and applies specifically to part <a href="/rules/7820.1200">7820.1200</a>. This is not a permanent termination of service.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.0700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.0700.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.0800">
+    <h1 class="headnote">7820.0800 EXTENSION OF SERVICE.</h1>
+    <p>No electric utility shall extend service beyond its service area to customers who require a connected load less than 2,000 kilowatts. Extension of service outside of a utility's service area shall in all cases be governed by Minnesota Statutes, sections <a href="/statutes/cite/216B.39">216B.39</a> to <a href="/statutes/cite/216B.42">216B.42</a>, <a href="/statutes/cite/216B.43">216B.43</a>, and <a href="/statutes/cite/216B.44">216B.44</a>.</p>
+    <p>Extension of any electric service outside of a utility's service area, but which does not extend into another utility's service area, shall be as directed by the commission.</p>
+    <p>Each utility shall file a plan in its tariff application for the installation of extensions to main and service lines where such facilities are in excess of those included in the regular rates for service and for which the customer shall be required to pay all or part of the costs.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.0800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.0800.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.0900">
+    <h1 class="headnote">7820.0900 TEMPORARY SERVICE.</h1>
+    <p>A customer taking temporary service shall pay the regular rates applicable to the class of service rendered. The rates charged shall provide a reasonable rate of return for the utility.</p>
+    <p>When a utility renders a temporary service to a customer, it may require that the customer bear the cost of installing and removing the service in excess of any salvage realized.</p>
+    <p>The utility may require the customer to make an advance payment sufficient to cover the estimated cost of service as is used above.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.0900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.0900.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.1000">
+    <h1 class="headnote">7820.1000 PERMISSIBLE SERVICE DISCONNECTION WITH NOTICE.</h1>
+    <p>With notice a utility may disconnect service to any customer for any reason stated below. Notice must comply with the requirements of part <a href="/rules/7820.2400">7820.2400</a>:</p>
+    <div id="rule.7820.1000.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7820.1000.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> for failure of the customer to pay a bill for utility service, but only when the amount of the customer's outstanding bill equals or exceeds the amount of the customer's deposit;</p>
+    </div>
+    <div id="rule.7820.1000.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7820.1000.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> for failure of the customer to meet the utility's deposit and credit requirements;</p>
+    </div>
+    <div id="rule.7820.1000.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7820.1000.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> for failure of the customer to make proper application for service;</p>
+    </div>
+    <div id="rule.7820.1000.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.7820.1000.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> for customer's violation of any of the utility's rules on file with the commission;</p>
+    </div>
+    <div id="rule.7820.1000.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.7820.1000.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> for failure of the customer to provide the utility reasonable access to its equipment and property;</p>
+    </div>
+    <div id="rule.7820.1000.F" class="item">
+      <a title="Link to item F" class="permalink" href="#rule.7820.1000.F">§</a>
+      <h3 class="item_no">F.</h3>
+      <p> for customer's breach of the contract for service between the utility and the customer;</p>
+    </div>
+    <div id="rule.7820.1000.G" class="item">
+      <a title="Link to item G" class="permalink" href="#rule.7820.1000.G">§</a>
+      <h3 class="item_no">G.</h3>
+      <p> for failure of the customer to furnish such service, equipment, and/or rights-of-way necessary to serve the customer as shall have been specified by the utility as a condition of obtaining service;</p>
+    </div>
+    <div id="rule.7820.1000.H" class="item">
+      <a title="Link to item H" class="permalink" href="#rule.7820.1000.H">§</a>
+      <h3 class="item_no">H.</h3>
+      <p> when determined by the commission as prescribed by relevant state or other applicable standards or after individual hearing upon application of any person that customer is willfully wasting service through improper equipment; or</p>
+    </div>
+    <div id="rule.7820.1000.I" class="item">
+      <a title="Link to item I" class="permalink" href="#rule.7820.1000.I">§</a>
+      <h3 class="item_no">I.</h3>
+      <p> when necessary for the utility to comply with any order or request of any governmental authority having jurisdiction.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.1000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.1000.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.1100">
+    <h1 class="headnote">7820.1100 PERMISSIBLE SERVICE DISCONNECTION WITHOUT NOTICE.</h1>
+    <p>Without notice a utility may disconnect service to any customer for any reason stated below:</p>
+    <div id="rule.7820.1100.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7820.1100.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> in the event of an unauthorized use of or tampering with the utility's equipment; or</p>
+    </div>
+    <div id="rule.7820.1100.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7820.1100.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> in the event of a condition determined to be hazardous to the customer, to other customers of the utility, to the utility's equipment, or to the public.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.1100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.1100.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.1200">
+    <h1 class="headnote">7820.1200 TEMPORARY DISCONNECTION OF SERVICE.</h1>
+    <p>A utility may temporarily disconnect service to a customer otherwise entitled to disconnect service, upon written request by said customer. Temporary disconnection of service for this reason does not require refund of deposit nor interruption of interest.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.1200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.1200.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.1300">
+    <h1 class="headnote">7820.1300 NONPERMISSIBLE REASONS TO DISCONNECT SERVICE.</h1>
+    <p>A utility may not disconnect service to any customer for any reason stated below:</p>
+    <div id="rule.7820.1300.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7820.1300.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> delinquency in payment for services rendered to a previous customer who occupied the premises unless the customer continues to occupy the premises;</p>
+    </div>
+    <div id="rule.7820.1300.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7820.1300.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> failure to pay for merchandise, appliances, or services not approved by the commission as an integral part of the utility service;</p>
+    </div>
+    <div id="rule.7820.1300.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7820.1300.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> failure to pay for a different class of service;</p>
+    </div>
+    <div id="rule.7820.1300.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.7820.1300.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> failure to pay for a bill based on concurrent charges from another meter; or</p>
+    </div>
+    <div id="rule.7820.1300.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.7820.1300.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> failure to pay for a bill to correct a previous underbilling due to an inaccurate meter or billing error if the customer agrees to payment over a reasonable period of time.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.1300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.1300.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.1400">
+    <h1 class="headnote">7820.1400 LANDLORD-TENANT RULE.</h1>
+    <p>In situations where the service is rendered at an address different from the mailing address of the bill, or where the utility has reason to know that a landlord-tenant relationship exists and that the landlord is the customer of the utility; and where the landlord as customer would otherwise be subject to disconnection of service; the utility may not disconnect service until the following actions have been taken:</p>
+    <div id="rule.7820.1400.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7820.1400.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> Where it is feasible to so provide service the utility, after providing notice as required in these rules, shall offer the occupant the opportunity to subscribe for service in the occupant's own name. If the occupant then declines to so subscribe, the utility may disconnect service pursuant to the rules.</p>
+    </div>
+    <div id="rule.7820.1400.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7820.1400.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> A utility shall not attempt to recover from a tenant, or condition service to a tenant with the payment of any outstanding bills or other charges due upon the outstanding account of the landlord.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.1400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="history" id="rule.7820.1400.history">
+    <h2>History: </h2>
+    <p>17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.7820.1400.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.1500">
+    <h1 class="headnote repealed">7820.1500</h1>
+    <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+  </div>
+  <div class="published" id="rule.7820.1500.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.1600">
+    <h1 class="headnote repealed">7820.1600</h1>
+    <div id="rule.7820.1600.1" class="subp repealed">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7820.1600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+    </div>
+    <div id="rule.7820.1600.1" class="subp repealed">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7820.1600.1">§</a>
+      <h2 class="subp_no">Subp. 1a.</h2>
+      <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+    </div>
+    <div id="rule.7820.1600.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7820.1600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+    </div>
+    <div id="rule.7820.1600.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7820.1600.2">§</a>
+      <h2 class="subp_no">Subp. 2a.</h2>
+      <p>[Repealed, 26 SR 668]</p>
+    </div>
+    <div id="rule.7820.1600.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7820.1600.2">§</a>
+      <h2 class="subp_no">Subp. 2b.</h2>
+      <p>[Renumbered Subp. 2f]</p>
+    </div>
+    <div id="rule.7820.1600.2c" class="subp repealed">
+      <a title="Link to subpart 2c" class="permalink" href="#rule.7820.1600.2c">§</a>
+      <h2 class="subp_no">Subp. 2c.</h2>
+      <p>[Renumbered Subp. 2g]</p>
+    </div>
+    <div id="rule.7820.1600.2d" class="subp repealed">
+      <a title="Link to subpart 2d" class="permalink" href="#rule.7820.1600.2d">§</a>
+      <h2 class="subp_no">Subp. 2d.</h2>
+      <p>[Renumbered Subp. 2h]</p>
+    </div>
+    <div id="rule.7820.1600.2e" class="subp repealed">
+      <a title="Link to subpart 2e" class="permalink" href="#rule.7820.1600.2e">§</a>
+      <h2 class="subp_no">Subp. 2e.</h2>
+      <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+    </div>
+    <div id="rule.7820.1600.2f" class="subp repealed">
+      <a title="Link to subpart 2f" class="permalink" href="#rule.7820.1600.2f">§</a>
+      <h2 class="subp_no">Subp. 2f.</h2>
+      <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+    </div>
+    <div id="rule.7820.1600.2g" class="subp repealed">
+      <a title="Link to subpart 2g" class="permalink" href="#rule.7820.1600.2g">§</a>
+      <h2 class="subp_no">Subp. 2g.</h2>
+      <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+    </div>
+    <div id="rule.7820.1600.2h" class="subp repealed">
+      <a title="Link to subpart 2h" class="permalink" href="#rule.7820.1600.2h">§</a>
+      <h2 class="subp_no">Subp. 2h.</h2>
+      <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+    </div>
+    <div id="rule.7820.1600.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7820.1600.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+    </div>
+    <div id="rule.7820.1600.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7820.1600.3">§</a>
+      <h2 class="subp_no">Subp. 3a.</h2>
+      <p>[Repealed, 26 SR 668]</p>
+    </div>
+    <div id="rule.7820.1600.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7820.1600.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+    </div>
+    <div id="rule.7820.1600.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7820.1600.4">§</a>
+      <h2 class="subp_no">Subp. 4a.</h2>
+      <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+    </div>
+    <div id="rule.7820.1600.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7820.1600.4">§</a>
+      <h2 class="subp_no">Subp. 4b.</h2>
+      <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+    </div>
+    <div id="rule.7820.1600.5" class="subp repealed">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7820.1600.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+    </div>
+    <div id="rule.7820.1600.5" class="subp repealed">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7820.1600.5">§</a>
+      <h2 class="subp_no">Subp. 5a.</h2>
+      <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+    </div>
+    <div id="rule.7820.1600.6" class="subp repealed">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7820.1600.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+    </div>
+    <div id="rule.7820.1600.6" class="subp repealed">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7820.1600.6">§</a>
+      <h2 class="subp_no">Subp. 6a.</h2>
+      <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+    </div>
+    <div id="rule.7820.1600.7" class="subp repealed">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7820.1600.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+    </div>
+  </div>
+  <div class="published" id="rule.7820.1600.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.1700">
+    <h1 class="headnote repealed">7820.1700</h1>
+    <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+  </div>
+  <div class="published" id="rule.7820.1700.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.1750">
+    <h1 class="headnote repealed">7820.1750</h1>
+    <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+  </div>
+  <div class="published" id="rule.7820.1750.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.1800">
+    <h1 class="headnote repealed">7820.1800</h1>
+    <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+  </div>
+  <div class="published" id="rule.7820.1800.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.1900">
+    <h1 class="headnote repealed">7820.1900</h1>
+    <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+  </div>
+  <div class="published" id="rule.7820.1900.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.2000">
+    <h1 class="headnote repealed">7820.2000</h1>
+    <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+  </div>
+  <div class="published" id="rule.7820.2000.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.2010">
+    <h1 class="headnote repealed">7820.2010</h1>
+    <p>[Repealed, 26 SR 668]</p>
+  </div>
+  <div class="published" id="rule.7820.2010.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.2100">
+    <h1 class="headnote repealed">7820.2100</h1>
+    <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+  </div>
+  <div class="published" id="rule.7820.2100.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.2150">
+    <h1 class="headnote repealed">7820.2150</h1>
+    <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+  </div>
+  <div class="published" id="rule.7820.2150.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.2200">
+    <h1 class="headnote repealed">7820.2200</h1>
+    <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+  </div>
+  <div class="published" id="rule.7820.2200.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.2300">
+    <h1 class="headnote repealed">7820.2300</h1>
+    <p>[Repealed, L 2007 c 57 art 2 s 42]</p>
+  </div>
+  <div class="published" id="rule.7820.2300.published">
+    <h2>Published Electronically:</h2>
+    <p> October 15, 2009</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.2400">
+    <h1 class="headnote">7820.2400 NOTICE REQUIREMENTS.</h1>
+    <p>Where required by this chapter, notice of impending action by the utility shall be by first class mail. Notice shall be sent to the address where service is rendered and to the address where the bill is sent if different from the address where service is rendered. A representative of the utility must make an affidavit under oath that the representative deposited in the mail the notice properly addressed to the customer. In lieu of mailing, notices may be delivered by a representative of the utility. Such notices must be in writing and receipt of them must be signed by the customer, if present, or some other member of the customer's family of a responsible age or the utility representative must make an affidavit under oath that the representative delivered the notice to the customer or the customer's residence. A record of all notices and all affidavits required by this chapter must be kept on file by the utility and must be made available to the commission. Disconnection notices shall contain the date on or after which disconnection will occur, reason for disconnection, and methods of avoiding disconnection in normal, easy-to-understand language.</p>
+    <p>All notice required by this chapter must precede the action to be taken by at least five days excluding Sundays and legal holidays. No notice may be given until the condition of which it informs, presently exists.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.2400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="history" id="rule.7820.2400.history">
+    <h2>History: </h2>
+    <p>17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.7820.2400.published">
+    <h2>Published Electronically:</h2>
+    <p> October 15, 2009</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.2500">
+    <h1 class="headnote">7820.2500 MANNER OF DISCONNECTION.</h1>
+    <p>Service may be disconnected only in conjunction with a personal visit by a representative of the utility to the address where the service is rendered and an attempt to make personal contact with the customer at the address. If the address is a building containing two or more dwelling units, the representative shall make a personal visit to the door of the customer's dwelling unit within the building. If security provisions in the building preclude free access on the part of the representative, the representative shall attempt to gain access to the building from the caretaker, for the purpose of attempting to make personal contact with the customer. The representative of the utility shall at all times be capable of receiving payment, if nonpayment is the cause of the disconnection of service, or the representative shall be able to certify that the cause of disconnection has been remedied by the customer.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.2500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.2500.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.2600">
+    <h1 class="headnote">7820.2600 RECONNECTION OF SERVICE.</h1>
+    <p>In the event service has been disconnected for valid cause by the utility, the utility may charge a reconnect fee based on the cost of reconnection as stated in the utility's tariff on file with the commission. Notwithstanding the above provision, the utility shall not charge a reconnect fee for disconnection of service pursuant to part <a href="/rules/7820.1100">7820.1100</a>, item B.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.2600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.2600.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.2700">
+    <h1 class="headnote">7820.2700 DISPUTES.</h1>
+    <p>Whenever the customer advises the utility's designated representative prior to the disconnection of service that any part of the billing as rendered or any part of the service is in dispute, the utility shall investigate the dispute promptly, advise customer of investigation and its result, attempt to resolve dispute, and withhold disconnection of service until the investigation is completed and the customer is informed of the findings in writing.</p>
+    <p>Upon the findings of the utility, the customer must submit payment in full of any bill which is due. If the dispute is not resolved to the satisfaction of the customer, the customer must submit the entire payment and may designate the disputed portion to be placed in escrow to the utility. Such payment shall be called an escrow payment.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.2700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="history" id="rule.7820.2700.history">
+    <h2>History: </h2>
+    <p>17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.7820.2700.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.2800">
+    <h1 class="headnote">7820.2800 ESCROW PAYMENTS FOR DISPUTES.</h1>
+    <p>To submit a payment in escrow, the customer shall make payment of the amount due as shown on the bill through an escrow payment form, clearly marked and provided by the utility.</p>
+    <p>The escrow payment form must provide space for the customer to explain why the utility's resolution of the dispute is unsatisfactory to the customer. The form must be in three copies, one of which will be retained by the customer. A copy of the escrow payment form must be forwarded by the customer to the Public Utilities Commission. Any escrow payment to the utility may be applied by the utility as any normal payment received by the utility. After escrow payment has been made, the customer and the utility may still resolve the dispute to their mutual satisfaction.</p>
+    <p>By submitting the escrow payment form to the commission, the customer is deemed to have filed an informal complaint against the utility, pursuant to the commission's rules of practice, parts <a href="/rules/7829.0100">7829.0100</a> to <a href="/rules/7829.3200">7829.3200</a>. Upon settlement of the dispute, any sum to which the customer is found to be entitled must be refunded to the customer and must be supplemented by an eight percent per annum interest charge from the date of payment to the date of return by the utility.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.2800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="history" id="rule.7820.2800.history">
+    <h2>History: </h2>
+    <p>26 SR 1438</p>
+  </div>
+  <div class="published" id="rule.7820.2800.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.2900">
+    <h1 class="headnote">7820.2900 WAIVING RIGHT TO DISCONNECT; EMERGENCY STATUS.</h1>
+    <p>The customer may apply to the utility to waive its right to disconnect. If the utility refuses to waive its right to disconnect, the customer may apply to the commission for emergency status. If the commission determines the customer has a probable claim in the dispute and that hardship may result in the event of disconnection of service, it may declare an emergency status to exist and order the utility to continue service for a period not to exceed 30 days.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.2900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.2900.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.3000">
+    <h1 class="headnote">7820.3000 WHEN NO DUTY TO RESTORE SERVICE.</h1>
+    <p>Notwithstanding anything herein to the contrary, the utility shall not be obligated to suspend discontinuance of service upon the filing for review with the commission, unless the customer shall pay, when due, all current bills rendered during the pendency. If, following the first filing for review with the commission, the same customer or any other person files for any subsequent review by the commission pertaining to the same account, such subsequent filings shall not relieve the customer from the obligations to pay for service rendered after the first filing. If subsequent requests for review are filed during the pendency of the first review, all designated disputed payment or portions thereof made after the first filing shall be considered to be made into escrow.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.3000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.3000.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.3100">
+    <h1 class="headnote">7820.3100 UNIFORM ACCESS TO CUSTOMER'S PREMISES.</h1>
+    <div id="rule.7820.3100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7820.3100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">No entry. </h2>
+      <p>A utility shall not enter a customer's premises if: the customer has not consented; or the utility has not obtained a court order authorizing entry; or an emergency situation involving imminent danger to life or property does not reasonably appear to exist.</p>
+    </div>
+    <div id="rule.7820.3100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7820.3100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Consent by customer. </h2>
+      <p>A customer shall be deemed to have consented to entry if:</p>
+      <div id="rule.7820.3100.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7820.3100.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The customer has agreed orally or in writing in advance of entry that the utility may enter the customer's premises on a particular occasion; or</p>
+      </div>
+      <div id="rule.7820.3100.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7820.3100.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The customer has agreed in writing that the utility may enter the customer's premises to read its meter or service utility equipment at reasonable times and occasions if the premises are unlocked, or if the customer has supplied a key. The form of agreement shall state in large, easy-to-read print: "YOU DO NOT NEED TO SIGN THIS AGREEMENT IN ORDER TO OBTAIN SERVICE. IF YOU DO SIGN THIS AGREEMENT, YOU MAY REVOKE IT AT ANY TIME BY WRITTEN NOTICE TO THE COMPANY." When consent has been given in accordance with this subpart, the utility shall notify the customer, on an annual basis by first class mail, that the consent previously given will continue in force for an additional year, unless the customer revokes the consent by written notice to the utility; or</p>
+      </div>
+      <div id="rule.7820.3100.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7820.3100.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The customer is on a nonresidential rate and the portion of that premises entered is open to the general public.</p>
+      </div>
+    </div>
+    <div id="rule.7820.3100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7820.3100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Premises. </h2>
+      <p>For the purpose of this part "premises" means buildings and structures and land surrounding the buildings which is not accessible except through a locked gate.</p>
+    </div>
+    <div id="rule.7820.3100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7820.3100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Entering premises without consent; notice to law enforcement. </h2>
+      <p>A utility shall notify the jurisdictional law enforcement agency before entering the customer's premises without the customer's consent unless it would be unreasonable under the facts and circumstances to do so.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.3100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.3100.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.3200">
+    <h1 class="headnote">7820.3200 BILLING BASIS.</h1>
+    <p>Bills for service will be based on meter readings or estimated usage and computed in accordance with applicable rate schedules on file with the commission. When a customer is eligible to take service under more than one rate, the utility shall advise the customer in the selection of rate or rates which in its judgment result in the lowest cost of projected consumption, based on 12 months' service and on the information at hand. Each utility shall, at the time of any change in the applicable rate schedule, deliver to each customer the schedule of rates applicable to the customer's type of service.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.3200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="history" id="rule.7820.3200.history">
+    <h2>History: </h2>
+    <p>17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.7820.3200.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.3300">
+    <h1 class="headnote">7820.3300 METER READING AND BILLING PERIODS.</h1>
+    <p>Readings of all meters used for determining charges to customers shall be made each month unless otherwise authorized by the commission upon petition by the utility. The term "month" for meter reading and billing purposes is the period between successive meter reading dates which shall be as nearly as practicable to 30-day intervals. When a utility is unable to gain access to a meter, it shall leave a meter-reading form for the customer.</p>
+    <p>A utility may permit the customer to supply meter readings on a form supplied by the utility, providing a utility representative reads the meter at least once every 12 months or at an interval determined upon petition to the commission and when there is a change in customers and when requested by the customer. This form should advise the customer of the utility's responsibilities to read the meter.</p>
+    <p>If the billing period is longer or shorter than the normal billing period by more than five days, the bill shall be prorated on a daily basis.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.3300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.3300.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.3400">
+    <h1 class="headnote">7820.3400 ESTIMATED BILLING.</h1>
+    <p>When access to a meter cannot be gained and the customer fails to supply a meter-reading form in time for the billing operation, an estimated bill may be rendered. In cases of emergency, the utility may render estimated bills without reading meters or supplying meter-reading forms to customers. When a customer fails to return a meter-reading form under the customer meter-reading plan, an estimated bill may be rendered. Estimated bills shall be based on the customer's normal consumption for a corresponding period during the preceding months or any other method specifically authorized by the commission. Only in unusual cases or when approval is obtained from the customer shall more than two consecutive estimated bills be rendered, unless the customer fails to supply meter readings as provided in part <a href="/rules/7820.3300">7820.3300</a>.</p>
+    <p>If an estimated bill appears to be abnormal when a subsequent reading is obtained, the bill for the entire period shall be computed at a rate which contemplates the use of service during the entire period and the estimated bill shall be deducted. If there is reasonable evidence that the use occurred during only one billing period, the bill shall be so computed.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.3400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.3400.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.3500">
+    <h1 class="headnote">7820.3500 BILLING CONTENT.</h1>
+    <p>Bills rendered periodically to customers for electric and gas service shall include, but are not limited to, the following information:</p>
+    <div id="rule.7820.3500.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7820.3500.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> the present and last preceding meter readings;</p>
+    </div>
+    <div id="rule.7820.3500.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7820.3500.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> the date of the present reading;</p>
+    </div>
+    <div id="rule.7820.3500.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7820.3500.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> identification of the applicable rate schedule;</p>
+    </div>
+    <div id="rule.7820.3500.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.7820.3500.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> the number and kinds of units metered;</p>
+    </div>
+    <div id="rule.7820.3500.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.7820.3500.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> a complete itemization of all charges incurred at each level of customer usage;</p>
+    </div>
+    <div id="rule.7820.3500.F" class="item">
+      <a title="Link to item F" class="permalink" href="#rule.7820.3500.F">§</a>
+      <h3 class="item_no">F.</h3>
+      <p> the amount of the bill;</p>
+    </div>
+    <div id="rule.7820.3500.G" class="item">
+      <a title="Link to item G" class="permalink" href="#rule.7820.3500.G">§</a>
+      <h3 class="item_no">G.</h3>
+      <p> the date on which the bill will become delinquent;</p>
+    </div>
+    <div id="rule.7820.3500.H" class="item">
+      <a title="Link to item H" class="permalink" href="#rule.7820.3500.H">§</a>
+      <h3 class="item_no">H.</h3>
+      <p> any late fee, if applicable;</p>
+    </div>
+    <div id="rule.7820.3500.I" class="item">
+      <a title="Link to item I" class="permalink" href="#rule.7820.3500.I">§</a>
+      <h3 class="item_no">I.</h3>
+      <p> if an estimated bill, clear and conspicuous language identifying the bill as an estimated bill;</p>
+    </div>
+    <div id="rule.7820.3500.J" class="item">
+      <a title="Link to item J" class="permalink" href="#rule.7820.3500.J">§</a>
+      <h3 class="item_no">J.</h3>
+      <p> the amount of state and local taxes separately itemized;</p>
+    </div>
+    <div id="rule.7820.3500.K" class="item">
+      <a title="Link to item K" class="permalink" href="#rule.7820.3500.K">§</a>
+      <h3 class="item_no">K.</h3>
+      <p> fuel or power adjustment clause separately itemized, if applicable; and</p>
+    </div>
+    <div id="rule.7820.3500.L" class="item">
+      <a title="Link to item L" class="permalink" href="#rule.7820.3500.L">§</a>
+      <h3 class="item_no">L.</h3>
+      <p> the information required by part <a href="/rules/7820.0200">7820.0200</a>, item C.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.3500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.3500.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.3600">
+    <h1 class="headnote">7820.3600 INABILITY TO COMPLY WITH REQUIRED BILLING CONTENT.</h1>
+    <p>If a utility is unable to comply with any provisions of part <a href="/rules/7820.3500">7820.3500</a> within 12 months of the effective date of the rule, the utility shall petition the commission for either a temporary exception or a permanent exemption. The petition shall include the justification for noncompliance, the duration of the desired exception, and the plan for compliance.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.3600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.3600.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.3700">
+    <h1 class="headnote">7820.3700 INACCURATE ELECTRIC METERS.</h1>
+    <div id="rule.7820.3700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7820.3700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Meter too fast or too slow. </h2>
+      <p>Whenever any meter is found upon test to have an average error of more than two percent fast, the utility shall refund to the customer the overcharge. Whenever any meter is found upon test to have an average error of more than two percent slow, the utility may charge for electricity consumed, but not included in the bills previously rendered. The refund or charge for both fast and slow meters shall be based on corrected meter readings for a period equal to one-half the time elapsed since the last previous test but not to exceed six months, unless it can be established that the error was due to some cause, the date of which can be fixed with reasonable certainty, in which case the refund or charge shall be computed to that date, but in no event for a period longer than one year.</p>
+    </div>
+    <div id="rule.7820.3700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7820.3700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Meter fails to register or registers intermittently. </h2>
+      <p>When the average error cannot be determined by test because the meter is not found to register or is found to register intermittently, the utility may charge for an estimated amount of electricity used, which shall be calculated by averaging the amounts registered over corresponding periods in previous years or in the absence of such information, over similar periods of known accurate measurement preceding or subsequent thereto, but in no event shall such charge be for a period longer than one year.</p>
+    </div>
+    <div id="rule.7820.3700.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7820.3700.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Recalculation of bill. </h2>
+      <p>If the recalculated bills indicate that more than $1 is due an existing customer or $2 is due a person no longer a customer of the utility, the full amount of the calculated difference between the amount paid and the recalculated amount shall be refunded to the customer. The refund to an existing customer may be in cash or as credit on a bill. Credits shall be shown separately and identified. If a refund is due a person no longer a customer of the utility, the utility shall mail to the customer's last known address either the refund or a notice that the customer has three months in which to request a refund from the utility. If the recalculated bills indicate that the amount due the utility exceeds $10, the utility may bill the customer for the amount due. The first billing rendered shall be separated from the regular bill and the charges explained in detail.</p>
+    </div>
+    <div id="rule.7820.3700.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7820.3700.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Failure to check faulty meter. </h2>
+      <p>If a customer has called to the utility's attention doubts as to the meter's accuracy and the utility has failed within a reasonable time to check it, there shall be no back billing for the period between the date of the customer's notification and the date the meter was checked.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.3700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216A.05">216A.05</a>; <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="history" id="rule.7820.3700.history">
+    <h2>History: </h2>
+    <p>17 SR 1279; 33 SR 215</p>
+  </div>
+  <div class="published" id="rule.7820.3700.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.3800">
+    <h1 class="headnote">7820.3800 ELECTRIC UTILITY BILLING ERRORS.</h1>
+    <div id="rule.7820.3800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7820.3800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Errors warranting remedy. </h2>
+      <p>When a customer has been overcharged or undercharged as a result of incorrect reading of the meter, incorrect application of rate schedule, incorrect connection of the meter, application of an incorrect multiplier or constant or other similar reasons, the amount of the overcharge shall be refunded to the customer or the amount of the undercharge may be billed to the customer as detailed in subparts 2 through 4.</p>
+    </div>
+    <div id="rule.7820.3800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7820.3800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Remedy for overcharge. </h2>
+      <p>When a utility has overcharged a customer, the utility shall calculate the difference between the amount collected for service rendered and the amount the utility should have collected for service rendered, plus interest, for the period beginning three years before the date of discovery. Interest must be calculated as prescribed by Minnesota Statutes, section <a href="/statutes/cite/325E.02">325E.02</a>, paragraph (b). If the recalculated bills indicate that more than $1 is due an existing customer or $2 is due a person no longer a customer of the utility, the full amount of the calculated difference between the amount paid and the recalculated amount shall be refunded to the customer. The refund to an existing customer may be in cash or credit on a bill. Credits shall be shown separately and identified. If a refund is due a person no longer a customer of the utility, the utility shall mail to the customer's last known address either the refund or a notice that the customer has three months in which to request a refund from the utility.</p>
+    </div>
+    <div id="rule.7820.3800.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7820.3800.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Remedy for undercharge. </h2>
+      <p>When a utility has undercharged a customer, the utility shall calculate the difference between the amount collected for service rendered and the amount the utility should have collected for service rendered, for the period beginning one year before the date of discovery. If the recalculated bills indicate that the amount due the utility exceeds $10, the utility may bill the customer for the amount due. But a utility must not bill for any undercharge incurred after the date of a customer inquiry or complaint if the utility failed to begin investigating the matter within a reasonable time and the inquiry or complaint ultimately resulted in the discovery of the undercharge. The first billing rendered shall be separated from the regular bill and the charges explained in detail.</p>
+    </div>
+    <div id="rule.7820.3800.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7820.3800.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Exception if error date known. </h2>
+      <p>If the date the error occurred can be fixed with reasonable certainty, the remedy shall be calculated on the basis of payments for service rendered after that date, but in no event for a period beginning more than three years before the discovery of an overcharge or one year before the discovery of an undercharge.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.3800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216A.05">216A.05</a>; <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="history" id="rule.7820.3800.history">
+    <h2>History: </h2>
+    <p>33 SR 215</p>
+  </div>
+  <div class="published" id="rule.7820.3800.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.3900">
+    <h1 class="headnote">7820.3900 INACCURATE NATURAL GAS METERS.</h1>
+    <div id="rule.7820.3900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7820.3900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Meter too fast or too slow. </h2>
+      <p>Whenever any meter is found upon test to have an average error of more than two percent fast, the utility shall refund to the customer the overcharge. Whenever any meter is found upon test to have an average error of more than two percent slow, the utility may charge for the gas consumed but not included in bills previously rendered. The refund or charge for both the fast and slow meter shall be based on the corrected meter reading for a period equal to one-half the time elapsed since the last previous test, but not to exceed six months, unless it can be established that the error was due to some cause, the date of which can be fixed with reasonable certainty, in which case the refund or charge shall be computed from that date, but in no event for a period longer than one year. The average error for a meter tested shall be defined as one-half the algebraic sum of the error at full-rated flow plus the error at check flow.</p>
+    </div>
+    <div id="rule.7820.3900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7820.3900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Meter fails to register or registers intermittently. </h2>
+      <p>When the average error cannot be determined by test because the meter is not found to register or is found to register intermittently, the utility may charge for an estimated amount of gas used, which shall be calculated by averaging the amounts registered over corresponding periods in previous years or in the absence of such information, over similar periods of known accurate measurement preceding or subsequent thereto, but in no event shall such charge be for a period longer than one year.</p>
+    </div>
+    <div id="rule.7820.3900.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7820.3900.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Recalculation of bill. </h2>
+      <p>If the recalculated bills indicate that more than $1 is due an existing customer or $2 is due a person no longer a customer of the utility, the full amount of the calculated difference between the amount paid and the recalculated amount shall be refunded to the customer. The refund to an existing customer may be in cash or as credit on a bill. Credits shall be shown separately and identified. If a refund is due a person no longer a customer of the utility, the utility shall mail to the customer's last known address either the refund or a notice that the customer has three months in which to request a refund from the utility. If the recalculated bills indicate that the amount due the utility exceeds $10, the utility may bill the customer for the amount due. The first billing rendered shall be separated from the regular bill and the charges explained in detail.</p>
+    </div>
+    <div id="rule.7820.3900.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7820.3900.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Failure to check faulty meter. </h2>
+      <p>If a customer has called to the utility's attention doubts as to the meter's accuracy and the utility has failed within a reasonable time to check it, there shall be no back billing for the period between the date of the customer's notification and the date the meter was checked.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.3900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216A.05">216A.05</a>; <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="history" id="rule.7820.3900.history">
+    <h2>History: </h2>
+    <p>17 SR 1279; 33 SR 215</p>
+  </div>
+  <div class="published" id="rule.7820.3900.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.4000">
+    <h1 class="headnote">7820.4000 NATURAL GAS UTILITY BILLING ERRORS.</h1>
+    <div id="rule.7820.4000.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7820.4000.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Errors warranting remedy. </h2>
+      <p>When a customer has been overcharged or undercharged as a result of incorrect reading of the meter, incorrect application of rate schedule, incorrect connection of the meter, application of an incorrect multiplier or constant or other similar reasons, the amount of the overcharge shall be refunded to the customer or the amount of the undercharge may be billed to the customer as detailed in subparts 2 through 4.</p>
+    </div>
+    <div id="rule.7820.4000.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7820.4000.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Remedy for overcharge. </h2>
+      <p>When a utility has overcharged a customer, the utility shall calculate the difference between the amount collected for service rendered and the amount the utility should have collected for service rendered, plus interest, for the period beginning three years before the date of discovery. Interest must be calculated as prescribed by Minnesota Statutes, section <a href="/statutes/cite/325E.02">325E.02</a>, paragraph (b). If the recalculated bills indicate that more than $1 is due an existing customer or $2 is due a person no longer a customer of the utility, the full amount of the calculated difference between the amount paid and the recalculated amount shall be refunded to the customer. The refund to an existing customer may be in cash or as credit on a bill. Credits shall be shown separately and identified. If a refund is due a person no longer a customer of the utility, the utility shall mail to the customer's last known address either the refund or a notice that the customer has three months in which to request a refund from the utility.</p>
+    </div>
+    <div id="rule.7820.4000.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7820.4000.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Remedy for undercharge. </h2>
+      <p>When a utility has undercharged a customer, the utility shall calculate the difference between the amount collected for service rendered and the amount the utility should have collected for service rendered, for the period beginning one year before the date of discovery. If the recalculated bills indicate that the amount due the utility exceeds $10, the utility may bill the customer for the amount due. But a utility must not bill for any undercharge incurred after the date of a customer inquiry or complaint if the utility failed to begin investigating the matter within a reasonable time and the inquiry or complaint ultimately resulted in the discovery of the undercharge. The first billing rendered shall be separated from the regular bill and the charges explained in detail.</p>
+    </div>
+    <div id="rule.7820.4000.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7820.4000.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Exception if error date known. </h2>
+      <p>If the date the error occurred can be fixed with reasonable certainty, the remedy shall be calculated on the basis of payments for service rendered after that date, but in no event for a period beginning more than three years before the discovery of an overcharge or one year before the discovery of an undercharge.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.4000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216A.05">216A.05</a>; <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="history" id="rule.7820.4000.history">
+    <h2>History: </h2>
+    <p>33 SR 215</p>
+  </div>
+  <div class="published" id="rule.7820.4000.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.4100">
+    <h1 class="headnote">7820.4100 TERMS DEFINED BY COMMISSION TECHNICAL STANDARDS.</h1>
+    <p>For the purposes of this chapter the following terms will be those as defined in the technical standards, Public Utilities Commission: average error, creeps and/or creeping, improper voltage, 100 percent accuracy, test, working test standard.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.4100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.4100.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.4200">
+    <h1 class="headnote">7820.4200 GUARANTEE OF PAYMENT.</h1>
+    <p>The utility shall not require deposit or guarantee of any customer or applicant for service who has established good credit. Deposit or guarantee of payment requirements as prescribed by the utility must be based upon standards which bear a reasonable relationship to the assurance of payment.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.4200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.07">216B.07</a>; <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.4200.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.4300">
+    <h1 class="headnote">7820.4300 NEW SERVICE.</h1>
+    <p>"New service" means service extended to or requested by any customer who has not received service as a customer for the preceding six months. A utility shall not require a cash deposit or other guarantee of payment as a condition of obtaining new service unless a customer has an unsatisfactory credit or service standing with the utility due to any of the following:</p>
+    <div id="rule.7820.4300.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7820.4300.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> the customer or applicant has outstanding a prior utility service account with the utility which at the time of request for service remains unpaid and not in dispute;</p>
+    </div>
+    <div id="rule.7820.4300.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7820.4300.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> the service of a customer or applicant has previously been disconnected for any permissible reason which is not in dispute; or</p>
+    </div>
+    <div id="rule.7820.4300.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7820.4300.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> the credit history as provided in this chapter demonstrates that payment cannot be assured. The determination of an adequate credit history must be determined by objective criteria which shall be filed with the commission in the utility's tariff. Such criteria must bear a reasonable relationship to the assurance of payment.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.4300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.07">216B.07</a>; <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.4300.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.4400">
+    <h1 class="headnote">7820.4400 EXISTING SERVICE.</h1>
+    <p>"Existing service" means service presently being extended to a customer or which has been extended to a customer within the past six months. A utility shall not require a cash deposit or other guarantee of payment as condition of continuing existing service unless a customer has an unsatisfactory credit or service standing with the utility due to either of the following:</p>
+    <div id="rule.7820.4400.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7820.4400.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> the service of the customer has been disconnected or has been liable for disconnect for nonpayment of a bill which is not in dispute; or</p>
+    </div>
+    <div id="rule.7820.4400.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7820.4400.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> the service of a customer has been disconnected or has been liable for disconnect for any permissible reason which is not in dispute.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.4400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.07">216B.07</a>; <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.4400.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.4500">
+    <h1 class="headnote">7820.4500 WHEN PAYMENT GUARANTEE PERMISSIBLE.</h1>
+    <div id="rule.7820.4500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7820.4500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Deposit. </h2>
+      <p>When required, a customer may assure payment by submitting a deposit. A deposit shall not exceed an estimated two months' gross bill or existing two months' bill where applicable. All deposits shall be in addition to payment of an outstanding bill or a part of such bill as has been resolved to the satisfaction of the utility except where such bill has been discharged in bankruptcy. Interest shall be paid on deposits in excess of $20 at the rate of six percent per year compounded annually. Interest on deposits shall be payable from the date of deposit to the date of refund or disconnection. The utility may, at its option, pay the interest at intervals it chooses but at least annually, by direct payment, or as a credit on bills. The deposit shall be refunded to the customer after 12 consecutive months of prompt payment of all utility bills. The utility may, at its option, refund the deposit by direct payment or as a credit on the bill. With notice any deposit of a customer may be applied by the utility to a bill when the bill has been determined by the utility to be delinquent. Upon termination of service, the deposit with accrued interest shall be credited to the final bill and the balance shall be returned within 45 days to the customer.</p>
+      <p>A utility shall not require a deposit of any customer without explaining in writing why that deposit or guarantee is being required and under what conditions, if any, the deposit will be diminished upon return. Each utility shall issue a receipt of deposit to each customer from whom a deposit is received and shall provide means whereby a depositor may establish claim if the receipt is unavailable.</p>
+    </div>
+    <div id="rule.7820.4500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7820.4500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Guarantee of payment. </h2>
+      <p>The utility may accept, in lieu of a deposit, a contract signed by a guarantor satisfactory to the utility whereby payment of a specified sum not exceeding the deposit requirement is guaranteed. The term of such contract shall be for no longer than 12 months, but shall automatically terminate after the customer has closed and paid the customer's account with the utility, or at the guarantor's request upon 60 days' written notice to the utility. Upon termination of a guarantee contract or whenever the utility deems same insufficient as to amount or surety, a cash deposit or a new or additional guarantee may be required for good cause upon reasonable written notice to the customer. The service of any customer who fails to comply with these requirements may be disconnected upon notice as prescribed in part <a href="/rules/7820.2400">7820.2400</a>. The utility shall mail the guarantor copies of all disconnect notices sent to the customer whose account the grantor has guaranteed unless the guarantor waives such notice in writing.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.4500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.07">216B.07</a>; <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="history" id="rule.7820.4500.history">
+    <h2>History: </h2>
+    <p>17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.7820.4500.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.4600">
+    <h1 class="headnote">7820.4600 GOOD CREDIT.</h1>
+    <p>The utility may determine whether a customer has established good credit with the utility, except as herein restricted: A customer, who within the last 12 months has not had service disconnected for nonpayment of a bill and has not been liable for disconnect for nonpayment of a bill which is not in dispute, shall be deemed to have established good credit.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.4600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.07">216B.07</a>; <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="history" id="rule.7820.4600.history">
+    <h2>History: </h2>
+    <p>17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.7820.4600.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.4700">
+    <h1 class="headnote">7820.4700 WHEN DEPOSIT OR PAYMENT GUARANTEE IMPERMISSIBLE.</h1>
+    <p>A utility shall not require a deposit or a guarantee of payment based upon income, home ownership, residential location, employment tenure, nature of occupation, race, color, creed, sex, marital status, age, national origin, or any other criterion which does not bear a reasonable relationship to the assurance of payment of which is not authorized by this chapter. No utility shall use any credit reports other than those reflecting the purchase of utility services to determine the adequacy of a customer's credit history without the permission in writing of a customer. Any credit history so used shall be mailed to the customer in order to provide the customer an opportunity to review the data. Refusal of a customer to permit use of a credit rating or credit service other than that of a utility shall not affect the determination of the utility as to that customer's credit history.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.4700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.07">216B.07</a>; <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.4700.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.4800">
+    <h1 class="headnote">7820.4800 INFORMATION AVAILABLE TO CUSTOMERS AND PUBLIC.</h1>
+    <p>The utility shall retain customer billing, complaint, payment, and deposit records for the length of time necessary to permit the utility to comply with the commission's rules; provided the utility shall retain these records for not less than three years. A customer's own billing, complaint, payment, and deposit records shall be available to that customer.</p>
+    <p>Each utility shall have available for existing customers and applicants for service such information as is needed to obtain and maintain adequate, timely, and efficient service.</p>
+    <p>Each utility shall furnish additional information as the customer may reasonably request.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.4800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.4800.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.4900">
+    <h1 class="headnote">7820.4900 EMERGENCY INFORMATION.</h1>
+    <p>Each utility, for every municipality in which it serves, shall provide in the respective telephone directories a telephone listing by which the utility can be notified during a 24-hour day of any utility service deficiency or emergency which may exist.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.4900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216B.08">216B.08</a>; <a href="/statutes/cite/216B.09">216B.09</a></p>
+  </div>
+  <div class="published" id="rule.7820.4900.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.5100">
+    <h1 class="headnote">7820.5100 DEFINITIONS.</h1>
+    <div id="rule.7820.5100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7820.5100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The terms used in parts <a href="/rules/7820.5100">7820.5100</a> to <a href="/rules/7820.5600">7820.5600</a> have the meanings given them in this part.</p>
+    </div>
+    <div id="rule.7820.5100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7820.5100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Delinquent amount. </h2>
+      <p>"Delinquent amount" means the portion of a customer's account representing charges for utility service or services past due. In the case of a residential customer on either a budget billing plan or a payment schedule, "delinquent amount" means the lesser of the outstanding account balance or the outstanding scheduled payments.</p>
+    </div>
+    <div id="rule.7820.5100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7820.5100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Late payment charge. </h2>
+      <p>"Late payment charge" means the allowable charge a utility may impose upon a delinquent amount.</p>
+    </div>
+    <div id="rule.7820.5100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7820.5100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Utility. </h2>
+      <p>"Utility" means a public utility as defined in Minnesota Statutes, section <a href="/statutes/cite/216B.02">216B.02</a>, as modified by Minnesota Statutes, sections <a href="/statutes/cite/216B.025">216B.025</a> and <a href="/statutes/cite/216B.026">216B.026</a>.</p>
+    </div>
+    <div id="rule.7820.5100.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7820.5100.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Residential customer. </h2>
+      <p>"Residential customer" means a customer of a utility whose principal use of gas or electricity is for household purposes such as lighting, cooking, water heating, and space heating in space occupied as living quarters. Utility service is normally supplied through a single meter to a single family dwelling unit, but apartments or other subdivided dwelling units may be classified as residential even though several individual units take service through the same meter.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.5100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216A.05">216A.05</a>; <a href="/statutes/cite/216B.03">216B.03</a>; <a href="/statutes/cite/216B.23">216B.23</a></p>
+  </div>
+  <div class="history" id="rule.7820.5100.history">
+    <h2>History: </h2>
+    <p>8 SR 2335</p>
+  </div>
+  <div class="published" id="rule.7820.5100.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.5200">
+    <h1 class="headnote">7820.5200 BILLING TERMS.</h1>
+    <p>A utility shall designate any late payment charge imposed on a customer as a late payment charge on that customer's bill. Other terms, including "penalties," "discounts," or "net-gross rate differentials," must not be used to indicate any charge which results from delinquent payment.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.5200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216A.05">216A.05</a>; <a href="/statutes/cite/216B.03">216B.03</a>; <a href="/statutes/cite/216B.23">216B.23</a></p>
+  </div>
+  <div class="history" id="rule.7820.5200.history">
+    <h2>History: </h2>
+    <p>8 SR 2335</p>
+  </div>
+  <div class="published" id="rule.7820.5200.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.5300">
+    <h1 class="headnote">7820.5300 DETERMINATION OF DELINQUENCY.</h1>
+    <div id="rule.7820.5300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7820.5300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Requirement. </h2>
+      <p>A utility which chooses to impose a late payment charge on its customers shall use two measures for determining when a customer's bill is delinquent as follows in subparts 2 and 3.</p>
+    </div>
+    <div id="rule.7820.5300.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7820.5300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Residential customer. </h2>
+      <p>If a residential customer's bill payment is not received by the utility by the next scheduled billing date, which must be not less than 25 days from the current billing date, a late payment charge may be imposed. The current billing date must be no more than three working days before the date of mailing of the bill by the utility. The utility may print a due date on the bill which is not more than five days before the next scheduled billing date.</p>
+    </div>
+    <div id="rule.7820.5300.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7820.5300.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Nonresidential customer. </h2>
+      <p>If a nonresidential customer's utility bill is not received by the utility within a grace period of not less than 15 days from the current billing date, a late payment charge may be imposed. The current billing date must be no more than three working days before the date of mailing of the bill by the utility.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.5300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216A.05">216A.05</a>; <a href="/statutes/cite/216B.03">216B.03</a>; <a href="/statutes/cite/216B.23">216B.23</a></p>
+  </div>
+  <div class="history" id="rule.7820.5300.history">
+    <h2>History: </h2>
+    <p>8 SR 2335</p>
+  </div>
+  <div class="published" id="rule.7820.5300.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.5400">
+    <h1 class="headnote">7820.5400 REQUIREMENTS FOR IMPOSING LATE PAYMENT CHARGE.</h1>
+    <div id="rule.7820.5400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7820.5400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Compliance. </h2>
+      <p>Before a utility may impose a late payment charge, the utility shall comply with the requirements in subparts 2 to 5.</p>
+    </div>
+    <div id="rule.7820.5400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7820.5400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Tariffs. </h2>
+      <p>The utility shall file and have approved by the commission tariffs providing for the late payment charge and specifying the terms and conditions of the late payment charge. The filing must include substantiating documents and exhibits supporting the finance fee and grace periods proposed.</p>
+    </div>
+    <div id="rule.7820.5400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7820.5400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Bill content. </h2>
+      <p>The utility shall clearly indicate upon each bill the terms and conditions of the late payment charge, including the date after which the late payment charge is applied, the amount of the late payment charge after the charge is actually applied, and the monthly and the annual percentage rate of the late payment charge.</p>
+    </div>
+    <div id="rule.7820.5400.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7820.5400.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Uniformity. </h2>
+      <p>The utility shall administer its late payment charge in a nondiscriminatory manner.</p>
+    </div>
+    <div id="rule.7820.5400.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7820.5400.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Implementation. </h2>
+      <p>By August 7, 1984, the utility shall comply with the tariff, bill content, and uniformity requirements of subparts 2 to 4.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.5400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216A.05">216A.05</a>; <a href="/statutes/cite/216B.03">216B.03</a>; <a href="/statutes/cite/216B.23">216B.23</a></p>
+  </div>
+  <div class="history" id="rule.7820.5400.history">
+    <h2>History: </h2>
+    <p>8 SR 2335</p>
+  </div>
+  <div class="published" id="rule.7820.5400.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.5500">
+    <h1 class="headnote">7820.5500 AMOUNT OF LATE PAYMENT CHARGE.</h1>
+    <div id="rule.7820.5500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7820.5500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Calculation. </h2>
+      <p>A late payment charge imposed by a utility must be calculated as follows in subparts 2 to 4.</p>
+    </div>
+    <div id="rule.7820.5500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7820.5500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Minimum delinquent amount. </h2>
+      <p>The utility shall not assess a late payment charge until the delinquent amount exceeds $10.</p>
+    </div>
+    <div id="rule.7820.5500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7820.5500.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Finance fee. </h2>
+      <p>The utility may impose a finance fee no greater than 1-1/2 percent per monthly billing period on the delinquent amount.</p>
+    </div>
+    <div id="rule.7820.5500.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7820.5500.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Minimum finance fee. </h2>
+      <p>The utility may impose a minimum finance fee no greater than $1.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7820.5500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216A.05">216A.05</a>; <a href="/statutes/cite/216B.03">216B.03</a>; <a href="/statutes/cite/216B.23">216B.23</a></p>
+  </div>
+  <div class="history" id="rule.7820.5500.history">
+    <h2>History: </h2>
+    <p>8 SR 2335</p>
+  </div>
+  <div class="published" id="rule.7820.5500.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7820.5600">
+    <h1 class="headnote">7820.5600 CREDITING OF PAYMENTS.</h1>
+    <p>The utility shall credit all payments received against the oldest outstanding account balance before the application of any late payment charge.</p>
+  </div>
+  <div class="stat_auth" id="rule.7820.5600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/216A.05">216A.05</a>; <a href="/statutes/cite/216B.03">216B.03</a>; <a href="/statutes/cite/216B.23">216B.23</a></p>
+  </div>
+  <div class="history" id="rule.7820.5600.history">
+    <h2>History: </h2>
+    <p>8 SR 2335</p>
+  </div>
+  <div class="published" id="rule.7820.5600.published">
+    <h2>Published Electronically:</h2>
+    <p> October 9, 2008</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
