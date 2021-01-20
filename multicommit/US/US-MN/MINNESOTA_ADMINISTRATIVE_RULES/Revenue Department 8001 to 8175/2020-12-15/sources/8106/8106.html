@@ -1,0 +1,3483 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            8106.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/181">Revenue Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/8106/">Chapter 8106</a>
+            </li>
+        
+    
+        
+            <li>Part 8106.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/8106.0200/">8106.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/8106.0100/2014-01-18%2008:04:31+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 8106</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/8106/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/8106/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/8106/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 8106.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/8106.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8106.0100">
+    <h1 class="headnote">8106.0100 DEFINITIONS.</h1>
+    <div id="rule.8106.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8106.0100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>As used in this chapter, the following words, terms, and phrases have the meanings given to them by this part. Some of the words, terms, and phrases are defined by statute but are included here for completeness.</p>
+    </div>
+    <div id="rule.8106.0100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8106.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Allocation. </h2>
+      <p>"Allocation" means the process by which a fair and reasonable portion of each railroad's total unit value is assigned to Minnesota for purposes of taxation.</p>
+    </div>
+    <div id="rule.8106.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8106.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Apportionment. </h2>
+      <p>"Apportionment" means the process of distributing that portion of the railroad's unit value which has been allocated to Minnesota after deducting exempt and nonoperating property to the various counties and taxing districts in which the railroad company operates.</p>
+    </div>
+    <div id="rule.8106.0100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8106.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Assessment/sales ratio. </h2>
+      <p>"Assessment/sales ratio" means the ratio derived by dividing the estimated market value of a property by its adjusted selling price and used as a measure of the level of estimated market value to real or true market value.</p>
+    </div>
+    <div id="rule.8106.0100.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8106.0100.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Book depreciation. </h2>
+      <p>"Book depreciation" means the depreciation shown by a railroad company on its corporate books and allowed the company by the Surface Transportation Board.</p>
+    </div>
+    <div id="rule.8106.0100.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.8106.0100.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Capitalization rate. </h2>
+      <p>"Capitalization rate" means an anticipated rate of return from an investment, a rate at which income is processed (capitalized) to indicate the probable capital value. This rate is usually expressed as a percentage.</p>
+    </div>
+    <div id="rule.8106.0100.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.8106.0100.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Equalization. </h2>
+      <p>"Equalization" means the adjustment of the estimated market value of railroad operating property to the apparent assessment/sales ratio of commercial and industrial property.</p>
+    </div>
+    <div id="rule.8106.0100.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.8106.0100.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Exempt property. </h2>
+      <p>"Exempt property" means property which is nontaxable for ad valorem tax purposes by statutes. An example of such property is personal property exempt from taxation under Minnesota Statutes, chapter 272.</p>
+    </div>
+    <div id="rule.8106.0100.9" class="subp repealed">
+      <a title="Link to subpart 9" class="permalink" href="#rule.8106.0100.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <p>[Repealed, 28 SR 1297]</p>
+    </div>
+    <div id="rule.8106.0100.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.8106.0100.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Mainline track. </h2>
+      <p>"Mainline track" means all track reported to the STB by the respondent railroad as main line.</p>
+    </div>
+    <div id="rule.8106.0100.11" class="subp repealed">
+      <a title="Link to subpart 11" class="permalink" href="#rule.8106.0100.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <p>[Repealed, L 2003 c 127 art 5 s 50]</p>
+    </div>
+    <div id="rule.8106.0100.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.8106.0100.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Obsolescence allowance. </h2>
+      <p>"Obsolescence allowance" means the adjustment to be made to the gross cost indicator of value to reflect the loss of economic usefulness or value because of causes other than physical deterioration.</p>
+    </div>
+    <div id="rule.8106.0100.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.8106.0100.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Operating property. </h2>
+      <p>"Operating property" means all property owned or used on a regular and continual basis by a railroad company in the performance of railroad transportation services, including without limitation, franchises, rights-of-way, bridges, trestles, shops, docks, wharves, buildings, and structures.</p>
+    </div>
+    <div id="rule.8106.0100.14" class="subp">
+      <a title="Link to subpart 14" class="permalink" href="#rule.8106.0100.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <h2 class="headnote">Original cost. </h2>
+      <p>"Original cost" means the amount paid for an asset as recorded on the railroad's books in accordance with STB accounting rules and regulations.</p>
+    </div>
+    <div id="rule.8106.0100.15" class="subp repealed">
+      <a title="Link to subpart 15" class="permalink" href="#rule.8106.0100.15">§</a>
+      <h2 class="subp_no">Subp. 15.</h2>
+      <p>[Repealed, L 2003 c 127 art 5 s 50]</p>
+    </div>
+    <div id="rule.8106.0100.16" class="subp repealed">
+      <a title="Link to subpart 16" class="permalink" href="#rule.8106.0100.16">§</a>
+      <h2 class="subp_no">Subp. 16.</h2>
+      <p>[Repealed, L 2003 c 127 art 5 s 50]</p>
+    </div>
+    <div id="rule.8106.0100.17" class="subp">
+      <a title="Link to subpart 17" class="permalink" href="#rule.8106.0100.17">§</a>
+      <h2 class="subp_no">Subp. 17.</h2>
+      <h2 class="headnote">Restated cost. </h2>
+      <p>"Restated cost" means the cost of an asset recorded on a railroad's books after adjusting the amount from a retirement-replacement-betterment accounting basis to a depreciation accounting basis, in accordance with Code of Federal Regulations, title 49, part 1201 (effective January 1, 1983).</p>
+    </div>
+    <div id="rule.8106.0100.17" class="subp">
+      <a title="Link to subpart 17" class="permalink" href="#rule.8106.0100.17">§</a>
+      <h2 class="subp_no">Subp. 17a.</h2>
+      <h2 class="headnote">STB. </h2>
+      <p>"STB" means the Surface Transportation Board, a federal regulatory agency.</p>
+    </div>
+    <div id="rule.8106.0100.18" class="subp">
+      <a title="Link to subpart 18" class="permalink" href="#rule.8106.0100.18">§</a>
+      <h2 class="subp_no">Subp. 18.</h2>
+      <h2 class="headnote">Structure. </h2>
+      <p>"Structure" means all coal and ore wharves or docks, station houses, depots, shops, office buildings, and all other buildings with a restated cost of over $10,000.</p>
+    </div>
+    <div id="rule.8106.0100.19" class="subp">
+      <a title="Link to subpart 19" class="permalink" href="#rule.8106.0100.19">§</a>
+      <h2 class="subp_no">Subp. 19.</h2>
+      <h2 class="headnote">System. </h2>
+      <p>"System" means the total tangible property, real and personal, of a company which is used in its railroad operations in all states in which it operates.</p>
+    </div>
+    <div id="rule.8106.0100.20" class="subp">
+      <a title="Link to subpart 20" class="permalink" href="#rule.8106.0100.20">§</a>
+      <h2 class="subp_no">Subp. 20.</h2>
+      <h2 class="headnote">Unit value. </h2>
+      <p>"Unit value" means the value of the system of a railroad company taken as a whole without any regard to the value of its component parts.</p>
+    </div>
+    <div id="rule.8106.0100.21" class="subp">
+      <a title="Link to subpart 21" class="permalink" href="#rule.8106.0100.21">§</a>
+      <h2 class="subp_no">Subp. 21.</h2>
+      <h2 class="headnote">Weighting. </h2>
+      <p>"Weighting" means the confidence or reliability given to a factor or indicator. It is usually expressed as a portion of 100 percent.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8106.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/270.84">270.84</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8106.0100.history">
+    <h2>History: </h2>
+    <p>11 SR 335; L 2003 c 127 art 5 s 50; 28 SR 1297; L 2005 c 151 art 1 s 114</p>
+  </div>
+  <div class="published" id="rule.8106.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> November 14, 2006</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8106.0200">
+    <h1 class="headnote repealed">8106.0200</h1>
+    <p>[Repealed, L 2003 c 127 art 5 s 50]</p>
+  </div>
+  <div class="published" id="rule.8106.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> November 14, 2006</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8106.0300">
+    <h1 class="headnote">8106.0300 REPORTS REQUIRED.</h1>
+    <div id="rule.8106.0300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8106.0300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Reports to be filed. </h2>
+      <p>The data used in the valuation, allocation, and apportionment processes will be drawn from reports submitted to the Department of Revenue by the railroad companies. These reports shall include:</p>
+      <div id="rule.8106.0300.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8106.0300.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the Minnesota Department of Revenue annual railroad report;</p>
+      </div>
+      <div id="rule.8106.0300.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8106.0300.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the annual report to the STB;</p>
+      </div>
+      <div id="rule.8106.0300.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8106.0300.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the annual stockholders report; and</p>
+      </div>
+      <div id="rule.8106.0300.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8106.0300.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> other commonly accepted sources of railroad income, expense, capitalization, and debt and stock values such as IBBOTSON Associates Inc., and Statistics of Class I Freight Railroads compiled by the STB.</p>
+      </div>
+    </div>
+    <div id="rule.8106.0300.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8106.0300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 28 SR 1297]</p>
+    </div>
+    <div id="rule.8106.0300.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8106.0300.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Failure to file. </h2>
+      <p>In the event any railroad company fails to file the required reports, the commissioner shall make a valuation according to the commissioner's best judgment based on available information.</p>
+      <p>Other sources of pertinent information may be consulted only when necessary to make the valuation, allocation, and apportionment required by parts <a href="/rules/8106.0100">8106.0100</a> to <a href="/rules/8106.0700">8106.0700</a>. Said sources will, when applicable, be used uniformly and will be commonly accepted sources of data for which they are consulted. Questions unique to the valuation of a particular railroad may be resolved by consulting the books and records of the particular railroad involved.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8106.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/270.84">270.84</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8106.0300.history">
+    <h2>History: </h2>
+    <p>11 SR 335; 28 SR 1297; L 2005 c 151 art 1 s 114</p>
+  </div>
+  <div class="published" id="rule.8106.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> November 14, 2006</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8106.0400">
+    <h1 class="headnote">8106.0400 VALUATION.</h1>
+    <div id="rule.8106.0400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8106.0400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">In general. </h2>
+      <p>The approaches to value that will be used in determining the estimated unit value of railroad operating property are cost, capitalized income, and stock and debt except as provided in subparts 4 and 6.</p>
+    </div>
+    <div id="rule.8106.0400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8106.0400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Cost approach to valuation. </h2>
+      <p>The cost factor that will be considered in the railroad valuation method is the restated cost of the railroad system, plus the restated cost of construction work in progress on the assessment date. The railroad system shall be considered to be made up of the following STB accounts: all road and equipment accounts, including leased equipment accounts; all general expenditures; and other elements of investment and railroad property owned and leased to others as well as railroad property leased from others. Book depreciation and obsolescence shall be allowed as a deduction from the restated cost of the railroad's assets enumerated above. The original cost if known, and the annual lease payments of any leased operating property used by the railroad must be reported to the commissioner in conjunction with the annual railroad report. The commissioner shall incorporate the value of the leased property into the railroad's unit value utilizing this information.</p>
+      <p>Obsolescence will be calculated through the use of the "Blue Chip Method." This method compares the railroad being appraised with the best railroads in the country, the so-called blue chip railroads. Three indicators of obsolescence will be used. First, a five-year average rate of return will be calculated for the railroad under appraisal. This rate of return is computed by dividing the subject's annual net railroad operating income for each of the most recent five years preceding the assessment, by the railroad's total owned transportation property less recorded depreciation and amortization (net investment in railroad property) for each corresponding year. The resulting five rates of return are then averaged using a simple arithmetic average to arrive at a five-year average rate of return. An example of this computation is as follows:</p>
+      <p class="ce">XYZ Railroad</p>
+      <table>
+        <col style="width:23.2142857142857%">
+        <col style="width:32.1428571428571%">
+        <col style="width:22.3214285714286%">
+        <col style="width:22.3214285714286%">
+        <tr>
+          <td>Year</td>
+          <td>Net Railroad Operating Income</td>
+          <td>Net Investment</td>
+          <td style="text-align: right;">Indicated Rate of Return</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>$2,700,000</td>
+          <td>$31,500,000</td>
+          <td style="text-align: right;">8.57%</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>$2,900,000</td>
+          <td>$32,000,000</td>
+          <td style="text-align: right;">9.06%</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>$3,100,000</td>
+          <td>$33,500,000</td>
+          <td style="text-align: right;">9.25%</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>$3,300,000</td>
+          <td>$34,000,000</td>
+          <td style="text-align: right;">9.70%</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>$3,530,700</td>
+          <td>$35,000,000</td>
+          <td style="text-align: right;">10.08%</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="text-align: right;">Total 46.66%</td>
+        </tr>
+        <tr>
+          <td colspan="2">Five-year Average Rate of Return</td>
+          <td></td>
+          <td style="text-align: right;">9.33%</td>
+        </tr>
+      </table>
+      <p>A study will then be made of the Class I railroads operating within the United States for the same five-year period using such informational sources as information compiled annually by the Wisconsin Department of Revenue known as the "Blue Chip" Obsolescence Study for STB Class I Railroads. Each year the railroad with the highest rate of return will be selected as the blue chip railroad. The resulting five rates of return will then be averaged to find the five-year average blue chip rate of return. An example of this process is as follows:</p>
+      <table>
+        <col style="width:44.6428571428571%">
+        <col style="width:27.6785714285714%">
+        <col style="width:27.6785714285714%">
+        <tr>
+          <td>Year</td>
+          <td>Railroad</td>
+          <td style="text-align: right;">Rate of Return</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>ABC</td>
+          <td style="text-align: right;">11.50%</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>FGH</td>
+          <td style="text-align: right;">11.27%</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>JKL</td>
+          <td style="text-align: right;">10.57%</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>MNO</td>
+          <td style="text-align: right;">11.02%</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>XYZ</td>
+          <td style="text-align: right;">10.08%</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td style="text-align: right;">Total 54.44%</td>
+        </tr>
+        <tr>
+          <td colspan="2">Five-year Average Blue Chip Rate of Return </td>
+          <td style="text-align: right;">10.89%</td>
+        </tr>
+      </table>
+      <p>The five-year average rate of return for the railroad under appraisal will be compared to the five-year average blue chip rate of return. The deviation of the subject railroad's rate of return from the blue chip railroads' rate of return is the amount of indicated obsolescence. The following example illustrates the computation.</p>
+      <table>
+        <col style="width:69.2307692307692%">
+        <col style="width:30.7692307692308%">
+        <tr>
+          <td>XYZ Railroad Five-Year Average Rate of Return</td>
+          <td style="text-align: right;">9.33%</td>
+        </tr>
+        <tr>
+          <td>Blue Chip Five-Year Average Rate of Return</td>
+          <td style="text-align: right;">10.89%</td>
+        </tr>
+        <tr>
+          <td>Indicated Obsolescence 1 - (9.33% ÷ 10.89%)</td>
+          <td style="text-align: right;">14.30%</td>
+        </tr>
+      </table>
+      <p>Second, a five-year average freight traffic density indicator will be calculated. This indicator is calculated by dividing the subject railroad's ton miles of revenue freight for the most recent five years preceding the assessment by the average miles of road operated for each corresponding year. The resulting five indicators of freight traffic density are then averaged using a simple arithmetic average to arrive at a five-year average of freight traffic density. An example of this computation is as follows:</p>
+      <p class="ce">XYZ Railroad</p>
+      <table>
+        <col style="width:14.5454545454545%">
+        <col style="width:40%">
+        <col style="width:22.7272727272727%">
+        <col style="width:22.7272727272727%">
+        <tr>
+          <td>Year</td>
+          <td>Ton Miles of Revenue Freight</td>
+          <td>Average Miles of Road Operated</td>
+          <td style="text-align: right;">Indicated Freight Traffic Density</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>1,300,000,000</td>
+          <td>575</td>
+          <td style="text-align: right;">2,260,000</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>1,402,500,000</td>
+          <td>550</td>
+          <td style="text-align: right;">2,550,000</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>1,200,000,000</td>
+          <td>550</td>
+          <td style="text-align: right;">2,180,000</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>1,100,000,000</td>
+          <td>500</td>
+          <td style="text-align: right;">2,200,000</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>1,000,000,000</td>
+          <td>500</td>
+          <td style="text-align: right;">2,000,000</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="text-align: right;">Total 11,190,000</td>
+        </tr>
+        <tr>
+          <td colspan="2">Five-Year Average Freight Traffic Density</td>
+          <td></td>
+          <td style="text-align: right;">2,238,000</td>
+        </tr>
+      </table>
+      <p>A five-year study is then made of the Class I railroads operating within the United States in the same manner and using the same sources as the rate of return study with the exception that this study concentrates on the freight traffic density achieved by the various Class I railroads. Each year the railroad with the highest freight traffic density will be selected as the blue chip railroad. The resulting five freight traffic density amounts will then be averaged to find the five-year average blue chip freight traffic density amount. An example of this process is as follows:</p>
+      <table>
+        <col style="width:28%">
+        <col style="width:36%">
+        <col style="width:36%">
+        <tr>
+          <td>Year</td>
+          <td>Railroad</td>
+          <td style="text-align: right;">Freight Traffic Density</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>JKL</td>
+          <td style="text-align: right;">2,280,000</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>FGH</td>
+          <td style="text-align: right;">2,600,000</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>FGH</td>
+          <td style="text-align: right;">2,200,000</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>MNO</td>
+          <td style="text-align: right;">2,900,000</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>ABC</td>
+          <td style="text-align: right;">2,280,000</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td style="text-align: right;">Total 12,260,000</td>
+        </tr>
+        <tr>
+          <td colspan="2">Five-year Average Blue Chip Freight Traffic Density</td>
+          <td style="text-align: right;">2,452,000</td>
+        </tr>
+      </table>
+      <p>The five-year average freight traffic density indicator of the railroad under appraisal will be compared to the five-year average blue chip freight traffic density indicator. The deviation of the subject railroad's freight traffic density from the blue chip railroad's freight traffic density is the amount of indicated obsolescence. The following example illustrates this computation:</p>
+      <table>
+        <col style="width:69.2307692307692%">
+        <col style="width:30.7692307692308%">
+        <tr>
+          <td>XYZ Railroad Five-Year Average Freight Traffic Density</td>
+          <td style="text-align: right;">2,238,000</td>
+        </tr>
+        <tr>
+          <td>Blue Chip Five-Year Average Freight Traffic Density</td>
+          <td style="text-align: right;">2,452,000</td>
+        </tr>
+        <tr>
+          <td>Indicated Obsolescence 1 - (2,238,000 ÷ 2,452,000)</td>
+          <td style="text-align: right;">8.70%</td>
+        </tr>
+      </table>
+      <p>Third, a five-year average gross profit margin indicator will be calculated. This indicator measures a railroad's ability to convert gross revenue to net profit. This indicator is calculated by dividing net railway operating income, before federal and deferred taxes, by gross revenues. This calculation is performed using the subject railroad income figures for the most recent five years preceding the assessment. The resulting five indicators of gross profit margin are then averaged using a simple arithmetic average to arrive at a five-year average of gross profit margin. An example of this computation is as follows:</p>
+      <p class="ce">XYZ Railroad</p>
+      <table>
+        <col style="width:14.5454545454545%">
+        <col style="width:40%">
+        <col style="width:22.7272727272727%">
+        <col style="width:22.7272727272727%">
+        <tr>
+          <td>Year</td>
+          <td>Net Railroad Operating <br>Income Before Taxes</td>
+          <td>Gross Revenue</td>
+          <td style="text-align: right;">Indicated Gross Profit Margin</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>4,050,000</td>
+          <td>15,000,000</td>
+          <td style="text-align: right;">27.0%</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>4,350,000</td>
+          <td>15,800,000</td>
+          <td style="text-align: right;">27.5%</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>4,650,000</td>
+          <td>16,500,000</td>
+          <td style="text-align: right;">28.2%</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>4,950,000</td>
+          <td>17,300,000</td>
+          <td style="text-align: right;">28.6%</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>5,295,000</td>
+          <td>19,000,000</td>
+          <td style="text-align: right;">27.9%</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="text-align: right;">Total 139.2%</td>
+        </tr>
+        <tr>
+          <td colspan="3">Five-Year Average Gross Profit Margin</td>
+          <td style="text-align: right;">27.8%</td>
+        </tr>
+      </table>
+      <p>A study will then be made of the Class I railroads operating within the United States for the same five-year period in the same manner and using the same sources in the two previous five-year studies mentioned above. This study will look at the gross profit margin achieved by the various Class I railroads. Each year the railroad with the highest gross profit margin will be selected as the blue chip railroad. The resulting five gross profit margin percents will then be averaged to find a five-year average blue chip gross profit margin percentage. An example of this process is as follows:</p>
+      <table>
+        <col style="width:28%">
+        <col style="width:36%">
+        <col style="width:36%">
+        <tr>
+          <td>Year</td>
+          <td>Railroad</td>
+          <td style="text-align: right;">Gross Profit Margin</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>ABC</td>
+          <td style="text-align: right;">30.0%</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>ABC</td>
+          <td style="text-align: right;">31.2%</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>JKL</td>
+          <td style="text-align: right;">29.9%</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>FGH</td>
+          <td style="text-align: right;">32.6%</td>
+        </tr>
+        <tr>
+          <td>....</td>
+          <td>JKL</td>
+          <td style="text-align: right;">33.3%</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td style="text-align: right;">Total 157.0%</td>
+        </tr>
+        <tr>
+          <td colspan="2">Five-Year Average Blue Chip Gross Profit Margin</td>
+          <td style="text-align: right;">31.4%</td>
+        </tr>
+      </table>
+      <p>The five-year average gross profit margin percent for the railroad under appraisal will be compared to the five-year average blue chip gross profit margin percent. The deviation of the subject railroad's gross profit margin from the blue chip railroad's gross profit margin is the amount of indicated obsolescence. The following example illustrates this computation:</p>
+      <table>
+        <col style="width:73.0769230769231%">
+        <col style="width:26.9230769230769%">
+        <tr>
+          <td>XYZ Railroad Five-Year Average Gross Profit Margin</td>
+          <td style="text-align: right;">27.8%</td>
+        </tr>
+        <tr>
+          <td>Blue Chip Five-Year Average Gross Profit Margin</td>
+          <td style="text-align: right;">31.4%</td>
+        </tr>
+        <tr>
+          <td>Indicated Obsolescence 1 - (27.8% ÷ 31.4%)</td>
+          <td style="text-align: right;">11.5%</td>
+        </tr>
+      </table>
+      <p>The obsolescence percentage indicated by this comparison of gross profit margins will be added to the obsolescence indicated by a comparison of rates of return and freight traffic density. The total of these three amounts will be averaged and this result will be the overall obsolescence percentage for the subject railroad. The following is an example of this computation:</p>
+      <p class="ce">XYZ Railroad</p>
+      <table>
+        <col style="width:76.9230769230769%">
+        <col style="width:23.0769230769231%">
+        <tr>
+          <td>Obsolescence Indicated by Rate of Return Comparison</td>
+          <td style="text-align: right;">14.30%</td>
+        </tr>
+        <tr>
+          <td>Obsolescence Indicated by Freight Traffic Density Comparison</td>
+          <td style="text-align: right;">8.70%</td>
+        </tr>
+        <tr>
+          <td>Obsolescence Indicated by Gross Profit Margin Comparison</td>
+          <td style="text-align: right;">11.50%</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td style="text-align: right;">Total 34.50%</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Average Obsolescence Percentage</td>
+          <td style="text-align: right;">11.50%</td>
+        </tr>
+      </table>
+      <p>The obsolescence percentage will then be applied to the road accounts of the subject railroad, excluding land and personal property, after the allowance for depreciation has been deducted. In no instance shall the allowance for obsolescence exceed 50 percent. The following example illustrates how the cost indicator of value is computed and how the allowance for obsolescence is applied.</p>
+      <p class="ce">XYZ Railroad</p>
+      <table>
+        <col style="width:40%">
+        <col style="width:24%">
+        <col style="width:36%">
+        <tr>
+          <td>Account</td>
+          <td></td>
+          <td style="text-align: right;">Amount</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Road</td>
+          <td></td>
+          <td style="text-align: right;">$24,000,000</td>
+        </tr>
+        <tr>
+          <td colspan="2">Equipment -- Owned and Leased</td>
+          <td style="text-align: right;">9,000,000</td>
+        </tr>
+        <tr>
+          <td colspan="2">Construction Work in Progress</td>
+          <td style="text-align: right;">4,500,000</td>
+        </tr>
+        <tr>
+          <td>General Expenditures</td>
+          <td></td>
+          <td style="text-align: right;">1,823,000</td>
+        </tr>
+        <tr>
+          <td>Gross Cost Indicator</td>
+          <td></td>
+          <td style="text-align: right;">39,323,000</td>
+        </tr>
+        <tr>
+          <td>Less Depreciation</td>
+          <td></td>
+          <td style="text-align: right;">10,000,000</td>
+        </tr>
+        <tr>
+          <td>Net Cost Indicator</td>
+          <td></td>
+          <td style="text-align: right;">$29,323,000</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Road</td>
+          <td style="text-align: right;">$24,000,000</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Less Land and Personal Property</td>
+          <td style="text-align: right;">1,000,000</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Adjusted Road</td>
+          <td style="text-align: right;">23,000,000</td>
+          <td style="text-align: right;"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Adjusted Road</td>
+          <td></td>
+          <td style="text-align: right;">$23,000,000</td>
+        </tr>
+        <tr>
+          <td colspan="2">Depreciation on Adjusted Road</td>
+          <td style="text-align: right;">7,000,000</td>
+        </tr>
+        <tr>
+          <td>Net Road</td>
+          <td></td>
+          <td style="text-align: right;">16,000,000</td>
+        </tr>
+        <tr>
+          <td>Obsolescence Percent</td>
+          <td></td>
+          <td style="text-align: right;">11.5%</td>
+        </tr>
+        <tr>
+          <td>Obsolescence Amount</td>
+          <td></td>
+          <td style="text-align: right;">1,840,000</td>
+        </tr>
+        <tr>
+          <td colspan="2">Adjusted Cost Indicator of Value</td>
+          <td style="text-align: right;">$27,483,000</td>
+        </tr>
+      </table>
+      <p>This cost indicator of value computed in accordance with this part will bear a weighting of 15 percent of the total unit value estimate of the railroad's property, except in the case of bankrupt railroads, or railroads with no income to be capitalized, as provided for in subpart 6, or railroads not meeting the criteria for use of the stock and debt approach to value as specified in subpart 4. These railroads will be valued using a 40 percent weighting for the cost indicator of value.</p>
+    </div>
+    <div id="rule.8106.0400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8106.0400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Income approach to valuation. </h2>
+      <p>The income indicator of value will be calculated by averaging the net railway operating income, as defined by the STB, of the railroad for the most recent five years preceding the assessment. This average income shall be capitalized by applying to it a capitalization rate which will be computed by using the band of investment method. This method will consider:</p>
+      <div id="rule.8106.0400.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8106.0400.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the capital structure of railroads, including capital surplus and retained earnings;</p>
+      </div>
+      <div id="rule.8106.0400.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8106.0400.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the cost of debt or interest rate paying particular attention to imbedded debt of railroads;</p>
+      </div>
+      <div id="rule.8106.0400.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8106.0400.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the yield on preferred stock of railroads; and</p>
+      </div>
+      <div id="rule.8106.0400.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8106.0400.3.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> the yield on common stock of railroads.</p>
+        <p>This rate will be calculated each year using the method described in this subpart.</p>
+        <p>An example of a computation of the capitalized income approach to value is as follows:</p>
+        <p class="ce">XYZ Railroad</p>
+        <table>
+          <col style="width:43.75%">
+          <col style="width:56.25%">
+          <tr>
+            <td>Year</td>
+            <td style="text-align: right;">Net Railway Operating Income</td>
+          </tr>
+          <tr>
+            <td>....</td>
+            <td style="text-align: right;">$ 2,600,000</td>
+          </tr>
+          <tr>
+            <td>....</td>
+            <td style="text-align: right;">2,700,000</td>
+          </tr>
+          <tr>
+            <td>....</td>
+            <td style="text-align: right;">3,000,000</td>
+          </tr>
+          <tr>
+            <td>....</td>
+            <td style="text-align: right;">3,100,000</td>
+          </tr>
+          <tr>
+            <td>....</td>
+            <td style="text-align: right;">3,492,500</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td style="text-align: right;">$14,892,500</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Average</td>
+            <td style="text-align: right;">$ 2,978,500</td>
+          </tr>
+        </table>
+        <p>Five-year average Net Railway Operating Income Capitalized at 14.0 percent (2,978,500 ÷ 14.0 percent) equals $21,275,000.</p>
+        <p>The income indicator of value computed in accordance with this part shall be weighted 60 percent of the total estimated unit value of the railroad's property except in the case of bankrupt railroads or railroads having no net operating income as provided for in subpart 6.</p>
+      </div>
+    </div>
+    <div id="rule.8106.0400.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8106.0400.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Stock and debt approach to valuation. </h2>
+      <p>The stock and debt approach to value is the third method which will be used to estimate the unit value of the railroad operating property. This approach to value is based on the accounting principle: assets = liabilities + equity. Therefore, when the value of a company's liabilities (debt) is found and this added to the worth of its stock, a value can be established for its assets (property).</p>
+      <p>The use of this approach to value will be limited to only those railroads meeting qualifications in items A to C:</p>
+      <div id="rule.8106.0400.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8106.0400.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The stock of the railroad must be traded on either the New York or American Stock Exchange.</p>
+      </div>
+      <div id="rule.8106.0400.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8106.0400.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The bonds of the railroad must be traded or have a rating by either Standard and Poor's or Moody's rating services.</p>
+      </div>
+      <div id="rule.8106.0400.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8106.0400.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> If the railroad is part of a diversified company, the value of the railroad portion of the total stock price must be able to be separated on an earnings basis using the following method:</p>
+        <p class="ce">XYZ Railroad</p>
+        <table>
+          <col style="width:69.2307692307692%">
+          <col style="width:30.7692307692308%">
+          <tr>
+            <td colspan="2">XYZ railroad is wholly owned by ABC Industries Inc.</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Net Earnings of ABC Industries</td>
+            <td style="text-align: right;">$5,200,500</td>
+          </tr>
+          <tr>
+            <td>Net Earnings of XYZ Railroad</td>
+            <td style="text-align: right;">$2,600,250</td>
+          </tr>
+          <tr>
+            <td>Percent of XYZ net earnings to total conglomerate earnings</td>
+            <td style="text-align: right;">50%</td>
+          </tr>
+          <tr>
+            <td>Value of share of ABC Industries stock</td>
+            <td style="text-align: right;">$100</td>
+          </tr>
+          <tr>
+            <td>XYZ Railroad portion of stock value</td>
+            <td style="text-align: right;">$50</td>
+          </tr>
+        </table>
+        <p>If a railroad has no net earnings, and is part of a conglomerate, then the stock and debt indicator of value will not be used.</p>
+        <p>The value of the stock used in the stock and debt method shall be an average of the month-ending stock prices for the 12 months immediately preceding the assessment date of January 2. The value of the bonds, equipment obligations, and conditional sales contracts, and other long-term debts shall also be an average of the cost of money quotes for the 12 months immediately preceding the assessment date of January 2. The source for these stock and bond prices shall be Standard and Poor's Stock Guide or other applicable financial service.</p>
+        <p>An illustration of a computation of the stock and debt approach to value is as follows:</p>
+        <p class="ce">XYZ Railroad Company</p>
+        <table>
+          <col style="width:50%">
+          <col style="width:50%">
+          <tr>
+            <td>Shares of Common Stock issued x</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Average price for preceding year</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="text-align: right;">1,000,000 x $12 = $12,000,000</td>
+          </tr>
+          <tr>
+            <td>Shares of Preferred Stock x</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Average price for preceding year</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="text-align: right;">100,000 x $15 = $ 1,500,000</td>
+          </tr>
+          <tr>
+            <td>Rate and face value of bonds x</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Average price for class of bonds for preceding year</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: right;">A rated 8% bonds $10,000,000 x 99% of par = $ 9,900,000</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Stock and Debt Indicator of Value</td>
+            <td style="text-align: right;">$23,400,000</td>
+          </tr>
+        </table>
+        <p>After the gross stock and debt indicator of value has been computed, an allowance will be made for the effect, if any, of revenue from other than railway operations included in this indicator of value. This allowance shall be based on the ratio of a five-year average of net revenue from railway operations, as determined by the STB, to a similar five-year average of income available for fixed charges as determined by the STB. The five-year average will be the most recent five years preceding the assessment date. An example of this computation is as follows:</p>
+        <p class="ce">XYZ Railroad Company</p>
+        <table>
+          <col style="width:15.3846153846154%">
+          <col style="width:38.4615384615385%">
+          <col style="width:46.1538461538462%">
+          <tr>
+            <td>Year</td>
+            <td style="text-align: right;">Net Revenue from<br>Railway Operations</td>
+            <td style="text-align: right;">Income Available<br>for Fixed Charges</td>
+          </tr>
+          <tr>
+            <td>....</td>
+            <td style="text-align: right;">$ 3,000,000</td>
+            <td style="text-align: right;">$ 3,500,000</td>
+          </tr>
+          <tr>
+            <td>....</td>
+            <td style="text-align: right;">4,000,000</td>
+            <td style="text-align: right;">4,300,000</td>
+          </tr>
+          <tr>
+            <td>....</td>
+            <td style="text-align: right;">5,200,000</td>
+            <td style="text-align: right;">5,700,000</td>
+          </tr>
+          <tr>
+            <td>....</td>
+            <td style="text-align: right;">6,000,000</td>
+            <td style="text-align: right;">6,800,000</td>
+          </tr>
+          <tr>
+            <td>....</td>
+            <td style="text-align: right;">5,200,000</td>
+            <td style="text-align: right;">5,400,000</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="text-align: right;">$23,400,000</td>
+            <td style="text-align: right;">$25,700,000</td>
+          </tr>
+          <tr>
+            <td>Average</td>
+            <td style="text-align: right;">$ 4,680,000</td>
+            <td style="text-align: right;">$ 5,140,000</td>
+          </tr>
+          <tr>
+            <td colspan="2">Ratio $4,680,000 ÷ $5,140,000 = 91%</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td colspan="2">Gross Stock and Debt Indicator of Value</td>
+            <td style="text-align: right;">$23,400,000</td>
+          </tr>
+          <tr>
+            <td colspan="2">Ratio of Operating to Noncarrier Earnings</td>
+            <td style="text-align: right;">91%</td>
+          </tr>
+          <tr>
+            <td colspan="2">Net Stock and Debt Indicator of Value</td>
+            <td style="text-align: right;">$21,300,000</td>
+          </tr>
+        </table>
+        <p>The stock and debt indicator of value computed in accordance with this part will bear a weighting of 25 percent of the total unit value of the railroad's property, except in the case of bankrupt railroads, railroads in bankruptcy proceedings, or railroads with no income to be capitalized, as provided for in subpart 6. If no stock and debt indicator of value is computed, the weighting of 25 percent which would have been applied to this indicator of value will be placed on the cost indicator of value.</p>
+      </div>
+    </div>
+    <div id="rule.8106.0400.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8106.0400.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Unit value computation. </h2>
+      <p>The estimated unit value of the railroad property will be the total of the three weighted indicators of value. The following is an example of the computation of the unit value.</p>
+      <p class="ce">XYZ Railroad</p>
+      <table>
+        <col style="width:43.75%">
+        <col style="width:17.96875%">
+        <col style="width:17.1875%">
+        <col style="width:21.09375%">
+        <tr>
+          <td>Valuation Approach</td>
+          <td style="text-align: center;">Value</td>
+          <td style="text-align: right;">Weighting</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Cost indicator of value</td>
+          <td style="text-align: right;">$27,483,000</td>
+          <td style="text-align: right;">15%</td>
+          <td style="text-align: right;">$ 4,122,500</td>
+        </tr>
+        <tr>
+          <td>Income indicator of value</td>
+          <td style="text-align: right;">21,275,000</td>
+          <td style="text-align: right;">60%</td>
+          <td style="text-align: right;">12,765,000</td>
+        </tr>
+        <tr>
+          <td>Stock and debt indicator of value</td>
+          <td style="text-align: right;">21,300,000</td>
+          <td style="text-align: right;">25%</td>
+          <td style="text-align: right;">5,325,000</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td colspan="2" style="text-align: right;">Unit Value $22,212,500</td>
+        </tr>
+      </table>
+      <p>The weighting shown above may vary from railroad to railroad as provided for in subparts 2 to 4.</p>
+    </div>
+    <div id="rule.8106.0400.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.8106.0400.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Railroads operating at a loss, bankrupt railroads involved in federal bankruptcy proceedings, and railroads adjudged bankrupt by a federal court. </h2>
+      <p>Railroads which are involved in federal bankruptcy proceedings, adjudged bankrupt, or railroads having no net railway operating income will be valued using the cost and stock and debt approaches to value. If the stocks or bonds of such railroads are not traded, or do not meet the other requirements for use of the stock and debt indicator of value, then these railroads will be valued using the cost approach to value only.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8106.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/270.84">270.84</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8106.0400.history">
+    <h2>History: </h2>
+    <p>11 SR 335; L 1998 c 254 art 1 s 107; 28 SR 1297; L 2005 c 151 art 1 s 114</p>
+  </div>
+  <div class="published" id="rule.8106.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> November 14, 2006</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8106.0500">
+    <h1 class="headnote">8106.0500 ALLOCATION.</h1>
+    <div id="rule.8106.0500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8106.0500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">In general. </h2>
+      <p>After the estimated unit value of the railroad property has been determined, the portion of value which is attributable to Minnesota must be established. This is accomplished through the use of certain allocation factors. Each of the factors in the allocation method shows a relationship between the railroad system operations in all states and its Minnesota operations. These relationships are expressed in percentage figures. These percentages are then added and an average is computed. The resulting average of the factors, multiplied by the unit value, yields the Minnesota portion of the railroad property which will, after the adjustments described in parts <a href="/rules/8106.0600">8106.0600</a> and <a href="/rules/8106.0800">8106.0800</a>, be subject to ad valorem tax in Minnesota.</p>
+    </div>
+    <div id="rule.8106.0500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8106.0500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Allocation factors. </h2>
+      <p>The factors to be considered in making allocations of unit values to Minnesota for railroad companies are:</p>
+      <div id="rule.8106.0500.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8106.0500.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> miles of railroad track operated in Minnesota divided by miles of railroad track operated in all states;</p>
+      </div>
+      <div id="rule.8106.0500.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8106.0500.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> ton miles of revenue freight transported in Minnesota divided by ton miles of revenue freight transported in all states;</p>
+      </div>
+      <div id="rule.8106.0500.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8106.0500.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> gross revenues from transportation operations within Minnesota divided by gross revenues from transportation operations in all states; and</p>
+      </div>
+      <div id="rule.8106.0500.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8106.0500.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> cost of road property in Minnesota divided by the cost of road property in all states.</p>
+        <p>The following example illustrates the allocation method to be applied to the unit value of railroad property.</p>
+        <table>
+          <col style="width:61.5384615384615%">
+          <col style="width:19.2307692307692%">
+          <col style="width:3.846153846153846%">
+          <col style="width:4.615384615384615%">
+          <col style="width:10.7692307692308%">
+          <tr>
+            <td colspan="5" style="text-align: center;">XYZ Railroad</td>
+          </tr>
+          <tr>
+            <td>Minnesota miles of track</td>
+            <td style="text-align: right;">100</td>
+            <td class="valign_top" style="text-align: right;"></td>
+            <td class="valign_top" style="text-align: right;"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Total miles of track</td>
+            <td class="valign_top" style="text-align: right;">
+              <span class="leader_test">.</span>
+              <span class="leader_test">_</span>
+              <br>
+              <span>500</span>
+            </td>
+            <td class="valign_top" style="text-align: right;">=</td>
+            <td class="valign_top" style="text-align: right;">20%</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="text-align: right;"></td>
+            <td style="text-align: right;"></td>
+            <td class="valign_top" style="text-align: right;"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Minnesota ton miles of revenue freight</td>
+            <td style="text-align: right;">2,200,000</td>
+            <td style="text-align: right;"></td>
+            <td class="valign_top" style="text-align: right;"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Total ton miles of revenue freight</td>
+            <td class="valign_top" style="text-align: right;">
+              <span class="leader_test">_</span>
+              <br>
+              <span>9,000,000</span>
+            </td>
+            <td class="valign_top" style="text-align: right;">=</td>
+            <td class="valign_top" style="text-align: right;">24%</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td class="valign_top" style="text-align: right;"></td>
+            <td class="valign_top" style="text-align: right;"></td>
+            <td class="valign_top" style="text-align: right;"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Minnesota gross transportation revenue</td>
+            <td style="text-align: right;">$10,000,000</td>
+            <td class="valign_top" style="text-align: right;"></td>
+            <td class="valign_top" style="text-align: right;"></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Total gross transportation revenue</td>
+            <td class="valign_top" style="text-align: right;">
+              <span class="leader_test">_</span>
+              <br>
+              <span>$40,000,000</span>
+            </td>
+            <td class="valign_top" style="text-align: right;">=</td>
+            <td class="valign_top" style="text-align: right;">25%</td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td class="valign_top"></td>
+            <td style="text-align: right;"></td>
+            <td class="valign_top" style="text-align: right;"></td>
+            <td style="text-align: right;"></td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td>Minnesota cost of road property</td>
+            <td style="text-align: right;">2,990,000</td>
+            <td class="valign_top" style="text-align: right;"></td>
+            <td class="valign_top" style="text-align: right;"></td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td>Total cost of road property</td>
+            <td style="text-align: right;">
+              <br>
+              <span class="leader_test">_</span>
+              <br>
+              <span>13,000,000</span>
+            </td>
+            <td class="valign_top">=</td>
+            <td class="valign_top">23%</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="text-align: right;">Total</td>
+            <td style="text-align: right;"></td>
+            <td style="text-align: right;">92%</td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: right;">Minnesota Percent of Unit Value </td>
+            <td style="text-align: right;"></td>
+            <td style="text-align: right;">23%</td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td>Total Unit Value ($22,212,500 x 23%) =</td>
+            <td></td>
+            <td style="text-align: right;"></td>
+            <td style="text-align: right;"></td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td>Minnesota Portion of Unit Value</td>
+            <td style="text-align: right;"> $5,108,875</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;"></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8106.0500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.84">270.84</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8106.0500.history">
+    <h2>History: </h2>
+    <p>11 SR 335; L 2005 c 151 art 1 s 114</p>
+  </div>
+  <div class="published" id="rule.8106.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> November 14, 2006</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8106.0600">
+    <h1 class="headnote">8106.0600 ADJUSTMENTS FOR NONFORMULA ASSESSED PROPERTY OR EXEMPT PROPERTY.</h1>
+    <p>After the Minnesota portion of the unit value of the railroad company is determined, property which is either exempt from taxation, such as personal property, or classified as nonoperating will be deducted from the Minnesota portion of the unit value to the extent that it has been included in the computation of this value.</p>
+    <p>Property which has been included in the computation of the unit value but has been defined as nonoperating property will be valued by the local assessor. The Minnesota portion of the unit value will be reduced by the restated cost of this property. Only nonoperating property located within Minnesota will be eligible for this exclusion.</p>
+    <p>The railroad company shall have the responsibility to submit to the commissioner of revenue, in the form required by the commissioner, such schedules of nonoperating property as the commissioner may require.</p>
+    <p>In addition to nonoperating property which will be valued and assessed locally, a deduction from the Minnesota portion of the unit value will be made for personal property.</p>
+    <p>A percentage of the Minnesota portion of the unit value before deducting nonoperating property will be excluded as personal property. This percentage will be computed in the following way:</p>
+    <div id="rule.8106.0600.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.8106.0600.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> The following STB accounts for property within Minnesota will be totaled:</p>
+      <div id="rule.8106.0600.A.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.8106.0600.A.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> that portion of coal and ore wharves determined to be personal property;</p>
+      </div>
+      <div id="rule.8106.0600.A.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.8106.0600.A.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> communication systems;</p>
+      </div>
+      <div id="rule.8106.0600.A.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.8106.0600.A.3">§</a>
+        <h4 class="subitem_no">(3)</h4>
+        <p> signals and interlockers;</p>
+      </div>
+      <div id="rule.8106.0600.A.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.8106.0600.A.4">§</a>
+        <h4 class="subitem_no">(4)</h4>
+        <p> roadway machines;</p>
+      </div>
+      <div id="rule.8106.0600.A.5" class="subitem">
+        <a title="Link to subitem 5" class="permalink" href="#rule.8106.0600.A.5">§</a>
+        <h4 class="subitem_no">(5)</h4>
+        <p> shop machinery;</p>
+      </div>
+      <div id="rule.8106.0600.A.6" class="subitem">
+        <a title="Link to subitem 6" class="permalink" href="#rule.8106.0600.A.6">§</a>
+        <h4 class="subitem_no">(6)</h4>
+        <p> power plant machinery;</p>
+      </div>
+      <div id="rule.8106.0600.A.7" class="subitem">
+        <a title="Link to subitem 7" class="permalink" href="#rule.8106.0600.A.7">§</a>
+        <h4 class="subitem_no">(7)</h4>
+        <p> computer and word processing equipment; and</p>
+      </div>
+      <div id="rule.8106.0600.A.8" class="subitem">
+        <a title="Link to subitem 8" class="permalink" href="#rule.8106.0600.A.8">§</a>
+        <h4 class="subitem_no">(8)</h4>
+        <p> equipment, allocated to Minnesota on the basis of car and locomotive miles in Minnesota compared to total system car and locomotive miles.</p>
+      </div>
+    </div>
+    <div id="rule.8106.0600.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.8106.0600.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> The total of these accounts will then be divided by the total of the Minnesota road, equipment, leased property, general expenditures, construction work in progress, and other elements of investment accounts. The resulting percentage will be used to determine the personal property amount of the Minnesota portion of the unit value. This amount will not be taxable for ad valorem purposes.</p>
+    </div>
+    <div id="rule.8106.0600.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.8106.0600.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> The following is an illustration of the computation for the personal property exclusion.</p>
+      <p class="ce">XYZ Railway</p>
+      <table>
+        <col style="width:66.6666666666667%">
+        <col style="width:16.6666666666667%">
+        <col style="width:16.6666666666667%">
+        <tr>
+          <td>Personal Property Account</td>
+          <td></td>
+          <td style="text-align: right;">Amount in Minnesota</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Computer and Word Processing Equipment</td>
+          <td></td>
+          <td style="text-align: right;">$ 89,200</td>
+        </tr>
+        <tr>
+          <td>Coal and Ore Wharves</td>
+          <td></td>
+          <td style="text-align: right;">100,000</td>
+        </tr>
+        <tr>
+          <td>Communication Equipment</td>
+          <td></td>
+          <td style="text-align: right;">100,000</td>
+        </tr>
+        <tr>
+          <td>Signals and Interlockers</td>
+          <td></td>
+          <td style="text-align: right;">200,000</td>
+        </tr>
+        <tr>
+          <td>Roadway Machines</td>
+          <td></td>
+          <td style="text-align: right;">200,000</td>
+        </tr>
+        <tr>
+          <td>Shop Machinery</td>
+          <td></td>
+          <td style="text-align: right;">100,000</td>
+        </tr>
+        <tr>
+          <td>Power Plant Machinery</td>
+          <td></td>
+          <td style="text-align: right;">100,000</td>
+        </tr>
+        <tr>
+          <td>* Equipment -- Owned and Leased</td>
+          <td></td>
+          <td style="text-align: right;">2,250,000</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td style="text-align: right;">3,139,200</td>
+        </tr>
+        <tr>
+          <td>* Total Equipment Account</td>
+          <td style="text-align: right;">$9,000,000</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Car and Locomotive Miles in Minnesota</td>
+          <td style="text-align: right;">1,000,000</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Total Car and Locomotive Miles</td>
+          <td style="text-align: right;">4,000,000</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Ratio of Minnesota to Total</td>
+          <td style="text-align: right;">25%</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Minnesota Allocated Equipment Account</td>
+          <td style="text-align: right;">$2,250,000</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Restated Cost Account</td>
+          <td></td>
+          <td style="text-align: right;">Amount in Minnesota</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Road</td>
+          <td></td>
+          <td style="text-align: right;">$2,990,000</td>
+        </tr>
+        <tr>
+          <td>Equipment -- Owned and Leased</td>
+          <td></td>
+          <td style="text-align: right;">2,250,000</td>
+        </tr>
+        <tr>
+          <td>Construction Work in Progress</td>
+          <td></td>
+          <td style="text-align: right;">800,000</td>
+        </tr>
+        <tr>
+          <td>General expenditures</td>
+          <td></td>
+          <td style="text-align: right;">500,000</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td style="text-align: right;">$6,540,000</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Minnesota Personal Property Accounts</td>
+          <td style="text-align: right;">$3,139,200</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Minnesota Restated Cost</td>
+          <td style="text-align: right;">$6,540,000</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Ratio of Personal Property to Cost</td>
+          <td style="text-align: right;">48%</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Minnesota portion of unit value</td>
+          <td></td>
+          <td style="text-align: right;">5,108,875</td>
+        </tr>
+        <tr>
+          <td>Personal Property exclusion at 48%</td>
+          <td></td>
+          <td style="text-align: right;">2,452,260</td>
+        </tr>
+        <tr>
+          <td>Taxable Minnesota Portion of Unit Value</td>
+          <td></td>
+          <td style="text-align: right;">$2,656,615</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8106.0600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/270.84">270.84</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8106.0600.history">
+    <h2>History: </h2>
+    <p>11 SR 335; 28 SR 1297; L 2005 c 151 art 1 s 114</p>
+  </div>
+  <div class="published" id="rule.8106.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> November 14, 2006</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8106.0700">
+    <h1 class="headnote">8106.0700 APPORTIONMENT.</h1>
+    <div id="rule.8106.0700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8106.0700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">In general. </h2>
+      <p>After the taxable Minnesota portion of the railroad's unit value has been determined, this value must be distributed to the various counties and taxing districts in which the railroad operates. This distribution will be accomplished by the commissioner of revenue through the use of certain apportionment components. Each of the components in the apportionment method is a reflection of the property owned or used by the railroad within a particular taxing district. The figures making up these components will be developed on information submitted by the railroad companies in annual reports filed with the commissioner, and information supplied to the commissioner by the various county auditors and assessors.</p>
+    </div>
+    <div id="rule.8106.0700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8106.0700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Apportionment components. </h2>
+      <p>There are three components which will be used in the distribution of the value of railroad property to the various taxing districts. They are railroad operating land, miles of track, and railroad operating structures with a restated cost of $10,000 or more.</p>
+    </div>
+    <div id="rule.8106.0700.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8106.0700.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Railroad operating land. </h2>
+      <p>The information for the computation of this apportionment component will be based on information submitted by both the railroads and the various county auditors and assessors. The railroad companies shall file with the commissioner of revenue each year, in conjunction with their annual reports required by part <a href="/rules/8106.0300">8106.0300</a>, subpart 1, the number of acres of railroad operating land owned or used by them in each taxing district in which they operate. The county auditor shall also be required to submit to the commissioner of revenue a report showing the number of acres of railroad operating land, detailed by owning railroad, in each taxing district within the county. If either the railroads or the auditors find that it is administratively impracticable to submit this information, the commissioner shall make an estimate of the number of acres of railroad operating land within each taxing district based on the best information available. Such information would usually consist of the miles of railroad track within the taxing district and the normal width of the right-of-way used by the railroad. In addition, information relative to the current estimated market value of all land within the respective taxing districts will be obtained from the county or city assessors by a review of the information reported to the commissioner of revenue in compliance with Minnesota Statutes, section <a href="/statutes/cite/270C.85">270C.85</a>, subdivision 2, clause (4). </p>
+      <p>The computation for the railroad operating land apportionment component will be accomplished annually in the following manner:</p>
+      <div id="rule.8106.0700.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8106.0700.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The average estimated market value per taxable acre within a specific taxing district will be calculated by dividing the estimated market value of all taxable land within the taxing district as indicated by the most recent assessment information reported to the commissioner under Minnesota Statutes, section <a href="/statutes/cite/270C.85#stat.270C.85.2">270C.85, subdivision 2</a>, clause (4). The number of acres within a taxing district will be obtained from the most recent statistics available from the Minnesota Geospatial Information Office, Department of Administration. The total number of acres will be adjusted to allow for nontaxable or exempt acres by subtracting these nontaxable or exempt acres from the total acres. The number of nontaxable or exempt acres will be obtained from the most recent exempt real property information reported to the commissioner under Minnesota Statutes, section <a href="/statutes/cite/270C.85#stat.270C.85.2">270C.85, subdivision 2</a>, clause (4). The following example illustrates this calculation.</p>
+        <table>
+          <col style="width:59.2307692307692%">
+          <col style="width:22.3076923076923%">
+          <col style="width:18.4615384615385%">
+          <tr>
+            <td>Estimated Market Value of All Taxable Land Within Taxing District</td>
+            <td></td>
+            <td style="text-align: right;">$200,000</td>
+          </tr>
+          <tr>
+            <td>Total Area of Taxing District</td>
+            <td style="text-align: right;">210 Acres</td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td>Nontaxable or Exempt Acres</td>
+            <td style="text-align: right;">10 Acres</td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td>Taxable Acres Within Taxing District</td>
+            <td></td>
+            <td style="text-align: right;">200</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td>
+              <span class="leader_test">_</span>
+            </td>
+          </tr>
+          <tr>
+            <td>Average Estimated Market Value per Acre</td>
+            <td></td>
+            <td style="text-align: right;">$1,000</td>
+          </tr>
+        </table>
+      </div>
+      <div id="rule.8106.0700.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8106.0700.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> This average estimated market value per taxable acre is then applied to the number of acres of railroad operating land within the taxing district to compute a gross railroad operating land component within the taxing district. The following example illustrates this computation:</p>
+        <table>
+          <col style="width:65.3846153846154%">
+          <col style="width:11.5384615384615%">
+          <col style="width:23.0769230769231%">
+          <tr>
+            <td>Average Estimated Market Value Per Acre</td>
+            <td style="text-align: right;">$1,000</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Acres of Railroad Operating Land</td>
+            <td style="text-align: right;">x 5</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <span class="leader_test">_</span>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Gross Railroad Operating Land Component</td>
+            <td style="text-align: right;">$5,000</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+      <div id="rule.8106.0700.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8106.0700.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> This railroad operating land component will then be adjusted. This adjustment is achieved by striking a ratio between the system unit value for all Minnesota railroads, as described in part <a href="/rules/8106.0400">8106.0400</a>, subpart 5, to the total of net investment in railway property used in transportation service as defined by the STB for all railroads operating in Minnesota. This relationship will be computed annually and will then be applied to the gross railroad operating land component to arrive at the adjusted railroad operating land component. This adjusted land value will then be used as one element of the apportionment computation.</p>
+        <p>The following is an example of how the adjusted railroad operating land component is to be computed:</p>
+        <table>
+          <col style="width:37.6923076923077%">
+          <col style="width:17.6923076923077%">
+          <col style="width:11.5384615384615%">
+          <col style="width:7.692307692307693%">
+          <col style="width:17.6923076923077%">
+          <col style="width:7.692307692307693%">
+          <tr>
+            <td>Railroad</td>
+            <td style="text-align: right;">System Unit Value</td>
+            <td></td>
+            <td colspan="3">Net Investment in Railway Property Used in Transportation Services </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ABC Railway</td>
+            <td style="text-align: right;">$ 20,000,000</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">$ 40,000,000</td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td>FGH Railway</td>
+            <td style="text-align: right;">5,256,000</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">8,000,000</td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td>JKL Railroad</td>
+            <td style="text-align: right;">2,000,000</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">4,780,830</td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td>MNO Railroad</td>
+            <td style="text-align: right;">50,000,000</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">90,000,000</td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td>XYZ Railroad</td>
+            <td style="text-align: right;">22,212,500</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">25,000,000</td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <span class="leader_test">_</span>
+            </td>
+            <td></td>
+            <td></td>
+            <td>
+              <span class="leader_test">_</span>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="text-align: right;">$ 99,468,500</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">$ 165,780,830</td>
+            <td style="text-align: right;"></td>
+          </tr>
+        </table>
+        <p>Total System Unit Value ($99,468,500) ÷ Total Net Investment in Railway Property Used in Transportation Services ($165,780,830) = 60%</p>
+        <table>
+          <col style="width:65.3846153846154%">
+          <col style="width:11.5384615384615%">
+          <col style="width:23.0769230769231%">
+          <tr>
+            <td>Gross Railroad Operating Land Component Within the Taxing District</td>
+            <td style="text-align: right;">$5,000</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Adjustment Factor</td>
+            <td style="text-align: right;">60%</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <span class="leader_test">_</span>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Adjusted Railroad Operating Land Component</td>
+            <td style="text-align: right;">$3,000</td>
+            <td></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="rule.8106.0700.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8106.0700.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Miles of track. </h2>
+      <p>The information for the computation of this apportionment component will be based on information submitted by the railroads to the commissioner of revenue in conjunction with the annual report required by part <a href="/rules/8106.0300">8106.0300</a>, subpart 1. Each railroad will be required to list the miles of track they own in each taxing district within Minnesota. The track must be separated into two classes, main line track and all other track.</p>
+      <p>In order to make the miles of track in each taxing district compatible with the other apportionment components, the miles must be converted to dollars. This conversion will be computed annually. The conversion will be accomplished by adding together the following STB accounts for each railroad's net investment in Minnesota: account 3, grading; account 8, ties; account 9, rails; account 11, ballast. The total of these accounts will then be divided by the number of miles of track operated by the respective railroads within Minnesota to obtain a cost per mile figure. This will be used as the average cost per mile for track within Minnesota.</p>
+      <p>The following is an example of how the average cost per mile of track in Minnesota will be computed:</p>
+      <table>
+        <col style="width:36%">
+        <col style="width:20%">
+        <col style="width:15.2%">
+        <col style="width:9.600000000000003%">
+        <col style="width:9.600000000000003%">
+        <col style="width:9.600000000000003%">
+        <tr>
+          <td>Railroad</td>
+          <td colspan="2">Total of Accounts #3,<br>8, 9, 11</td>
+          <td colspan="3" style="text-align: center;">Mileage Operated in Minnesota </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>ABC Railway</td>
+          <td style="text-align: right;">$ 4,000,000</td>
+          <td style="text-align: right;"></td>
+          <td style="text-align: right;"></td>
+          <td style="text-align: right;">154</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>FGH Railway</td>
+          <td style="text-align: right;">800,000</td>
+          <td style="text-align: right;"></td>
+          <td style="text-align: right;"></td>
+          <td style="text-align: right;">42</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>JKL Railroad</td>
+          <td style="text-align: right;">500,000</td>
+          <td style="text-align: right;"></td>
+          <td style="text-align: right;"></td>
+          <td style="text-align: right;">20</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>MNO Railroad</td>
+          <td style="text-align: right;">7,450,000</td>
+          <td style="text-align: right;"></td>
+          <td style="text-align: right;"></td>
+          <td style="text-align: right;">290</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>XYZ Railroad</td>
+          <td style="text-align: right;">2,500,000</td>
+          <td style="text-align: right;"></td>
+          <td style="text-align: right;"></td>
+          <td style="text-align: right;">104</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>
+            <span class="leader_test">_</span>
+          </td>
+          <td></td>
+          <td></td>
+          <td>
+            <span class="leader_test">_</span>
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td style="text-align: right;">$ 15,250,000</td>
+          <td style="text-align: right;"></td>
+          <td></td>
+          <td style="text-align: right;">610</td>
+          <td></td>
+        </tr>
+      </table>
+      <p>Total cost of track ($15,250,000) ÷ Total miles operated (610) = Average Cost per Mile of Track $25,000.</p>
+      <p>Main line track shall be weighted at 1.5 times the cost of all other track; thus, if the average cost per mile of track is $25,000, main line track would be worth more than $25,000 per mile, while all other track would be worth less. The calculation for the average cost of both main line and all other track shall be made annually on an industry basis.</p>
+      <p>The calculation to determine the average cost per mile of main line track and the average cost per mile of all other track will be computed in the following manner:</p>
+      <div id="rule.8106.0700.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8106.0700.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Total mileage operated will be multiplied by the average cost per mile to arrive at a total track cost.</p>
+      </div>
+      <div id="rule.8106.0700.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8106.0700.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Total mileage operated will be separated into the two types of track, main line and all other track.</p>
+      </div>
+      <div id="rule.8106.0700.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8106.0700.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Main line track will be multiplied by 1.5 to arrive at adjusted main line miles.</p>
+      </div>
+      <div id="rule.8106.0700.4.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8106.0700.4.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Adjusted main line miles will be added to all other track miles to arrive at adjusted total track miles.</p>
+      </div>
+      <div id="rule.8106.0700.4.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.8106.0700.4.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> Total track cost will be divided by adjusted total track miles to arrive at the cost per mile of all other track.</p>
+      </div>
+      <div id="rule.8106.0700.4.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.8106.0700.4.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> The cost per mile of main line track will be computed by multiplying the cost per mile of all other track by 1.5.</p>
+        <p>An illustration of this computation is as follows:</p>
+        <table>
+          <col style="width:35.7142857142857%">
+          <col style="width:10.7142857142857%">
+          <col style="width:10.7142857142857%">
+          <col style="width:10.7142857142857%">
+          <col style="width:10.7142857142857%">
+          <col style="width:10.7142857142857%">
+          <col style="width:10.7142857142857%">
+          <tr>
+            <td>Railroad</td>
+            <td colspan="2" style="text-align: center;">Mileage Operated</td>
+            <td colspan="2" style="text-align: center;">Main Line Miles</td>
+            <td colspan="2" style="text-align: center;">All other Track Miles</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>ABC Railway</td>
+            <td style="text-align: right;">154</td>
+            <td></td>
+            <td style="text-align: right;">96</td>
+            <td></td>
+            <td style="text-align: right;">58</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>FGH Railway</td>
+            <td style="text-align: right;">42</td>
+            <td></td>
+            <td style="text-align: right;">10</td>
+            <td></td>
+            <td style="text-align: right;">32</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>JKL Railroad</td>
+            <td style="text-align: right;">20</td>
+            <td></td>
+            <td style="text-align: right;">15</td>
+            <td></td>
+            <td style="text-align: right;">5</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>MNO Railroad</td>
+            <td style="text-align: right;">290</td>
+            <td style="text-align: right;"></td>
+            <td style="text-align: right;">132</td>
+            <td></td>
+            <td style="text-align: right;">158</td>
+            <td style="text-align: right;"></td>
+          </tr>
+          <tr>
+            <td>XYZ Railroad</td>
+            <td style="text-align: right;">104</td>
+            <td></td>
+            <td style="text-align: right;">52</td>
+            <td></td>
+            <td style="text-align: right;">52</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <span class="leader_test">_</span>
+            </td>
+            <td></td>
+            <td>
+              <span class="leader_test">_</span>
+            </td>
+            <td></td>
+            <td>
+              <span class="leader_test">_</span>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="text-align: right;">610</td>
+            <td></td>
+            <td style="text-align: right;">305</td>
+            <td></td>
+            <td style="text-align: right;">305</td>
+            <td></td>
+          </tr>
+        </table>
+        <table class="border_none">
+          <col style="width:44%">
+          <col style="width:12%">
+          <col style="width:12%">
+          <col style="width:20%">
+          <col style="width:12%">
+          <tr>
+            <td>Total Mileage Operated</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">610</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Average Cost Per Mile of Track</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">$ 25,000</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Total Track Cost</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">$ 15,250,000</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Main Line Miles</td>
+            <td></td>
+            <td style="text-align: right;">305</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Weighting Factor</td>
+            <td></td>
+            <td style="text-align: right;">1.5</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Adjusted Main Line Miles</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">457.5</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Other Track Miles</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">305.0</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Adjusted Total Track Miles</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">762.5</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Total Track Cost</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">$ 15,250,000</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Adjusted Total Track Miles</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">762.5</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td colspan="2">Average Cost Per Mile of Other Track</td>
+            <td></td>
+            <td style="text-align: right;">$ 20,000</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td colspan="2">Average Cost Per Mile of Other Track</td>
+            <td></td>
+            <td style="text-align: right;">$ 20,000</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Weighting Factor</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">1.5</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td colspan="2">Average Cost Per Mile of Main Line Track</td>
+            <td></td>
+            <td style="text-align: right;">$ 30,000</td>
+            <td></td>
+          </tr>
+        </table>
+        <p>After the per mile cost figures for main line and all other track are obtained, these per mile cost figures would be multiplied by the length of each type of track in a particular taxing district to obtain the value of the trackage in that district. The same cost figures will be used for all railroads operating in Minnesota.</p>
+      </div>
+    </div>
+    <div id="rule.8106.0700.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8106.0700.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Structures. </h2>
+      <p>The information for the computation of this apportionment component will be based on statements submitted by the railroads. These schedules shall be submitted annually to the commissioner of revenue in conjunction with the annual report required by part <a href="/rules/8106.0300">8106.0300</a>, subpart 1. The schedules shall show the location, by taxing district, of all operating structures owned by the reporting railroad within Minnesota with a restated cost of $10,000 or more. The schedules shall list a description of the structure and the railroad's current restated cost investment in the structure as it appears in the appropriate STB account.</p>
+      <p>An example of this listing is as follows:</p>
+      <p class="ce">XYZ Railroad</p>
+      <table>
+        <col style="width:41.6666666666667%">
+        <col style="width:37.5%">
+        <col style="width:20.8333333333333%">
+        <tr>
+          <td>Taxing District</td>
+          <td>Description</td>
+          <td style="text-align: right;">Restated Cost</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>St. Paul, S.D. #625</td>
+          <td>Office Building</td>
+          <td style="text-align: right;">$ 400,000</td>
+        </tr>
+        <tr>
+          <td>Minneapolis, S.D. #1</td>
+          <td>Depot</td>
+          <td style="text-align: right;">20,000</td>
+        </tr>
+        <tr>
+          <td>Fridley, S.D. #16</td>
+          <td>Yard Tower</td>
+          <td style="text-align: right;">200,000</td>
+        </tr>
+        <tr>
+          <td>Anoka, S.D. #11</td>
+          <td>Engine and Car Shop </td>
+          <td style="text-align: right;">250,000</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td style="text-align: right;">
+            <span class="leader_test">_</span>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Total</td>
+          <td style="text-align: right;">$ 870,000</td>
+        </tr>
+      </table>
+    </div>
+    <div id="rule.8106.0700.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.8106.0700.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Apportionment computation. </h2>
+      <p>The apportionment of a railroad's taxable Minnesota value is accomplished by totaling the amount of the land, track, and structure components as developed in subparts 3 to 5 for each taxing district, then finding the sum of these totals for all the taxing districts in which the subject railroad operates. The taxable Minnesota portion of the railroad's unit value is divided by the total of the three apportionment components for all taxing districts in which the railroad operates in order to arrive at a percentage. This resulting percentage is then applied to the total amount of the three apportionment components for each specific taxing district. The figure produced by this multiplication process is the taxing district's share of the railroad's taxable Minnesota portion of the unit value. No more value can be distributed to the various taxing districts than that produced by the valuation process described in parts <a href="/rules/8106.0100">8106.0100</a> to <a href="/rules/8106.0600">8106.0600</a>.</p>
+      <p>The example in part <a href="/rules/8106.9900">8106.9900</a> illustrates the apportionment process.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8106.0700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/270.84">270.84</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8106.0700.history">
+    <h2>History: </h2>
+    <p>11 SR 335; 28 SR 1297; L 2005 c 151 art 1 s 114; L 2009 c 101 art 2 s 107; 44 SR 957</p>
+  </div>
+  <div class="published" id="rule.8106.0700.published">
+    <h2>Published Electronically:</h2>
+    <p> March 10, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8106.0800">
+    <h1 class="headnote">8106.0800 EQUALIZATION.</h1>
+    <div id="rule.8106.0800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8106.0800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">In general. </h2>
+      <p>After the apportionment of value referred to in part <a href="/rules/8106.0700">8106.0700</a> has been made, the railroad property values must be equalized to coincide with the assessment levels of commercial and industrial property within each respective county receiving a share of the apportioned railroad value. This equalization will be accomplished through the use of an assessment/sales ratio.</p>
+    </div>
+    <div id="rule.8106.0800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8106.0800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Assessment/sales ratio computation. </h2>
+      <p>A comprehensive assessment/sales ratio study compiled annually by the sales ratio section of the Property Tax Division of the Department of Revenue commonly known as the State Board of Equalization Sales/Ratio Study will be used in this computation. The portions of this study which will be used for purposes of this section are known as the "County Commercial and Industrial Sales Ratio."</p>
+      <p>This commercial and industrial (C &amp; I) sales ratio is computed through an analysis of the certificates of real estate value filed by the buyers or sellers of commercial or industrial property within each county. The information contained on these certificates of real estate value is compiled pursuant to requests, standards, and methods set forth by the Minnesota Department of Revenue acting upon recommendations of the Minnesota legislature. The most recent C &amp; I study available will be used for purposes of this section.</p>
+      <p>The median C &amp; I sales ratio from the County Commercial and Industrial Sales Ratio study will be used as a basis to estimate the current year C &amp; I median ratio for each county.</p>
+      <p>The process used to estimate this current year median ratio will be as follows.</p>
+      <p> The current estimated market value of commercial and industrial property within each county will be taken from the information reported to the commissioner under Minnesota Statutes, section <a href="/statutes/cite/270C.85#stat.270C.85.2">270C.85, subdivision 2</a>, clause (4). The amount of the value of new commercial and industrial construction, ("new" meaning since the last assessment period) as well as the value of commercial and industrial property which has changed classification (i.e. commercial to tax exempt property) will also be taken from the information reported to the commissioner under Minnesota Statutes, section <a href="/statutes/cite/270C.85#stat.270C.85.2">270C.85, subdivision 2</a>, clause (4). The value of new construction will then be deducted from the estimated market value, resulting in a net estimated current year market value for commercial and industrial property within the county. The value of commercial and industrial property which has changed classification will be deducted from the previous years estimated market value to arrive at a net estimated previous year market value for commercial and industrial property within the county. The net current year value will be compared to the net previous year's estimated market value for commercial and industrial property within the county and the difference between the two values noted. This difference will be divided by the previous year's net estimated market value for commercial and industrial property to find the percentage of increase, or decrease, in assessment level for each year. This percent of change will be applied to the most recent C &amp; I median ratio to estimate the current year's C &amp; I median ratio. An example of this calculation for a typical county is shown below.</p>
+      <table>
+        <col style="width:56.390977443609%">
+        <col style="width:21.0526315789474%">
+        <col style="width:22.5563909774436%">
+        <tr>
+          <td>Current Year Estimated Market Value for Commercial and Industrial Property</td>
+          <td style="text-align: right;">$12,000,000</td>
+          <td style="text-align: right;"></td>
+        </tr>
+        <tr>
+          <td class="valign_bottom">Less: New Construction</td>
+          <td style="text-align: right;">1,500,000</td>
+          <td style="text-align: right;"></td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td style="text-align: right;">
+            <span class="leader_test">_</span>
+          </td>
+          <td style="text-align: right;"></td>
+        </tr>
+        <tr>
+          <td>Current Year Net Estimated Market Value for Commercial and Industrial Property</td>
+          <td></td>
+          <td style="text-align: right;">10,500,000</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>Previous Year Estimated Market Value for Commercial and Industrial Property</td>
+          <td style="text-align: right;">10,250,000</td>
+          <td style="text-align: right;"></td>
+        </tr>
+        <tr>
+          <td class="valign_top">Less: Classification Changes</td>
+          <td style="text-align: right;">250,000</td>
+          <td style="text-align: right;"></td>
+        </tr>
+        <tr>
+          <td class="valign_top"></td>
+          <td style="text-align: right;">
+            <span class="leader_test">_</span>
+          </td>
+          <td style="text-align: right;"></td>
+        </tr>
+        <tr>
+          <td>Previous Year Net Estimated Market Value for Commercial and Industrial Property</td>
+          <td></td>
+          <td style="text-align: right;">10,000,000</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>
+            <span class="leader_test">_</span>
+          </td>
+        </tr>
+        <tr>
+          <td>Difference Previous Year vs. Current Year Estimated Market Value</td>
+          <td></td>
+          <td style="text-align: right;">500,000</td>
+        </tr>
+        <tr>
+          <td>Percent of Change (500,000 ÷ 10,000,000)</td>
+          <td></td>
+          <td style="text-align: right;">5%</td>
+        </tr>
+        <tr>
+          <td>Previous Year Median Commercial and Industrial Ratio</td>
+          <td></td>
+          <td style="text-align: right;">88%</td>
+        </tr>
+        <tr>
+          <td>Current Year Estimated Median Commercial and Industrial Ratio (88% x 105%)</td>
+          <td></td>
+          <td style="text-align: right;">92.4%</td>
+        </tr>
+      </table>
+      <p>This same calculation is performed for each Minnesota county which contains operating railroad property. If there are five or fewer valid sales of commercial and industrial property within a county during the study period, these few sales are insufficient to form the basis for a meaningful C &amp; I ratio. Therefore, the median assessment/sales ratio to be used for purposes of the above computation will not be the median C &amp; I ratio but will be the weighted median ratio of all property classes within the county for which a sales ratio is available. This weighted median ratio is computed in the same manner using the same procedures and standards as the C &amp; I ratio. In addition, the computation described above will not be performed using the commercial and industrial estimated market value but will use the estimated market value for all property within the county. All other aspects of the calculations are identical except for this substitution.</p>
+      <p>The weighted median ratio is developed by multiplying the median ratio for each class of property (agricultural, residential, recreational, commercial) by the percentage of value that class of property comprises of the total county value. An example of this calculation is as follows:</p>
+      <table>
+        <col style="width:35.4838709677419%">
+        <col style="width:19.2012288786482%">
+        <col style="width:14.5929339477727%">
+        <col style="width:11.5207373271889%">
+        <col style="width:19.2012288786482%">
+        <tr>
+          <td>Class of Property</td>
+          <td style="text-align: center;">Amount of Value</td>
+          <td style="text-align: center;">Percent of Value</td>
+          <td style="text-align: center;">Median Ratio</td>
+          <td style="text-align: center;">Weighted Median Ratio</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td style="text-align: right;"></td>
+          <td style="text-align: right;"></td>
+          <td style="text-align: right;"></td>
+          <td style="text-align: right;"></td>
+        </tr>
+        <tr>
+          <td>Residential</td>
+          <td style="text-align: right;">$ 20,000,000</td>
+          <td style="text-align: right;">20%</td>
+          <td style="text-align: center;">85%</td>
+          <td style="text-align: right;">17.00%</td>
+        </tr>
+        <tr>
+          <td>Agricultural</td>
+          <td style="text-align: right;">55,000,000</td>
+          <td style="text-align: right;">55%</td>
+          <td style="text-align: center;">95%</td>
+          <td style="text-align: right;">52.25%</td>
+        </tr>
+        <tr>
+          <td>Seasonal - Recreational</td>
+          <td style="text-align: right;">5,000,000</td>
+          <td style="text-align: right;">5%</td>
+          <td style="text-align: center;">90%</td>
+          <td style="text-align: right;">4.50%</td>
+        </tr>
+        <tr>
+          <td>Commercial - Industrial</td>
+          <td style="text-align: right;">20,000,000</td>
+          <td style="text-align: right;">20%</td>
+          <td style="text-align: center;">85%</td>
+          <td style="text-align: right;">17.00%</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td style="text-align: right;">$100,000,000</td>
+          <td style="text-align: right;">100%</td>
+          <td style="text-align: right;"></td>
+          <td style="text-align: right;">90.75%</td>
+        </tr>
+      </table>
+    </div>
+    <div id="rule.8106.0800.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8106.0800.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Application of the estimated current year median assessment/sales ratio. </h2>
+      <p>After the estimated current year median ratio has been calculated pursuant to subpart 2, it is used to adjust the apportioned estimated market value of operating railroad property to the apparent assessment level of commercial and industrial property in each county. This is done by multiplying the estimated market value of the railroad property by the estimated sales ratio to arrive at the equalized market value of operating railroad property. In no instance will any adjustment be made if, after comparing the estimated current year sales ratio to the assessment level of operating railroad property, the difference between the two is five percent or less. An example of this adjustment is as follows:</p>
+      <table>
+        <col style="width:25%">
+        <col style="width:25%">
+        <col style="width:25%">
+        <col style="width:25%">
+        <tr>
+          <td></td>
+          <td>Estimated Market Value of Railroad Operating Property*</td>
+          <td>Estimated Current Year Median Sales Ratio</td>
+          <td>Equalized Estimated Market Value of Railroad Operating Property </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>County A</td>
+          <td>$ 100,000</td>
+          <td style="text-align: center;">85%</td>
+          <td style="text-align: right;"> $ 85,000</td>
+        </tr>
+        <tr>
+          <td>County B</td>
+          <td>250,000</td>
+          <td style="text-align: center;">88%</td>
+          <td style="text-align: right;">220,000</td>
+        </tr>
+        <tr>
+          <td>County C</td>
+          <td>300,000</td>
+          <td style="text-align: center;">90%</td>
+          <td style="text-align: right;">270,000</td>
+        </tr>
+        <tr>
+          <td>County D</td>
+          <td>150,000</td>
+          <td style="text-align: center;">92%</td>
+          <td style="text-align: right;">138,000</td>
+        </tr>
+        <tr>
+          <td>County E</td>
+          <td>100,000</td>
+          <td style="text-align: center;">95%</td>
+          <td style="text-align: right;">100,000**</td>
+        </tr>
+      </table>
+      <p>* For purposes of this example, assume that railroad property is assessed at 100 percent of market value.</p>
+      <p>** No adjustment made because estimated current year median sales ratio is within five percent of assessment level on operating railroad property.</p>
+      <p>All railroads operating within a particular county will be equalized at the same percentage.</p>
+      <p>These equalized estimated market values of operating railroad property will be certified to the county assessor denoting specific railroads and taxing districts pursuant to Minnesota Statutes, section <a href="/statutes/cite/270.87">270.87</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8106.0800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/270.84">270.84</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8106.0800.history">
+    <h2>History: </h2>
+    <p>11 SR 335; 28 SR 1297; L 2005 c 151 art 1 s 114; 44 SR 957</p>
+  </div>
+  <div class="published" id="rule.8106.0800.published">
+    <h2>Published Electronically:</h2>
+    <p> March 10, 2020</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8106.9900">
+    <h1 class="headnote">8106.9900 EXAMPLE OF APPORTIONMENT PROCESS.</h1>
+    <a href="/image/i8106_9900_1.jpeg/version/2014-01-18T08:04:55-06:00/&#10;&#9;&#9;&#9;&#9;high/" title="High resolution version.">
+      <img alt="12 picas - Insert table here. " src="/image/i8106_9900_1.jpeg/version/2014-01-18T08:04:55-06:00/&#10;&#9;&#9;&#9;&#9;">
+    </a>
+  </div>
+  <div class="stat_auth" id="rule.8106.9900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.84">270.84</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8106.9900.history">
+    <h2>History: </h2>
+    <p>11 SR 335; L 2005 c 151 art 1 s 114</p>
+  </div>
+  <div class="published" id="rule.8106.9900.published">
+    <h2>Published Electronically:</h2>
+    <p> November 14, 2006</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

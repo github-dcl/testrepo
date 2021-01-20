@@ -1,0 +1,2174 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            8100.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/181">Revenue Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/8100/">Chapter 8100</a>
+            </li>
+        
+    
+        
+            <li>Part 8100.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/8100.0200/">8100.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/8100.0100/2014-01-18%2008:21:29+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 8100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/8100/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/8100/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/8100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 8100.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/8100.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8100.0100">
+    <h1 class="headnote">8100.0100 DEFINITIONS.</h1>
+    <div id="rule.8100.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8100.0100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>As used in this chapter, the following words, terms, and phrases shall have the meanings given to them by this part, except where the context clearly indicates a different meaning.</p>
+    </div>
+    <div id="rule.8100.0100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8100.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Allocation. </h2>
+      <p>"Allocation" means the process of dividing the unit value of a utility company among the states in which the utility operates.</p>
+    </div>
+    <div id="rule.8100.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8100.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Apportionment. </h2>
+      <p>"Apportionment" means the process of distributing that portion of the utility company's unit value which has been allocated to Minnesota to the various taxing districts in which the utility company operates.</p>
+    </div>
+    <div id="rule.8100.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8100.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3a.</h2>
+      <h2 class="headnote">Beta. </h2>
+      <p>"Beta" is the measure of a stock's volatility compared with a measurement of the overall market. A beta of less than one indicates lower-than-market risk; a beta of more than one indicates a higher-than-market risk. Beta is part of the capital asset pricing model.</p>
+    </div>
+    <div id="rule.8100.0100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8100.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Book depreciation. </h2>
+      <p>"Book depreciation" means the depreciation shown by a utility company on its corporate books, and allowed the company by various regulatory agencies.</p>
+    </div>
+    <div id="rule.8100.0100.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8100.0100.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Capitalization rate. </h2>
+      <p>"Capitalization rate" means the relationship of income to capital investment or value, expressed as a percentage.</p>
+    </div>
+    <div id="rule.8100.0100.5" class="subp repealed">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8100.0100.5">§</a>
+      <h2 class="subp_no">Subp. 5a.</h2>
+      <p>[Repealed, 24 SR 1106]</p>
+    </div>
+    <div id="rule.8100.0100.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8100.0100.5">§</a>
+      <h2 class="subp_no">Subp. 5b.</h2>
+      <h2 class="headnote">Contributions in aid of construction. </h2>
+      <p>"Contributions in aid of construction" is money paid to another utility, to be used directly or indirectly for the construction or acquisition of plant; or the contribution of property that is used as plant.</p>
+    </div>
+    <div id="rule.8100.0100.5c" class="subp">
+      <a title="Link to subpart 5c" class="permalink" href="#rule.8100.0100.5c">§</a>
+      <h2 class="subp_no">Subp. 5c.</h2>
+      <h2 class="headnote">Cooperative association. </h2>
+      <p>"Cooperative association" includes municipal power agencies and pipelines that are not common carriers.</p>
+    </div>
+    <div id="rule.8100.0100.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.8100.0100.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Electric company. </h2>
+      <p>"Electric company" means any company engaged in the generation, transmission, or distribution of electric power, excluding municipal corporations.</p>
+    </div>
+    <div id="rule.8100.0100.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.8100.0100.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Gas distribution company. </h2>
+      <p>"Gas distribution company" means any company engaged in the distribution of natural or synthetic gas, excluding municipal corporations.</p>
+    </div>
+    <div id="rule.8100.0100.8" class="subp repealed">
+      <a title="Link to subpart 8" class="permalink" href="#rule.8100.0100.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <p>MR 1989 [Repealed, 14 SR 1806]</p>
+    </div>
+    <div id="rule.8100.0100.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.8100.0100.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Integrated company. </h2>
+      <p>"Integrated company" means any company engaged in two or more utility operations within Minnesota, such as electric distribution and gas distribution, within the framework of one corporate structure.</p>
+    </div>
+    <div id="rule.8100.0100.9" class="subp repealed">
+      <a title="Link to subpart 9" class="permalink" href="#rule.8100.0100.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <p>MR 1989 [Renumbered <a href="/rules/8100.0100">8100.0100</a>, subpart 8]</p>
+    </div>
+    <div id="rule.8100.0100.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.8100.0100.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Net operating earnings. </h2>
+      <p>"Net operating earnings" means earnings from the system plant of the utility after the deduction of operating expenses, depreciation, and taxes, but before any deduction for interest.</p>
+    </div>
+    <div id="rule.8100.0100.10" class="subp repealed">
+      <a title="Link to subpart 10" class="permalink" href="#rule.8100.0100.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <p>MR 1989 [Repealed, 14 SR 1806]</p>
+    </div>
+    <div id="rule.8100.0100.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.8100.0100.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Non-formula-assessed property. </h2>
+      <p>"Non-formula-assessed property" means property of a utility which is valued by the local or county assessor rather than by the commissioner of revenue.</p>
+    </div>
+    <div id="rule.8100.0100.11" class="subp repealed">
+      <a title="Link to subpart 11" class="permalink" href="#rule.8100.0100.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <p>MR 1989 [Renumbered <a href="/rules/8100.0100">8100.0100</a>, subpart 9]</p>
+    </div>
+    <div id="rule.8100.0100.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.8100.0100.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Operating property. </h2>
+      <p>"Operating property" means any tangible property that is owned or leased, except land, which is directly associated with the generation, transmission, or distribution of electricity, natural gas, gasoline, petroleum products, or crude oil. Examples of operating property include, but are not limited to, substations, transmission and distribution lines, generating plants, and pipelines. Property that is located on the same or contiguous parcels of land as operating property is presumed to also be operating property. Land is always nonoperating property.</p>
+    </div>
+    <div id="rule.8100.0100.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.8100.0100.11">§</a>
+      <h2 class="subp_no">Subp. 11a.</h2>
+      <h2 class="headnote">Original cost less depreciation. </h2>
+      <p>"Original cost less depreciation" means the original cost of the property to the present owner, minus any depreciation attributable to the property.</p>
+    </div>
+    <div id="rule.8100.0100.12" class="subp repealed">
+      <a title="Link to subpart 12" class="permalink" href="#rule.8100.0100.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <p>MR 1989 [Renumbered <a href="/rules/8100.0100">8100.0100</a>, subpart 10]</p>
+    </div>
+    <div id="rule.8100.0100.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.8100.0100.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Pipeline company. </h2>
+      <p>"Pipeline company" means any company engaged in the transmission of natural gas, gasoline, petroleum products, or crude oil via a fixed line of pipes.</p>
+    </div>
+    <div id="rule.8100.0100.13" class="subp repealed">
+      <a title="Link to subpart 13" class="permalink" href="#rule.8100.0100.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <p>MR 1989 [Renumbered <a href="/rules/8100.0100">8100.0100</a>, subpart 11]</p>
+    </div>
+    <div id="rule.8100.0100.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.8100.0100.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Qualifying construction work in progress. </h2>
+      <p>"Qualifying construction work in progress" means the cost of materials and associated charges which are not yet placed in a permanent site.</p>
+    </div>
+    <div id="rule.8100.0100.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.8100.0100.13">§</a>
+      <h2 class="subp_no">Subp. 13a.</h2>
+      <h2 class="headnote">Relative risk. </h2>
+      <p>"Relative risk" means the risk of a stock as measured by its beta.</p>
+    </div>
+    <div id="rule.8100.0100.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.8100.0100.13">§</a>
+      <h2 class="subp_no">Subp. 13b.</h2>
+      <h2 class="headnote">Risk-free rate. </h2>
+      <p>"Risk-free rate" means the theoretical rate of return on an absolutely riskless investment, measured by long-term United States government securities.</p>
+    </div>
+    <div id="rule.8100.0100.13c" class="subp">
+      <a title="Link to subpart 13c" class="permalink" href="#rule.8100.0100.13c">§</a>
+      <h2 class="subp_no">Subp. 13c.</h2>
+      <h2 class="headnote">Risk premium. </h2>
+      <p>"Risk premium" means the return over and above the risk-free rate.</p>
+    </div>
+    <div id="rule.8100.0100.14" class="subp repealed">
+      <a title="Link to subpart 14" class="permalink" href="#rule.8100.0100.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <p>MR 1989 [Renumbered <a href="/rules/8100.0100">8100.0100</a>, subpart 12]</p>
+    </div>
+    <div id="rule.8100.0100.14" class="subp">
+      <a title="Link to subpart 14" class="permalink" href="#rule.8100.0100.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <h2 class="headnote">System plant. </h2>
+      <p>"System plant" means the total tangible property, real and personal, of a company which is used in its utility operations in all states in which it operates.</p>
+    </div>
+    <div id="rule.8100.0100.14" class="subp repealed">
+      <a title="Link to subpart 14" class="permalink" href="#rule.8100.0100.14">§</a>
+      <h2 class="subp_no">Subp. 14a.</h2>
+      <p>MR 1989 [Renumbered <a href="/rules/8100.0100">8100.0100</a>, subpart 13]</p>
+    </div>
+    <div id="rule.8100.0100.15" class="subp repealed">
+      <a title="Link to subpart 15" class="permalink" href="#rule.8100.0100.15">§</a>
+      <h2 class="subp_no">Subp. 15.</h2>
+      <p>MR 1989 [Renumbered <a href="/rules/8100.0100">8100.0100</a>, subpart 14]</p>
+    </div>
+    <div id="rule.8100.0100.15" class="subp">
+      <a title="Link to subpart 15" class="permalink" href="#rule.8100.0100.15">§</a>
+      <h2 class="subp_no">Subp. 15.</h2>
+      <h2 class="headnote">Throughput. </h2>
+      <p>"Throughput" means the amount of product measured in barrels, gallons, or cubic feet which passes through a pipeline.</p>
+    </div>
+    <div id="rule.8100.0100.16" class="subp repealed">
+      <a title="Link to subpart 16" class="permalink" href="#rule.8100.0100.16">§</a>
+      <h2 class="subp_no">Subp. 16.</h2>
+      <p>MR 1989 [Renumbered <a href="/rules/8100.0100">8100.0100</a>, subpart 15]</p>
+    </div>
+    <div id="rule.8100.0100.16" class="subp">
+      <a title="Link to subpart 16" class="permalink" href="#rule.8100.0100.16">§</a>
+      <h2 class="subp_no">Subp. 16.</h2>
+      <h2 class="headnote">Unit value. </h2>
+      <p>"Unit value" means the value of the entire system plant of a utility company taken as a whole without any regard to the value of its component parts.</p>
+    </div>
+    <div id="rule.8100.0100.17" class="subp repealed">
+      <a title="Link to subpart 17" class="permalink" href="#rule.8100.0100.17">§</a>
+      <h2 class="subp_no">Subp. 17.</h2>
+      <p>MR 1989 [Renumbered <a href="/rules/8100.0100">8100.0100</a>, subpart 16]</p>
+    </div>
+    <div id="rule.8100.0100.17" class="subp repealed">
+      <a title="Link to subpart 17" class="permalink" href="#rule.8100.0100.17">§</a>
+      <h2 class="subp_no">Subp. 17.</h2>
+      <p>[Repealed, 21 SR 749]</p>
+    </div>
+    <div id="rule.8100.0100.18" class="subp repealed">
+      <a title="Link to subpart 18" class="permalink" href="#rule.8100.0100.18">§</a>
+      <h2 class="subp_no">Subp. 18.</h2>
+      <p>MR 1989 [Renumbered <a href="/rules/8100.0100">8100.0100</a>, subpart 17]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8100.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270.11">270.11</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8100.0100.history">
+    <h2>History: </h2>
+    <p>14 SR 1806; 21 SR 749; 24 SR 1106; L 2005 c 151 art 1 s 114; 31 SR 1317</p>
+  </div>
+  <div class="published" id="rule.8100.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> June 4, 2007</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8100.0200">
+    <h1 class="headnote">8100.0200 INTRODUCTION.</h1>
+    <p>The commissioner of revenue establishes an estimate of the unit value for each utility company operating within the state. The entire system is valued utilizing data relating to the cost of the property, the earnings of the company owning or operating the property, and additional indicators of value where applicable. The resulting valuation is allocated to each state in which the utility company operates. The value of property located in Minnesota that is exempt from property tax or that is locally assessed is subtracted from the value allocated to Minnesota. Next, by the process of apportionment, the portion allocated to Minnesota is distributed to the various taxing districts within the state. The data used in the valuation, allocation, and apportionment process is drawn from reports submitted to the Department of Revenue by the utility companies. These reports include Minnesota Department of Revenue Annual Utility Reports (UTL forms), Reports to the Minnesota Public Utilities Commission, Annual Reports to Shareholders, Annual Reports to the Federal Energy Regulatory Commission, United States Department of Agriculture, Rural Utility Service or equivalent, and other publicly available sources of information regarding rates. Periodic examinations of the supporting data for these reports are made by the Department of Revenue. Finally, the value is equalized based on sales/assessment ratios determined by the Department of Revenue.</p>
+    <p>The commissioner of revenue reserves the right to exercise discretion whenever the circumstances of a valuation estimate dictate the need for it. Discretion may be used to ensure a balance between a prescriptive rule and sound appraisal judgment; to ensure that all relevant data pertaining to value is considered; to ensure that a reasonable estimate of market value is derived; to address concerns of predictability and stability in estimations of market value; and to ensure that utility valuation is easily understood and administered.</p>
+  </div>
+  <div class="stat_auth" id="rule.8100.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270.11">270.11</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8100.0200.history">
+    <h2>History: </h2>
+    <p>11 SR 635; 12 SR 58; 13 SR 394; 14 SR 1806; 15 SR 2190; 21 SR 749; 24 SR 1106; L 2005 c 151 art 1 s 114; 31 SR 1317</p>
+  </div>
+  <div class="published" id="rule.8100.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> June 4, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8100.0300">
+    <h1 class="headnote">8100.0300 VALUATION.</h1>
+    <div id="rule.8100.0300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8100.0300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">General. </h2>
+      <p>Because of the unique character of public utility companies, the traditional approaches to valuation estimates of property (cost, capitalized income, and market) must be modified when utility property is valued. Consequently, the value of utility company property is estimated in the manner provided in this chapter.</p>
+      <p>All indicators of value must be considered to determine their validity relating to the specific property being valued. If an indicator is not demonstrated to be reliable or of value for the specific property being appraised it must not be used.</p>
+    </div>
+    <div id="rule.8100.0300.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8100.0300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 31 SR 1317]</p>
+    </div>
+    <div id="rule.8100.0300.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8100.0300.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Cost approach.</h2>
+      <div id="rule.8100.0300.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8100.0300.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The cost factor to be considered in the utility valuation formula is the original cost less depreciation of the system plant, plus the cost of improvements to the system plant, plus the original cost of all types of construction work in progress that are installed by the assessment date, plus the cost of property held for future use, plus the cost of contributions in aid of construction. Original cost less depreciation is presumed to be equal to historical cost less depreciation. For rate-regulated companies, the commissioner must use the same type of cost that is used in the rate base calculation.</p>
+      </div>
+      <div id="rule.8100.0300.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8100.0300.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The original cost of any leased operating property used by the utility must be reported to the commissioner in conjunction with the annual utility report. If the original cost of the leased operating property is not available, the commissioner shall make an estimate of the cost by capitalizing the lease payments.</p>
+      </div>
+      <div id="rule.8100.0300.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8100.0300.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> If a conflict of opinion exists regarding the character of specific property, whether it is operating or nonoperating property, assessors or utility companies may request a determination by the commissioner.</p>
+      </div>
+      <div id="rule.8100.0300.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8100.0300.3.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Depreciation is not allowed on construction work in progress. Depreciation is allowed as a deduction from cost in the amount allowed on the accounting records of the utility company, as such records are required to be maintained by the appropriate regulatory agency, except that depreciation may be reduced if available information indicates the amount deducted does not equal actual accrued depreciation when the current estimated remaining life is considered.</p>
+      </div>
+      <div id="rule.8100.0300.3.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.8100.0300.3.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> The following example illustrates how the cost indicator of value is computed for an electric company:</p>
+        <table>
+          <col style="width:5.468750000000001%">
+          <col style="width:74.21875%">
+          <col style="width:20.3125%">
+          <tr>
+            <td>1.</td>
+            <td>Utility Plant</td>
+            <td style="text-align: right;">$ 200,000,000</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Construction Work in Progress</td>
+            <td style="text-align: right;">$ 5,500,000</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Contributions in Aid of Construction</td>
+            <td style="text-align: right;">$ 250,000</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>Leased Property</td>
+            <td style="text-align: right;">$ 750,000</td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>Total Plant</td>
+            <td style="text-align: right;">$ 206,500,000</td>
+          </tr>
+          <tr>
+            <td>6.</td>
+            <td>Book Depreciation</td>
+            <td style="text-align: right;">$ 40,000,000</td>
+          </tr>
+          <tr>
+            <td>7.</td>
+            <td>Depreciation on CIAC</td>
+            <td style="text-align: right;">$ 10,000</td>
+          </tr>
+          <tr>
+            <td>8.</td>
+            <td>Depreciation on Leased Property</td>
+            <td style="text-align: right;">$ 25,000</td>
+          </tr>
+          <tr>
+            <td>9.</td>
+            <td>Total Depreciation</td>
+            <td style="text-align: right;">$ 40,035,000</td>
+          </tr>
+          <tr>
+            <td>10.</td>
+            <td>Total Cost Indicator of Value</td>
+            <td style="text-align: right;">$ 166,465,000</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="rule.8100.0300.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8100.0300.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Income approach. </h2>
+      <p>The income indicator of value is estimated by weighting the capitalized net operating earnings of the utility company for the most recent three years as follows: most recent year, 40 percent; previous year, 35 percent; and final year, 25 percent. Utilities may request the removal of nonrecurring items of income or expense. The commissioner must determine if removal of the item is appropriate. The net income is capitalized by applying a capitalization rate that is computed by using the band of investment method. This method considers:</p>
+      <div id="rule.8100.0300.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8100.0300.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the capital structure of utilities;</p>
+      </div>
+      <div id="rule.8100.0300.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8100.0300.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the cost of debt or interest rate;</p>
+      </div>
+      <div id="rule.8100.0300.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8100.0300.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the yield on preferred stock of utilities;</p>
+      </div>
+      <div id="rule.8100.0300.4.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8100.0300.4.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> the yield on common stock of utilities; and</p>
+      </div>
+      <div id="rule.8100.0300.4.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.8100.0300.4.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> the risk-free rate, relative risk, and risk premiums for public utility companies.</p>
+        <p>Capitalization rates are computed for electric companies, gas distribution companies, natural gas transmission systems, and fluid pipeline companies. The rates are recalculated each year using the method described in this subpart.</p>
+        <p>The following example illustrates how the income indicator of value would be computed for a gas distribution company:</p>
+        <table>
+          <col style="width:3.846153846153846%">
+          <col style="width:50%">
+          <col style="width:15.3846153846154%">
+          <col style="width:15.3846153846154%">
+          <col style="width:15.3846153846154%">
+          <tr>
+            <td></td>
+            <td></td>
+            <td class="valign_top" style="text-align: right;">year 1</td>
+            <td class="valign_top" style="text-align: right;">year 2</td>
+            <td class="valign_top" style="text-align: right;">current year</td>
+          </tr>
+          <tr>
+            <td class="valign_top">1.</td>
+            <td>Net Operating Income</td>
+            <td style="text-align: right;">$ 394,000</td>
+            <td style="text-align: right;"> $ 450,000</td>
+            <td style="text-align: right;">$ 470,000</td>
+          </tr>
+          <tr>
+            <td class="valign_top">2.</td>
+            <td>Weighting Factor</td>
+            <td style="text-align: right;">25%</td>
+            <td style="text-align: right;">35%</td>
+            <td style="text-align: right;">40%</td>
+          </tr>
+          <tr>
+            <td class="valign_top">3.</td>
+            <td>Weighted Income to be Capitalized</td>
+            <td style="text-align: right;">98,500</td>
+            <td style="text-align: right;">157,500</td>
+            <td style="text-align: right;">188,000</td>
+          </tr>
+          <tr>
+            <td class="valign_top">4.</td>
+            <td>Capitalized Income at 9.25%</td>
+            <td style="text-align: right;">1,064,865</td>
+            <td style="text-align: right;">1,702,703</td>
+            <td style="text-align: right;">2,032,432</td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>Total Income Indicator of Value</td>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">$ 4,800,000</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="rule.8100.0300.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8100.0300.4">§</a>
+      <h2 class="subp_no">Subp. 4a.</h2>
+      <h2 class="headnote">Additional indicators of value. </h2>
+      <p>Additional indicators of value, other than the cost and income indicators, may exist in some situations. When additional indicators of value exist, the commissioner has the discretion to use these additional indicators in computing the unit value of a utility. Additional indicators of value include, but are not limited to, the market indicator.</p>
+      <div id="rule.8100.0300.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8100.0300.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> If the commissioner determines that the market indicator can be quantified, is reliable, and is indicative of value for a company, the commissioner has the discretion to adjust the weightings of the cost and income indicators to give weight to the market indicator in the unit value computation. If the market indicator is used, the weighting for the market indicator must not exceed five percent.</p>
+      </div>
+      <div id="rule.8100.0300.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8100.0300.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> If the commissioner finds that economic or other forms of obsolescence exists, the commissioner has the discretion to adjust the weightings in the correlation process described in subpart 5 or make other adjustments in its methodology consistent with these rules and applicable statutes.</p>
+      </div>
+      <div id="rule.8100.0300.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8100.0300.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> If the commissioner uses additional indicators of value, the commissioner must state in writing the findings that necessitate deviation from the default weightings of 50 percent for cost indicator and 50 percent for income indicator, as described in subpart 5.</p>
+      </div>
+    </div>
+    <div id="rule.8100.0300.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8100.0300.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Unit value computation. </h2>
+      <p>The unit value of the utility company is equal to the total of the weighted indicators of value. The total weighting must equal 100 percent. The default weightings of the indicators are: market indicator, 0 percent; cost indicator, 50 percent; income indicator, 50 percent.</p>
+      <p>The following is an example of the computation of the unit value for a utility company when the market indicator has been determined to be a valid additional indicator of value:</p>
+      <table>
+        <col style="width:3.846153846153846%">
+        <col style="width:26.9230769230769%">
+        <col style="width:69.2307692307692%">
+        <tr>
+          <td style="text-align: right;">1.</td>
+          <td colspan="2">Cost Indicator of Value:</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>$5,000,000 x 47.5% = $2,375,000</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;">2.</td>
+          <td colspan="2">Income Indicator of Value:</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>$4,800,000 x 47.5% = $2,280,000</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;">3.</td>
+          <td colspan="2">Market Indicator of Value:</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>$5,500,000 x 5% = $275,000</td>
+        </tr>
+        <tr>
+          <td style="text-align: right;">4.</td>
+          <td colspan="2">Unit Value of Utility Company:</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>Sum of indicators = $4,930,000</td>
+        </tr>
+      </table>
+    </div>
+    <div id="rule.8100.0300.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8100.0300.5">§</a>
+      <h2 class="subp_no">Subp. 5a.</h2>
+      <h2 class="headnote">Valuation election for cooperative associations. </h2>
+      <p>After assessment year 2007, cooperative associations have the option to irrevocably elect the method under which they are valued.</p>
+      <div id="rule.8100.0300.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8100.0300.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> For assessment year 2007, each cooperative must be valued in the same manner as it was valued in assessment year 2006, using either the unit value method or cost less depreciation method.</p>
+      </div>
+      <div id="rule.8100.0300.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8100.0300.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Beginning in assessment year 2008, cooperative associations that were valued under the cost less depreciation method in assessment year 2007 may irrevocably elect to be valued using the unit value method described in subparts 1 to 5. Elections made by a cooperative association prior to November 1 of any year are effective the next assessment year. Such elections must be in a format prescribed by the commissioner.</p>
+      </div>
+      <div id="rule.8100.0300.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8100.0300.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Prior to November 1 of assessment year 2008, cooperative associations that were valued under the unit value method in assessment year 2007 may irrevocably elect to be valued under the cost less depreciation method. Such elections will be in a format prescribed by the commissioner. Cooperative associations that do not elect to revert back to valuation using cost less depreciation method prior to November 1 of assessment year 2008, are deemed to have irrevocably elected to be valued using the unit value method.</p>
+      </div>
+    </div>
+    <div id="rule.8100.0300.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.8100.0300.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Cost less depreciation method of valuation for utility property of cooperatives, municipal power agencies, and pipelines that are not common carriers. </h2>
+      <p>Cooperative associations may irrevocably elect to have their property valued using the unit value method described in subparts 1 to 5. Cooperative associations not electing unit valuation and other types of utilities which do not operate in the traditional profit-making mode, are not common carriers, or are nonregulated, must have their utility property valued on the basis of cost less depreciation. Elections made by a cooperative association prior to November 1 of any year are effective the next assessment year. Such elections must be in a format prescribed by the commissioner.</p>
+      <div id="rule.8100.0300.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8100.0300.6.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Depreciation is allowed as a deduction from the original cost in increments of 2-1/2 percent per year, but the maximum depreciation allowed must not exceed 75 percent of the cost of the utility operating property. Additions to existing utility property are depreciated 2-1/2 percent per year until they reach the 75 percent maximum. Retirements of utility property are deducted from the cost basis at the average depreciation level of all of the company's taxable property.</p>
+      </div>
+      <div id="rule.8100.0300.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8100.0300.6.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Cost less depreciation is calculated by using the following inputs: the total cost at the end of the year preceding the assessment year; total depreciation at the beginning of the year preceding the assessment year; total cost at the beginning of the year preceding the assessment year; and the original cost of property retired during the year preceding the assessment year.</p>
+        <p>Depreciation for the year is calculated by multiplying the total cost at the end of the year preceding the assessment year by 2-1/2 percent. Depreciation on retirements is calculated by dividing the total depreciation for the year preceding the assessment year by total cost at the beginning of the year preceding the assessment year. This number is then multiplied by the original cost of retirements for the year; the result is equal to the depreciation on retirements for the year.</p>
+        <p>Net depreciation for the year is calculated by adding the total depreciation at the beginning of the year preceding the assessment year and the depreciation for the year, and then subtracting the depreciation on retirements for the year. Net depreciated value for the year is equal to the total cost at the end of the year preceding the assessment year less net depreciation for the year. Net depreciated value for the assessment year is the total market value for all property owned by the company.</p>
+        <p>A company factor is calculated by dividing the net depreciated value for the assessment year by the total cost at the end of the year preceding the assessment year. The factor is multiplied by the cost of each individual parcel at the end of the year preceding the assessment year to derive the market value of each individual parcel.</p>
+      </div>
+      <div id="rule.8100.0300.6.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8100.0300.6.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The following example illustrates this process for an electric cooperative association electing cost less depreciation valuation under this subpart for assessment year 2006.</p>
+        <table>
+          <col style="width:4%">
+          <col style="width:72%">
+          <col style="width:24%">
+          <tr>
+            <td></td>
+            <td>Cost of individual parcels on 12/31/2005 =</td>
+            <td style="text-align: right;">$ 105,000</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">$ 520,000</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">$ 415,000</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;">$ 100,000</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Total cost on 12/31/2005 of all property =</td>
+            <td style="text-align: right;">$ 1,140,000</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Total depreciation on 1/1/2005 =</td>
+            <td style="text-align: right;">$ 300,000</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Total cost on 1/1/2005 =</td>
+            <td style="text-align: right;">$ 1,100,000</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>Original cost of retirements in 2006 =</td>
+            <td style="text-align: right;">$ 6,000</td>
+          </tr>
+          <tr>
+            <td class="valign_top">1.</td>
+            <td>Depreciation for the assessment year 2006<br>($1,140,000 x .025) =</td>
+            <td style="text-align: right;">$ 28,500</td>
+          </tr>
+          <tr>
+            <td class="valign_top">2.</td>
+            <td>Depreciation on assessment year 2006 retirements<br>($300,000 / $1,100,000) x $6,000 =</td>
+            <td style="text-align: right;">$ 1,636</td>
+          </tr>
+          <tr>
+            <td class="valign_top">3.</td>
+            <td>Net depreciation for the assessment year 2006<br>($300,000 + $28,500 - $1,636) =</td>
+            <td style="text-align: right;">$ 326,864</td>
+          </tr>
+          <tr>
+            <td class="valign_top">4.</td>
+            <td>Depreciation Limit ($1,140,000 x .75) =</td>
+            <td style="text-align: right;">$ 855,000</td>
+          </tr>
+          <tr>
+            <td class="valign_top">5.</td>
+            <td>Net depreciated value for the assessment year 2006<br>(Total cost on 12/31/2005 - Lesser of Line 3 or Line 4)<br>($1,140,000 - $326,864) =</td>
+            <td style="text-align: right;">$ 813,136</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>This is the market value for all property owned by the cooperative.</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td class="valign_top">6.</td>
+            <td>Company depreciation factor for 2006<br>($813,136 / $1,140,000) =</td>
+            <td style="text-align: right;">71.327751%</td>
+          </tr>
+          <tr>
+            <td class="valign_top">7.</td>
+            <td>Market value of each individual parcel<br>($105,000 x 71.327751%) =<br>($520,000 x 71.327751%) =<br>($415,000 x 71.327751%) =<br>($100,000 x 71.327751%) =</td>
+            <td class="valign_top" style="text-align: right;"> <br>$ 74,900<br>$ 370,900<br>$ 296,000<br>$ 71,300</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <div id="rule.8100.0300.7" class="subp repealed">
+      <a title="Link to subpart 7" class="permalink" href="#rule.8100.0300.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <p>[Repealed, 21 SR 749]</p>
+    </div>
+    <div id="rule.8100.0300.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.8100.0300.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Retirements. </h2>
+      <p>Utility operating property may be retired from the utility system while still in place if certain criteria are met:</p>
+      <div id="rule.8100.0300.8.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8100.0300.8.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The property must be physically disconnected from the utility system. In the case of electrical plants, the disconnection or dismantling of wires, cables, connectors, or transformers constitutes physical disconnection. In the case of pipelines, the disconnection of pipes, valves, or fittings is evidence of physical disconnection.</p>
+      </div>
+      <div id="rule.8100.0300.8.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8100.0300.8.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> An affidavit of retirement must be filed by the utility with the commissioner at least 30 days prior to the assessment date. This affidavit must indicate the facility being retired and the date it was taken out of service.</p>
+      </div>
+      <div id="rule.8100.0300.8.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8100.0300.8.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The utility must make every effort to inform the commissioner of pending major retirements. The commissioner in turn shall notify the county assessor of impending major retirements as soon as this information becomes available to the department.</p>
+      </div>
+      <div id="rule.8100.0300.8.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8100.0300.8.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Utility real property which is retired in place must continue to be taxed for ad valorem purposes. However, its market value is not determined on the basis of its value as utility operating property.</p>
+      </div>
+      <div id="rule.8100.0300.8.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.8100.0300.8.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> If a utility chooses to temporarily retire a facility pending the development of an alternate fuel, greater demand, increased source of supply, or another valid reason, the cost of this facility must be transferred to the appropriate regulatory agency's account entitled "Held for Future Use." Standby facilities are not considered to be temporarily retired unless their costs are carried in this account. Temporarily retired utility facilities are valued taking into account a number of factors including age of the facility, type of facility, amount of maintenance and additional costs needed to restore the facility to operational status, length of retirement, and earning potential of the facility. A temporarily retired facility must not be valued lower than if the facility were considered nonoperating utility property.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8100.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270.11">270.11</a>; <a href="/statutes/cite/270C.06">270C.06</a>; <a href="/statutes/cite/273.33">273.33</a>; <a href="/statutes/cite/273.37">273.37</a>; <a href="/statutes/cite/273.38">273.38</a></p>
+  </div>
+  <div class="history" id="rule.8100.0300.history">
+    <h2>History: </h2>
+    <p>7 SR 1797; 8 SR 2723; 10 SR 18; 11 SR 635; 12 SR 58; 13 SR 394; 14 SR 1806; 15 SR 2190; 21 SR 749; 24 SR 1106; L 2005 c 151 art 1 s 114; 31 SR 1317</p>
+  </div>
+  <div class="published" id="rule.8100.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> June 4, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8100.0400">
+    <h1 class="headnote">8100.0400 ALLOCATION.</h1>
+    <div id="rule.8100.0400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8100.0400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">General. </h2>
+      <p>After the unit value of the utility property has been estimated, the portion of value which is attributable to Minnesota must be determined. Each of the factors in the allocation formula is assigned a weighted percentage to denote the relative importance assigned to that factor. The resulting sum of the weighted factors multiplied by the unit value yields the valuation of the utility property which is, after the adjustments described in part <a href="/rules/8100.0500">8100.0500</a>, subject to ad valorem tax in the state of Minnesota.</p>
+    </div>
+    <div id="rule.8100.0400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8100.0400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Electric companies. </h2>
+      <p>The original cost of the utility property located in Minnesota divided by the total original cost of the property in all states of operation is weighted at 90 percent. Gross revenue derived from operations in Minnesota divided by gross operations revenue from all states is weighted at ten percent.</p>
+      <p>The following example illustrates this formula, assuming a unit value of $20,000,000.</p>
+      <table>
+        <col style="width:4%">
+        <col style="width:45.6%">
+        <col style="width:22.4%">
+        <col style="width:4%">
+        <col style="width:5.6%">
+        <col style="width:8%">
+        <col style="width:10.4%">
+        <tr>
+          <td>1.</td>
+          <td>Minnesota Plant Cost</td>
+          <td style="text-align: right;">$115,000,000</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="text-align: right;">x</td>
+          <td style="text-align: right;">.90</td>
+          <td style="text-align: right;">=</td>
+          <td style="text-align: right;">50.49%</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>System Plant Cost</td>
+          <td style="text-align: right;">$205,000,000</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3.</td>
+          <td>Minnesota Gross Revenue</td>
+          <td style="text-align: right;">$40,000,000</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="text-align: right;">x</td>
+          <td style="text-align: right;">.10</td>
+          <td style="text-align: right;">=</td>
+          <td style="text-align: right;">3.8%</td>
+        </tr>
+        <tr>
+          <td>4.</td>
+          <td>System Gross Revenue</td>
+          <td style="text-align: right;">$105,000,000</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">5.</td>
+          <td class="valign_top">Total Percentage Allocable to Minnesota</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="text-align: right;">54.29%</td>
+        </tr>
+        <tr>
+          <td>6.</td>
+          <td>Unit Value of System Plant</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td colspan="2" style="text-align: right;">$20,000,000</td>
+        </tr>
+        <tr>
+          <td class="valign_top">7.</td>
+          <td class="valign_top">Amount of Value Allocable to Minnesota</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td colspan="2" style="text-align: right;">$10,858,000</td>
+        </tr>
+      </table>
+    </div>
+    <div id="rule.8100.0400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8100.0400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Gas distribution companies. </h2>
+      <p>The allocation of value of gas distribution companies must be made considering the same factors as are used to determine the allocation of value of electric companies. The weight given to the original cost factor is 75 percent, and gross revenue is weighted 25 percent.</p>
+    </div>
+    <div id="rule.8100.0400.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8100.0400.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Pipeline companies. </h2>
+      <p>The allocation of pipeline companies is equal to the original cost of the utility property located in Minnesota divided by the total original cost of the property in all states of operation weighted at 75 percent. Additionally, throughput of product from operations in Minnesota divided by throughput of product from operations in all states is weighted at 25 percent.</p>
+      <p>The following example illustrates the allocation of value of property of a pipeline company and the weights given to each factor:</p>
+      <table>
+        <col style="width:4%">
+        <col style="width:45.6%">
+        <col style="width:22.4%">
+        <col style="width:4%">
+        <col style="width:5.6%">
+        <col style="width:8%">
+        <col style="width:10.4%">
+        <tr>
+          <td>1.</td>
+          <td>Minnesota Plant Cost</td>
+          <td style="text-align: right;">$13,500,000</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="text-align: right;">x</td>
+          <td>.75</td>
+          <td style="text-align: right;">=</td>
+          <td style="text-align: right;">25.76%</td>
+        </tr>
+        <tr>
+          <td>2.</td>
+          <td>System Plant Cost</td>
+          <td style="text-align: right;">$39,300,000</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">3.</td>
+          <td class="valign_top">Minnesota Throughput<br>(Mcf or Barrel miles)</td>
+          <td style="text-align: right;">8,940,000</td>
+          <td style="text-align: right;">x</td>
+          <td>.25</td>
+          <td style="text-align: right;">=</td>
+          <td style="text-align: right;">8.01%</td>
+        </tr>
+        <tr>
+          <td class="valign_top">4.</td>
+          <td class="valign_top">System Throughput<br>(Mcf or Barrel miles)</td>
+          <td style="text-align: right;">27,900,000</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="valign_top">5.</td>
+          <td class="valign_top">Total Percentage Allocable to Minnesota</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td style="text-align: right;">33.76%</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8100.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8100.0400.history">
+    <h2>History: </h2>
+    <p>14 SR 1806; 21 SR 749; L 2005 c 151 art 1 s 114; 31 SR 1317</p>
+  </div>
+  <div class="published" id="rule.8100.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> August 9, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8100.0500">
+    <h1 class="headnote">8100.0500 ADJUSTMENTS FOR NON-FORMULA-ASSESSED OR EXEMPT PROPERTY.</h1>
+    <div id="rule.8100.0500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8100.0500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Deduction for exempt or non-formula-assessed property. </h2>
+      <p>After the Minnesota portion of the unit value of the utility company, except for electric cooperatives, is determined, any property which is non-formula-assessed or which is exempt from ad valorem tax, is deducted from the Minnesota portion of the unit value. Only that qualifying property located within the state of Minnesota may be excluded.</p>
+    </div>
+    <div id="rule.8100.0500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8100.0500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Valuation formula not applicable to certain utility property. </h2>
+      <p>The following properties are valued by the local or county assessor and, therefore, the formula provided herein for the valuation of utility property is not applicable to such property:</p>
+      <div id="rule.8100.0500.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8100.0500.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> land;</p>
+      </div>
+      <div id="rule.8100.0500.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8100.0500.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> nonoperating property; and</p>
+      </div>
+      <div id="rule.8100.0500.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8100.0500.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> rights-of-way.</p>
+      </div>
+    </div>
+    <div id="rule.8100.0500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8100.0500.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Deduction for cost of land and rights-of-way; application to nonoperating property. </h2>
+      <p>The Minnesota portion of the unit value is reduced by the value included in the unit value of the company for land, rights-of-way, nonoperating property, and exempt property. This amount is calculated by determining the ratio of the unit value computed in part <a href="/rules/8100.0300">8100.0300</a>, subpart 5, to the cost less depreciation allowed in part <a href="/rules/8100.0300">8100.0300</a>, subpart 3. This ratio is multiplied by the cost less depreciation of the property to be deducted.</p>
+    </div>
+    <div id="rule.8100.0500.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8100.0500.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <p>[Repealed, 31 SR 1317]</p>
+    </div>
+    <div id="rule.8100.0500.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8100.0500.4">§</a>
+      <h2 class="subp_no">Subp. 4a.</h2>
+      <p>[Repealed, 31 SR 1317]</p>
+    </div>
+    <div id="rule.8100.0500.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8100.0500.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Burden of proof and responsibility of utility company. </h2>
+      <p>The utility company has the burden of proof to establish that the value of any property should be excluded from the Minnesota portion of the unit value. Accordingly, the utility company has the responsibility to submit, in the form required by the commissioner of revenue, such schedules of exempt or non-formula-assessed property as the commissioner may require.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8100.0500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270.11">270.11</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8100.0500.history">
+    <h2>History: </h2>
+    <p>14 SR 1806; 17 SR 1279; 24 SR 1106; L 2005 c 151 art 1 s 114; 31 SR 1317</p>
+  </div>
+  <div class="published" id="rule.8100.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> June 4, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8100.0600">
+    <h1 class="headnote">8100.0600 APPORTIONMENT.</h1>
+    <div id="rule.8100.0600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8100.0600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Apportionment to taxing district. </h2>
+      <p>After the unit valuation of the utility company has been allocated to the state of Minnesota and has been adjusted under part <a href="/rules/8100.0500">8100.0500</a>, the determined amount shall be apportioned or distributed to the taxing districts in Minnesota in which the company operates. This apportionment will be made by the commissioner of revenue on the basis of information submitted by the utility companies in annual reports filed with the commissioner.</p>
+    </div>
+    <div id="rule.8100.0600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8100.0600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Required information. </h2>
+      <p>The following information must be submitted for each taxing district:</p>
+      <div id="rule.8100.0600.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8100.0600.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the original cost of the company's operating property by classification, including the cost of leased taxable property;</p>
+      </div>
+      <div id="rule.8100.0600.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8100.0600.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the original cost of any new additions since the last assessment, including work in progress on the assessment date; and</p>
+      </div>
+      <div id="rule.8100.0600.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8100.0600.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the original cost of any retirements made after the last assessment.</p>
+      </div>
+    </div>
+    <div id="rule.8100.0600.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8100.0600.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Required information when new taxing district established. </h2>
+      <p>Whenever a new taxing district is established, the information submitted by the utility companies for the taxing district must be submitted in the same form as enumerated in subpart 2, items A to C. If the utility, because of administrative difficulty, is forced to make estimates of values and costs for property within new taxing districts, these estimates must be approved by the commissioner.</p>
+    </div>
+    <div id="rule.8100.0600.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8100.0600.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Market value of the operating utility property. </h2>
+      <p>The total market value of each company's operating utility property in Minnesota shall be:</p>
+      <p>The current original cost in each taxing district as of the last assessment date plus original cost of new construction reduced by the original cost of property retired since the last assessment date. The Minnesota portion of the unit value as adjusted under this rule shall be divided by the total current original cost to determine a percentage. The resulting percentage shall be multiplied by the current original cost in each taxing district to determine the market value in each district.</p>
+    </div>
+    <div id="rule.8100.0600.5" class="subp repealed">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8100.0600.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <p>[Repealed, 14 SR 1806]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8100.0600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8100.0600.history">
+    <h2>History: </h2>
+    <p>14 SR 1806; L 2005 c 151 art 1 s 114</p>
+  </div>
+  <div class="published" id="rule.8100.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> June 4, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8100.0700">
+    <h1 class="headnote repealed">8100.0700</h1>
+    <p>[Repealed, L 2017 1Sp1 art 15 s 37]</p>
+  </div>
+  <div class="published" id="rule.8100.0700.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2018</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8100.0800">
+    <h1 class="headnote repealed">8100.0800</h1>
+    <p>[Repealed, L 2014 c 308 art 9 s 94]</p>
+  </div>
+  <div class="published" id="rule.8100.0800.published">
+    <h2>Published Electronically:</h2>
+    <p> July 15, 2014</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
