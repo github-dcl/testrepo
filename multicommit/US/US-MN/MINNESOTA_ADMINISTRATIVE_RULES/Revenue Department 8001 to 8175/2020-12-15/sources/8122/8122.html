@@ -1,0 +1,2232 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            8122.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/181">Revenue Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/8122/">Chapter 8122</a>
+            </li>
+        
+    
+        
+            <li>Part 8122.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/8122.0150/">8122.0150</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/8122.0100/2014-01-18%2008:15:31+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 8122</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/8122/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/8122/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/8122/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 8122.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/8122.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8122.0100">
+    <h1 class="headnote">8122.0100 SCOPE; PURPOSE.</h1>
+    <p>Minnesota Statutes, section <a href="/statutes/cite/297E.06">297E.06</a>, subdivision 4, mandates that the commissioner of revenue prescribe standards for the annual audit and review of certain organizations licensed to conduct lawful gambling in Minnesota. The purpose of this chapter is to set minimum standards for these annual audits and reviews.</p>
+  </div>
+  <div class="stat_auth" id="rule.8122.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8122.0100.history">
+    <h2>History: </h2>
+    <p>20 SR 1482; L 2005 c 151 art 1 s 114</p>
+  </div>
+  <div class="published" id="rule.8122.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> November 14, 2006</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8122.0150">
+    <h1 class="headnote">8122.0150 DEFINITIONS.</h1>
+    <div id="rule.8122.0150.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8122.0150.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The terms used in this chapter are defined in Minnesota Statutes, chapter 297E, unless separately defined under this part.</p>
+    </div>
+    <div id="rule.8122.0150.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8122.0150.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Accrual basis. </h2>
+      <p>"Accrual basis" means the method of accounting in which revenue is recognized in the period earned and expense is recognized in the period incurred.</p>
+    </div>
+    <div id="rule.8122.0150.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8122.0150.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Audit. </h2>
+      <p>"Audit" means the examination of accounting records with the expression of an opinion on whether the financial statements of the organization present fairly, in all material respects, the financial position, results of operations, and its cash flows, in conformity with the regulatory basis of accounting.</p>
+    </div>
+    <div id="rule.8122.0150.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8122.0150.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Certified public accountant; CPA. </h2>
+      <p>"Certified public accountant" or "CPA" means a person who is licensed as a certified public accountant in accordance with Minnesota Statutes, chapter 326A.</p>
+    </div>
+    <div id="rule.8122.0150.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8122.0150.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Cash basis. </h2>
+      <p>"Cash basis" means the method of accounting in which revenues are recognized when actually received and expenses are recognized when actually disbursed.</p>
+    </div>
+    <div id="rule.8122.0150.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.8122.0150.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Ending inventory. </h2>
+      <p>"Ending inventory" means the cost of unopened pull-tab and tipboard deals, paddlewheels, unused bingo paper or sheets, and the cost of pull-tab, tipboard, and paddlewheel games in play on the last day of the month. Sales tax is excluded from ending inventory.</p>
+    </div>
+    <div id="rule.8122.0150.7" class="subp repealed">
+      <a title="Link to subpart 7" class="permalink" href="#rule.8122.0150.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <p>[Repealed, L 2010 c 191 s 14]</p>
+    </div>
+    <div id="rule.8122.0150.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.8122.0150.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Material weakness. </h2>
+      <p>"Material weakness" means a reportable condition in which the design or operation of the specific internal control structure elements do not reduce to a relatively low level the risk that material errors or irregularities could occur and not be detected within a timely period by employees in the normal course of performing their assigned functions.</p>
+    </div>
+    <div id="rule.8122.0150.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.8122.0150.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Regulatory basis. </h2>
+      <p>"Regulatory basis" means a method of accounting other than generally accepted accounting principles. All receipts, allowable expenses, and lawful purpose expenditures are determined using the cash basis method of accounting with the exception of the cost of the games and taxes imposed under Minnesota Statutes, section <a href="/statutes/cite/297E.02">297E.02</a>, subdivisions 1 and 6 (ten percent tax and combined receipts tax), which are recognized on the accrual basis method of accounting.</p>
+    </div>
+    <div id="rule.8122.0150.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.8122.0150.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Reportable condition. </h2>
+      <p>"Reportable condition" means significant deficiencies in the design or operation of the internal control structure which could adversely affect the organization's ability to record, process, summarize, and report financial data consistent with the assertions of management in the financial statements.</p>
+    </div>
+    <div id="rule.8122.0150.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.8122.0150.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Review. </h2>
+      <p>"Review" means the expression of a limited assurance, based on performing inquiry and analytical procedures, that there are no material modifications that should be made to the financial statements for the statements to be in conformity with the regulatory basis of accounting.</p>
+    </div>
+    <div id="rule.8122.0150.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.8122.0150.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Year. </h2>
+      <p>"Year," when used in defining an audit or review period, means the organization's fiscal year used for filing federal form 990 or 990-T (Unrelated Business Income Tax).</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8122.0150.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8122.0150.history">
+    <h2>History: </h2>
+    <p>20 SR 1482; L 2005 c 151 art 1 s 114; L 2010 c 191 s 13,14</p>
+  </div>
+  <div class="published" id="rule.8122.0150.published">
+    <h2>Published Electronically:</h2>
+    <p> August 2, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8122.0200">
+    <h1 class="headnote">8122.0200 ACCOUNTANTS QUALIFICATIONS.</h1>
+    <div id="rule.8122.0200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8122.0200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">License required. </h2>
+      <p>An accountant must be an independent certified public accountant and licensed to practice in Minnesota.</p>
+    </div>
+    <div id="rule.8122.0200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8122.0200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Standards of independence. </h2>
+      <p>The CPA shall maintain objectivity and be free of the appearance of conflicts of interest when discharging professional responsibilities needed to perform the audit or review. CPAs shall adhere to the standards of objectivity and independence as established in the American Institute of Certified Public Accountants professional standards.</p>
+      <p>In addition, for purposes of this subpart, an individual CPA who is a member of an organization, or the accounting firm the individual belongs to, must not perform the organization's annual audit or review if one or more of the following occurred during the fiscal year:</p>
+      <div id="rule.8122.0200.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8122.0200.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the CPA was an employee of the organization;</p>
+      </div>
+      <div id="rule.8122.0200.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8122.0200.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the CPA was an officer of the organization, such as treasurer, executive director, chief executive officer, gambling manager, or president;</p>
+      </div>
+      <div id="rule.8122.0200.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8122.0200.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the CPA served on the board of directors for the organization;</p>
+      </div>
+      <div id="rule.8122.0200.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8122.0200.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> the CPA served on a gambling committee or other committee with oversight or decision-making authority over gambling business transactions, other than in a member's capacity to approve gambling business transactions presented at monthly membership meetings as required under Minnesota Statutes, chapter 349; or</p>
+      </div>
+      <div id="rule.8122.0200.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.8122.0200.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> in connection with the organization general fund, gambling fund, or any other organization fund, the CPA prepared or reconstructed accounting record source documents, consummated transactions, had custody over assets, exercised authority, or unduly exercised authority on behalf of the organization by assuming the role of employee or management.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8122.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8122.0200.history">
+    <h2>History: </h2>
+    <p>20 SR 1482; L 2005 c 151 art 1 s 114; L 2010 c 191 s 13</p>
+  </div>
+  <div class="published" id="rule.8122.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> August 2, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8122.0250">
+    <h1 class="headnote">8122.0250 DUE DATE; EXTENSIONS.</h1>
+    <p>The annual audits and annual reviews required are due on or before the last day of the sixth month following the organization's fiscal year end or on an extended due date.</p>
+    <p>A written request to file the annual audit or annual review after the required due date must be submitted to the Department of Revenue by the required annual audit or annual review due date. The request must be signed by the organization's chief executive officer, gambling manager, or the independent accountant performing the audit. The request must include the:</p>
+    <div id="rule.8122.0250.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.8122.0250.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> organization's name;</p>
+    </div>
+    <div id="rule.8122.0250.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.8122.0250.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> organization's license number;</p>
+    </div>
+    <div id="rule.8122.0250.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.8122.0250.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> organization's fiscal year end;</p>
+    </div>
+    <div id="rule.8122.0250.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.8122.0250.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> reason for the request; and</p>
+    </div>
+    <div id="rule.8122.0250.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.8122.0250.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> expected completion date.</p>
+      <p>An automatic 30-day extension will be granted in each fiscal year. Second requests for an extension or requests for extensions exceeding 30 days will be granted only upon a showing of reasonable cause. "Reasonable cause" shall mean cases where the reasons for the filing delay are beyond the control of the organization. Acceptable reasons for granting an additional extension include, but are not limited to:</p>
+      <div id="rule.8122.0250.E.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.8122.0250.E.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> delay or failure to file was due to serious illness or death of the accountant or a key member of the accountant's staff;</p>
+      </div>
+      <div id="rule.8122.0250.E.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.8122.0250.E.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> delay or failure to file was due to erroneous information given the organization by a Department of Revenue employee; or</p>
+      </div>
+      <div id="rule.8122.0250.E.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.8122.0250.E.3">§</a>
+        <h4 class="subitem_no">(3)</h4>
+        <p> delay or failure to file was caused by the destruction by fire or other casualty of the organization's place of business or business records.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8122.0250.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8122.0250.history">
+    <h2>History: </h2>
+    <p>20 SR 1482; L 2005 c 151 art 1 s 114</p>
+  </div>
+  <div class="published" id="rule.8122.0250.published">
+    <h2>Published Electronically:</h2>
+    <p> November 14, 2006</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8122.0300">
+    <h1 class="headnote">8122.0300 COMMUNICATION OF ILLEGAL ACTS, MATERIAL ERRORS, AND IRREGULARITIES.</h1>
+    <p>An organization is responsible to communicate illegal acts, material errors, and irregularities to the Department of Revenue in writing within ten days of notification from auditors that such acts, errors, or irregularities exist. The organization must include a copy of all correspondence or notes taken during meetings between the independent auditors and the licensed organization specifically detailing the illegal acts, material errors, and irregularities.</p>
+  </div>
+  <div class="stat_auth" id="rule.8122.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8122.0300.history">
+    <h2>History: </h2>
+    <p>20 SR 1482; L 2005 c 151 art 1 s 114</p>
+  </div>
+  <div class="published" id="rule.8122.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> November 14, 2006</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8122.0350">
+    <h1 class="headnote">8122.0350 ACCOUNTING RECORDS.</h1>
+    <p>All licensed organizations are required to maintain records that account for the assets, liabilities, and fund balance of their lawful gambling operation. These records must also account for their gambling revenue, prize payouts, allowable expenses, and lawful purpose expenditures.</p>
+    <p>If, in the opinion of the independent CPA engaged to conduct the annual financial audit or review, the licensed organization has not maintained proper accounting records in a form that can be audited or reviewed, the accountant must either:</p>
+    <div id="rule.8122.0350.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.8122.0350.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> notify the organization in writing of the deficiencies that exist and the corrective action required, with an estimate of the cost to generate auditable records or the reason the cost cannot be estimated; or</p>
+    </div>
+    <div id="rule.8122.0350.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.8122.0350.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> terminate the audit engagement.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8122.0350.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8122.0350.history">
+    <h2>History: </h2>
+    <p>20 SR 1482; L 2005 c 151 art 1 s 114; L 2010 c 191 s 13</p>
+  </div>
+  <div class="published" id="rule.8122.0350.published">
+    <h2>Published Electronically:</h2>
+    <p> August 2, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8122.0400">
+    <h1 class="headnote">8122.0400 ACCOUNTANT'S WORKPAPERS AND COMMUNICATIONS; ACCESS AND RETENTION.</h1>
+    <div id="rule.8122.0400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8122.0400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Workpapers. </h2>
+      <p>Workpapers are the records kept by the independent CPA of the procedures followed, tests performed, information obtained, and conclusions reached pertinent to the examination and review of the financial statements of a licensed gambling organization. Workpapers must include, but are not limited to, work programs, analyses, memoranda, letters of confirmation and representation, management letters, abstracts of organization documents, and schedules or commentaries prepared or obtained by the accountant in the course of the audit and that support the accountant's opinion or assurance.</p>
+    </div>
+    <div id="rule.8122.0400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8122.0400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Communications. </h2>
+      <p>Communications are written documentation or notes of oral contacts between the independent CPA and an organization. The communication with the organization must include, but is not limited to, matters relating to the auditor's responsibility, significant accounting policies, the process used in obtaining management judgments, significant audit adjustments, auditor responsibilities for other information, auditor disagreements with organization's management, auditor views on auditing and accounting matters for which other auditors were contacted, major issues discussed with management prior to retention, and any difficulties encountered while performing the audit.</p>
+    </div>
+    <div id="rule.8122.0400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8122.0400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Access and retention. </h2>
+      <p>Every licensed gambling organization required to file an audit or review shall require the accountant, through the licensed gambling organization, to make available for review by the Department of Revenue the workpapers and communications with the organization prepared in the conduct of the audit. The licensed gambling organization shall require that the accountant retain the workpapers for a period of not less than 3-1/2 years after the opinion date of the audit report.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8122.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8122.0400.history">
+    <h2>History: </h2>
+    <p>20 SR 1482; L 2005 c 151 art 1 s 114; L 2010 c 191 s 13</p>
+  </div>
+  <div class="published" id="rule.8122.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> August 2, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8122.0450">
+    <h1 class="headnote">8122.0450 TERMINATION OF AUDIT ENGAGEMENT OR REVIEW.</h1>
+    <p>If for any reason the audit engagement or review is terminated by either the licensed organization or the independent accountant prior to its completion and filing of the annual financial audit report or financial review report, the accountant is, within ten days of termination, required to make a written report to the Department of Revenue detailing the reason or reasons for the termination.</p>
+  </div>
+  <div class="stat_auth" id="rule.8122.0450.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8122.0450.history">
+    <h2>History: </h2>
+    <p>20 SR 1482; L 2005 c 151 art 1 s 114</p>
+  </div>
+  <div class="published" id="rule.8122.0450.published">
+    <h2>Published Electronically:</h2>
+    <p> November 14, 2006</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8122.0500">
+    <h1 class="headnote">8122.0500 LESS THAN A 12-MONTH AUDIT OR REVIEW.</h1>
+    <p>An organization whose license is active, discontinued, terminated, or expired at the organization's fiscal year end, is required to complete and file an audit or a review, if the organization's gross receipts exceed the thresholds as specified in Minnesota Statutes, section <a href="/statutes/cite/297E.06">297E.06</a>.</p>
+    <p>In the year an organization commences gambling activity, the audit or review required may cover the operations of the organization for a period of less than 12 months.</p>
+    <p>In the year an organization's license expires, is discontinued, or terminated, the audit or review will be through the organization's fiscal year end, unless the organization's license termination plan has been approved by the Gambling Control Board prior to the fiscal year end. In this circumstance, the organization has the option of performing the required audit or review through the license termination plan approval date, or another date specified by the organization that is between the approval date and the last day of the fiscal year.</p>
+  </div>
+  <div class="stat_auth" id="rule.8122.0500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8122.0500.history">
+    <h2>History: </h2>
+    <p>20 SR 1482; 26 SR 772; L 2005 c 151 art 1 s 114</p>
+  </div>
+  <div class="published" id="rule.8122.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> November 14, 2006</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8122.0510">
+    <h1 class="headnote">8122.0510 MORE THAN A 12-MONTH AUDIT OR REVIEW.</h1>
+    <p>An organization that is terminating gambling activity or changing its year end date in accordance with Internal Revenue Code, section 442, may, upon specific prior approval from the Department of Revenue, have an audit or review prepared for periods longer than 12 months but no longer than 18 months. The audit or review will then be due at the end of the sixth month following the new fiscal year end or the month the organization terminated gambling activity, whichever applies. The request for an extended audit period must be submitted to the Department of Revenue in writing on or before the due date of the audit or review that would be prepared under the organization's actual fiscal year end.</p>
+    <p>Example: An organization with a fiscal year end of December 31, 1998, is terminating gambling activity April 30, 1999. The audit or review may cover the period January 1, 1998, through April 30, 1999. The request for the extended audit or review period must be submitted by June 30, 1999, the due date of a December 31 audit or review. The extended audit or review is due October 31, 1999.</p>
+  </div>
+  <div class="stat_auth" id="rule.8122.0510.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270C.06">270C.06</a>; <a href="/statutes/cite/297E.06">297E.06</a></p>
+  </div>
+  <div class="history" id="rule.8122.0510.history">
+    <h2>History: </h2>
+    <p>24 SR 893; L 2005 c 151 art 1 s 114</p>
+  </div>
+  <div class="published" id="rule.8122.0510.published">
+    <h2>Published Electronically:</h2>
+    <p> November 14, 2006</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8122.0550">
+    <h1 class="headnote">8122.0550 AUDIT.</h1>
+    <div id="rule.8122.0550.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8122.0550.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Minimum requirements. </h2>
+      <p>The annual financial audits must be prepared on the regulatory basis of accounting and contain, at a minimum, an opinion, financial statements, supplemental schedules, a report on internal controls, a response to internal controls report, and other information as noted.</p>
+    </div>
+    <div id="rule.8122.0550.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8122.0550.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Opinion. </h2>
+      <p>An audit opinion expressed in accordance with generally accepted auditing standards regarding the fairness of the presentation of the financial statements must be properly signed and dated by the CPA firm who performed the audit. The address, telephone number, and fax number of the accounting firm must be listed. For firms with more than one office, the address of the office that prepared the financial statements should be specified.</p>
+    </div>
+    <div id="rule.8122.0550.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.8122.0550.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Financial statements. </h2>
+      <p>The financial statements must be comparative financial statements showing the current year and previous year's financial information, unless it is a first year engagement for the accounting firm in which case the preparation of comparative statements is optional. The statements must be presented in a format prescribed by and acceptable to the commissioner of revenue. The financial statements required are as follows:</p>
+      <div id="rule.8122.0550.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8122.0550.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The statement of assets, liabilities, and fund balance must include all assets, liabilities, and the fund balance of the gambling operations as follows, if applicable:</p>
+        <div id="rule.8122.0550.3.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.8122.0550.3.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> all game starting banks;</p>
+        </div>
+        <div id="rule.8122.0550.3.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.8122.0550.3.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> all gambling checking accounts;</p>
+        </div>
+        <div id="rule.8122.0550.3.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.8122.0550.3.A.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> all savings accounts;</p>
+        </div>
+        <div id="rule.8122.0550.3.A.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.8122.0550.3.A.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> all certificates of deposit and other negotiable instruments;</p>
+        </div>
+        <div id="rule.8122.0550.3.A.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.8122.0550.3.A.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> inventory from pull-tabs, tipboards, paddlewheels, bingo, and raffles, in play and unused;</p>
+        </div>
+        <div id="rule.8122.0550.3.A.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.8122.0550.3.A.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> fund losses;</p>
+        </div>
+        <div id="rule.8122.0550.3.A.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.8122.0550.3.A.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> excess cash shortages to be reimbursed;</p>
+        </div>
+        <div id="rule.8122.0550.3.A.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.8122.0550.3.A.8">§</a>
+          <h4 class="subitem_no">(8)</h4>
+          <p> amount of unsold ticket refund receivable from form G-7430, when filed and recorded on Schedule F;</p>
+        </div>
+        <div id="rule.8122.0550.3.A.9" class="subitem">
+          <a title="Link to subitem 9" class="permalink" href="#rule.8122.0550.3.A.9">§</a>
+          <h4 class="subitem_no">(9)</h4>
+          <p> other assets specifically identified;</p>
+        </div>
+        <div id="rule.8122.0550.3.A.10" class="subitem">
+          <a title="Link to subitem 10" class="permalink" href="#rule.8122.0550.3.A.10">§</a>
+          <h4 class="subitem_no">(10)</h4>
+          <p> accrued taxes imposed under Minnesota Statutes, section <a href="/statutes/cite/297E.02">297E.02</a>, subdivision 1 (net receipts tax);</p>
+        </div>
+        <div id="rule.8122.0550.3.A.11" class="subitem">
+          <a title="Link to subitem 11" class="permalink" href="#rule.8122.0550.3.A.11">§</a>
+          <h4 class="subitem_no">(11)</h4>
+          <p> accrued combined receipts taxes;</p>
+        </div>
+        <div id="rule.8122.0550.3.A.12" class="subitem">
+          <a title="Link to subitem 12" class="permalink" href="#rule.8122.0550.3.A.12">§</a>
+          <h4 class="subitem_no">(12)</h4>
+          <p> unpaid cost of games, plus sales tax;</p>
+        </div>
+        <div id="rule.8122.0550.3.A.13" class="subitem">
+          <a title="Link to subitem 13" class="permalink" href="#rule.8122.0550.3.A.13">§</a>
+          <h4 class="subitem_no">(13)</h4>
+          <p> loans from all sources;</p>
+        </div>
+        <div id="rule.8122.0550.3.A.14" class="subitem">
+          <a title="Link to subitem 14" class="permalink" href="#rule.8122.0550.3.A.14">§</a>
+          <h4 class="subitem_no">(14)</h4>
+          <p> other liabilities specifically identified; and</p>
+        </div>
+        <div id="rule.8122.0550.3.A.15" class="subitem">
+          <a title="Link to subitem 15" class="permalink" href="#rule.8122.0550.3.A.15">§</a>
+          <h4 class="subitem_no">(15)</h4>
+          <p> fund balance (profit carryover).</p>
+        </div>
+      </div>
+      <div id="rule.8122.0550.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8122.0550.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The statement of revenue and expense must include revenues and expenses from the gambling operations and include, at a minimum:</p>
+        <div id="rule.8122.0550.3.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.8122.0550.3.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> gross receipts detailed by game type, such as bingo, pull-tabs, tipboards, paddlewheels, and raffles, including ideal or actual gross receipts from games found to be missing or unreported, respectively;</p>
+        </div>
+        <div id="rule.8122.0550.3.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.8122.0550.3.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> actual prizes paid out detailed by game type including ideal or actual prizes from games found to be missing or unreported, respectively;</p>
+        </div>
+        <div id="rule.8122.0550.3.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.8122.0550.3.B.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> interest income;</p>
+        </div>
+        <div id="rule.8122.0550.3.B.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.8122.0550.3.B.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> gross profit;</p>
+        </div>
+        <div id="rule.8122.0550.3.B.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.8122.0550.3.B.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> allowable expenses;</p>
+        </div>
+        <div id="rule.8122.0550.3.B.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.8122.0550.3.B.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> lawful purpose expenditures detailed by tax imposed under Minnesota Statutes, section <a href="/statutes/cite/297E.02">297E.02</a>, subdivision 1, combined receipts tax, unrelated business income tax, federal form 730 and form 11C tax, federal and state income taxes, real estate taxes, restricted use donations from tax savings, and donations;</p>
+        </div>
+        <div id="rule.8122.0550.3.B.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.8122.0550.3.B.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> amount of unsold ticket refund from form G-7430 when filed and recorded on Schedule C/D; (this is a negative expense); and</p>
+        </div>
+        <div id="rule.8122.0550.3.B.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.8122.0550.3.B.8">§</a>
+          <h4 class="subitem_no">(8)</h4>
+          <p> board-approved expenditures.</p>
+        </div>
+      </div>
+      <div id="rule.8122.0550.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8122.0550.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The statement of changes in fund balance must include, at a minimum:</p>
+        <div id="rule.8122.0550.3.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.8122.0550.3.C.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> beginning fund balance (profit carryover);</p>
+        </div>
+        <div id="rule.8122.0550.3.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.8122.0550.3.C.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> profit or loss for the year;</p>
+        </div>
+        <div id="rule.8122.0550.3.C.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.8122.0550.3.C.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> ending fund balance (profit carryover); and</p>
+        </div>
+        <div id="rule.8122.0550.3.C.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.8122.0550.3.C.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> other adjustments.</p>
+        </div>
+      </div>
+      <div id="rule.8122.0550.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8122.0550.3.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> The annual audit must include notes to the financial statements. The notes to the financial statements must include, at a minimum:</p>
+        <div id="rule.8122.0550.3.D.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.8122.0550.3.D.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> nature of organization;</p>
+        </div>
+        <div id="rule.8122.0550.3.D.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.8122.0550.3.D.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> basis of presentation of the financial statements;</p>
+        </div>
+        <div id="rule.8122.0550.3.D.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.8122.0550.3.D.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> related party activity;</p>
+        </div>
+        <div id="rule.8122.0550.3.D.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.8122.0550.3.D.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> restrictions on assets;</p>
+        </div>
+        <div id="rule.8122.0550.3.D.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.8122.0550.3.D.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> subsequent events;</p>
+        </div>
+        <div id="rule.8122.0550.3.D.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.8122.0550.3.D.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> uncertainties;</p>
+        </div>
+        <div id="rule.8122.0550.3.D.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.8122.0550.3.D.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> commitments such as mortgages, rent, donations, or all taxes not paid or not filed, if material;</p>
+        </div>
+        <div id="rule.8122.0550.3.D.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.8122.0550.3.D.8">§</a>
+          <h4 class="subitem_no">(8)</h4>
+          <p> contingent liabilities;</p>
+        </div>
+        <div id="rule.8122.0550.3.D.9" class="subitem">
+          <a title="Link to subitem 9" class="permalink" href="#rule.8122.0550.3.D.9">§</a>
+          <h4 class="subitem_no">(9)</h4>
+          <p> board-approved expenditures;</p>
+        </div>
+        <div id="rule.8122.0550.3.D.10" class="subitem">
+          <a title="Link to subitem 10" class="permalink" href="#rule.8122.0550.3.D.10">§</a>
+          <h4 class="subitem_no">(10)</h4>
+          <p> games tested and results: of the games tested, state:</p>
+          <div id="rule.8122.0550.3.D.10.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.8122.0550.3.D.10.a">§</a>
+            <h5 class="unit_no">(a)</h5>
+            <p> if the games tested included games with unsold tickets;</p>
+          </div>
+          <div id="rule.8122.0550.3.D.10.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.8122.0550.3.D.10.b">§</a>
+            <h5 class="unit_no">(b)</h5>
+            <p> if games were tested from all active sites;</p>
+          </div>
+          <div id="rule.8122.0550.3.D.10.c" class="unit">
+            <a title="Link to unit c" class="permalink" href="#rule.8122.0550.3.D.10.c">§</a>
+            <h5 class="unit_no">(c)</h5>
+            <p> the types of games tested, such as pull tabs and tipboards; and</p>
+          </div>
+          <div id="rule.8122.0550.3.D.10.d" class="unit">
+            <a title="Link to unit d" class="permalink" href="#rule.8122.0550.3.D.10.d">§</a>
+            <h5 class="unit_no">(d)</h5>
+            <p> the manufacturer ID, part number, and serial number of any games that could not be located; and</p>
+          </div>
+        </div>
+        <div id="rule.8122.0550.3.D.11" class="subitem">
+          <a title="Link to subitem 11" class="permalink" href="#rule.8122.0550.3.D.11">§</a>
+          <h4 class="subitem_no">(11)</h4>
+          <p> a list of all forms of gambling conducted by the organization which must be confirmed by the chief executive officer.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.8122.0550.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.8122.0550.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Supplemental schedules; reconciliations; physical inventory. </h2>
+      <p>The annual audit must include the following supplemental schedules:</p>
+      <div id="rule.8122.0550.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8122.0550.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> An allowable expense comparison schedule that compares the actual allowable expense amount to the statutory limit set for allowable expenses. The schedule must include, at a minimum:</p>
+        <div id="rule.8122.0550.4.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.8122.0550.4.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> gross profit for the year;</p>
+        </div>
+        <div id="rule.8122.0550.4.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.8122.0550.4.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> total allowable expense limit. Determined by multiplying the gross profit for the year by 55 percent. If bingo was conducted during the year, list the gross profit from bingo and multiply by 4.15 percent. The two amounts added together determine the total allowable expense limit;</p>
+        </div>
+        <div id="rule.8122.0550.4.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.8122.0550.4.A.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> allowable expenses expended, detailed by type of expenditure as listed on the G-1 Monthly Lawful Gambling Activity Summary and Tax Return, which is the total amount of actual allowable expenses from the revenue and expense statement; and</p>
+        </div>
+        <div id="rule.8122.0550.4.A.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.8122.0550.4.A.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> expenses below or above the allowable limit, which is the amount by which the allowable expenses expended is below or above the statutory total allowable expense limit.</p>
+        </div>
+      </div>
+      <div id="rule.8122.0550.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8122.0550.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The annual audit must include a reconciliation of the gambling operations bank accounts to the reported profit carryover. The reconciliation must include, at a minimum:</p>
+        <div id="rule.8122.0550.4.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.8122.0550.4.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> a comparison of the audited fund balance (profit carryover) made to a confirmed Department of Revenue fund balance (profit carryover) as of the fiscal year end;</p>
+        </div>
+        <div id="rule.8122.0550.4.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.8122.0550.4.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> any difference between the adjusted gambling fund balance and the fund balance (profit carryover) is a variance; and</p>
+        </div>
+        <div id="rule.8122.0550.4.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.8122.0550.4.B.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> any or all of the items that identify the variance if known.</p>
+        </div>
+      </div>
+      <div id="rule.8122.0550.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8122.0550.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The annual audit must include a reconciliation between the number of pull-tab, paddlewheel, and tipboard games played to the number of pull-tab, paddlewheel, and tipboard games reported on schedule B, Report of Non-bar Coded Games Played, Destroyed or Lost, or B-2, Report of Bar Coded Games Played, Destroyed or Lost, for the fiscal year audited. The schedule must include, at a minimum:</p>
+        <div id="rule.8122.0550.4.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.8122.0550.4.C.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> the cost and number of games in beginning inventory;</p>
+        </div>
+        <div id="rule.8122.0550.4.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.8122.0550.4.C.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> the cost and number of games purchased during the year audited;</p>
+        </div>
+        <div id="rule.8122.0550.4.C.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.8122.0550.4.C.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> the cost and number of games available during the year audited;</p>
+        </div>
+        <div id="rule.8122.0550.4.C.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.8122.0550.4.C.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> the cost and number of games in ending inventory as of the last day of the organization's fiscal year end;</p>
+        </div>
+        <div id="rule.8122.0550.4.C.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.8122.0550.4.C.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> the cost and number of games used which is determined by subtracting the ending inventory from total games available;</p>
+        </div>
+        <div id="rule.8122.0550.4.C.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.8122.0550.4.C.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> the number of games reported as played, lost, or destroyed on schedule B, Report of Non-bar Coded Games Played, Destroyed or Lost, or B-2, Report of Bar Coded Games Played, Destroyed or Lost; and</p>
+        </div>
+        <div id="rule.8122.0550.4.C.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.8122.0550.4.C.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> calculate the difference between the games determined as played and games reported as played, lost, or destroyed on schedule B, Report of Non-bar Coded Games Played, Destroyed or Lost, or B-2, Report of Bar Coded Games Played, Destroyed or Lost.</p>
+        </div>
+      </div>
+      <div id="rule.8122.0550.4.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8122.0550.4.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> A physical inventory observation and cash count of all sites and locations must be taken as part of the annual audit process, regardless of when the audit engagement was scheduled. A physical inventory must be taken within 30 days of the balance sheet date or engagement date, whichever is later, unless prior written approval of an alternate date is obtained from the Department of Revenue. A list of the games in inventory by manufacturer ID, part number, and serial number must be submitted to the Department of Revenue within 30 days of the date the physical inventory was taken. The physical inventory and cash count must be performed by:</p>
+        <div id="rule.8122.0550.4.D.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.8122.0550.4.D.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> the CPA engaged to conduct the annual audit; or</p>
+        </div>
+        <div id="rule.8122.0550.4.D.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.8122.0550.4.D.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> two members, officers, or employees of the organization, appointed by the organization's board, who are not involved in the gambling activity of the organization. These members, officers, or employees must certify to the CPA the correctness of their physical inventory and cash count.</p>
+          <p>If the organization deposits all of its cash on hand including cash banks in the organization's gambling account and has fewer than ten games in its inventory at the fiscal year end, it does not have to comply with the physical inventory and cash count requirements of this subpart.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.8122.0550.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.8122.0550.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Sampling and testing; closed games. </h2>
+      <p>Closed games and occasions must be tested independently by the CPA based upon criteria set by the CPA within professional standards. The sampling and testing of tipboard, pull-tab, paddleticket, bingo, and raffle closed games must meet the following requirements:</p>
+      <div id="rule.8122.0550.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8122.0550.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> When a minimum sample size is required, the random or systematic method of sampling will be used. When a minimum sample is expanded, the expanded portion of the sample may use random, systematic, or haphazard methods. When a minimum sample is not required, the sample method may be random, systematic, or haphazard. The following chart of gross receipts will be used to determine the minimum size of a sample for closed pull-tab and tipboard games.</p>
+        <table>
+          <col style="width:30.7692307692308%">
+          <col style="width:10.7692307692308%">
+          <col style="width:15.3846153846154%">
+          <col style="width:15.3846153846154%">
+          <col style="width:27.6923076923077%">
+          <tr>
+            <td colspan="2" style="text-align: center;">Gross Receipts</td>
+            <td></td>
+            <td colspan="2" style="text-align: center;">Minimum Sample Size</td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td style="text-align: right;"></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>$0</td>
+            <td>to</td>
+            <td style="text-align: right;">$999,999</td>
+            <td></td>
+            <td>10 games</td>
+          </tr>
+          <tr>
+            <td>$1,000,000</td>
+            <td>to</td>
+            <td style="text-align: right;">$2,499,999</td>
+            <td></td>
+            <td>20 games</td>
+          </tr>
+          <tr>
+            <td>$2,500,000</td>
+            <td>to</td>
+            <td style="text-align: right;">$4,999,999</td>
+            <td></td>
+            <td>30 games</td>
+          </tr>
+          <tr>
+            <td colspan="2">over $5,000,000</td>
+            <td></td>
+            <td></td>
+            <td>40 games</td>
+          </tr>
+        </table>
+        <p>There is no minimum sample size requirement for testing paddletickets, bingo, and raffles. Closed games and occasions will be sampled independently by the CPA using judgment based on professional standards.</p>
+      </div>
+      <div id="rule.8122.0550.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8122.0550.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Closed tipboard and pull-tab games selected in the sample will be tested for the following minimum criteria, and any differences or deficiencies must be noted in the results of the games tested:</p>
+        <div id="rule.8122.0550.5.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.8122.0550.5.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> each game specified in the sample was available from closed-deal storage;</p>
+        </div>
+        <div id="rule.8122.0550.5.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.8122.0550.5.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> the following items as reported on schedule B, Report of Non-bar Coded Games Played, Destroyed or Lost, or B-2, Report of Bar Coded Games Played, Destroyed or Lost, must be compared against test results for the same items, and differences shown:</p>
+          <div id="rule.8122.0550.5.B.2.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.8122.0550.5.B.2.a">§</a>
+            <h5 class="unit_no">(a)</h5>
+            <p> ideal gross receipts;</p>
+          </div>
+          <div id="rule.8122.0550.5.B.2.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.8122.0550.5.B.2.b">§</a>
+            <h5 class="unit_no">(b)</h5>
+            <p> ideal prizes;</p>
+          </div>
+          <div id="rule.8122.0550.5.B.2.c" class="unit">
+            <a title="Link to unit c" class="permalink" href="#rule.8122.0550.5.B.2.c">§</a>
+            <h5 class="unit_no">(c)</h5>
+            <p> total value of unsold tickets;</p>
+          </div>
+          <div id="rule.8122.0550.5.B.2.d" class="unit">
+            <a title="Link to unit d" class="permalink" href="#rule.8122.0550.5.B.2.d">§</a>
+            <h5 class="unit_no">(d)</h5>
+            <p> gross receipts;</p>
+          </div>
+          <div id="rule.8122.0550.5.B.2.e" class="unit">
+            <a title="Link to unit e" class="permalink" href="#rule.8122.0550.5.B.2.e">§</a>
+            <h5 class="unit_no">(e)</h5>
+            <p> total value of prizes paid;</p>
+          </div>
+          <div id="rule.8122.0550.5.B.2.f" class="unit">
+            <a title="Link to unit f" class="permalink" href="#rule.8122.0550.5.B.2.f">§</a>
+            <h5 class="unit_no">(f)</h5>
+            <p> net receipts;</p>
+          </div>
+          <div id="rule.8122.0550.5.B.2.g" class="unit">
+            <a title="Link to unit g" class="permalink" href="#rule.8122.0550.5.B.2.g">§</a>
+            <h5 class="unit_no">(g)</h5>
+            <p> cash in hand;</p>
+          </div>
+          <div id="rule.8122.0550.5.B.2.h" class="unit">
+            <a title="Link to unit h" class="permalink" href="#rule.8122.0550.5.B.2.h">§</a>
+            <h5 class="unit_no">(h)</h5>
+            <p> cash long or short; and</p>
+          </div>
+          <div id="rule.8122.0550.5.B.2.i" class="unit">
+            <a title="Link to unit i" class="permalink" href="#rule.8122.0550.5.B.2.i">§</a>
+            <h5 class="unit_no">(i)</h5>
+            <p> date removed from play;</p>
+          </div>
+        </div>
+        <div id="rule.8122.0550.5.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.8122.0550.5.B.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> each deposit ticket meets the gambling receipt deposit requirements in Minnesota Statutes, section <a href="/statutes/cite/349.19">349.19</a>, subdivision 2;</p>
+        </div>
+        <div id="rule.8122.0550.5.B.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.8122.0550.5.B.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> each deposit was recorded at the bank within four business days after the game was completed;</p>
+        </div>
+        <div id="rule.8122.0550.5.B.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.8122.0550.5.B.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> each prize receipt form was:</p>
+          <div id="rule.8122.0550.5.B.5.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.8122.0550.5.B.5.a">§</a>
+            <h5 class="unit_no">(a)</h5>
+            <p> properly completed for prizes awarded of $50 or more and for last sale prizes of $20 or more; and</p>
+          </div>
+          <div id="rule.8122.0550.5.B.5.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.8122.0550.5.B.5.b">§</a>
+            <h5 class="unit_no">(b)</h5>
+            <p> the dates on the prize receipts fall within the date the game is put into play and the date the game is removed from play, as listed on the Schedule B-2 for that game;</p>
+          </div>
+        </div>
+        <div id="rule.8122.0550.5.B.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.8122.0550.5.B.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> each redeemed prize winning ticket was adequately defaced;</p>
+        </div>
+        <div id="rule.8122.0550.5.B.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.8122.0550.5.B.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> each game flare is easily available from storage; and</p>
+        </div>
+        <div id="rule.8122.0550.5.B.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.8122.0550.5.B.8">§</a>
+          <h4 class="subitem_no">(8)</h4>
+          <p> the serial number on the flare must be compared to the serial number on the tickets.</p>
+        </div>
+      </div>
+      <div id="rule.8122.0550.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8122.0550.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The results of closed game sampling and testing must be provided to the organization upon a request from the organization.</p>
+      </div>
+    </div>
+    <div id="rule.8122.0550.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.8122.0550.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Report on internal control structure and other matters.</h2>
+      <div id="rule.8122.0550.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8122.0550.6.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> A report about internal control structure reportable conditions observed, or evidenced by testing, during the course of an audit, that could affect the organization's ability to record, process, summarize, and report financial data must be submitted. The report shall elevate a condition to that of a material weakness when the magnitude of the condition is considered material in relation to the financial statements being audited. This report must follow and the department adopts and incorporates by reference the most recent edition of the internal audit standards as provided by audit section 325.11 of the American Institute of Public Accountants - "The Standards of Field Work - Communication of Internal Control Structure Related Matters Noted in an Audit," published June 1, 1994. This incorporation is not subject to frequent change and is available to the public through the Minitex interlibrary loan system. If no reportable conditions or material weaknesses are detected, a report must be submitted stating that no material weaknesses were detected. This report is required under subpart 1.</p>
+        <p>A list of the types of gambling audit reportable condition or material weakness to include in this report follows in subitems (1) to (12). This list is illustrative, and not all-inclusive:</p>
+        <div id="rule.8122.0550.6.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.8122.0550.6.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> absence of appropriate segregation of duties including a detailed explanation;</p>
+        </div>
+        <div id="rule.8122.0550.6.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.8122.0550.6.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> inadequate provision for safeguarding of inventory, cash, or other assets;</p>
+        </div>
+        <div id="rule.8122.0550.6.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.8122.0550.6.A.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> excessive cash shortages or overages;</p>
+        </div>
+        <div id="rule.8122.0550.6.A.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.8122.0550.6.A.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> material delinquent taxes due to state or federal taxing authorities;</p>
+        </div>
+        <div id="rule.8122.0550.6.A.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.8122.0550.6.A.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> lack of required accounting records maintained;</p>
+        </div>
+        <div id="rule.8122.0550.6.A.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.8122.0550.6.A.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> lack of or inaccurate preparation of bank reconciliations or gambling fund reconciliations;</p>
+        </div>
+        <div id="rule.8122.0550.6.A.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.8122.0550.6.A.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> material differences between games played and games reported as played;</p>
+        </div>
+        <div id="rule.8122.0550.6.A.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.8122.0550.6.A.8">§</a>
+          <h4 class="subitem_no">(8)</h4>
+          <p> nonuse or inaccurate use of perpetual or physical inventories for all forms of gambling engaged in;</p>
+        </div>
+        <div id="rule.8122.0550.6.A.9" class="subitem">
+          <a title="Link to subitem 9" class="permalink" href="#rule.8122.0550.6.A.9">§</a>
+          <h4 class="subitem_no">(9)</h4>
+          <p> lack of specific required identification for tracking and accountability of deposit tickets;</p>
+        </div>
+        <div id="rule.8122.0550.6.A.10" class="subitem">
+          <a title="Link to subitem 10" class="permalink" href="#rule.8122.0550.6.A.10">§</a>
+          <h4 class="subitem_no">(10)</h4>
+          <p> material underreporting or overreporting of allowable expenses, lawful purpose expenditures, or board-approved expenditures;</p>
+        </div>
+        <div id="rule.8122.0550.6.A.11" class="subitem">
+          <a title="Link to subitem 11" class="permalink" href="#rule.8122.0550.6.A.11">§</a>
+          <h4 class="subitem_no">(11)</h4>
+          <p> failure to properly account for and report fund losses, form LG-250, Fund Loss Report; and</p>
+        </div>
+        <div id="rule.8122.0550.6.A.12" class="subitem">
+          <a title="Link to subitem 12" class="permalink" href="#rule.8122.0550.6.A.12">§</a>
+          <h4 class="subitem_no">(12)</h4>
+          <p> inattention to and lack of correction to prior year reportable conditions and material weaknesses.</p>
+        </div>
+      </div>
+      <div id="rule.8122.0550.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8122.0550.6.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> A regulatory checklist questionnaire must be included with the report from item A, on a form prescribed by the commissioner. Responses to questions on this checklist must be based on findings and information collected during the course of the audit.</p>
+      </div>
+    </div>
+    <div id="rule.8122.0550.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.8122.0550.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Organization's response to report on internal control structure. </h2>
+      <p>The licensed organization shall file with the Department of Revenue a response to the reportable conditions item by item, including any remedial action taken or proposed by the organization. This response may be submitted with the annual audit or review or be filed separately within 60 days after the due date of the annual audit or review. The response must include the following items:</p>
+      <div id="rule.8122.0550.7.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8122.0550.7.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Any profit carryover variance as shown on the reconciliation of profit carryover supplemental schedule must be identified. All identified variances which require amendments to tax returns must be amended and submitted to the Department of Revenue along with supporting documentation. The auditor must, upon agreement with the organization, assist in preparing an amended return or returns for the organization. The response must indicate if such amendments have been submitted to the Department of Revenue.</p>
+        <p>Variances which require adjustments instead of amendments should be adjusted by sending a letter to the Department of Revenue requesting an adjustment along with supporting documentation. Requests for an approved adjustment cannot be substituted for filing amended tax returns that correct the condition that resulted in the variance. If the variance is identified, an amended tax return or returns must be filed.</p>
+        <p>Unidentified variances must be investigated by the organization and identified. If after investigation an organization is unable to resolve the variance, the organization shall contact the Department of Revenue. The Department of Revenue will then assist the organization in resolving the variance. Final resolution will be based upon an organization's individual situation and can include: amended tax returns, an approved adjustment, required reimbursement from nongambling sources, or a combination of all three.</p>
+      </div>
+      <div id="rule.8122.0550.7.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8122.0550.7.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> If the comparison of games played to games reported on schedule B, Report of Non-bar Coded Games Played, Destroyed or Lost, or B-2, Report of Bar Coded Games Played, Destroyed or Lost, shows a difference, the organization must respond to the reportable conditions item by identifying and stating if the game difference was due to the games being:</p>
+        <div id="rule.8122.0550.7.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.8122.0550.7.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> missing or lost;</p>
+        </div>
+        <div id="rule.8122.0550.7.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.8122.0550.7.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> destroyed, with state approval;</p>
+        </div>
+        <div id="rule.8122.0550.7.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.8122.0550.7.B.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> played and unreported; or</p>
+        </div>
+        <div id="rule.8122.0550.7.B.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.8122.0550.7.B.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> reported in following month.</p>
+        </div>
+      </div>
+      <div id="rule.8122.0550.7.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8122.0550.7.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Specific items as noted on the internal control structure report must be responded to.</p>
+        <p>If no response is received from the organization, the organization must submit to the Department of Revenue a copy of the audit management letter upon request.</p>
+      </div>
+    </div>
+    <div id="rule.8122.0550.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.8122.0550.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Other. </h2>
+      <p>The front page of the annual audit report must contain the following items:</p>
+      <div id="rule.8122.0550.8.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.8122.0550.8.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the organization's legal name and licensed name, if different;</p>
+      </div>
+      <div id="rule.8122.0550.8.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.8122.0550.8.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the organization's license number;</p>
+      </div>
+      <div id="rule.8122.0550.8.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.8122.0550.8.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the Minnesota ID number; and</p>
+      </div>
+      <div id="rule.8122.0550.8.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.8122.0550.8.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> the federal ID number.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8122.0550.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270C.06">270C.06</a>; <a href="/statutes/cite/297E.06">297E.06</a></p>
+  </div>
+  <div class="history" id="rule.8122.0550.history">
+    <h2>History: </h2>
+    <p>20 SR 1482; 24 SR 893; L 2005 c 151 art 1 s 114; L 2010 c 191 s 13</p>
+  </div>
+  <div class="published" id="rule.8122.0550.published">
+    <h2>Published Electronically:</h2>
+    <p> August 2, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8122.0600">
+    <h1 class="headnote repealed">8122.0600</h1>
+    <p>[Repealed, L 2010 c 191 s 14]</p>
+  </div>
+  <div class="published" id="rule.8122.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> August 2, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.8122.0650">
+    <h1 class="headnote">8122.0650 FAILURE TO FILE OR FAILURE TO MEET REQUIREMENTS.</h1>
+    <div id="rule.8122.0650.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.8122.0650.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Failure to file. </h2>
+      <p>If an organization fails to file the required annual audit or review, the Department of Revenue will request the delinquent items. If the organization fails to respond to the request and correct the delinquency, the Gambling Control Board will be informed and a suspension of the organization's gambling activity will be requested. An organization may also be ineligible for relicensing until the delinquent reports are submitted. The Gambling Control Board may also issue fines for noncompliance with the annual audit and review requirements. See Minnesota Statutes, sections <a href="/statutes/cite/349.151">349.151</a>, subdivision 4, paragraph (a), clause (9), and <a href="/statutes/cite/349.155">349.155</a>, subdivision 4.</p>
+    </div>
+    <div id="rule.8122.0650.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.8122.0650.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Failure to meet requirements. </h2>
+      <p>If the audit or review fails to comply with all or part of the audit or review requirements, the audit or review will be deemed deficient and not satisfying the annual audit or review requirements. If an organization fails to file the required annual audit or review or fails to comply with any part of the requirements for the annual audit or review, the Department of Revenue will request the delinquent items. If the organization fails to respond to the request and correct the delinquency, the Gambling Control Board will be informed and a suspension of the organization's gambling activity will be requested. An organization may also be ineligible for relicensing until the delinquent reports are submitted. The Gambling Control Board may also issue fines for noncompliance with the annual audit and review requirements. See Minnesota Statutes, sections <a href="/statutes/cite/349.151">349.151</a>, subdivision 4, paragraph (a), clause (9), and <a href="/statutes/cite/349.155">349.155</a>, subdivision 4.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.8122.0650.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/270.06">270.06</a>; <a href="/statutes/cite/270C.06">270C.06</a></p>
+  </div>
+  <div class="history" id="rule.8122.0650.history">
+    <h2>History: </h2>
+    <p>20 SR 1482; L 2005 c 151 art 1 s 114</p>
+  </div>
+  <div class="published" id="rule.8122.0650.published">
+    <h2>Published Electronically:</h2>
+    <p> November 14, 2006</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
