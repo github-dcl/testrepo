@@ -1,0 +1,2361 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            7414.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/171">Public Safety Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/7414/">Chapter 7414</a>
+            </li>
+        
+    
+        
+            <li>Part 7414.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/7414.0200/">7414.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/7414.0100/2014-01-18%2007:42:48+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 7414</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7414/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7414/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7414/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 7414.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7414.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.0100">
+    <h1 class="headnote">7414.0100 DEFINITIONS.</h1>
+    <div id="rule.7414.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7414.0100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The terms in this chapter have the meanings given them in this part.</p>
+    </div>
+    <div id="rule.7414.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7414.0100.1">§</a>
+      <h2 class="subp_no">Subp. 1a.</h2>
+      <h2 class="headnote">CDL holder. </h2>
+      <p>"CDL holder" means a person who was issued a commercial driver's license or a commercial learner's permit by the commissioner or another jurisdiction as long as the CDL or CLP is not expired or, if expired, expired less than one year from the date of expiration.</p>
+    </div>
+    <div id="rule.7414.0100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7414.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Charter carrier. </h2>
+      <p>"Charter carrier," as used in the definition of "school bus," has the meaning given in Minnesota Statutes, section <a href="/statutes/cite/221.011">221.011</a>, subdivision 21.</p>
+    </div>
+    <div id="rule.7414.0100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7414.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2a.</h2>
+      <h2 class="headnote">Commercial driver's license (CDL). </h2>
+      <p>"Commercial driver's license" or "CDL" has the meaning given in Code of Federal Regulations, title 49, section 383.5.</p>
+    </div>
+    <div id="rule.7414.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7414.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Department. </h2>
+      <p>"Department" means the Minnesota Department of Public Safety.</p>
+    </div>
+    <div id="rule.7414.0100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7414.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Driver. </h2>
+      <p>"Driver" has the meaning given in Minnesota Statutes, section <a href="/statutes/cite/171.01">171.01</a>, subdivision 31.</p>
+    </div>
+    <div id="rule.7414.0100.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7414.0100.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Head Start bus. </h2>
+      <p>"Head Start bus" has the meaning given in Minnesota Statutes, section <a href="/statutes/cite/171.01">171.01</a>, subdivision 36.</p>
+    </div>
+    <div id="rule.7414.0100.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7414.0100.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Head Start bus driver. </h2>
+      <p>"Head Start bus driver" has the meaning given in Minnesota Statutes, section <a href="/statutes/cite/171.3215">171.3215</a>, subdivision 1, paragraph (d).</p>
+    </div>
+    <div id="rule.7414.0100.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7414.0100.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">License. </h2>
+      <p>"License" has the meaning given in Minnesota Statutes, section <a href="/statutes/cite/171.01">171.01</a>, subdivision 37.</p>
+    </div>
+    <div id="rule.7414.0100.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7414.0100.7">§</a>
+      <h2 class="subp_no">Subp. 7a.</h2>
+      <h2 class="headnote">Medical examiner. </h2>
+      <p>"Medical examiner" has the meaning given in Minnesota Statutes, section <a href="/statutes/cite/171.01#stat.171.01.38a">171.01, subdivision 38a</a>.</p>
+    </div>
+    <div id="rule.7414.0100.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7414.0100.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Motor vehicle. </h2>
+      <p>"Motor vehicle" has the meaning given in Minnesota Statutes, section <a href="/statutes/cite/171.01">171.01</a>, subdivision 39.</p>
+    </div>
+    <div id="rule.7414.0100.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.7414.0100.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Parent or guardian. </h2>
+      <p>"Parent" or "guardian," as used in the definition of "school bus," means a person having legal custody of a school-age child or pupil.</p>
+    </div>
+    <div id="rule.7414.0100.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.7414.0100.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">School. </h2>
+      <p>"School" has the meaning given in Minnesota Statutes, section <a href="/statutes/cite/120A.22">120A.22</a>.</p>
+    </div>
+    <div id="rule.7414.0100.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.7414.0100.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">School bus. </h2>
+      <p>"School bus" has the meaning given in Minnesota Statutes, section <a href="/statutes/cite/171.01">171.01</a>, subdivision 46.</p>
+    </div>
+    <div id="rule.7414.0100.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.7414.0100.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">School bus driver. </h2>
+      <p>"School bus driver" has the meaning given in Minnesota Statutes, section <a href="/statutes/cite/171.3215">171.3215</a>, subdivision 1, paragraph (b).</p>
+    </div>
+    <div id="rule.7414.0100.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.7414.0100.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">School children or pupil. </h2>
+      <p>"School children" or "pupil," as used in the definition of "school bus" and in Minnesota Statutes, section <a href="/statutes/cite/171.321">171.321</a>, subdivision 1, means:</p>
+      <div id="rule.7414.0100.13.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7414.0100.13.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> an individual meeting the qualifications for admission to a public school as specified in Minnesota Statutes, section <a href="/statutes/cite/120A.20">120A.20</a>; or</p>
+      </div>
+      <div id="rule.7414.0100.13.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7414.0100.13.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> an individual admitted to or enrolled in a school as defined in Minnesota Statutes, section <a href="/statutes/cite/120A.22">120A.22</a>.</p>
+      </div>
+    </div>
+    <div id="rule.7414.0100.14" class="subp">
+      <a title="Link to subpart 14" class="permalink" href="#rule.7414.0100.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <h2 class="headnote">School-related trip or activity. </h2>
+      <p>"School-related trip or activity," as used in the definition of "school bus," is a function undertaken, sanctioned, sponsored, endorsed, or authorized by a school or school district.</p>
+    </div>
+    <div id="rule.7414.0100.15" class="subp">
+      <a title="Link to subpart 15" class="permalink" href="#rule.7414.0100.15">§</a>
+      <h2 class="subp_no">Subp. 15.</h2>
+      <h2 class="headnote">School district. </h2>
+      <p>"School district" has the meaning given in Minnesota Statutes, section <a href="/statutes/cite/120A.05">120A.05</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.09">171.09</a>; <a href="/statutes/cite/171.162">171.162</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a>; L 2010 c 242 s 10</p>
+  </div>
+  <div class="history" id="rule.7414.0100.history">
+    <h2>History: </h2>
+    <p>22 SR 2343; L 1998 c 397 art 11 s 3; 36 SR 809</p>
+  </div>
+  <div class="published" id="rule.7414.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> January 19, 2012</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.0200">
+    <h1 class="headnote">7414.0200 BASIC REQUIREMENT; APPLICABILITY.</h1>
+    <p>Every person required by Minnesota Statutes, section <a href="/statutes/cite/171.321">171.321</a> to have a school bus endorsement on the person's driver's license must meet the requirements specified in this chapter.</p>
+    <div id="rule.7414.0200.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7414.0200.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> A person who operates a motor vehicle with a seating capacity for ten or fewer persons used as a school bus is not required to have a school bus endorsement if:</p>
+      <div id="rule.7414.0200.A.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.7414.0200.A.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> the motor vehicle operated by the individual is not outwardly equipped or identified as a school bus; and</p>
+      </div>
+      <div id="rule.7414.0200.A.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.7414.0200.A.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> the driver possesses a valid class driver's license in accordance with Minnesota Statutes, section <a href="/statutes/cite/171.02">171.02</a>, subdivision 2.</p>
+      </div>
+    </div>
+    <div id="rule.7414.0200.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7414.0200.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> The driver of a vehicle operated as a Head Start bus is not subject to the qualifications in this chapter for a school bus endorsement, except that the driver is subject to the disqualification provisions applicable to a Head Start bus driver in Minnesota Statutes, section <a href="/statutes/cite/171.3215">171.3215</a>.</p>
+    </div>
+    <div id="rule.7414.0200.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7414.0200.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> The transportation of persons by a charter carrier is not subject to the provisions of this chapter.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.0200.history">
+    <h2>History: </h2>
+    <p>13 SR 1448; 22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.0300">
+    <h1 class="headnote">7414.0300 TESTS.</h1>
+    <div id="rule.7414.0300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7414.0300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Initial endorsement. </h2>
+      <p>To obtain an initial school bus endorsement to drive a school bus, a person must satisfactorily pass a written test and a road test administered by the department.</p>
+    </div>
+    <div id="rule.7414.0300.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7414.0300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Written test. </h2>
+      <p>The applicant for a school bus endorsement on the driver's license must satisfactorily pass a written test administered by the department.</p>
+      <div id="rule.7414.0300.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7414.0300.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The written test must be based on:</p>
+        <div id="rule.7414.0300.2.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7414.0300.2.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> chapters 7414 and 7470;</p>
+        </div>
+        <div id="rule.7414.0300.2.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7414.0300.2.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> Minnesota Statutes, chapter 169, and sections <a href="/statutes/cite/171.321">171.321</a> to <a href="/statutes/cite/171.322">171.322</a>; and</p>
+        </div>
+        <div id="rule.7414.0300.2.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7414.0300.2.A.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> a general knowledge of the operation of school buses, including knowledge of the equipment, devices, laws, and rules peculiar to the operation of school buses.</p>
+        </div>
+      </div>
+      <div id="rule.7414.0300.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7414.0300.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The written test must contain at least 50 questions.</p>
+      </div>
+      <div id="rule.7414.0300.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7414.0300.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> There must be at least two forms of the test with the questions arranged in different order on each form.</p>
+      </div>
+      <div id="rule.7414.0300.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7414.0300.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> The written test is satisfactorily passed if a score of at least 80 percent is obtained.</p>
+      </div>
+    </div>
+    <div id="rule.7414.0300.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7414.0300.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Road test. </h2>
+      <p>The applicant must satisfactorily pass a road test administered by the department in a school bus that represents the least restrictive category of a school bus the applicant expects to operate.</p>
+      <div id="rule.7414.0300.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7414.0300.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The road test must evaluate knowledge of the school bus, bus-related equipment, operation of the motor vehicle in accordance with Minnesota Statutes, chapter 169, and the rules contained in chapter 7470, and include:</p>
+        <div id="rule.7414.0300.3.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7414.0300.3.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> a pretrip inspection;</p>
+        </div>
+        <div id="rule.7414.0300.3.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7414.0300.3.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> placing the vehicle in operation;</p>
+        </div>
+        <div id="rule.7414.0300.3.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7414.0300.3.A.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> use of the vehicle's controls and emergency equipment;</p>
+        </div>
+        <div id="rule.7414.0300.3.A.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.7414.0300.3.A.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> operating the vehicle in traffic and while passing other vehicles;</p>
+        </div>
+        <div id="rule.7414.0300.3.A.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.7414.0300.3.A.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> turning the vehicle;</p>
+        </div>
+        <div id="rule.7414.0300.3.A.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.7414.0300.3.A.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> braking, and slowing the vehicle by means other than braking;</p>
+        </div>
+        <div id="rule.7414.0300.3.A.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.7414.0300.3.A.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> backing and parking the vehicle;</p>
+        </div>
+        <div id="rule.7414.0300.3.A.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.7414.0300.3.A.8">§</a>
+          <h4 class="subitem_no">(8)</h4>
+          <p> loading and unloading pupils; and</p>
+        </div>
+        <div id="rule.7414.0300.3.A.9" class="subitem">
+          <a title="Link to subitem 9" class="permalink" href="#rule.7414.0300.3.A.9">§</a>
+          <h4 class="subitem_no">(9)</h4>
+          <p> proper procedures at railroad crossings.</p>
+        </div>
+      </div>
+      <div id="rule.7414.0300.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7414.0300.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The road test is satisfactorily passed if a score of at least 80 percent is obtained.</p>
+      </div>
+      <div id="rule.7414.0300.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7414.0300.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> In determining whether a score of at least 80 percent has been obtained, the commissioner of public safety shall weight each portion of the test with regard to the criticalness of the specific factor being tested in relation to overall driving safety.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.0300.history">
+    <h2>History: </h2>
+    <p>22 SR 2343; L 1998 c 397 art 11 s 3</p>
+  </div>
+  <div class="published" id="rule.7414.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.0350">
+    <h1 class="headnote">7414.0350 ENDORSEMENT CATEGORIES.</h1>
+    <p>An endorsement to drive a school bus on a Minnesota driver's license must be issued by the department in one of the categories specified in items A to D. The endorsement must be issued based on the passenger capacity of the school bus and the gross vehicle weight (GVW) of the motor vehicle used by the applicant to take the road test.</p>
+    <div id="rule.7414.0350.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7414.0350.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> An "A" category endorsement is unrestricted. The license holder may drive a school bus with a GVW of more than 26,000 pounds as well as a school bus described in item B, C, or D.</p>
+    </div>
+    <div id="rule.7414.0350.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7414.0350.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> A "B" category endorsement is restricted. The license holder may drive a school bus designed to transport 24 or more passengers with a GVW of 26,000 pounds or less. The license holder may also drive a school bus described in item C or D.</p>
+    </div>
+    <div id="rule.7414.0350.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7414.0350.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> A "C" category endorsement is restricted. The license holder may drive a school bus with 16 to 23 passengers with a GVW of 26,000 pounds or less. The license holder may also drive a school bus described in item D.</p>
+    </div>
+    <div id="rule.7414.0350.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.7414.0350.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> A "D" category endorsement is restricted. The license holder may only drive a school bus designed to transport 15 or fewer passengers.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.0350.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.0350.history">
+    <h2>History: </h2>
+    <p>22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.0350.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.0400">
+    <h1 class="headnote">7414.0400 DRIVER BACKGROUND CHECK.</h1>
+    <div id="rule.7414.0400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7414.0400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>Before issuing or renewing a driver's license with a school bus endorsement, the department shall conduct a background check to investigate the applicant's criminal and driving records. The department shall use the criteria listed in subpart 3 and Minnesota Statutes, section <a href="/statutes/cite/171.3215">171.3215</a>, when issuing or denying an application for a new school bus endorsement or when renewing or canceling an existing endorsement.</p>
+    </div>
+    <div id="rule.7414.0400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7414.0400.1">§</a>
+      <h2 class="subp_no">Subp. 1a.</h2>
+      <h2 class="headnote">Temporary endorsement. </h2>
+      <p>An otherwise qualified applicant seeking a temporary endorsement on the driver's license to drive a school bus pursuant to Minnesota Statutes, section <a href="/statutes/cite/171.321">171.321</a>, subdivision 3, paragraph (b), shall present to the department at the time of application for the temporary endorsement, the affidavits described in this subpart.</p>
+      <div id="rule.7414.0400.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7414.0400.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The applicant shall sign and have notarized an affidavit attesting:</p>
+        <div id="rule.7414.0400.1.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7414.0400.1.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> that the applicant is not currently charged with a felony against another and has not been convicted of a disqualifying offense as defined in Minnesota Statutes, section <a href="/statutes/cite/171.3215">171.3215</a>; and</p>
+        </div>
+        <div id="rule.7414.0400.1.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7414.0400.1.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> as to the states in which the applicant has resided in the past five years immediately before the date of application.</p>
+        </div>
+      </div>
+      <div id="rule.7414.0400.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7414.0400.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The applicant shall submit a signed and notarized affidavit from an authorized individual of a school district or a contractor employed by a school or school district:</p>
+        <div id="rule.7414.0400.1.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7414.0400.1.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> attesting that a criminal records check has been conducted on the applicant;</p>
+        </div>
+        <div id="rule.7414.0400.1.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7414.0400.1.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> specifying the source of the criminal records check; and</p>
+        </div>
+        <div id="rule.7414.0400.1.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7414.0400.1.B.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> attesting that the applicant is not currently charged with a felony against another or has not been convicted of a disqualifying offense as defined in Minnesota Statutes, section <a href="/statutes/cite/171.3215">171.3215</a>.</p>
+        </div>
+      </div>
+      <div id="rule.7414.0400.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7414.0400.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> For an individual who has resided in the state for the past five years immediately before the date of application, the criminal history check must be obtained by the department through the state criminal records repository of the Bureau of Criminal Apprehension.</p>
+      </div>
+      <div id="rule.7414.0400.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7414.0400.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> For an individual who has been a resident of a state other than Minnesota at any time in the five years immediately before the date of application, a criminal history check must be obtained from:</p>
+        <div id="rule.7414.0400.1.D.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.7414.0400.1.D.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> a government agency performing the same function as the Bureau of Criminal Apprehension in each resident state other than Minnesota;</p>
+        </div>
+        <div id="rule.7414.0400.1.D.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.7414.0400.1.D.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> the Federal Bureau of Investigation; or</p>
+        </div>
+        <div id="rule.7414.0400.1.D.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.7414.0400.1.D.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> a private source acceptable to the commissioner of public safety.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.7414.0400.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7414.0400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 22 SR 2343]</p>
+    </div>
+    <div id="rule.7414.0400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7414.0400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Felony charges. </h2>
+      <p>The department shall not consider the application for an initial school bus endorsement of an individual charged with a felony against another until that individual is found not guilty of the charge.</p>
+      <p>A driver with a school bus endorsement who is charged with a felony against another shall notify the employer within seven days of the charge. If the driver fails to notify the employer, the department shall revoke the endorsement. If the endorsement is revoked under this paragraph, the department shall not reinstate the endorsement until the driver is found not guilty of the charge or until five years have elapsed since the final disposition of the case or the applicant's release from a correctional facility, whichever event occurs last.</p>
+    </div>
+    <div id="rule.7414.0400.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7414.0400.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <p>[Repealed, 22 SR 2343]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.0400.history">
+    <h2>History: </h2>
+    <p>13 SR 1448; 22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1100">
+    <h1 class="headnote">7414.1100 PHYSICIAN'S CERTIFICATE.</h1>
+    <p>An applicant for a school bus driver's endorsement shall be in good physical and mental health, able-bodied, and free from communicable disease. As evidence of physical fitness and mental alertness, the applicant shall submit to a physical examination by a reputable physician designated by the local school authorities; and the physician's certificate of physical fitness and mental alertness shall accompany the application for school bus driver's endorsement when presented to the Department of Public Safety.</p>
+  </div>
+  <div class="stat_auth" id="rule.7414.1100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/171.321">171.321</a></p>
+  </div>
+  <div class="history" id="rule.7414.1100.history">
+    <h2>History: </h2>
+    <p>17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.7414.1100.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1200">
+    <h1 class="headnote">7414.1200 PHYSICAL QUALIFICATIONS REQUIREMENT, GENERALLY.</h1>
+    <p>The department shall consider an applicant for an initial school bus endorsement or for renewal of a school bus endorsement to be physically qualified for endorsement to operate a school bus when the applicant provides evidence of being examined and the evidence shows that the examiner has determined that the applicant meets the requirements in Code of Federal Regulations, title 49, section 391.41, which are incorporated by reference.</p>
+  </div>
+  <div class="stat_auth" id="rule.7414.1200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.1200.history">
+    <h2>History: </h2>
+    <p>13 SR 1448; 22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.1200.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1300">
+    <h1 class="headnote">7414.1300 EXAMINATION FORM AND CERTIFICATE.</h1>
+    <p>The examination form used by the physician to record the physical condition of the applicant must substantially comply with the form prescribed in Code of Federal Regulations, title 49, section 391.43, paragraph (f). A form may be obtained from the department or from any driver examining station. The certificate of the examining physician must be substantially in accordance with the certificate in Code of Federal Regulations, title 49, section 391.43, paragraph (g).</p>
+  </div>
+  <div class="stat_auth" id="rule.7414.1300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.1300.history">
+    <h2>History: </h2>
+    <p>22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.1300.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1400">
+    <h1 class="headnote">7414.1400 PERIODIC PHYSICAL REEXAMINATION.</h1>
+    <p>Each driver with a school bus endorsement shall take and pass a physical examination every two years to retain the school bus endorsement.</p>
+    <div id="rule.7414.1400.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7414.1400.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> The two-year reexamination period starts from the examination date of the most recent physical examination certificate submitted by a driver with a school bus endorsement.</p>
+    </div>
+    <div id="rule.7414.1400.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7414.1400.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> The department will send a physical examination certificate to a driver with a school bus endorsement.</p>
+    </div>
+    <div id="rule.7414.1400.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7414.1400.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> A driver with a school bus endorsement shall return the certificate, completed by the examining physician, along with a $2 processing fee, on or before the expiration of the two-year period, to the department.</p>
+    </div>
+    <div id="rule.7414.1400.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.7414.1400.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> If the driver fails to pass the physical examination or return the physical examination certificate within two years of the date of the last physical examination filed with the department, the commissioner of public safety shall cancel the school bus endorsement from the Minnesota driver's license.</p>
+    </div>
+    <div id="rule.7414.1400.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.7414.1400.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> If a person's school bus endorsement is canceled because of a failure to submit the certificate verifying physical reexamination within two years after the initial or a subsequent physical examination, the person is allowed up to three years after the date of the last physical examination to submit the required certificate of physical examination without having to retake the written test and road test for school bus endorsement.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.1400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.1400.history">
+    <h2>History: </h2>
+    <p>17 SR 1279; 19 SR 1131; 22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.1400.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1410">
+    <h1 class="headnote">7414.1410 PHYSICAL QUALIFICATIONS WAIVER; REQUEST, APPLICATION.</h1>
+    <div id="rule.7414.1410.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7414.1410.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Waiver request, generally. </h2>
+      <p>An individual who does not meet the physical qualifications for a school bus endorsement because of a failure to meet the requirements in Code of Federal Regulations, title 49, section 391.41, may request a waiver from the commissioner of public safety according to the procedures and criteria specified in parts <a href="/rules/7414.1410">7414.1410</a> to <a href="/rules/7414.1570">7414.1570</a>.</p>
+    </div>
+    <div id="rule.7414.1410.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7414.1410.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Application. </h2>
+      <p>An application for a waiver must be submitted by the applicant seeking the school bus endorsement. The application must be submitted to the Minnesota Department of Public Safety, Driver and Vehicle Services Division.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.1410.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.1410.history">
+    <h2>History: </h2>
+    <p>22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.1410.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1420">
+    <h1 class="headnote">7414.1420  APPLICATION CONTENTS FOR WAIVER, GENERALLY.</h1>
+    <p>An application for a waiver must:</p>
+    <div id="rule.7414.1420.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7414.1420.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> contain the applicant's name, address, birth date, driver's license number, and date of license expiration;</p>
+    </div>
+    <div id="rule.7414.1420.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7414.1420.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> specify the physical qualification for which a waiver is requested;</p>
+    </div>
+    <div id="rule.7414.1420.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7414.1420.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> describe the applicant's disability or impairment;</p>
+    </div>
+    <div id="rule.7414.1420.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.7414.1420.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> describe the school bus the applicant intends to drive including the passenger capacity of the vehicle and gross vehicle weight, if known;</p>
+    </div>
+    <div id="rule.7414.1420.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.7414.1420.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> estimate the period of time per day the driver will be driving and on duty;</p>
+    </div>
+    <div id="rule.7414.1420.F" class="item">
+      <a title="Link to item F" class="permalink" href="#rule.7414.1420.F">§</a>
+      <h3 class="item_no">F.</h3>
+      <p> contain the driving record for the last three years, if any, the applicant has operated a commercial vehicle and the driving record for the last three years the applicant has operated all types of motor vehicles from each state the applicant has had a driver's license or permit;</p>
+    </div>
+    <div id="rule.7414.1420.G" class="item">
+      <a title="Link to item G" class="permalink" href="#rule.7414.1420.G">§</a>
+      <h3 class="item_no">G.</h3>
+      <p> contain a copy of the form for the physical examination performed according to Code of Federal Regulations, title 49, section 391.41, and a copy of the certificate from the examining physician attesting that the applicant is otherwise qualified, except for the disability or impairment for which a waiver is requested;</p>
+    </div>
+    <div id="rule.7414.1420.H" class="item">
+      <a title="Link to item H" class="permalink" href="#rule.7414.1420.H">§</a>
+      <h3 class="item_no">H.</h3>
+      <p> contain a copy of the applicant's road test as prescribed by the department's Driver and Vehicle Services Division;</p>
+    </div>
+    <div id="rule.7414.1420.I" class="item">
+      <a title="Link to item I" class="permalink" href="#rule.7414.1420.I">§</a>
+      <h3 class="item_no">I.</h3>
+      <p> describe the alternative measures; modification of policies, practices, or procedures; or the provision of auxiliary aids or services that will be taken to ensure that there is no significant risk to the health and safety of the public and pupils if the waiver is granted; and</p>
+    </div>
+    <div id="rule.7414.1420.J" class="item">
+      <a title="Link to item J" class="permalink" href="#rule.7414.1420.J">§</a>
+      <h3 class="item_no">J.</h3>
+      <p> contain the signature of the applicant and the date.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.1420.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.1420.history">
+    <h2>History: </h2>
+    <p>22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.1420.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1430">
+    <h1 class="headnote">7414.1430 LIMB IMPAIRMENT WAIVER; ADDITIONAL INFORMATION.</h1>
+    <p>The application of an applicant seeking a waiver because of the failure to meet the physical qualifications in Code of Federal Regulations, title 49, section 391.41, paragraph (b)(1) or (b)(2), must also contain:</p>
+    <div id="rule.7414.1430.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7414.1430.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> a description of the vehicle the applicant intends to drive that specifies:</p>
+      <div id="rule.7414.1430.A.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.7414.1430.A.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> whether the transmission is automatic or manual and, if manual, the number of forward speeds;</p>
+      </div>
+      <div id="rule.7414.1430.A.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.7414.1430.A.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> the type of brake system;</p>
+      </div>
+      <div id="rule.7414.1430.A.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.7414.1430.A.3">§</a>
+        <h4 class="subitem_no">(3)</h4>
+        <p> whether the steering is manual or power assisted; and</p>
+      </div>
+      <div id="rule.7414.1430.A.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.7414.1430.A.4">§</a>
+        <h4 class="subitem_no">(4)</h4>
+        <p> whether vehicle modification has been or will be made for the applicant; and</p>
+      </div>
+    </div>
+    <div id="rule.7414.1430.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7414.1430.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> a medical waiver summary completed by either a doctor of physical medicine or orthopedic surgeon that includes:</p>
+      <div id="rule.7414.1430.B.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.7414.1430.B.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> an assessment of the applicant's functional capabilities as they relate to the applicant's ability to perform the normal tasks associated with operating the school bus in question;</p>
+      </div>
+      <div id="rule.7414.1430.B.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.7414.1430.B.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> a statement by the examining physician that the applicant is capable of safely performing the normal school bus driver operations required; and</p>
+      </div>
+      <div id="rule.7414.1430.B.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.7414.1430.B.3">§</a>
+        <h4 class="subitem_no">(3)</h4>
+        <p> an assessment and medical opinion of whether the impairment or disability is likely to remain medically stable over the applicant's lifetime.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.1430.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.1430.history">
+    <h2>History: </h2>
+    <p>22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.1430.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1440">
+    <h1 class="headnote">7414.1440 VISION WAIVER; ADDITIONAL APPLICATION INFORMATION.</h1>
+    <p>The application of an applicant seeking a waiver because of the failure to meet the vision requirements in Code of Federal Regulations, title 49, section 391.41, paragraph (b)(10), must also contain a letter signed and dated from an optometrist or ophthalmologist that:</p>
+    <div id="rule.7414.1440.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7414.1440.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> identifies and defines the visual deficiency;</p>
+    </div>
+    <div id="rule.7414.1440.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7414.1440.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> certifies that the applicant's visual acuity is at least 20/40 Snellen, corrected or uncorrected, in the better eye;</p>
+    </div>
+    <div id="rule.7414.1440.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7414.1440.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> certifies that the applicant has a field of vision of no less than 120 degrees of field in one or both eyes together as demonstrated on a Goldman perimeter using a IIIe target, or equivalent full field test using an automated perimeter;</p>
+    </div>
+    <div id="rule.7414.1440.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.7414.1440.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> certifies that the individual recognizes the colors of red, green, and amber in traffic signals in an actual field test if the subject fails a color screening test or a comparable color contrast sensitivity test; and</p>
+    </div>
+    <div id="rule.7414.1440.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.7414.1440.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> certifies that in the examiner's opinion the applicant can safely perform the normal school bus driver operations required.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.1440.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.1440.history">
+    <h2>History: </h2>
+    <p>22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.1440.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1450">
+    <h1 class="headnote">7414.1450 DIABETES WAIVER; ADDITIONAL INFORMATION.</h1>
+    <p>The application of an applicant seeking a waiver because of the failure to meet the requirement in Code of Federal Regulations, title 49, section 391.41, paragraph (b)(3), relating to diabetes mellitus currently requiring insulin for control must also contain:</p>
+    <div id="rule.7414.1450.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7414.1450.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> a letter signed and dated from a physician licensed under Minnesota Statutes, chapter 147, attesting that:</p>
+      <div id="rule.7414.1450.A.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.7414.1450.A.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> the physician is familiar with the applicant's medical history;</p>
+      </div>
+      <div id="rule.7414.1450.A.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.7414.1450.A.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> the applicant does not suffer from hypoglycemia unawareness;</p>
+      </div>
+      <div id="rule.7414.1450.A.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.7414.1450.A.3">§</a>
+        <h4 class="subitem_no">(3)</h4>
+        <p> within the last three years the applicant has not had a hypoglycemic reaction that resulted in a change in mental or physical status that precludes the applicant from safely performing normal school bus operations;</p>
+      </div>
+      <div id="rule.7414.1450.A.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.7414.1450.A.4">§</a>
+        <h4 class="subitem_no">(4)</h4>
+        <p> the applicant's diabetic condition will not adversely impact the applicant's ability to perform normal school bus operations safely;</p>
+      </div>
+      <div id="rule.7414.1450.A.5" class="subitem">
+        <a title="Link to subitem 5" class="permalink" href="#rule.7414.1450.A.5">§</a>
+        <h4 class="subitem_no">(5)</h4>
+        <p> the applicant has been educated on diabetes and its management, thoroughly informed on and understands the procedures to follow to monitor and manage the diabetes, and what procedures to follow if complications arise; and</p>
+      </div>
+      <div id="rule.7414.1450.A.6" class="subitem">
+        <a title="Link to subitem 6" class="permalink" href="#rule.7414.1450.A.6">§</a>
+        <h4 class="subitem_no">(6)</h4>
+        <p> the applicant has the ability and has demonstrated a willingness to properly monitor and manage the diabetes; and</p>
+      </div>
+    </div>
+    <div id="rule.7414.1450.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7414.1450.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> a signed statement from an examining ophthalmologist indicating that the applicant:</p>
+      <div id="rule.7414.1450.B.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.7414.1450.B.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> has been examined within the preceding six weeks;</p>
+      </div>
+      <div id="rule.7414.1450.B.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.7414.1450.B.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> does not have unstable proliferative diabetic retinopathy; and</p>
+      </div>
+      <div id="rule.7414.1450.B.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.7414.1450.B.3">§</a>
+        <h4 class="subitem_no">(3)</h4>
+        <p> has stable distant visual acuity of at least 20/40 Snellen in each eye separately, with or without corrective lenses.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.1450.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.1450.history">
+    <h2>History: </h2>
+    <p>22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.1450.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1460">
+    <h1 class="headnote">7414.1460 EPILEPSY, LOSS OF CONTROL WAIVER; MORE INFORMATION.</h1>
+    <p>The commissioner shall not approve the application of any applicant seeking a waiver because of the failure to meet the requirement in Code of Federal Regulations, title 49, section 391.41, relating to epilepsy or any other condition likely to cause loss of consciousness or loss of ability to control a motor vehicle safely.</p>
+  </div>
+  <div class="stat_auth" id="rule.7414.1460.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.09">171.09</a>; <a href="/statutes/cite/171.162">171.162</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a>; L 2010 c 242 s 10</p>
+  </div>
+  <div class="history" id="rule.7414.1460.history">
+    <h2>History: </h2>
+    <p>22 SR 2343; 36 SR 809</p>
+  </div>
+  <div class="published" id="rule.7414.1460.published">
+    <h2>Published Electronically:</h2>
+    <p> January 19, 2012</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1470">
+    <h1 class="headnote">7414.1470 GENERAL CRITERIA FOR GRANTING WAIVER.</h1>
+    <p>The commissioner shall grant a waiver if:</p>
+    <div id="rule.7414.1470.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7414.1470.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> the waiver was requested in the manner prescribed by parts <a href="/rules/7414.1410">7414.1410</a> to <a href="/rules/7414.1460">7414.1460</a>;</p>
+    </div>
+    <div id="rule.7414.1470.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7414.1470.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> the waiver will have no potential adverse effect on public or pupil safety;</p>
+    </div>
+    <div id="rule.7414.1470.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7414.1470.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> any alternative measures; the modification of policies, practices, or procedures; or the provision of auxiliary aids or services, if any, are equivalent or superior to those prescribed in rules; and</p>
+    </div>
+    <div id="rule.7414.1470.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.7414.1470.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> the waiver does not waive a statutory standard.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.1470.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.1470.history">
+    <h2>History: </h2>
+    <p>22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.1470.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1490">
+    <h1 class="headnote">7414.1490 GRANTING WAIVER FOR DIABETES MELLITUS.</h1>
+    <p>A waiver that is granted to the applicant who fails to meet the physical requirement in Code of Federal Regulations, title 49, section 391.41, paragraph (b)(3), relating to diabetes mellitus currently requiring insulin for control, must require the applicant to:</p>
+    <div id="rule.7414.1490.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7414.1490.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> carry, use, and record in a log the readings from a portable, self-monitoring blood glucose device equipped with a computerized memory or, if the device is capable of printing paper tape reports, the paper tape reports may be used instead of a log;</p>
+    </div>
+    <div id="rule.7414.1490.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7414.1490.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> monitor blood glucose one hour before going on duty and approximately every four hours while on duty;</p>
+    </div>
+    <div id="rule.7414.1490.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7414.1490.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> make log records or tapes available to any authorized enforcement official on request;</p>
+    </div>
+    <div id="rule.7414.1490.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.7414.1490.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> carry and use when on duty a source of rapidly absorbable glucose;</p>
+    </div>
+    <div id="rule.7414.1490.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.7414.1490.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> carry insulin and the equipment of materials necessary to administer this medication;</p>
+    </div>
+    <div id="rule.7414.1490.F" class="item">
+      <a title="Link to item F" class="permalink" href="#rule.7414.1490.F">§</a>
+      <h3 class="item_no">F.</h3>
+      <p> report in writing within 15 calendar days to the Minnesota Department of Public Safety, Driver and Vehicle Services Division:</p>
+      <div id="rule.7414.1490.F.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.7414.1490.F.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> any citation for a moving traffic violation involving the operation of a school bus along with a photocopy of the citation;</p>
+      </div>
+      <div id="rule.7414.1490.F.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.7414.1490.F.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> the judicial or administrative disposition of a citation for a moving violation involving a school bus along with a photocopy of the notice of disposition; and</p>
+      </div>
+      <div id="rule.7414.1490.F.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.7414.1490.F.3">§</a>
+        <h4 class="subitem_no">(3)</h4>
+        <p> the involvement in any accident whatever while operating a school bus and include any state, insurance company, or motor carrier accident reports and any attending physician's and laboratory reports of treatment arising from the accident;</p>
+      </div>
+    </div>
+    <div id="rule.7414.1490.G" class="item">
+      <a title="Link to item G" class="permalink" href="#rule.7414.1490.G">§</a>
+      <h3 class="item_no">G.</h3>
+      <p> submit a signed statement from an ophthalmologist no later than 15 days before the renewal date of the waiver and endorsement that indicates the applicant:</p>
+      <div id="rule.7414.1490.G.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.7414.1490.G.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> was examined within the six-week period immediately preceding the renewal date of the waiver;</p>
+      </div>
+      <div id="rule.7414.1490.G.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.7414.1490.G.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> was found not to have unstable proliferative diabetic retinopathy; and</p>
+      </div>
+      <div id="rule.7414.1490.G.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.7414.1490.G.3">§</a>
+        <h4 class="subitem_no">(3)</h4>
+        <p> has a stable visual acuity of at least 20/40 Snellen in each eye, corrected or uncorrected; and</p>
+      </div>
+    </div>
+    <div id="rule.7414.1490.H" class="item">
+      <a title="Link to item H" class="permalink" href="#rule.7414.1490.H">§</a>
+      <h3 class="item_no">H.</h3>
+      <p> comply with the provisions of part <a href="/rules/7410.2610">7410.2610</a> for reporting a diabetes-related episode involving the loss of consciousness or voluntary control due to hypoglycemia or hyperglycemia.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.1490.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.1490.history">
+    <h2>History: </h2>
+    <p>22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.1490.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1500">
+    <h1 class="headnote">7414.1500 ADDITIONAL EXAMINATIONS.</h1>
+    <p>Pursuant to Minnesota Statutes, section <a href="/statutes/cite/171.13">171.13</a>, subdivisions 1 and 3, the commissioner may require a medical examination of an applicant for a school bus endorsement or licensed driver with a school bus endorsement to determine incompetency, physical or mental disability or disease, or any other condition that might affect the driver in exercising reasonable and ordinary control over a motor vehicle.</p>
+  </div>
+  <div class="stat_auth" id="rule.7414.1500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.1500.history">
+    <h2>History: </h2>
+    <p>22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.1500.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1510">
+    <h1 class="headnote">7414.1510 GRANTING WAIVER FOR EPILEPSY, LOSS OF CONTROL.</h1>
+    <p>A waiver that is granted to the applicant who fails to meet the physical requirement in Code of Federal Regulations, title 49, section 391.41, paragraph (b)(8), relating to epilepsy, or any other condition likely to cause loss of consciousness or control, must require the applicant to:</p>
+    <div id="rule.7414.1510.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7414.1510.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> meet the requirements specified in part <a href="/rules/7414.1460">7414.1460</a>;</p>
+    </div>
+    <div id="rule.7414.1510.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7414.1510.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> obtain a recommendation to grant a waiver from the department's seizure subcommittee of neurologists established under part <a href="/rules/7410.3000">7410.3000</a>; and</p>
+    </div>
+    <div id="rule.7414.1510.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.7414.1510.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> comply with the reporting provisions of part <a href="/rules/7410.2500">7410.2500</a>, subparts 2 and 2a.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.1510.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.1510.history">
+    <h2>History: </h2>
+    <p>22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.1510.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1520">
+    <h1 class="headnote">7414.1520 NO WAIVER FOR HEARING.</h1>
+    <p>The hearing qualifications contained in Code of Federal Regulations, title 49, section 391.41, paragraph (b)(11), are not subject to waiver for a person applying for a school bus endorsement.</p>
+  </div>
+  <div class="stat_auth" id="rule.7414.1520.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.1520.history">
+    <h2>History: </h2>
+    <p>22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.1520.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1530">
+    <h1 class="headnote">7414.1530 GRANTING WAIVER FOR VISION.</h1>
+    <p>A waiver from the vision qualifications contained in Code of Federal Regulations, title 49, section 391.41, paragraph (b)(10), relating to vision, may be granted only if the requirements in part <a href="/rules/7414.1440">7414.1440</a>, are met.</p>
+  </div>
+  <div class="stat_auth" id="rule.7414.1530.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.1530.history">
+    <h2>History: </h2>
+    <p>22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.1530.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1550">
+    <h1 class="headnote">7414.1550 EFFECT OF WAIVER.</h1>
+    <p>A waiver has only future effect. The driver is subject to the alternative measures, conditions, or limitations attached to the waiver and to the enforcement actions and penalties of the applicable law or rule.</p>
+    <div id="rule.7414.1550.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.7414.1550.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> The driver or applicant must have the waiver in possession whenever operating a school bus.</p>
+    </div>
+    <div id="rule.7414.1550.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.7414.1550.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> If the driver violates the alternative measures, conditions, or limitations attached to the waiver, the applicant is subject to the enforcement actions and penalties provided in the applicable law or rule. The applicant shall notify the commissioner in writing within 30 days of any material change in the conditions upon which the waiver was granted.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.1550.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.09">171.09</a>; <a href="/statutes/cite/171.162">171.162</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a>; L 2010 c 242 s 10</p>
+  </div>
+  <div class="history" id="rule.7414.1550.history">
+    <h2>History: </h2>
+    <p>22 SR 2343; 36 SR 809</p>
+  </div>
+  <div class="published" id="rule.7414.1550.published">
+    <h2>Published Electronically:</h2>
+    <p> January 19, 2012</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1560">
+    <h1 class="headnote">7414.1560 RENEWAL OF WAIVER.</h1>
+    <div id="rule.7414.1560.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7414.1560.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Request. </h2>
+      <p>A request for a renewal of a waiver must be submitted by the driver to the commissioner of public safety in writing at least 30 days before its expiration date. The renewal request must contain the current information specified in parts <a href="/rules/7414.1410">7414.1410</a> to <a href="/rules/7414.1460">7414.1460</a>.</p>
+    </div>
+    <div id="rule.7414.1560.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7414.1560.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Renewal upon satisfactory compliance. </h2>
+      <p>The commissioner shall renew the waiver if the applicant continues to satisfy the criteria contained in this part and demonstrates compliance with any alternative measures, conditions, or limitations imposed at the time the original waiver was approved.</p>
+    </div>
+    <div id="rule.7414.1560.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7414.1560.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Material change. </h2>
+      <p>Subpart 2 does not apply if there has been any material change in the conditions upon which the variance was granted, such as a change in the type or category of school bus to be driven or a material change in the applicant's medical condition.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.1560.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.1560.history">
+    <h2>History: </h2>
+    <p>22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.1560.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1570">
+    <h1 class="headnote">7414.1570 NOTICE OF DENIAL, REVOCATION, REFUSAL TO RENEW; APPEAL.</h1>
+    <div id="rule.7414.1570.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7414.1570.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Notification. </h2>
+      <p>The commissioner of public safety shall notify the applicant in writing of the commissioner's decision to grant or deny the waiver.</p>
+      <div id="rule.7414.1570.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7414.1570.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> If the waiver is granted, the notice shall specify the period of time for which the waiver is effective and any alternative measures, conditions, or limitations the applicant or driver must meet.</p>
+      </div>
+      <div id="rule.7414.1570.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7414.1570.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> If the waiver is denied, the commissioner shall specify the reasons for the denial and indicate that the individual may request a review of the commissioner's decision by a medical review panel established under part <a href="/rules/7410.3000">7410.3000</a>.</p>
+      </div>
+    </div>
+    <div id="rule.7414.1570.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7414.1570.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Action. </h2>
+      <p>The commissioner shall deny, revoke, or refuse to renew a waiver if the commissioner determines the criteria and conditions in parts <a href="/rules/7414.1470">7414.1470</a> to <a href="/rules/7414.1560">7414.1560</a> are not met.</p>
+    </div>
+    <div id="rule.7414.1570.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7414.1570.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Appeal. </h2>
+      <p>An applicant or driver may appeal the denial revocation, or refusal to renew a waiver, by requesting in writing a review of the commissioner's decision by the medical review board established under part <a href="/rules/7410.3000">7410.3000</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.1570.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.06">14.06</a>; <a href="/statutes/cite/171.321">171.321</a>; <a href="/statutes/cite/299A.01">299A.01</a></p>
+  </div>
+  <div class="history" id="rule.7414.1570.history">
+    <h2>History: </h2>
+    <p>22 SR 2343</p>
+  </div>
+  <div class="published" id="rule.7414.1570.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.1600">
+    <h1 class="headnote">7414.1600 FEDERAL COMMERCIAL CARRIER MEDICAL EXAMINATION.</h1>
+    <div id="rule.7414.1600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7414.1600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Exemption. </h2>
+      <p>An applicant for an initial school bus driver's endorsement or for renewal of a school bus driver's endorsement is exempt from parts <a href="/rules/7414.1100">7414.1100</a>, <a href="/rules/7414.1200">7414.1200</a>, <a href="/rules/7414.1300">7414.1300</a>, and <a href="/rules/7414.1400">7414.1400</a>, upon providing evidence of being medically examined and certified within the preceding 24 months as physically qualified to operate a commercial motor vehicle, pursuant to Code of Federal Regulations, title 49, part 391, or Minnesota Statutes, section <a href="/statutes/cite/221.0314">221.0314</a>, incorporating those federal regulations. As evidence of being medically examined and certified, the applicant is required to submit, to the commissioner, the original or photographic copy of the commercial motor carrier physical examination form or the medical examiner's certificate under those federal regulations.</p>
+    </div>
+    <div id="rule.7414.1600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7414.1600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Periodic reexamination. </h2>
+      <p>Each school bus driver is required to take and pass a physical examination every two years in order to retain the school bus driver's endorsement. The two-year reexamination period will start from the examination date of the most recent physical examination form or medical examiner's certificate submitted by a school bus driver under subpart 1. A school bus driver must submit the original or photographic copy of the completed physical examination form or medical examiner's certificate and the processing fee to the commissioner. The processing fee established in Minnesota Statutes, section <a href="/statutes/cite/171.06#stat.171.06.2">171.06, subdivision 2</a>, paragraph (d), must be submitted at the time of application or renewal. Failure to pass the physical examination and submit the physical examination form or medical examiner's certificate will result in cancellation of the school bus driver's endorsement from the commercial driver's license and the CDL holder will be subject to part <a href="/rules/7421.0800">7421.0800</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.1600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/171.09">171.09</a>; <a href="/statutes/cite/171.162">171.162</a>; <a href="/statutes/cite/171.321">171.321</a>; L 2010 c 242 s 10</p>
+  </div>
+  <div class="history" id="rule.7414.1600.history">
+    <h2>History: </h2>
+    <p>19 SR 1131; 36 SR 809</p>
+  </div>
+  <div class="published" id="rule.7414.1600.published">
+    <h2>Published Electronically:</h2>
+    <p> October 7, 2019</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7414.2100">
+    <h1 class="headnote">7414.2100 RENEWAL REQUIREMENTS.</h1>
+    <div id="rule.7414.2100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7414.2100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Written examination. </h2>
+      <p>Every four years a school bus driver applying for the renewal of a driver's license and school bus endorsement shall pass a written examination containing only such material as the commissioner of public safety deems necessary to determine if the licensee is entitled to retain the endorsement previously issued.</p>
+    </div>
+    <div id="rule.7414.2100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7414.2100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Noncompliance. </h2>
+      <p>Failure to comply with any of the requirements of this part shall result in the cancellation or denial of the school bus driver's endorsement.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7414.2100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/171.321">171.321</a></p>
+  </div>
+  <div class="history" id="rule.7414.2100.history">
+    <h2>History: </h2>
+    <p>17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.7414.2100.published">
+    <h2>Published Electronically:</h2>
+    <p> January 3, 2003</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
