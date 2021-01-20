@@ -1,0 +1,2438 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            7514.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/171">Public Safety Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/7514/">Chapter 7514</a>
+            </li>
+        
+    
+        
+            <li>Part 7514.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/7514.0200/">7514.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/7514.0100/2014-01-18%2007:33:46+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 7514</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7514/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7514/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7514/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 7514.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/7514.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.0100">
+    <h1 class="headnote">7514.0100 DEFINITIONS.</h1>
+    <div id="rule.7514.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7514.0100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The terms used in this chapter have the meanings given them in this part.</p>
+    </div>
+    <div id="rule.7514.0100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7514.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Activated by the state. </h2>
+      <p>"Activated by the state" means dispatched via the Minnesota duty officer system for purposes of emergency response or authorized in writing by the commissioner in advance of training exercises.</p>
+    </div>
+    <div id="rule.7514.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7514.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Chemical assessment team. </h2>
+      <p>"Chemical assessment team" has the meaning given it in Minnesota Statutes, section <a href="/statutes/cite/299A.49">299A.49</a>, subdivision 2.</p>
+    </div>
+    <div id="rule.7514.0100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7514.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Commissioner. </h2>
+      <p>"Commissioner" means the Commissioner of the Minnesota Department of Public Safety acting directly or through an authorized agent.</p>
+    </div>
+    <div id="rule.7514.0100.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7514.0100.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Deployment time. </h2>
+      <p>"Deployment time" means the period of time beginning when the decision is made to dispatch a team and ending at the time the complete team begins its response to the scene of the incident.</p>
+    </div>
+    <div id="rule.7514.0100.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7514.0100.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Emergency response team. </h2>
+      <p>"Emergency response team" means a regional hazardous materials response team, as defined in Minnesota Statutes, section <a href="/statutes/cite/299A.49">299A.49</a>, subdivision 7.</p>
+    </div>
+    <div id="rule.7514.0100.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7514.0100.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Employer. </h2>
+      <p>"Employer" has the meaning given it in Minnesota Statutes, section <a href="/statutes/cite/182.651">182.651</a>, subdivision 7.</p>
+    </div>
+    <div id="rule.7514.0100.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7514.0100.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Facility. </h2>
+      <p>Facility" has the meaning given it in Minnesota Statutes, section <a href="/statutes/cite/115E.01">115E.01</a>.</p>
+    </div>
+    <div id="rule.7514.0100.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.7514.0100.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Local authority. </h2>
+      <p>"Local authority" means the local unit of government's public safety agency in overall command at the scene of a hazardous materials incident.</p>
+    </div>
+    <div id="rule.7514.0100.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.7514.0100.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Minnesota duty officer system. </h2>
+      <p>"Minnesota duty officer system" means the single answering point system established under Minnesota Statutes, section <a href="/statutes/cite/115E.09">115E.09</a>.</p>
+    </div>
+    <div id="rule.7514.0100.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.7514.0100.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Minnesota emergency operations plan. </h2>
+      <p>"Minnesota emergency operations plan" means the document that guides state agencies in their response to emergencies and disasters, in accordance with their general responsibilities as assigned in Governor's Executive Order 93-27, and any subsequent revisions to that order.</p>
+    </div>
+    <div id="rule.7514.0100.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.7514.0100.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Minnesota incident management system. </h2>
+      <p>"Minnesota incident management system" means a combination of facilities, equipment, personnel, procedures, and communications operating within a common organizational structure with responsibility for management of assigned resources to effectively accomplish stated objectives at the scene of an incident.</p>
+    </div>
+    <div id="rule.7514.0100.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.7514.0100.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Mitigation. </h2>
+      <p>"Mitigation" means those actions necessary to alleviate the immediate threat from a hazardous materials release.</p>
+    </div>
+    <div id="rule.7514.0100.14" class="subp">
+      <a title="Link to subpart 14" class="permalink" href="#rule.7514.0100.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <h2 class="headnote">Operations authorized by the state. </h2>
+      <p>"Operations authorized by the state" means activities listed in this chapter and the "Minnesota Hazardous Materials Incident Response Act," Minnesota Statutes, sections <a href="/statutes/cite/299A.48">299A.48</a> to <a href="/statutes/cite/299A.52">299A.52</a>, and suggested operating guidelines, including authorized training exercises when a team is operating outside its geographic jurisdiction.</p>
+    </div>
+    <div id="rule.7514.0100.15" class="subp">
+      <a title="Link to subpart 15" class="permalink" href="#rule.7514.0100.15">§</a>
+      <h2 class="subp_no">Subp. 15.</h2>
+      <h2 class="headnote">Primary response area. </h2>
+      <p>"Primary response area" means the geographic portion of the state to which a team has been assigned to provide the principal response to an incident.</p>
+    </div>
+    <div id="rule.7514.0100.16" class="subp">
+      <a title="Link to subpart 16" class="permalink" href="#rule.7514.0100.16">§</a>
+      <h2 class="subp_no">Subp. 16.</h2>
+      <h2 class="headnote">Regional response team program. </h2>
+      <p>"Regional response team program" means the system of regionally located hazardous materials emergency response teams and hazardous materials chemical assessment teams.</p>
+    </div>
+    <div id="rule.7514.0100.17" class="subp">
+      <a title="Link to subpart 17" class="permalink" href="#rule.7514.0100.17">§</a>
+      <h2 class="subp_no">Subp. 17.</h2>
+      <h2 class="headnote">Regional team. </h2>
+      <p>"Regional team" means an emergency response team or chemical assessment team that is part of the regional response team program as defined in subpart 16.</p>
+    </div>
+    <div id="rule.7514.0100.18" class="subp">
+      <a title="Link to subpart 18" class="permalink" href="#rule.7514.0100.18">§</a>
+      <h2 class="subp_no">Subp. 18.</h2>
+      <h2 class="headnote">Response area. </h2>
+      <p>"Response area" means primary or secondary response area as defined in subpart 15 or 21.</p>
+    </div>
+    <div id="rule.7514.0100.19" class="subp">
+      <a title="Link to subpart 19" class="permalink" href="#rule.7514.0100.19">§</a>
+      <h2 class="subp_no">Subp. 19.</h2>
+      <h2 class="headnote">Response time. </h2>
+      <p>"Response time" means the period of time beginning when the decision is made to dispatch a team and ending when the complete team arrives at the scene of the incident.</p>
+    </div>
+    <div id="rule.7514.0100.20" class="subp">
+      <a title="Link to subpart 20" class="permalink" href="#rule.7514.0100.20">§</a>
+      <h2 class="subp_no">Subp. 20.</h2>
+      <h2 class="headnote">Responsible person. </h2>
+      <p>"Responsible person" has the meaning given it in Minnesota Statutes, section <a href="/statutes/cite/299A.52">299A.52</a>, subdivision 1.</p>
+    </div>
+    <div id="rule.7514.0100.21" class="subp">
+      <a title="Link to subpart 21" class="permalink" href="#rule.7514.0100.21">§</a>
+      <h2 class="subp_no">Subp. 21.</h2>
+      <h2 class="headnote">Secondary response area. </h2>
+      <p>"Secondary response area" means the geographic portion of the state to which a team has been assigned to provide the alternate response to an incident.</p>
+    </div>
+    <div id="rule.7514.0100.22" class="subp">
+      <a title="Link to subpart 22" class="permalink" href="#rule.7514.0100.22">§</a>
+      <h2 class="subp_no">Subp. 22.</h2>
+      <h2 class="headnote">Suggested operating guidelines. </h2>
+      <p>"Suggested operating guidelines" means the written guidance covering those aspects of an emergency response that lend themselves to a general direction, yet require flexibility in their application so as to meet the unique circumstances of each individual emergency.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7514.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.0100.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.0200">
+    <h1 class="headnote">7514.0200 PURPOSE.</h1>
+    <p>The purpose of parts <a href="/rules/7514.0100">7514.0100</a> to <a href="/rules/7514.2000">7514.2000</a> is to implement a statewide plan and system for responding to hazardous materials incidents.</p>
+  </div>
+  <div class="stat_auth" id="rule.7514.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.0200.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.0300">
+    <h1 class="headnote">7514.0300 SCOPE.</h1>
+    <p>Parts <a href="/rules/7514.0100">7514.0100</a> to <a href="/rules/7514.2000">7514.2000</a> are intended to provide direction to state and local government and business and industry regarding the implementation of a statewide system of regional hazardous materials emergency response teams and hazardous materials chemical assessment teams. Provisions of this chapter include, but are not limited to, factors to be considered in establishing the response area locations of hazardous materials emergency response teams and hazardous materials chemical assessment teams; requirements for designating teams in each established response area; number and qualifications of team members; procedures for establishing equipment requirements for each team; procedures for selecting and contracting for establishing teams; procedures for dispatching teams at the request of local governments; categories of costs to be used to establish fee schedules for reimbursing teams for costs arising from hazardous materials emergencies and for state recovery of response costs from the person responsible for causing a hazardous materials emergency; and methods of coordinating team response with other state departments and agencies, local units of government, other states, Indian tribes, the federal government, and other nonpublic persons.</p>
+  </div>
+  <div class="stat_auth" id="rule.7514.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.0300.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.0400">
+    <h1 class="headnote">7514.0400 AUTHORITY.</h1>
+    <p>This chapter is adopted pursuant to Minnesota Statutes, section <a href="/statutes/cite/299A.50">299A.50</a>, subdivision 1.</p>
+  </div>
+  <div class="stat_auth" id="rule.7514.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.0400.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.0500">
+    <h1 class="headnote">7514.0500 TEAM RESPONSE AREAS.</h1>
+    <div id="rule.7514.0500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7514.0500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Establishing response areas. </h2>
+      <p>The commissioner shall establish up to five response areas for hazardous materials emergency response based on the factors identified in subpart 2.</p>
+    </div>
+    <div id="rule.7514.0500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7514.0500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Factors for establishing response areas. </h2>
+      <p>The commissioner shall consider the following factors in establishing response areas:</p>
+      <div id="rule.7514.0500.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7514.0500.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the number and geographic location of fixed facilities that manufacture, use, or store hazardous materials, the accidental release of which may pose a threat to public safety or the environment;</p>
+      </div>
+      <div id="rule.7514.0500.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7514.0500.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the number of miles of primary transportation routes including highways, rail lines, commercially navigable waterways, pipelines, and airports;</p>
+      </div>
+      <div id="rule.7514.0500.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7514.0500.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the population of each county as reported by the most recently available United States Census Bureau information;</p>
+      </div>
+      <div id="rule.7514.0500.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7514.0500.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> any special conditions that may be present in a given area of the state, and the need for specialized equipment unique to those conditions that might impact emergency response capability; and</p>
+      </div>
+      <div id="rule.7514.0500.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7514.0500.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> other factors the commissioner considers appropriate, to the extent they may contribute to the potential for a hazardous materials release that could threaten the public safety or the environment and thus merit an emergency response.</p>
+      </div>
+    </div>
+    <div id="rule.7514.0500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7514.0500.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Maximum acceptable response time. </h2>
+      <p>After considering the factors listed in subpart 2, items A to E, the commissioner shall establish a maximum acceptable response time for 90 percent of each primary response area when a team is responding in the primary response area under favorable weather conditions.</p>
+    </div>
+    <div id="rule.7514.0500.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7514.0500.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Assigning primary response areas. </h2>
+      <p>Following completion of the team selection process identified in part <a href="/rules/7514.1500">7514.1500</a>, the commissioner shall select a primary emergency response team for each primary response area.</p>
+    </div>
+    <div id="rule.7514.0500.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7514.0500.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Serving as chemical assessment team. </h2>
+      <p>Each emergency response team shall also serve as a chemical assessment team for all or a portion of its primary response area, as assigned by the commissioner.</p>
+    </div>
+    <div id="rule.7514.0500.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7514.0500.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Designating additional chemical assessment teams. </h2>
+      <p>The commissioner may select additional chemical assessment teams for a response area, as necessary to provide appropriate emergency response capability, in keeping with maximum acceptable response time considerations.</p>
+    </div>
+    <div id="rule.7514.0500.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7514.0500.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Assigning secondary response areas. </h2>
+      <p>The commissioner shall assign a secondary response area to each emergency response team and each chemical assessment team. A team may have more than one secondary response area.</p>
+    </div>
+    <div id="rule.7514.0500.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7514.0500.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Reviewing response area designations. </h2>
+      <p>At least once every two years from August 29, 1994, the commissioner shall review response area boundaries and primary and secondary response area designations. Following the review, the commissioner shall adjust response area boundaries and primary and secondary response area designations as necessary to ensure that the most appropriate response is provided statewide.</p>
+    </div>
+    <div id="rule.7514.0500.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.7514.0500.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Statewide response. </h2>
+      <p>An emergency response team or chemical assessment team shall respond to any response area in the state when directed to do so by the commissioner.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7514.0500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.0500.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.0600">
+    <h1 class="headnote">7514.0600 QUALIFICATIONS OF TEAM MEMBERS.</h1>
+    <div id="rule.7514.0600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7514.0600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Qualifications of all members. </h2>
+      <p>Each emergency response team member and chemical assessment team member must be in compliance with the requirements of Code of Federal Regulations, title 29, section 1910.120, and in substantial compliance with NFPA 472, "Standard for Professional Competence of Responders to Hazardous Materials Incidents," published by the National Fire Protection Association, 1 Batterymarch Park, Quincy, Massachusetts (1992). NFPA 472 is incorporated by reference, is located at the State Law Library, is conveniently available to the public, and is not subject to frequent change.</p>
+    </div>
+    <div id="rule.7514.0600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7514.0600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Medical support team member. </h2>
+      <p>Emergency response team members assigned to provide on-scene emergency medical support to the team must be in compliance with the requirements of Code of Federal Regulations, title 29, section 1910.120, and in substantial compliance with NFPA 473, "Standard for Professional Competencies for EMS Personnel Responding to Hazardous Materials Incidents," published by the National Fire Protection Association, 1 Batterymarch Park, Quincy, Massachusetts (1992), as an Emergency Medical Service/Hazardous Materials Level II Responder. NFPA 473 is incorporated by reference, is located at the State Law Library, is conveniently available to the public, and is not subject to frequent change.</p>
+    </div>
+    <div id="rule.7514.0600.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7514.0600.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Continuing education requirements. </h2>
+      <p>Each emergency response team member and chemical assessment team member shall successfully complete annual refresher training that meets or exceeds the continuing education requirements of Code of Federal Regulations, title 29, section 1910.120.</p>
+    </div>
+    <div id="rule.7514.0600.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7514.0600.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Team training. </h2>
+      <p>Each emergency response team member and chemical assessment team member shall successfully complete the course of instruction designed to familiarize each team member with the suggested operating guidelines and other administrative and operational policies and procedures of the regional response team program identified in part <a href="/rules/7514.0700">7514.0700</a>, subpart 2. A team member must complete this training before being assigned to duty as an emergency response team member or chemical assessment team member.</p>
+    </div>
+    <div id="rule.7514.0600.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7514.0600.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Reviewing training and continuing education records. </h2>
+      <p>Upon request by the commissioner, the employer of emergency response team members and chemical assessment team members shall make available the hazardous materials training and continuing education records of all team members.</p>
+    </div>
+    <div id="rule.7514.0600.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7514.0600.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Certifying compliance with qualification requirements. </h2>
+      <p>The employer of each emergency response team member and chemical assessment team member shall annually certify to the commissioner that the team member has received training that meets the requirements set out in subparts 1 to 4.</p>
+    </div>
+    <div id="rule.7514.0600.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7514.0600.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Certifying compliance with medical requirements. </h2>
+      <p>The employer of each emergency response team member and chemical assessment team member shall annually certify to the commissioner that the team member has met the medical requirements of Code of Federal Regulations, title 29, section 1910.120.</p>
+    </div>
+    <div id="rule.7514.0600.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7514.0600.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Substitution of training requirements. </h2>
+      <p>Upon the request of the employer of emergency response team members and chemical assessment team members, the commissioner shall waive a training requirement specified in this part and replace it with a requirement or standard issued by the Occupational Safety and Health Administration or the National Fire Protection Association when the new requirement or standard replaces, meets, or exceeds the requirement to be replaced.</p>
+    </div>
+    <div id="rule.7514.0600.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.7514.0600.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Reviewing training requirements. </h2>
+      <p>At least once every two years from August 29, 1994, the commissioner shall review the most current Occupational Safety and Health Administration and National Fire Protection Association hazardous materials training requirements and standards. The commissioner shall inform the employer of any modifications from previous requirements and standards to ensure that training provided to team members meets the most current requirements and standards.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7514.0600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.0600.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.0700">
+    <h1 class="headnote">7514.0700 TRAINING PROGRAMS.</h1>
+    <div id="rule.7514.0700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7514.0700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Training provided by employer. </h2>
+      <p>The employer of emergency response team members and chemical assessment team members shall select training programs and instructional staff that are in compliance with the requirements of this chapter and shall provide that training to team members.</p>
+    </div>
+    <div id="rule.7514.0700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7514.0700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Training provided by commissioner. </h2>
+      <p>The commissioner shall develop and provide each emergency response team and chemical assessment team with a course of instruction in applying the suggested operating guidelines of the regional response team program developed under part <a href="/rules/7514.1000">7514.1000</a>, subpart 1, and other administrative and operational policies and procedures of the regional response team program.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7514.0700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.0700.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.0700.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.0800">
+    <h1 class="headnote">7514.0800 COMPOSITION OF TEAMS.</h1>
+    <div id="rule.7514.0800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7514.0800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Composition of emergency response team. </h2>
+      <p>Except as permitted under subpart 2, a hazardous materials emergency response team must be composed of at least 30 qualified members. Twelve members of the team must be available for response at all times. Nine of the 12 members must be available as an emergency response team. Three of the 12 members must be available as a chemical assessment team.</p>
+    </div>
+    <div id="rule.7514.0800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7514.0800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Waiver of minimum composition. </h2>
+      <p>The commissioner shall permit an emergency response team to be composed of fewer than 30 qualified members when the team's employer can prove to the commissioner's satisfaction that 12 members of the team will be available for response at all times.</p>
+    </div>
+    <div id="rule.7514.0800.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7514.0800.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Composition of chemical assessment team. </h2>
+      <p>Except as permitted under subpart 4, a team designated solely as a chemical assessment team must be composed of at least nine qualified members. Three members of the team must be available for response at all times.</p>
+    </div>
+    <div id="rule.7514.0800.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7514.0800.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Waiver of minimum composition. </h2>
+      <p>The commissioner shall permit a chemical assessment team to be composed of fewer than nine qualified members when the team's employer can prove to the commissioner's satisfaction that three members of the team will be available for response at all times.</p>
+    </div>
+    <div id="rule.7514.0800.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7514.0800.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Training required to respond as emergency response team. </h2>
+      <p>The nine members of an emergency response team available to respond as an emergency response team must have the levels of training certification described in items A to C:</p>
+      <div id="rule.7514.0800.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7514.0800.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> At least four members must be certified by the employer at the highest level of hazardous materials training as defined by Code of Federal Regulations, title 29, section 1910.120.</p>
+      </div>
+      <div id="rule.7514.0800.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7514.0800.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The member assigned to provide emergency medical support to the team must be certified by the employer at a minimum of the operations level as defined by Code of Federal Regulations, title 29, section 1910.120, and currently certified or registered as an emergency medical technician by the commissioner of the Minnesota Department of Health, in compliance with Minnesota Statutes, sections <a href="/statutes/cite/144E.001">144E.001</a> to <a href="/statutes/cite/144E.25">144E.25</a> and <a href="/statutes/cite/144E.30">144E.30</a>, and rules adopted pursuant to those sections.</p>
+      </div>
+      <div id="rule.7514.0800.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7514.0800.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The remaining members must be certified by the employer at a minimum of the technician level as defined by Code of Federal Regulations, title 29, section 1910.120.</p>
+      </div>
+    </div>
+    <div id="rule.7514.0800.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7514.0800.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Training required to respond as chemical assessment team. </h2>
+      <p>The three members of a chemical assessment team, or of an emergency response team available for response as a chemical assessment team must have the levels of training certification described in items A and B:</p>
+      <div id="rule.7514.0800.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7514.0800.6.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> At least one member must be certified by the employer at the highest level of hazardous materials training as defined by Code of Federal Regulations, title 29, section 1910.120.</p>
+      </div>
+      <div id="rule.7514.0800.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7514.0800.6.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The remaining members must be certified by the employer at a minimum of the technician level as defined by Code of Federal Regulations, title 29, section 1910.120.</p>
+      </div>
+    </div>
+    <div id="rule.7514.0800.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7514.0800.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Composition of team membership. </h2>
+      <p>Emergency response teams and chemical assessment teams may be composed of personnel from one or more public or nonpublic entities. Teams must designate a single point of contact for purposes of emergency dispatch, a single authority for contract administration, and the employer responsible for the employer requirements of this chapter.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7514.0800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.0800.history">
+    <h2>History: </h2>
+    <p>19 SR 450; L 1997 c 199 s 14</p>
+  </div>
+  <div class="published" id="rule.7514.0800.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.0900">
+    <h1 class="headnote">7514.0900 RESPONSIBILITIES OF TEAMS.</h1>
+    <div id="rule.7514.0900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7514.0900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Response at commissioner's direction. </h2>
+      <p>An emergency response team and a chemical assessment team shall respond when directed by the commissioner to do so.</p>
+    </div>
+    <div id="rule.7514.0900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7514.0900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Primary responsibilities of emergency response team. </h2>
+      <p>As its primary responsibility, an emergency response team shall assist local authorities by taking emergency actions necessary to protect life, property, and the environment from the effects of a release of a hazardous material. These emergency actions include, but are not limited to, preventing the release, mitigating the effects of the release, and stabilizing the emergency situation.</p>
+    </div>
+    <div id="rule.7514.0900.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7514.0900.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Primary responsibilities of chemical assessment team. </h2>
+      <p>As its primary responsibility, a chemical assessment team shall assist local authorities by providing technical advice to local incident commanders, and recommending mitigation actions necessary to protect life, property, and the environment that are in keeping with locally available levels of hazardous materials training and response capability.</p>
+    </div>
+    <div id="rule.7514.0900.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7514.0900.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Additional responsibilities of chemical assessment teams. </h2>
+      <p>A chemical assessment team shall assist an emergency response team by responding, in conjunction with the emergency response team, to assess an incident, develop and recommend mitigation strategies, and assist with response operations.</p>
+    </div>
+    <div id="rule.7514.0900.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7514.0900.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Support of clean-up operations. </h2>
+      <p>Subject to subpart 6, item A, and when requested by the incident commander, an emergency response team and a chemical assessment team may remain at the scene of a hazardous materials incident to provide support to local authorities monitoring clean-up activities conducted by local, state, or federal agencies or the responsible person, for the purpose of ensuring public safety. The team leader will decide whether the team will remain. A team is not obligated to remain. If a team does remain, its costs are recoverable costs.</p>
+    </div>
+    <div id="rule.7514.0900.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7514.0900.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Prohibited actions. </h2>
+      <p>An emergency response team and a chemical assessment team shall not:</p>
+      <div id="rule.7514.0900.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7514.0900.6.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> transport, store, dispose of, or perform remedial clean-up of hazardous materials, except as may be incidentally necessary to mitigate an emergency;</p>
+      </div>
+      <div id="rule.7514.0900.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7514.0900.6.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> assume overall command of the hazardous materials emergency; or</p>
+      </div>
+      <div id="rule.7514.0900.6.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7514.0900.6.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> mitigate incidents involving explosives, explosive devices, incendiary devices, shock-sensitive explosive chemicals, or clandestine drug labs, except to respond to the effects of a hazardous materials release that might occur as a consequence of these incidents or to provide technical assistance in support of the local authority.</p>
+      </div>
+    </div>
+    <div id="rule.7514.0900.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7514.0900.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Reporting and documentation. </h2>
+      <p>An emergency response team and a chemical assessment team shall submit to the commissioner a detailed report of its response to an incident. The report must be prepared in a manner and form prescribed by the commissioner and, at the minimum, must include:</p>
+      <div id="rule.7514.0900.7.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7514.0900.7.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> a list of all equipment used and personnel who responded;</p>
+      </div>
+      <div id="rule.7514.0900.7.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7514.0900.7.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> a description of all emergency actions taken;</p>
+      </div>
+      <div id="rule.7514.0900.7.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7514.0900.7.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> a copy of the site safety plans developed during the response; and</p>
+      </div>
+      <div id="rule.7514.0900.7.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7514.0900.7.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> completed cost recovery forms.</p>
+      </div>
+    </div>
+    <div id="rule.7514.0900.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7514.0900.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Notification upon completion of response. </h2>
+      <p>When an emergency response team or chemical assessment team has completed its response to an incident, the team leader, acting on behalf of the commissioner, shall notify the commissioner of the Pollution Control Agency as required under Minnesota Statutes, section <a href="/statutes/cite/299A.50">299A.50</a>, subdivision 3. The commissioner of agriculture must also be notified for incidents where the Department of Agriculture has jurisdiction.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7514.0900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.0900.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.0900.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.1000">
+    <h1 class="headnote">7514.1000 ESTABLISHMENT OF SUGGESTED OPERATING GUIDELINES.</h1>
+    <div id="rule.7514.1000.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7514.1000.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Initial guidelines. </h2>
+      <p>Before implementing the team program, the commissioner shall establish suggested operating guidelines that will guide the response actions of emergency response teams and chemical assessment teams. The guidelines must comply with the requirements of Code of Federal Regulations, title 29, section 1910.120, and substantially comply with the requirements of NFPA 471, "Recommended Practice for Responding to Hazardous Materials Incidents," published by the National Fire Protection Association, 1 Batterymarch Park, Quincy, Massachusetts (1992). NFPA 471 is incorporated by reference, is located at the State Law Library, is conveniently available to the public, and is not subject to frequent change.</p>
+    </div>
+    <div id="rule.7514.1000.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7514.1000.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Review and revision. </h2>
+      <p>At least annually, the commissioner shall review and, when necessary, revise the suggested operating guidelines established under subpart 1.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7514.1000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.1000.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.1000.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.1100">
+    <h1 class="headnote">7514.1100 EMERGENCY PREPLANNING.</h1>
+    <div id="rule.7514.1100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7514.1100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">State agency. </h2>
+      <p>Upon a request by the commissioner, a state agency shall give the commissioner hazardous materials storage information that the agency has collected from regulated facilities. The commissioner shall make a request under this subpart when the request is initiated by a team. The commissioner may direct the agency to give the information directly to the appropriate team or teams. This subpart does not apply if the agency is prohibited from disclosing this information by federal or state law.</p>
+    </div>
+    <div id="rule.7514.1100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7514.1100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Local government. </h2>
+      <p>Upon a request by the commissioner, a local emergency response agency shall give the commissioner information necessary to support a team response to an incident within the agency's jurisdiction. The commissioner shall make a request under this subpart when the request is initiated by a team. The commissioner may direct the agency to give the information directly to the appropriate team or teams. Information that may be requested by the team includes:</p>
+      <div id="rule.7514.1100.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7514.1100.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> copies of any facility preplans prepared at the discretion of the agency;</p>
+      </div>
+      <div id="rule.7514.1100.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7514.1100.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> a copy of the agency's hazardous materials emergency response plan prepared in accordance with Code of Federal Regulations, title 29, section 1910.120;</p>
+      </div>
+      <div id="rule.7514.1100.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7514.1100.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> a statement describing the agency's level of hazardous materials training;</p>
+      </div>
+      <div id="rule.7514.1100.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7514.1100.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> resources available locally to support hazardous materials response actions; and</p>
+      </div>
+      <div id="rule.7514.1100.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7514.1100.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> any other information reasonably needed by the teams.</p>
+      </div>
+    </div>
+    <div id="rule.7514.1100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7514.1100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Facility. </h2>
+      <p>Upon a request by the commissioner, a facility required to prepare a spill prevention and response plan under Minnesota Statutes, section <a href="/statutes/cite/115E.04">115E.04</a>, shall give a copy of the plan to the commissioner. The commissioner shall make a request under this subpart when the request is initiated by a team. The commissioner may direct the facility to give the information directly to the appropriate team or teams.</p>
+    </div>
+    <div id="rule.7514.1100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7514.1100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Disseminating information to teams. </h2>
+      <p>The commissioner shall give information collected under subparts 1 to 3 to any team that requests the information. When the commissioner gives the information collected under subpart 3 to a team, the commissioner shall provide the facility with the name and address of each team the information has been given to. A team may not distribute the information collected under subpart 3 without informing the facility from which the information was obtained.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7514.1100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.1100.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.1100.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.1200">
+    <h1 class="headnote">7514.1200 EMERGENCY RESPONSE ASSISTANCE.</h1>
+    <p>Emergency response teams and chemical assessment teams are authorized to secure for use during an emergency response any technical assistance or specialized equipment necessary to safely and properly respond to an incident. When the incident involves explosives, explosive devices, incendiary devices, or shock-sensitive explosive chemicals, the teams must first request assistance from a Minnesota Department of Public Safety-authorized bomb squad. The cost of this assistance and equipment will be considered an actual cost of the team's response, recoverable from the responsible party.</p>
+  </div>
+  <div class="stat_auth" id="rule.7514.1200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.1200.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.1200.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.1300">
+    <h1 class="headnote">7514.1300 REVIEW AND EVALUATION OF RESPONSE.</h1>
+    <p>An emergency response team or chemical assessment team shall conduct an evaluation of a response to an incident within 30 days after termination of the team's response. The team shall give all public and private agencies involved in the response the opportunity to participate in the evaluation. The team shall prepare a written report following completion of the evaluation, a copy of which must be provided to the commissioner within 15 days of the date the evaluation is completed.</p>
+  </div>
+  <div class="stat_auth" id="rule.7514.1300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.1300.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.1300.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.1400">
+    <h1 class="headnote">7514.1400 SUPPLIES, EQUIPMENT, AND VEHICLES.</h1>
+    <div id="rule.7514.1400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7514.1400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Equipment for emergency response teams. </h2>
+      <p>An emergency response team must have immediate access to the following general categories of supplies and equipment in suitable quantities to respond to anticipated hazardous materials incidents:</p>
+      <div id="rule.7514.1400.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7514.1400.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> chemical reference and emergency response manuals;</p>
+      </div>
+      <div id="rule.7514.1400.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7514.1400.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> personal protective equipment;</p>
+      </div>
+      <div id="rule.7514.1400.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7514.1400.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> leak-control supplies and equipment;</p>
+      </div>
+      <div id="rule.7514.1400.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7514.1400.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> radio and other forms of communications equipment;</p>
+      </div>
+      <div id="rule.7514.1400.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7514.1400.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> computer equipment and supporting software;</p>
+      </div>
+      <div id="rule.7514.1400.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7514.1400.1.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> monitoring and detection equipment;</p>
+      </div>
+      <div id="rule.7514.1400.1.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.7514.1400.1.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> basic suppression equipment;</p>
+      </div>
+      <div id="rule.7514.1400.1.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.7514.1400.1.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> spill containment supplies and equipment,</p>
+      </div>
+      <div id="rule.7514.1400.1.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.7514.1400.1.I">§</a>
+        <h3 class="item_no">I.</h3>
+        <p> assorted nonsparking hand tools;</p>
+      </div>
+      <div id="rule.7514.1400.1.J" class="item">
+        <a title="Link to item J" class="permalink" href="#rule.7514.1400.1.J">§</a>
+        <h3 class="item_no">J.</h3>
+        <p> basic first aid supplies; and</p>
+      </div>
+      <div id="rule.7514.1400.1.K" class="item">
+        <a title="Link to item K" class="permalink" href="#rule.7514.1400.1.K">§</a>
+        <h3 class="item_no">K.</h3>
+        <p> miscellaneous incident management and administrative supplies and equipment.</p>
+      </div>
+    </div>
+    <div id="rule.7514.1400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7514.1400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Equipment for chemical assessment teams. </h2>
+      <p>A chemical assessment team must have immediate access to the following general categories of supplies and equipment in suitable quantities to respond to anticipated hazardous materials incidents:</p>
+      <div id="rule.7514.1400.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7514.1400.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> chemical reference and emergency response manuals;</p>
+      </div>
+      <div id="rule.7514.1400.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7514.1400.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> decontamination equipment;</p>
+      </div>
+      <div id="rule.7514.1400.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7514.1400.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> personal protective equipment;</p>
+      </div>
+      <div id="rule.7514.1400.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7514.1400.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> radio and other forms of communications equipment;</p>
+      </div>
+      <div id="rule.7514.1400.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7514.1400.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> computer equipment and supporting software;</p>
+      </div>
+      <div id="rule.7514.1400.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7514.1400.2.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> monitoring and detection equipment; and</p>
+      </div>
+      <div id="rule.7514.1400.2.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.7514.1400.2.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> miscellaneous incident management and administrative supplies and equipment.</p>
+      </div>
+    </div>
+    <div id="rule.7514.1400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7514.1400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Emergency response vehicle requirements. </h2>
+      <p>Hazardous materials emergency response vehicles used by a team must be of sufficient size and capacity to safely transport team personnel with properly stowed equipment and supplies to the scene of a hazardous materials incident under reasonably anticipated travel conditions.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7514.1400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.1400.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.1400.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.1500">
+    <h1 class="headnote">7514.1500 SELECTION OF TEAMS.</h1>
+    <div id="rule.7514.1500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7514.1500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Request for proposal to provide contract services. </h2>
+      <p>The commissioner shall issue a request for proposal in the form and manner established by the Minnesota Department of Administration to provide contract service as an emergency response team or chemical assessment team. Requests for proposal shall be issued as necessary to provide for the needs of the team program.</p>
+    </div>
+    <div id="rule.7514.1500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7514.1500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Proposal evaluation. </h2>
+      <p>The commissioner shall establish an evaluation committee consisting of at least five technically qualified individuals. The committee shall evaluate all proposals received on the basis of the criteria set out in subpart 4, with emphasis placed on the quality of the proposer's response capability. After the evaluation, the committee shall recommend proposals to the commissioner for designation as service providers.</p>
+    </div>
+    <div id="rule.7514.1500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7514.1500.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Conflict of interest. </h2>
+      <p>Members of the evaluation committee must not have any direct financial interest between any aspect of the team program and any respondent to the request for proposals.</p>
+    </div>
+    <div id="rule.7514.1500.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7514.1500.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Proposal evaluation criteria. </h2>
+      <p>Proposals received in response to the request for proposal must be evaluated based upon, but not limited to, the following criteria:</p>
+      <div id="rule.7514.1500.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7514.1500.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the number and qualifications of each member of the team;</p>
+      </div>
+      <div id="rule.7514.1500.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7514.1500.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> a plan for maintenance of minimum required levels of staffing;</p>
+      </div>
+      <div id="rule.7514.1500.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7514.1500.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the location of the proposed team within the designated primary response area, including response time considerations such as access to major transportation routes, and geographic and other physical barriers to a response;</p>
+      </div>
+      <div id="rule.7514.1500.4.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7514.1500.4.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> hazardous materials emergency response supplies and equipment, including vehicles, and personnel resources immediately available to the team, whether owned, leased, or available by arrangement;</p>
+      </div>
+      <div id="rule.7514.1500.4.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7514.1500.4.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> hazardous materials emergency response experience, including the length of time the team has been in existence and the number and variety of actual responses made;</p>
+      </div>
+      <div id="rule.7514.1500.4.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7514.1500.4.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> existing and proposed training and exercise programs;</p>
+      </div>
+      <div id="rule.7514.1500.4.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.7514.1500.4.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> the length of time necessary for further development to bring the team to the point where it will be ready to respond;</p>
+      </div>
+      <div id="rule.7514.1500.4.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.7514.1500.4.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> the estimated actual costs of team response; and</p>
+      </div>
+      <div id="rule.7514.1500.4.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.7514.1500.4.I">§</a>
+        <h3 class="item_no">I.</h3>
+        <p> the estimated period of time necessary for the deployment of the team.</p>
+      </div>
+    </div>
+    <div id="rule.7514.1500.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7514.1500.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Award of contracts for provision of service. </h2>
+      <p>Emergency response teams and chemical assessment teams will operate under contract with the state of Minnesota, in accordance with Minnesota Statutes, sections <a href="/statutes/cite/15.061">15.061</a> and <a href="/statutes/cite/299A.50">299A.50</a>, subdivisions 1 and 2.</p>
+    </div>
+    <div id="rule.7514.1500.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7514.1500.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Term of contract for services. </h2>
+      <p>A contract for service may be executed for a period of up to five years.</p>
+    </div>
+    <div id="rule.7514.1500.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7514.1500.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Contractor compensation. </h2>
+      <p>Contractor compensation must include an annual amount for the term of the contract, subject to negotiations between the contractor and the state and budget appropriations by the state legislature. The contractor's proposal, submitted in response to the commissioner's request for proposal described in subpart 1, must identify the amount of compensation requested for each of the following:</p>
+      <div id="rule.7514.1500.7.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7514.1500.7.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the cost of capital equipment including vehicles;</p>
+      </div>
+      <div id="rule.7514.1500.7.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7514.1500.7.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the annual cost of training team personnel;</p>
+      </div>
+      <div id="rule.7514.1500.7.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7514.1500.7.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the cost of annual medical examinations for team personnel;</p>
+      </div>
+      <div id="rule.7514.1500.7.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7514.1500.7.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> the initial cost of consumable supplies;</p>
+      </div>
+      <div id="rule.7514.1500.7.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7514.1500.7.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> program administration costs; and</p>
+      </div>
+      <div id="rule.7514.1500.7.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7514.1500.7.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> equipment maintenance costs.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7514.1500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.1500.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.1500.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.1600">
+    <h1 class="headnote">7514.1600 EMERGENCY RESPONSE CRITERIA AND DISPATCHING.</h1>
+    <div id="rule.7514.1600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7514.1600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Emergency response. </h2>
+      <p>An emergency response authorized by the commissioner may include technical assistance provided by a team via telephone and other means of communication or the deployment of team personnel and equipment to the scene of a hazardous materials incident.</p>
+    </div>
+    <div id="rule.7514.1600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7514.1600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Criteria for authorizing emergency response. </h2>
+      <p>Except as provided in subparts 3 and 4, the commissioner shall use the provisions of this subpart to determine whether to authorize a team response. The commissioner shall authorize a team response when all the following criteria are met:</p>
+      <div id="rule.7514.1600.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7514.1600.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> there is a release or potential release from a transportation incident or fixed facility;</p>
+      </div>
+      <div id="rule.7514.1600.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7514.1600.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the release presents an actual or potential threat to public safety or the environment;</p>
+      </div>
+      <div id="rule.7514.1600.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7514.1600.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> local emergency response personnel have been dispatched, are on the scene, and have made an initial assessment of the incident;</p>
+      </div>
+      <div id="rule.7514.1600.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7514.1600.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> local authorities have determined that the response needs of the incident exceed local capabilities; and</p>
+      </div>
+      <div id="rule.7514.1600.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7514.1600.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> local authorities have requested a team response.</p>
+      </div>
+    </div>
+    <div id="rule.7514.1600.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7514.1600.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Alternate response criteria. </h2>
+      <p>The commissioner shall authorize a team response when the commissioner considers the response to be necessary to protect life, property, and the environment from the effects or potential effects of a hazardous materials release.</p>
+    </div>
+    <div id="rule.7514.1600.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7514.1600.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Special response criteria. </h2>
+      <p>The commissioner shall authorize an emergency response team or a chemical assessment team response to provide standby technical assistance in support of a bomb squad response when the commissioner considers it necessary. A response under this subpart is limited to incidents involving explosives, explosive devices, incendiary devices, shock-sensitive explosive chemicals, or a law enforcement agency response to clandestine drug lab incidents. When a team responds, its costs are recoverable costs.</p>
+    </div>
+    <div id="rule.7514.1600.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7514.1600.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Authority to request team response. </h2>
+      <p>Authority to request the response of an emergency response team and a chemical assessment team resides with local authorities whose jurisdiction includes the scene of the hazardous materials incident.</p>
+    </div>
+    <div id="rule.7514.1600.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7514.1600.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Procedure for requesting team. </h2>
+      <p>The Minnesota duty officer system is the point of contact for requesting a response by an emergency response team or a chemical assessment team.</p>
+    </div>
+    <div id="rule.7514.1600.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7514.1600.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Canceling response en route to incident. </h2>
+      <p>Team response may be canceled en route to an incident only by the local authority that initially requested the response.</p>
+    </div>
+    <div id="rule.7514.1600.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.7514.1600.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Terminating team response actions for safety reasons. </h2>
+      <p>The team may terminate response actions at an incident without direction from the incident commander when the team leader or safety officer determines that the ordered response actions would place team personnel in imminent danger.</p>
+    </div>
+    <div id="rule.7514.1600.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.7514.1600.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Terminating team response at conclusion of incident. </h2>
+      <p>Team response may be terminated at an incident upon the direction of the local incident commander, or as provided in subpart 8 or part <a href="/rules/7514.0900">7514.0900</a>, subpart 5.</p>
+    </div>
+    <div id="rule.7514.1600.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.7514.1600.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Deployment time. </h2>
+      <p>The average deployment time for emergency response teams and chemical assessment teams must not exceed 15 minutes.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7514.1600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.1600.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.1600.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.1700">
+    <h1 class="headnote">7514.1700 COST RECOVERY.</h1>
+    <div id="rule.7514.1700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7514.1700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Submitting claim for team response costs. </h2>
+      <p>Regional teams shall submit to the commissioner claims for reimbursement of reasonable and necessary costs incurred as a result of a response in the manner and form identified in part <a href="/rules/7514.0900">7514.0900</a>, subpart 7.</p>
+    </div>
+    <div id="rule.7514.1700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7514.1700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Team response costs; payment and recovery. </h2>
+      <p>The state shall reimburse regional teams for reasonable and necessary costs of a response after receipt of a properly filed claim. The state shall recover the team's costs, and the state's legal and additional court costs, from the responsible person.</p>
+    </div>
+    <div id="rule.7514.1700.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7514.1700.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Team response costs eligible for recovery. </h2>
+      <p>Reasonable and necessary team response costs associated with an actual response by a team may be recovered by the team from the state and by the state from the responsible person. Costs eligible for recovery include:</p>
+      <div id="rule.7514.1700.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7514.1700.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> team personnel costs;</p>
+      </div>
+      <div id="rule.7514.1700.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7514.1700.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> additional wage costs for local callback personnel;</p>
+      </div>
+      <div id="rule.7514.1700.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.7514.1700.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> vehicle operating costs;</p>
+      </div>
+      <div id="rule.7514.1700.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.7514.1700.3.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> cost of consumable supplies used;</p>
+      </div>
+      <div id="rule.7514.1700.3.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.7514.1700.3.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> repair or replacement of damaged or destroyed capital equipment;</p>
+      </div>
+      <div id="rule.7514.1700.3.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.7514.1700.3.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> communications costs, including long distance and cellular telephone charges;</p>
+      </div>
+      <div id="rule.7514.1700.3.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.7514.1700.3.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> administrative costs;</p>
+      </div>
+      <div id="rule.7514.1700.3.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.7514.1700.3.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> cost incurred in the use of specialized equipment as provided in part <a href="/rules/7514.1200">7514.1200</a>;</p>
+      </div>
+      <div id="rule.7514.1700.3.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.7514.1700.3.I">§</a>
+        <h3 class="item_no">I.</h3>
+        <p> cost incurred in the use of special technical assistance as provided in part <a href="/rules/7514.1200">7514.1200</a>;</p>
+      </div>
+      <div id="rule.7514.1700.3.J" class="item">
+        <a title="Link to item J" class="permalink" href="#rule.7514.1700.3.J">§</a>
+        <h3 class="item_no">J.</h3>
+        <p> costs associated with providing support to clean-up operations when requested in accordance with part <a href="/rules/7514.0900">7514.0900</a>, subpart 5;</p>
+      </div>
+      <div id="rule.7514.1700.3.K" class="item">
+        <a title="Link to item K" class="permalink" href="#rule.7514.1700.3.K">§</a>
+        <h3 class="item_no">K.</h3>
+        <p> costs associated with providing standby technical assistance when requested in accordance with part <a href="/rules/7514.1600">7514.1600</a>, subpart 4; and</p>
+      </div>
+      <div id="rule.7514.1700.3.L" class="item">
+        <a title="Link to item L" class="permalink" href="#rule.7514.1700.3.L">§</a>
+        <h3 class="item_no">L.</h3>
+        <p> other direct costs incurred by the team as a result of the response.</p>
+      </div>
+    </div>
+    <div id="rule.7514.1700.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7514.1700.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Billing responsible person for costs. </h2>
+      <p>The commissioner shall bill the responsible person for eligible response costs after receipt of a properly filed claim. If the responsible person fails to pay the bill in full within 30 days of its issuance, the commissioner shall issue subsequent billings. Billings must include interest, at the judgment rate currently charged by the state, per month on the unpaid balance. If payment in full is not made within 60 days of the issuance of the first bill, the commissioner:</p>
+      <div id="rule.7514.1700.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.7514.1700.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> shall contact the responsible person in an attempt to resolve the claim; and</p>
+      </div>
+      <div id="rule.7514.1700.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.7514.1700.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> may bring legal action to recover any unpaid balance.</p>
+      </div>
+    </div>
+    <div id="rule.7514.1700.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7514.1700.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Right to appeal costs billed. </h2>
+      <p>A responsible person that disagrees with a billing for response costs may file a written appeal with the commissioner. The appeal must be filed within 30 days of the billing. The written appeal must clearly state what portions of the billing are being appealed and the basis of the appeal. The commissioner shall review each appeal and issue a written determination within a reasonable time affirming, amending, or rescinding the disputed costs. A responsible person may withhold the amount of the billing in dispute while an appeal is pending. The responsible person must not be assessed interest on the disputed amount while the appeal is in process, unless the commissioner determines that the appeal is solely for the purpose of delay. Any person aggrieved by a decision made by the commissioner under this subpart may proceed before the commissioner as with a contested case in accordance with the Administrative Procedure Act.</p>
+    </div>
+    <div id="rule.7514.1700.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7514.1700.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Costs not eligible for payment or recovery by commissioner. </h2>
+      <p>The commissioner shall not pay or recover from the responsible person response costs incurred by the local jurisdiction that requested the response of a regional team.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7514.1700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.1700.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.1700.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.1800">
+    <h1 class="headnote">7514.1800 COORDINATING RESPONSE ACTIVITIES.</h1>
+    <div id="rule.7514.1800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.7514.1800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Incident management system. </h2>
+      <p>The team leader shall coordinate the on-scene emergency response operations of the teams with local, state, and federal agencies, Indian tribes, and private response organizations through the Minnesota incident management system.</p>
+    </div>
+    <div id="rule.7514.1800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.7514.1800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Coordination with local authorities. </h2>
+      <p>A local authority shall provide assistance to team operations in the authority's jurisdiction, which are necessary to the response and in keeping with local emergency operations plans, local emergency response plans, and the level of hazardous materials training required of the authority by the Occupational Safety and Health Administration.</p>
+    </div>
+    <div id="rule.7514.1800.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.7514.1800.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Coordination with state agencies. </h2>
+      <p>A state agency shall provide assistance to team operations that is necessary to the response and is in keeping with the agency's role as identified in Governor's Executive Order 93-27, "Assigning Emergency Responsibilities to State Agencies," and any future orders replacing or revising this order, and implemented by the Minnesota emergency operations plan.</p>
+    </div>
+    <div id="rule.7514.1800.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.7514.1800.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Coordination with responsible person. </h2>
+      <p>A responsible person shall provide assistance to team operations that is necessary to the response, upon a request by the incident commander or team leader, in keeping with the responsible person's level of training and emergency response plans.</p>
+    </div>
+    <div id="rule.7514.1800.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.7514.1800.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Coordination with other states and federal government. </h2>
+      <p>The emergency response actions of the teams must be coordinated with those of federal agencies and other states in accordance with the emergency response plans authorized by United States Code, title 42, section 9605, National Contingency Plan, as amended; United States Code, title 33, section 311(c)(2), Clean Water Act, as amended; and United States Code, title 33, section 2701, Oil Pollution Act of 1990.</p>
+    </div>
+    <div id="rule.7514.1800.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.7514.1800.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Coordination with Indian tribes. </h2>
+      <p>Subject to negotiations with Indian tribes located in the state of Minnesota, the commissioner shall enter into agreements with the tribes as necessary and appropriate to establish procedures for team response to incidents occurring on tribal lands.</p>
+    </div>
+    <div id="rule.7514.1800.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.7514.1800.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Coordination of team operations. </h2>
+      <p>The commissioner, in consultation with the state fire marshal and director of the Division of Emergency Management, shall develop and implement a management plan that identifies the primary and support responsibilities of each, and clear lines of accountability.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.7514.1800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.1800.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.1800.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.1900">
+    <h1 class="headnote">7514.1900 MUTUAL AID AGREEMENTS.</h1>
+    <p>The commissioner may enter into mutual aid agreements with federal agencies, other states, and Indian tribes for the purpose of supporting the hazardous materials response of either jurisdiction, as provided in Minnesota Statutes, section <a href="/statutes/cite/299A.50">299A.50</a>, subdivision 2.</p>
+  </div>
+  <div class="stat_auth" id="rule.7514.1900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.1900.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.1900.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.7514.2000">
+    <h1 class="headnote">7514.2000 LIABILITY AND WORKERS' COMPENSATION COVERAGE.</h1>
+    <p>For the purposes of Minnesota Statutes, chapter 176, and section <a href="/statutes/cite/3.736">3.736</a>, coverage is initiated once a team is activated by the state, for operations authorized by the state, and the team is outside its geographic jurisdiction.</p>
+  </div>
+  <div class="stat_auth" id="rule.7514.2000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/299A.50">299A.50</a></p>
+  </div>
+  <div class="history" id="rule.7514.2000.history">
+    <h2>History: </h2>
+    <p>19 SR 450</p>
+  </div>
+  <div class="published" id="rule.7514.2000.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
