@@ -1,0 +1,2581 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            6234.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/158">Natural Resources Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/6234/">Chapter 6234</a>
+            </li>
+        
+    
+        
+            <li>Part 6234.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/6234.0200/">6234.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/6234.0100/2014-01-18%2006:50:32+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 6234</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6234/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6234/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6234/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 6234.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6234.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.0100">
+    <h1 class="headnote">6234.0100 GENERAL RESTRICTIONS FOR TAKING SMALL GAME.</h1>
+    <div id="rule.6234.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.0100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Use of handguns. </h2>
+      <p>All species of small game which may lawfully be taken with a rifle may also be taken with a handgun, subject to the same caliber restrictions that apply to rifles.</p>
+    </div>
+    <div id="rule.6234.0100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Unattended electronic devices prohibited. </h2>
+      <p>A person may not use an unattended electronic device for the purpose of taking small game, except game birds.</p>
+    </div>
+    <div id="rule.6234.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Wounded game included in bag limit. </h2>
+      <p>Wounded or captured game reduced to possession must be killed before being removed from the site where taken, and once reduced to possession must be included in a person's daily bag limit.</p>
+    </div>
+    <div id="rule.6234.0100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6234.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <p>[Repealed, L 2008 c 368 art 2 s 82]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.031">97B.031</a>; <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.711">97B.711</a>; <a href="/statutes/cite/97B.911">97B.911</a>; <a href="/statutes/cite/97B.915">97B.915</a>; <a href="/statutes/cite/97B.921">97B.921</a>; <a href="/statutes/cite/97B.924">97B.924</a>; <a href="/statutes/cite/97B.925">97B.925</a>; and others at 19 SR 6</p>
+  </div>
+  <div class="history" id="rule.6234.0100.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 19 SR 484; 23 SR 299; L 2008 c 368 art 2 s 82</p>
+  </div>
+  <div class="published" id="rule.6234.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> September 4, 2008</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.0200">
+    <h1 class="headnote">6234.0200 TAKING RUFFED GROUSE AND SPRUCE GROUSE.</h1>
+    <div id="rule.6234.0200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.0200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Open season. </h2>
+      <p>Ruffed grouse and spruce grouse may be taken by firearm or bow and arrow from the Saturday on or nearest September 16 to January 1, except when January 1 is a Thursday, Friday, or Saturday, the season closes the following Sunday.</p>
+    </div>
+    <div id="rule.6234.0200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.0200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Bag limit. </h2>
+      <p>A person may not take more than an aggregate of five ruffed grouse and spruce grouse per day or possess an aggregate of more than ten ruffed grouse and spruce grouse at a time.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.045">97A.045</a>; <a href="/statutes/cite/97B.711">97B.711</a>; and others at 19 SR 6</p>
+  </div>
+  <div class="history" id="rule.6234.0200.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 19 SR 484; 19 SR 2222; 34 SR 621</p>
+  </div>
+  <div class="published" id="rule.6234.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> November 19, 2009</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.0300">
+    <h1 class="headnote">6234.0300 TAKING SHARP-TAILED GROUSE.</h1>
+    <div id="rule.6234.0300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.0300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Bag limits. </h2>
+      <p>A person may not take more than three sharp-tailed grouse per day or possess more than six sharp-tailed grouse at a time.</p>
+    </div>
+    <div id="rule.6234.0300.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.0300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Open area. </h2>
+      <p>The open area to take sharp-tailed grouse is statewide except in that portion of the state lying within the following described boundary:</p>
+      <p class="bi1">Beginning on U.S. Highway 2 at the west boundary of the state; thence along U.S. Highway 2 to U.S. Highway 71; thence northeast along U.S. Highway 71 to State Trunk Highway (STH) 1; thence east along STH 1 to STH 73; thence south along STH 73 to U.S. Highway 2; thence west on U.S. Highway 2 to STH 200; thence west on STH 200 to STH 6; thence south on STH 6 to STH 18; thence east on STH 18 to STH 65; thence south on STH 65 to STH 70; thence east on STH 70 to the east boundary of the state; thence along the east, south, and west boundary of the state to the point of beginning.</p>
+      <p>In addition, a person with a valid prairie chicken license may take sharp-tailed grouse in an open prairie chicken permit area where the person is licensed to take prairie chickens during the time the license is valid. The taking of sharp-tailed grouse by a licensed prairie chicken hunter is subject to all other restrictions for taking sharp-tailed grouse and the person must meet small game hunting license requirements to take sharp-tailed grouse.</p>
+    </div>
+    <div id="rule.6234.0300.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.0300.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Open season. </h2>
+      <p>Sharp-tailed grouse may be taken by firearm or bow and arrow from the Saturday on or nearest September 16 to November 30.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.711">97B.711</a>; and others at 19 SR 6</p>
+  </div>
+  <div class="history" id="rule.6234.0300.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 19 SR 484; 30 SR 613</p>
+  </div>
+  <div class="published" id="rule.6234.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.0400">
+    <h1 class="headnote">6234.0400 TAKING PHEASANTS.</h1>
+    <div id="rule.6234.0400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.0400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Open season. </h2>
+      <p>Only cock (male) pheasants may be taken by firearm or bow and arrow from the Saturday on or nearest October 13 to January 1, except when January 1 is a Thursday, Friday, or Saturday, the season closes the following Sunday. Shooting hours are from 9:00 a.m. to sunset each day.</p>
+    </div>
+    <div id="rule.6234.0400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.0400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Bag limit. </h2>
+      <p>From the first day of the pheasant season until November 30, a person may not take more than two cock pheasants per day or possess more than six cock pheasants at a time. From December 1 until the last day of the pheasant season, a person may not take more than three cock pheasants per day or possess more than nine cock pheasants at a time.</p>
+    </div>
+    <div id="rule.6234.0400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.0400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Firearm restriction. </h2>
+      <p>A person may not take pheasants with a rifle or handgun other than a .22 caliber rimfire using short, long, or long rifle ammunition.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.711">97B.711</a>; <a href="/statutes/cite/97B.715">97B.715</a>; and others at 19 SR 6; L 2008 c 368 art 2 s 79</p>
+  </div>
+  <div class="history" id="rule.6234.0400.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 19 SR 484; 19 SR 2222; 30 SR 613; 33 SR 1177; 34 SR 621</p>
+  </div>
+  <div class="published" id="rule.6234.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> November 19, 2009</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.0500">
+    <h1 class="headnote">6234.0500 TAKING GRAY PARTRIDGE.</h1>
+    <div id="rule.6234.0500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.0500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Open season. </h2>
+      <p>Gray (Hungarian) partridge may be taken by firearm or bow and arrow from the Saturday on or nearest September 16 to January 1, except when January 1 is a Thursday, Friday, or Saturday, the season closes the following Sunday.</p>
+    </div>
+    <div id="rule.6234.0500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.0500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Rifle restriction. </h2>
+      <p>A person may not take gray partridge with a rifle or handgun other than a .22 caliber rimfire using short, long, or long rifle ammunition.</p>
+    </div>
+    <div id="rule.6234.0500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.0500.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Bag limit. </h2>
+      <p>A person may not take more than five gray partridge per day or possess more than ten gray partridge at a time.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.0500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/97B.711">97B.711</a>; and others at 19 SR 6; L 2014 c 290 s 62</p>
+  </div>
+  <div class="history" id="rule.6234.0500.history">
+    <h2>History: </h2>
+    <p>19 SR 484; 34 SR 621; 39 SR 486</p>
+  </div>
+  <div class="published" id="rule.6234.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> October 7, 2014</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.0600">
+    <h1 class="headnote">6234.0600 TAKING JACK RABBITS, COTTONTAIL RABBITS, AND SNOWSHOE HARES.</h1>
+    <div id="rule.6234.0600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.0600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Open season. </h2>
+      <p>Jack rabbits, cottontail rabbits, and snowshoe hares may be taken by legal firearm, bow and arrow, and traps from the Saturday nearest September 16 to the last day in February. A person may use dogs to pursue rabbits and hares without killing or capturing the rabbits and hares at any time during the year except from April 16 to July 14 or under permit.</p>
+    </div>
+    <div id="rule.6234.0600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.0600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Bag limits. </h2>
+      <p>A person may not take more than ten cottontail rabbits, jack rabbits, and snowshoe hares, combined, per day or possess more than 20 cottontail rabbits, jack rabbits, and snowshoe hares, combined, at a time.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.0600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/97A.045">97A.045</a>; <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.615">97B.615</a>; L 2014 c 290 s 64</p>
+  </div>
+  <div class="history" id="rule.6234.0600.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 22 SR 292; 39 SR 486</p>
+  </div>
+  <div class="published" id="rule.6234.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> October 7, 2014</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.0700">
+    <h1 class="headnote">6234.0700 TAKING GRAY SQUIRRELS AND FOX SQUIRRELS.</h1>
+    <div id="rule.6234.0700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.0700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Open season. </h2>
+      <p>Gray squirrels and fox squirrels may be taken by legal firearm, bow and arrow, and traps from the Saturday nearest September 16 to the last day in February.</p>
+    </div>
+    <div id="rule.6234.0700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.0700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Bag limits. </h2>
+      <p>A person may not take more than an aggregate of seven gray squirrels and fox squirrels per day or possess more than an aggregate of 14 gray squirrels and fox squirrels at a time.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.0700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.045">97A.045</a>; <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.611">97B.611</a></p>
+  </div>
+  <div class="history" id="rule.6234.0700.history">
+    <h2>History: </h2>
+    <p>18 SR 83</p>
+  </div>
+  <div class="published" id="rule.6234.0700.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.0800">
+    <h1 class="headnote">6234.0800 HUNTING BY FALCONRY.</h1>
+    <div id="rule.6234.0800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.0800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Bag limits. </h2>
+      <p>A person may not take more than three small game animals per day in the aggregate or possess more than six small game animals in the aggregate, other than rabbits and squirrels. A person may take and possess the limits of rabbits and squirrels allowed under parts <a href="/rules/6234.0600">6234.0600</a> and <a href="/rules/6234.0700">6234.0700</a>.</p>
+    </div>
+    <div id="rule.6234.0800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.0800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Possession of firearms and bows and arrows prohibited. </h2>
+      <p>A person may not hunt by falconry while in possession of, or having under control, any firearm or bow and arrow.</p>
+    </div>
+    <div id="rule.6234.0800.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.0800.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Open season and hours for nonmigratory small game. </h2>
+      <p>Nonmigratory small game may be taken by falconry from September 1 to the last day in February. Falconry hunting hours are from one-half hour before sunrise to sunset, except that pheasants may not be taken before 9:00 a.m.</p>
+    </div>
+    <div id="rule.6234.0800.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6234.0800.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Open season and hours for migratory game birds. </h2>
+      <p>Woodcock, sora and Virginia rails, mourning dove, and common snipe may be taken by falconry from September 1 to December 16. Ducks, coots, and moorhens (Gallinules) may be taken by falconry from the Saturday nearest October 1 to the Saturday nearest January 14. Geese may be taken by falconry during any open goose season. Crows may be taken by falconry during the open season. Falconry hours are from one-half hour before sunrise to sunset, except during the regular waterfowl season when falconry hours are the same as waterfowl shooting hours.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.0800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.105">97B.105</a>; <a href="/statutes/cite/97B.731">97B.731</a></p>
+  </div>
+  <div class="history" id="rule.6234.0800.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 24 SR 644; 30 SR 613; 35 SR 505</p>
+  </div>
+  <div class="published" id="rule.6234.0800.published">
+    <h2>Published Electronically:</h2>
+    <p> October 13, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.0900">
+    <h1 class="headnote">6234.0900 SCOPE AND DEFINITIONS.</h1>
+    <div id="rule.6234.0900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.0900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The provisions of parts <a href="/rules/6234.0900">6234.0900</a> to <a href="/rules/6234.2400">6234.2400</a> apply to the use of traps or snares capable of taking a wild animal protected under provisions of Minnesota Statutes, sections <a href="/statutes/cite/97B.601">97B.601</a> to <a href="/statutes/cite/97B.671">97B.671</a> or <a href="/statutes/cite/97B.901">97B.901</a> to <a href="/statutes/cite/97B.945">97B.945</a>.</p>
+    </div>
+    <div id="rule.6234.0900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.0900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Terms. </h2>
+      <p>The terms used in parts <a href="/rules/6234.0900">6234.0900</a> to <a href="/rules/6234.3500">6234.3500</a> have the meanings given them in this part.</p>
+    </div>
+    <div id="rule.6234.0900.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.0900.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Authorized agent. </h2>
+      <p>"Authorized agent" means a person authorized by a trapper, in writing, who possesses all necessary licenses to check, pick up, or reset traps set by the trapper.</p>
+    </div>
+    <div id="rule.6234.0900.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6234.0900.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Bait. </h2>
+      <p>"Bait" means any animal or animal parts, including live or dead fish, except that small aggregates of fur and feathers used for flagging purposes are not bait.</p>
+    </div>
+    <div id="rule.6234.0900.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6234.0900.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote"> Waterset.</h2>
+      <p>"Waterset" means any body-gripping trap or snare set in which the body-gripping portion of the jaws or the snare loop, when set, is at least half-submerged in water. A completely submerged waterset is any set in which the body-gripping portions of the jaws or the snare loop, when set, is completely submerged in water.</p>
+    </div>
+    <div id="rule.6234.0900.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6234.0900.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Wolf snare. </h2>
+      <p>"Wolf snare" means any snare set that:</p>
+      <div id="rule.6234.0900.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6234.0900.6.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>has a maximum loop diameter greater than ten inches, but less than or equal to 18 inches;</p>
+      </div>
+      <div id="rule.6234.0900.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6234.0900.6.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>has a cable diameter of at least 7/64 inches;</p>
+      </div>
+      <div id="rule.6234.0900.6.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6234.0900.6.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>includes stops affixed to the cable to ensure that the portion of the snare that makes up the noose loop may not be less than three inches in diameter when fully closed;</p>
+      </div>
+      <div id="rule.6234.0900.6.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6234.0900.6.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>includes a breakaway device that would cause the snare loop to break when pulled by a moose; and</p>
+      </div>
+      <div id="rule.6234.0900.6.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6234.0900.6.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>includes a diverter wire that extends 27 inches in both directions, measured perpendicular to and from the top of the snare loop. The diverter wires must be positioned at an angle no more than 20 degrees from the horizontal plane of the top of the snare, and the snare must be set within 20 yards of bait.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.0900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.911">97B.911</a>; <a href="/statutes/cite/97B.915">97B.915</a>; <a href="/statutes/cite/97B.921">97B.921</a>; <a href="/statutes/cite/97B.925">97B.925</a>; L 2012 c 277 art 1 s 85</p>
+  </div>
+  <div class="history" id="rule.6234.0900.history">
+    <h2>History: </h2>
+    <p>18 SR 83; L 2012 c 277 art 1 s 90; 37 SR 374</p>
+  </div>
+  <div class="published" id="rule.6234.0900.published">
+    <h2>Published Electronically:</h2>
+    <p> November 27, 2012</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.1000">
+    <h1 class="headnote">6234.1000 DESCRIPTION OF FURBEARER ZONES.</h1>
+    <div id="rule.6234.1000.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.1000.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Forest Furbearer Zone. </h2>
+      <p>That portion of the state lying within the following described boundary is known as the Forest Furbearer Zone.</p>
+      <p class="bi1">Beginning on U.S. Highway 59 at the north boundary of the state; thence along U.S. Highway 59 to U.S. Highway 10; thence along U.S. Highway 10 to State Trunk Highway (STH) 210; thence along STH 210 to STH 18; thence along STH 18 to U.S. Highway 169; thence along U.S. Highway 169 to STH 23; thence along STH 23 to STH 65; thence along STH 65 to STH 70; thence along STH 70 to the east boundary of the state; thence along the east and north boundaries of the state to the point of beginning.</p>
+    </div>
+    <div id="rule.6234.1000.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.1000.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Farmland Furbearer Zone. </h2>
+      <p>That portion of the state lying outside of the Forest Furbearer Zone is known as the Farmland Furbearer Zone.</p>
+    </div>
+    <div id="rule.6234.1000.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.1000.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">North Mink/Muskrat/Beaver/Otter Zone. </h2>
+      <p>That portion of the state lying within the following described boundary is known as the North Mink/Muskrat/Beaver/Otter Zone.</p>
+      <p class="bi1">Beginning on State Trunk Highway (STH) 200 at the west boundary of the state; thence along STH 200 to U.S. Highway 2; thence along U.S. Highway 2 to STH 73; thence along STH 73 to STH 27; thence along STH 27 to Interstate Highway 35 (I-35); thence along I-35 to the Carlton-Pine County line; thence east along the Carlton-Pine County line to the east boundary of the state; thence along the east, north, and west boundaries of the state to the point of beginning.</p>
+    </div>
+    <div id="rule.6234.1000.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6234.1000.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">South Mink/Muskrat/Beaver/Otter Zone. </h2>
+      <p>That portion of the state lying outside of the North Mink/Muskrat/Beaver/Otter Zone is known as the South Mink/Muskrat/Beaver/Otter Zone.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.1000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.911">97B.911</a>; <a href="/statutes/cite/97B.915">97B.915</a>; <a href="/statutes/cite/97B.921">97B.921</a>; <a href="/statutes/cite/97B.925">97B.925</a></p>
+  </div>
+  <div class="history" id="rule.6234.1000.history">
+    <h2>History: </h2>
+    <p>18 SR 83</p>
+  </div>
+  <div class="published" id="rule.6234.1000.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.1100">
+    <h1 class="headnote">6234.1100 TAKING MINK AND MUSKRATS.</h1>
+    <div id="rule.6234.1100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.1100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Open season in North Zone. </h2>
+      <p>Mink and muskrats may be taken by trapping from 9:00 a.m. on the Saturday nearest October 26 to the last day in February in the North Zone.</p>
+    </div>
+    <div id="rule.6234.1100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.1100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Open season in South Zone. </h2>
+      <p>Mink and muskrats may be taken by trapping from 9:00 a.m. on the Saturday nearest October 30 to the last day in February in the South Zone.</p>
+    </div>
+    <div id="rule.6234.1100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.1100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Bag limits. </h2>
+      <p>Mink and muskrats may be taken and possessed without limit.</p>
+    </div>
+    <div id="rule.6234.1100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6234.1100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Special provisions. </h2>
+      <p>The special provisions in items A to C apply to taking mink and muskrats.</p>
+      <div id="rule.6234.1100.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6234.1100.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Taking by the use of dogs or by digging is prohibited.</p>
+      </div>
+      <div id="rule.6234.1100.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6234.1100.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Openings may be made in any muskrat house for the purpose of trapping if they are plugged by replacing all materials removed and wetting the materials down to prevent freezing within the structure. Traps may be set at natural entrances to muskrat runways and bank burrows.</p>
+      </div>
+      <div id="rule.6234.1100.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6234.1100.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> A person may not damage any muskrat house, muskrat runway, or muskrat bank den, except as provided by this part.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.1100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.911">97B.911</a>; <a href="/statutes/cite/97B.915">97B.915</a>; and others at 19 SR 6</p>
+  </div>
+  <div class="history" id="rule.6234.1100.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 19 SR 484</p>
+  </div>
+  <div class="published" id="rule.6234.1100.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.1200">
+    <h1 class="headnote">6234.1200 TAKING RACCOON.</h1>
+    <div id="rule.6234.1200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.1200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Open season. </h2>
+      <p>Raccoons may be taken statewide with legal firearms, bow and arrow, and by trapping from 9:00 a.m. on the Saturday nearest October 22, except in the North Mink/Muskrat/Beaver/Otter Zone as described in part <a href="/rules/6234.1000">6234.1000</a>, subpart 3, where raccoon may be taken with legal firearms, bow and arrow, and by trapping beginning at 9:00 a.m. on the Saturday nearest October 17. The season ends March 15.</p>
+    </div>
+    <div id="rule.6234.1200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.1200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Bag limits. </h2>
+      <p>Raccoons may be taken and possessed without limit.</p>
+    </div>
+    <div id="rule.6234.1200.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.1200.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Special provisions. </h2>
+      <p>A person may use an artificial light to locate, attempt to locate, or shoot a raccoon only if the raccoon has been treed or put at bay by dogs. The use of dogs and lights to take raccoon is regulated as provided by Minnesota Statutes, sections <a href="/statutes/cite/97B.081">97B.081</a>, <a href="/statutes/cite/97B.621">97B.621</a>, and <a href="/statutes/cite/97B.931">97B.931</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.1200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.541">97A.541</a>; <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.621">97B.621</a>; and others at 19 SR 6</p>
+  </div>
+  <div class="history" id="rule.6234.1200.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 19 SR 484; 22 SR 292; 30 SR 613; 36 SR 1155</p>
+  </div>
+  <div class="published" id="rule.6234.1200.published">
+    <h2>Published Electronically:</h2>
+    <p> April 12, 2012</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.1300">
+    <h1 class="headnote">6234.1300 TAKING RED FOX AND GRAY FOX.</h1>
+    <div id="rule.6234.1300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.1300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Open season. </h2>
+      <p>Gray and red fox may be taken statewide with legal firearms, bow and arrow, and by trapping from 9:00 a.m. on the Saturday nearest October 22, except in the North Mink/Muskrat/Beaver/Otter Zone as described in part <a href="/rules/6234.1000">6234.1000</a>, subpart 3, where gray and red fox may be taken with legal firearms, bow and arrow, and by trapping beginning at 9:00 a.m. on the Saturday nearest October 17. The season ends March 15.</p>
+    </div>
+    <div id="rule.6234.1300.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.1300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Bag limits. </h2>
+      <p>Red fox and gray fox may be taken and possessed without limit.</p>
+    </div>
+    <div id="rule.6234.1300.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.1300.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, 19 SR 2222]</p>
+    </div>
+    <div id="rule.6234.1300.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6234.1300.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Special provisions. </h2>
+      <p>The special provisions in items A and B apply to taking red fox and gray fox.</p>
+      <div id="rule.6234.1300.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6234.1300.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Fox may be run without being taken by the use of dogs at any time during the year except from March 16 to July 14 or under permit.</p>
+      </div>
+      <div id="rule.6234.1300.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6234.1300.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Dogs may be used for hunting fox during the open season.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.1300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.045">97A.045</a>; <a href="/statutes/cite/97A.541">97A.541</a>; <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.631">97B.631</a>; and others at 19 SR 6</p>
+  </div>
+  <div class="history" id="rule.6234.1300.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 19 SR 484; 22 SR 292; 30 SR 613; 36 SR 1155</p>
+  </div>
+  <div class="published" id="rule.6234.1300.published">
+    <h2>Published Electronically:</h2>
+    <p> April 12, 2012</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.1400">
+    <h1 class="headnote">6234.1400 TAKING BADGER AND OPOSSUM.</h1>
+    <div id="rule.6234.1400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.1400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Open season. </h2>
+      <p>Badgers and opossums may be taken statewide with legal firearms, bow and arrow, and by trapping from 9:00 a.m. on the Saturday nearest October 22, except in the North Mink/Muskrat/Beaver/Otter Zone as described in part <a href="/rules/6234.1000">6234.1000</a>, subpart 3, where badger and opossum may be taken with legal firearms, bow and arrow, and by trapping beginning at 9:00 a.m. on the Saturday nearest October 17. The season ends March 15.</p>
+    </div>
+    <div id="rule.6234.1400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.1400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Bag limits. </h2>
+      <p>Badgers and opossums may be taken and possessed without limit.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.1400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.635">97B.635</a>; and others at 19 SR 6</p>
+  </div>
+  <div class="history" id="rule.6234.1400.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 19 SR 484; 30 SR 613; 36 SR 1155</p>
+  </div>
+  <div class="published" id="rule.6234.1400.published">
+    <h2>Published Electronically:</h2>
+    <p> April 12, 2012</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.1500">
+    <h1 class="headnote">6234.1500 TAKING LYNX.</h1>
+    <p>Taking lynx is prohibited statewide.</p>
+  </div>
+  <div class="stat_auth" id="rule.6234.1500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.625">97B.625</a></p>
+  </div>
+  <div class="history" id="rule.6234.1500.history">
+    <h2>History: </h2>
+    <p>18 SR 83</p>
+  </div>
+  <div class="published" id="rule.6234.1500.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.1600">
+    <h1 class="headnote">6234.1600 TAKING BOBCAT.</h1>
+    <div id="rule.6234.1600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.1600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Open season. </h2>
+      <p>Bobcats may be taken with legal firearms, bow and arrow, and by trapping from the first Saturday following Thanksgiving to the Sunday nearest January 6.</p>
+    </div>
+    <div id="rule.6234.1600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.1600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Open area. </h2>
+      <p>Bobcats may be taken only in that area of the state lying north of Interstate Highway 94 (I-94) beginning at the west boundary of the state; thence along I-94 to U.S. Highway 10; and thence along U.S. Highway 10 to the east boundary of the state.</p>
+    </div>
+    <div id="rule.6234.1600.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.1600.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Bag limits. </h2>
+      <p>A person may not take more than five bobcats per season by either hunting or trapping or both. A person may not possess more than five bobcats at a time, except that a person may possess additional pelts that the person lawfully took, tagged, and registered during previous seasons.</p>
+    </div>
+    <div id="rule.6234.1600.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6234.1600.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Tagging bobcats. </h2>
+      <p>Pelts and skinned carcasses are subject to the provisions of part <a href="/rules/6234.2600">6234.2600</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.1600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.541">97A.541</a>; <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.625">97B.625</a>; and others at 19 SR 6</p>
+  </div>
+  <div class="history" id="rule.6234.1600.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 19 SR 484; 24 SR 644; 30 SR 613</p>
+  </div>
+  <div class="published" id="rule.6234.1600.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.1700">
+    <h1 class="headnote">6234.1700 TAKING FISHER AND PINE MARTEN.</h1>
+    <div id="rule.6234.1700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.1700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Open season. </h2>
+      <p>Fisher and pine marten may be taken by trapping from the first Saturday following Thanksgiving to the Sunday nearest December 12.</p>
+    </div>
+    <div id="rule.6234.1700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.1700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Bag limits. </h2>
+      <p>The combined limit for fisher and pine marten is five per season, in aggregate. A person may not take more than five fisher and pine marten, combined, per season or possess more than five fisher and pine marten, combined, at a time, except that a person may possess additional pelts that the person lawfully took, tagged, and registered during previous seasons.</p>
+    </div>
+    <div id="rule.6234.1700.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.1700.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Validation and tagging. </h2>
+      <p>Each pine marten or fisher must be validated on a site validation coupon issued by the state. The person taking the animal must validate the coupon at and prior to removing the animal from the kill site. The coupon must be obtained and validated according to part <a href="/rules/6234.2600">6234.2600</a>. Pelts and skinned carcasses of fisher and pine marten are subject to the provisions of part <a href="/rules/6234.2600">6234.2600</a>.</p>
+    </div>
+    <div id="rule.6234.1700.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6234.1700.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Open area. </h2>
+      <p>Fisher and pine marten may be taken only in that area of the state lying north of Interstate Highway 94 (I-94) beginning at the west boundary of the state; thence along I-94 to U.S. Highway 10; and thence along U.S. Highway 10 to the east boundary of the state.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.1700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.635">97B.635</a>; <a href="/statutes/cite/97B.901">97B.901</a>; and others at 19 SR 6</p>
+  </div>
+  <div class="history" id="rule.6234.1700.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 19 SR 484; 24 SR 644; 30 SR 613; 39 SR 1006</p>
+  </div>
+  <div class="published" id="rule.6234.1700.published">
+    <h2>Published Electronically:</h2>
+    <p> January 12, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.1800">
+    <h1 class="headnote repealed">6234.1800</h1>
+    <p>[Repealed, 30 SR 613]</p>
+  </div>
+  <div class="published" id="rule.6234.1800.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.1900">
+    <h1 class="headnote">6234.1900 TAKING BEAVER.</h1>
+    <div id="rule.6234.1900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.1900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Open season and bag limits for beaver in North Zone. </h2>
+      <p>Beaver may be taken and possessed without limit by trapping from 9:00 a.m. on the Saturday nearest October 26 to May 15.</p>
+    </div>
+    <div id="rule.6234.1900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.1900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Open season and bag limits for beaver in South Zone. </h2>
+      <p>Beaver may be taken and possessed without limit by trapping from 9:00 a.m. on the Saturday nearest October 30 to May 15.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.1900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.925">97B.925</a></p>
+  </div>
+  <div class="history" id="rule.6234.1900.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 20 SR 2287</p>
+  </div>
+  <div class="published" id="rule.6234.1900.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.2000">
+    <h1 class="headnote">6234.2000 TAKING OTTER.</h1>
+    <div id="rule.6234.2000.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.2000.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Open season for otter in North Zone. </h2>
+      <p>Otter may be taken by trapping from 9:00 a.m. on the Saturday nearest October 26 to the Sunday nearest January 6 only in that portion of the state described in part <a href="/rules/6234.1000">6234.1000</a>, subpart 3.</p>
+    </div>
+    <div id="rule.6234.2000.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.2000.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Open season and area for otter in South Zone. </h2>
+      <p> Otter may be taken by trapping from 9:00 a.m. on the Saturday nearest October 30 to the Sunday nearest January 6 in the remainder of the state described in part <a href="/rules/6234.1000">6234.1000</a>, subpart 4.</p>
+    </div>
+    <div id="rule.6234.2000.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.2000.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Bag limits. </h2>
+      <p>A person may not take more than four otter per season, or possess more than four otter at a time, except that a person may possess additional pelts that the person lawfully took, tagged, and registered during previous seasons.</p>
+    </div>
+    <div id="rule.6234.2000.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6234.2000.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Validation and tagging otter. </h2>
+      <p>Each otter must be validated on a site validation coupon issued by the state. The person taking the animal must validate the coupon at and prior to removing the animal from the kill site. The coupon must be obtained and validated according to part <a href="/rules/6234.2600">6234.2600</a>. Pelts are subject to the provisions of part <a href="/rules/6234.2600">6234.2600</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.2000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.901">97B.901</a>; <a href="/statutes/cite/97B.921">97B.921</a>; <a href="/statutes/cite/97B.925">97B.925</a></p>
+  </div>
+  <div class="history" id="rule.6234.2000.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 20 SR 2287; 30 SR 613; 35 SR 2014; 39 SR 1006</p>
+  </div>
+  <div class="published" id="rule.6234.2000.published">
+    <h2>Published Electronically:</h2>
+    <p> January 12, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.2100">
+    <h1 class="headnote">6234.2100 SPECIAL PROVISIONS FOR TAKING BEAVER AND OTTER.</h1>
+    <div id="rule.6234.2100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.2100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Setting traps. </h2>
+      <p>Traps of any kind may not be set inside a beaver house or above the water line on the outside of a beaver house.</p>
+    </div>
+    <div id="rule.6234.2100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.2100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Damage to beaver house or dam. </h2>
+      <p>A person may not damage a beaver house or dam, except as otherwise authorized by law or permit or by employees of the department in the performance of their official duties.</p>
+    </div>
+    <div id="rule.6234.2100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.2100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Use of snowmobiles and all-terrain vehicles. </h2>
+      <p>Snowmobiles and all-terrain vehicles may be used statewide to transport or check beaver or otter traps and to transport beaver or otter carcasses.</p>
+    </div>
+    <div id="rule.6234.2100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6234.2100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Taking in wildlife management areas. </h2>
+      <p>Beaver and otter may be taken by licensed trappers in wildlife management areas by permit issued by the appropriate state wildlife manager.</p>
+    </div>
+    <div id="rule.6234.2100.5" class="subp repealed">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6234.2100.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <p>[Repealed, 35 SR 505]</p>
+    </div>
+    <div id="rule.6234.2100.6" class="subp repealed">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6234.2100.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <p>[Repealed, 35 SR 505]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.2100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.921">97B.921</a>; <a href="/statutes/cite/97B.925">97B.925</a>; <a href="/statutes/cite/97B.935">97B.935</a></p>
+  </div>
+  <div class="history" id="rule.6234.2100.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 30 SR 613; 35 SR 505</p>
+  </div>
+  <div class="published" id="rule.6234.2100.published">
+    <h2>Published Electronically:</h2>
+    <p> January 22, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.2200">
+    <h1 class="headnote">6234.2200 USE OF TRAPS.</h1>
+    <div id="rule.6234.2200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.2200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Trap-tending hours and use of lights. </h2>
+      <p>Trap-tending hours and use of lights are regulated as provided by Minnesota Statutes, section <a href="/statutes/cite/97B.931">97B.931</a>.</p>
+    </div>
+    <div id="rule.6234.2200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.2200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Trap-tending interval; nondrowning sets. </h2>
+      <div id="rule.6234.2200.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6234.2200.2.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Any trap, except a body-gripping or "conibear" type trap, capable of capturing a protected wild animal and not capable of drowning the animal must be tended at least once each calendar day and any animal captured must be removed from the trap. A body-gripping or "conibear" type trap need not be tended more frequently than once every third calendar day and any animal captured must be removed from the trap.</p>
+      </div>
+      <div id="rule.6234.2200.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6234.2200.2.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>Foothold traps with a jaw spread of <a href="/statutes/cite/4.75">4.75</a> inches or less or a rat type snap trap, contained entirely within a container with an opening of no more than two inches in height or width, need not be tended more frequently than once every third calendar day and any animal captured must be removed from the trap. This item applies only to sets that are designed to immediately kill the animal.</p>
+      </div>
+    </div>
+    <div id="rule.6234.2200.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.2200.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Trap-tending interval; drowning sets. </h2>
+      <p>Except for traps set under the ice, any trap capable of drowning the captured animal must be tended at least once each third calendar day and any animal captured must be removed from the trap.</p>
+    </div>
+    <div id="rule.6234.2200.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6234.2200.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Exposed bait. </h2>
+      <p>A person may not set or maintain any leghold trap within 20 feet of bait located in such a manner that it may be seen by soaring birds.</p>
+    </div>
+    <div id="rule.6234.2200.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6234.2200.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Size restriction on body-gripping traps. </h2>
+      <p>A person may not set, place, or operate, except as a waterset, any body-gripping or "conibear" type trap that has a maximum jaw opening, when set, of greater than 7-1/2 inches measured from the inside edges of the body-gripping portions of the jaws.</p>
+    </div>
+    <div id="rule.6234.2200.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6234.2200.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Size restriction on leghold traps. </h2>
+      <p>A person may not set, place, or operate any leghold trap that has a maximum jaw opening, when set, of greater than 8-3/4 inches measured from the inside edges of the jaws.</p>
+    </div>
+    <div id="rule.6234.2200.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6234.2200.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Placement of body-gripping traps. </h2>
+      <p>A person may not set, place, or operate any body-gripping or "conibear" type trap that has a maximum jaw opening, when set, of greater than 6-1/2 inches measured from the inside edges of the body-gripping portions of the jaws:</p>
+      <div id="rule.6234.2200.7.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6234.2200.7.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>in a road right-of-way within 500 feet of a building occupied by a human or livestock without written permission of the landowner, except as a completely submerged waterset; or</p>
+      </div>
+      <div id="rule.6234.2200.7.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6234.2200.7.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>in or within three feet of the opening of a six-foot-wide or smaller culvert, except as a completely submerged waterset.</p>
+      </div>
+    </div>
+    <div id="rule.6234.2200.8" class="subp repealed">
+      <a title="Link to subpart 8" class="permalink" href="#rule.6234.2200.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <p>[Repealed, 22 SR 292]</p>
+    </div>
+    <div id="rule.6234.2200.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.6234.2200.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Marking trapping site. </h2>
+      <p>Prior to the opening of the trapping season for any protected species of wild animal, no trap, either set or unset, may be placed or staked and no flag, stake, or other device may be placed for the purpose of marking or preempting a trapping site. During the muskrat trapping season, no flag, stake, or other device may be placed in or on a muskrat house for the purpose of marking or preempting a trap site unless an operational trap is set at the site at the time it is first staked or marked.</p>
+    </div>
+    <div id="rule.6234.2200.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.6234.2200.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Removal of traps. </h2>
+      <p>A trap placed for a protected wild animal may not be left in place, either set or unset, after the close of the applicable trapping season.</p>
+    </div>
+    <div id="rule.6234.2200.11" class="subp repealed">
+      <a title="Link to subpart 11" class="permalink" href="#rule.6234.2200.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <p>[Repealed, 22 SR 292]</p>
+    </div>
+    <div id="rule.6234.2200.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.6234.2200.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Authorized agent. </h2>
+      <p>A trapper may authorize, in writing, an agent who possesses all necessary licenses to check, pick up, and reset, at the same site, traps set by the trapper. An authorized agent may remove a trapped animal and, if the animal removed from the trap is required to be validated as provided by part <a href="/rules/6234.2600">6234.2600</a>, must validate the agent's own site validation coupon as prescribed at and prior to removing the animal from the site of the kill.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.2200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.611">97B.611</a>; <a href="/statutes/cite/97B.615">97B.615</a>; <a href="/statutes/cite/97B.621">97B.621</a>; <a href="/statutes/cite/97B.625">97B.625</a>; <a href="/statutes/cite/97B.631">97B.631</a>; <a href="/statutes/cite/97B.635">97B.635</a>; <a href="/statutes/cite/97B.911">97B.911</a>; <a href="/statutes/cite/97B.915">97B.915</a>; <a href="/statutes/cite/97B.921">97B.921</a>; <a href="/statutes/cite/97B.925">97B.925</a></p>
+  </div>
+  <div class="history" id="rule.6234.2200.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 20 SR 2287; 22 SR 292; 35 SR 505; 39 SR 1006</p>
+  </div>
+  <div class="published" id="rule.6234.2200.published">
+    <h2>Published Electronically:</h2>
+    <p> January 12, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.2300">
+    <h1 class="headnote">6234.2300 GENERAL RESTRICTIONS ON USE OF SNARES.</h1>
+    <div id="rule.6234.2300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.2300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Regulation of snares as traps. </h2>
+      <p>Unless otherwise specified, snares may be used for taking all species of protected wild animals that may be taken by the use of traps. The use of snares is subject to all rules for the use of traps that are consistent with parts <a href="/rules/6234.2300">6234.2300</a> and <a href="/rules/6234.2400">6234.2400</a>.</p>
+    </div>
+    <div id="rule.6234.2300.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.2300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, L 2005 c 146 s 52]</p>
+    </div>
+    <div id="rule.6234.2300.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.2300.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, L 2005 c 146 s 52]</p>
+    </div>
+    <div id="rule.6234.2300.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6234.2300.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Wolf snares. </h2>
+      <p>Wolves may be taken with snares or wolf snares as defined in part <a href="/rules/6234.0900">6234.0900</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.2300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.045">97A.045</a>; <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.611">97B.611</a>; <a href="/statutes/cite/97B.615">97B.615</a>; <a href="/statutes/cite/97B.621">97B.621</a>; <a href="/statutes/cite/97B.625">97B.625</a>; <a href="/statutes/cite/97B.631">97B.631</a>; <a href="/statutes/cite/97B.635">97B.635</a>; <a href="/statutes/cite/97B.911">97B.911</a>; <a href="/statutes/cite/97B.915">97B.915</a>; <a href="/statutes/cite/97B.921">97B.921</a>; <a href="/statutes/cite/97B.925">97B.925</a>; L 2012 c 277 art 1 s 85</p>
+  </div>
+  <div class="history" id="rule.6234.2300.history">
+    <h2>History: </h2>
+    <p>18 SR 83; L 2005 c 146 s 52; 35 SR 505; 37 SR 374</p>
+  </div>
+  <div class="published" id="rule.6234.2300.published">
+    <h2>Published Electronically:</h2>
+    <p> December 17, 2012</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.2400">
+    <h1 class="headnote">6234.2400 SPECIAL RESTRICTIONS ON USE OF SNARES.</h1>
+    <div id="rule.6234.2400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.2400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The provisions of parts <a href="/rules/6234.2300">6234.2300</a> and <a href="/rules/6234.2400">6234.2400 </a>apply to the use of snares capable of taking a wild animal protected under provisions of Minnesota Statutes, sections <a href="/statutes/cite/97B.601">97B.601</a> to <a href="/statutes/cite/97B.671">97B.671</a> or <a href="/statutes/cite/97B.901">97B.901</a> to <a href="/statutes/cite/97B.945">97B.945</a>.</p>
+    </div>
+    <div id="rule.6234.2400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.2400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Farmland Furbearer Zone restrictions. </h2>
+      <p>In the Farmland Furbearer Zone, a person may use snares as follows:</p>
+      <div id="rule.6234.2400.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6234.2400.2.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>from April 1 to the Friday nearest October 26, a person may not set, place, or operate any snare except as a waterset in that part of the Farmland Furbearer Zone lying within the North Mink/Muskrat/Beaver/Otter Zone, described in part <a href="/rules/6234.1000">6234.1000</a>, subpart 3;</p>
+      </div>
+      <div id="rule.6234.2400.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6234.2400.2.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>from the Saturday nearest October 26 to March 31, a person may not set, place, or operate any snare on public lands, including on the surface of frozen water within public lands, on road rights-of-way, or in fence lines along road rights-of-way, except as a waterset in that part of the Farmland Furbearer Zone lying within the North Mink/Muskrat/Beaver/Otter Zone, described in part <a href="/rules/6234.1000">6234.1000</a>, subpart 3;</p>
+      </div>
+      <div id="rule.6234.2400.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6234.2400.2.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>from April 1 to the Friday nearest October 30, a person may not set, place, or operate any snare except as a waterset in that part of the Farmland Furbearer Zone lying outside the North Mink/Muskrat/Beaver/Otter Zone, described in part <a href="/rules/6234.1000">6234.1000</a>, subpart 3;</p>
+      </div>
+      <div id="rule.6234.2400.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6234.2400.2.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>from the Saturday nearest October 30 to March 31, a person may not set, place, or operate any snare on public lands, including on the surface of frozen water within public lands, on road rights-of-way, or in fence lines along road rights-of-way, except as a waterset in that part of the Farmland Furbearer Zone lying outside the North Mink/Muskrat/Beaver/Otter Zone, described in part <a href="/rules/6234.1000">6234.1000</a>, subpart 3.</p>
+      </div>
+    </div>
+    <div id="rule.6234.2400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.2400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Snaring in culverts. </h2>
+      <p>A person may not set, place, or operate a snare in a culvert, except as a completely submerged waterset.</p>
+    </div>
+    <div id="rule.6234.2400.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6234.2400.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Removal of snares. </h2>
+      <p>A snare set for a protected mammal may not be left in place after the close of the applicable trapping season.</p>
+    </div>
+    <div id="rule.6234.2400.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6234.2400.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Prohibition on snares placed in deer trails. </h2>
+      <p>Snares, including wolf snares, may not be set in deer, elk, or moose trails.</p>
+    </div>
+    <div id="rule.6234.2400.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6234.2400.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Use of spring poles. </h2>
+      <p>Snares may not be used with spring poles or other devices where an animal caught in the snare will be wholly or partly lifted from the ground.</p>
+    </div>
+    <div id="rule.6234.2400.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6234.2400.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Snare height. </h2>
+      <p>A snare may not be set so that the top of the loop is more than 20 inches above the first surface beneath the bottom of the set snare loop. During the wolf season, licensed wolf trappers may use wolf snares but a wolf snare may not be set so that the bottom of the loop is more than 18 inches above the first surface beneath the bottom of the set snare loop.</p>
+    </div>
+    <div id="rule.6234.2400.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.6234.2400.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Snare loop diameter. </h2>
+      <p>The diameter of a snare loop may not exceed ten inches.</p>
+    </div>
+    <div id="rule.6234.2400.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.6234.2400.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Snare cable diameter. </h2>
+      <p>Snare cable or wire may not exceed one-eighth inch in diameter.</p>
+    </div>
+    <div id="rule.6234.2400.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.6234.2400.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Tending snares. </h2>
+      <p>All snares not capable of drowning the captured animal must be tended at least once each calendar day and any animal captured must be removed from the snare.</p>
+    </div>
+    <div id="rule.6234.2400.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.6234.2400.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Snare separation. </h2>
+      <p>Licensed wolf trappers shall set wolf snares for wolves no closer than 500 feet to another wolf snare set by the same licensed wolf trapper.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.2400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.611">97B.611</a>; <a href="/statutes/cite/97B.615">97B.615</a>; <a href="/statutes/cite/97B.621">97B.621</a>; <a href="/statutes/cite/97B.625">97B.625</a>; <a href="/statutes/cite/97B.631">97B.631</a>; <a href="/statutes/cite/97B.635">97B.635</a>; <a href="/statutes/cite/97B.911">97B.911</a>; <a href="/statutes/cite/97B.915">97B.915</a>; <a href="/statutes/cite/97B.921">97B.921</a>; <a href="/statutes/cite/97B.925">97B.925</a>; L 2012 c 277 art 1 s 85</p>
+  </div>
+  <div class="history" id="rule.6234.2400.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 30 SR 613; 35 SR 505; 36 SR 1155; 37 SR 374; 39 SR 1006</p>
+  </div>
+  <div class="published" id="rule.6234.2400.published">
+    <h2>Published Electronically:</h2>
+    <p> January 12, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.2500">
+    <h1 class="headnote repealed">6234.2500</h1>
+    <p>[Repealed, 35 SR 505]</p>
+  </div>
+  <div class="published" id="rule.6234.2500.published">
+    <h2>Published Electronically:</h2>
+    <p> October 13, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.2600">
+    <h1 class="headnote">6234.2600 PELT TAGGING AND REGISTRATION.</h1>
+    <div id="rule.6234.2600.1" class="subp repealed">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.2600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <p>[Repealed, 30 SR 613]</p>
+    </div>
+    <div id="rule.6234.2600.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.2600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 30 SR 613]</p>
+    </div>
+    <div id="rule.6234.2600.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.2600.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Registration of pelts. </h2>
+      <p>The pelt of each bobcat, fisher, pine marten, and otter must be presented, along with completed site validation coupons for each fisher, pine marten, or otter, by the person taking it, to a state wildlife manager designee for registration before the pelt is sold and before the pelt is transported out of the state, but in no event more than 48 hours after the season closes for each species, respectively. The entire carcass of bobcat and the entire head of pine marten and fisher must be surrendered to the state wildlife manager designee. The pelt of bobcat, otter, fisher, and pine marten must have been removed from the carcass.</p>
+    </div>
+    <div id="rule.6234.2600.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6234.2600.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Prohibition on validation or tagging animals not personally taken. </h2>
+      <p>A person may not validate a site validation coupon or affix any tag or seal to the pelt or carcass of any animal that the person did not take or is not authorized to take.</p>
+    </div>
+    <div id="rule.6234.2600.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6234.2600.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Requirement for tags and seals to remain affixed. </h2>
+      <p>Registration tags or seals must remain affixed to the raw pelt until the pelt is tanned or mounted.</p>
+    </div>
+    <div id="rule.6234.2600.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6234.2600.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Site validation coupons. </h2>
+      <div id="rule.6234.2600.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6234.2600.6.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Fisher, otter, and pine marten site validation coupons may be obtained at no cost through the electronic licensing system.</p>
+      </div>
+      <div id="rule.6234.2600.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6234.2600.6.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>The site validation coupon is part of the trapper's license to take fisher, otter, and pine marten and must be in the trapper's possession while taking and transporting these species.</p>
+      </div>
+      <div id="rule.6234.2600.6.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6234.2600.6.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>Site validation coupons are not transferable.</p>
+      </div>
+    </div>
+    <div id="rule.6234.2600.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6234.2600.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Validating coupons. </h2>
+      <p>Site validation coupons must be notched with a knife or other sharp instrument in the appropriate locations indicating the species for fisher or marten, month, date, and time (a.m./p.m.) the animal was taken. The coupon must be validated at and prior to removing the animal from the kill site.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.2600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.625">97B.625</a>; <a href="/statutes/cite/97B.635">97B.635</a>; <a href="/statutes/cite/97B.901">97B.901</a>; <a href="/statutes/cite/97B.911">97B.911</a>; <a href="/statutes/cite/97B.915">97B.915</a>; <a href="/statutes/cite/97B.921">97B.921</a>; <a href="/statutes/cite/97B.925">97B.925</a></p>
+  </div>
+  <div class="history" id="rule.6234.2600.history">
+    <h2>History: </h2>
+    <p>18 SR 83; 19 SR 2222; 20 SR 2287; 22 SR 292; 30 SR 613; 35 SR 2014; 39 SR 1006</p>
+  </div>
+  <div class="published" id="rule.6234.2600.published">
+    <h2>Published Electronically:</h2>
+    <p> January 12, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.2700">
+    <h1 class="headnote">6234.2700 SPECIAL RESTRICTIONS ON TAKING AND POSSESSION OF FURBEARERS.</h1>
+    <p>The restrictions in items A to D apply to the possession and transportation of accidental captures.</p>
+    <div id="rule.6234.2700.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.6234.2700.A">§</a>
+      <h3 class="item_no">A. </h3>
+      <p>A person may not possess or transport a lynx or wolf that was accidentally killed or was lawfully killed while causing or threatening injury or damage until the person notifies the local conservation officer, other authorized department employee, or regional enforcement office, of the killing and receives authorization to possess, transport, or skin the animal.</p>
+    </div>
+    <div id="rule.6234.2700.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.6234.2700.B">§</a>
+      <h3 class="item_no">B. </h3>
+      <p>A person may possess or transport fox, mink, muskrat, beaver, badger, opossum, or raccoon accidentally killed or lawfully killed while causing or threatening injury or damage, only if the local conservation officer or other authorized employee of the department is notified within 24 hours of such killing and before any skinning has begun.</p>
+    </div>
+    <div id="rule.6234.2700.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.6234.2700.C">§</a>
+      <h3 class="item_no">C. </h3>
+      <p>A person may possess or transport a fisher, otter, or pine marten that has been accidentally killed or a bobcat that has been either lawfully killed when causing damage or accidentally killed only after notifying the local conservation officer or other authorized employee of the department of such killing. After making the required notification and taking possession of the animal, the person may not skin, transfer possession, or otherwise dispose of the animal until the person receives authorization from a conservation officer or other authorized department employee.</p>
+    </div>
+    <div id="rule.6234.2700.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.6234.2700.D">§</a>
+      <h3 class="item_no">D. </h3>
+      <p>A person must report any incidental taking of a Canada lynx to the local conservation officer within 24 hours of the taking.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.2700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.605">97B.605</a>; <a href="/statutes/cite/97B.911">97B.911</a>; <a href="/statutes/cite/97B.915">97B.915</a>; <a href="/statutes/cite/97B.921">97B.921</a>; <a href="/statutes/cite/97B.925">97B.925</a></p>
+  </div>
+  <div class="history" id="rule.6234.2700.history">
+    <h2>History: </h2>
+    <p>18 SR 83; L 2000 c 463 s 22; 36 SR 1155; L 2012 c 277 art 1 s 90</p>
+  </div>
+  <div class="published" id="rule.6234.2700.published">
+    <h2>Published Electronically:</h2>
+    <p> August 9, 2012</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.2800">
+    <h1 class="headnote">6234.2800 PAYMENT OF PELTING FEES.</h1>
+    <p>If a person recovers, treats, preserves, or transports the pelt of any fur-bearing animal that was accidentally killed, or lawfully killed while causing or threatening injury or damage, the person may be entitled to a pelting fee equal to 50 percent of the average value of a pelt in the lot of fur in which the pelt was sold or 50 percent of the proceeds of the sale of the pelt if not sold in a lot of fur, not to exceed $25 per pelt. A pelting fee will not be paid on muskrats.</p>
+  </div>
+  <div class="stat_auth" id="rule.6234.2800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.055">97A.055</a>; <a href="/statutes/cite/97B.605">97B.605</a>; and others at 19 SR 6</p>
+  </div>
+  <div class="history" id="rule.6234.2800.history">
+    <h2>History: </h2>
+    <p>19 SR 484; 20 SR 2287; 30 SR 613</p>
+  </div>
+  <div class="published" id="rule.6234.2800.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.2900">
+    <h1 class="headnote">6234.2900 PELTING FEE RESTRICTIONS.</h1>
+    <p>The provisions in items A and B apply to the payment of pelting fees.</p>
+    <div id="rule.6234.2900.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.6234.2900.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> A person must provide the pelt and carcass to the commissioner at the earliest opportunity.</p>
+    </div>
+    <div id="rule.6234.2900.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.6234.2900.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> Claims for pelting fees must be submitted on forms provided by the commissioner. Claims will not be paid until the commissioner has certified that the claimant has used due care in recovering, treating, preserving, and transporting the pelt to maintain its value.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.2900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.055">97A.055</a>; and others at 19 SR 6</p>
+  </div>
+  <div class="history" id="rule.6234.2900.history">
+    <h2>History: </h2>
+    <p>19 SR 484</p>
+  </div>
+  <div class="published" id="rule.6234.2900.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.3000">
+    <h1 class="headnote">6234.3000 CERTIFICATION FOR PREDATOR CONTROL.</h1>
+    <div id="rule.6234.3000.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.3000.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Certification required. </h2>
+      <p>A person may not participate in the predator control program unless the person is certified.</p>
+    </div>
+    <div id="rule.6234.3000.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.3000.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Application process. </h2>
+      <p>Application for certification as a predator controller may be made on forms provided by the commissioner to a conservation officer in the applicant's county of residence on forms provided by the commissioner. The application shall include a summary of the applicant's experience and skill as a trapper or hunter.</p>
+    </div>
+    <div id="rule.6234.3000.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.3000.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Predator controller qualification requirements. </h2>
+      <p>A person will not be certified unless the person completes all information requested on the application and meets the following qualifications:</p>
+      <div id="rule.6234.3000.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6234.3000.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> for three years prior to the date of application, the person must not have been convicted of a violation of Minnesota Statutes, sections <a href="/statutes/cite/97B.601">97B.601</a> to <a href="/statutes/cite/97B.671">97B.671</a> or <a href="/statutes/cite/97B.901">97B.901</a> to <a href="/statutes/cite/97B.951">97B.951</a>, or a rule of the commissioner relating to furbearing animals; and</p>
+      </div>
+      <div id="rule.6234.3000.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6234.3000.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the person must either demonstrate or attest to the person's skill in hunting or trapping, including the ability to distinguish signs, tracks, and trails of predators.</p>
+      </div>
+    </div>
+    <div id="rule.6234.3000.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6234.3000.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Revocation of certification. </h2>
+      <p>A certificate may be revoked if the controller is inactive in the program for 24 consecutive months.</p>
+    </div>
+    <div id="rule.6234.3000.5" class="subp repealed">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6234.3000.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <p>[Repealed, 35 SR 505]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.3000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.671">97B.671</a>; and others at 19 SR 6</p>
+  </div>
+  <div class="history" id="rule.6234.3000.history">
+    <h2>History: </h2>
+    <p>19 SR 484; 19 SR 2222; 35 SR 505</p>
+  </div>
+  <div class="published" id="rule.6234.3000.published">
+    <h2>Published Electronically:</h2>
+    <p> October 13, 2010</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.3100">
+    <h1 class="headnote">6234.3100 DESIGNATED CONTROL AREAS AND DATES OF OPERATION.</h1>
+    <div id="rule.6234.3100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.3100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Reporting damage. </h2>
+      <p>Predator damage must be reported to a conservation officer on forms provided by the commissioner.</p>
+    </div>
+    <div id="rule.6234.3100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.3100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Designation of corrective action. </h2>
+      <p>If it is determined that corrective action in an area is necessary, a directive will be issued designating:</p>
+      <div id="rule.6234.3100.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6234.3100.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the predator control area. The open area may not exceed a one-mile radius surrounding the damage site for coyotes and a one-half mile radius for fox;</p>
+      </div>
+      <div id="rule.6234.3100.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6234.3100.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the species of predators to be taken;</p>
+      </div>
+      <div id="rule.6234.3100.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6234.3100.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the allowable methods of control; and</p>
+      </div>
+      <div id="rule.6234.3100.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6234.3100.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> the effective dates. Between October 1 and the last day of February no areas may be open for predator control for more than 30 days. All control activities must cease at the expiration of the date specified in the directive. If an earlier date is not specified, all open areas close on October 1.</p>
+      </div>
+    </div>
+    <div id="rule.6234.3100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.3100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Notification of eligible predator controllers. </h2>
+      <p>When a predator control area has been opened, all certified predator controllers within 20 road miles of the control site will be notified. Additional predator controllers, more than 20 road miles from the control site, may be notified if necessary to abate the damage.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.3100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.671">97B.671</a>; and others at 19 SR 6</p>
+  </div>
+  <div class="history" id="rule.6234.3100.history">
+    <h2>History: </h2>
+    <p>19 SR 484; 19 SR 2222</p>
+  </div>
+  <div class="published" id="rule.6234.3100.published">
+    <h2>Published Electronically:</h2>
+    <p> January 22, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.3200">
+    <h1 class="headnote">6234.3200 USE OF SNARES FOR PREDATOR CONTROL.</h1>
+    <p>Certified predator controllers may use snares statewide at any time when participating in the predator control program.</p>
+  </div>
+  <div class="stat_auth" id="rule.6234.3200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.671">97B.671</a>; and others at 19 SR 6</p>
+  </div>
+  <div class="history" id="rule.6234.3200.history">
+    <h2>History: </h2>
+    <p>19 SR 484</p>
+  </div>
+  <div class="published" id="rule.6234.3200.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.3300">
+    <h1 class="headnote">6234.3300 PROHIBITED METHODS OF PREDATOR CONTROL.</h1>
+    <div id="rule.6234.3300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.3300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Motor vehicles. </h2>
+      <p>Predators may not be taken from motor vehicles, airplanes, or snowmobiles.</p>
+    </div>
+    <div id="rule.6234.3300.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.3300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Poison. </h2>
+      <p>Poison may not be used in taking predators.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.3300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.671">97B.671</a>; and others at 19 SR 6</p>
+  </div>
+  <div class="history" id="rule.6234.3300.history">
+    <h2>History: </h2>
+    <p>19 SR 484</p>
+  </div>
+  <div class="published" id="rule.6234.3300.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.3400">
+    <h1 class="headnote">6234.3400 COMPENSATION FOR PREDATOR CONTROL.</h1>
+    <div id="rule.6234.3400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6234.3400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Presentation of carcass. </h2>
+      <p>A predator controller must, within 48 hours, present the entire unskinned carcass of each predator to the conservation officer in the county where taken. The conservation officer must remove the front feet and the ears from the unskinned carcass. The remaining carcass is the property of the predator controller and must be immediately removed.</p>
+    </div>
+    <div id="rule.6234.3400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6234.3400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Identification of sites and methods. </h2>
+      <p>Controllers must, upon request, specifically identify the method used to take the predator and the site where each predator for which payment is claimed was taken.</p>
+    </div>
+    <div id="rule.6234.3400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6234.3400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Payment schedule. </h2>
+      <p>The payments in items A and B will be made for predators taken according to this part.</p>
+      <div id="rule.6234.3400.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6234.3400.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> For predators taken from March 1 through September 30:</p>
+        <div id="rule.6234.3400.3.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.6234.3400.3.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> coyote (Brush Wolf), $45; and</p>
+        </div>
+        <div id="rule.6234.3400.3.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.6234.3400.3.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> fox, $15.</p>
+        </div>
+      </div>
+      <div id="rule.6234.3400.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6234.3400.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> For predators taken from October 1 through the last day in February:</p>
+        <div id="rule.6234.3400.3.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.6234.3400.3.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> coyote (brush wolf), $30; and</p>
+        </div>
+        <div id="rule.6234.3400.3.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.6234.3400.3.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> fox, $10.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6234.3400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97B.671">97B.671</a>; and others at 19 SR 6</p>
+  </div>
+  <div class="history" id="rule.6234.3400.history">
+    <h2>History: </h2>
+    <p>19 SR 484; 19 SR 2222</p>
+  </div>
+  <div class="published" id="rule.6234.3400.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6234.3500">
+    <h1 class="headnote">6234.3500 TAKE A KID HUNTING.</h1>
+    <p>Take A Kid Hunting Weekend, as provided by Minnesota Statutes, section <a href="/statutes/cite/97A.445">97A.445</a>, is the weekend beginning on the Saturday nearest September 23.</p>
+  </div>
+  <div class="stat_auth" id="rule.6234.3500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/97A.445">97A.445</a></p>
+  </div>
+  <div class="history" id="rule.6234.3500.history">
+    <h2>History: </h2>
+    <p>18 SR 83</p>
+  </div>
+  <div class="published" id="rule.6234.3500.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
