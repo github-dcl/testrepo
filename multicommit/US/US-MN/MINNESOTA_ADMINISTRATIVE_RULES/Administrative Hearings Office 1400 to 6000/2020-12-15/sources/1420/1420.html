@@ -1,0 +1,2582 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            1420.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/104">Administrative Hearings Office</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/1420/">Chapter 1420</a>
+            </li>
+        
+    
+        
+            <li>Part 1420.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/1420.0200/">1420.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/1420.0100/2014-01-18%2004:04:20+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 1420</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1420/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1420/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1420/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 1420.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1420.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.0100">
+    <h1 class="headnote">1420.0100 SCOPE AND PURPOSE.</h1>
+    <p>This chapter governs workers' compensation matters in litigation before the Office of Administrative Hearings. Except for parts <a href="/rules/1420.0300">1420.0300</a> and <a href="/rules/1420.3700">1420.3700</a>, this chapter applies to litigation initiated by the filing of a petition and does not apply to administrative conferences. This chapter does not apply to matters pending at the Department of Labor and Industry. Chapter 1415 contains joint rules with the Department of Labor and Industry concerning workers' compensation litigation procedures. The two chapters together contain the litigation rules in workers' compensation cases. Rules regarding appeals to the Workers' Compensation Court of Appeals are contained in chapter 9800.</p>
+  </div>
+  <div class="stat_auth" id="rule.1420.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.0100.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.0200">
+    <h1 class="headnote">1420.0200 DEFINITIONS.</h1>
+    <div id="rule.1420.0200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.0200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>For the purposes of this chapter, the following terms have the meanings given them.</p>
+    </div>
+    <div id="rule.1420.0200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.0200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Act. </h2>
+      <p>"Act" means the Workers' Compensation Act, Minnesota Statutes, chapter <a href="/statutes/cite/176">176</a>.</p>
+    </div>
+    <div id="rule.1420.0200.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1420.0200.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Chief judge. </h2>
+      <p>"Chief judge" means the chief administrative law judge of the Office of Administrative Hearings.</p>
+    </div>
+    <div id="rule.1420.0200.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1420.0200.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Commissioner. </h2>
+      <p>"Commissioner" means the commissioner of the Department of Labor and Industry.</p>
+    </div>
+    <div id="rule.1420.0200.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1420.0200.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Court of Appeals. </h2>
+      <p>"Court of Appeals" means the Workers' Compensation Court of Appeals.</p>
+    </div>
+    <div id="rule.1420.0200.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1420.0200.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Days. </h2>
+      <p>"Days" means calendar days unless specifically provided otherwise.</p>
+    </div>
+    <div id="rule.1420.0200.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.1420.0200.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Division. </h2>
+      <p>"Division" means the Workers' Compensation Division of the Department of Labor and Industry.</p>
+    </div>
+    <div id="rule.1420.0200.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.1420.0200.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Expedited hearing. </h2>
+      <p>"Expedited hearing" means a hearing that is required to be heard within a shorter time period than an ordinary hearing under the act.</p>
+    </div>
+    <div id="rule.1420.0200.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.1420.0200.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Insurer. </h2>
+      <p>"Insurer" means the workers' compensation insurer for the employer and includes self-insured employers. For the purposes of this chapter only, "insurer" also includes the special compensation fund where the employer was uninsured on the date of injury.</p>
+    </div>
+    <div id="rule.1420.0200.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.1420.0200.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Intervenor. </h2>
+      <p>"Intervenor" means a party under Minnesota Statutes, section <a href="/statutes/cite/176.361">176.361</a>, who has an interest in a pending workers' compensation proceeding such that the person or entity may either gain or lose by an order or decision in the case, and the person or entity has filed a motion to intervene under part <a href="/rules/1415.1250">1415.1250</a> and Minnesota Statutes, section <a href="/statutes/cite/176.361">176.361</a>.</p>
+    </div>
+    <div id="rule.1420.0200.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.1420.0200.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Judge. </h2>
+      <p>"Judge" means a compensation judge from the Office of Administrative Hearings.</p>
+    </div>
+    <div id="rule.1420.0200.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.1420.0200.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Office. </h2>
+      <p>"Office" means the Office of Administrative Hearings.</p>
+    </div>
+    <div id="rule.1420.0200.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.1420.0200.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Petition. </h2>
+      <p>"Petition" means a claim filed by or on behalf of an injured or deceased employee, employer, insurer, or special compensation fund which initiates a contested workers' compensation case requiring resolution by the Office of Administrative Hearings.</p>
+    </div>
+    <div id="rule.1420.0200.14" class="subp">
+      <a title="Link to subpart 14" class="permalink" href="#rule.1420.0200.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <h2 class="headnote">Petitioner. </h2>
+      <p>"Petitioner" means the injured employee, an heir or dependent of a deceased employee or a party filing on their behalf, an employer or insurer, or the special compensation fund.</p>
+    </div>
+    <div id="rule.1420.0200.15" class="subp">
+      <a title="Link to subpart 15" class="permalink" href="#rule.1420.0200.15">§</a>
+      <h2 class="subp_no">Subp. 15.</h2>
+      <h2 class="headnote">Potential intervenor. </h2>
+      <p> "Potential intervenor" means a person or an entity under Minnesota Statutes, section <a href="/statutes/cite/176.361">176.361</a>, who has an interest in a workers' compensation proceeding such that the person or entity may either gain or lose by an order or decision in the case, and the person or entity has not filed a motion to intervene under part <a href="/rules/1415.1250">1415.1250</a> or Minnesota Statutes, section <a href="/statutes/cite/176.361">176.361</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.0200.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2018</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.0300">
+    <h1 class="headnote">1420.0300 PROFESSIONALISM AND CIVILITY.</h1>
+    <p>In matters pending at the office, lawyers and judges are expected to conduct themselves with professionalism and civility. Personal courtesy and professional integrity must be the standard for all interactions. The Minnesota Rules of Professional Conduct and the professionalism aspirations endorsed by the Minnesota State Supreme Court have also been endorsed by the office to ensure that all proceedings are conducted in a civil manner.</p>
+  </div>
+  <div class="stat_auth" id="rule.1420.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.0300.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.1300">
+    <h1 class="headnote">1420.1300 JOINDER OF PARTIES.</h1>
+    <div id="rule.1420.1300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.1300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Motion or amended petition. </h2>
+      <p>Upon a motion of a party or upon a judge's own motion, a judge may order the joinder of additional parties necessary for the full adjudication of the case. The petitioner may also join an additional party by filing an amended petition or motion according to part <a href="/rules/1415.1000">1415.1000</a>, subpart 4.</p>
+    </div>
+    <div id="rule.1420.1300.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.1300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Service. </h2>
+      <p>A party requesting joinder of additional parties shall serve a copy of the motion on all existing parties and the party to be joined. The moving party or petitioner joining a party by amended petition must also serve the party to be joined with copies of all pleadings and notice of the date, time, and place set for a settlement or pretrial conference or the hearing, if scheduled. Pleadings and attachments already filed in the division file shall not be refiled. When a judge joins parties on the judge's own motion, the office shall either serve the pleadings on the newly joined parties or designate a party to do so.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.1300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.1300.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.1300.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.1800">
+    <h1 class="headnote">1420.1800 SETTLEMENT CONFERENCES.</h1>
+    <div id="rule.1420.1800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.1800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Purpose. </h2>
+      <p>A settlement conference is for the primary purpose of assisting the parties in resolving the disputes and for the secondary purpose of narrowing the issues and preparing for hearing.</p>
+    </div>
+    <div id="rule.1420.1800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.1800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Attendance. </h2>
+      <p>All parties, including intervenors unless otherwise excused, shall attend personally or by representative any settlement conference conducted by a judge. A representative of a party shall be prepared to engage in meaningful settlement negotiations and shall have authority to reach a full settlement on the issues in dispute or have immediate access by telephone to a person having authority to reach a full settlement.</p>
+    </div>
+    <div id="rule.1420.1800.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1420.1800.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Preconference demand and offer. </h2>
+      <p>The petitioner shall provide a claims summary and settlement demand to the opposing parties one week in advance of a settlement conference. The respondent shall respond to the opposing parties with an offer of settlement or response at least one working day before the settlement conference.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.1800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.1800.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.1800.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.1850">
+    <h1 class="headnote">1420.1850 RESOLUTION OF CLAIMS WITH INTERVENORS; HEARINGS.</h1>
+    <div id="rule.1420.1850.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.1850.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Stipulations without agreement of all intervenors or potential intervenors. </h2>
+      <p>A stipulation for settlement that does not include the agreement of all intervenors or that seeks to preclude rights of potential intervenors must meet the requirements of this subpart.</p>
+      <div id="rule.1420.1850.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.1850.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Where a potential intervenor has been excluded from the settlement for failure to timely file a petition to intervene, a statement to that effect must be made in the stipulation for settlement and the stipulation must be accompanied by a copy of the notice given to the potential intervenor under part <a href="/rules/1415.1100">1415.1100</a> and an affidavit of service. If the judge finds a potential intervenor had proper notice or actual notice of the right to intervene within a reasonable period of time before a case was finally concluded but failed to act, the judge may order extinguishment of the potential intervenor's interest under Minnesota Statutes, section <a href="/statutes/cite/176.361">176.361</a>.</p>
+      </div>
+      <div id="rule.1420.1850.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.1850.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Where other parties have reached an agreement to settle a claim but have been unable to reach agreement with an intervenor, or obtain the intervenor's signature on the stipulation, the requirements of subitem (1) or (2) must be met.</p>
+        <div id="rule.1420.1850.1.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1420.1850.1.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> If the stipulation is signed by the intervenor, the stipulation must include a statement that the parties negotiated with the intervenor in good faith but the intervenor chooses not to enter into an agreement and reserves the right to petition for hearing on the merits under subpart 3.</p>
+        </div>
+        <div id="rule.1420.1850.1.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1420.1850.1.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> If the stipulation, or a letter of agreement attached to the stipulation, is not signed by the intervenor, the parties may file a partial stipulation for settlement that complies with Minnesota Statutes, section <a href="/statutes/cite/176.521#stat.176.521.2b">176.521, subdivision 2b</a>.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.1420.1850.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.1850.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 43 SR 1083]</p>
+    </div>
+    <div id="rule.1420.1850.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1420.1850.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Intervenor hearing on the merits.</h2>
+      <div id="rule.1420.1850.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.1850.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> If the parties have not fully resolved the intervenor claim following the procedure in subpart 1 and there is no action pending at the office, a party must file a written petition under Minnesota Statutes, section <a href="/statutes/cite/176.291">176.291</a>, for a hearing on the merits of the intervening party's claim. The petition must be filed within 30 days after an award on stipulation is served and filed. If a petition for a hearing on the merits of an intervenor's claim is pending at the time an award on stipulation is served and filed, the office shall schedule the intervenor claims for a hearing on the merits.</p>
+      </div>
+      <div id="rule.1420.1850.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.1850.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The intervenor may present evidence that the intervenor was effectively excluded from meaningful settlement negotiations through lack of an offer of settlement, lack of notice of the right to intervene, or an unreasonable or bad faith offer of settlement. If the judge finds that the intervenor was effectively excluded from the proceeding or negotiations, full reimbursement to the intervenor will be ordered. If the judge does not find that the intervenor was excluded from the proceeding or negotiations, the intervenor must present evidence regarding the compensability of the employee's claim from which the intervenor's claim is derived as well as evidence of the intervenor's claim. The intervenor has the burden of proving the claims.</p>
+      </div>
+    </div>
+    <div id="rule.1420.1850.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1420.1850.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote"> Potential intervenor claims after final order.</h2>
+      <p> If a potential intervenor claims the potential intervenor was not served with a notice of the right to intervene and a settlement or decision is now final, the potential intervenor may request a hearing on the issue of whether the parties failed to provide proper notice under part <a href="/rules/1415.1100">1415.1100</a>. The potential intervenor must, within 30 days of knowledge of the exclusion, file a motion under part <a href="/rules/1420.2250">1420.2250</a> for a hearing under subpart 3.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.1850.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.1850.history">
+    <h2>History: </h2>
+    <p>29 SR 1446; 43 SR 1083</p>
+  </div>
+  <div class="published" id="rule.1420.1850.published">
+    <h2>Published Electronically:</h2>
+    <p> March 26, 2019</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.1900">
+    <h1 class="headnote">1420.1900 PRETRIAL PROCEDURES.</h1>
+    <div id="rule.1420.1900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.1900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Conference. </h2>
+      <p>All cases are subject to a pretrial conference with a judge. All parties shall attend or be represented unless a judge orders otherwise.</p>
+    </div>
+    <div id="rule.1420.1900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.1900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Location, notice of conference. </h2>
+      <p>A pretrial conference must be conducted by telephone if the set location would require a party to travel more than 50 miles to attend, unless the party prefers to be physically present. If a telephone conference is scheduled, the parties not in attendance must be available by telephone at the time of the conference. Written notice of the pretrial conference must be given at least 20 days before the conference.</p>
+    </div>
+    <div id="rule.1420.1900.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1420.1900.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Pretrial statements; conference procedures. </h2>
+      <p>At the pretrial conference, the parties shall be prepared to state the claims and defenses with specificity; identify witnesses; identify anticipated exhibits; disclose any photographs, videotapes, or other documentary evidence intended to be used at the hearing; and identify any additional potential intervenors. A pretrial statement must be served and filed prior to a pretrial conference or delivered to the parties and the office at the pretrial conference. In cases not expedited under part <a href="/rules/1420.2150">1420.2150</a> and not scheduled for a pretrial, the pretrial statement must be filed 30 days before the hearing. Pretrial statements may be amended up to seven days before the hearing in response to an opposing party's statement. The pretrial statement must include answers to the questions asked in the pretrial order or, if no pretrial order was issued, to the questions in the standard pretrial order maintained by the office, including whether or not security or an interpreter is needed. Pretrial statements are not required in expedited cases unless specifically ordered by a judge.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.1900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.1900.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.1900.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.2050">
+    <h1 class="headnote">1420.2050 SETTLEMENT AGREEMENTS.</h1>
+    <div id="rule.1420.2050.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.2050.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Contents. </h2>
+      <p>Stipulations for settlement must contain, if applicable, a brief statement of the admitted material facts, a statement of the matters in dispute, the positions of the parties and supporting documentation, the matters agreed upon, and where the agreement is not conclusively presumed reasonable under Minnesota Statutes, section <a href="/statutes/cite/176.521">176.521</a>, sufficiently specific information for the judge to determine whether or not the settlement is fair, reasonable, and in conformity with the act. The party submitting the stipulation for settlement for approval must also provide a proposed award on stipulation prepared for signature by a judge.</p>
+    </div>
+    <div id="rule.1420.2050.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.2050.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Filing. </h2>
+      <p>A stipulation for settlement must be filed within 45 days of the date the parties reached an agreement. If the stipulation is not timely filed, and good cause for the delay is not shown after notice to the parties, the judge shall reinstate the matter on the active trial calendar, strike or dismiss the matter, or schedule the matter for another proceeding. The office shall assist the parties in finalizing and filing a stipulation for settlement.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.2050.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.2050.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.2050.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.2150">
+    <h1 class="headnote">1420.2150 EXPEDITED PROCEEDINGS.</h1>
+    <div id="rule.1420.2150.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.2150.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Expedited hearings. </h2>
+      <p>A hearing will be held on an expedited basis only where all required statutory conditions have been met. If the statutory requirements are not met, the matter will be placed on the regular hearing calendar. A hearing will also be held on an expedited basis concerning a request for prior approval of surgery or other treatment if the surgery or treatment is urgently needed and if the surgery or treatment has not already been provided at the time of hearing.</p>
+    </div>
+    <div id="rule.1420.2150.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.2150.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Issues limited.</h2>
+      <div id="rule.1420.2150.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2150.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The hearing on an objection to discontinuance is limited to the issues raised in the notice of intention to discontinue benefits.</p>
+      </div>
+      <div id="rule.1420.2150.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.2150.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The hearing on a petition to discontinue benefits is limited to the issues raised in the petition to discontinue benefits.</p>
+      </div>
+      <div id="rule.1420.2150.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1420.2150.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The hearing on a request for formal hearing is limited to the issues raised on the medical or rehabilitation request or response.</p>
+      </div>
+      <div id="rule.1420.2150.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1420.2150.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> The hearing on a claim granted hardship status is limited to the issues raised on the original claim.</p>
+      </div>
+      <div id="rule.1420.2150.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1420.2150.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> The hearing on a failure to answer under Minnesota Statutes, section <a href="/statutes/cite/176.331">176.331</a>, is limited to the issues raised in the original petition.</p>
+      </div>
+      <div id="rule.1420.2150.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.1420.2150.2.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> The hearing on a request for approval of urgent medical treatment is limited to the treatment approval issues.</p>
+      </div>
+    </div>
+    <div id="rule.1420.2150.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1420.2150.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Expansion of issues. </h2>
+      <p>Expansion of the issues in an expedited proceeding will only be allowed upon agreement of the parties and the office, except that an expedited proceeding may be consolidated with another expedited proceeding.</p>
+      <div id="rule.1420.2150.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2150.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> If the parties agree to expansion of the issues, the judge has 60 days rather than 30 days to issue a decision.</p>
+      </div>
+      <div id="rule.1420.2150.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.2150.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> If the expansion of the issues will require substantially more discovery and preparation time by any party, the expansion will not be allowed unless all parties agree that the case may be removed from expedited status.</p>
+      </div>
+    </div>
+    <div id="rule.1420.2150.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1420.2150.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Incomplete pleadings. </h2>
+      <p>If the office notifies a party that a pleading is incomplete, the incomplete pleading must be corrected within ten days of notification in order to maintain expedited status.</p>
+    </div>
+    <div id="rule.1420.2150.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1420.2150.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Intervention. </h2>
+      <p>Once an expedited process is initiated or granted, the parties must, within ten days, notify any remaining potential intervenors that the proceeding is expedited and that a motion to intervene must be filed within 30 days from service of the intervention notice rather than the 60 days allowed under part <a href="/rules/1415.1250">1415.1250</a>.</p>
+    </div>
+    <div id="rule.1420.2150.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1420.2150.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Discovery. </h2>
+      <p>In expedited proceedings, reasonable discovery is allowed provided it is conducted as expeditiously as possible and is completed before the date of hearing. A judge may require the parties to comply with curtailed time limits in order to ensure a timely hearing.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.2150.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.2150.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.2150.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.2200">
+    <h1 class="headnote">1420.2200 DISCOVERY.</h1>
+    <div id="rule.1420.2200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.2200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Demand. </h2>
+      <p>Each party shall, within 30 days of a demand by another party, unless a shorter time is indicated by this part, disclose or furnish the following:</p>
+      <div id="rule.1420.2200.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2200.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the names and addresses of all known witnesses that a party intends to call at the hearing, including doctors by cross-examination or who will testify by report only. All witnesses unknown at the time of the disclosure must be disclosed within 15 days after they become known if a prior demand has been made;</p>
+      </div>
+      <div id="rule.1420.2200.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.2200.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> nonprivileged written or recorded statements made by a party or by witnesses on behalf of a party. The demanding party must be permitted to inspect and reproduce such statements at the demanding party's expense. A party unreasonably failing upon demand to make the disclosure required by this part, upon proper motion made to the judge at the hearing, may be foreclosed from presenting evidence at the hearing through witnesses not disclosed or through witnesses whose statements are not disclosed;</p>
+      </div>
+      <div id="rule.1420.2200.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1420.2200.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the petitioner shall disclose the names and addresses of all persons who have treated the employee in the past for injuries or conditions identical or related to those alleged in the petition, the dates of the treatment, and provide medical authorization for each. Medical privilege is waived as to the injuries or conditions alleged in the petition by the filing of the petition alleging injury or occupational disease;</p>
+      </div>
+      <div id="rule.1420.2200.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1420.2200.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> wage and personnel records;</p>
+      </div>
+      <div id="rule.1420.2200.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1420.2200.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> if temporary partial disability benefits are claimed, the employee must provide a list of postinjury employers and authorizations for the release of wage information for each or a complete set of wage records regarding the employee's claim; and</p>
+      </div>
+      <div id="rule.1420.2200.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.1420.2200.1.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> for the purpose of the pending hearing only, a party shall provide a response to a party's request for admissions relevant to the matters in dispute, including, but not limited to, the genuineness of any documents, whether the party is the person depicted in surveillance, and whether or not surveillance accurately depicts the subject's activities during the time covered by the surveillance. If a party fails to provide a response to a request for admissions, the requesting party may file a motion to compel compliance with discovery under part <a href="/rules/1420.2250">1420.2250</a> or a motion to establish an admission or preclude evidence under subpart 5.</p>
+      </div>
+    </div>
+    <div id="rule.1420.2200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.2200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Depositions. </h2>
+      <p>Under Minnesota Statutes, section <a href="/statutes/cite/176.411">176.411</a>, subdivision 2, depositions may be taken in the manner the law provides for depositions in civil actions in the district courts for the state, except where a judge orders otherwise. Upon request by an adverse party, a party must produce named witnesses for discovery deposition, except as otherwise provided by this part or Minnesota Statutes, section <a href="/statutes/cite/176.155">176.155</a>, subdivision 5.</p>
+      <div id="rule.1420.2200.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2200.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> When a party has objected to the taking of a deposition, the party requesting the deposition shall bring a motion before the judge who will determine whether the deposition should proceed. The motion must state, with specificity, the facts or other reasons supporting the need for the deposition. The judge shall order the deposition to proceed if the judge finds that:</p>
+        <div id="rule.1420.2200.2.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1420.2200.2.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> the deposition is needed for the proper presentation of a party's case;</p>
+        </div>
+        <div id="rule.1420.2200.2.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1420.2200.2.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> the deposition is not for purposes of delay;</p>
+        </div>
+        <div id="rule.1420.2200.2.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1420.2200.2.A.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> unusual or extraordinary circumstances exist which compel extensive discovery; or</p>
+        </div>
+        <div id="rule.1420.2200.2.A.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.1420.2200.2.A.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> the issues or amounts in controversy are significant enough to warrant extensive discovery.</p>
+        </div>
+      </div>
+      <div id="rule.1420.2200.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.2200.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Depositions to preserve testimony or to present testimony due to the unavailability of the witness are allowed. The deposition must be taken sufficiently in advance of the hearing so that the deposition may be offered as an exhibit at the hearing, unless, for good cause shown, the party taking the deposition has the permission of the judge to take or file the deposition subsequent to the hearing.</p>
+      </div>
+      <div id="rule.1420.2200.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1420.2200.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Under Minnesota Statutes, section <a href="/statutes/cite/176.155">176.155</a>, subdivision 5, the cross-examination of a physician or health care provider before a hearing is specifically allowed. When a deposition for the purpose of cross-examination of a physician or health care provider is taken under this item, redirect examination is allowed. Unless ordered otherwise by a judge, the cross-examination deposition must be completed before the hearing.</p>
+      </div>
+      <div id="rule.1420.2200.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1420.2200.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Depositions taken for purposes of presenting testimony may be offered as an exhibit at the hearing but need not be filed with the division before the hearing.</p>
+      </div>
+      <div id="rule.1420.2200.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1420.2200.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> The party initiating the taking of any deposition, including a cross-examination deposition under Minnesota Statutes, section <a href="/statutes/cite/176.155">176.155</a>, subdivision 5, is responsible for all costs of the deposition, including witness fees and court reporter fees.</p>
+      </div>
+    </div>
+    <div id="rule.1420.2200.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1420.2200.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Motions for disputed or additional discovery. </h2>
+      <p>Upon the motion of a party, the judge may order discovery of other relevant material or information and resolve disputes about the extent of discovery, recognizing all privileges recognized by law. The judge may order discovery available under the Rules of Civil Procedure for the district courts of Minnesota provided that the discovery:</p>
+      <div id="rule.1420.2200.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2200.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> is needed for the proper presentation of a party's case;</p>
+      </div>
+      <div id="rule.1420.2200.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.2200.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> is not for purposes of delay; and</p>
+      </div>
+      <div id="rule.1420.2200.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1420.2200.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the issues or amounts in controversy are significant enough to warrant extensive discovery.</p>
+      </div>
+    </div>
+    <div id="rule.1420.2200.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1420.2200.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Motion for direct testimony by physician or health care provider. </h2>
+      <p>A motion for full testimony of a physician or health care provider must comply with part <a href="/rules/1420.2900">1420.2900</a>, subpart 3.</p>
+    </div>
+    <div id="rule.1420.2200.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1420.2200.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Penalties. </h2>
+      <p>Upon the failure of a party to reasonably comply with discovery or a judge's order under this part, the following orders of the judge are allowed upon a party's motion:</p>
+      <div id="rule.1420.2200.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2200.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> an order that the subject matter of the order for discovery or other relevant facts is established in accordance with the moving party's claim; or</p>
+      </div>
+      <div id="rule.1420.2200.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.2200.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> an order prohibiting the party failing to comply to support or oppose designated claims or defenses, or prohibiting that party from introducing designated matters in evidence.</p>
+      </div>
+    </div>
+    <div id="rule.1420.2200.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1420.2200.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Protective orders. </h2>
+      <p>When a party is asked to reveal material which that party considers proprietary or privileged information, trade secrets, or sensitive medical data, the party may bring the matter to the attention of the judge, who shall issue a protective order as is reasonable and necessary or as otherwise provided by law.</p>
+    </div>
+    <div id="rule.1420.2200.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.1420.2200.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Employer's expert medical examinations. </h2>
+      <p>If an employee claims that the employee's ability to earn has been substantially reduced because of the injury in combination with other factors, the employee must submit to a physical and verbal examination by the employer's or insurer's expert under Minnesota Statutes, section <a href="/statutes/cite/176.155">176.155</a>, subdivision 1, if requested by the employer or insurer. Expert reports must be provided, upon demand, to adverse parties. A party who objects to the scope of the requested examination may bring a motion for protection. The motion must be served as provided in part <a href="/rules/1420.2250">1420.2250</a>. The judge may issue an order allowed by Rule <a href="/statutes/cite/26.03">26.03</a> of the Rules of Civil Procedure for the district courts. An insurer seeking to require attendance for the requested examination may file a motion to compel attendance under part <a href="/rules/1420.2250">1420.2250</a>.</p>
+    </div>
+    <div id="rule.1420.2200.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.1420.2200.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Disclosure of surveillance evidence.</h2>
+      <div id="rule.1420.2200.8.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2200.8.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> A party possessing relevant surveillance evidence must disclose the existence of said evidence to opposing parties upon discovery demand but no later than 30 days prior to the hearing date, or within five business days of the date it is obtained if the evidence is obtained within 30 days of the hearing date. The surveillance evidence must be disclosed at least five business days before a hearing. If a party offers undisclosed surveillance, it is only admissible where the proponent makes an offer of proof to the judge and establishes that admission of the undisclosed surveillance is vital to prevent a miscarriage of justice or fraud.</p>
+        <p>Surveillance evidence under this part includes any photographic, video, digital, motion picture, or other electronic recording or depiction of a party surreptitiously taken or obtained without the party's expressed permission or knowledge. If the items described in this subpart were not surreptitiously obtained, they are not considered surveillance evidence. Surveillance evidence does not include the personal observations of an investigator or witness or party whether surreptitiously obtained or not, or the handwritten or recorded notes of observations. Surveillance evidence includes surveillance reports.</p>
+      </div>
+      <div id="rule.1420.2200.8.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.2200.8.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> At the time of disclosure of the existence of surveillance evidence under this subpart, the party disclosing evidence shall provide a copy of the evidence to the attorney representing the subject of the surveillance, or where the subject is unrepresented, to the subject, and shall advise the other parties of the existence of surveillance. A copy of the surveillance shall be presumed to have been disclosed when sent by first class mail upon posting or delivered by messenger. In the case of surveillance evidence disclosed within ten days of the hearing date, disclosure shall be by messenger under this rule and not by first class mail. Where an edited version of surveillance is disclosed, the subject of the surveillance may request the right to view or inspect the unedited version or to be provided with a copy of the unedited version at the insurer's expense.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.2200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.2200.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.2200.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.2250">
+    <h1 class="headnote">1420.2250 MOTION PRACTICE.</h1>
+    <div id="rule.1420.2250.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.2250.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Timing. </h2>
+      <p>Unless otherwise provided or due to circumstances occurring just prior to or after a pretrial conference, a motion must be served and filed on or before the date set for a pretrial conference. An adverse party has ten days from the date the motion was served to serve and file a response.</p>
+    </div>
+    <div id="rule.1420.2250.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.2250.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Contents of motion and response to motion. </h2>
+      <p>A motion must be filed as a separate document and may not be included within another pleading. A motion and a response to a motion must contain the following information:</p>
+      <div id="rule.1420.2250.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2250.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the complete case caption and descriptive title in the case caption;</p>
+      </div>
+      <div id="rule.1420.2250.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.2250.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> a statement of the specific relief sought;</p>
+      </div>
+      <div id="rule.1420.2250.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1420.2250.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> a statement of the grounds supporting or opposing the motion including citations to applicable law and, if oral argument is requested in the motion, the reasons it is needed;</p>
+      </div>
+      <div id="rule.1420.2250.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1420.2250.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> if the motion is untimely, a showing of good cause for the delay; and</p>
+      </div>
+      <div id="rule.1420.2250.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1420.2250.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> one copy of an order granting or denying the motion ready for signature by the judge.</p>
+        <p>Motions and responses must also, as appropriate, include affidavits, memoranda, briefs, or other support setting forth the legal or factual grounds for the motion. If supporting documentation was previously filed, those documents may be incorporated by reference.</p>
+      </div>
+    </div>
+    <div id="rule.1420.2250.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1420.2250.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Judge action on motion. </h2>
+      <p>The office shall assign a motion to a judge when action by a judge is needed. The judge shall take action on the motion within 30 days of the filing of the motion by issuing an order, advising the parties of how the motion will be resolved, or scheduling a conference or hearing to resolve the motion.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.2250.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.2250.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.2250.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.2350">
+    <h1 class="headnote">1420.2350 TEMPORARY ORDERS.</h1>
+    <div id="rule.1420.2350.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.2350.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Petition. </h2>
+      <p>The person or entity seeking to pay or receive payment under a temporary order must file a petition. The petition for temporary order must contain:</p>
+      <div id="rule.1420.2350.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2350.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> an explanation of the nature of the dispute and an assertion that the claimed benefits are payable under the act by at least one of the employers or insurers;</p>
+      </div>
+      <div id="rule.1420.2350.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.2350.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the names and addresses of all employers and insurers who are parties to the claim or who may be liable for the benefits claimed;</p>
+      </div>
+      <div id="rule.1420.2350.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1420.2350.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the date of each alleged injury and the name of the employer and insurer on each date;</p>
+      </div>
+      <div id="rule.1420.2350.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1420.2350.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> the beginning date of the employee's present disability, the compensation rate for each injury, the proposed compensation rate to be paid, and an itemization of all benefits to be paid under the order;</p>
+      </div>
+      <div id="rule.1420.2350.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1420.2350.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> copies of medical reports supporting the claimed period of disability and other claimed benefits;</p>
+      </div>
+      <div id="rule.1420.2350.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.1420.2350.1.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> a statement identifying any intervenors or potential intervenors with proof the intervenor was served with notice under part <a href="/rules/1415.1100">1415.1100</a>; and</p>
+      </div>
+      <div id="rule.1420.2350.1.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.1420.2350.1.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> a statement indicating whether the employee is represented by counsel, the name and address of the attorney, and whether attorney fees should be withheld or paid from payments made under the order.</p>
+      </div>
+    </div>
+    <div id="rule.1420.2350.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.2350.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Necessary parties. </h2>
+      <p>For the purpose of this part, the following are necessary parties:</p>
+      <div id="rule.1420.2350.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2350.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the employee, dependent, or heir of a deceased employee;</p>
+      </div>
+      <div id="rule.1420.2350.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.2350.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> insurers or self-insurers named in the petition for temporary order;</p>
+      </div>
+      <div id="rule.1420.2350.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1420.2350.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> an employer who is uninsured or whose insurer for the date of the alleged injury in that employment is unknown;</p>
+      </div>
+      <div id="rule.1420.2350.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1420.2350.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> the special compensation fund if the employer, after reasonable inquiry, appears to be uninsured; and</p>
+      </div>
+      <div id="rule.1420.2350.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1420.2350.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> intervenors.</p>
+      </div>
+    </div>
+    <div id="rule.1420.2350.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1420.2350.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Proposed order. </h2>
+      <p>The petition for temporary order must be accompanied by an order ready for a judge's signature.</p>
+    </div>
+    <div id="rule.1420.2350.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1420.2350.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Objections. </h2>
+      <p>A responding party has ten days after service of the petition in which to serve and file an objection. The objection must clearly state the basis of the objection and include supporting documentation.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.2350.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.2350.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.2350.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.2400">
+    <h1 class="headnote">1420.2400 PETITIONS FOR CONTRIBUTION OR REIMBURSEMENT.</h1>
+    <div id="rule.1420.2400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.2400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Contents. </h2>
+      <p>Petitions for contribution or reimbursement in cases pending before the office must describe in detail the basis of a claim for contribution or reimbursement against the additional employer, insurer, or the special compensation fund. The petition must be supported by medical evidence and signed by the petitioner. If a claim petition is currently pending, and the party from whom contribution or reimbursement is sought is not a party, the petition for contribution or reimbursement must be accompanied by either a petition for joinder of the party from whom reimbursement or contribution is sought, or a petition for consolidation under part <a href="/rules/1420.2500">1420.2500</a>. The two actions may be combined on a joint petition.</p>
+    </div>
+    <div id="rule.1420.2400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.2400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Filing. </h2>
+      <p>A petition for contribution or reimbursement must be filed no later than ten days before a pretrial conference or 60 days before hearing if a pretrial conference is not held. Copies of all pleadings, including a notice of pretrial conference, must be served upon the additional employers or insurers by the party bringing the petition.</p>
+    </div>
+    <div id="rule.1420.2400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1420.2400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Answer. </h2>
+      <p>Within 20 days after being served with a copy of a petition for contribution or reimbursement, employers or their insurers, other than the petitioning party, shall file an answer to the petition under Minnesota Statutes, section <a href="/statutes/cite/176.321">176.321</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.2400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.2400.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.2400.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.2500">
+    <h1 class="headnote">1420.2500 CONSOLIDATION.</h1>
+    <div id="rule.1420.2500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.2500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Authorization. </h2>
+      <p> Except as provided in part <a href="/rules/1420.2150">1420.2150</a>, consolidation of two or more related cases involving the same employee may be ordered for the purpose of hearing. Consolidation may be ordered upon motion by a party to the judge, or upon the judge's own motion, if the judge determines that:</p>
+      <div id="rule.1420.2500.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2500.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> separate cases present substantially the same or similar issues of fact and law;</p>
+      </div>
+      <div id="rule.1420.2500.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.2500.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> a holding in one case would affect the rights of the parties in the other case; and</p>
+      </div>
+      <div id="rule.1420.2500.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1420.2500.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the consolidation would not substantially prejudice the rights of any party.</p>
+        <p>Notwithstanding the requirements of this part, the parties may stipulate to consolidation.</p>
+      </div>
+    </div>
+    <div id="rule.1420.2500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.2500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Objection to consolidation. </h2>
+      <p>A party objecting to consolidation or moving for severance must file with the judge and serve upon all parties at least seven days before the hearing a motion for severance from consolidation which includes the reasons for the motion.</p>
+    </div>
+    <div id="rule.1420.2500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1420.2500.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Companion cases. </h2>
+      <p>Two or more related cases involving different employees may not be consolidated, however, companion cases involving the same or similar issues may be grouped for scheduling purposes. In companion cases, the parties and the judge shall prepare separate pleadings and orders for each case.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.2500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.2500.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.2500.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.2600">
+    <h1 class="headnote">1420.2600 REASSIGNMENT AND DISQUALIFICATION.</h1>
+    <div id="rule.1420.2600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.2600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Disqualification by judge. </h2>
+      <p>A judge shall withdraw from participation in a case at any time if the judge deems himself or herself disqualified, prejudiced, or biased for any reason.</p>
+    </div>
+    <div id="rule.1420.2600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.2600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Disqualification by a party. </h2>
+      <p>A party or the party's attorney may file an affidavit of prejudice and motion to disqualify a judge if the party reasonably believes that a hearing before the assigned judge cannot be fair due to the judge's prejudice or bias. The affidavit must be served on opposing parties and filed with the chief judge not more than ten days after the filing party has received notice of the assigned judge or has knowledge of the grounds for disqualification, whichever occurs last. Upon filing of the motion and affidavit of prejudice, the chief judge or designee shall issue an order and assign the case to another judge if appropriate.</p>
+      <p>A party or the party's attorney may file a motion to disqualify a judge for a cause other than or in addition to that described in an affidavit of prejudice. The motion must be supported by an affidavit detailing the facts establishing the grounds for disqualification and filed with the chief judge not more than ten days after the moving party has received notice of the assigned judge or has knowledge of the grounds for disqualification, whichever occurs last. The motion will be decided by the chief judge or a designee.</p>
+    </div>
+    <div id="rule.1420.2600.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1420.2600.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Reassignment. </h2>
+      <p>A request for reassignment under Minnesota Statutes, section <a href="/statutes/cite/176.312">176.312</a>, is subject to the same procedures set forth in subpart 2, except that an affidavit of prejudice is not required. Each party is allowed one filing per case under this subpart and Minnesota Statutes, section <a href="/statutes/cite/176.312">176.312</a>. For purposes of this part, "case" means the initial assignment of a judge for hearing and all subsequent hearings regarding the same parties with the same judge. If the parties to the claim subsequently change, only the new parties may request reassignment. If a judge assignment is made just prior to a hearing, a party may request reassignment orally and then file the written request for reassignment on or before the hearing date. If a judge assignment is made just before the hearing, the written petition for reassignment may be faxed to the office or filed in person on or before the date of hearing. The chief judge may reassign a case or a particular hearing to a different judge as necessary when the assigned judge is unavailable to hear the case as scheduled.</p>
+    </div>
+    <div id="rule.1420.2600.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1420.2600.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Consolidated cases. </h2>
+      <p>Consolidated cases are considered one case under this part.</p>
+    </div>
+    <div id="rule.1420.2600.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1420.2600.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Conferences. </h2>
+      <p>This part is not applicable to settlement, administrative, or pretrial conferences.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.2600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.2600.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.2600.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.2605">
+    <h1 class="headnote">1420.2605 DISPOSITION OF COVERAGE ISSUES.</h1>
+    <div id="rule.1420.2605.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.2605.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Motion. </h2>
+      <p> If an answer filed under Minnesota Statutes, section <a href="/statutes/cite/176.321">176.321</a>, raises an issue related to independent contractor or employment status, a party may move to bifurcate the issue or issues for immediate and expedited resolution upon stipulated facts under Minnesota Statutes, section <a href="/statutes/cite/176.322">176.322</a>, a summary decision under Minnesota Statutes, section <a href="/statutes/cite/176.305">176.305</a>, or a hearing.</p>
+    </div>
+    <div id="rule.1420.2605.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.2605.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Filing. </h2>
+      <p>The motion must be filed with the division pursuant to part <a href="/rules/1420.2250">1420.2250</a>. The motion must include evidence relied on in support of the motion by verified affidavits or stipulated facts, any request for a hearing, and if desired, a written brief not exceeding 25 pages in support of the motion.</p>
+      <p>Other parties to the proceeding may respond to the motion within 20 days after the service of the motion under this part by submission of affidavits and, in the party's discretion, a written brief not exceeding 20 pages. The movant will have ten days from service of a response to the motion to file affidavits and, if desired, a written brief not exceeding ten pages in rebuttal to any issue raised in opposition to the motion.</p>
+    </div>
+    <div id="rule.1420.2605.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1420.2605.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Decision; hearing. </h2>
+      <p>The judge may determine the motion based on stipulated facts, issue a summary decision, or schedule a hearing.</p>
+    </div>
+    <div id="rule.1420.2605.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1420.2605.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Hearing on the merits. </h2>
+      <p>The office shall schedule a hearing on other issues not decided under this subpart, if needed, following a final decision on the motion under this subpart and any related appeal.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.2605.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.2605.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.2605.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.2700">
+    <h1 class="headnote">1420.2700 SUBPOENAS.</h1>
+    <p>Subpoenas may be obtained without charge from the office. The name, address, and telephone number of the party or attorney requesting service of the subpoena must be included on the subpoena before service is tendered in accordance with Minnesota Statutes, section <a href="/statutes/cite/357.22">357.22</a>.</p>
+    <p>The judge shall quash or modify a subpoena upon a party's motion if the judge finds that it is unreasonable or oppressive. The motion must be promptly made, no later than the date specified in the subpoena for compliance.</p>
+  </div>
+  <div class="stat_auth" id="rule.1420.2700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.2700.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.2700.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.2800">
+    <h1 class="headnote">1420.2800 CONTINUANCES.</h1>
+    <div id="rule.1420.2800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.2800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Continuances not favored. </h2>
+      <p>Requests for continuances are inconsistent with the requirement that workers' compensation proceedings be expeditious. Continuances are not favored and will be granted only upon a clear showing of good cause.</p>
+    </div>
+    <div id="rule.1420.2800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.2800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Request. </h2>
+      <p>When a continuance is requested before the hearing date, the party requesting the continuance shall first contact all other parties to determine whether mutual agreement to the continuance can be reached and, if the continuance is granted, the availability of all parties for hearing at future specific dates. When all parties are in agreement with the request for continuance and have agreed to a date for a future hearing, which date has been approved by the office, and when the continuance request is made more than 30 days before the hearing date, the continuance will be granted.</p>
+    </div>
+    <div id="rule.1420.2800.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1420.2800.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Motion. </h2>
+      <p>A request for continuance must be in writing in the form of a motion for continuance pursuant to part <a href="/rules/1420.2250">1420.2250</a>. Urgent requests may be made orally to the assigned judge. For urgent requests on cases that have not been assigned to a judge, the continuance request must be made to the telephone calendar line designated by the office for such requests.</p>
+    </div>
+    <div id="rule.1420.2800.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1420.2800.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Good cause. </h2>
+      <p>Good cause does not include:</p>
+      <div id="rule.1420.2800.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2800.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> when a law firm, or an insurer with in-house counsel, consists of more than one attorney who practice in the field of workers' compensation law, and counsel assigned to the case is unavailable because of engagement in another court or otherwise, unless all counsel are committed elsewhere;</p>
+      </div>
+      <div id="rule.1420.2800.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.2800.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> unavailability of a medical or other witness if the deposition of the witness could have been taken after receipt of the notice of hearing date and before the hearing; or</p>
+      </div>
+      <div id="rule.1420.2800.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1420.2800.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> where the judge determines that the reason for the continuance was reasonably foreseeable and avoidable.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.2800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.2800.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.2800.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.2900">
+    <h1 class="headnote">1420.2900 HEARING.</h1>
+    <div id="rule.1420.2900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.2900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Notice. </h2>
+      <p>A place, date, and time certain will be assigned to each case. Written notice of the hearing will be given as soon as the assigned date is known, but must be given at least 30 days in advance of the hearing, except:</p>
+      <div id="rule.1420.2900.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2900.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> when notice is waived by the parties;</p>
+      </div>
+      <div id="rule.1420.2900.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.2900.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> when a different time is expressly agreed to by the parties;</p>
+      </div>
+      <div id="rule.1420.2900.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1420.2900.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> when the notice is governed by contrary law or rule; or</p>
+      </div>
+      <div id="rule.1420.2900.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1420.2900.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> when the hearing has been continued from an earlier date and the parties are all available at an earlier date.</p>
+        <p>The notice must include the place of hearing, the amount of time allowed for the hearing, and if known, the name of the judge assigned. If an additional hearing date is required, the office will set the date and time.</p>
+      </div>
+    </div>
+    <div id="rule.1420.2900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.2900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Availability of witnesses. </h2>
+      <p>As soon as the parties know the hearing date, they shall immediately notify all witnesses in writing and arrange for the witnesses to be present or for the taking of a deposition under part <a href="/rules/1420.2200">1420.2200</a>. A party calling a witness for whom an interpreter is required shall advise the office in advance of the need for an interpreter.</p>
+    </div>
+    <div id="rule.1420.2900.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1420.2900.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Medical evidence. </h2>
+      <p>Rules governing medical evidence are as follows:</p>
+      <div id="rule.1420.2900.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2900.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> If a party believes that the oral testimony of a physician or health care provider is crucial to the accurate determination of the employee's disability, the party shall file a written motion pursuant to part <a href="/rules/1420.2250">1420.2250</a>.</p>
+      </div>
+      <div id="rule.1420.2900.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.2900.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> If medical evidence is submitted in the form of written reports, rather than by oral testimony, under Minnesota Statutes, section <a href="/statutes/cite/176.155">176.155</a>, subdivision 5, the reports should include:</p>
+        <div id="rule.1420.2900.3.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1420.2900.3.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> the date of the examination;</p>
+        </div>
+        <div id="rule.1420.2900.3.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1420.2900.3.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> the history of the injury;</p>
+        </div>
+        <div id="rule.1420.2900.3.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1420.2900.3.B.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> the patient's complaints;</p>
+        </div>
+        <div id="rule.1420.2900.3.B.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.1420.2900.3.B.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> the source of all facts in the history and complaints;</p>
+        </div>
+        <div id="rule.1420.2900.3.B.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.1420.2900.3.B.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> findings on examination;</p>
+        </div>
+        <div id="rule.1420.2900.3.B.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.1420.2900.3.B.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> opinion as to the extent of disability and work limitations, if any;</p>
+        </div>
+        <div id="rule.1420.2900.3.B.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.1420.2900.3.B.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> the cause of the disability and, if applicable, whether the work injury was a substantial contributing factor toward the disability;</p>
+        </div>
+        <div id="rule.1420.2900.3.B.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.1420.2900.3.B.8">§</a>
+          <h4 class="subitem_no">(8)</h4>
+          <p> the medical treatment indicated;</p>
+        </div>
+        <div id="rule.1420.2900.3.B.9" class="subitem">
+          <a title="Link to subitem 9" class="permalink" href="#rule.1420.2900.3.B.9">§</a>
+          <h4 class="subitem_no">(9)</h4>
+          <p> if permanent disability is an issue, an opinion as to whether or not the permanent disability has resulted from the injury and whether or not the condition has stabilized. If stabilized, a description of the disability with a complete evaluation;</p>
+        </div>
+        <div id="rule.1420.2900.3.B.10" class="subitem">
+          <a title="Link to subitem 10" class="permalink" href="#rule.1420.2900.3.B.10">§</a>
+          <h4 class="subitem_no">(10)</h4>
+          <p> if a permanent partial disability is a result of two or more injuries or occurrences, or if part of the permanent disability is a result of a preexisting disability that arises from a congenital condition, traumatic injury, or incident, whether or not compensable under Minnesota Statutes, chapter <a href="/statutes/cite/176">176</a>, the health care provider shall apportion the disability between the injuries, occurrences, or conditions;</p>
+        </div>
+        <div id="rule.1420.2900.3.B.11" class="subitem">
+          <a title="Link to subitem 11" class="permalink" href="#rule.1420.2900.3.B.11">§</a>
+          <h4 class="subitem_no">(11)</h4>
+          <p> if future medical care or treatment is anticipated, a statement of the nature and extent of treatment recommended and, if possible, the anticipated results;</p>
+        </div>
+        <div id="rule.1420.2900.3.B.12" class="subitem">
+          <a title="Link to subitem 12" class="permalink" href="#rule.1420.2900.3.B.12">§</a>
+          <h4 class="subitem_no">(12)</h4>
+          <p> the reason for each opinion; and</p>
+        </div>
+        <div id="rule.1420.2900.3.B.13" class="subitem">
+          <a title="Link to subitem 13" class="permalink" href="#rule.1420.2900.3.B.13">§</a>
+          <h4 class="subitem_no">(13)</h4>
+          <p> if applicable, a statement that the health care provider has read the rules concerning determination of permanent partial disability, understands them, and has applied those rules in making the determination.</p>
+        </div>
+      </div>
+      <div id="rule.1420.2900.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1420.2900.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Medical reports to be used at the hearing must be served on the parties and filed with the office, with an affidavit of service, sufficiently in advance of the hearing to allow other parties the opportunity to cross-examine the health care provider, if desired, unless the delay in filing the report was caused by a failure of the employee to report for an adverse medical examination or to provide medical support for the claim on a timely basis, or other good cause. If the report is filed too late to allow the cross-examination, the record will be held open to allow other parties to either cross-examine the health care provider after the hearing or provide a follow-up report from an expert of the other parties.</p>
+      </div>
+    </div>
+    <div id="rule.1420.2900.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1420.2900.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Rights of parties. </h2>
+      <p>All parties have the right to present evidence, to cross-examine witnesses, and to present rebuttal testimony.</p>
+    </div>
+    <div id="rule.1420.2900.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1420.2900.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Witnesses. </h2>
+      <p>A party may be a witness and present other witnesses at the hearing. Oral testimony at the hearing must be under oath or affirmation. At the request of a party or upon the judge's motion, the judge may exclude witnesses other than parties from the hearing room so that they cannot hear the testimony of other witnesses.</p>
+    </div>
+    <div id="rule.1420.2900.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1420.2900.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Evidence.</h2>
+      <div id="rule.1420.2900.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2900.6.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The judge will accept only relevant and material evidence that is not repetitive or cumulative.</p>
+      </div>
+      <div id="rule.1420.2900.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.2900.6.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Exhibits for hearings scheduled to be conducted by video technology must be prefiled with the office at least three business days before the hearing. Mailed or delivered exhibits must be placed in a separate, sealed envelope marked with the name and date of the case, the file number, and must be identified as exhibits of the submitting party. Faxed exhibits may not exceed 15 pages in length and must be clearly marked as video hearing exhibits for immediate hand delivery to the judge, and must include the name and file number of the case, the date of hearing, and identify the submitting party. An adverse party must also receive the exhibits at least three business days before the hearing.</p>
+      </div>
+    </div>
+    <div id="rule.1420.2900.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.1420.2900.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Record requirements. </h2>
+      <p>Record requirements are as follows:</p>
+      <div id="rule.1420.2900.7.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2900.7.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The office shall maintain the official record, other than the stenographic notes of a hearing reporter, in each case until the issuance of the final order.</p>
+      </div>
+      <div id="rule.1420.2900.7.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.2900.7.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The record shall contain:</p>
+        <div id="rule.1420.2900.7.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1420.2900.7.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> all pleadings, motions, and orders;</p>
+        </div>
+        <div id="rule.1420.2900.7.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1420.2900.7.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> subject to part <a href="/rules/1415.3500">1415.3500</a>, evidence received or considered unless, through agreement of the parties or by order of the judge, custody of an exhibit is given to one of the parties;</p>
+        </div>
+        <div id="rule.1420.2900.7.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1420.2900.7.B.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> those parts of the division's official file on the matter which the judge incorporates on the record;</p>
+        </div>
+        <div id="rule.1420.2900.7.B.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.1420.2900.7.B.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> offers of proof, objections, and the resulting rulings;</p>
+        </div>
+        <div id="rule.1420.2900.7.B.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.1420.2900.7.B.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> the judge's order;</p>
+        </div>
+        <div id="rule.1420.2900.7.B.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.1420.2900.7.B.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> memoranda submitted by a party in connection with the case and accepted by the judge;</p>
+        </div>
+        <div id="rule.1420.2900.7.B.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.1420.2900.7.B.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> a transcript of the hearing, if one was prepared; and</p>
+        </div>
+        <div id="rule.1420.2900.7.B.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.1420.2900.7.B.8">§</a>
+          <h4 class="subitem_no">(8)</h4>
+          <p> until a final order is issued after any appeals, the audio-magnetic recording tapes used to record the hearing, if any.</p>
+        </div>
+      </div>
+      <div id="rule.1420.2900.7.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1420.2900.7.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The chief judge shall direct that the verbatim record of a hearing be transcribed if requested by any person. The person requesting a transcript must pay the person preparing the transcript a reasonable fee.</p>
+      </div>
+      <div id="rule.1420.2900.7.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1420.2900.7.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Under Minnesota Statutes, section <a href="/statutes/cite/176.421">176.421</a>, subdivision 4, clause (3), a party may petition the chief judge for an order directing that a transcript be prepared, for purposes of appeal to the Court of Appeals, at no cost to the appellant. A petition filed under this provision must include:</p>
+        <div id="rule.1420.2900.7.D.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1420.2900.7.D.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> the caption of the case;</p>
+        </div>
+        <div id="rule.1420.2900.7.D.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1420.2900.7.D.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> case identification numbers;</p>
+        </div>
+        <div id="rule.1420.2900.7.D.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1420.2900.7.D.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> the name, address, and telephone number of the attorney representing the appellant; and</p>
+        </div>
+        <div id="rule.1420.2900.7.D.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.1420.2900.7.D.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> a sworn affidavit from the appellant which must include a complete accounting of all household income from any source, the market value of any holdings including real estate, and all expenses on a monthly basis.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.1420.2900.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.1420.2900.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Hearing procedure.</h2>
+      <div id="rule.1420.2900.8.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.2900.8.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Unless the judge determines that the substantial rights of the parties will be ascertained better in some other manner, the hearing will be conducted in the following manner:</p>
+        <div id="rule.1420.2900.8.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1420.2900.8.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> After opening the hearing, the judge shall, unless all parties are represented by counsel, state the procedural rules for the hearing.</p>
+        </div>
+        <div id="rule.1420.2900.8.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1420.2900.8.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> Stipulations entered into by the parties before the hearing must be entered into the record.</p>
+        </div>
+        <div id="rule.1420.2900.8.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1420.2900.8.A.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> If the judge requests opening statements, the party with the burden of proof shall proceed first. Other parties shall make opening statements in a sequence determined by the judge.</p>
+        </div>
+        <div id="rule.1420.2900.8.A.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.1420.2900.8.A.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> After opening statements, the party with the burden of proof shall begin the presentation of evidence. That party will be followed by the other parties in a sequence determined by the judge.</p>
+        </div>
+        <div id="rule.1420.2900.8.A.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.1420.2900.8.A.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> Cross-examination of witnesses will be conducted in a sequence determined by the judge.</p>
+        </div>
+        <div id="rule.1420.2900.8.A.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.1420.2900.8.A.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> When the parties and witnesses have been heard and if the judge believes that legal issues remain unresolved, final arguments may be presented in a sequence determined by the judge. Final argument may, in the discretion of the judge, be in the form of written memoranda or oral argument, or both. The judge shall decide when memoranda must be submitted. Final arguments must be limited to legal issues only.</p>
+        </div>
+        <div id="rule.1420.2900.8.A.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.1420.2900.8.A.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> The record of the case will be closed upon receipt of the final written memorandum or transcript, if any, or late-filed exhibits which the judge has received into the record, whichever occurs last.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.1420.2900.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.1420.2900.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Disruption of hearing. </h2>
+      <p>Persons in the hearing room may not converse in a disruptive manner, read newspapers, smoke, chew gum, eat food, or drink liquids other than water, or otherwise disrupt the hearing while the hearing is in session, and counsel shall so instruct parties they represent, witnesses they call, and persons accompanying them. A cellular telephone must be turned off in the hearing room unless the judge grants permission for it to be turned on. Guns and other weapons are not allowed in the hearing room or on the premises of the office.</p>
+      <p>No television, video, digital, still, or other camera, and no electronic recording devices, other than those provided by the office may be operated in the hearing room during the course of the hearing unless permission is obtained from the judge. Permission is subject to conditions set by the judge to avoid disruption of the hearing.</p>
+      <p>Under Minnesota Statutes, section <a href="/statutes/cite/624.72">624.72</a>, no person may interfere with the free, proper, and lawful access to or egress from the hearing room. No person may interfere or threaten interference with a hearing, or disrupt or threaten disruption of a hearing.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.2900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.2900.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.2900.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2018</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.3150">
+    <h1 class="headnote">1420.3150 AMENDED FINDINGS; APPEALS.</h1>
+    <div id="rule.1420.3150.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.3150.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Amended findings. </h2>
+      <p>Upon issuance of findings and orders after a hearing, the judge's jurisdiction over the case continues until a notice of appeal is filed or the appeal period expires, whichever occurs first. While jurisdiction continues, amended findings may be issued as needed to fully and fairly decide all issues litigated.</p>
+    </div>
+    <div id="rule.1420.3150.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.3150.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Filing fee for appeal. </h2>
+      <p>When findings and orders are appealed under Minnesota Statutes, section <a href="/statutes/cite/176.421">176.421</a> or <a href="/statutes/cite/176.442">176.442</a>, each appellant must submit a $25 filing fee payable to the state treasurer, office of administrative hearings account.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.3150.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.3150.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.3150.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.3700">
+    <h1 class="headnote">1420.3700 SANCTIONS.</h1>
+    <div id="rule.1420.3700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1420.3700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Generally. </h2>
+      <p>Failure to comply with the order of a judge, or the willful failure to comply with the applicable provisions of this chapter or other applicable law, may subject a party or attorney to any of the following sanctions:</p>
+      <div id="rule.1420.3700.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1420.3700.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> continuance of the proceeding;</p>
+      </div>
+      <div id="rule.1420.3700.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1420.3700.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> striking of pleadings;</p>
+      </div>
+      <div id="rule.1420.3700.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1420.3700.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> preclusion of evidence;</p>
+      </div>
+      <div id="rule.1420.3700.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1420.3700.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> evidence sought deemed proven, where a party fails to comply with an order compelling discovery;</p>
+      </div>
+      <div id="rule.1420.3700.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1420.3700.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> dismissal of proceedings;</p>
+      </div>
+      <div id="rule.1420.3700.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.1420.3700.1.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> to pay the reasonable expenses, including attorney fees, incurred by the other parties due to failure to appear, prepare, or participate in good faith; or</p>
+      </div>
+      <div id="rule.1420.3700.1.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.1420.3700.1.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> other sanction permitted by rule, statute, or case law, as the judge deems just or appropriate under the circumstances.</p>
+      </div>
+    </div>
+    <div id="rule.1420.3700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1420.3700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Procedures. </h2>
+      <p>A motion to impose sanctions may be brought by a party under part <a href="/rules/1420.2250">1420.2250</a> or upon the judge's own motion. An order for sanctions issued without a hearing is a summary decision under Minnesota Statutes, section <a href="/statutes/cite/176.305">176.305</a>, subdivision 1a.</p>
+    </div>
+    <div id="rule.1420.3700.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1420.3700.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Failure to appear or notify. </h2>
+      <p>The petitioner must notify the office and other parties of settlement or other resolution of a conference or hearing immediately following resolution of the case. If the petitioner fails to provide notice of resolution and does not appear, and a court reporter, interpreter, or security guard appears, or the office incurs an expense to reserve a facility with video equipment, the office may impose a sanction of $150 or the reasonable fee charged by the court reporter, interpreter, security guard, or video facility if the fee is more than $150. A party seeking cancellation of a proceeding must take reasonable steps to notify the other parties of a late settlement, rescheduling, or other cancellation of a proceeding. If the party seeking cancellation fails to take reasonable steps to notify the other parties and a party makes an appearance, the office may impose a reasonable sanction payable to the appearing party to cover the expense incurred by the appearing party.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1420.3700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.3700.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.3700.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1420.3800">
+    <h1 class="headnote">1420.3800 SEVERABILITY.</h1>
+    <p>If any provision of this chapter is held: to conflict with a governing statute, applicable provisions of the Administrative Procedure Act, Minnesota Statutes, chapter 14, or other relevant law; to exceed the statutory authority conferred; to lack a reasonable relationship to statutory purposes or to be unconstitutional, arbitrary, or unreasonable; or to be invalid or unenforceable for any other reason, the validity and enforceability of the remaining provisions of the rule shall in no manner be affected.</p>
+  </div>
+  <div class="stat_auth" id="rule.1420.3800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.51">14.51</a>; <a href="/statutes/cite/176.081">176.081</a>; <a href="/statutes/cite/176.155">176.155</a>; <a href="/statutes/cite/176.285">176.285</a>; <a href="/statutes/cite/176.312">176.312</a>; <a href="/statutes/cite/176.361">176.361</a>; <a href="/statutes/cite/176.83">176.83</a></p>
+  </div>
+  <div class="history" id="rule.1420.3800.history">
+    <h2>History: </h2>
+    <p>29 SR 1446</p>
+  </div>
+  <div class="published" id="rule.1420.3800.published">
+    <h2>Published Electronically:</h2>
+    <p> June 20, 2005</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
