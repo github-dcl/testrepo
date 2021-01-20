@@ -1,0 +1,2258 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            1512.0010 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/105">Agriculture Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/1512/">Chapter 1512</a>
+            </li>
+        
+    
+        
+            <li>Part 1512.0010</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/1512.0015/">1512.0015</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/1512.0010/2014-01-18%2001:21:33+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 1512</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1512/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1512/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1512/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 1512.0010</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1512.0010/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0010">
+    <h1 class="headnote">1512.0010 PURPOSE.</h1>
+    <p>Parts <a href="/rules/1512.0010">1512.0010</a> to <a href="/rules/1512.0085">1512.0085</a> contain certification procedures and standards for laboratories that offer soil testing services and resulting fertilizer recommendations in Minnesota.</p>
+  </div>
+  <div class="stat_auth" id="rule.1512.0010.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18C.141">18C.141</a></p>
+  </div>
+  <div class="history" id="rule.1512.0010.history">
+    <h2>History: </h2>
+    <p>19 SR 218</p>
+  </div>
+  <div class="published" id="rule.1512.0010.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0015">
+    <h1 class="headnote">1512.0015 DEFINITIONS.</h1>
+    <div id="rule.1512.0015.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1512.0015.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The definitions in this part apply to parts <a href="/rules/1512.0010">1512.0010</a> to <a href="/rules/1512.0085">1512.0085</a>.</p>
+    </div>
+    <div id="rule.1512.0015.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1512.0015.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Certification. </h2>
+      <p>"Certification" means written acknowledgment by the department of the laboratory's demonstrated capability to perform soil testing procedures within required limits and in compliance with parts <a href="/rules/1512.0010">1512.0010</a> to <a href="/rules/1512.0085">1512.0085</a>.</p>
+    </div>
+    <div id="rule.1512.0015.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1512.0015.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Check sample. </h2>
+      <p>"Check sample" means a processed and prepared soil sample provided by the department to laboratories for performance evaluation.</p>
+    </div>
+    <div id="rule.1512.0015.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1512.0015.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Department. </h2>
+      <p>"Department" means the Department of Agriculture.</p>
+    </div>
+    <div id="rule.1512.0015.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1512.0015.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Enrollment period. </h2>
+      <p>"Enrollment period" means a period in which laboratories not previously certified or laboratories seeking initial certification after revocation may submit an initial certification application and fees of application and certification.</p>
+    </div>
+    <div id="rule.1512.0015.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1512.0015.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Initial fee. </h2>
+      <p>"Initial fee" means the sum of the application fee and the annual certification fee provided in Minnesota Statutes, section <a href="/statutes/cite/18C.141">18C.141</a>. This fee applies to laboratories requesting certification for the first time and to laboratories seeking certification after revocation.</p>
+    </div>
+    <div id="rule.1512.0015.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.1512.0015.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Lapsed. </h2>
+      <p>"Lapsed" means that fees have not been paid or application submitted to the department in accordance to the deadline, creating a condition for revocation of certification.</p>
+    </div>
+    <div id="rule.1512.0015.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.1512.0015.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Method. </h2>
+      <p>"Method" means the type of analysis for a given soil analysis.</p>
+    </div>
+    <div id="rule.1512.0015.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.1512.0015.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Procedure. </h2>
+      <p>"Procedure" means a series of specific analytical steps for a given soil analysis method.</p>
+    </div>
+    <div id="rule.1512.0015.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.1512.0015.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Revoked. </h2>
+      <p>"Revoked" means that the department has canceled certification status because of unacceptable check sample performance or violation of law or rule.</p>
+    </div>
+    <div id="rule.1512.0015.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.1512.0015.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Soil analysis or soil test. </h2>
+      <p>"Soil analysis" or "soil test" means a physical or chemical analysis offered by the soil analysis industry.</p>
+    </div>
+    <div id="rule.1512.0015.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.1512.0015.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Soil analysis and fertility recommendation form. </h2>
+      <p>"Soil analysis and fertility recommendation form" means a soil analysis and fertility recommendation report consisting of one or more pages.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1512.0015.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18C.141">18C.141</a></p>
+  </div>
+  <div class="history" id="rule.1512.0015.history">
+    <h2>History: </h2>
+    <p>19 SR 218</p>
+  </div>
+  <div class="published" id="rule.1512.0015.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0020">
+    <h1 class="headnote">1512.0020 APPLICATION FOR CERTIFICATION AND RENEWAL.</h1>
+    <p>Participation by a laboratory in the Minnesota Soil Testing Laboratory Certification Program is voluntary. Application for initial and renewal certification must be on application forms provided by the department. The enrollment period for laboratories to submit an initial certification application and fees is September 1 to November 30 of any year. The application must include the:</p>
+    <div id="rule.1512.0020.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.1512.0020.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> name, address, and telephone number of the laboratory;</p>
+    </div>
+    <div id="rule.1512.0020.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.1512.0020.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> names and signatures of laboratory supervisors;</p>
+    </div>
+    <div id="rule.1512.0020.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.1512.0020.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> names and signatures of fertilizer recommendation supervisors, if different from those in item B;</p>
+    </div>
+    <div id="rule.1512.0020.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.1512.0020.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> types of analyses and analysis methods requested for initial or renewal certification;</p>
+    </div>
+    <div id="rule.1512.0020.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.1512.0020.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> name of any land grant university whose fertilizer recommendations will be provided on the laboratory's soil analysis and fertility recommendation report forms; and</p>
+    </div>
+    <div id="rule.1512.0020.F" class="item">
+      <a title="Link to item F" class="permalink" href="#rule.1512.0020.F">§</a>
+      <h3 class="item_no">F.</h3>
+      <p> most current copy of soil analysis and fertility recommendation report form used for Minnesota based clients. This requirement does not apply for laboratories that are not providing soil analysis and fertility recommendation services in Minnesota as indicated on the initial or renewal certification application.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1512.0020.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18C.141">18C.141</a></p>
+  </div>
+  <div class="history" id="rule.1512.0020.history">
+    <h2>History: </h2>
+    <p>19 SR 218</p>
+  </div>
+  <div class="published" id="rule.1512.0020.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0025">
+    <h1 class="headnote">1512.0025 TERM OF CERTIFICATION.</h1>
+    <p>Laboratory certifications are valid from January 1 to December 31 and must be renewed annually. The department shall send renewal forms no later than 30 days before expiration of certification.</p>
+  </div>
+  <div class="stat_auth" id="rule.1512.0025.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18C.141">18C.141</a></p>
+  </div>
+  <div class="history" id="rule.1512.0025.history">
+    <h2>History: </h2>
+    <p>19 SR 218</p>
+  </div>
+  <div class="published" id="rule.1512.0025.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0030">
+    <h1 class="headnote">1512.0030 FEES.</h1>
+    <p>Fees for application and certification are stated in Minnesota Statutes, section <a href="/statutes/cite/18C.141">18C.141</a>. Applicable fees for initial or renewal certification must be submitted with an application. Fees may not be prorated. Land grant university soil analysis laboratories in Minnesota and those that are in states contiguous with Minnesota are exempt from all fees.</p>
+    <p>Laboratories that fail to pay the renewal fee by December 31 of each year, as designated by postmark, must have their certifications classified as lapsed and are subject to initial fee charges to regain certification status. A laboratory certification must be reclassified as revoked if the initial or renewal fees payable are not postmarked within 60 days after the December 31 deadline.</p>
+  </div>
+  <div class="stat_auth" id="rule.1512.0030.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18C.141">18C.141</a></p>
+  </div>
+  <div class="history" id="rule.1512.0030.history">
+    <h2>History: </h2>
+    <p>19 SR 218</p>
+  </div>
+  <div class="published" id="rule.1512.0030.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0035">
+    <h1 class="headnote">1512.0035 MINIMUM STANDARDS FOR LABORATORY EQUIPMENT AND FACILITIES.</h1>
+    <p>Each laboratory that performs soil analysis must maintain equipment and facilities that are adequate and appropriate for the services offered. Each laboratory must maintain the standards in items A and B.</p>
+    <div id="rule.1512.0035.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.1512.0035.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> Equipment must be maintained in proper working order and routinely checked to assure accuracy. Instruments must meet the specifications of the methodology for the analysis being performed and must be maintained, monitored, and calibrated to assure accuracy.</p>
+    </div>
+    <div id="rule.1512.0035.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.1512.0035.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> The laboratory must follow a written plan of quality control assurance. The plan must describe policies and procedures used to:</p>
+      <div id="rule.1512.0035.B.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.1512.0035.B.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> track soil samples from time of receipt to analysis;</p>
+      </div>
+      <div id="rule.1512.0035.B.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.1512.0035.B.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> calibrate instruments, including frequency;</p>
+      </div>
+      <div id="rule.1512.0035.B.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.1512.0035.B.3">§</a>
+        <h4 class="subitem_no">(3)</h4>
+        <p> maintain functional equipment, including routine maintenance procedures and schedules; and</p>
+      </div>
+      <div id="rule.1512.0035.B.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.1512.0035.B.4">§</a>
+        <h4 class="subitem_no">(4)</h4>
+        <p> check internal quality control.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1512.0035.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18C.141">18C.141</a></p>
+  </div>
+  <div class="history" id="rule.1512.0035.history">
+    <h2>History: </h2>
+    <p>19 SR 218</p>
+  </div>
+  <div class="published" id="rule.1512.0035.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0040">
+    <h1 class="headnote">1512.0040 MINIMUM PERSONNEL STANDARDS.</h1>
+    <p>Each laboratory that performs soil analysis must be supervised by persons who are responsible for the training and supervision of the laboratory staff. The supervisor must meet one of the following qualifications:</p>
+    <div id="rule.1512.0040.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.1512.0040.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> be a graduate of an accredited college with a bachelor of science degree and a graduate in one of the chemical, engineering, physical, or biological sciences; or</p>
+    </div>
+    <div id="rule.1512.0040.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.1512.0040.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> have five years prior experience in the supervision or operations of a laboratory that performs soil analysis.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1512.0040.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18C.141">18C.141</a></p>
+  </div>
+  <div class="history" id="rule.1512.0040.history">
+    <h2>History: </h2>
+    <p>19 SR 218</p>
+  </div>
+  <div class="published" id="rule.1512.0040.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0045">
+    <h1 class="headnote">1512.0045 RECORDS.</h1>
+    <p>Records of sample receipt, sample analysis, soil fertility recommendations, and internal quality assurance must be maintained for at least one year.</p>
+  </div>
+  <div class="stat_auth" id="rule.1512.0045.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18C.141">18C.141</a></p>
+  </div>
+  <div class="history" id="rule.1512.0045.history">
+    <h2>History: </h2>
+    <p>19 SR 218</p>
+  </div>
+  <div class="published" id="rule.1512.0045.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0050">
+    <h1 class="headnote">1512.0050 APPROVED SOIL ANALYSIS METHODS AND PROCEDURES.</h1>
+    <p>Soil analysis methods and procedures must be those applicable to Minnesota soils and conditions that are set forth in the most recent edition of the Recommended Chemical Soil Test Procedures for the North Central Region, North Central Regional Publication 221. This publication is incorporated by reference, is not subject to frequent change, and is available from the Minnesota State Law Library, the Minnesota Department of Agriculture, Division of Agronomy Services, or the Soil Testing Laboratory, University of Minnesota, St. Paul.</p>
+    <p>Alterations in procedures which maintain the integrity of the analytical method are allowable if the check sample analytical data is within the one standard deviation from the mean range as denoted in part <a href="/rules/1512.0065">1512.0065</a>, subpart 6, and as specified in the North Central Regional Publication 221.</p>
+  </div>
+  <div class="stat_auth" id="rule.1512.0050.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18C.141">18C.141</a></p>
+  </div>
+  <div class="history" id="rule.1512.0050.history">
+    <h2>History: </h2>
+    <p>19 SR 218</p>
+  </div>
+  <div class="published" id="rule.1512.0050.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0055">
+    <h1 class="headnote">1512.0055 SOIL ANALYSIS METHOD OR PROCEDURE VARIANCE.</h1>
+    <p>The department may grant a variance from requirements of part <a href="/rules/1512.0050">1512.0050</a>. To request a variance, a laboratory must provide a written request to the department including:</p>
+    <div id="rule.1512.0055.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.1512.0055.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> the specific methods or procedures for which the variance is being sought including analytical methodology;</p>
+    </div>
+    <div id="rule.1512.0055.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.1512.0055.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> reasons for the request; and</p>
+    </div>
+    <div id="rule.1512.0055.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.1512.0055.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> documentation and research to show correlation of analytical data to crop response and interpretation of the soil analysis to provide fertilizer recommendations for Minnesota soils and conditions.</p>
+      <p>The department shall review information submitted with the variance request in consultation with the soil testing advisory panel according to part <a href="/rules/1512.0075">1512.0075</a>. The department shall grant or deny the variance within 100 working days of receipt of the request. Analytical methods or procedures that have been granted a variance may be used by any laboratory requesting initial or renewal certification. Analytical methods or procedures that have been granted a variance must be published in the yearly certification program report and provided by any laboratory requesting certification. The department shall send written reasons for a denial of a request for variance within 100 working days of receipt of request.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1512.0055.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18C.141">18C.141</a></p>
+  </div>
+  <div class="history" id="rule.1512.0055.history">
+    <h2>History: </h2>
+    <p>19 SR 218</p>
+  </div>
+  <div class="published" id="rule.1512.0055.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0060">
+    <h1 class="headnote">1512.0060 APPEAL OF ADMINISTRATIVE DECISION.</h1>
+    <p>The department shall notify a laboratory in writing of the reasons for a decision to deny a variance or to deny, suspend, or revoke certification. The laboratory has 30 days from the date of receiving notice of the decision to appeal the decision. A request to appeal the decision must be in writing to the department, must indicate the facts the laboratory disputes, and must be signed by the laboratory supervisor. The appeal may include a request for a personal meeting with the department for purposes of discussing disputed facts and findings. The department must consult with the advisory panel regarding the appeal. The department shall accept or deny the appeal and respond to the laboratory making the appeal within 100 working days of receipt of the request.</p>
+  </div>
+  <div class="stat_auth" id="rule.1512.0060.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18C.141">18C.141</a></p>
+  </div>
+  <div class="history" id="rule.1512.0060.history">
+    <h2>History: </h2>
+    <p>19 SR 218</p>
+  </div>
+  <div class="published" id="rule.1512.0060.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0065">
+    <h1 class="headnote">1512.0065 ANALYZING CHECK SAMPLES AND ANALYTICAL DATA FOR GRANTING CERTIFICATION.</h1>
+    <div id="rule.1512.0065.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1512.0065.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Minimum laboratory analytical methods for laboratory certification. </h2>
+      <p>Laboratories desiring certification must analyze the check samples for the following parameters as a minimum requirement: Bray or Olsen phosphorus, potassium, nitrate-nitrogen, pH, and organic matter. Any remaining analysis methods, as recognized by North Central Regional Publication 221, are required only if soil fertility recommendations are made. Each check sample must be handled and analyzed in duplicate for all analysis methods and procedures for which the laboratory is requesting initial or renewal certification. Duplicate check samples must be analyzed on different days and reported as individual results.</p>
+    </div>
+    <div id="rule.1512.0065.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1512.0065.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Reporting units on check sample analysis report. </h2>
+      <p>Analytical data of check samples must be reported in elemental form as follows:</p>
+      <div id="rule.1512.0065.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1512.0065.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> nitrate-nitrogen, phosphorus, potassium, sulfate-sulfur, chloride, calcium, and magnesium to the nearest part per million (ppm);</p>
+      </div>
+      <div id="rule.1512.0065.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1512.0065.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> organic matter to the nearest tenth of a percentage;</p>
+      </div>
+      <div id="rule.1512.0065.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1512.0065.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> pH and buffer pH to the nearest tenth of a pH unit;</p>
+      </div>
+      <div id="rule.1512.0065.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1512.0065.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> all micronutrients reported to the nearest tenth of a ppm; and</p>
+      </div>
+      <div id="rule.1512.0065.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1512.0065.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> soluble salts reported to the nearest 0.1 mmhos/cm.</p>
+      </div>
+    </div>
+    <div id="rule.1512.0065.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1512.0065.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Check sample processing and handling. </h2>
+      <p>Check samples, other than blind check samples referred to in subpart 7, must be processed and prepared by the department or by a person under contract with the department according to approved soil analysis methods and procedures. Check samples must be shipped in secure containers and be ready for analysis upon receipt.</p>
+    </div>
+    <div id="rule.1512.0065.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1512.0065.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Initial certification check samples. </h2>
+      <p>Upon receipt of the application form and application and certification fees, the department shall send eight check samples for analysis. Check samples, accompanied by analysis data forms and instructions, must be sent by the department to a laboratory applying for initial certification between September 1 and December 31. The laboratory must submit analytical data to the department within 30 days of receipt of the check samples. Analytical data submitted after this deadline must be considered invalid. The laboratory may not be reimbursed for analysis costs incurred in obtaining initial certification.</p>
+    </div>
+    <div id="rule.1512.0065.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1512.0065.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Renewal certification check samples. </h2>
+      <p>Laboratories applying for renewal certification must analyze two sets of four check samples on a semiannual basis. Check samples, accompanied by analysis data forms and instructions, must be sent by the department during the following time periods: March 1 to May 1 and August 1 to October 1. The laboratory must submit analytical data to the department within 30 days of receipt of the check samples. Analytical data submitted after this deadline must be considered invalid. The laboratory may not be reimbursed for analysis costs incurred in obtaining renewal certification.</p>
+    </div>
+    <div id="rule.1512.0065.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1512.0065.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Statistical guidelines for granting certification. </h2>
+      <p>The department shall compile analytical data submitted by laboratories for each set of check samples. Check sample analytical data from qualifying laboratories must be composited by the department to provide statistical means and standard deviations for each soil testing method. Check sample analytical data points outside the range of plus or minus one standard deviation from the mean must be noted.</p>
+      <p>Statistical guidelines for determining initial and renewal certification are:</p>
+      <div id="rule.1512.0065.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1512.0065.6.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Initial certification. If more than 20 percent of a laboratory's individual check sample analytical data points are outside the range of plus or minus one standard deviation from the mean, the laboratory shall reanalyze check samples. Initial certification must be denied if more than 20 percent of a laboratory's check sample analytical data points are outside the range of plus or minus one standard deviation from the mean.</p>
+      </div>
+      <div id="rule.1512.0065.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1512.0065.6.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Renewal certification. If more than 20 percent of the analytical data points of each set of four check samples falls outside the range of plus or minus one standard deviation from the mean, the laboratory must reanalyze the check samples. The percent of analytical data points outside the range of plus or minus one standard deviation from the mean for both the analyzed and reanalyzed check samples must then be noted. Once both sets of semiannual check samples have been analyzed, the composite analytical data points from both sets of check samples must be combined to determine the percent that falls outside the range of plus or minus one standard deviation from the mean. Renewal certification must be denied if more than 20 percent of the total annual composite analytical data points falls outside the range of plus or minus one standard deviation from the mean.</p>
+      </div>
+    </div>
+    <div id="rule.1512.0065.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.1512.0065.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Blind soil check samples to certified and uncertified laboratories. </h2>
+      <p>The department may conduct blind check samples on either certified or uncertified laboratories as stated in Minnesota Statutes, section <a href="/statutes/cite/18C.141">18C.141</a>, subdivision 2, paragraph (d). For purposes of this subpart, "blind check sample" means a sample sent to a laboratory by the department under an assumed name, and in a manner to make it appear that the sample came from a client. Check sample preparation as stated in subpart 3 may not be required so that the identity of the sending party is not revealed. The department shall bear the cost of requested analyses for blind check samples. If analytical data falls outside the range of plus or minus one standard deviation from the mean, the department shall consult with the laboratory concerning the discrepancy or inaccuracy of the blind check samples analytical data produced by the laboratory.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1512.0065.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18C.141">18C.141</a></p>
+  </div>
+  <div class="history" id="rule.1512.0065.history">
+    <h2>History: </h2>
+    <p>19 SR 218</p>
+  </div>
+  <div class="published" id="rule.1512.0065.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0070">
+    <h1 class="headnote">1512.0070 REPORTING CHECK SAMPLE ANALYTICAL DATA, STATISTICS, AND CERTIFIED LABORATORIES.</h1>
+    <div id="rule.1512.0070.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1512.0070.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Analytical data and statistical reporting. </h2>
+      <p>The department shall compile reports of analytical data submitted by laboratories and statistics for each set of check samples. Laboratories must remain unidentified on the report. Each laboratory participating in the certification program must receive a copy of its own data and summary statistics.</p>
+    </div>
+    <div id="rule.1512.0070.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1512.0070.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Report of certified laboratories. </h2>
+      <p>The department shall compile a yearly report listing laboratories that meet the certification requirements of the Minnesota Soil Testing Laboratory Certification Program, and the analytical methods for which each laboratory is certified. Annual reports must be available April 1 of each year. Current lists of certified laboratories will be available from the department.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1512.0070.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18C.141">18C.141</a></p>
+  </div>
+  <div class="history" id="rule.1512.0070.history">
+    <h2>History: </h2>
+    <p>19 SR 218</p>
+  </div>
+  <div class="published" id="rule.1512.0070.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0075">
+    <h1 class="headnote">1512.0075 ADVISORY PANEL.</h1>
+    <p>The department shall appoint a soil testing advisory panel to provide recommendations on appropriate soil analytical methods and procedures for Minnesota climate and conditions, and to provide technical evaluations of requests for analytical variances. The advisory panel must include representation from the Minnesota Department of Agriculture, the Agricultural Extension Service, the University of Minnesota College of Agriculture, the fertilizer industry, agricultural crop consultants, and the soil testing laboratory industry. The advisory panel shall meet at least once a year. Members shall serve three-year terms and have equal voting power. Panel meetings must be open to the public.</p>
+  </div>
+  <div class="stat_auth" id="rule.1512.0075.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18C.141">18C.141</a></p>
+  </div>
+  <div class="history" id="rule.1512.0075.history">
+    <h2>History: </h2>
+    <p>19 SR 218</p>
+  </div>
+  <div class="published" id="rule.1512.0075.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0080">
+    <h1 class="headnote">1512.0080 LABORATORY INSPECTIONS.</h1>
+    <p>The purpose of laboratory inspections is to investigate the general cleanliness of the laboratory, examine equipment used in soil analysis methods and procedures, and review qualifications of personnel. Inspections of laboratories must be conducted during normal business hours by the department to determine compliance with certification requirements. Inspections may be unannounced and done on a random basis.</p>
+  </div>
+  <div class="stat_auth" id="rule.1512.0080.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18C.141">18C.141</a></p>
+  </div>
+  <div class="history" id="rule.1512.0080.history">
+    <h2>History: </h2>
+    <p>19 SR 218</p>
+  </div>
+  <div class="published" id="rule.1512.0080.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0085">
+    <h1 class="headnote">1512.0085 SOIL ANALYSIS AND SOIL FERTILITY RECOMMENDATION REPORTING.</h1>
+    <div id="rule.1512.0085.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.1512.0085.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> Analytical data of client soil samples must be reported in elemental form as follows:</p>
+      <div id="rule.1512.0085.A.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.1512.0085.A.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> phosphorus (P), potassium (K), calcium, and magnesium to the nearest part per million (ppm);</p>
+      </div>
+      <div id="rule.1512.0085.A.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.1512.0085.A.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> nitrate-nitrogen, sulfate-sulfur, and chloride in pounds per acre or parts per million for the appropriate sampling depth;</p>
+      </div>
+      <div id="rule.1512.0085.A.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.1512.0085.A.3">§</a>
+        <h4 class="subitem_no">(3)</h4>
+        <p> organic matter to the nearest tenth of a percentage;</p>
+      </div>
+      <div id="rule.1512.0085.A.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.1512.0085.A.4">§</a>
+        <h4 class="subitem_no">(4)</h4>
+        <p> pH and buffer pH to the nearest tenth of a pH unit;</p>
+      </div>
+      <div id="rule.1512.0085.A.5" class="subitem">
+        <a title="Link to subitem 5" class="permalink" href="#rule.1512.0085.A.5">§</a>
+        <h4 class="subitem_no">(5)</h4>
+        <p> all micronutrients reported to the nearest tenth of a ppm; and</p>
+      </div>
+      <div id="rule.1512.0085.A.6" class="subitem">
+        <a title="Link to subitem 6" class="permalink" href="#rule.1512.0085.A.6">§</a>
+        <h4 class="subitem_no">(6)</h4>
+        <p> soluble salts reported to the nearest 0.1 mmhos/cm.</p>
+      </div>
+    </div>
+    <div id="rule.1512.0085.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.1512.0085.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> If a certified laboratory provides soil fertility recommendations, the University of Minnesota soil fertility recommendations or that of another land grant university in a contiguous state must be provided in addition to other recommendations, and the source of the recommendations must be identified on the soil analysis and soil fertility recommendation report form. Land grant university soil fertility recommendations must be on the same soil analysis and soil fertility recommendation report form with other soil fertility recommendations as stated by the certified laboratory. If the soil analysis and soil fertility recommendation report form consists of more than one page, the first page of the report form must conspicuously state that "University of Minnesota Soil Fertility Recommendations or That of a Land Grant University in a Contiguous State Have Been Provided With This Report." A certified laboratory shall not provide soil fertility recommendations if a request from a client is made that only soil analysis information be provided on the soil analysis and soil fertility recommendation report form.</p>
+    </div>
+    <div id="rule.1512.0085.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.1512.0085.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> Certified laboratories that provide land grant university soil fertility recommendations must provide these recommendations from only one land grant university to the greatest extent possible. Land grant university soil fertility recommendations must conform to all conditions, requirements, and guidelines established for that state. Soil fertility recommendations of a land grant university from a state contiguous with Minnesota may be substituted if University of Minnesota soil fertility recommendations do not exist or if the selected soil fertility recommendations are more appropriate based on soil or climatic conditions. The origin of land grant university soil fertility recommendations from a state contiguous with Minnesota must be conspicuously stated on the soil analysis and soil fertility recommendation report form. If the certified laboratory makes a soil fertility recommendation in which no University of Minnesota or other suitable land grant university soil fertility recommendation from a contiguous state exist, the laboratory must state on the soil analysis and soil fertility recommendation report form that no land grant university soil fertility recommendations are available. Certified laboratories must update land grant university soil fertility recommendations on an annual basis.</p>
+    </div>
+    <div id="rule.1512.0085.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.1512.0085.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> Certified laboratories must be certified for any analytical method used to analyze soil for which a soil fertility recommendation is made. If a certified laboratory is not certified for a particular analytical method, this must be noted on the soil analysis and soil fertility recommendation report form. If more than one approved analytical method exists in the North Central Regional Publication 221, the analytical method used must be identified along with the soil fertility recommendation.</p>
+    </div>
+    <div id="rule.1512.0085.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.1512.0085.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> If soil analysis and soil fertility recommendation report forms are transferred and provided through computer, computer program, electronic, mail, or telephone networks from a certified laboratory, all requirements of parts <a href="/rules/1512.0010">1512.0010</a> to <a href="/rules/1512.0085">1512.0085</a> must be met. A printed copy of a soil analysis and soil fertility recommendation report form must be provided to the client of the certified laboratory.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1512.0085.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18C.141">18C.141</a></p>
+  </div>
+  <div class="history" id="rule.1512.0085.history">
+    <h2>History: </h2>
+    <p>19 SR 218</p>
+  </div>
+  <div class="published" id="rule.1512.0085.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0100">
+    <h1 class="headnote">1512.0100 DEFINITIONS.</h1>
+    <div id="rule.1512.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1512.0100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The definitions in this part and Minnesota Statutes, chapter 18B, 18C, 18D, or 18E apply to parts <a href="/rules/1512.0100">1512.0100</a> to <a href="/rules/1512.1100">1512.1100</a>.</p>
+    </div>
+    <div id="rule.1512.0100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1512.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Corrective action design. </h2>
+      <p> "Corrective action design" means a description of the actions necessary to investigate, minimize, or clean up an incident.</p>
+    </div>
+    <div id="rule.1512.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1512.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Eligible costs. </h2>
+      <p> "Eligible costs" means costs that minimize, eliminate, or clean up an incident and are reasonable and necessary.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1512.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18E.05">18E.05</a></p>
+  </div>
+  <div class="history" id="rule.1512.0100.history">
+    <h2>History: </h2>
+    <p>15 SR 1876</p>
+  </div>
+  <div class="published" id="rule.1512.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0200">
+    <h1 class="headnote">1512.0200  BOARD MEETINGS.</h1>
+    <div id="rule.1512.0200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1512.0200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Regular meetings. </h2>
+      <p>At least four regular meetings of the board must be scheduled a year. A scheduled meeting may be canceled due to insufficient funds in the account or if there is insufficient business.</p>
+    </div>
+    <div id="rule.1512.0200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1512.0200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Special meetings. </h2>
+      <p>A special meeting of the board may be called by the chair or by written request of three board members.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1512.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18E.05">18E.05</a></p>
+  </div>
+  <div class="history" id="rule.1512.0200.history">
+    <h2>History: </h2>
+    <p>15 SR 1876; 29 SR 271</p>
+  </div>
+  <div class="published" id="rule.1512.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0300">
+    <h1 class="headnote">1512.0300 BOARD CHAIR AND VICE-CHAIR.</h1>
+    <p>A chair and vice-chair of the board must be elected by the board. Both positions must be elected at the first official meeting of the board on or after July 1, 1990. The chair shall preside at regular and special meetings, or the vice-chair in the absence of the chair, and the person chairing a meeting shall perform all duties assigned by the board.</p>
+    <p>The chair and vice-chair must be members of the board and may not be either the commissioner of agriculture or the commissioner of commerce.</p>
+    <p>The term of the chair and vice-chair is one year, beginning January 1, 1991.</p>
+  </div>
+  <div class="stat_auth" id="rule.1512.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18E.05">18E.05</a></p>
+  </div>
+  <div class="history" id="rule.1512.0300.history">
+    <h2>History: </h2>
+    <p>15 SR 1876</p>
+  </div>
+  <div class="published" id="rule.1512.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0400">
+    <h1 class="headnote">1512.0400 CONDUCT OF MEETINGS.</h1>
+    <div id="rule.1512.0400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1512.0400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Quorum. </h2>
+      <p>A quorum consists of three board members.</p>
+    </div>
+    <div id="rule.1512.0400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1512.0400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Minutes. </h2>
+      <p>Meetings must be tape recorded and minutes subsequently prepared by the board's staff.</p>
+    </div>
+    <div id="rule.1512.0400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1512.0400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Parliamentary procedure. </h2>
+      <p>Except as specifically provided by statute or negotiation, Robert's Rules of Order govern questions that may arise at a meeting of the board.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1512.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18E.05">18E.05</a></p>
+  </div>
+  <div class="history" id="rule.1512.0400.history">
+    <h2>History: </h2>
+    <p>15 SR 1876</p>
+  </div>
+  <div class="published" id="rule.1512.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0500">
+    <h1 class="headnote">1512.0500 CONFLICT OF INTEREST.</h1>
+    <p>A member of the board who has a direct or indirect financial or employment interest relating to a matter before the board, which interest is reasonably likely to affect impartiality of judgment in the matter, shall make known the interest and shall refrain from participating in or voting upon the matter. The abstention of a board member or members does not prevent the remaining members from conducting a legal vote.</p>
+  </div>
+  <div class="stat_auth" id="rule.1512.0500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18E.05">18E.05</a></p>
+  </div>
+  <div class="history" id="rule.1512.0500.history">
+    <h2>History: </h2>
+    <p>15 SR 1876</p>
+  </div>
+  <div class="published" id="rule.1512.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0600">
+    <h1 class="headnote">1512.0600 REIMBURSEMENT OR PAYMENT OF COSTS.</h1>
+    <div id="rule.1512.0600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1512.0600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">General.</h2>
+      <div id="rule.1512.0600.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1512.0600.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> An eligible person who has taken corrective action and has incurred costs on or after July 1, 1989, may apply to the board for reimbursement or payment of eligible costs.</p>
+      </div>
+      <div id="rule.1512.0600.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1512.0600.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Reimbursement for eligible costs incurred is only for costs already paid by the eligible person. Reimbursement will not be made without proof that costs have been paid.</p>
+      </div>
+      <div id="rule.1512.0600.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1512.0600.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Payment of eligible costs incurred is only for costs that the eligible person is unable to pay.</p>
+      </div>
+    </div>
+    <div id="rule.1512.0600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1512.0600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Conditions. </h2>
+      <p>A reimbursement or payment may not be made unless the board determines that the commissioner of agriculture has determined that the corrective action has adequately addressed, or will adequately address, the incident so as to eliminate unreasonable adverse effects on the environment.</p>
+      <p>An eligible person must seek and report to the board any and all other cost coverage or recovery when making an application for reimbursement or payment from the agricultural chemical response and reimbursement account.</p>
+      <p>Financial compensation may not be made before the applicant receives approval from the commissioner of agriculture for a corrective action design or for additional necessary corrective actions.</p>
+    </div>
+    <div id="rule.1512.0600.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1512.0600.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Multiple eligible persons. </h2>
+      <p>If more than one eligible person incurs eligible costs for a single incident or for a single corrective action, each eligible person must apply separately to the board. Not more than the maximum amounts under Minnesota Statutes, chapter 18E, may be reimbursed or paid for corrective action costs associated with a single incident site, regardless of the number of eligible persons.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1512.0600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18E.05">18E.05</a></p>
+  </div>
+  <div class="history" id="rule.1512.0600.history">
+    <h2>History: </h2>
+    <p>15 SR 1876; 29 SR 271</p>
+  </div>
+  <div class="published" id="rule.1512.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0700">
+    <h1 class="headnote">1512.0700 ELIGIBLE COSTS.</h1>
+    <div id="rule.1512.0700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1512.0700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Reimbursable or payable corrective actions. </h2>
+      <p>Costs associated with the following corrective actions may be eligible for reimbursement or payment:</p>
+      <div id="rule.1512.0700.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1512.0700.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> emergency responses to incidents including, but not limited to, costs incurred that are necessary to abate acute risks to human health, safety, and the environment;</p>
+      </div>
+      <div id="rule.1512.0700.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1512.0700.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> incident site hazard control measures including, but not limited to, containment and stabilization of the incident and removal of released material;</p>
+      </div>
+      <div id="rule.1512.0700.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1512.0700.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> investigation and source identification including, but not limited to, collecting and analyzing soil samples, testing the groundwater, testing site and adjacent drinking water supplies, structural testing, and engineering and consultant services;</p>
+      </div>
+      <div id="rule.1512.0700.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1512.0700.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> development of corrective action design according to requirements of the commissioner of agriculture; and</p>
+      </div>
+      <div id="rule.1512.0700.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1512.0700.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> cleanup of incidents including, but not limited to, removal, treatment, or disposal of surface or subsurface contamination.</p>
+        <p>Cleanup must be performed according to a corrective action design, approved by the commissioner of agriculture, except in circumstances where an eligible person takes all reasonable emergency corrective action necessary to minimize and abate an incident and the action is subsequently approved by the commissioner of agriculture.</p>
+      </div>
+    </div>
+    <div id="rule.1512.0700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1512.0700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Documentation of reasonableness. </h2>
+      <p>The applicant shall prove the reasonableness of all incurred eligible costs. Upon request of the board or the board's staff, the applicant shall document the reasonableness of any costs included on the reimbursement application, or on any request for payment, by providing one or more of the following:</p>
+      <div id="rule.1512.0700.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1512.0700.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> evidence that the work was performed by a person or persons whose services were solicited through a competitive selection procedure that considers qualifications and cost;</p>
+      </div>
+      <div id="rule.1512.0700.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1512.0700.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> evidence that the cost is substantially equivalent to that charged by a comparable person or persons in the same geographical area for similar work performed;</p>
+      </div>
+      <div id="rule.1512.0700.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1512.0700.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> evidence that only one party was reasonably available to perform the necessary work; or</p>
+      </div>
+      <div id="rule.1512.0700.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1512.0700.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> evidence that only one party was reasonably qualified to perform the necessary work.</p>
+        <p>The board shall reimburse or pay only those costs it determines to be reasonable.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1512.0700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18E.05">18E.05</a></p>
+  </div>
+  <div class="history" id="rule.1512.0700.history">
+    <h2>History: </h2>
+    <p>15 SR 1876</p>
+  </div>
+  <div class="published" id="rule.1512.0700.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0800">
+    <h1 class="headnote">1512.0800 INELIGIBLE COSTS.</h1>
+    <p>All costs associated with actions that do not minimize, eliminate, or clean up an incident are ineligible costs. Ineligible costs include, but are not limited to, costs related to the repair, replacement, or upgrading of agricultural chemical facility structures or equipment, cost of agricultural chemical product replacement, loss of income, attorney's fees, permanent relocation of residents, decreased property values, reimbursement for the eligible person's own time spent in planning and administering a corrective action design, costs for third party review of proposed investigative and corrective action or work plans, aesthetic improvements, or any work, except for emergency corrective actions, not in compliance with safety codes including, but not limited to, United States Occupational Safety and Health Administration requirements, well codes, fire codes, and costs for providing alternative sources of drinking water.</p>
+    <p>Corrective action costs covered or payable under an insurance or other contract are ineligible costs. Corrective action costs covered or payable under an insurance or other contract are ineligible costs because they are not considered to be costs incurred by the eligible person. Costs incurred in response to requests or orders issued to a responsible person under authorities contained in Minnesota Statutes, chapter 115B, or federal CERCLA are ineligible costs.</p>
+  </div>
+  <div class="stat_auth" id="rule.1512.0800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18E.05">18E.05</a></p>
+  </div>
+  <div class="history" id="rule.1512.0800.history">
+    <h2>History: </h2>
+    <p>15 SR 1876</p>
+  </div>
+  <div class="published" id="rule.1512.0800.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.0900">
+    <h1 class="headnote">1512.0900 APPLICATION PROCESS.</h1>
+    <div id="rule.1512.0900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1512.0900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Request for reimbursement. </h2>
+      <p>A person who wishes to apply for reimbursement from the account shall complete, sign, and submit to the board a written application. The application must be on a form prescribed by the board and must contain the following:</p>
+      <div id="rule.1512.0900.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1512.0900.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> name of person making the application;</p>
+      </div>
+      <div id="rule.1512.0900.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1512.0900.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> description of the site of the incident;</p>
+      </div>
+      <div id="rule.1512.0900.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1512.0900.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> summary of the corrective action design and the commissioner of agriculture's approval of the design, or a description of emergency corrective action taken and evidence of the commissioner of agriculture's subsequent approval of that action;</p>
+      </div>
+      <div id="rule.1512.0900.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1512.0900.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> itemized list of all corrective actions taken; the eligible costs associated with those actions; and the name of the person, contractor, consultant, or engineer who performed the action; and</p>
+      </div>
+      <div id="rule.1512.0900.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1512.0900.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> proof of payment.</p>
+      </div>
+    </div>
+    <div id="rule.1512.0900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1512.0900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Request for payment. </h2>
+      <p>A person who wishes to apply for payment from the account shall complete, sign, and submit to the board a written application. The application must be on a form prescribed by the board and must contain the following:</p>
+      <div id="rule.1512.0900.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1512.0900.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> name of person making the application;</p>
+      </div>
+      <div id="rule.1512.0900.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1512.0900.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> description of the site of the incident;</p>
+      </div>
+      <div id="rule.1512.0900.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1512.0900.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> completed and signed affidavit summarizing the financial condition of eligible persons, and demonstrating an inability to pay the corrective action cost;</p>
+      </div>
+      <div id="rule.1512.0900.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1512.0900.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> copies of federal and state income tax returns for the last two years (corporate, partnership, or individual);</p>
+      </div>
+      <div id="rule.1512.0900.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1512.0900.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> monthly, quarterly, and annual financial statements for the last two years, prepared according to generally accepted accounting principles, relating to the financial condition of the applicant applying for payment, including financial statements for any businesses owned or operated by the applicant;</p>
+      </div>
+      <div id="rule.1512.0900.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.1512.0900.2.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> a summary of the corrective actions taken, as approved by the commissioner, or a description of emergency corrective action taken and evidence of the commissioner of agriculture's subsequent approval of that action;</p>
+      </div>
+      <div id="rule.1512.0900.2.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.1512.0900.2.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> itemized list of all corrective actions taken; the eligible costs associated with those actions; and the name of the person, contractor, consultant, or engineer who performed the action;</p>
+      </div>
+      <div id="rule.1512.0900.2.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.1512.0900.2.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> information detailing why corrective actions have not been completed or initiated; and</p>
+      </div>
+      <div id="rule.1512.0900.2.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.1512.0900.2.I">§</a>
+        <h3 class="item_no">I.</h3>
+        <p> evidence sufficient to prove applicant's payment of $1,000 for corrective action costs already incurred.</p>
+        <p>The board may waive the requirement for submission of all or a portion of the above described financial information, if reasonable and appropriate, upon written request of the applicant.</p>
+        <p>Only complete applications may be accepted by the board and incomplete applications must be returned to the applicant.</p>
+      </div>
+    </div>
+    <div id="rule.1512.0900.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1512.0900.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Time of application. </h2>
+      <p>The board shall hear initial requests for reimbursement and payment applications by eligible persons at every regular meeting.</p>
+      <p>The board shall establish a priority system for hearing requests for payment or reimbursement. The priority system must be based primarily on department incident response site priorities, taking into account the health and welfare of the public, the effects on the environment, and the commissioner of agriculture's incident response case load and staff resources.</p>
+    </div>
+    <div id="rule.1512.0900.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1512.0900.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Subsequent application.</h2>
+      <div id="rule.1512.0900.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1512.0900.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> An eligible person who has already obtained partial reimbursement or payment from the board and who has incurred additional or continuing costs due to the same incident may reapply if:</p>
+        <div id="rule.1512.0900.4.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1512.0900.4.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> the amount of the person's original reimbursement or payment was less than the maximum allowed under Minnesota Statutes, section <a href="/statutes/cite/18E.04">18E.04</a>;</p>
+        </div>
+        <div id="rule.1512.0900.4.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1512.0900.4.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> the eligible person offers adequate evidence that all payments have been properly applied towards costs of corrective action approved by the commissioner of agriculture;</p>
+        </div>
+        <div id="rule.1512.0900.4.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1512.0900.4.A.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> the eligible costs submitted on a subsequent application are not related to any new incidents at the site; and</p>
+        </div>
+        <div id="rule.1512.0900.4.A.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.1512.0900.4.A.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> the total reimbursement and payments to all eligible persons for an incident must not exceed the maximum allowed under Minnesota Statutes, section <a href="/statutes/cite/18E.04">18E.04</a>.</p>
+        </div>
+      </div>
+      <div id="rule.1512.0900.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1512.0900.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Requests for reimbursement may be considered by the board no more than once every 12 months if the additional costs incurred are $5,000 or less.</p>
+      </div>
+    </div>
+    <div id="rule.1512.0900.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1512.0900.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Signatures. </h2>
+      <p>An application must be signed as follows:</p>
+      <div id="rule.1512.0900.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1512.0900.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> for a corporation, by a principal executive officer of at least the level of vice-president or the duly authorized representative or agent of the executive officer if the representative or agent is responsible for the overall operation of the facility or site that is the subject of the application or a person whom the board of directors designates by means of a corporate resolution; or</p>
+      </div>
+      <div id="rule.1512.0900.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1512.0900.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> for a partnership, sole proprietorship, or individual by a general partner, the proprietor, or individual, respectively.</p>
+      </div>
+    </div>
+    <div id="rule.1512.0900.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1512.0900.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Certification.</h2>
+      <div id="rule.1512.0900.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1512.0900.6.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> A person who signs an application for reimbursement or payment shall make the following certification:</p>
+        <p class="bi">"I certify under penalty of law that this document and all attachments were prepared under my direction or supervision in accordance with a system designed to assure that qualified personnel properly gather and evaluate the information submitted. I certify that the commissioner of agriculture has approved the corrective actions taken, as described in the approved corrective action design, or as otherwise approved by the commissioner. Based on my inquiry of the person or persons who manage the system, or those persons directly responsible for gathering the information, the information submitted is, to the best of my knowledge, true, accurate, and complete. I further certify that I have the authority to submit this application on behalf of ....."</p>
+      </div>
+      <div id="rule.1512.0900.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1512.0900.6.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> A person who signs an application for payment shall also make the following certification:</p>
+        <p class="bi">"I certify that if I have submitted invoices for costs that remain unpaid that I will pay those invoices within 30 days of receipt of payment from the board. I understand that if I fail to do so, the board may demand return of all or any portion of money paid to me."</p>
+      </div>
+      <div id="rule.1512.0900.6.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1512.0900.6.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> A person who signs an application for subsequent payment or reimbursement shall also make the following certification:</p>
+        <p class="bi">"I certify that I have complied with the commissioner of agriculture approved corrective action design provisions and the corrective actions were taken as described in that design."</p>
+      </div>
+    </div>
+    <div id="rule.1512.0900.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.1512.0900.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Report of commissioner of agriculture. </h2>
+      <p>Upon notification by the board's staff that a complete application has been received, the commissioner shall, in a timely manner, provide the board with a written report on the applicant's compliance or noncompliance with Minnesota Statutes, section <a href="/statutes/cite/18E.04">18E.04</a>.</p>
+      <p>In addition, the board may request additional information from the commissioner or may request participation of agency staff at a board meeting. All responses to requests for information must be delivered in a timely manner. The board may delegate these powers to its staff.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1512.0900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18E.05">18E.05</a></p>
+  </div>
+  <div class="history" id="rule.1512.0900.history">
+    <h2>History: </h2>
+    <p>15 SR 1876; 29 SR 271</p>
+  </div>
+  <div class="published" id="rule.1512.0900.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.1000">
+    <h1 class="headnote">1512.1000 REVIEW AND DETERMINATION.</h1>
+    <div id="rule.1512.1000.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1512.1000.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Review. </h2>
+      <p>The board's staff shall review all applications. If the staff determines that the application is incomplete or otherwise deficient, the staff shall promptly advise the applicant of the incompleteness or deficiency. Further processing of the application affected by the deficiency must be suspended until the applicant has supplied the necessary information or otherwise corrected the deficiency. A complete application and the corresponding report of the commissioner of agriculture constitutes the written record. Any supplemental information explaining the application that is presented orally or in writing to the board will also be part of the written record.</p>
+    </div>
+    <div id="rule.1512.1000.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1512.1000.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Staff recommendation. </h2>
+      <p>After a reimbursement or payment application is complete and the commissioner has provided the information relevant to the application, the board's staff shall make a recommendation as to the eligibility of the applicant and the costs specified in the application.</p>
+    </div>
+    <div id="rule.1512.1000.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1512.1000.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Board determination. </h2>
+      <p>The board shall determine the amount of the reimbursement or payment based on the costs it finds are eligible, actually incurred, and reasonable. The determination must be made on the basis of the written record. The board may also allow supplemental information explaining the application to be presented in writing or orally. The board may establish a fair and reasonable limit on the time for oral presentation.</p>
+      <p>The applicant must be notified in writing within 30 days of the board's decision. If the board rejects part of the request for reimbursement or payment, a statement of the reasons for rejection must be included with the notification.</p>
+    </div>
+    <div id="rule.1512.1000.4" class="subp repealed">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1512.1000.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <p>[Repealed, 29 SR 271]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1512.1000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18E.05">18E.05</a></p>
+  </div>
+  <div class="history" id="rule.1512.1000.history">
+    <h2>History: </h2>
+    <p>15 SR 1876; 29 SR 271</p>
+  </div>
+  <div class="published" id="rule.1512.1000.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1512.1100">
+    <h1 class="headnote">1512.1100 ENFORCEMENT.</h1>
+    <p>An application for reimbursement or payment containing false statements or misrepresentations voids the application. Reimbursements or payments that are made that later are found to have been based upon false or misleading information result in forfeiture of any reimbursement or payment made, and are wholly recoverable through actions under general criminal or civil enforcement authorities by the Office of the Attorney General.</p>
+  </div>
+  <div class="stat_auth" id="rule.1512.1100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/18E.05">18E.05</a></p>
+  </div>
+  <div class="history" id="rule.1512.1100.history">
+    <h2>History: </h2>
+    <p>15 SR 1876</p>
+  </div>
+  <div class="published" id="rule.1512.1100.published">
+    <h2>Published Electronically:</h2>
+    <p> September 10, 2007</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
