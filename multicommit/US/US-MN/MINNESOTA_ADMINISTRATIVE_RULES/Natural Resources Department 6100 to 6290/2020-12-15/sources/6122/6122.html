@@ -1,0 +1,1507 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            6122.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/158">Natural Resources Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/6122/">Chapter 6122</a>
+            </li>
+        
+    
+        
+            <li>Part 6122.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/6122.0200/">6122.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/6122.0100/2014-01-18%2006:45:07+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 6122</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6122/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6122/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6122/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 6122.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6122.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6122.0100">
+    <h1 class="headnote">6122.0100 SCOPE.</h1>
+    <p>Parts <a href="/rules/6122.0100">6122.0100</a> to <a href="/rules/6122.0400">6122.0400</a> provide methods for appraising state lands adjacent to public waters that are leased under Minnesota Statutes, section <a href="/statutes/cite/92.46">92.46</a>, and procedures for a lessee to challenge the appraised value of the lands.</p>
+  </div>
+  <div class="stat_auth" id="rule.6122.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/92.46">92.46</a></p>
+  </div>
+  <div class="history" id="rule.6122.0100.history">
+    <h2>History: </h2>
+    <p>21 SR 715</p>
+  </div>
+  <div class="published" id="rule.6122.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6122.0200">
+    <h1 class="headnote">6122.0200 DEFINITIONS.</h1>
+    <div id="rule.6122.0200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6122.0200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The terms used in parts <a href="/rules/6122.0100">6122.0100</a> to <a href="/rules/6122.0400">6122.0400</a> have the meanings given them in this part.</p>
+    </div>
+    <div id="rule.6122.0200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6122.0200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Appraised value. </h2>
+      <p>"Appraised value" means the market value, as defined in subpart 11.</p>
+    </div>
+    <div id="rule.6122.0200.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6122.0200.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Commissioner. </h2>
+      <p>"Commissioner" means the commissioner of natural resources of the state of Minnesota or the commissioner's designated representative.</p>
+    </div>
+    <div id="rule.6122.0200.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6122.0200.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Department. </h2>
+      <p>"Department" means the Minnesota Department of Natural Resources.</p>
+    </div>
+    <div id="rule.6122.0200.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6122.0200.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Fee simple estate. </h2>
+      <p>"Fee simple estate" means absolute ownership unencumbered by any other interest or estate subject only to the four powers of government (eminent domain, escheat, police power, and taxation).</p>
+    </div>
+    <div id="rule.6122.0200.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6122.0200.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Highest and best use. </h2>
+      <p>"Highest and best use" means the reasonably probable and legal use of vacant land or an improved property. Criteria the highest and best use must meet are legal permissibility, physical possibility, financial feasibility, and maximum profitability.</p>
+    </div>
+    <div id="rule.6122.0200.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6122.0200.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Improvements on a leased lot. </h2>
+      <p>"Improvements on a leased lot" means any structures or things erected or constructed on a lot for its utilization including, but not limited to, buildings, fences, driveways, retaining walls, wells, and septic systems.</p>
+    </div>
+    <div id="rule.6122.0200.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.6122.0200.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Improvements to a leased lot. </h2>
+      <p>"Improvements to a leased lot" means additions to the property to make it usable, including, but not limited to, curbs, drains, excavations, and fills.</p>
+    </div>
+    <div id="rule.6122.0200.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.6122.0200.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Lease. </h2>
+      <p>"Lease" means a written document between a property owner as lessor and a lessee, by which the specified rights of use and occupancy of land are transferred by the owner to the lessee for a defined period of time in return for the lessee's payment of the lease fee and promise to abide by the terms and conditions of the lease. Lessor, for purpose of these rules, is the state of Minnesota acting by and through its commissioner of natural resources.</p>
+    </div>
+    <div id="rule.6122.0200.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.6122.0200.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Lease fee. </h2>
+      <p>"Lease fee" means the annual rental charge the lessee must pay the lessor under the terms specified in the lease.</p>
+    </div>
+    <div id="rule.6122.0200.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.6122.0200.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Market value. </h2>
+      <p>"Market value" also referred to as "appraised value" means the most probable price which a property should bring in a competitive and open market under all conditions requisite to a fair sale, between a prudent and knowledgeable buyer and seller, and assuming the price is not affected by undue stimulus. Market value is shown by the consummation of a sale as of a specified date and the passing of title from seller to buyer under conditions whereby:</p>
+      <div id="rule.6122.0200.11.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6122.0200.11.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> buyer and seller are typically motivated;</p>
+      </div>
+      <div id="rule.6122.0200.11.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6122.0200.11.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> both parties are well informed or well advised, and acting in what they consider their best interests;</p>
+      </div>
+      <div id="rule.6122.0200.11.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6122.0200.11.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> a reasonable time is allowed for exposure in the open market;</p>
+      </div>
+      <div id="rule.6122.0200.11.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6122.0200.11.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> payment is made in terms of cash in United States dollars or in terms of financial arrangements comparable thereto; and</p>
+      </div>
+      <div id="rule.6122.0200.11.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6122.0200.11.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> the price represents the normal consideration for the property sold unaffected by special or creative financing or sales concessions granted by anyone associated with the sale.</p>
+      </div>
+    </div>
+    <div id="rule.6122.0200.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.6122.0200.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Mass appraisal. </h2>
+      <p>"Mass appraisal" means the process of valuing a universe of leased lots as of a given date utilizing standard methodology, employing common data, and allowing for statistical testing.</p>
+    </div>
+    <div id="rule.6122.0200.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.6122.0200.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Minnesota Department of Revenue annual assessment data. </h2>
+      <p>"Minnesota Department of Revenue annual assessment data" means the State Board of Equalization Summary of Board Orders (1994 Edition and subsequent editions) compiled by the Department of Revenue and issued through the property tax division of the department, containing data collected on sales of various land classifications from each county in the state. The annual assessment data are incorporated by reference. The annual assessment data are subject to frequent change, and are available through the Minitex interlibrary loan system.</p>
+    </div>
+    <div id="rule.6122.0200.14" class="subp">
+      <a title="Link to subpart 14" class="permalink" href="#rule.6122.0200.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <h2 class="headnote">Subject lot. </h2>
+      <p>"Subject lot" means the leased lot whose appraised value is being determined.</p>
+    </div>
+    <div id="rule.6122.0200.15" class="subp">
+      <a title="Link to subpart 15" class="permalink" href="#rule.6122.0200.15">§</a>
+      <h2 class="subp_no">Subp. 15.</h2>
+      <h2 class="headnote">Uniform Standards. </h2>
+      <p>"Uniform Standards" means the Uniform Standards of Professional Appraisal Practice (1993 Edition and subsequent amendments) adopted by the Appraisal Standards Board of the Appraisal Foundation, which provide guidelines for the development of appraisal reports. The Uniform Standards are incorporated by reference. The Uniform Standards are subject to frequent change, and are available through the Minitex interlibrary loan system.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6122.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/92.46">92.46</a></p>
+  </div>
+  <div class="history" id="rule.6122.0200.history">
+    <h2>History: </h2>
+    <p>21 SR 715</p>
+  </div>
+  <div class="published" id="rule.6122.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6122.0300">
+    <h1 class="headnote">6122.0300 METHOD OF DETERMINING A LOT'S APPRAISED VALUE.</h1>
+    <div id="rule.6122.0300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6122.0300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Estimated market value. </h2>
+      <p>As the basis for a lease fee the commissioner shall determine an estimate of market value of the fee simple estate, subject to encumbrances of record, for each leased lot. Market value estimates will not include improvements on the leased lot, but will include improvements to a leased lot.</p>
+    </div>
+    <div id="rule.6122.0300.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6122.0300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Appraiser and reviewer appraisers standards. </h2>
+      <p>All appraisals and appraisal reviews of leased lots shall be conducted by appraisers licensed under Minnesota Statutes, chapter 82B, or successor statutes. An appraiser must have obtained at least a classification 2 appraisal license. A review appraiser must have obtained at least a classification 3 appraisal license. Appraisers and review appraisers shall follow the standards contained in the most current edition of the Uniform Standards when performing appraisals and appraisal reviews of leased lots.</p>
+    </div>
+    <div id="rule.6122.0300.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6122.0300.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Frequency of adjustments; phase-in of increased fees. </h2>
+      <p>The lease fees shall be based on the appraised value of leased land as determined by the commissioner, and shall be adjusted by the commissioner at the fifth, tenth, and 15th anniversary of the lease if the appraised value has increased or decreased.</p>
+      <p>The lease fees established by parts <a href="/rules/6122.0100">6122.0100</a> to <a href="/rules/6122.0400">6122.0400</a> shall be effective for lease periods after November 25, 1996. Any increased fee shall be phased in by three equal annual increments as provided by Minnesota Statutes, section <a href="/statutes/cite/92.46">92.46</a>, subdivision 3.</p>
+    </div>
+    <div id="rule.6122.0300.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6122.0300.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Adjustment of appraised value of leased lots. </h2>
+      <p>Without reappraisal, the commissioner may determine a subject lot's appraised value by adjusting the last appraised value of the subject lot for time. This adjustment shall be:</p>
+      <div id="rule.6122.0300.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6122.0300.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> based upon the Minnesota Department of Revenue annual assessment data for property of the same highest and best use within the same or adjacent county as the subject lot; and</p>
+      </div>
+      <div id="rule.6122.0300.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6122.0300.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> made in an amount equal to the percentage change in market value between the dates of the last appraisal or adjustment and the current adjustment, based on the most recent Minnesota Department of Revenue annual assessment data available.</p>
+      </div>
+    </div>
+    <div id="rule.6122.0300.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6122.0300.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Appraisal of leased lots. </h2>
+      <p>The commissioner shall determine when the appraised value of the leased lots shall be based on new appraisals. The commissioner's decision to appraise will depend on staffing, the degree of fluctuation in real estate values in certain areas of the state, and fiscal constraints.</p>
+    </div>
+    <div id="rule.6122.0300.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6122.0300.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Method of appraisal. </h2>
+      <p>The commissioner shall determine the appropriate method to use to appraise the leased lots.</p>
+    </div>
+    <div id="rule.6122.0300.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6122.0300.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Mass appraisal of leased lots. </h2>
+      <p>The commissioner shall use mass appraisal of leased lots rather than individual leased lot appraisals, whenever practicable. Mass appraisals will be developed and reported by an appraiser in compliance with the Uniform Standards.</p>
+    </div>
+    <div id="rule.6122.0300.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.6122.0300.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Single leased lot appraisal. </h2>
+      <p>Any leased lot may be appraised individually when the commissioner has sufficient reason to believe the expense of single leased lot appraisals are warranted, or the mass appraisal method is not applicable. All single leased lot appraisals shall be developed and reported by an appraiser in compliance with the Uniform Standards.</p>
+    </div>
+    <div id="rule.6122.0300.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.6122.0300.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Lots previously appraised. </h2>
+      <p>The commissioner may rely on the appraised value of leased lots appraised pursuant to Minnesota Statutes, section <a href="/statutes/cite/92.67">92.67</a>, for the lakeshore sales program, during the years 1988 through 1993. Whenever feasible, the commissioner may assign the appraised value of a sale lot to similar leased lots located in the same plat, or on the same lake as the sale lot.</p>
+    </div>
+    <div id="rule.6122.0300.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.6122.0300.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Minimum appraised value. </h2>
+      <p>The minimum appraised value of leased lots must be substantially equal to the county assessor's estimated market value of similar land adjusted by the assessment/sales ratio as determined by the Minnesota Department of Revenue.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6122.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/92.46">92.46</a></p>
+  </div>
+  <div class="history" id="rule.6122.0300.history">
+    <h2>History: </h2>
+    <p>21 SR 715</p>
+  </div>
+  <div class="published" id="rule.6122.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6122.0400">
+    <h1 class="headnote">6122.0400 APPEALS.</h1>
+    <div id="rule.6122.0400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6122.0400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Right to appeal. </h2>
+      <p>A lessee may appeal the appraised value of a leased lot when the lessee has good cause to believe the value is in error. Requests for appeal must be signed by all parties to the lease, other than the commissioner, and all parties having a property interest in the improvement on the lease, including contract vendors and vendees. Any appeal must follow the applicable steps stated in this part. A lessee must pay the annual lease fee while the appeal is being decided. If the appeal results in a lower lease fee than paid, the department shall issue a credit to the lessee's account in an amount not to exceed the current year's rent and the department shall issue a refund for any balances.</p>
+      <p>The lessee shall have 45 calendar days from the date of mailing of notification of a lease fee adjustment to appeal the valuation. Appeals of the decisions made under Steps 1 or 2 must be made within 45 days following mailing of notification of the decisions under Steps 1 or 2. Failure on the part of the lessee to notify the commissioner in writing of the intent to appeal each decision within the referenced time frames shall be deemed consent for the commissioner to proceed with that decision.</p>
+    </div>
+    <div id="rule.6122.0400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6122.0400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Step 1 of appeal. </h2>
+      <p>If the lessee does not agree with the commissioner's appraised value of the leased lot, the lessee shall submit a written appeal to the Department of Natural Resources, Bureau of Real Estate Management, Box 30, 500 Lafayette Road, St. Paul, MN 55155-4030, for a review of the appraised value of a leased lot. The lessee must submit factual documentation to support a request for a review of the appraised value of the leased lot. Documentation to support the lessee's appeal may consist of recent comparable sales data, an appraisal report performed by an appraiser licensed by Minnesota, who has obtained at least a classification 2 appraisal license, or other market evidence. If a lessee will be submitting an appraisal in Step 1, the lessee shall have 45 calendar days from the date of notification of a lease fee adjustment to submit an appraisal. The lessee will be responsible for payment of the appraiser. The commissioner may request assistance from sources outside the department, such as state agencies, county officials, or real estate professionals, to review and recommend action. The commissioner shall recommend resolution for each appeal on the basis of information made available by the lessee, department staff, and any other sources. The commissioner must review a lessee's appeal and send a decision to the lessee within 60 calendar days of receiving the lessee's appeal or send notice of a delay which provides an estimate of when the decision will be mailed.</p>
+      <p>If, in the opinion of the commissioner, sufficient evidence is provided by the lessee to adjust the appraised value, the commissioner shall set the amount of the adjustment based on the lessee's information. If insufficient evidence is provided by the lessee, the commissioner must deny the appeal and provide an explanation of the denial. If the lessee does not agree with the commissioner's decision in Step 1, the lessee may go to Step 2 of the appeal. If the lessee provided an appraisal in Step 1, the commissioner denied the appeal, and the lessee does not agree with the decision in Step 1, the lessee may proceed directly to Step 3. The commissioner shall return a lessee's appraisal subsequent to each decision.</p>
+    </div>
+    <div id="rule.6122.0400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6122.0400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Step 2 of appeal. </h2>
+      <p>If the lessee does not agree with the decision in Step 1, the lessee must submit a written appeal within the time period described in subpart 1 to the commissioner stating the reason for disagreement or objection to the appraised value. The lessee shall have 45 calendar days from the date of the commissioner's decision in Step 1 to provide an appraisal of the leased lot to the commissioner, supporting the lessee's appeal. The appraisal must be prepared by an appraiser licensed in Minnesota, who has obtained at least a classification 2 appraisal license. The lessee will be responsible for payment of the appraiser. The commissioner may request assistance from sources outside the department, such as state agencies, county officials, or real estate professionals, to review and recommend action. The commissioner shall recommend resolution on the basis of information made available by the lessee, department staff, and any other sources. Within 60 calendar days of the commissioner receiving the lessee's appeal appraisal, the lessee must be notified of the commissioner's decision or be given a notice of delay which provides an estimate of when the decision will be mailed.</p>
+    </div>
+    <div id="rule.6122.0400.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6122.0400.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Step 3 of appeal. </h2>
+      <p>If the lessee does not agree with the decision in Step 2, or Step 1 if an appraisal was previously submitted, the lessee must submit a written appeal to the commissioner stating a desire to go to binding arbitration. The commissioner must receive the lessee's written appeal within 30 calendar days of the lessee receiving the commissioner's decision in Step 2, or Step 1 if an appraisal was previously submitted. Once the commissioner receives the lessee's written appeal, the commissioner and the lessee shall have 15 days to discuss whether or not to hold an arbitration hearing. If the lessee does not express a preference, the arbitration will proceed without a hearing.</p>
+      <div id="rule.6122.0400.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6122.0400.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The lessee shall be responsible for paying 50 percent of the cost of arbitration. The lessee must submit $500 with the appeal in a cashier's check or certified check as a down payment to pay for the lessee's share of the cost of arbitration. Any part of the down payment not used shall be refunded. Any cost in excess of the down payment will be billed and the lessee shall be liable for paying that bill within 30 calendar days of receipt. If the amount due remains unpaid beyond 30 days, it shall accrue interest at the maximum rate permitted by Minnesota Statutes, section <a href="/statutes/cite/334.01">334.01</a>, subdivision 1, from the date of billing and shall be added to the lease fee. If the amount due remains unpaid when the next lease payment is due, it shall be grounds for canceling the lease.</p>
+      </div>
+      <div id="rule.6122.0400.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6122.0400.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The commissioner and the lessee must mutually agree on an arbitrator who shall be selected from a list of professional appraisers provided to the lessee by the commissioner within 15 days of the commissioner and the lessee deciding whether to waive or hold an arbitration hearing. An arbitrator shall be a professional appraiser licensed in Minnesota, who has obtained at least a classification 3 appraisal license. If the lessee fails to select an arbitrator within the specified time, the commissioner shall select an arbitrator. Within 15 days of selecting the arbitrator, the commissioner shall give written notice to the arbitrator of intent of the commissioner and the lessee to resolve the dispute by binding arbitration. The notice shall set forth the nature of the dispute and the remedy sought. If the arbitrator selected is unable to serve, the process will be repeated.</p>
+      </div>
+      <div id="rule.6122.0400.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6122.0400.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> If the commissioner and the lessee agree to waive an arbitration hearing, the commissioner and the lessee must each submit an appraisal to the arbitrator within 15 calendar days after the commissioner's notice to the arbitrator. The arbitrator shall reach a decision based on a review of the commissioner's and the lessee's appraisals. The arbitrator shall have 30 calendar days to review both appraisals and issue findings. The commissioner and the lessee must mutually agree upon an extension of time if requested by the arbitrator, at which time the arbitrator will be given no more than five working days to reach a decision and submit the findings to the commissioner and the lessee. The arbitrator's decision is final and binding on the commissioner and the lessee and there shall be no further appeals. The arbitrator shall return the commissioner's and the lessee's appraisals with the final decision.</p>
+      </div>
+      <div id="rule.6122.0400.4.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6122.0400.4.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> If the commissioner and the lessee agree to hold an arbitration hearing, the commissioner, after consulting with the lessee and the arbitrator, shall set a date, time, and place for the hearing and send notice of the hearing to the lessee and the arbitrator. The commissioner and the lessee must each submit an appraisal to the arbitrator 30 days prior to the hearing. The hearing shall be limited to three hours, unless the parties agree on an extension of time. The hearing procedures are as outlined in subitems (1) to (9).</p>
+        <div id="rule.6122.0400.4.D.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.6122.0400.4.D.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> The commissioner and the lessee may be represented by counsel or other authorized representative. A party intending to be so represented shall notify the other party and the arbitrator of the name and address of the representative at least ten days prior to the date set for the hearing at which that person is to appear.</p>
+        </div>
+        <div id="rule.6122.0400.4.D.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.6122.0400.4.D.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> Stenographic records, recordings, videotapes, transcriptions, and all other forms of record keeping will not be allowed at the hearing. The arbitrator's findings shall be the official record of the hearing.</p>
+        </div>
+        <div id="rule.6122.0400.4.D.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.6122.0400.4.D.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> The arbitrator shall maintain the privacy of the hearing. Any person having a direct interest in the arbitration is entitled to attend the hearing. The arbitrator shall otherwise have the power to require the exclusion of any witness, other than a party or other essential person, during the testimony of any other witness. It shall be discretionary with the arbitrator to determine the propriety of the attendance of any other person.</p>
+        </div>
+        <div id="rule.6122.0400.4.D.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.6122.0400.4.D.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> The arbitrator shall have the power to cross-examine any witness submitting evidence at the hearing.</p>
+        </div>
+        <div id="rule.6122.0400.4.D.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.6122.0400.4.D.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> The arbitrator for good cause shown may postpone any hearing upon the request of the commissioner or the lessee.</p>
+        </div>
+        <div id="rule.6122.0400.4.D.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.6122.0400.4.D.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> The hearing procedure shall be established at the discretion of the arbitrator, but the arbitrator shall afford a full and equal opportunity to the commissioner and the lessee for the presentation of any material and relevant evidence.</p>
+        </div>
+        <div id="rule.6122.0400.4.D.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.6122.0400.4.D.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> The arbitrator may proceed in the absence of the commissioner or the lessee or any representative who, after due notice, fails to be present or fails to obtain a postponement.</p>
+        </div>
+        <div id="rule.6122.0400.4.D.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.6122.0400.4.D.8">§</a>
+          <h4 class="subitem_no">(8)</h4>
+          <p> Any expenses of witnesses for either side shall be paid by the party producing such witnesses. Any party wishing an interpreter shall make all arrangements directly with an interpreter and shall assume the costs of the service. All other reasonable expenses of the arbitrator including required travel shall be borne equally by the commissioner and the lessee, unless they agree otherwise.</p>
+        </div>
+        <div id="rule.6122.0400.4.D.9" class="subitem">
+          <a title="Link to subitem 9" class="permalink" href="#rule.6122.0400.4.D.9">§</a>
+          <h4 class="subitem_no">(9)</h4>
+          <p> The arbitrator's findings must be submitted in writing to the commissioner and the lessee within 15 calendar days of the closing of the hearing. The arbitrator's decision shall be final and binding on the commissioner and the lessee.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6122.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/92.46">92.46</a></p>
+  </div>
+  <div class="history" id="rule.6122.0400.history">
+    <h2>History: </h2>
+    <p>21 SR 715</p>
+  </div>
+  <div class="published" id="rule.6122.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> June 11, 2008</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

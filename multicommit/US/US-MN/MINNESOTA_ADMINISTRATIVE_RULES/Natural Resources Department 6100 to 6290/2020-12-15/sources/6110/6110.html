@@ -1,0 +1,2640 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            6110.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/158">Natural Resources Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/6110/">Chapter 6110</a>
+            </li>
+        
+    
+        
+            <li>Part 6110.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/6110.0200/">6110.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/6110.0100/2016-06-15%2015:18:38+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 6110</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6110/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6110/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6110/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 6110.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/6110.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.0100">
+    <h1 class="headnote">6110.0100 APPLICATION FOR WATERCRAFT LICENSE.</h1>
+    <p>Application for a watercraft license shall be made to the commissioner of natural resources or authorized agents on a form the commissioner shall provide. The commissioner may specify the information required on the application, including that which may be required by federal regulation. A watercraft license number and certificate shall be issued by the commissioner upon receipt of the fee prescribed by law.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/86B.211">86B.211</a>; <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.0100.history">
+    <h2>History: </h2>
+    <p>15 SR 2430</p>
+  </div>
+  <div class="published" id="rule.6110.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> June 15, 2016</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.0200">
+    <h1 class="headnote">6110.0200 DISPLAY OF LICENSE CERTIFICATE.</h1>
+    <p>No person shall operate or use a watercraft, except a nonmotorized canoe, kayak, sailboat, sailboard, paddle board, paddle boat, or rowing shell required to be licensed unless the license certificate for such watercraft is on board and available for inspection by authorized enforcement officers. Owners of nonmotorized canoes, kayaks, sailboats, sailboards, paddle boards, paddle boats, or rowing shells shall produce the license certificate for such watercraft within a reasonable time upon request of authorized enforcement officers. The owner of rental watercraft may keep the license certificate available for inspection on the premises from which the watercraft is rented, provided that the owner's business is legibly printed on the rear half and on both sides of the watercraft in the same size and manner as required for the license number in part <a href="/rules/6110.0300">6110.0300</a>.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.0200.history">
+    <h2>History: </h2>
+    <p>7 SR 1121; 39 SR 860</p>
+  </div>
+  <div class="published" id="rule.6110.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> December 29, 2014</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.0300">
+    <h1 class="headnote">6110.0300 DISPLAY OF LICENSE NUMBER AND VALIDATION DECAL ON MOTORIZED WATERCRAFT.</h1>
+    <p>The license number on all watercraft, except nonmotorized canoes, kayaks, sailboats, sailboards, paddle boards, paddle boats, and rowing shells shall be securely affixed on each side of the forward half of the watercraft for which it was issued in such a position as to provide clear and legible identification. The letters and numerals must be of a color that contrasts with the background and may be decals or metal or may be painted. The letters and numerals shall read from left to right and shall not be less than three inches in height, of block type, of a stroke not less than one-half inch or more than three-fourths inch in width, not including a border. The license number shall be maintained so that it is clearly visible and legible, and the letter groups must be separated from the numeral groups by a space of not less than three inches nor more than four inches. Adjacent letters and numerals within each group must be spaced not less than one-half inch nor more than three-fourths inch apart. A state validation decal for the current license period must be affixed toward the stern of the boat and not more than four inches from the first or last letter of the license number on each side of the boat.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/86B.211">86B.211</a>; <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.0300.history">
+    <h2>History: </h2>
+    <p>7 SR 1121; 15 SR 2430; 39 SR 860</p>
+  </div>
+  <div class="published" id="rule.6110.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> December 29, 2014</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.0400">
+    <h1 class="headnote">6110.0400 MARKING OF NONMOTORIZED CANOES, KAYAKS, PADDLE BOARDS, PADDLE BOATS, AND ROWING SHELLS.</h1>
+    <p>All nonmotorized canoes, kayaks, paddle boards, paddle boats, and rowing shells shall display decals furnished by the Department of Natural Resources for such watercraft. These decals shall be securely affixed on each side of the forward half of the watercraft for which the decal was issued, in such a position as to provide clear and legible identification. If it is impossible to display the decals on the forward half of the paddle board so as to provide clear and legible identification, both decals must then be affixed to the stern of the paddle board.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.0400.history">
+    <h2>History: </h2>
+    <p>7 SR 1121; 39 SR 860</p>
+  </div>
+  <div class="published" id="rule.6110.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> December 29, 2014</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.0500">
+    <h1 class="headnote">6110.0500 MARKING OF NONMOTORIZED SAILBOATS AND SAILBOARDS.</h1>
+    <p>All nonmotorized sailboats and sailboards shall display the decals furnished by the Department of Natural Resources for such watercraft. These decals shall be securely affixed on each side of the forward half of the watercraft for which it was issued, in such a position as to provide clear and legible identification. If it is impossible to display such decals on the forward half of such watercraft so as to provide clear and legible identification both decals must then be affixed to the stern of such watercraft.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.0500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="published" id="rule.6110.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.0600">
+    <h1 class="headnote">6110.0600 EXPIRED VALIDATION DECAL.</h1>
+    <p>All expired or otherwise invalid state validation decals shall be removed from the watercraft for which they were issued or completely covered by placement of the current decal so that only the current decal is visible.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.0600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="published" id="rule.6110.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.0700">
+    <h1 class="headnote">6110.0700 OTHER INSIGNIA.</h1>
+    <p>No person shall operate any watercraft, except a nonmotorized canoe, kayak, rowing shell, sailboard, paddle boat, or sailboat, which has any number, letter, design, or insignia displayed on either side thereof which is closer than 24 inches to any part of the watercraft license number or validation decal.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.0700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.0700.history">
+    <h2>History: </h2>
+    <p>7 SR 1121</p>
+  </div>
+  <div class="published" id="rule.6110.0700.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.0800">
+    <h1 class="headnote">6110.0800 DEALER LICENSE NUMBERS.</h1>
+    <p>The last two characters of all dealers' license numbers shall be the letters DD. No other license number shall include both such letters. Dealers' license numbers shall be displayed in accordance with part <a href="/rules/6110.0300">6110.0300</a>, except that such numbers may be so affixed as to be readily detachable and must be attached to any watercraft owned by the dealer when such watercraft is being used for demonstration purposes or any other purpose incident to the usual and customary conduct of the business of manufacturing, selling, or trading of watercraft. A dealer may use as many detachable sets of numbers as is necessary in the conduct of the business.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.0800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.0800.history">
+    <h2>History: </h2>
+    <p>17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.6110.0800.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.0900">
+    <h1 class="headnote">6110.0900 GOVERNMENT LICENSE NUMBERS.</h1>
+    <p>The last two characters of all license numbers issued for watercraft owned by the state of Minnesota or a political subdivision thereof shall be the letters XX or XY. No other license number shall include both such letters. Application for such licenses shall be made directly to the commissioner of natural resources.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.0900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.0900.history">
+    <h2>History: </h2>
+    <p>31 SR 1712</p>
+  </div>
+  <div class="published" id="rule.6110.0900.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.1000">
+    <h1 class="headnote">6110.1000 ENFORCEMENT PENNANT.</h1>
+    <p>The pennant required under Minnesota Statutes, section <a href="/statutes/cite/86B.805">86B.805</a>, subdivision 2, shall be triangular in shape and of the following dimensions: four inches in depth at the staff and one foot in length. The pennant shall be of a blue background and bear a three-inch replica of the Minnesota state seal.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.1000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/86B.211">86B.211</a>; <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.1000.history">
+    <h2>History: </h2>
+    <p>15 SR 2430</p>
+  </div>
+  <div class="published" id="rule.6110.1000.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.1100">
+    <h1 class="headnote">6110.1100 RENTAL OF WATERCRAFT.</h1>
+    <div id="rule.6110.1100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6110.1100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Condition and equipment of rental watercraft.</h2>
+      <p> Condition and equipment of rental watercraft:</p>
+      <div id="rule.6110.1100.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6110.1100.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> No watercraft which is in a broken, rotten, or otherwise hazardous condition, including any accessory equipment, shall be rented or offered for rent.</p>
+      </div>
+      <div id="rule.6110.1100.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6110.1100.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> No watercraft shall be rented or offered for rent unless it meets the flotation requirements for its year of manufacture, found in Code of Federal Regulations, title 33, part 183, subparts F, G, and H.</p>
+      </div>
+      <div id="rule.6110.1100.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6110.1100.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> No watercraft shall be rented or offered for rent unless it is free of spilled gasoline and oil.</p>
+      </div>
+      <div id="rule.6110.1100.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6110.1100.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> No watercraft which has been rented shall be permitted to depart from the premises at which it was rented if it is loaded beyond its safe carrying capacity or powered beyond its safe power capacity.</p>
+      </div>
+      <div id="rule.6110.1100.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6110.1100.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> No other number, letter, design, or insignia shall be displayed on either side of any such watercraft which is closer than 24 inches to any part of the watercraft license number or validation decal.</p>
+      </div>
+      <div id="rule.6110.1100.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.6110.1100.1.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> The owner of a business which rents, leases, or hires out watercraft shall provide for each person on board the watercraft all lifesaving devices required by law or these rules, as well as all other required safety equipment for each watercraft.</p>
+      </div>
+    </div>
+    <div id="rule.6110.1100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6110.1100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Persons to whom watercraft may be rented. </h2>
+      <p>No watercraft shall be knowingly rented or offered for rent to any person who is under the influence of alcohol or a controlled substance.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6110.1100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/86B.211">86B.211</a>; <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.1100.history">
+    <h2>History: </h2>
+    <p>27 SR 1537</p>
+  </div>
+  <div class="published" id="rule.6110.1100.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.1200">
+    <h1 class="headnote">6110.1200 NAVIGATION OF WATERCRAFT ON THE WATERS OF THE STATE; SAFETY EQUIPMENT.</h1>
+    <div id="rule.6110.1200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6110.1200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Rules of the road. </h2>
+      <p>Rules of the road:</p>
+      <div id="rule.6110.1200.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6110.1200.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> When watercraft are running in the same direction, the watercraft being overtaken has right-of-way and must hold course and speed. The watercraft which is astern shall pass only when there is sufficient distance so the maneuver can be done safely and only at such speed that its wash or wake will not endanger the watercraft being passed or its occupants. No person operating a watercraft shall abruptly change its course without first determining that it can be safely done without risk of collision.</p>
+      </div>
+      <div id="rule.6110.1200.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6110.1200.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> When watercraft are approaching each other head on, or nearly so, each shall turn to the right a sufficient distance so that they will safely pass. When the course of an approaching craft is so far to the right as not to be considered as meeting head on, each shall maintain its course and pass clear.</p>
+      </div>
+      <div id="rule.6110.1200.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6110.1200.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> When watercraft are crossing courses, or approaching each other obliquely or at right angles, so as to involve risk of collision, the craft which has the other on its own right shall yield right-of-way.</p>
+      </div>
+      <div id="rule.6110.1200.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6110.1200.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> A nonmotorized watercraft has right-of-way over a motor-powered watercraft except when it is the overtaking watercraft. Motor-powered watercraft should always keep clear and pass astern of nonmotorized watercraft.</p>
+      </div>
+      <div id="rule.6110.1200.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6110.1200.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> Small watercraft shall not insist on the right-of-way, nor unnecessarily impede the passage of large commercial vessels, which are restricted in their ability to maneuver by size, draft, or speed.</p>
+      </div>
+      <div id="rule.6110.1200.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.6110.1200.1.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> When watercraft are in a narrow channel, each shall keep as far to the right as may be safe or practical.</p>
+      </div>
+      <div id="rule.6110.1200.1.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.6110.1200.1.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> All watercraft shall yield the right-of-way to enforcement or other authorized emergency watercraft displaying a red or blue flashing light.</p>
+      </div>
+    </div>
+    <div id="rule.6110.1200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6110.1200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Mode of operation of watercraft. </h2>
+      <p>Mode of operation:</p>
+      <div id="rule.6110.1200.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6110.1200.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> No person shall operate a watercraft in such a manner that its wash or wake will endanger, harass, or unnecessarily interfere with any other person or property.</p>
+      </div>
+      <div id="rule.6110.1200.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6110.1200.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> No person shall operate a watercraft in any manner as to intentionally obstruct or interfere with the takeoff, landing, or taxiing of any aircraft.</p>
+      </div>
+      <div id="rule.6110.1200.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6110.1200.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> No person shall operate a watercraft within 150 feet of a diver's warning flag (described in Minnesota Statutes, section 86B.601).</p>
+      </div>
+      <div id="rule.6110.1200.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6110.1200.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> No person shall operate a watercraft in the vicinity of a lock and dam on the Mississippi River from Upper St. Anthony Falls through Lock and Dam Number Eight in violation of the following:</p>
+        <div id="rule.6110.1200.2.D.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.6110.1200.2.D.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> In the marked restricted area 600 feet upstream or 150 feet downstream of the dam, including auxiliary locks not in service.</p>
+        </div>
+        <div id="rule.6110.1200.2.D.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.6110.1200.2.D.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> At greater than a slow-no wake speed in the lock or lock approach area. "Slow-no wake," means the operation of a watercraft at the slowest possible speed necessary to maintain steerage, and in no case greater than five miles per hour.</p>
+        </div>
+        <div id="rule.6110.1200.2.D.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.6110.1200.2.D.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> Enforcement, emergency, resource management, and other government personnel or contractors are exempt from this part when performing official duties or authorized work.</p>
+        </div>
+      </div>
+      <div id="rule.6110.1200.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6110.1200.2.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> The operator of any watercraft, when signaled to do so by a conservation officer, sheriff, or sheriff's deputy shall bring the watercraft to a stop or maneuver it in a manner which will allow the officer to come alongside.</p>
+      </div>
+    </div>
+    <div id="rule.6110.1200.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6110.1200.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Personal flotation (lifesaving) devices. </h2>
+      <p>Flotation devices:</p>
+      <div id="rule.6110.1200.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6110.1200.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Every person on board a watercraft or waterfowl boat shall wear or have readily accessible a U.S. Coast Guard-approved wearable personal flotation device. In addition to these devices, watercraft and waterfowl boats 16 feet or more in length, except canoes and kayaks, must also carry at least one U.S. Coast Guard-approved throwable personal flotation device. A U.S. Coast Guard-approved throwable personal flotation device may be carried in lieu of any personal flotation device required by this part, on nonmotorized watercraft operated by lifeguards within a marked swimming area, as defined in part <a href="/rules/6110.1600">6110.1600</a>.</p>
+      </div>
+      <div id="rule.6110.1200.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6110.1200.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Persons being towed by a watercraft on water skis or other devices shall be considered to be on board the towing watercraft for the purpose of personal flotation device requirements. A U.S. Coast Guard-approved wearable personal flotation device must be either carried in the towing watercraft or worn by the person being towed.</p>
+      </div>
+      <div id="rule.6110.1200.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6110.1200.3.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>All personal flotation devices required by this subpart must be:</p>
+        <div id="rule.6110.1200.3.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.6110.1200.3.C.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>approved by the U.S. Coast Guard;</p>
+        </div>
+        <div id="rule.6110.1200.3.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.6110.1200.3.C.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>legibly marked with any requirements and the approval number issued by the U.S. Coast Guard;</p>
+        </div>
+        <div id="rule.6110.1200.3.C.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.6110.1200.3.C.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>in serviceable condition free of tears, rot, punctures, or waterlogging, and with all straps and fasteners present and in good condition;</p>
+        </div>
+        <div id="rule.6110.1200.3.C.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.6110.1200.3.C.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>of the appropriate size for the intended wearer, if the device is designed to be worn, and in compliance with any requirements listed on the U.S. Coast Guard approval label;</p>
+        </div>
+        <div id="rule.6110.1200.3.C.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.6110.1200.3.C.5">§</a>
+          <h4 class="subitem_no">(5) </h4>
+          <p>for wearable devices, either readily accessible or worn, except when:</p>
+          <div id="rule.6110.1200.3.C.5.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.6110.1200.3.C.5.a">§</a>
+            <h5 class="unit_no">(a) </h5>
+            <p>devices are required to be worn to be accepted as U.S. Coast Guard-approved; or</p>
+          </div>
+          <div id="rule.6110.1200.3.C.5.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.6110.1200.3.C.5.b">§</a>
+            <h5 class="unit_no">(b) </h5>
+            <p>wearing a U.S. Coast Guard-approved wearable personal flotation device is mandatory; and</p>
+          </div>
+        </div>
+        <div id="rule.6110.1200.3.C.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.6110.1200.3.C.6">§</a>
+          <h4 class="subitem_no">(6) </h4>
+          <p>for throwable devices, immediately available.</p>
+          <p>"Readily accessible" means easily retrievable within a reasonable amount of time in an emergency. "Immediately available" means easily reached in time of emergency. Personal flotation devices located in locked containers, under heavy objects, or left in shipping bags are not considered readily accessible or immediately available.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.6110.1200.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6110.1200.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Sound producing devices. </h2>
+      <p>Sound producing devices:</p>
+      <div id="rule.6110.1200.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6110.1200.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> All motorboats 16 feet or more in overall length shall carry a power-, hand-, or mouth-operated horn, or whistle capable of producing a sound for at least two seconds which is audible for at least one-half mile.</p>
+      </div>
+      <div id="rule.6110.1200.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6110.1200.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> All motorboats 26 feet but less than 40 feet in overall length shall be equipped with a hand- or power-operated horn or whistle capable of producing a sound for at least two seconds which is audible for at least one mile.</p>
+      </div>
+      <div id="rule.6110.1200.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6110.1200.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> All motorboats 40 feet or more in length shall be equipped with a power-operated horn or whistle capable of producing a sound for at least two seconds which is audible for at least one mile.</p>
+      </div>
+    </div>
+    <div id="rule.6110.1200.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6110.1200.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Fire extinguishers. </h2>
+      <p>Fire extinguishers:</p>
+      <div id="rule.6110.1200.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6110.1200.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> All motorboats less than 26 feet in length with construction permitting the entrapment of explosive or flammable gases or vapors must have at least one B-I type hand portable U.S. Coast Guard-approved fire extinguisher fully charged and in serviceable condition on board and readily accessible.</p>
+      </div>
+      <div id="rule.6110.1200.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6110.1200.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> All motorboats 26 feet to less than 40 feet in length must have at least two B-I U.S. Coast Guard-approved hand portable fire extinguishers, or at least one B-II type U.S. Coast Guard-approved hand portable fire extinguisher on board in serviceable condition, fully charged, and readily accessible.</p>
+      </div>
+      <div id="rule.6110.1200.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6110.1200.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> All motorboats 40 feet to not more than 65 feet in length must have at least three B-I type U.S. Coast Guard-approved fire extinguishers; or at least one B-I type plus one B-II type approved hand portable fire extinguisher on board. These fire extinguishers must be fully charged, in serviceable condition and readily accessible.</p>
+      </div>
+      <div id="rule.6110.1200.5.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6110.1200.5.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> All motorboats over 65 feet in length must have at least three B-II type U.S. Coast Guard-approved fire extinguishers on board. These fire extinguishers must be fully charged, in serviceable condition, and readily accessible.</p>
+      </div>
+      <div id="rule.6110.1200.5.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6110.1200.5.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> When a motorboat is equipped with a U.S. Coast Guard-approved fixed fire extinguishing system installed in the engine compartment, one less B-I extinguisher is required. The fixed system must be in serviceable condition and fully charged.</p>
+      </div>
+    </div>
+    <div id="rule.6110.1200.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6110.1200.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Ventilation equipment. </h2>
+      <p>Ventilation equipment:</p>
+      <div id="rule.6110.1200.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6110.1200.6.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> All motor-powered watercraft, except open watercraft, on which construction or decking-over is commenced after January 1, 1972, and which use fuel having a flash point of 110 degrees Fahrenheit or less, shall have at least two ventilator ducts, filled with cowls or their equivalent, for the efficient removal of explosive or flammable gases from the bilges of every engine and fuel tank compartment. There shall be at least one exhaust duct installed so as to extend from the open atmosphere to the lower portion of the bilge and at least one intake duct installed so as to extend to a point at least midway to the bilge or at least below the level of the carburetor air intake. The cowls shall be located and trimmed for maximum effectiveness so as to prevent displaced fumes from being recirculated.</p>
+      </div>
+      <div id="rule.6110.1200.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6110.1200.6.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> As used in this section, the term "open watercraft" means those motor-powered watercraft with all engine and fuel tank compartments, and other spaces to which explosive or flammable gases and vapors from these compartments may flow, open to the atmosphere and so arranged as to prevent the entrapment of such gases and vapors within the watercraft.</p>
+      </div>
+      <div id="rule.6110.1200.6.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6110.1200.6.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Alterations necessary to make existing motor-powered watercraft comply with these requirements shall be accomplished as soon as practicable but in any case shall be completed by July 1, 1972.</p>
+      </div>
+    </div>
+    <div id="rule.6110.1200.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6110.1200.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Lighting equipment. </h2>
+      <p>Lighting equipment:</p>
+      <div id="rule.6110.1200.7.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6110.1200.7.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> All motorized watercraft must display the correct lights for their class from sunset to sunrise when underway or at anchor.</p>
+        <p>Red and green lights must be visible at a distance of one mile and white lights at a distance of two miles.</p>
+      </div>
+      <div id="rule.6110.1200.7.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6110.1200.7.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The following terms are defined for the purpose of these rules:</p>
+        <div id="rule.6110.1200.7.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.6110.1200.7.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> "Aft" means to the rear of the midlength measured from end to end of the hull over the deck excluding sheer.</p>
+        </div>
+        <div id="rule.6110.1200.7.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.6110.1200.7.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> "All-round light" means a white light visible in an unbroken horizontal arc of 360 degrees.</p>
+        </div>
+        <div id="rule.6110.1200.7.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.6110.1200.7.B.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> "Combination light" means a single fixture showing green to starboard and red to port, visible in an unbroken horizontal arc from dead ahead to 22.5 degrees abaft the beam on its respective side.</p>
+        </div>
+        <div id="rule.6110.1200.7.B.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.6110.1200.7.B.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> "Forward" means forward of the midlength measured from end to end of the hull over the deck excluding sheer.</p>
+        </div>
+        <div id="rule.6110.1200.7.B.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.6110.1200.7.B.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> "Masthead light" means a white light visible in an unbroken horizontal arc of 225 degrees, placed at or near the centerline of the watercraft. The light must be visible from dead ahead to 22.5 degrees abaft the beam on both sides of the watercraft. On motorboats less than 40 feet in length, this light must be at least three feet higher than the red and green lights. On motorboats 40 feet or more in length, this light must be at least nine feet above the gunwale.</p>
+        </div>
+        <div id="rule.6110.1200.7.B.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.6110.1200.7.B.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> "Side lights" means separate fixtures, the one on the starboard side showing green and the one on the port side showing red, visible in an unbroken horizontal arc from dead ahead to 22.5 degrees abaft the beam on its respective side.</p>
+        </div>
+        <div id="rule.6110.1200.7.B.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.6110.1200.7.B.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> "At the stem and at the stern" means as nearly as practicable at the stem and at the stern, respectively.</p>
+        </div>
+        <div id="rule.6110.1200.7.B.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.6110.1200.7.B.8">§</a>
+          <h4 class="subitem_no">(8)</h4>
+          <p> "Stern light" means a white light placed at the stern, visible in an unbroken horizontal arc of 135 degrees. The light must be visible from dead astern to 22.5 degrees abaft the beam on both sides of the watercraft.</p>
+        </div>
+        <div id="rule.6110.1200.7.B.9" class="subitem">
+          <a title="Link to subitem 9" class="permalink" href="#rule.6110.1200.7.B.9">§</a>
+          <h4 class="subitem_no">(9)</h4>
+          <p> "Visible," when applied to lights, means visible on a dark night with clear atmosphere. The prescribed visibility means minimum visibility, and does not restrict greater distance of visibility, provided that the navigation lights are primarily intended for navigation purposes and will not be confused with other lights.</p>
+        </div>
+      </div>
+      <div id="rule.6110.1200.7.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6110.1200.7.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The lighting system on each watercraft must be chosen from either subitem (1) or (2):</p>
+        <div id="rule.6110.1200.7.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.6110.1200.7.C.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> Motorboats less than 40 feet in length must display the following:</p>
+          <div id="rule.6110.1200.7.C.1.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.6110.1200.7.C.1.a">§</a>
+            <h5 class="unit_no">(a)</h5>
+            <p> a combination light or separate sidelights and an all-round light at the stern when underway and not anchored; and</p>
+          </div>
+          <div id="rule.6110.1200.7.C.1.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.6110.1200.7.C.1.b">§</a>
+            <h5 class="unit_no">(b)</h5>
+            <p> an all-round light when anchored.</p>
+          </div>
+        </div>
+        <div id="rule.6110.1200.7.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.6110.1200.7.C.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> Motorboats of any length must display the following:</p>
+          <div id="rule.6110.1200.7.C.2.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.6110.1200.7.C.2.a">§</a>
+            <h5 class="unit_no">(a)</h5>
+            <p> a combination light or separate sidelights, a masthead light, and a stern light when underway and not anchored; and</p>
+          </div>
+          <div id="rule.6110.1200.7.C.2.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.6110.1200.7.C.2.b">§</a>
+            <h5 class="unit_no">(b)</h5>
+            <p> an all-round light when anchored.</p>
+          </div>
+        </div>
+      </div>
+      <div id="rule.6110.1200.7.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6110.1200.7.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> All nonmotorized watercraft when under way or anchored, between sunset and sunrise, shall carry aboard but not necessarily fixed to any part of the watercraft a minimum of one lantern or flashlight capable of showing a white light visible all around the horizon at a distance of two miles or more. The light or lantern shall be displayed in sufficient time to avoid collision with another watercraft.</p>
+      </div>
+      <div id="rule.6110.1200.7.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6110.1200.7.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> When a watercraft is moored to a buoy authorized by a permit issued under part <a href="/rules/6110.1800">6110.1800</a> it shall not be required to display the anchor light required in items C and D.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6110.1200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/86B.211">86B.211</a>; <a href="/statutes/cite/86B.501">86B.501</a>; <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.1200.history">
+    <h2>History: </h2>
+    <p>10 SR 2346; 15 SR 2430; 20 SR 759; 27 SR 1537; L 2013 c 121 s 58; 40 SR 1619</p>
+  </div>
+  <div class="published" id="rule.6110.1200.published">
+    <h2>Published Electronically:</h2>
+    <p> June 15, 2016</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.1300">
+    <h1 class="headnote repealed">6110.1300</h1>
+    <p>[Repealed, 27 SR 1537]</p>
+  </div>
+  <div class="published" id="rule.6110.1300.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.1400">
+    <h1 class="headnote">6110.1400 CAPACITY PLATE INFORMATION.</h1>
+    <div id="rule.6110.1400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6110.1400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Information required. </h2>
+      <p>The manufacturer's capacity plate required by law shall comply with the U.S. Coast Guard safe loading and powering standards for the year of manufacture, as set forth in Code of Federal Regulations, title 33, part 183, subparts B, C, and D.</p>
+    </div>
+    <div id="rule.6110.1400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6110.1400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Method to determine capacity information. </h2>
+      <p>The method used for determining capacity information shall comply with the U.S. Coast Guard safe loading and powering standards for the year of manufacture, as set forth in Code of Federal Regulations, title 33, part 183, subparts C and D.</p>
+    </div>
+    <div id="rule.6110.1400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6110.1400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Definitions. </h2>
+      <p>The terms "safe power capacity" and "safe carrying capacity" used in Minnesota Statutes, section <a href="/statutes/cite/86B.311">86B.311</a>, subdivision 1, shall be that capacity displayed on the manufacturer's capacity plate. If no such plate exists, the method referred to in subpart 2 shall be used to determine the capacity.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6110.1400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/86B.211">86B.211</a>; <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.1400.history">
+    <h2>History: </h2>
+    <p>15 SR 2430; 27 SR 1537</p>
+  </div>
+  <div class="published" id="rule.6110.1400.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.1500">
+    <h1 class="headnote">6110.1500 WATERWAY MARKERS.</h1>
+    <div id="rule.6110.1500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6110.1500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">In general. </h2>
+      <p>Except as hereinafter provided, or as otherwise provided by law, all waterway markers placed in or upon the waters of the state by public authority or under a permit issued by the sheriff of any county for the purposes hereinafter set forth shall have the form, size, lighting, reflectorization, and coloration prescribed therefor. When referring to lights on a waterway marker, "flashing" means not more than 30 flashes per minute and "quick-flashing" means at least 60 flashes per minute.</p>
+    </div>
+    <div id="rule.6110.1500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6110.1500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Channel marker buoys. </h2>
+      <p>Channel marker buoys:</p>
+      <div id="rule.6110.1500.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6110.1500.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Every channel marker buoy shall have the external form of a cylinder having a circular transverse cross-section not less than nine inches in diameter. Channel markers must extend at least 36 inches above the water.</p>
+      </div>
+      <div id="rule.6110.1500.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6110.1500.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Where channel marker buoys are placed to indicate the location of a well defined boating channel, an all green buoy and an all red buoy shall be placed in opposition to each other to indicate the course of the channel is located between them. The red buoy or marker shall be situated on the right side of the channel when heading towards shore, or when heading upstream. A green flashing light shall be used in conjunction with a green buoy if it is to be lighted. When reflectorization is used with a green buoy, it shall be green in color and no less than a three-inch wide strip shall completely surround the buoy and shall be located at the top of the buoy. Number designations shall be odd. A red flashing light shall be used in conjunction with a red buoy if it is to be lighted. When reflectorization is used with a red buoy, it shall be red in color and no less than a three-inch wide strip shall completely surround the buoy and shall be located at the top of the buoy. Number designations shall be even. Red buoys may have a conical (nun) shape to the top of the buoy. Daymarks (signs) may also be used in place of buoys. The colors, lighting, minimum height above water, and numbering for daymarks shall be the same as for buoys with the same designation. Red daymarks shall be triangular in shape and green daymarks shall be rectangular in shape.</p>
+      </div>
+    </div>
+    <div id="rule.6110.1500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6110.1500.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Shoreward obstruction (point) buoy. </h2>
+      <p>A buoy indicating that a watercraft should not pass between it and the nearest shore shall have a circular transverse cross-section measuring not less than nine inches in diameter and shall extend at least 36 inches above the surface of the water. Each such buoy shall be marked with alternating vertical black and white stripes. White reflectorization may be used on a minimum of the upper three inches of the white vertical stripe. A white quick-flashing light shall be used if the buoy is lighted.</p>
+    </div>
+    <div id="rule.6110.1500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6110.1500.3">§</a>
+      <h2 class="subp_no">Subp. 3a.</h2>
+      <h2 class="headnote">Mid-channel or safe water buoy. </h2>
+      <p>A buoy indicating the center or midpoint of a channel shall have a circular transverse cross-section measuring not less than nine inches in diameter and shall extend at least 36 inches above the surface of the water. Each such buoy shall be marked with alternating vertical red and white stripes and may have a red spherical top mark approximately the same diameter as the diameter of the buoy. White reflectorization may be used on a minimum of the upper three inches of the white vertical stripes. Red reflectorization may be used on a minimum of the upper three inches of the red vertical stripes. A white flashing light shall be used if the buoy is lighted. A daymark (sign) may be used in place of a buoy and must extend out of the water a minimum of 36 inches. The daymark must be octagonal in shape with a white border, white on the left side and red on the right side of the sign as it faces the boater.</p>
+    </div>
+    <div id="rule.6110.1500.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6110.1500.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Mooring buoys. </h2>
+      <p>Every buoy placed in the waters of the state for use in anchoring or mooring watercraft may be of any practicable size or shape, but must have at least eight inches extending above the waterline. No anchoring buoy may have a diameter of over 24 inches circular or a width of more than 24 inches if some other shape. No mooring or anchor buoy may be placed in any public water if it obstructs access to any public or private property or creates a navigational hazard. No mooring or anchor buoy may be placed in or upon the water of the state except by public authority or under a permit issued by the sheriff of the county. Every such buoy shall be colored white and shall be encircled by a visible blue band at least one inch wide. Mooring buoys must have a minimum total of 16 square inches of white reflectorization, part of which must be visible from any direction. Mooring buoys, if lighted, shall show a flashing white light.</p>
+    </div>
+    <div id="rule.6110.1500.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6110.1500.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Regulatory and information signs and buoys. </h2>
+      <p>Regulatory and information signs and buoys:</p>
+      <div id="rule.6110.1500.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6110.1500.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> No regulatory or informational signs or buoys may be placed in or upon the waters of this state, except by public authority or under a permit issued by the sheriff of the county. All such signs and buoys shall be colored white except as hereinafter provided.</p>
+        <p>When a buoy is used as a regulatory or informational marker (except in private swimming areas), it shall have two orange-colored horizontal bands completely around the buoy's circumference, one such band at the top, and the other just above the waterline. The appropriate geometric shape(s) indicating the buoy's purpose and any lettering or numerals shall be placed between these horizontal bands. The buoy itself shall have a circular transverse cross section of at least nine inches and shall extend at least 36 inches above the surface of the water. Except for danger areas, a white flashing light shall be used on all buoys or signs in this subpart, if the buoy or sign is lighted. If lighted, buoys or signs that mark danger areas must display a white quick-flashing light.</p>
+      </div>
+      <div id="rule.6110.1500.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6110.1500.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Every sign or buoy giving information for the convenience of watercraft operators shall bear a two-inch wide orange-colored band forming an upright rectangle measuring at least 14 inches in height outside dimensions.</p>
+      </div>
+      <div id="rule.6110.1500.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6110.1500.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Signs or buoys indicating danger to watercraft shall bear an orange-colored band of two-inch width forming an upright diamond at least 14 inches in outside height, and such signs shall bear a printed statement of the source of danger.</p>
+      </div>
+      <div id="rule.6110.1500.5.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6110.1500.5.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Signs or buoys indicating controlled water areas in which boating, fishing, water-skiing, skin diving, or other water activities are restricted, limited, or otherwise subjected to special rules or regulations shall bear a two-inch wide band forming a circle at least 12 inches in outside diameter. The limitation, restriction, prohibition, or regulation effective within a controlled area shall be printed inside of the orange-colored circle when possible.</p>
+        <p>Signs or buoys designating state game refuges, wildlife management areas, or spawning areas shall not be subject to the provisions of this order.</p>
+      </div>
+      <div id="rule.6110.1500.5.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6110.1500.5.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> Signs or buoys directing all watercraft to keep out of a specific water area shall bear a two-inch orange-colored band forming an upright diamond at least 14 inches in outside height, dissected vertically and horizontally by an orange-colored strip two inches wide.</p>
+        <p>Signs or buoys designating state game refuges, wildlife management areas, or spawning areas shall not be subject to the provisions of this order.</p>
+      </div>
+      <div id="rule.6110.1500.5.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.6110.1500.5.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> Signs indicating winter ice dangers to persons, motor vehicles, snowmobiles, all-terrain vehicles, ice boats, or any other conveyance used to transport persons over the ice on public waters of the state shall bear a two-inch wide orange-colored band forming an upright diamond at least 14 inches in outside height and such signs shall bear a printed statement of the source of danger.</p>
+        <p>Where used, except for the marking of aeration systems operating under a permit from the commissioner of natural resources, these signs shall completely line the perimeter of the ice hazard at intervals not exceeding 75 feet and shall be at least 48 inches above the ice. When a permit is issued for an aeration system, the commissioner shall specify the marking requirements for each system as a part of the permit.</p>
+      </div>
+      <div id="rule.6110.1500.5.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.6110.1500.5.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> No person shall operate any motor vehicle, snowmobile, all-terrain vehicle, ice boat, or any other conveyance used to transport persons over the ice on public waters of the state within 150 feet of a diver's warning flag described in Minnesota Statutes, section <a href="/statutes/cite/86B.601">86B.601</a>.</p>
+      </div>
+      <div id="rule.6110.1500.5.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.6110.1500.5.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> Written material on any waterway marker sign or buoy shall be printed with black letters at least two inches in height, on a white background.</p>
+      </div>
+      <div id="rule.6110.1500.5.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.6110.1500.5.I">§</a>
+        <h3 class="item_no">I.</h3>
+        <p> Every waterway marker driven into the bottom of a lake or stream, or attached to a post so driven, shall extend at least 36 inches above the surface of the water. The surface of the water shall be considered to be the normal high watermark during the local boating season.</p>
+      </div>
+      <div id="rule.6110.1500.5.J" class="item">
+        <a title="Link to item J" class="permalink" href="#rule.6110.1500.5.J">§</a>
+        <h3 class="item_no">J.</h3>
+        <p> Any sign may be reflectorized, provided that the entire displayed surface is uniformly reflectorized.</p>
+      </div>
+      <div id="rule.6110.1500.5.K" class="item">
+        <a title="Link to item K" class="permalink" href="#rule.6110.1500.5.K">§</a>
+        <h3 class="item_no">K.</h3>
+        <p> The reflectorized material required by all sections of these rules shall retain 80 percent of its dry weather reflective signal strength when submerged in water.</p>
+      </div>
+    </div>
+    <div id="rule.6110.1500.6" class="subp repealed">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6110.1500.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <p>[Repealed, 15 SR 2430]</p>
+    </div>
+    <div id="rule.6110.1500.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6110.1500.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Milfoil areas. </h2>
+      <p>Buoys or signs indicating an area that is infested with Eurasian watermilfoil may be marked using a solid yellow sign or buoy. If a buoy is used, it shall be no less than four inches in diameter and extend at least 30 inches above the surface of the water. The words "Milfoil" or "Milfoil Area" must appear on opposing sides of the buoy in at least two-inch high black letters. If a sign is used, it shall be no more than 12 inches in width or more than 18 inches in height and extend at least 30 inches above the surface of the water at normal high water level. The words "Milfoil" or "Milfoil Area" must appear on the sign in at least two-inch high black letters.</p>
+    </div>
+    <div id="rule.6110.1500.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.6110.1500.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Exceptions. </h2>
+      <p>Whenever an emergency situation requires that immediate warning be given of a hazardous condition, any appropriate marker may be used until such time as the emergency ceases to exist or until a marker complying with these rules can be obtained. In addition, the commissioner or designee may exempt specific types of waterway markers or buoys from the dimensional requirements of this part where safety would not be adversely affected and may also designate buoys or markers for purposes not previously set forth in this part.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6110.1500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/86B.211">86B.211</a>; <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.1500.history">
+    <h2>History: </h2>
+    <p>10 SR 2346; 15 SR 2430; 27 SR 1537</p>
+  </div>
+  <div class="published" id="rule.6110.1500.published">
+    <h2>Published Electronically:</h2>
+    <p> October 12, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.1600">
+    <h1 class="headnote">6110.1600 MARKING OF LEGALLY DESIGNATED SWIMMING AREAS.</h1>
+    <div id="rule.6110.1600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6110.1600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Individual private areas. </h2>
+      <p>The owner or lessee of shoreline property may place white markers defining a swimming area adjacent to the property for personal use. This area shall not exceed 2,500 square feet in area and shall not extend more than 50 linear feet along the lake frontage of the owner or lessee. These markers must have no less than six inches but no more than 14 inches showing above the waterline. Markers in the form of a cylinder must have a diameter of at least five inches and not larger than nine inches. Markers with a shape other than a cylinder may not have a length or width greater than 14 inches. Each such marker shall bear on opposite sides a one-half inch wide band of international orange color forming an upright diamond at least five inches in outside width, dissected vertically and horizontally by a one-half inch wide strip of international orange color. The border of the diamond and cross outline shall not be less than one-half inch in width. These markers may not be spaced more than 15 feet apart and must outline all of the swimming area.</p>
+      <p>No swimming marker may obstruct watercraft traffic or unduly interfere with public use of the water. If in the opinion of the local sheriff, the sheriff's water patrol officer, or conservation officer, such conditions exist, they may direct the landowner or lessee to change the boundaries of the swimming area or have the markers removed. The landowner or lessee may appeal such a directive to the commissioner of natural resources.</p>
+    </div>
+    <div id="rule.6110.1600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6110.1600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Other areas. </h2>
+      <p>Swimming areas in public waters maintained or designated by governmental subdivisions, private corporations, private clubs, nonprofit organizations, or businesses offering public swimming facilities in any body of water where operation of motor-powered watercraft is not prohibited shall be marked in the following manner:</p>
+      <div id="rule.6110.1600.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6110.1600.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The entire perimeter of the water area shall be marked with white marking buoys no less than nine inches in diameter and extending no less than 36 inches above the surface of the water. Each marking buoy must contain two horizontal bands of orange, one such band at the top, and the other just above the waterline. Each marking buoy must also contain two diamond shapes with crosses which means "boats keep out." These diamond shapes must have a vertical diagonal of not less than 14 inches. The borders of the diamond and cross outline shall not be less than two inches in width. The color of these borders shall be orange. The diamonds shall be placed midway between the horizontal bands. The words "swim area" should also appear on each marker in no less than two-inch letters.</p>
+      </div>
+      <div id="rule.6110.1600.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6110.1600.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Marking buoys must not be spaced more than 75 feet apart and in no case may less than three markers be used to establish a boundary line.</p>
+      </div>
+      <div id="rule.6110.1600.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6110.1600.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Smaller markers may be used to add definition to the area boundaries. These smaller markers must be all white in color.</p>
+      </div>
+    </div>
+    <div id="rule.6110.1600.3" class="subp repealed">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6110.1600.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <p>[Repealed, 15 SR 2430]</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6110.1600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/86B.211">86B.211</a>; <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.1600.history">
+    <h2>History: </h2>
+    <p>15 SR 2430; 17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.6110.1600.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.1700">
+    <h1 class="headnote">6110.1700 WATER SKIERS; LENGTH OF SKI TOW ROPES.</h1>
+    <p>No person being towed on water skis, aquaplane, saucer, or other device shall be towed with a rope, wire, cable, or other towing device extending more than 150 feet from the towing watercraft without obtaining a permit from the local sheriff.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.1700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="published" id="rule.6110.1700.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.1800">
+    <h1 class="headnote">6110.1800 PLACEMENT OF TEMPORARY STRUCTURES AND BUOYS IN THE WATERS OF THE STATE.</h1>
+    <div id="rule.6110.1800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6110.1800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">In general. </h2>
+      <p>No person shall leave any temporary structure not extending from shore, or any buoy or sign in the waters of this state between the hours of sunset and sunrise without first obtaining a permit in writing therefor from the sheriff of the county. Mooring buoys must be placed as provided in part <a href="/rules/6110.1500">6110.1500</a>, subpart 4. Swimming area markers must be placed as provided in part <a href="/rules/6110.1600">6110.1600</a>.</p>
+    </div>
+    <div id="rule.6110.1800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6110.1800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Permit for temporary structure or buoy. </h2>
+      <p>The sheriff of any county may issue a permit for the placement of any such structure or buoy whenever, in the sheriff's opinion, the structure or buoy will not constitute an undue hazard to or illegal obstruction of navigation.</p>
+      <p>Each structure or navigational buoy placed pursuant to such permit shall have the permit number painted on it and shall have attached either a light visible in all directions, or sufficient reflectorized material so as to reflect light from all directions, which material shall retain 80 percent of its dry weather reflective signal strength when submerged in water.</p>
+      <p>Nothing in this part shall be construed to affect the provisions of Minnesota Statutes, section <a href="/statutes/cite/103G.245">103G.245</a>, or the requirements for permits from the commissioner of natural resources thereunder, nor shall this part be construed to affect the construction of blinds built according to Minnesota Statutes, sections <a href="/statutes/cite/97B.805">97B.805</a> and <a href="/statutes/cite/97B.811">97B.811</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6110.1800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/86B.211">86B.211</a>; <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.1800.history">
+    <h2>History: </h2>
+    <p>15 SR 2430</p>
+  </div>
+  <div class="published" id="rule.6110.1800.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.1900">
+    <h1 class="headnote">6110.1900 REPORTS.</h1>
+    <div id="rule.6110.1900.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6110.1900.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Accident reports. </h2>
+      <p>Each county sheriff shall report to the commissioner of natural resources:</p>
+      <div id="rule.6110.1900.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6110.1900.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> each watercraft accident involving either a fatality, personal injury requiring treatment beyond first aid, or property damage that meets the U.S. Coast Guard reportability requirements found in Code of Federal Regulations, title 33, section 173.55; and</p>
+      </div>
+      <div id="rule.6110.1900.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6110.1900.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> all drownings.</p>
+        <p>Reports shall be submitted on forms provided by the commissioner and forwarded within ten days of the accident.</p>
+      </div>
+    </div>
+    <div id="rule.6110.1900.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6110.1900.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Other reports. </h2>
+      <p>Each county sheriff shall maintain copies of watercraft citations or written warnings and rental boat inspection reports for a minimum of three years following the year in which they were issued or completed.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6110.1900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/86B.211">86B.211</a>; <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.1900.history">
+    <h2>History: </h2>
+    <p>10 SR 2346; 15 SR 2430; 27 SR 1537</p>
+  </div>
+  <div class="published" id="rule.6110.1900.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.2000">
+    <h1 class="headnote repealed">6110.2000</h1>
+    <p>[Repealed, 37 SR 697]</p>
+  </div>
+  <div class="published" id="rule.6110.2000.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.2100">
+    <h1 class="headnote">6110.2100 REIMBURSEMENT OF COUNTY SHERIFFS FOR SEARCH AND RESCUE OPERATIONS.</h1>
+    <p>Payments for annual appropriations for search and rescue operations shall be made pursuant to the provisions hereof in order of presentation until expended.</p>
+    <p>A search and rescue operation resulting from or related to water-related recreational activities will qualify for reimbursement if the incident necessitating the operation is of an unusual and nonrecurring nature. Reimbursable items of expense are those which are over and above the sheriff's regular operating budget, and include rental of private equipment and employment of personnel hired expressly for the search and rescue operation.</p>
+    <p>Payment by the state is limited to 50 percent of the reimbursable items of expense, subject to maximum state payment of $2,500 for each search and rescue operation.</p>
+    <p>A sheriff claiming reimbursement shall submit in duplicate an itemized invoice, verified by the county auditor, together with a statement showing that the operation qualified for reimbursement, to the Department of Natural Resources. All claims will be subject to audit by the state.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.2100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/86B.211">86B.211</a>; <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.2100.history">
+    <h2>History: </h2>
+    <p>15 SR 2430</p>
+  </div>
+  <div class="published" id="rule.6110.2100.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.2200">
+    <h1 class="headnote">6110.2200 PENALTIES.</h1>
+    <p>Any person who shall violate any of the provisions of parts <a href="/rules/6110.0100">6110.0100</a> to <a href="/rules/6110.2300">6110.2300</a> shall be guilty of a misdemeanor.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.2200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="published" id="rule.6110.2200.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.2300">
+    <h1 class="headnote">6110.2300 PREVIOUS ORDERS SUPERSEDED.</h1>
+    <p>Parts <a href="/rules/6110.0100">6110.0100</a> to <a href="/rules/6110.2300">6110.2300</a> supersede all previous orders of the commissioner of natural resources relating to boat and water safety.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.2300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="published" id="rule.6110.2300.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.3000">
+    <h1 class="headnote">6110.3000 POLICY.</h1>
+    <p>It is the policy of this state to promote full use and enjoyment of waters of the state, to promote safety for persons and property in connection with such use, and to promote uniformity of laws relating to such use.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.3000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="published" id="rule.6110.3000.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.3100">
+    <h1 class="headnote">6110.3100 SCOPE.</h1>
+    <p>As part of implementing that policy, Minnesota Statutes, sections <a href="/statutes/cite/86B.205">86B.205</a>, subdivisions 2 to 5; <a href="/statutes/cite/103G.605">103G.605</a>; <a href="/statutes/cite/103G.621">103G.621</a>; and <a href="/statutes/cite/459.20">459.20</a> authorize counties, cities, and towns to regulate by ordinance the use of surface waters by watercraft, upon approval of any such ordinance by the commissioner. Minnesota Statutes, section <a href="/statutes/cite/86B.205">86B.205</a>, subdivision 9, paragraph (a), authorizes the commissioner to regulate such use by rule, upon request of a county, city, or town, and after the rule is approved by the majority of the counties affected. Parts <a href="/rules/6110.3000">6110.3000</a> to <a href="/rules/6110.4200">6110.4200</a>, however, shall not apply to units of government other than counties, cities, and towns, or to counties, cities, or towns adopting ordinances identical to and on the same body of water as a lake conservation district ordinance.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.3100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.25">361.25</a>; <a href="/statutes/cite/86B.211">86B.211</a></p>
+  </div>
+  <div class="published" id="rule.6110.3100.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.3200">
+    <h1 class="headnote">6110.3200 GOAL OF WATER SURFACE USE MANAGEMENT.</h1>
+    <p>The goal of water surface use management shall be to enhance the recreational use, safety, and enjoyment of the water surface of Minnesota and to preserve these water resources in a way that reflects the state's paramount concern for the protection of its natural resources. In pursuit of that goal, an ordinance or rule shall:</p>
+    <div id="rule.6110.3200.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.6110.3200.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> where practical and feasible, accommodate all compatible recreational uses;</p>
+    </div>
+    <div id="rule.6110.3200.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.6110.3200.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> minimize adverse impact on natural resources;</p>
+    </div>
+    <div id="rule.6110.3200.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.6110.3200.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> minimize conflicts between users in a way that provides for maximum use, safety, and enjoyment; and</p>
+    </div>
+    <div id="rule.6110.3200.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.6110.3200.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> conform to the standards set in part <a href="/rules/6110.3700">6110.3700</a>.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6110.3200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="published" id="rule.6110.3200.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.3300">
+    <h1 class="headnote">6110.3300 STATUTORY AUTHORITY.</h1>
+    <p>Parts <a href="/rules/6110.3000">6110.3000</a> to <a href="/rules/6110.4200">6110.4200</a> are required by Minnesota Statutes, section <a href="/statutes/cite/86B.211">86B.211</a>. They provide procedures for the development and approval of rules and ordinances for resolving water surface use conflict by regulating:</p>
+    <div id="rule.6110.3300.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.6110.3300.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> type and size of watercraft;</p>
+    </div>
+    <div id="rule.6110.3300.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.6110.3300.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> type and horsepower of motors;</p>
+    </div>
+    <div id="rule.6110.3300.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.6110.3300.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> speed of watercraft;</p>
+    </div>
+    <div id="rule.6110.3300.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.6110.3300.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> time of use;</p>
+    </div>
+    <div id="rule.6110.3300.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.6110.3300.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> area of use; and</p>
+    </div>
+    <div id="rule.6110.3300.F" class="item">
+      <a title="Link to item F" class="permalink" href="#rule.6110.3300.F">§</a>
+      <h3 class="item_no">F.</h3>
+      <p> the conduct of other activities on the water body where necessary to secure the safety of the public and the most general public use.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6110.3300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.25">361.25</a>; <a href="/statutes/cite/86B.211">86B.211</a></p>
+  </div>
+  <div class="published" id="rule.6110.3300.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.3400">
+    <h1 class="headnote">6110.3400 JURISDICTION OF COMMISSIONER.</h1>
+    <p>The commissioner shall exercise the commissioner's discretion under Minnesota Statutes, section <a href="/statutes/cite/86B.205">86B.205</a>, subdivision 9, to regulate a water body when so requested by a county, city, or town only when the water body:</p>
+    <div id="rule.6110.3400.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.6110.3400.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> is traversed by a state or international boundary; or</p>
+    </div>
+    <div id="rule.6110.3400.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.6110.3400.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> is within the jurisdiction of two or more counties which cannot agree on the content of ordinances; and</p>
+    </div>
+    <div id="rule.6110.3400.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.6110.3400.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> regulation is necessary to achieve the goals in part <a href="/rules/6110.3200">6110.3200</a>.</p>
+      <p>In all other cases, water surface use regulation shall be by county, city, or town ordinance as specified in Minnesota Statutes, sections <a href="/statutes/cite/86B.205">86B.205</a>, subdivisions 2 to 5; <a href="/statutes/cite/103G.605">103G.605</a>; <a href="/statutes/cite/103G.621">103G.621</a>; and <a href="/statutes/cite/459.20">459.20</a>. If a body of water is located within the jurisdiction of two or more cities or towns which cannot agree on the content of ordinances, any such city or town may petition the county in which they are located to adopt an ordinance.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6110.3400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.25">361.25</a>; <a href="/statutes/cite/86B.211">86B.211</a></p>
+  </div>
+  <div class="history" id="rule.6110.3400.history">
+    <h2>History: </h2>
+    <p>17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.6110.3400.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.3500">
+    <h1 class="headnote">6110.3500 EXISTING ORDINANCES AND RULES.</h1>
+    <p>All existing ordinances and rules adopted on or after January 1, 1975, affecting water surface use shall be brought into compliance with parts <a href="/rules/6110.3000">6110.3000</a> to <a href="/rules/6110.4200">6110.4200</a> within a reasonable time period after promulgation of these parts.</p>
+  </div>
+  <div class="stat_auth" id="rule.6110.3500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="published" id="rule.6110.3500.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.3600">
+    <h1 class="headnote">6110.3600 ASSESSMENT OF CONDITIONS.</h1>
+    <div id="rule.6110.3600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6110.3600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Factors to consider. </h2>
+      <p>The commissioner of any governmental unit formulating, amending, or deleting controls for surface waters shall acquire and consider the following information, noting factors that are not relevant:</p>
+      <div id="rule.6110.3600.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6110.3600.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Physical characteristics:</p>
+        <div id="rule.6110.3600.1.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.6110.3600.1.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> size: normal surface acreage, if available, or the basin acreage listed in the Division of Waters Bulletin No. 25, An Inventory of Minnesota Lakes;</p>
+        </div>
+        <div id="rule.6110.3600.1.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.6110.3600.1.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> crowding potential: expressed as a ratio of water surface area to length of shoreline;</p>
+        </div>
+        <div id="rule.6110.3600.1.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.6110.3600.1.A.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> bottom topography and water depth;</p>
+        </div>
+        <div id="rule.6110.3600.1.A.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.6110.3600.1.A.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> shore soils and bottom sediments;</p>
+        </div>
+        <div id="rule.6110.3600.1.A.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.6110.3600.1.A.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> aquatic flora and fauna;</p>
+        </div>
+        <div id="rule.6110.3600.1.A.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.6110.3600.1.A.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> water circulation: for lakes, the existence and locations of strong currents, inlets, and large water level fluctuations; for rivers and streams, velocity and water level fluctuations;</p>
+        </div>
+        <div id="rule.6110.3600.1.A.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.6110.3600.1.A.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> natural and artificial obstructions or hazards to navigation, including but not limited to points, bars, rocks, stumps, weed beds, docks, piers, dams, diving platforms, and buoys; and</p>
+        </div>
+        <div id="rule.6110.3600.1.A.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.6110.3600.1.A.8">§</a>
+          <h4 class="subitem_no">(8)</h4>
+          <p> regional relationship: the locations and the level of recreational use of other water bodies in the area.</p>
+        </div>
+      </div>
+      <div id="rule.6110.3600.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6110.3600.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Existing development:</p>
+        <div id="rule.6110.3600.1.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.6110.3600.1.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> Private: to include number, location, and occupancy characteristics of permanent homes, seasonal homes, apartments, planned unit developments, resorts, marinas, campgrounds, and other residential, commercial, and industrial uses.</p>
+        </div>
+        <div id="rule.6110.3600.1.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.6110.3600.1.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> Public: to include type, location, size, facilities, and parking capacity of parks, beaches, and watercraft launching facilities.</p>
+        </div>
+      </div>
+      <div id="rule.6110.3600.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6110.3600.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Ownership of shoreland: to include the location and managing governmental unit of shoreline in federal, state, county, or city ownership as well as private, semipublic, or corporate lands.</p>
+      </div>
+      <div id="rule.6110.3600.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6110.3600.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Public regulations and management: to include federal, state, or local regulations and management plans and activities having direct effects on watercraft use of surface waters.</p>
+      </div>
+      <div id="rule.6110.3600.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.6110.3600.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> History of accidents which have occurred on the surface waters.</p>
+      </div>
+      <div id="rule.6110.3600.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.6110.3600.1.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> Watercraft use: to include information obtained in the morning, afternoon, and evening on at least one weekday and one weekend day, concerning the number and types of watercraft in each of the following categories: kept or used by riparians, rented by or gaining access through resorts or marinas, using each public watercraft launching facility, in use on the waterbody.</p>
+      </div>
+      <div id="rule.6110.3600.1.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.6110.3600.1.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> Conflict perception and control preferences: to include opinions gained by surveys or through public meetings or hearings of riparians, transients, local residents, and the public at large.</p>
+      </div>
+    </div>
+    <div id="rule.6110.3600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6110.3600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Written statement. </h2>
+      <p>Any governmental unit formulating, amending, or deleting controls for surface waters shall submit to the commissioner the following:</p>
+      <div id="rule.6110.3600.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6110.3600.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the information requested in subpart 1, portrayed on a map to the extent reasonable;</p>
+      </div>
+      <div id="rule.6110.3600.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6110.3600.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> a statement evaluating whether the information reveals significant conflicts and explaining why the particular controls proposed were selected;</p>
+      </div>
+      <div id="rule.6110.3600.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6110.3600.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the proposed ordinance; and</p>
+      </div>
+      <div id="rule.6110.3600.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6110.3600.2.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> a description of public hearings held concerning the proposed controls, including an account of the statement of each person testifying.</p>
+      </div>
+    </div>
+    <div id="rule.6110.3600.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6110.3600.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Commissioner review and approval. </h2>
+      <p>The commissioner shall require the ordinance proposer to provide additional information of the kind described in subpart 1 when needed in order to make an informed decision. The commissioner shall approve the ordinance if it conforms with these rules.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6110.3600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="published" id="rule.6110.3600.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.3700">
+    <h1 class="headnote">6110.3700 WATER SURFACE MANAGEMENT STANDARDS.</h1>
+    <div id="rule.6110.3700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6110.3700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Purpose. </h2>
+      <p>To promote uniformity of ordinances or rules on the use of watercraft on surface waters of this state, to encourage compliance and to ease enforcement, the commissioner and any government unit formulating such ordinances or rules shall follow these standards. When formulating an ordinance or rule, it is not required that all the standards listed below be incorporated into every ordinance or rule. Rather, the commissioner or governmental unit shall select from the standards listed below such standard(s) as are needed to regulate the surface use of waters.</p>
+    </div>
+    <div id="rule.6110.3700.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6110.3700.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Watercraft type and size. </h2>
+      <p>Controls may be formulated concerning the type and/or size of watercraft permissible for use on surface water body(ies) or portions thereof.</p>
+    </div>
+    <div id="rule.6110.3700.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6110.3700.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Motor type and size. </h2>
+      <p>Controls, if any, concerning the maximum total horsepower of motor(s) powering watercraft on surface waters shall utilize one or more of the following horsepower cutoffs or motor types: 25 hp; 10 hp; electric motors; no motors.</p>
+    </div>
+    <div id="rule.6110.3700.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6110.3700.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Direction of travel. </h2>
+      <p>Directional controls, if used, shall mandate watercraft to follow a counterclockwise path of travel.</p>
+    </div>
+    <div id="rule.6110.3700.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6110.3700.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Speed limits. </h2>
+      <p>Controls, if any, concerning the maximum speeds allowable for watercraft on surface waters shall utilize one or more of the following miles-per-hour cutoffs:</p>
+      <div id="rule.6110.3700.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6110.3700.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> "Slow-No Wake" means operation of a watercraft at the slowest possible speed necessary to maintain steerage and in no case greater than five mph.</p>
+      </div>
+      <div id="rule.6110.3700.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6110.3700.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> 15 mph.</p>
+      </div>
+      <div id="rule.6110.3700.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6110.3700.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> 40 mph.</p>
+      </div>
+    </div>
+    <div id="rule.6110.3700.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.6110.3700.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Effective time. </h2>
+      <p>Controls must use one or more of the following time periods.</p>
+      <div id="rule.6110.3700.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.6110.3700.6.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> sunrise to sunset or sunset to sunrise the following day;</p>
+      </div>
+      <div id="rule.6110.3700.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.6110.3700.6.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> 9:00 a.m. to 6:00 p.m. or 6:00 p.m. to 9:00 a.m. the following day;</p>
+      </div>
+      <div id="rule.6110.3700.6.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.6110.3700.6.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> noon to 6:00 p.m. or 6:00 p.m. to noon the following day;</p>
+      </div>
+      <div id="rule.6110.3700.6.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.6110.3700.6.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> all 24 hours of the day.</p>
+        <p>Controls must be in effect during one of the following calendar divisions: all year; Memorial Day weekend through Labor Day weekend; on all weekends and legal holidays occurring within Memorial Day weekend through Labor Day weekend.</p>
+        <p>Controls governing the use of watercraft may be adopted which are placed into effect based upon specific water elevations.</p>
+      </div>
+    </div>
+    <div id="rule.6110.3700.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.6110.3700.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Area zoning. </h2>
+      <p>Controls shall clearly specify which portion of the water body is affected by such controls.</p>
+      <p>Area controls may be formulated concerning any of the subject matter covered in the water surface management standards in subparts 2 to 9.</p>
+      <p>Controls concerning a "Slow-No Wake" shall be established for the entire water body or portion thereof according to the following criteria: within 100 feet or 150 feet from the shore; or where watercraft speed or wake constitutes a hazard to persons, property, or the natural resources; or where it has been determined that such control(s) would enhance the recreational use and enjoyment of the majority of users.</p>
+    </div>
+    <div id="rule.6110.3700.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.6110.3700.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Conduct of other activities on a body of water. </h2>
+      <p>Controls formulated by a governmental unit which restricts other activities (such as swimming or scuba diving) shall conform to part <a href="/rules/6110.3200">6110.3200</a>.</p>
+    </div>
+    <div id="rule.6110.3700.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.6110.3700.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote"> Emergencies. </h2>
+      <p>In situations of local emergency, temporary special controls may be enacted by a county, city, or town for a period not more than 30 days without the commissioner's approval. The commissioner shall be notified, however, as soon as practicable during this 30-day period.</p>
+    </div>
+    <div id="rule.6110.3700.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.6110.3700.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Additional evidence. </h2>
+      <p>A government unit may submit additional evidence if it feels that variance from the afore-stated standards is necessary to best address a particular problem. The commissioner will review such evidence and shall grant a variance if there are circumstances peculiar to the body or bodies of water in question of such magnitude as to overshadow the goal of uniformity.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6110.3700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/14.388">14.388</a>; <a href="/statutes/cite/361.25">361.25</a></p>
+  </div>
+  <div class="history" id="rule.6110.3700.history">
+    <h2>History: </h2>
+    <p>40 SR 1619</p>
+  </div>
+  <div class="published" id="rule.6110.3700.published">
+    <h2>Published Electronically:</h2>
+    <p> June 15, 2016</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.3800">
+    <h1 class="headnote">6110.3800 ADMINISTRATIVE PROVISIONS.</h1>
+    <div id="rule.6110.3800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6110.3800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Enforcement and penalties. </h2>
+      <p>Any government unit adopting ordinances pursuant to Minnesota Statutes, sections <a href="/statutes/cite/86B.205">86B.205</a>, subdivisions 2 to 5; <a href="/statutes/cite/103G.605">103G.605</a>; <a href="/statutes/cite/103G.621">103G.621</a>; and <a href="/statutes/cite/459.20">459.20</a> shall provide for their enforcement and prescribe penalties for noncompliance. Rules established pursuant to Minnesota Statutes, section <a href="/statutes/cite/86B.201">86B.201</a>, subdivisions 1 and 2, or <a href="/statutes/cite/86B.205">86B.205</a>, subdivisions 1 and 9, shall be enforced by conservation officers of the Department of Natural Resources and the sheriff of each county.</p>
+      <p>Rules or ordinances shall contain a provision exempting authorized resource management, emergency, and enforcement personnel when acting in the performance of their assigned duties. They may also provide for temporary exemptions from controls through the use of permits issued by the unit of government adopting the ordinance or rule.</p>
+    </div>
+    <div id="rule.6110.3800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6110.3800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Commissioner's approval for proposed ordinances. </h2>
+      <p>Any governmental unit formulating ordinances or desiring amendments and deletions to existing ordinances shall submit the written statement required by these rules with the proposed ordinance to the commissioner pursuant to Minnesota Statutes, section <a href="/statutes/cite/86B.205">86B.205</a>, subdivisions 2 to 5, for approval or disapproval. Determination of approval or disapproval shall be based upon the written statement and the compatibility of the ordinance with these rules. If the proposed ordinance is disapproved by the commissioner and a satisfactory compromise cannot be established, the governmental unit may initiate a contested case hearing to settle the matter.</p>
+      <p>The commissioner shall notify the governmental unit in writing of approval or disapproval of proposed ordinances within 120 days after receiving them pursuant to Minnesota Statutes, section <a href="/statutes/cite/86B.205">86B.205</a>, subdivisions 2 to 5. Failure to so notify shall be considered approval.</p>
+    </div>
+    <div id="rule.6110.3800.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6110.3800.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Public notice. </h2>
+      <p>Any governmental unit adopting ordinances shall provide for adequate notification of the public, which shall include placement of a sign at each public watercraft launching facility outlining essential elements of such ordinances, as well as the placement of necessary buoys and signs. All such signs and buoys shall meet requirements specified in Minnesota Statutes, chapter 86B, and parts <a href="/rules/6110.1500">6110.1500</a> to <a href="/rules/6110.1900">6110.1900</a>.</p>
+      <p>The commissioner shall publish and update at the commissioner's discretion a listing of watercraft use rules and ordinances on surface waters of the state for distribution to the public.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6110.3800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.25">361.25</a>; <a href="/statutes/cite/86B.211">86B.211</a></p>
+  </div>
+  <div class="history" id="rule.6110.3800.history">
+    <h2>History: </h2>
+    <p>17 SR 1279</p>
+  </div>
+  <div class="published" id="rule.6110.3800.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.4000">
+    <h1 class="headnote">6110.4000 WATERCRAFT OPERATION ON SQUARE LAKE, WASHINGTON COUNTY.</h1>
+    <div id="rule.6110.4000.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6110.4000.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>This part shall apply to the waters of Square Lake (82-46) T. 31 N., R. 20 W., S. 23 &amp; 26, in Washington County, Minnesota.</p>
+    </div>
+    <div id="rule.6110.4000.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6110.4000.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Restricted speed zone. </h2>
+      <p>There shall be a restricted speed zone between the shoreline and a line approximately following the 40 foot depth contour which shall be clearly marked by the placement of informational buoys, as shown on the map in subpart 5.</p>
+      <p>No motorized watercraft shall at any time be operated at a speed in excess of five miles per hour in the restricted speed zone.</p>
+    </div>
+    <div id="rule.6110.4000.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6110.4000.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Open speed zone. </h2>
+      <p>There shall be an open speed zone which shall consist of all that portion of the lake surface not included in the restricted speed zone defined in subpart 2 as shown on the attached map.</p>
+      <p>Within the open speed zone, there shall be no speed limit on motorized watercraft during the open speed periods set forth below, but during such periods, all motorized watercraft shall travel in a counterclockwise direction around the lake.</p>
+      <p>Within the open speed zone, no motorized watercraft shall be operated at a speed in excess of five miles per hour during times other than the open speed periods set forth below.</p>
+      <p>The open speed periods, during which there is no restriction on the speed of motorized watercraft operating in the open speed zone, are as follows: Monday through Friday, 12:00 noon to 6:00 p.m.; Saturday, Sunday, and holidays, 12:00 noon to 4:00 p.m.</p>
+    </div>
+    <div id="rule.6110.4000.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.6110.4000.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Penalties. </h2>
+      <p>Any person who shall violate any of the provisions of these regulations shall be guilty of a misdemeanor and be punished by a fine of not more than $300, or by imprisonment for not more than 90 days, or both.</p>
+    </div>
+    <div id="rule.6110.4000.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.6110.4000.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Map of Square Lake. </h2>
+      <a href="/image/i6110_4000_1.jpeg/version/2014-01-18T06:44:50-06:00/&#10;&#9;&#9;&#9;&#9;high/" title="High resolution version.">
+        <img alt="23-1/2 picas - Insert diagram of Square Lake here " src="/image/i6110_4000_1.jpeg/version/2014-01-18T06:44:50-06:00/&#10;&#9;&#9;&#9;&#9;">
+      </a>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6110.4000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.26">361.26</a></p>
+  </div>
+  <div class="published" id="rule.6110.4000.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.4100">
+    <h1 class="headnote">6110.4100 WATERCRAFT OPERATION ON TANNERS LAKE, WASHINGTON COUNTY.</h1>
+    <div id="rule.6110.4100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6110.4100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>This part shall apply to the waters of Tanners Lake (82-115) T. 29 N., R. 21 W., S. 31., in Washington County, Minnesota.</p>
+    </div>
+    <div id="rule.6110.4100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6110.4100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Speed restriction. </h2>
+      <p>No motorized watercraft shall at any time be operated at a speed in excess of ten miles per hour on the waters of this lake.</p>
+    </div>
+    <div id="rule.6110.4100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6110.4100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Penalties. </h2>
+      <p>Any person who shall violate any of the provisions of this part shall be guilty of a misdemeanor and be punished by a fine of not more than $300, or by imprisonment for not more than 90 days, or both.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6110.4100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.26">361.26</a></p>
+  </div>
+  <div class="published" id="rule.6110.4100.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.6110.4200">
+    <h1 class="headnote">6110.4200 WATERCRAFT OPERATION ON BROWN LAKE, MILLE LACS COUNTY.</h1>
+    <div id="rule.6110.4200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.6110.4200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>This part shall apply to the waters of Brown Lake (48-15) T. 43 N., R. 27 W., S. 7., in Mille Lacs County, Minnesota.</p>
+    </div>
+    <div id="rule.6110.4200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.6110.4200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Motorized watercraft restriction. </h2>
+      <p>No watercraft propelled in any respect by machinery, except those watercraft temporarily equipped with a detachable electric motor of less than one-half horsepower rating, shall at any time be operated on the waters of this lake.</p>
+    </div>
+    <div id="rule.6110.4200.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.6110.4200.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Penalties. </h2>
+      <p>Any person who shall violate any of the provisions of this part shall be guilty of a misdemeanor and be punished by a fine of not more than $300, or by imprisonment for not more than 90 days, or both.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.6110.4200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/361.26">361.26</a></p>
+  </div>
+  <div class="published" id="rule.6110.4200.published">
+    <h2>Published Electronically:</h2>
+    <p> October 8, 2013</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
