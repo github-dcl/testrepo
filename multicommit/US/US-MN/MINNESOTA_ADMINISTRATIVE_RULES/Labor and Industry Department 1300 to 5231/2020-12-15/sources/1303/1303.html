@@ -1,0 +1,2073 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            1303.1000 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/151">Labor and Industry Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/1303/">Chapter 1303</a>
+            </li>
+        
+    
+        
+            <li>Part 1303.1000</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/1303.1100/">1303.1100</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/1303.1000/2014-01-18%2000:43:37+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 1303</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1303/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1303/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1303/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 1303.1000</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1303.1000/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.1000">
+    <h1 class="headnote">1303.1000 TITLE.</h1>
+    <p>This chapter shall be known as "Minnesota provisions."</p>
+  </div>
+  <div class="stat_auth" id="rule.1303.1000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1303.1000.history">
+    <h2>History: </h2>
+    <p>27 SR 1478; L 2007 c 140 art 4 s 61; art 13 s 4</p>
+  </div>
+  <div class="published" id="rule.1303.1000.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2007</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.1100">
+    <h1 class="headnote">1303.1100 PURPOSE.</h1>
+    <p>This chapter contains requirements of the code that are mandated by Minnesota Statutes, are needed to address Minnesota's climatic conditions, or are otherwise determined necessary to provide a safe minimum level of construction in an area not appropriately regulated in the International Building Code or International Residential Code.</p>
+  </div>
+  <div class="stat_auth" id="rule.1303.1100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1303.1100.history">
+    <h2>History: </h2>
+    <p>27 SR 1478; L 2007 c 140 art 4 s 61; art 13 s 4</p>
+  </div>
+  <div class="published" id="rule.1303.1100.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.1200">
+    <h1 class="headnote">1303.1200 RESTROOM FACILITIES IN PUBLIC ACCOMMODATIONS.</h1>
+    <div id="rule.1303.1200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1303.1200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Ratio. </h2>
+      <p>In a place of public accommodation subject to this part, the ratio of water closets for women to the total of water closets and urinals provided for men must be at least three to two, unless there are two or fewer fixtures for men.</p>
+    </div>
+    <div id="rule.1303.1200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1303.1200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Application. </h2>
+      <p>This part applies only to the construction of buildings or structures of public accommodation or where the cost of alterations to an existing place of public accommodation exceeds 50 percent of the estimated replacement value of the existing facility.</p>
+    </div>
+    <div id="rule.1303.1200.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1303.1200.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Definition. </h2>
+      <p>For purposes of this part, "place of public accommodation" means a publicly or privately owned sports or entertainment arena, stadium, theater, community or convention hall, special event center, amusement facility, or special event center in a public park, that is designed for occupancy by 200 or more people.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1303.1200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1303.1200.history">
+    <h2>History: </h2>
+    <p>27 SR 1478; L 2007 c 140 art 4 s 61; art 13 s 4</p>
+  </div>
+  <div class="published" id="rule.1303.1200.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.1300">
+    <h1 class="headnote">1303.1300 SPACE FOR COMMUTER VANS.</h1>
+    <p>Every parking ramp or other parking facility must include spaces for the parking of motor vehicles having a capacity of seven to 16 persons. The number of required spaces must be determined by two percent of the gross designed parking area with a minimum of two spaces. The minimum vertical clearance to and within required spaces is 98 inches.</p>
+  </div>
+  <div class="stat_auth" id="rule.1303.1300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1303.1300.history">
+    <h2>History: </h2>
+    <p>27 SR 1478; L 2007 c 140 art 4 s 61; art 13 s 4</p>
+  </div>
+  <div class="published" id="rule.1303.1300.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.1400">
+    <h1 class="headnote">1303.1400 AUTOMATIC GARAGE DOOR OPENING SYSTEMS.</h1>
+    <p>All automatic garage door opening systems that are installed, serviced, or repaired for garages serving residential buildings, must comply with the provisions of Minnesota Statutes, sections <a href="/statutes/cite/325F.82">325F.82</a> and <a href="/statutes/cite/325F.83">325F.83</a>.</p>
+  </div>
+  <div class="stat_auth" id="rule.1303.1400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1303.1400.history">
+    <h2>History: </h2>
+    <p>27 SR 1478; L 2007 c 140 art 4 s 61; art 13 s 4</p>
+  </div>
+  <div class="published" id="rule.1303.1400.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.1500">
+    <h1 class="headnote">1303.1500 RECYCLING SPACE.</h1>
+    <div id="rule.1303.1500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1303.1500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Requirement. </h2>
+      <p>Space must be provided for the collection, separation, and temporary storage of recyclable materials within or adjacent to all new or significantly remodeled buildings or structures that contain 1,000 square feet or more.</p>
+      <p class="bi">Exception: Residential structures with fewer than four dwelling units.</p>
+    </div>
+    <div id="rule.1303.1500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1303.1500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Location. </h2>
+      <p>Space designated for recycling shall be located so it is at least as convenient as the location where other solid waste is collected. If feasible, recycling space should be adjacent to other solid waste collection space. Recycling space must be located and designed in accordance with the provisions of this code and ordinances of the jurisdiction.</p>
+    </div>
+    <div id="rule.1303.1500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1303.1500.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Identification on plans. </h2>
+      <p>Space designated for recycling must be identified on plans submitted for a building permit.</p>
+    </div>
+    <div id="rule.1303.1500.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1303.1500.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Minimum space. </h2>
+      <p>Space designated for recycling must be sufficient to contain all the recyclable materials generated from the building. The minimum amount of recycling space required must be the number of square feet determined by multiplying the gross square feet of floor areas assigned to each use within a building as set forth in subpart 5, Table 1-A, times the corresponding factor.</p>
+    </div>
+    <div id="rule.1303.1500.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1303.1500.5">§</a>
+      <h2 class="subp_no">Subp. 5. </h2>
+      <p>TABLE 1-A MINIMUM RECYCLING SPACE REQUIREMENTS.</p>
+      <table>
+        <col style="width:81.5384615384615%">
+        <col style="width:18.4615384615385%">
+        <tr>
+          <td style="text-align: center;">USE<sup>1</sup></td>
+          <td>FACTOR</td>
+        </tr>
+        <tr>
+          <td>1. Aircraft hangers (no repair)</td>
+          <td>.001</td>
+        </tr>
+        <tr>
+          <td>2. Auction rooms</td>
+          <td>.0025</td>
+        </tr>
+        <tr>
+          <td>3<sup>2</sup>. Auditoriums, reviewing stands, stadiums, gymnasiums, public swimming pools, skating rinks</td>
+          <td class="valign_top">.001</td>
+        </tr>
+        <tr>
+          <td>4. Lodge rooms, conference rooms, lounges, stages, exhibit rooms</td>
+          <td>.0025</td>
+        </tr>
+        <tr>
+          <td>5. Dance floors, churches<sup>3</sup> and chapels, lobby</td>
+          <td>.001</td>
+        </tr>
+        <tr>
+          <td>6. Dining rooms</td>
+          <td>.003</td>
+        </tr>
+        <tr>
+          <td>7<sup>3</sup>. Drinking establishments</td>
+          <td>.004</td>
+        </tr>
+        <tr>
+          <td>8<sup>3</sup>. Bowling alleys (excluding lanes)</td>
+          <td>.0025</td>
+        </tr>
+        <tr>
+          <td>9<sup>3</sup>. Children's homes and homes for the aged</td>
+          <td>.0025</td>
+        </tr>
+        <tr>
+          <td>10. Classrooms</td>
+          <td>.002</td>
+        </tr>
+        <tr>
+          <td>11. Courtrooms</td>
+          <td>.001</td>
+        </tr>
+        <tr>
+          <td>12. Dormitories</td>
+          <td>.0025</td>
+        </tr>
+        <tr>
+          <td>13. Exercise rooms</td>
+          <td>.001</td>
+        </tr>
+        <tr>
+          <td>14. Garages, parking</td>
+          <td>.001</td>
+        </tr>
+        <tr>
+          <td>15<sup>3</sup>. Hospitals and sanitariums, nursing homes</td>
+          <td>.0025</td>
+        </tr>
+        <tr>
+          <td>16<sup>3</sup>. Hotels</td>
+          <td>.002</td>
+        </tr>
+        <tr>
+          <td>17. Apartments</td>
+          <td>.0025</td>
+        </tr>
+        <tr>
+          <td>18. Kitchens - commercial</td>
+          <td>.003</td>
+        </tr>
+        <tr>
+          <td>19<sup>3</sup>. Libraries</td>
+          <td>.002</td>
+        </tr>
+        <tr>
+          <td>20. Locker rooms</td>
+          <td>.001</td>
+        </tr>
+        <tr>
+          <td>21. Malls</td>
+          <td>.0025</td>
+        </tr>
+        <tr>
+          <td>22. Manufacturing areas</td>
+          <td>.0025</td>
+        </tr>
+        <tr>
+          <td>23. Mechanical equipment rooms</td>
+          <td>.001</td>
+        </tr>
+        <tr>
+          <td>24<sup>3</sup>. Nurseries for children (day care)</td>
+          <td>.002</td>
+        </tr>
+        <tr>
+          <td>25. Offices</td>
+          <td>.0025</td>
+        </tr>
+        <tr>
+          <td>26. School shops and vocational rooms</td>
+          <td>.0025</td>
+        </tr>
+        <tr>
+          <td>27. Storage and stock rooms</td>
+          <td>.0025</td>
+        </tr>
+        <tr>
+          <td>28. Warehouses</td>
+          <td>.001</td>
+        </tr>
+        <tr>
+          <td>29. All others</td>
+          <td>.0025</td>
+        </tr>
+      </table>
+      <p>Footnotes:</p>
+      <p><sup>1</sup> The area of a use must include all areas serving or accessory to a use (corridors, accessory use areas, etc.).</p>
+      <p><sup>2</sup> Exclude playing areas, courts, fields, and like areas.</p>
+      <p><sup>3</sup> The factors for these uses are intended to include all incidental uses typical of these types of facilities.</p>
+      <p>If the provisions of Table 1-A are excessive due to a specific use, space for recycling may be considered individually by the administrative authority.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1303.1500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1303.1500.history">
+    <h2>History: </h2>
+    <p>27 SR 1478; L 2007 c 140 art 4 s 61; art 13 s 4</p>
+  </div>
+  <div class="published" id="rule.1303.1500.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.1600">
+    <h1 class="headnote">1303.1600 FOOTING DEPTH FOR FROST PROTECTION.</h1>
+    <div id="rule.1303.1600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1303.1600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Minimum footing depth. </h2>
+      <p>In the absence of a determination by an engineer competent in soil mechanics, the minimum allowable footing depth in feet due to freezing is five feet in Zone I and 3-1/2 feet in Zone II.</p>
+      <p>Zone I includes the counties of: Aitkin, Becker, Beltrami, Carlton, Cass, Clay, Clearwater, Cook, Crow Wing, Douglas, Grant, Hubbard, Itasca, Kanabec, Kittson, Koochiching, Lake, Lake of the Woods, Mahnomen, Marshall, Mille Lacs, Morrison, Norman, Otter Tail, Pennington, Pine, Polk, Red Lake, Roseau, St. Louis, Todd, Traverse, Wadena, and Wilkin.</p>
+      <p>Zone II shall include the counties of: Anoka, Benton, Big Stone, Blue Earth, Brown, Carver, Chippewa, Chisago, Cottonwood, Dakota, Dodge, Faribault, Fillmore, Freeborn, Goodhue, Hennepin, Houston, Isanti, Jackson, Kandiyohi, Lac qui Parle, Le Sueur, Lincoln, Lyon, McLeod, Martin, Meeker, Mower, Murray, Nicollet, Nobles, Olmsted, Pipestone, Pope, Ramsey, Redwood, Renville, Rice, Rock, Scott, Sibley, Sherburne, Stearns, Steele, Stevens, Swift, Wabasha, Waseca, Washington, Watonwan, Winona, Wright, and Yellow Medicine.</p>
+      <p>Less depths may be permitted when supporting evidence is presented by an engineer competent in soil mechanics.</p>
+    </div>
+    <div id="rule.1303.1600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1303.1600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Soil under slab on grade construction for buildings. </h2>
+      <p>When soil, natural or fill, is sand or pit run sand and gravel, and of depth in accordance with minimum footing depth requirements for each zone, slab on grade construction which is structurally designed to support all applied loads is permitted. Sand must contain less than 70 percent material that will pass through a U.S. Standard No. 40 sieve and less than five percent material that will pass through a No. 200 sieve (five percent fines), or be approved by an engineer competent in soil mechanics.</p>
+      <p class="bi"><b>Exception:</b> Slab on grade construction may be placed on any soil except peat or muck for detached one-story private garage, carport, and shed buildings not larger than 1,000 square feet.</p>
+      <p>Footings for interior bearing walls or columns may be constructed to be integral with the slab on grade for any height building. Footings for exterior bearing walls or columns may be similarly constructed for any height building when supporting soil is as described in this subpart. Footing design must reflect eccentric loading conditions at slab edges, soil bearing capacity, and the requirements of International Building Code, chapter 19.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1303.1600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1303.1600.history">
+    <h2>History: </h2>
+    <p>27 SR 1478; 32 SR 10; L 2007 c 140 art 4 s 61; art 13 s 4; 39 SR 91</p>
+  </div>
+  <div class="published" id="rule.1303.1600.published">
+    <h2>Published Electronically:</h2>
+    <p> January 23, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.1700">
+    <h1 class="headnote">1303.1700 GROUND SNOW LOAD.</h1>
+    <p>The ground snow load, Pg, to be used in determining the design snow loads for buildings and other structures shall be 60 pounds per square foot in the following counties: Aitkin, Becker, Beltrami, Carlton, Cass, Clearwater, Cook, Crow Wing, Hubbard, Itasca, Kanabec, Kittson, Koochiching, Lake, Lake of the Woods, Mahnomen, Marshall, Mille Lacs, Morrison, Norman, Otter Tail, Pennington, Pine, Polk, Red Lake, Roseau, St. Louis, Todd, and Wadena. The ground snow load, Pg, to be used in determining the design snow loads for buildings and other structures shall be 50 pounds per square foot in all other counties.</p>
+  </div>
+  <div class="stat_auth" id="rule.1303.1700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1303.1700.history">
+    <h2>History: </h2>
+    <p>27 SR 1478; 32 SR 10; L 2007 c 140 art 4 s 61; art 13 s 4</p>
+  </div>
+  <div class="published" id="rule.1303.1700.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.1800">
+    <h1 class="headnote repealed">1303.1800</h1>
+    <p>[Repealed, 39 SR 91]</p>
+  </div>
+  <div class="published" id="rule.1303.1800.published">
+    <h2>Published Electronically:</h2>
+    <p> January 23, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.1900">
+    <h1 class="headnote repealed">1303.1900</h1>
+    <p>[Repealed, 32 SR 10]</p>
+  </div>
+  <div class="published" id="rule.1303.1900.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.2000">
+    <h1 class="headnote">1303.2000 EXTERIOR WOOD DECKS, PATIOS, AND BALCONIES.</h1>
+    <p>The decking surface and upper portions of exterior wood decks, patios, and balconies may be constructed of any of the following materials:</p>
+    <div id="rule.1303.2000.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.1303.2000.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> the heartwood from species of wood having natural resistance to decay or termites, including redwood and cedars;</p>
+    </div>
+    <div id="rule.1303.2000.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.1303.2000.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> grades of lumber which contain sapwood from species of wood having natural resistance to decay or termites, including redwood and cedars; or</p>
+    </div>
+    <div id="rule.1303.2000.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.1303.2000.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> treated wood.</p>
+      <p>The species and grades of wood products used to construct the decking surface and upper portions of exterior decks, patios, and balconies must be made available to the building official on request before final construction approval.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1303.2000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1303.2000.history">
+    <h2>History: </h2>
+    <p>27 SR 1478; L 2007 c 140 art 4 s 61; art 13 s 4</p>
+  </div>
+  <div class="published" id="rule.1303.2000.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.2100">
+    <h1 class="headnote">1303.2100 BLEACHER SAFETY.</h1>
+    <p>All new bleachers, manufactured, installed, sold, or distributed where the bleachers or bleacher open spaces will be over 55 inches above grade or the floor below, and all bleacher guardrails if any part of the guardrail will be over 30 inches above grade or the floor below must comply with the State Building Code in effect and the provisions of Minnesota Statutes, section <a href="/statutes/cite/326B.112">326B.112</a>.</p>
+  </div>
+  <div class="stat_auth" id="rule.1303.2100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1303.2100.history">
+    <h2>History: </h2>
+    <p>27 SR 1478; L 2007 c 140 art 4 s 61; art 13 s 4</p>
+  </div>
+  <div class="published" id="rule.1303.2100.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.2200">
+    <h1 class="headnote">1303.2200 SIMPLIFIED WIND LOADS.</h1>
+    <div id="rule.1303.2200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1303.2200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Section 2200.</h2>
+      <div id="rule.1303.2200.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1303.2200.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> This section applies to the wind loads for the main wind force-resisting systems only.</p>
+      </div>
+      <div id="rule.1303.2200.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1303.2200.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> In order to utilize wind loads from this part, the building shall meet the following requirements:</p>
+        <div id="rule.1303.2200.1.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1303.2200.1.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> 60 feet or less in height;</p>
+        </div>
+        <div id="rule.1303.2200.1.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1303.2200.1.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> height not to exceed least horizontal dimension;</p>
+        </div>
+        <div id="rule.1303.2200.1.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1303.2200.1.B.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> enclosed building;</p>
+        </div>
+        <div id="rule.1303.2200.1.B.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.1303.2200.1.B.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> roof shape - flat, gabled, or hip;</p>
+        </div>
+        <div id="rule.1303.2200.1.B.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.1303.2200.1.B.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> roof slope of 45 degrees maximum;</p>
+        </div>
+        <div id="rule.1303.2200.1.B.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.1303.2200.1.B.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> simple diaphragm building;</p>
+        </div>
+        <div id="rule.1303.2200.1.B.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.1303.2200.1.B.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> not a flexible building;</p>
+        </div>
+        <div id="rule.1303.2200.1.B.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.1303.2200.1.B.8">§</a>
+          <h4 class="subitem_no">(8)</h4>
+          <p> regular shape and approximately symmetrical;</p>
+        </div>
+        <div id="rule.1303.2200.1.B.9" class="subitem">
+          <a title="Link to subitem 9" class="permalink" href="#rule.1303.2200.1.B.9">§</a>
+          <h4 class="subitem_no">(9)</h4>
+          <p> no expansion joints or separations; and</p>
+        </div>
+        <div id="rule.1303.2200.1.B.10" class="subitem">
+          <a title="Link to subitem 10" class="permalink" href="#rule.1303.2200.1.B.10">§</a>
+          <h4 class="subitem_no">(10)</h4>
+          <p> no unusual response characteristics (for example: vortex shedding, galloping, or buffeting).</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.1303.2200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1303.2200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Simplified design wind pressures. </h2>
+      <p><i>P<sub>s</sub></i> represents the net pressures (sum of internal and external) to be applied to the horizontal and vertical projections of building surfaces. For the horizontal pressures, <i>P<sub>s</sub></i> is the combination of the windward and leeward net pressures. <i>P<sub>s</sub></i> may be determined from the following equation:</p>
+      <p>
+        <i>P<sub>s</sub> = K<sub>zt</sub> (V<sub>ult</sub><sup>2</sup>/115<sup>2</sup>)P<sub>alt</sub></i>
+      </p>
+      <p>where:</p>
+      <p><i>K<sub>zt</sub></i> = Topographic factor as defined in Chapter 26 of ASCE 7.</p>
+      <p><i>P<sub>alt</sub></i> = Alternative simplified design wind pressure from Table <i>P<sub>alt</sub></i>.</p>
+      <table>
+        <col style="width:7.692307692307693%">
+        <col style="width:18.4615384615385%">
+        <col style="width:73.8461538461538%">
+        <tr>
+          <td colspan="3">
+            <b>TABLE  <i>P<sub>alt</sub><sup> a</sup></i></b>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <b>Horizontal and Vertical Pressure<sup><i>b</i></sup></b>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Exp B</td>
+          <td>25 psf</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Exp C</td>
+          <td>30 psf</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Exp D</td>
+          <td>35 psf</td>
+        </tr>
+      </table>
+      <table>
+        <col style="width:7.692307692307693%">
+        <col style="width:18.4615384615385%">
+        <col style="width:73.8461538461538%">
+        <tr>
+          <td colspan="3">
+            <b>Overhang Vertical Pressure<sup><i>c</i></sup></b>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Exp B</td>
+          <td>-40 psf</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Exp C</td>
+          <td>-48 psf</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>Exp D</td>
+          <td>-56 psf</td>
+        </tr>
+      </table>
+      <p class="bl"><i><sup>a</sup></i>Values are for ultimate wind design <i>(V<sub>ult</sub>)</i>. Multiply by 0.6 for allowable stress design (ASD).</p>
+      <p class="bl"><i><sup>b</sup></i>For vertical pressure, the above values are negative (upward).</p>
+      <p class="bl"><i><sup>c</sup></i>Negative values are upward.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1303.2200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16B.59">16B.59</a>; <a href="/statutes/cite/16B.61">16B.61</a>; <a href="/statutes/cite/16B.64">16B.64</a>; <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a>; <a href="/statutes/cite/326B.13">326B.13</a></p>
+  </div>
+  <div class="history" id="rule.1303.2200.history">
+    <h2>History: </h2>
+    <p>32 SR 10; L 2007 c 140 art 4 s 61; art 13 s 4; 39 SR 91; 44 SR 537</p>
+  </div>
+  <div class="published" id="rule.1303.2200.published">
+    <h2>Published Electronically:</h2>
+    <p> November 13, 2019</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.2300">
+    <h1 class="headnote repealed">1303.2300</h1>
+    <p>[Repealed, 39 SR 91]</p>
+  </div>
+  <div class="published" id="rule.1303.2300.published">
+    <h2>Published Electronically:</h2>
+    <p> January 23, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.2305">
+    <h1 class="headnote repealed">1303.2305</h1>
+    <p>[Repealed, 39 SR 91]</p>
+  </div>
+  <div class="published" id="rule.1303.2305.published">
+    <h2>Published Electronically:</h2>
+    <p> January 23, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.2310">
+    <h1 class="headnote repealed">1303.2310</h1>
+    <p>[Repealed, 39 SR 91]</p>
+  </div>
+  <div class="published" id="rule.1303.2310.published">
+    <h2>Published Electronically:</h2>
+    <p> January 23, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.2320">
+    <h1 class="headnote repealed">1303.2320</h1>
+    <p>[Repealed, 39 SR 91]</p>
+  </div>
+  <div class="published" id="rule.1303.2320.published">
+    <h2>Published Electronically:</h2>
+    <p> January 23, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.2330">
+    <h1 class="headnote repealed">1303.2330</h1>
+    <p>[Repealed, 39 SR 91]</p>
+  </div>
+  <div class="published" id="rule.1303.2330.published">
+    <h2>Published Electronically:</h2>
+    <p> January 23, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.2400">
+    <h1 class="headnote">1303.2400 PURPOSE AND SCOPE.</h1>
+    <div id="rule.1303.2400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1303.2400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Applicability; residential structures. </h2>
+      <p>The purpose of parts <a href="/rules/1303.2400">1303.2400</a> to <a href="/rules/1303.2402">1303.2402</a> is to establish minimum requirements for passive radon control systems that apply to all new residential structures listed in items A to H:</p>
+      <div id="rule.1303.2400.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1303.2400.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>one-family dwellings;</p>
+      </div>
+      <div id="rule.1303.2400.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1303.2400.1.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>two-family dwellings;</p>
+      </div>
+      <div id="rule.1303.2400.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1303.2400.1.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>townhouses;</p>
+      </div>
+      <div id="rule.1303.2400.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1303.2400.1.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>apartment buildings;</p>
+      </div>
+      <div id="rule.1303.2400.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1303.2400.1.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>condominiums;</p>
+      </div>
+      <div id="rule.1303.2400.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.1303.2400.1.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>multistory buildings that include any residential occupancy;</p>
+      </div>
+      <div id="rule.1303.2400.1.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.1303.2400.1.G">§</a>
+        <h3 class="item_no">G. </h3>
+        <p>mixed-occupancy buildings that include any residential occupancy; and</p>
+      </div>
+      <div id="rule.1303.2400.1.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.1303.2400.1.H">§</a>
+        <h3 class="item_no">H. </h3>
+        <p>any addition to an existing dwelling that currently has a radon control system incorporated into the existing building.</p>
+        <p class="bl">If a fan is installed in a passive radon control system, this creates an active radon control system that must comply with the requirements of parts <a href="/rules/1303.2400">1303.2400</a> to <a href="/rules/1303.2403">1303.2403</a>.</p>
+      </div>
+    </div>
+    <div id="rule.1303.2400.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1303.2400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Applicability; design features. </h2>
+      <p>The requirements in parts <a href="/rules/1303.2400">1303.2400</a> to <a href="/rules/1303.2402">1303.2402</a> shall apply to any structure identified in subpart 1, items A to H, if the structure is designed with any of the features identified in items A to F:</p>
+      <div id="rule.1303.2400.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1303.2400.2.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>a basement concrete slab in contact with the earth;</p>
+      </div>
+      <div id="rule.1303.2400.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1303.2400.2.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>a crawl space within the building's conditioned space that has a concrete or earth floor;</p>
+      </div>
+      <div id="rule.1303.2400.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1303.2400.2.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>a wood foundation floor constructed on or directly above the earth;</p>
+      </div>
+      <div id="rule.1303.2400.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1303.2400.2.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>slab on grade construction designs;</p>
+      </div>
+      <div id="rule.1303.2400.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1303.2400.2.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>attached or tuck-under garages, unless the floor, wall, and ceiling assemblies separating the garage from the dwellings are sealed; and</p>
+      </div>
+      <div id="rule.1303.2400.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.1303.2400.2.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>any building configuration that allows radon gas to enter the residential dwelling.</p>
+        <p>
+          <b>Exceptions:</b>
+        </p>
+        <p>1. Crawl spaces outside the conditioned space of the residential dwelling, when the crawl space is ventilated directly to the outside atmosphere according to IRC sections R408.1 and R408.2; IBC sections 1203.3 and 1203.3.1; Code of Federal Regulations, section 3285.505; and Minnesota Rules, chapter 1350.</p>
+        <p>2. Hotels and motels.</p>
+        <p>3. Additions to existing dwellings that do not currently have a radon control system incorporated into the existing dwelling.</p>
+      </div>
+    </div>
+    <div id="rule.1303.2400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1303.2400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Mixed occupancy or multistory mixed occupancy buildings. </h2>
+      <p>When the nonresidential occupancy is in contact with the earth, all assemblies that separate the occupancies must be sealed to prevent the movement of air and airborne gases between the nonresidential and residential occupancies. When the residential occupancy is in contact with the earth and adjacent to a nonresidential occupancy, the residential occupancy shall incorporate a radon control system and all assemblies that separate the nonresidential and residential occupancy shall be sealed to prevent the movement of air or airborne gases.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1303.2400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1303.2400.history">
+    <h2>History: </h2>
+    <p>39 SR 232</p>
+  </div>
+  <div class="published" id="rule.1303.2400.published">
+    <h2>Published Electronically:</h2>
+    <p> February 16, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.2401">
+    <h1 class="headnote">1303.2401 DEFINITIONS.</h1>
+    <div id="rule.1303.2401.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1303.2401.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Terms not defined. </h2>
+      <p>For purposes of parts <a href="/rules/1303.2400">1303.2400</a> to <a href="/rules/1303.2403">1303.2403</a>, where terms are not defined in parts <a href="/rules/1303.2400">1303.2400</a> to <a href="/rules/1303.2403">1303.2403</a>, Merriam-Webster's Collegiate Dictionary, available at www.m-w.com, shall be considered as providing ordinarily accepted meanings. The dictionary is incorporated by reference, is subject to frequent change, and is available through the Minitex interlibrary loan system.</p>
+    </div>
+    <div id="rule.1303.2401.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1303.2401.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Definitions. </h2>
+      <p>For the purposes of parts <a href="/rules/1303.2400">1303.2400</a> to <a href="/rules/1303.2403">1303.2403</a>, the terms defined in this part have the meanings given them.</p>
+      <p class="bl"><b>ACTIVE RADON CONTROL SYSTEM.</b> "Active radon control system" means a system designed to achieve lower air pressure below the soil-gas membrane relative to the indoor air pressure by use of a fan that has been added to the passive radon control system.</p>
+      <p class="bl"><b>APPROVED.</b> "Approved" means approval by the building official, pursuant to the Minnesota State Building Code, by reason of inspection, investigation, or testing; accepted principles; computer simulations; research reports; or testing performed by either a licensed engineer or by a locally or nationally recognized testing laboratory.</p>
+      <p class="bl"><b>CFR.</b> "CFR" means Code of Federal Regulations, title 24, chapter 3285.</p>
+      <p class="bl"><b>GAS PERMEABLE MATERIAL.</b> A "gas permeable material" means any of the following:</p>
+      <p>1. A uniform layer of clean aggregate, a minimum of 4 inches (102 mm) thick. The aggregate shall consist of material that will pass through a 2-inch (51 mm) sieve and be retained by a 1/4-inch (6.4 mm) sieve.</p>
+      <p>2. A uniform layer of sand, native or fill, a minimum of 4 inches (102 mm) thick, overlain by a layer or strips of geotextile drainage matting designed to allow the lateral flow of soil gases.</p>
+      <p>3. Other materials, systems, or floor designs if the material, system, or floor design is professionally engineered to provide depressurization under the entire soil-gas membrane.</p>
+      <p><b>IBC.</b> "IBC" means the International Building Code incorporated by reference except as qualified and amended in Minnesota Rules, chapter 1305.</p>
+      <p><b>IRC.</b> "IRC" means the International Residential Code incorporated by reference except as qualified and amended in Minnesota Rules, chapter 1309.</p>
+      <p class="bl"><b>PASSIVE RADON CONTROL SYSTEM.</b> "Passive radon control system" means a system designed to achieve lower air pressure below the soil-gas membrane relative to the indoor air pressure by use of a vent pipe that relies on stack effect to provide an upward flow of air from beneath the soil-gas membrane.</p>
+      <p class="bl"><b>RADON GAS.</b> "Radon gas" means a naturally occurring, chemically inert, radioactive gas.</p>
+      <p class="bl"><b>SEALED.</b> "Sealed" means to prevent the movement of air or airborne gases through a floor, wall, or ceiling assembly.</p>
+      <p class="bl"><b>SOIL-GAS MEMBRANE.</b> "Soil-gas membrane" means a continuous membrane of 6-mil (0.15 mm) polyethylene, or 3-mil (0.075 mm) cross-laminated polyethylene.</p>
+      <p class="bl"><b>VENT PIPE.</b> "Vent pipe" means a 3-inch (76 mm) or 4-inch (102 mm) diameter ABS or PVC pipe used to vent subsoil gases that have collected under the soil-gas membrane to the exterior of the dwelling.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1303.2401.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1303.2401.history">
+    <h2>History: </h2>
+    <p>39 SR 232</p>
+  </div>
+  <div class="published" id="rule.1303.2401.published">
+    <h2>Published Electronically:</h2>
+    <p> February 16, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.2402">
+    <h1 class="headnote">1303.2402 REQUIREMENTS FOR PASSIVE RADON CONTROL SYSTEMS.</h1>
+    <div id="rule.1303.2402.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1303.2402.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Gas permeable material preparation. </h2>
+      <p>A gas-permeable material shall be placed on the prepared subgrade under all floor systems.</p>
+    </div>
+    <div id="rule.1303.2402.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1303.2402.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Soil-gas membrane installation. </h2>
+      <p>A soil-gas membrane shall be placed on top of the gas-permeable material prior to placing a floor on top of or above the soil. The soil-gas membrane shall cover the entire floor area. Separate sections of membrane must be lapped at least 12 inches (305 mm). The membrane shall fit closely around any penetration of the membrane to reduce the leakage of soil gases. All punctures or tears in the soil-gas membrane shall be repaired by sealing and patching the soil-gas membrane with the same kind of material, maintaining a minimum 12-inch (305 mm) lap.</p>
+    </div>
+    <div id="rule.1303.2402.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1303.2402.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">"T" fitting. </h2>
+      <p>A "T" fitting shall be installed beneath the soil-gas membrane with a minimum of 10 feet of perforated pipe connected to any two openings of the "T" fitting, or by connecting the two openings to the interior drain tile system. The third opening of the "T" fitting shall be connected to the vent pipe. The perforated pipe or drain tile and the "T" fitting shall be the same size as the vent pipe. All connections to the "T" fitting shall be tight fitting.</p>
+    </div>
+    <div id="rule.1303.2402.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1303.2402.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Potential entry routes. </h2>
+      <p>Potential entry routes for radon gas shall be sealed according to this subpart, as applicable.</p>
+      <div id="rule.1303.2402.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1303.2402.4.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p><b>Floor openings.</b> Floor openings around bathtubs, showers, water closets, pipes, wires, or other objects that penetrate the soil-gas membrane and the concrete slab or other floor systems, shall be sealed.</p>
+      </div>
+      <div id="rule.1303.2402.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1303.2402.4.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p><b>Concrete joints.</b> All control joints, isolation joints, construction joints, or any other joints in the concrete slab, or the joint between the concrete slab and a foundation wall, shall be sealed. All gaps and joints shall be cleared of all loose material prior to sealing.</p>
+      </div>
+      <div id="rule.1303.2402.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1303.2402.4.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p><b>Foundation walls.</b> Penetrations of all foundation wall types shall be sealed. Joints, cracks, or other openings around all penetrations of both exterior and interior surfaces of foundation walls shall be sealed.</p>
+        <div id="rule.1303.2402.4.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1303.2402.4.C.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>Hollow block masonry foundation walls shall be constructed with either:</p>
+          <div id="rule.1303.2402.4.C.1.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.1303.2402.4.C.1.a">§</a>
+            <h5 class="unit_no">(a) </h5>
+            <p>a continuous course of solid masonry at or above the exterior ground surface;</p>
+          </div>
+          <div id="rule.1303.2402.4.C.1.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.1303.2402.4.C.1.b">§</a>
+            <h5 class="unit_no">(b) </h5>
+            <p>one course of masonry grouted solid at or above the exterior ground surface; or</p>
+          </div>
+          <div id="rule.1303.2402.4.C.1.c" class="unit">
+            <a title="Link to unit c" class="permalink" href="#rule.1303.2402.4.C.1.c">§</a>
+            <h5 class="unit_no">(c) </h5>
+            <p>a solid concrete beam at or above the finished exterior ground surface.</p>
+          </div>
+        </div>
+        <div id="rule.1303.2402.4.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1303.2402.4.C.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>When a brick veneer or other masonry ledge is installed, the masonry course immediately below the veneer or ledge shall be solid or filled.</p>
+        </div>
+      </div>
+      <div id="rule.1303.2402.4.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1303.2402.4.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p><b>Unconditioned crawl spaces.</b> All penetrations through floors or walls into unconditioned crawl spaces shall be sealed. Access doors into unconditioned crawl spaces shall be gasketed. Crawl space ventilation shall be provided according to part <a href="/rules/1303.2400">1303.2400</a>.</p>
+      </div>
+      <div id="rule.1303.2402.4.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1303.2402.4.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p><b>Sumps.</b> A sump connected to interior drain tile may serve as the termination point for the vent pipe, if the sump cover is sealed or gasketed and designed to accommodate the vent pipe. The sump pump water discharge pipe shall have a backflow preventer installed.</p>
+      </div>
+    </div>
+    <div id="rule.1303.2402.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1303.2402.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Vent pipes.</h2>
+      <div id="rule.1303.2402.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1303.2402.5.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p><b>Single vent pipe.</b> The vent pipe shall be primed and glued at all fittings and shall extend up from the radon control system's collection point to a point terminating a minimum of 12 inches (305 mm) above the roof. The vent pipe shall be located at least 10 feet (3,048 mm) away from any window or other opening into the conditioned spaces of the building. Vent pipes routed through unconditioned spaces shall be insulated with a minimum of R-4 insulation. Vent pipes within the conditioned envelope of the building shall not be insulated.</p>
+      </div>
+      <div id="rule.1303.2402.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1303.2402.5.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p><b>Multiple vent pipes.</b> In buildings where interior footings or other barriers separate the gas-permeable material into two or more areas, each area shall be fitted with an individual radon control system in accordance with item A, or connected to a single radon gas vent pipe terminating above the roof in accordance with item A.</p>
+      </div>
+      <div id="rule.1303.2402.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1303.2402.5.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p><b>Vent pipe drainage.</b> All components of the radon gas vent pipe system shall be installed to provide drainage to the ground beneath the soil-gas membrane.</p>
+      </div>
+      <div id="rule.1303.2402.5.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1303.2402.5.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p><b>Vent pipe accessibility.</b> Radon gas vent pipes shall be provided with space around the vent pipe for future installation of a fan. The space required for the future fan installation shall be a minimum of 24 inches in diameter, centered on the axis of the vent pipe, and shall extend a minimum distance of 3 vertical feet.</p>
+        <p><b>Exception:</b> Accessibility to the radon gas vent pipe is not required if the future fan installation is above the roof system and there is an approved rooftop electrical supply provided.</p>
+      </div>
+      <div id="rule.1303.2402.5.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1303.2402.5.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p><b>Vent pipe identification.</b> All radon gas vent pipes shall be identified with at least 1 label on each story and in attics and crawl spaces. The label shall read: "Radon Gas Vent System."</p>
+      </div>
+      <div id="rule.1303.2402.5.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.1303.2402.5.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p><b>Combination foundations.</b> Combination basement/crawl space or slab-on grade/crawl space foundations shall have separate radon gas vent pipes installed in each type of foundation area. Each radon gas vent pipe shall terminate above the roof or shall be connected to a single vent pipe that terminates above the roof.</p>
+      </div>
+    </div>
+    <div id="rule.1303.2402.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1303.2402.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Power source. </h2>
+      <p>A power source consisting of an electrical circuit terminating in an approved electrical box shall be installed during construction in the anticipated location of the vent pipe fan to allow for the future installation of a fan into a passive radon control system to make the system an active radon control system. The power source shall not be installed in any conditioned space, basement, or crawl space.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1303.2402.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1303.2402.history">
+    <h2>History: </h2>
+    <p>39 SR 232</p>
+  </div>
+  <div class="published" id="rule.1303.2402.published">
+    <h2>Published Electronically:</h2>
+    <p> February 16, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1303.2403">
+    <h1 class="headnote">1303.2403 REQUIREMENTS FOR ACTIVE RADON CONTROL SYSTEMS.</h1>
+    <p>When an active radon control system is installed, all the requirements for the passive radon control system in parts <a href="/rules/1303.2400">1303.2400</a> to <a href="/rules/1303.2402">1303.2402</a> shall be met. In addition, an active radon control system shall incorporate items A to C in this part.</p>
+    <div id="rule.1303.2403.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.1303.2403.A">§</a>
+      <h3 class="item_no">A. </h3>
+      <p><b>Radon gas vent pipe fan.</b> A radon gas vent pipe fan manufactured for radon control systems and rated for continuous operation that provides a minimum measurement of 50 cubic feet per minute at 1/2-inch water column shall be installed in the vertical vent pipe. The fan shall be attached to a radon gas vent pipe that connects the air below the soil-gas membrane with outdoor air and relies on the fan to provide upward air flow in the vent pipe. The radon gas vent pipe fan shall be installed outdoors, in attics, or in garages. The radon gas vent pipe fan shall not be installed in conditioned spaces of a building, basement, or crawl space. The radon gas vent pipe fan shall not be located where it positively pressurizes any portion of the vent pipe that is located inside conditioned space.</p>
+    </div>
+    <div id="rule.1303.2403.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.1303.2403.B">§</a>
+      <h3 class="item_no">B. </h3>
+      <p><b>System monitoring device.</b> An audible alarm, a manometer, or other similar device shall be installed to indicate when the fan is not operating.</p>
+    </div>
+    <div id="rule.1303.2403.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.1303.2403.C">§</a>
+      <h3 class="item_no">C. </h3>
+      <p><b>Luminaire and receptacle outlet.</b> A switch-controlled luminaire and the receptacle outlet near the fan shall be installed according to the Minnesota Electrical Code. The requirements of the International Mechanical Code, section 306, do not apply.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1303.2403.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/326B.02">326B.02</a>; <a href="/statutes/cite/326B.101">326B.101</a>; <a href="/statutes/cite/326B.106">326B.106</a></p>
+  </div>
+  <div class="history" id="rule.1303.2403.history">
+    <h2>History: </h2>
+    <p>39 SR 232</p>
+  </div>
+  <div class="published" id="rule.1303.2403.published">
+    <h2>Published Electronically:</h2>
+    <p> February 16, 2015</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
