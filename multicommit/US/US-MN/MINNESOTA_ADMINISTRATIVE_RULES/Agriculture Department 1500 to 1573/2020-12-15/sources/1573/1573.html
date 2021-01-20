@@ -1,0 +1,2449 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            1573.0010 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/105">Agriculture Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/1573/">Chapter 1573</a>
+            </li>
+        
+    
+        
+            <li>Part 1573.0010</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/1573.0020/">1573.0020</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/1573.0010/2019-07-11%2009:20:52+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 1573</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1573/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1573/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1573/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 1573.0010</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/1573.0010/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1573.0010">
+    <h1 class="headnote">1573.0010 DEFINITIONS.</h1>
+    <div id="rule.1573.0010.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1573.0010.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The terms used in this chapter have the meanings given them in this part. Other terms used in this chapter are defined in the part in which the terms are used. Terms used in this chapter that are not specifically defined in applicable federal or state law shall be construed in conformance with the context and in relation to the applicable section of the statutes pertaining to the matter and current professional usage.</p>
+    </div>
+    <div id="rule.1573.0010.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1573.0010.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Alternative management tools. </h2>
+      <p>"Alternative management tools" means specific practices and solutions as described in part <a href="/rules/1573.0090">1573.0090</a>, subpart 1, other than nitrogen fertilizer best management practices, that are approved by the commissioner to address groundwater nitrate problems. Alternative management tools include precision agricultural methods that can be used for the precise, variable, and site-specific application of nitrogen fertilizer.</p>
+    </div>
+    <div id="rule.1573.0010.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1573.0010.2">§</a>
+      <h2 class="subp_no">Subp. 2a.</h2>
+      <h2 class="headnote">Capture zone. </h2>
+      <p>"Capture zone" means the subsurface area surrounding a well or well field through which water is likely to move toward and reach the well supplying a public water system with water.</p>
+    </div>
+    <div id="rule.1573.0010.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1573.0010.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Coarse textured soils. </h2>
+      <p>"Coarse textured soils" means soils that are sand, loamy sand, fine sand, loamy fine sand, coarse sand, loamy coarse sand, very fine sand, loamy very fine sand, single grained, or any of these textures with the following textural modifiers: gravelly, cobbly, channery, and flaggy, based on the United States Department of Agriculture, Natural Resources Conservation Service, Web Soil Survey.</p>
+    </div>
+    <div id="rule.1573.0010.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1573.0010.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Commissioner. </h2>
+      <p>"Commissioner" means the commissioner of agriculture.</p>
+    </div>
+    <div id="rule.1573.0010.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1573.0010.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Cropland. </h2>
+      <p>"Cropland" means land used primarily for the production or harvest of annual or perennial field, forage, food, fiber, or energy crops. Cropland includes pasture but does not include forestland.</p>
+    </div>
+    <div id="rule.1573.0010.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1573.0010.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Drinking water supply management area. </h2>
+      <p>"Drinking water supply management area" has the meaning given in part <a href="/rules/4720.5100">4720.5100</a>, subpart 13.</p>
+    </div>
+    <div id="rule.1573.0010.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.1573.0010.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Fall application. </h2>
+      <p>"Fall application" means the application of nitrogen fertilizer to cropland after August 31 in each calendar year.</p>
+    </div>
+    <div id="rule.1573.0010.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.1573.0010.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Frozen soil. </h2>
+      <p>"Frozen soil" means soil frozen to a depth that does not allow for the proper placement and incorporation of nitrogen fertilizer. For purposes of this subpart, proper placement means that a responsible party is able to incorporate granular products within three days of application at a minimum depth of three inches below the surface of the soil.</p>
+    </div>
+    <div id="rule.1573.0010.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.1573.0010.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Groundwater. </h2>
+      <p>"Groundwater" has the meaning given in Minnesota Statutes, section <a href="/statutes/cite/115.01#stat.115.01.6">115.01, subdivision 6</a>.</p>
+    </div>
+    <div id="rule.1573.0010.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.1573.0010.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Groundwater monitoring network. </h2>
+      <p>"Groundwater monitoring network" means a network of wells used by the commissioner to monitor and test nitrate-nitrogen concentrations in groundwater.</p>
+    </div>
+    <div id="rule.1573.0010.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.1573.0010.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Growing season. </h2>
+      <p>"Growing season" means the period of time from planting to physiological maturity of crops identified by the nitrogen fertilizer best management practices.</p>
+    </div>
+    <div id="rule.1573.0010.12" class="subp">
+      <a title="Link to subpart 12" class="permalink" href="#rule.1573.0010.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Lag time. </h2>
+      <p>"Lag time" means the period of time it takes for nitrate to travel through an unsaturated zone to impact groundwater quality in an aquifer being monitored.</p>
+    </div>
+    <div id="rule.1573.0010.13" class="subp">
+      <a title="Link to subpart 13" class="permalink" href="#rule.1573.0010.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Leaching index. </h2>
+      <p>"Leaching index" means the annual precipitation minus evapotranspiration for the years 1981-2010 as calculated at daily intervals using the gridMet dataset.</p>
+    </div>
+    <div id="rule.1573.0010.14" class="subp">
+      <a title="Link to subpart 14" class="permalink" href="#rule.1573.0010.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <h2 class="headnote">Local advisory team. </h2>
+      <p>"Local advisory team" means a team of individuals approved by the commissioner who advise the commissioner regarding appropriate response activities for a specific local area.</p>
+    </div>
+    <div id="rule.1573.0010.15" class="subp">
+      <a title="Link to subpart 15" class="permalink" href="#rule.1573.0010.15">§</a>
+      <h2 class="subp_no">Subp. 15.</h2>
+      <h2 class="headnote">Municipal public water supply well. </h2>
+      <p>"Municipal public water supply well" has the meaning given in part <a href="/rules/4720.5100">4720.5100</a>, subpart 22. For the purposes of this subpart, municipal public water supply well also includes a rural water system.</p>
+    </div>
+    <div id="rule.1573.0010.16" class="subp">
+      <a title="Link to subpart 16" class="permalink" href="#rule.1573.0010.16">§</a>
+      <h2 class="subp_no">Subp. 16.</h2>
+      <h2 class="headnote">Nitrogen fertilizer best management practices. </h2>
+      <p>"Nitrogen fertilizer best management practices" means practices associated with nitrogen use that are adopted by the commissioner pursuant to Minnesota Statutes, section <a href="/statutes/cite/103H.151#stat.103H.151.2">103H.151, subdivision 2</a>.</p>
+    </div>
+    <div id="rule.1573.0010.17" class="subp">
+      <a title="Link to subpart 17" class="permalink" href="#rule.1573.0010.17">§</a>
+      <h2 class="subp_no">Subp. 17.</h2>
+      <h2 class="headnote">Nitrogen fertilizer. </h2>
+      <p>"Nitrogen fertilizer" means a substance containing nitrogen that is used for its plant nutrient content, is designed for use or claimed to have value in promoting plant growth, and requires a guaranteed analysis under Minnesota Statutes, section <a href="/statutes/cite/18C.215">18C.215</a>. Nitrogen fertilizer does not include animal and vegetable manures that are not manipulated, or marl, lime, limestone, biosolids, industrial by-product, industrial wastewater, irrigation water, or other products exempted by the commissioner. Chemicals or substances added to manure during storage to reduce odor or gas emissions or to prevent foaming, or added to manure to extend the time the nitrogen component of manure remains in the soil, are not considered a manipulation of manure.</p>
+    </div>
+    <div id="rule.1573.0010.18" class="subp">
+      <a title="Link to subpart 18" class="permalink" href="#rule.1573.0010.18">§</a>
+      <h2 class="subp_no">Subp. 18.</h2>
+      <h2 class="headnote">Public well. </h2>
+      <p>"Public well" means a community water system as defined in part <a href="/rules/4725.0100">4725.0100</a>, subpart 23a.</p>
+    </div>
+    <div id="rule.1573.0010.19" class="subp">
+      <a title="Link to subpart 19" class="permalink" href="#rule.1573.0010.19">§</a>
+      <h2 class="subp_no">Subp. 19.</h2>
+      <h2 class="headnote">Residual soil nitrate tests. </h2>
+      <p>"Residual soil nitrate tests" means soil tests conducted by or under the direction of the commissioner that are representative of changes in soil nitrate levels in soil below the root zone for cropland within a drinking water supply management area.</p>
+    </div>
+    <div id="rule.1573.0010.20" class="subp">
+      <a title="Link to subpart 20" class="permalink" href="#rule.1573.0010.20">§</a>
+      <h2 class="subp_no">Subp. 20.</h2>
+      <h2 class="headnote">Responsible party. </h2>
+      <p>"Responsible party" means the owner, operator, or agent in charge of cropland.</p>
+    </div>
+    <div id="rule.1573.0010.21" class="subp">
+      <a title="Link to subpart 21" class="permalink" href="#rule.1573.0010.21">§</a>
+      <h2 class="subp_no">Subp. 21.</h2>
+      <h2 class="headnote">Section. </h2>
+      <p>"Section" means a subdivision of a township typically one square mile in size as established under a public land survey system.</p>
+    </div>
+    <div id="rule.1573.0010.22" class="subp">
+      <a title="Link to subpart 22" class="permalink" href="#rule.1573.0010.22">§</a>
+      <h2 class="subp_no">Subp. 22.</h2>
+      <h2 class="headnote">Spring frost-free date. </h2>
+      <p>"Spring frost-free date" means the date where there is a ten percent probability of observing a temperature of 32 degrees Fahrenheit or colder based on the years 1981-2010 as published by the Minnesota State Climatology Office.</p>
+    </div>
+    <div id="rule.1573.0010.23" class="subp">
+      <a title="Link to subpart 23" class="permalink" href="#rule.1573.0010.23">§</a>
+      <h2 class="subp_no">Subp. 23.</h2>
+      <h2 class="headnote">Vulnerable groundwater area. </h2>
+      <p>"Vulnerable groundwater area" means land with:</p>
+      <div id="rule.1573.0010.23.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0010.23.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>coarse textured soils;</p>
+      </div>
+      <div id="rule.1573.0010.23.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0010.23.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>soils that are shallow to bedrock as identified in the United States Department of Agriculture, Natural Resources Conservation Service, Web Soil Survey; or</p>
+      </div>
+      <div id="rule.1573.0010.23.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1573.0010.23.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>karst, as identified in the Department of Natural Resources Pollution Sensitivity of Near-Surface Materials Report.</p>
+        <p class="bl">Vulnerable groundwater area does not include areas identified as ultra-low sensitivity in the Department of Natural Resources Pollution Sensitivity of Near-Surface Materials Report.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1573.0010.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103H.275">103H.275</a></p>
+  </div>
+  <div class="history" id="rule.1573.0010.history">
+    <h2>History: </h2>
+    <p>43 SR 1489</p>
+  </div>
+  <div class="published" id="rule.1573.0010.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2019</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1573.0020">
+    <h1 class="headnote">1573.0020 INCORPORATION BY REFERENCE.</h1>
+    <div id="rule.1573.0020.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.1573.0020.A">§</a>
+      <h3 class="item_no">A. </h3>
+      <p>The documents in subitems (1) to (5) and subsequent revisions are incorporated by reference. The documents are not subject to frequent change and are available as indicated:</p>
+      <div id="rule.1573.0020.A.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.1573.0020.A.1">§</a>
+        <h4 class="subitem_no">(1) </h4>
+        <p>GridMET dataset, University of Idaho:</p>
+        <p class="bl">http://www.climatologylab.org/gridmet.html;</p>
+      </div>
+      <div id="rule.1573.0020.A.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.1573.0020.A.2">§</a>
+        <h4 class="subitem_no">(2) </h4>
+        <p>United States Department of Agriculture, Natural Resources Conservation Service, Web Soil Survey (various published dates):</p>
+        <p class="bl">https://www.nrcs.usda.gov/wps/portal/nrcs/surveylist/soils/survey/state/?stateId=MN;</p>
+      </div>
+      <div id="rule.1573.0020.A.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.1573.0020.A.3">§</a>
+        <h4 class="subitem_no">(3) </h4>
+        <p>Pollution Sensitivity of Near-Surface Materials Report, Minnesota Department of Natural Resources (2016):</p>
+        <p class="bl">http://files.dnr.state.mn.us/waters/groundwater_section/mapping/mha/hg02_report.pdf; </p>
+      </div>
+      <div id="rule.1573.0020.A.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.1573.0020.A.4">§</a>
+        <h4 class="subitem_no">(4) </h4>
+        <p>Fertilizer Guidelines for Agronomic Crops in Minnesota, Lamb, John; Kaiser, Daniel E.; Eliason, Roger; University of Minnesota Extension (2011): https://conservancy.umn.edu/handle/11299/198924; and</p>
+      </div>
+      <div id="rule.1573.0020.A.5" class="subitem">
+        <a title="Link to subitem 5" class="permalink" href="#rule.1573.0020.A.5">§</a>
+        <h4 class="subitem_no">(5) </h4>
+        <p>Farm Nutrient Management Assessment Program (FANMAP), Minnesota Department of Agriculture:</p>
+        <p class="bl">http://www.mda.state.mn.us/farm-nutrient-management-assessment-program-fanmap.</p>
+      </div>
+    </div>
+    <div id="rule.1573.0020.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.1573.0020.B">§</a>
+      <h3 class="item_no">B. </h3>
+      <p>The documents listed in item A can be found on the Department of Agriculture website.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1573.0020.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103H.275">103H.275</a></p>
+  </div>
+  <div class="history" id="rule.1573.0020.history">
+    <h2>History: </h2>
+    <p>43 SR 1489</p>
+  </div>
+  <div class="published" id="rule.1573.0020.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2019</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1573.0030">
+    <h1 class="headnote">1573.0030 STATEWIDE WATER RESOURCE PROTECTION REQUIREMENTS.</h1>
+    <div id="rule.1573.0030.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1573.0030.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Prohibitions. </h2>
+      <div id="rule.1573.0030.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0030.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>A responsible party must not make:</p>
+        <div id="rule.1573.0030.1.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0030.1.A.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>a fall application of nitrogen fertilizer to cropland located in a drinking water supply management area from a municipal public water supply well with nitrate-nitrogen levels greater than or equal to 5.4 mg/L at any point in the previous ten years;</p>
+        </div>
+        <div id="rule.1573.0030.1.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0030.1.A.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>a fall application of nitrogen fertilizer to cropland located in a quarter section where vulnerable groundwater areas make up 50 percent or more of the quarter section or government lot; or</p>
+        </div>
+        <div id="rule.1573.0030.1.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1573.0030.1.A.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>an application of nitrogen fertilizer to cropland with frozen soil located in:</p>
+          <div id="rule.1573.0030.1.A.3.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.1573.0030.1.A.3.a">§</a>
+            <h5 class="unit_no">(a) </h5>
+            <p>a vulnerable groundwater area; or</p>
+          </div>
+          <div id="rule.1573.0030.1.A.3.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.1573.0030.1.A.3.b">§</a>
+            <h5 class="unit_no">(b) </h5>
+            <p>a drinking water supply management area that has nitrate-nitrogen levels greater than or equal to 5.4 mg/L at any point in the previous ten years.</p>
+          </div>
+        </div>
+      </div>
+      <div id="rule.1573.0030.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0030.1.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>The commissioner shall annually develop a fall application restrictions map. The commissioner shall post the fall restrictions map on the department's website by January 15 of each year.</p>
+      </div>
+      <div id="rule.1573.0030.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1573.0030.1.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>Any responsible party in charge of cropland in a vulnerable groundwater area as depicted on the commissioner's vulnerable groundwater area map is subject to item A.</p>
+      </div>
+    </div>
+    <div id="rule.1573.0030.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1573.0030.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Exclusions. </h2>
+      <div id="rule.1573.0030.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0030.2.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>A responsible party in a county or a portion of a county is excluded from the fall application restriction requirements under subpart 1 if the county or the portion of the county meets one of the following conditions:</p>
+        <div id="rule.1573.0030.2.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0030.2.A.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>the spring frost-free date in the county or a portion of the county is on or after May 22 and has a leaching index less than or equal to -12 inches as determined by the commissioner;</p>
+        </div>
+        <div id="rule.1573.0030.2.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0030.2.A.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>the spring frost-free date in the county or a portion of the county is on or after May 29 and the leaching index is less than or equal to -10 inches as determined by the commissioner; or</p>
+        </div>
+        <div id="rule.1573.0030.2.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1573.0030.2.A.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>the spring frost-free date in the county or a portion of the county is on or after June 5 and the leaching index is less than or equal to -6 inches as determined by the commissioner.</p>
+        </div>
+      </div>
+      <div id="rule.1573.0030.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0030.2.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>The exclusion under this subpart applies to an entire county if a condition under item A is represented on 50 percent or more of the land area of the county.</p>
+      </div>
+      <div id="rule.1573.0030.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1573.0030.2.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>For purposes of determining the exclusion under item A, the commissioner may subdivide a county by geographical boundary if there is a clear change in conditions represented in a specific area of the county.</p>
+      </div>
+      <div id="rule.1573.0030.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1573.0030.2.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>The exclusion under this subpart does not apply to a drinking water supply management area with nitrate-nitrogen levels greater than or equal to 5.4 mg/L.</p>
+      </div>
+      <div id="rule.1573.0030.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1573.0030.2.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>If cropland makes up less than three percent of a county's total land area, the county is excluded from the requirements in subpart 1, item A.</p>
+      </div>
+      <div id="rule.1573.0030.2.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.1573.0030.2.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>The commissioner shall exclude responsible parties in a drinking water supply management area from the fall application restrictions in subpart 1 if the commissioner determines there is a point source of nitrate-nitrogen contamination, including but not limited to an improperly sealed well, an animal feedlot, or an agricultural chemical incident, that is a significant source of nitrate-nitrogen contamination in the drinking water supply management area's well. In determining whether there is a significant point source of nitrate-nitrogen contamination, the commissioner shall:</p>
+        <div id="rule.1573.0030.2.F.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0030.2.F.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>review the evaluation of point sources identified in the wellhead protection plan approved under chapter 4720 for nitrate-nitrogen contributions to the municipal public water supply well; or</p>
+        </div>
+        <div id="rule.1573.0030.2.F.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0030.2.F.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>conduct a detailed review of potential contaminant sources in the area, evaluate the condition and vulnerability of the municipal water supply well, determine the hydrogeology and groundwater flow paths for groundwater flowing into the municipal public water supply well, and, if necessary, sample soil or other wells in the area; and</p>
+        </div>
+        <div id="rule.1573.0030.2.F.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1573.0030.2.F.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>based on the information obtained in subitem (1) or (2), determine whether, but for the contamination from the point source, the municipal water supply well would not exceed the reference value of 5.4 mg/L. If the municipal water supply well would not exceed the reference value of 5.4 mg/L but for the contamination from the point source, the responsible parties within the drinking water supply management area are excluded from fall application restrictions under subpart 1, item A.</p>
+        </div>
+      </div>
+      <div id="rule.1573.0030.2.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.1573.0030.2.G">§</a>
+        <h3 class="item_no">G. </h3>
+        <p>The commissioner shall exclude part of a drinking water supply management area from the fall application restriction if the commissioner determines that the area is not contributing significantly to the contamination of the well in the drinking water supply management area. In determining whether an area is not contributing significantly, the commissioner shall apply the following:</p>
+        <div id="rule.1573.0030.2.G.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0030.2.G.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>for drinking water supply management areas greater than 100,000 acres, only the designated capture zone and vulnerable groundwater areas are subject to the fall application restrictions under subpart 1, item A;</p>
+        </div>
+        <div id="rule.1573.0030.2.G.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0030.2.G.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>for drinking water supply management areas that are less than 100,000 acres and for areas within a designated capture zone for drinking water supply management areas greater than 100,000 acres:</p>
+          <div id="rule.1573.0030.2.G.2.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.1573.0030.2.G.2.a">§</a>
+            <h5 class="unit_no">(a) </h5>
+            <p>areas within the wellhead protection plan as approved by the Department of Health under chapter 4720 that identify an area as low vulnerability are not subject to the fall application restrictions under subpart 1, item A; or</p>
+          </div>
+          <div id="rule.1573.0030.2.G.2.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.1573.0030.2.G.2.b">§</a>
+            <h5 class="unit_no">(b) </h5>
+            <p>areas within a drinking water supply management area that have a ten-foot or greater confining layer, as defined in part <a href="/rules/4725.0100">4725.0100</a>, subpart 24a, are not subject to fall application restrictions under subpart 1, item A, unless computer modeling indicates that leaching and infiltration of nitrate from sources at or near the ground surface is predicted to result in nitrate exceeding 5.4 mg/L in the aquifer being monitored.</p>
+            <p class="bl">The commissioner shall regulate areas under this part by quarter section or by using the boundaries in the wellhead protection plan for the drinking water supply management area.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="rule.1573.0030.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1573.0030.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Exceptions. </h2>
+      <div id="rule.1573.0030.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0030.3.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Notwithstanding subpart 1, a responsible party may make a fall application of nitrogen fertilizer in a vulnerable groundwater area or drinking water supply management area if the responsible party uses applicable nitrogen rates, as defined in item B, in the following situations only:</p>
+        <div id="rule.1573.0030.3.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0030.3.A.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>when nitrogen fertilizer is required to establish winter grains planted in the fall;</p>
+        </div>
+        <div id="rule.1573.0030.3.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0030.3.A.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>when nitrogen fertilizer is required for pasture fertilization;</p>
+        </div>
+        <div id="rule.1573.0030.3.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1573.0030.3.A.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>when nitrogen fertilizer is required for perennial crops;</p>
+        </div>
+        <div id="rule.1573.0030.3.A.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.1573.0030.3.A.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>when nitrogen fertilizer is required for grass seed production. For purposes of this subitem, grass seed production does not include corn production;</p>
+        </div>
+        <div id="rule.1573.0030.3.A.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.1573.0030.3.A.5">§</a>
+          <h4 class="subitem_no">(5) </h4>
+          <p>when nitrogen fertilizer is required for cultivated wild rice; or</p>
+        </div>
+        <div id="rule.1573.0030.3.A.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.1573.0030.3.A.6">§</a>
+          <h4 class="subitem_no">(6) </h4>
+          <p>when nitrogen fertilizer is required for growing cover crops for the specific purpose of reducing commercial applications of soil fumigants to the subsequent potato crop.</p>
+        </div>
+      </div>
+      <div id="rule.1573.0030.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0030.3.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>For purposes of item A, "nitrogen rates" means:</p>
+        <div id="rule.1573.0030.3.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0030.3.B.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>the nitrogen rates included in the nitrogen fertilizer best management practices adopted by the commissioner under Minnesota Statutes, section <a href="/statutes/cite/103H.151">103H.151</a>, subdivision 2; or</p>
+        </div>
+        <div id="rule.1573.0030.3.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0030.3.B.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>if applicable nitrogen rates have not been adopted by the commissioner under Minnesota Statutes, section <a href="/statutes/cite/103H.151#stat.103H.151.2">103H.151, subdivision 2</a>, the nitrogen rates included in the Fertilizer Guidelines for Agronomic Crops in Minnesota as published by the University of Minnesota Extension.</p>
+        </div>
+      </div>
+      <div id="rule.1573.0030.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1573.0030.3.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>Notwithstanding subpart 1 and in addition to item A, a responsible party may make a fall application in a vulnerable groundwater area in the following situations:</p>
+        <div id="rule.1573.0030.3.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0030.3.C.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>when applying ammoniated phosphate or micronutrient formulations containing nitrogen, so long as the applied nitrogen rate does not exceed an average of 40 pounds per acre in a field. Fields that have had a soil analysis completed by a certified lab and determined to have low to very low phosphorus levels according to the Fertilizer Guidelines for Agronomic Crops in Minnesota are not subject to the 40 pounds per acre total nitrogen rate;</p>
+        </div>
+        <div id="rule.1573.0030.3.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0030.3.C.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>when making a land application of agricultural-chemical-contaminated soil and other media according to Minnesota Statutes, section <a href="/statutes/cite/18D.1052">18D.1052</a>; or</p>
+        </div>
+        <div id="rule.1573.0030.3.C.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1573.0030.3.C.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>when making an application of nitrogen fertilizer for agricultural research and demonstrations for academic purposes. Application of nitrogen fertilizer for agricultural research and demonstrations is limited to 20 acres or less unless a higher acreage amount is approved by the commissioner.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1573.0030.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103H.275">103H.275</a></p>
+  </div>
+  <div class="history" id="rule.1573.0030.history">
+    <h2>History: </h2>
+    <p>43 SR 1489</p>
+  </div>
+  <div class="note" id="rule.1573.0030.note">
+    <h2>NOTE:</h2>
+    <p>This part is effective January 1, 2020.</p>
+  </div>
+  <div class="published" id="rule.1573.0030.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2019</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1573.0040">
+    <h1 class="headnote">1573.0040 DRINKING WATER SUPPLY MANAGEMENT AREA; MITIGATION LEVEL DESIGNATION.</h1>
+    <div id="rule.1573.0040.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1573.0040.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Application. </h2>
+      <p>This part applies to responsible parties in drinking water supply management areas.</p>
+    </div>
+    <div id="rule.1573.0040.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1573.0040.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Evaluation of nitrate-nitrogen concentrations in groundwater. </h2>
+      <p>The commissioner shall evaluate nitrate-nitrogen concentrations in groundwater from public wells in drinking water supply management areas for purposes of making drinking water supply management area mitigation level 1 and 2 designations. The commissioner shall use public well nitrate-nitrogen concentration data provided by the commissioner of health or the commissioner of health's designee under chapter 4720 for this purpose. The commissioner shall initially designate a drinking water supply management area as a mitigation level 1 or a mitigation level 2 drinking water supply management area according to the criteria in subpart 3. The commissioner shall make mitigation level determinations by January 15 for monitoring data received by the commissioner before July 15 of the previous year, unless there is good cause for delay. The data shall be submitted to the commissioner on forms or in a format specified by the commissioner and shall meet data requirements specified by the commissioner.</p>
+    </div>
+    <div id="rule.1573.0040.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1573.0040.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Criteria for initial mitigation level designation. </h2>
+      <div id="rule.1573.0040.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0040.3.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>The commissioner shall use the following criteria to make mitigation level designations for drinking water supply management areas.</p>
+        <div id="rule.1573.0040.3.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0040.3.A.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>To be designated as a mitigation level 1 drinking water supply management area, the groundwater nitrate-nitrogen concentration of the public well in the drinking water supply management area has been greater than or equal to 5.4 mg/L but less than 8.0 mg/L at any point in the previous ten years.</p>
+        </div>
+        <div id="rule.1573.0040.3.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0040.3.A.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>To be designated as a mitigation level 2 drinking water supply management area, the groundwater nitrate-nitrogen concentration data of the public well in the drinking water supply management area meets one of the following:</p>
+          <div id="rule.1573.0040.3.A.2.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.1573.0040.3.A.2.a">§</a>
+            <h5 class="unit_no">(a) </h5>
+            <p>the statistical analysis of the groundwater nitrate-nitrogen concentration data for the previous ten years demonstrates that the groundwater nitrate-nitrogen concentration of the public well is projected to exceed the health risk limit in the next ten years; or</p>
+          </div>
+          <div id="rule.1573.0040.3.A.2.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.1573.0040.3.A.2.b">§</a>
+            <h5 class="unit_no">(b) </h5>
+            <p>the nitrate-nitrogen concentration of the public well has been 8.0 mg/L or greater at any point in the previous ten years.</p>
+          </div>
+        </div>
+      </div>
+      <div id="rule.1573.0040.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0040.3.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>For a nonmunicipal public water supply well, the commissioner may make exceptions for increasing a mitigation level designation based on whether there has been a change in cropland use within the drinking water supply management area and computer modeling or published leaching loss data indicates that the reduction in leaching of nitrate is predicted to result in the public well not exceeding the criteria for a mitigation level.</p>
+      </div>
+      <div id="rule.1573.0040.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1573.0040.3.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>The commissioner shall exclude responsible parties in a drinking water supply management area from mitigation level designations in subpart 2 if the commissioner determines there is a point source of nitrate-nitrogen contamination, including but not limited to an improperly sealed well, an animal feedlot, or an agricultural chemical incident, that is a significant source of nitrate-nitrogen contamination in the drinking water supply management area's well. In determining whether there is a significant point source of nitrate-nitrogen contamination, the commissioner shall:</p>
+        <div id="rule.1573.0040.3.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0040.3.C.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>review the evaluation of point sources identified in wellhead protection plans approved under chapter 4720 for nitrate-nitrogen contributions to the municipal public water supply well; or</p>
+        </div>
+        <div id="rule.1573.0040.3.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0040.3.C.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>conduct a detailed review of potential contaminant sources in the area, evaluate the condition and vulnerability of the public well, determine the hydrogeology and groundwater flow paths for groundwater flowing into the public well, and, if necessary, sample soil or other wells in the area; and</p>
+        </div>
+        <div id="rule.1573.0040.3.C.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1573.0040.3.C.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>based on the information obtained in subitem (1) or (2), determine whether, but for the contamination from the point source, the public well would not exceed the criteria for increasing a mitigation level.</p>
+        </div>
+      </div>
+      <div id="rule.1573.0040.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1573.0040.3.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>The commissioner shall exclude part of a drinking water supply management area from a mitigation level designation if the commissioner determines that the area is not contributing significantly to the contamination of the public well. In determining whether the area is not contributing significantly, the commissioner shall apply the following:</p>
+        <div id="rule.1573.0040.3.D.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0040.3.D.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>areas within the wellhead protection plan as approved by the Department of Health under chapter 4720 that identify an area as low vulnerability shall not be included in the mitigation area designation; or</p>
+        </div>
+        <div id="rule.1573.0040.3.D.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0040.3.D.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>the commissioner shall not include areas within a drinking water supply management area that have a ten-foot or greater confining layer, as defined in part <a href="/rules/4725.0100">4725.0100</a>, subpart 24a, in the mitigation level designation, unless computer modeling indicates that leaching and infiltration of nitrate from sources at or near the ground surface is predicted to result in nitrate exceeding 5.4 mg/L in the aquifer being monitored.</p>
+          <p class="bl">The commissioner shall regulate areas under this part by quarter section or by using the boundaries in the wellhead protection plan for the drinking water supply management area.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.1573.0040.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1573.0040.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Determination of nitrogen fertilizer best management practices and mitigation levels. </h2>
+      <div id="rule.1573.0040.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0040.4.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>For a mitigation level 2 drinking water supply management area, the commissioner shall determine the nitrogen fertilizer best management practices applicable for that drinking water supply management area. The commissioner may form a local advisory team to consult on the determination of applicable nitrogen fertilizer best management practices.</p>
+      </div>
+      <div id="rule.1573.0040.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0040.4.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>The commissioner shall provide notice to the public of the designation of a drinking water supply management area as a mitigation level 2 and the nitrogen fertilizer best management practices that are applicable to that drinking water supply management area through publication in the legal newspaper for the affected drinking water supply management area and on the Department of Agriculture website.</p>
+      </div>
+    </div>
+    <div id="rule.1573.0040.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1573.0040.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Monitoring. </h2>
+      <div id="rule.1573.0040.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0040.5.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>The commissioner shall monitor a drinking water supply management area's nitrate-nitrogen concentrations pursuant to Minnesota Statutes, section <a href="/statutes/cite/103H.251">103H.251, subdivision </a>2. For purposes of the monitoring required by this subpart, the commissioner may:</p>
+        <div id="rule.1573.0040.5.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0040.5.A.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>use groundwater nitrate-nitrogen concentrations of a public well provided by the commissioner of health or the commissioner's designee; or</p>
+        </div>
+        <div id="rule.1573.0040.5.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0040.5.A.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>establish a groundwater monitoring network to determine changes in water quality in the drinking water supply management area.</p>
+        </div>
+      </div>
+      <div id="rule.1573.0040.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0040.5.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>If the commissioner establishes a groundwater monitoring network, the commissioner must design the groundwater monitoring network to represent the drinking water supply management area or a portion of the drinking water supply management area being monitored.</p>
+      </div>
+      <div id="rule.1573.0040.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1573.0040.5.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>The commissioner may conduct residual soil nitrate tests to evaluate changes in residual soil nitrate for cropland within a drinking water supply management area.</p>
+      </div>
+    </div>
+    <div id="rule.1573.0040.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1573.0040.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Nitrogen fertilizer best management practices evaluation. </h2>
+      <div id="rule.1573.0040.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0040.6.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>The commissioner shall conduct an evaluation in designated mitigation level 2 drinking water supply management areas to determine whether the nitrogen fertilizer best management practices approved by the commissioner have been implemented by responsible parties on at least 80 percent of the cropland, excluding soybean cropland. The commissioner shall not conduct an evaluation under this subpart for at least three growing seasons subsequent to the publication of the nitrogen fertilizer best management practices applicable to the drinking water supply management area. The commissioner may conduct periodic evaluations during the three growing seasons to monitor the drinking water supply management area's progress.</p>
+      </div>
+      <div id="rule.1573.0040.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0040.6.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>When conducting an evaluation under this subpart, the commissioner shall consider:</p>
+        <div id="rule.1573.0040.6.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0040.6.B.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>cropland where a responsible party has implemented approved alternative management tools as being in compliance with nitrogen fertilizer best management practices applicable to that drinking water supply management area;</p>
+        </div>
+        <div id="rule.1573.0040.6.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0040.6.B.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>cropland certified by the Minnesota Agricultural Water Quality Certification Program as being cropland in compliance with all nitrogen fertilizer best management practices;</p>
+        </div>
+        <div id="rule.1573.0040.6.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1573.0040.6.B.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>nitrogen fertilizer best management practices not to be implemented if the responsible party does not provide information or provides insufficient information to the commissioner to make a determination related to the implementation of nitrogen fertilizer best management practices on that cropland; and</p>
+        </div>
+        <div id="rule.1573.0040.6.B.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.1573.0040.6.B.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>practices that do not meet the nitrogen fertilizer best management practices to be in compliance with the nitrogen fertilizer best management practices if the noncompliance is due to an agricultural emergency or other extreme circumstance as determined by the commissioner.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.1573.0040.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.1573.0040.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Mitigation level 2 drinking water supply management area; mitigation designation review. </h2>
+      <div id="rule.1573.0040.7.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0040.7.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>The commissioner shall review the water quality and monitoring data of a mitigation level 2 drinking water supply management area and either provide a new mitigation level designation or maintain the existing mitigation level designation for the drinking water supply management area after no fewer than three growing seasons or the lag time, whichever is longer, following the commissioner's initial mitigation level 2 designation. However, if residual soil nitrate testing is conducted, the review period shall not be less than three growing seasons. The commissioner shall review the mitigation level designation not less than every three growing seasons thereafter.</p>
+      </div>
+      <div id="rule.1573.0040.7.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0040.7.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>The commissioner shall designate a mitigation level 2 drinking water supply management area as a mitigation level 1 drinking water supply management area if the commissioner determines that the statistical analysis for nitrate-nitrogen concentrations in the public well is not projected to exceed the health risk limit and the groundwater nitrate-nitrogen concentration has been below 8.0 mg/L for ten years.</p>
+      </div>
+      <div id="rule.1573.0040.7.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1573.0040.7.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>The commissioner shall designate a mitigation level 2 drinking water supply management area as a mitigation level 3 drinking water supply management area if responsible parties within the drinking water supply management area have implemented nitrogen fertilizer best management practices on less than 80 percent of cropland and:</p>
+        <div id="rule.1573.0040.7.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0040.7.C.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>the statistical analysis of the nitrate-nitrogen concentration of the public well within the drinking water supply management area for the past ten years is projected to exceed the health risk limit in the next ten years; or</p>
+        </div>
+        <div id="rule.1573.0040.7.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0040.7.C.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>the nitrate-nitrogen concentration of the public well within the drinking water supply management area is 8.0 mg/L or more at any point in the previous ten years.</p>
+        </div>
+      </div>
+      <div id="rule.1573.0040.7.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1573.0040.7.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>The commissioner shall designate a mitigation level 2 drinking water supply management area as a mitigation level 3 drinking water supply management area if the net residual nitrate in soil below the root zone is increasing after not less than three growing seasons within the drinking water supply management area.</p>
+      </div>
+      <div id="rule.1573.0040.7.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1573.0040.7.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>The commissioner shall designate a mitigation level 2 drinking water supply management area as a mitigation level 3 drinking water supply management area if the statistical analysis indicates the nitrate-nitrogen concentration is increasing for the public well or groundwater monitoring network.</p>
+      </div>
+      <div id="rule.1573.0040.7.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.1573.0040.7.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>The mitigation level remains a mitigation level 2 unless one of the criteria in items B to E is met.</p>
+      </div>
+      <div id="rule.1573.0040.7.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.1573.0040.7.G">§</a>
+        <h3 class="item_no">G. </h3>
+        <p>If responsible parties within a drinking water supply management area have demonstrated progress by changing agricultural or land use practices within the drinking water supply management area, so that the public well does not meet the criteria of a mitigation level 3 as shown by computer modeling data or residual soil nitrate testing, the commissioner may grant a onetime exemption from designating a mitigation level 2 drinking water supply management area as a mitigation level 3 drinking water supply management area for a period equal to the period for the mitigation level designation decision under item A.</p>
+      </div>
+    </div>
+    <div id="rule.1573.0040.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.1573.0040.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Mitigation level 3 drinking water supply management areas; mitigation level designation review. </h2>
+      <div id="rule.1573.0040.8.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0040.8.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>The commissioner shall review the water quality and monitoring data of a mitigation level 3 drinking water supply management area and either make a new mitigation level designation or maintain the existing mitigation level designation for the drinking water supply management area after no fewer than three growing seasons or the lag time, whichever is longer, following the commissioner's initial mitigation level 3 designation. However, if residual soil nitrate testing is conducted, the review period shall not be fewer than three growing seasons. The commissioner shall review the mitigation level designation not fewer than every three growing seasons thereafter.</p>
+      </div>
+      <div id="rule.1573.0040.8.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0040.8.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>The commissioner shall designate a mitigation level 3 drinking water supply management area as a mitigation level 1 drinking water supply management area if the commissioner determines that the statistical analysis for nitrate-nitrogen concentrations in the public well is not projected to exceed the health risk limit and the groundwater nitrate-nitrogen concentration has been below 8.0 mg/L for ten years.</p>
+      </div>
+      <div id="rule.1573.0040.8.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1573.0040.8.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>The commissioner shall designate a mitigation level 3 drinking water supply management area as a mitigation level 4 drinking water supply management area if the nitrate-nitrogen concentration of the public well within the drinking water supply management area is 9.0 mg/L or higher for any three samples in the previous ten years unless a statistical trend analysis indicates nitrate-nitrogen concentrations have decreased.</p>
+      </div>
+      <div id="rule.1573.0040.8.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1573.0040.8.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>The commissioner shall designate a mitigation level 3 drinking water supply management area as a mitigation level 4 drinking water supply management area if net residual nitrate in soil below the root zone is increasing after not less than three growing seasons within the drinking water supply management area.</p>
+      </div>
+      <div id="rule.1573.0040.8.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1573.0040.8.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>The commissioner shall designate a mitigation level 3 drinking water supply management area as a mitigation level 4 drinking water supply management area if the statistical analysis of the nitrate-nitrogen concentration in the public well or in the groundwater monitoring network is increasing.</p>
+      </div>
+      <div id="rule.1573.0040.8.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.1573.0040.8.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>The mitigation level remains a mitigation level 3 unless one of the criteria in items B to E is met.</p>
+      </div>
+      <div id="rule.1573.0040.8.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.1573.0040.8.G">§</a>
+        <h3 class="item_no">G. </h3>
+        <p>If responsible parties within a drinking water supply management area have demonstrated progress by changing agricultural or land use practices, so that the public well does not meet the criteria of a mitigation level 4 as shown by computer modeling data or residual soil nitrate testing, the commissioner may grant a onetime exemption from designating a mitigation level 3 drinking water supply management area as a mitigation level 4 drinking water supply management area for a period equal to the period for the mitigation level designation decision under item A.</p>
+      </div>
+    </div>
+    <div id="rule.1573.0040.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.1573.0040.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Mitigation level 4 drinking water supply management area; mitigation level designation review. </h2>
+      <div id="rule.1573.0040.9.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0040.9.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>The commissioner shall review the water quality and monitoring data of a mitigation level 4 drinking water supply management area and either make a new mitigation level designation or maintain the existing mitigation level 4 designation for the drinking water supply management area after no fewer than three growing seasons or the lag time, whichever is longer, following the commissioner's initial mitigation level 4 designation. However, if residual soil nitrate testing is conducted, the review period shall not be less than three growing seasons. The commissioner shall review the mitigation level designation every three growing seasons thereafter.</p>
+      </div>
+      <div id="rule.1573.0040.9.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0040.9.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>The commissioner shall designate a mitigation level 4 drinking water supply management area as a mitigation level 3 drinking water supply management area if:</p>
+        <div id="rule.1573.0040.9.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0040.9.B.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>the statistical analysis for groundwater nitrate-nitrogen concentrations in the public well shows that the well is not projected to exceed the health risk limit for a period of ten years; and</p>
+        </div>
+        <div id="rule.1573.0040.9.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0040.9.B.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>the groundwater nitrate-nitrogen concentrations in the public well have not reached or exceeded 9.0 mg/L for any three samples in the past ten years.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.1573.0040.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.1573.0040.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Limitation on change in designation. </h2>
+      <p>The commissioner shall not designate a drinking water supply management area more than one mitigation level higher than the drinking water supply management area's previous designation for a minimum of three growing seasons.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1573.0040.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103H.275">103H.275</a></p>
+  </div>
+  <div class="history" id="rule.1573.0040.history">
+    <h2>History: </h2>
+    <p>43 SR 1489</p>
+  </div>
+  <div class="published" id="rule.1573.0040.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2019</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1573.0050">
+    <h1 class="headnote">1573.0050 WATER RESOURCE PROTECTION REQUIREMENTS ORDER.</h1>
+    <div id="rule.1573.0050.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1573.0050.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Commissioner's water resource protection requirements order. </h2>
+      <div id="rule.1573.0050.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0050.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>The commissioner shall issue a water resource protection requirements order to responsible parties in mitigation level 3 and 4 drinking water supply management areas that meet the criteria in part <a href="/rules/1573.0040">1573.0040</a>, subparts 7 to 9. The commissioner shall use the nitrate-nitrogen concentration results obtained in part <a href="/rules/1573.0040">1573.0040</a>, subpart 5, to issue a water resource protection requirements order for a mitigation level 3 or 4 drinking water supply management area.</p>
+      </div>
+      <div id="rule.1573.0050.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0050.1.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>If a groundwater monitoring network is installed or residual soil nitrate testing is conducted in the drinking water supply management area, then a commissioner's order applies to the entire drinking water supply management area.</p>
+      </div>
+      <div id="rule.1573.0050.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1573.0050.1.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>If a groundwater monitoring network is not installed or residual soil nitrate testing is not conducted in the drinking water supply management area, then the commissioner's order applies to the area within the drinking water supply management area for which land surface practices may impact water quality within the monitored well after the recommended nitrogen fertilizer best management practices for the drinking water supply management area are first published by the commissioner. This area shall be determined based on the estimated travel time, including lag time, for nitrate-nitrogen to travel from the place of application to the well.</p>
+      </div>
+      <div id="rule.1573.0050.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1573.0050.1.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>In prioritizing the issuance of water resource protection requirements orders throughout the state, the commissioner shall consider the following:</p>
+        <div id="rule.1573.0050.1.D.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0050.1.D.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>the nitrate-nitrogen concentration in drinking water supply management areas as determined by the commissioner of health's public well data or the groundwater monitoring network data;</p>
+        </div>
+        <div id="rule.1573.0050.1.D.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0050.1.D.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>the size of the population at risk receiving water from the public well in the drinking water supply management area due to high nitrate in groundwater;</p>
+        </div>
+        <div id="rule.1573.0050.1.D.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1573.0050.1.D.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>whether the drinking water supply management area has a water treatment system; and</p>
+        </div>
+        <div id="rule.1573.0050.1.D.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.1573.0050.1.D.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>the potential cost for a new water treatment system or systems.</p>
+        </div>
+      </div>
+      <div id="rule.1573.0050.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1573.0050.1.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>A commissioner's water resource protection requirements order shall include the following:</p>
+        <div id="rule.1573.0050.1.E.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0050.1.E.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>the mitigation level of the drinking water supply management area;</p>
+        </div>
+        <div id="rule.1573.0050.1.E.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0050.1.E.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>the drinking water supply management area that is subject to the water resource protection requirements order;</p>
+        </div>
+        <div id="rule.1573.0050.1.E.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1573.0050.1.E.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>the water resource protection requirements for the drinking water supply management area that is subject to the water resource protection requirements order;</p>
+        </div>
+        <div id="rule.1573.0050.1.E.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.1573.0050.1.E.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>the effective date of the water resource protection requirements order; and</p>
+        </div>
+        <div id="rule.1573.0050.1.E.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.1573.0050.1.E.5">§</a>
+          <h4 class="subitem_no">(5) </h4>
+          <p>information on a responsible party's right to request a contested case hearing regarding the water resource protection requirements order.</p>
+        </div>
+      </div>
+      <div id="rule.1573.0050.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.1573.0050.1.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>A commissioner's water resource protection requirements order applies to responsible parties in a drinking water supply management area that is subject to a water resource protection requirements order.</p>
+      </div>
+      <div id="rule.1573.0050.1.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.1573.0050.1.G">§</a>
+        <h3 class="item_no">G. </h3>
+        <p>The commissioner may exclude part of a drinking water supply management area from the water resource protection requirements order if the commissioner determines that the area is not contributing significantly to the contamination of the well. In determining whether an area is not contributing significantly, the commissioner shall apply the following:</p>
+        <div id="rule.1573.0050.1.G.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0050.1.G.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>areas within the wellhead protection plan as approved by the Department of Health under chapter 4720 that identify an area as low vulnerability are not subject to the water resource protection requirements order; or</p>
+        </div>
+        <div id="rule.1573.0050.1.G.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0050.1.G.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>areas within a drinking water supply management area that have a ten-foot or greater confining layer, as defined in part <a href="/rules/4725.0100">4725.0100</a>, subpart 24a, are not subject to the water resource protection requirements order, unless computer modeling indicates that leaching and infiltration of nitrate from sources at or near the ground surface is predicted to result in nitrate exceeding 5.4 mg/L in the aquifer being monitored.</p>
+          <p class="bl">The commissioner shall regulate areas under this part by quarter section or using the boundaries in the wellhead protection plan for the drinking water supply management area.</p>
+        </div>
+      </div>
+      <div id="rule.1573.0050.1.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.1573.0050.1.H">§</a>
+        <h3 class="item_no">H. </h3>
+        <p>The commissioner shall issue a water resource protection requirements order within 180 days of receiving all the information required in part <a href="/rules/1573.0040">1573.0040</a>, subparts 7, 8, and 9. For good cause shown, the commissioner may extend the deadline by 180 days.</p>
+      </div>
+    </div>
+    <div id="rule.1573.0050.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1573.0050.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Notice of proposed water resource protection requirements order. </h2>
+      <div id="rule.1573.0050.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0050.2.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>The commissioner shall hold at least one public informational meeting in the county of the mitigation area subject to the proposed water resource protection requirements order before publishing the proposed water resource protection requirements order.</p>
+      </div>
+      <div id="rule.1573.0050.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0050.2.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>The commissioner shall provide notice of the proposed water resource protection requirements order to all known affected responsible parties within the drinking water supply management area. If personal notification is not practicable, the commissioner shall publish notice of the proposed water resource protection requirements order in two consecutive issues of the legal newspaper for the affected drinking water supply management area and in the State Register.</p>
+      </div>
+      <div id="rule.1573.0050.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1573.0050.2.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>The commissioner shall also provide the notice required under item B to the following entities whose jurisdiction includes a mitigation area:</p>
+        <div id="rule.1573.0050.2.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0050.2.C.1">§</a>
+          <h4 class="subitem_no">(1) </h4>
+          <p>cities;</p>
+        </div>
+        <div id="rule.1573.0050.2.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0050.2.C.2">§</a>
+          <h4 class="subitem_no">(2) </h4>
+          <p>township boards;</p>
+        </div>
+        <div id="rule.1573.0050.2.C.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1573.0050.2.C.3">§</a>
+          <h4 class="subitem_no">(3) </h4>
+          <p>counties;</p>
+        </div>
+        <div id="rule.1573.0050.2.C.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.1573.0050.2.C.4">§</a>
+          <h4 class="subitem_no">(4) </h4>
+          <p>soil and water conservation districts; and</p>
+        </div>
+        <div id="rule.1573.0050.2.C.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.1573.0050.2.C.5">§</a>
+          <h4 class="subitem_no">(5) </h4>
+          <p>watershed districts.</p>
+        </div>
+      </div>
+      <div id="rule.1573.0050.2.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1573.0050.2.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>The commissioner shall also provide the notice required under item B to the executive director of the Board of Water and Soil Resources, the commissioner of natural resources, the commissioner of the Pollution Control Agency, the commissioner of health, and the executive director of the Environmental Quality Board.</p>
+      </div>
+      <div id="rule.1573.0050.2.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1573.0050.2.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>The commissioner must provide or publish the notices required under this subpart at least 60 days before the proposed effective date of the water resource protection requirements order.</p>
+      </div>
+    </div>
+    <div id="rule.1573.0050.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1573.0050.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Contested case hearing. </h2>
+      <div id="rule.1573.0050.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0050.3.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Following notice of the proposed water resource protection requirements order as required by subpart 2, any person or entity subject to the water resource protection requirements order may petition the commissioner for a contested case hearing to challenge a water resource protection requirements order.</p>
+      </div>
+      <div id="rule.1573.0050.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0050.3.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>A petition for a hearing must contain a statement of the issue or issues proposed to be addressed at the hearing as well as the part of the proposed water resource protection requirements order to be challenged. The petition must also contain the specific relief or resolution requested as well as the proposed findings of fact in dispute.</p>
+      </div>
+      <div id="rule.1573.0050.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1573.0050.3.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>Upon receipt of a timely petition for a hearing, the commissioner shall order a public hearing. The commissioner shall publish the order for hearing in the legal newspaper for the affected drinking water supply management area and in the State Register at least 30 days before the public hearing. The public hearing shall be held within 60 days of the proposed effective date of the proposed water resource protection requirements order. The hearing shall be held before an administrative law judge in the county in which the mitigation area is located and in accordance with the requirements of Minnesota Statutes, chapter 14, and the rules relating to contested case proceedings.</p>
+      </div>
+      <div id="rule.1573.0050.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1573.0050.3.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>The administrative law judge shall submit recommended findings of fact, conclusions of law, and the final order to the commissioner and each petitioner no later than 30 days from the conclusion of the public hearing.</p>
+      </div>
+      <div id="rule.1573.0050.3.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1573.0050.3.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>Any party to the hearing may submit written exceptions and argument to the commissioner up to ten business days from the date of issuance of the recommendations from the administrative law judge.</p>
+      </div>
+      <div id="rule.1573.0050.3.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.1573.0050.3.F">§</a>
+        <h3 class="item_no">F. </h3>
+        <p>Within 30 days of the issuance of the recommended findings of fact, conclusions of law, and final order by the administrative law judge, the commissioner shall issue a final water resource protection requirements order, which is the final decision of the agency for a contested case for purposes of judicial review under Minnesota Statutes, sections <a href="/statutes/cite/14.63">14.63 </a>to <a href="/statutes/cite/14.69">14.69</a>.</p>
+      </div>
+      <div id="rule.1573.0050.3.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.1573.0050.3.G">§</a>
+        <h3 class="item_no">G. </h3>
+        <p>The commissioner shall publish notice of the final water resource protection requirements order in two consecutive issues of the legal newspaper for any affected drinking water supply management area.</p>
+        <p class="bl">The commissioner shall also provide the notice of the final water resource protection requirements order to the executive director of the Board of Water and Soil Resources, the commissioner of natural resources, the commissioner of the Pollution Control Agency, the commissioner of health, and the executive director of the Environmental Quality Board.</p>
+      </div>
+    </div>
+    <div id="rule.1573.0050.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.1573.0050.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Final water resource protection requirements order. </h2>
+      <p>If the commissioner does not receive any petitions requesting a hearing under subpart 3 within 60 days of the notice of the proposed water resource protection requirements order as required by subpart 2, the published proposed water resource protection requirements order is effective on the date provided in the proposed water resource protection requirements order.</p>
+    </div>
+    <div id="rule.1573.0050.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.1573.0050.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Amendment to water resource protection requirements order. </h2>
+      <div id="rule.1573.0050.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0050.5.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>The commissioner may amend the content of a water resource protection requirements order based on the content of part <a href="/rules/1573.0070">1573.0070</a>.</p>
+      </div>
+      <div id="rule.1573.0050.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0050.5.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>The commissioner shall provide notice of proposed amendments to a water resource protection requirements order to all known affected responsible parties within the drinking water supply management area. If personal notification is not practicable, the commissioner shall publish notice of proposed amendments to a water resource protection requirements order in two consecutive issues of the legal newspaper for any affected drinking water supply management area and in the State Register at least 30 days before the proposed effective date of the amendments. The commissioner shall also provide notice of proposed amendments to a water resource protection requirements order to the executive director of the Board of Water and Soil Resources, the commissioner of natural resources, the commissioner of the Pollution Control Agency, the commissioner of health, and the executive director of the Environmental Quality Board at least 30 days before the proposed effective date of the amendments.</p>
+      </div>
+      <div id="rule.1573.0050.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1573.0050.5.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>Any person or entity subject to proposed amendments to a water resource protection requirements order has 30 days from the date of notice of the amendments under item B to provide written comments to the commissioner on the proposed amendments.</p>
+      </div>
+      <div id="rule.1573.0050.5.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1573.0050.5.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>The commissioner shall publish notice of the amended final water resource protection requirements order in two consecutive issues in the legal newspaper for any drinking water supply management area affected by the amendments to the water resource protection requirements order.</p>
+      </div>
+      <div id="rule.1573.0050.5.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.1573.0050.5.E">§</a>
+        <h3 class="item_no">E. </h3>
+        <p>The amended final water resource protection requirements order is effective upon publication under item D.</p>
+      </div>
+    </div>
+    <div id="rule.1573.0050.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.1573.0050.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Judicial review. </h2>
+      <div id="rule.1573.0050.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0050.6.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>Any person or entity subject to a final water resource protection requirements order or an amended water resource protection requirements order may seek judicial review pursuant to Minnesota Statutes, sections <a href="/statutes/cite/14.63">14.63</a> to <a href="/statutes/cite/14.69">14.69</a>.</p>
+      </div>
+      <div id="rule.1573.0050.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0050.6.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>For judicial review of an amended water resource protection requirements order, only the amendments to the water resource protection requirements order are subject to judicial review.</p>
+      </div>
+    </div>
+    <div id="rule.1573.0050.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.1573.0050.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Recording. </h2>
+      <p>The commissioner shall record all final water resource protection requirements orders and amendments for water resource protection requirements in the appropriate county.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1573.0050.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103H.275">103H.275</a></p>
+  </div>
+  <div class="history" id="rule.1573.0050.history">
+    <h2>History: </h2>
+    <p>43 SR 1489</p>
+  </div>
+  <div class="published" id="rule.1573.0050.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2019</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1573.0060">
+    <h1 class="headnote">1573.0060 REQUIREMENTS FOR WATER RESOURCE PROTECTION REQUIREMENTS ORDERS.</h1>
+    <div id="rule.1573.0060.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.1573.0060.A">§</a>
+      <h3 class="item_no">A. </h3>
+      <p>A responsible party in a mitigation level 3 or 4 drinking water supply management area must comply with the following:</p>
+      <div id="rule.1573.0060.A.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.1573.0060.A.1">§</a>
+        <h4 class="subitem_no">(1) </h4>
+        <p>maintain field-specific records for six years, starting with the effective date of the water resource protection requirements order. The records required to be kept under this subitem must document nitrogen fertilizer use, including but not limited to its application date, application rate, any credit given for organic and inorganic nitrogen sources, the timing of the nitrogen fertilizer application, the source of the nitrogen, and the nitrogen's placement;</p>
+      </div>
+      <div id="rule.1573.0060.A.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.1573.0060.A.2">§</a>
+        <h4 class="subitem_no">(2) </h4>
+        <p>provide records maintained under this part to the commissioner upon request;</p>
+      </div>
+      <div id="rule.1573.0060.A.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.1573.0060.A.3">§</a>
+        <h4 class="subitem_no">(3) </h4>
+        <p>comply with the prohibitions on fall application and application to frozen soils under part <a href="/rules/1573.0030">1573.0030</a>, unless the application is excluded from the prohibitions under part <a href="/rules/1573.0030">1573.0030</a>, subpart 2; and</p>
+      </div>
+      <div id="rule.1573.0060.A.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.1573.0060.A.4">§</a>
+        <h4 class="subitem_no">(4) </h4>
+        <p>comply with any water resource protection requirements orders that apply to the drinking water supply management area governing the cropland over which the responsible party has control.</p>
+      </div>
+    </div>
+    <div id="rule.1573.0060.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.1573.0060.B">§</a>
+      <h3 class="item_no">B. </h3>
+      <p>This chapter is enforceable pursuant to Minnesota Statutes, chapter 18D.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1573.0060.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103H.275">103H.275</a></p>
+  </div>
+  <div class="history" id="rule.1573.0060.history">
+    <h2>History: </h2>
+    <p>43 SR 1489</p>
+  </div>
+  <div class="published" id="rule.1573.0060.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2019</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1573.0070">
+    <h1 class="headnote">1573.0070 WATER RESOURCE PROTECTION REQUIREMENTS ORDER CONTENTS.</h1>
+    <div id="rule.1573.0070.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1573.0070.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Mitigation level 3. </h2>
+      <div id="rule.1573.0070.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0070.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>The commissioner shall consider including the following requirements for responsible parties in a water resource protection requirements order for mitigation level 3 drinking water supply management areas:</p>
+        <div id="rule.1573.0070.1.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.1573.0070.1.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p>nitrogen fertilizer best management practices approved by the commissioner pursuant to Minnesota Statutes, section <a href="/statutes/cite/103H.151#stat.103H.151.2">103H.151, subdivision 2</a>;</p>
+        </div>
+        <div id="rule.1573.0070.1.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.1573.0070.1.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p>application guidelines for nitrogen fertilizer from the University of Minnesota;</p>
+        </div>
+        <div id="rule.1573.0070.1.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.1573.0070.1.A.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p>educational activities approved by the commissioner;</p>
+        </div>
+        <div id="rule.1573.0070.1.A.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.1573.0070.1.A.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p>field testing to determine nitrogen requirements for specific crops;</p>
+        </div>
+        <div id="rule.1573.0070.1.A.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.1573.0070.1.A.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p>testing of manure using a lab approved or certified by the commissioner;</p>
+        </div>
+        <div id="rule.1573.0070.1.A.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.1573.0070.1.A.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p>testing as needed to monitor nitrate-nitrogen concentrations in the groundwater;</p>
+        </div>
+        <div id="rule.1573.0070.1.A.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.1573.0070.1.A.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p>nitrogen crediting from previous crops, manure application, irrigation application, and all other sources of nitrogen;</p>
+        </div>
+        <div id="rule.1573.0070.1.A.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.1573.0070.1.A.8">§</a>
+          <h4 class="subitem_no">(8)</h4>
+          <p>irrigation, fertilizer chemigation, water, manure, and nutrient management plans developed or approved by a qualified professional;</p>
+        </div>
+        <div id="rule.1573.0070.1.A.9" class="subitem">
+          <a title="Link to subitem 9" class="permalink" href="#rule.1573.0070.1.A.9">§</a>
+          <h4 class="subitem_no">(9)</h4>
+          <p>soil amendments registered with the commissioner that reduce the need for or improve the use of nitrogen;</p>
+        </div>
+        <div id="rule.1573.0070.1.A.10" class="subitem">
+          <a title="Link to subitem 10" class="permalink" href="#rule.1573.0070.1.A.10">§</a>
+          <h4 class="subitem_no">(10)</h4>
+          <p>plant amendments registered with the commissioner that improve the efficient use of nitrogen inputs;</p>
+        </div>
+        <div id="rule.1573.0070.1.A.11" class="subitem">
+          <a title="Link to subitem 11" class="permalink" href="#rule.1573.0070.1.A.11">§</a>
+          <h4 class="subitem_no">(11)</h4>
+          <p>products delaying nitrification, approved by the commissioner; or</p>
+        </div>
+        <div id="rule.1573.0070.1.A.12" class="subitem">
+          <a title="Link to subitem 12" class="permalink" href="#rule.1573.0070.1.A.12">§</a>
+          <h4 class="subitem_no">(12)</h4>
+          <p>products delaying plant available nitrogen, approved by the commissioner.</p>
+        </div>
+      </div>
+      <div id="rule.1573.0070.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0070.1.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>The commissioner may require alternative management tools to be used in drinking water supply management areas provided that a source of funding for increased costs related to the implementation of the alternative management tool is available to responsible parties. The commissioner shall select alternative management tools for purposes of this subpart in consultation with the local advisory team. The commissioner shall not restrict the selection of the primary crop.</p>
+      </div>
+    </div>
+    <div id="rule.1573.0070.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1573.0070.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Mitigation level 4. </h2>
+      <p>The commissioner shall consider including the requirements in items A to C for responsible parties in a water resource protection requirements order for mitigation level 4 drinking water supply management areas:</p>
+      <div id="rule.1573.0070.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0070.2.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>any requirement listed in subpart 1;</p>
+      </div>
+      <div id="rule.1573.0070.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0070.2.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>specific nitrogen fertilizer rate requirements for crops. The commissioner shall not set rate requirements for nitrogen fertilizer below the lowest University of Minnesota recommended rate; and</p>
+      </div>
+      <div id="rule.1573.0070.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1573.0070.2.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>water resource protection requirements as defined in Minnesota Statutes, section <a href="/statutes/cite/103H.005#stat.103H.005.15">103H.005, subdivision 15</a>, and that meet factors under Minnesota Statutes, section <a href="/statutes/cite/103H.275">103H.275</a>, subdivision 2a. The commissioner shall not restrict the selection of the primary crop.</p>
+      </div>
+    </div>
+    <div id="rule.1573.0070.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.1573.0070.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Exceptions. </h2>
+      <p>The commissioner may provide exceptions to a water resource protection requirements order if the commissioner determines the order could not be implemented because of:</p>
+      <div id="rule.1573.0070.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0070.3.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>adverse weather conditions including late spring thaw, heavy rainfall, drought, or other extreme weather event;</p>
+      </div>
+      <div id="rule.1573.0070.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0070.3.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>crop failure for any reason including plant diseases or pest infestations; or</p>
+      </div>
+      <div id="rule.1573.0070.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1573.0070.3.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>the required practice being agronomically or technically unsuitable for a specific field based on the soil types, topography, or the crops grown.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1573.0070.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103H.275">103H.275</a></p>
+  </div>
+  <div class="history" id="rule.1573.0070.history">
+    <h2>History: </h2>
+    <p>43 SR 1489</p>
+  </div>
+  <div class="published" id="rule.1573.0070.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2019</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1573.0080">
+    <h1 class="headnote">1573.0080 MINNESOTA AGRICULTURAL WATER QUALITY CERTIFICATION PROGRAM EXEMPTION.</h1>
+    <p>A responsible party certified through the Minnesota Agricultural Water Quality Certification Program under Minnesota Statutes, sections <a href="/statutes/cite/17.9891">17.9891</a> to <a href="/statutes/cite/17.993">17.993</a>, is deemed to be in compliance with this chapter for the duration of the water quality certification.</p>
+  </div>
+  <div class="stat_auth" id="rule.1573.0080.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103H.275">103H.275</a></p>
+  </div>
+  <div class="history" id="rule.1573.0080.history">
+    <h2>History: </h2>
+    <p>43 SR 1489</p>
+  </div>
+  <div class="published" id="rule.1573.0080.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2019</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.1573.0090">
+    <h1 class="headnote">1573.0090 ALTERNATIVE MANAGEMENT TOOLS; ALTERNATIVE PROTECTION REQUIREMENTS.</h1>
+    <div id="rule.1573.0090.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.1573.0090.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Alternative management tools. </h2>
+      <div id="rule.1573.0090.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0090.1.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>The commissioner shall maintain a list of alternative management tools on the Department of Agriculture website.</p>
+      </div>
+      <div id="rule.1573.0090.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0090.1.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>The commissioner shall identify on the list of alternative management tools if an alternative management tool can be substituted for a nitrogen fertilizer best management practice in the nitrogen fertilizer best management practice evaluation.</p>
+      </div>
+      <div id="rule.1573.0090.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.1573.0090.1.C">§</a>
+        <h3 class="item_no">C. </h3>
+        <p>A responsible party subject to a water resource protection requirements order may implement an alternative management tool as an alternative to a specific requirement in a water resource protection requirements order only if the commissioner states in the list of alternative management tools that the alternative management tool is a substitute for a nitrogen fertilizer best management practice. A responsible party must keep records of all alternative management tools used and the specific water resource protection requirements order that allows the alternative management tool to be used.</p>
+      </div>
+      <div id="rule.1573.0090.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.1573.0090.1.D">§</a>
+        <h3 class="item_no">D. </h3>
+        <p>A responsible party may use an alternative management tool in addition to the requirements in the water resource protection requirements order.</p>
+      </div>
+    </div>
+    <div id="rule.1573.0090.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.1573.0090.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Alternative protection requirements. </h2>
+      <div id="rule.1573.0090.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.1573.0090.2.A">§</a>
+        <h3 class="item_no">A. </h3>
+        <p>A person subject to a water resource protection requirements order may apply to the commissioner to suggest an alternative protection requirement pursuant to Minnesota Statutes, section <a href="/statutes/cite/103H.275#stat.103H.275.2">103H.275, subdivision 2</a>, paragraph (e).</p>
+      </div>
+      <div id="rule.1573.0090.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.1573.0090.2.B">§</a>
+        <h3 class="item_no">B. </h3>
+        <p>All applications for alternative protection requirements shall be made on a form approved by the commissioner.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.1573.0090.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/103H.275">103H.275</a></p>
+  </div>
+  <div class="history" id="rule.1573.0090.history">
+    <h2>History: </h2>
+    <p>43 SR 1489</p>
+  </div>
+  <div class="published" id="rule.1573.0090.published">
+    <h2>Published Electronically:</h2>
+    <p> July 11, 2019</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
