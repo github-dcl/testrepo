@@ -1,0 +1,2304 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            4700.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/144">Health Department</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/4700/">Chapter 4700</a>
+            </li>
+        
+    
+        
+            <li>Part 4700.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/4700.0200/">4700.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/4700.0100/2014-01-18%2007:02:38+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 4700</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/4700/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/4700/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/4700/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 4700.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/4700.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.0100">
+    <h1 class="headnote repealed">4700.0100</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.0200">
+    <h1 class="headnote repealed">4700.0200</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.0300">
+    <h1 class="headnote repealed">4700.0300</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.0400">
+    <h1 class="headnote repealed">4700.0400</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.0500">
+    <h1 class="headnote repealed">4700.0500</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.0600">
+    <h1 class="headnote repealed">4700.0600</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.0700">
+    <h1 class="headnote repealed">4700.0700</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.0700.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.0800">
+    <h1 class="headnote repealed">4700.0800</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.0800.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.0900">
+    <h1 class="headnote repealed">4700.0900</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.0900.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.1000">
+    <h1 class="headnote repealed">4700.1000</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.1000.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.1100">
+    <h1 class="headnote repealed">4700.1100</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.1100.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.1200">
+    <h1 class="headnote repealed">4700.1200</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.1200.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.1300">
+    <h1 class="headnote repealed">4700.1300</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.1300.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.1400">
+    <h1 class="headnote repealed">4700.1400</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.1400.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.1500">
+    <h1 class="headnote repealed">4700.1500</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.1500.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.1600">
+    <h1 class="headnote repealed">4700.1600</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.1600.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.1700">
+    <h1 class="headnote repealed">4700.1700</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.1700.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.1800">
+    <h1 class="headnote repealed">4700.1800</h1>
+    <p>[Repealed, 18 SR 2044]</p>
+  </div>
+  <div class="published" id="rule.4700.1800.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.1900">
+    <h1 class="headnote">4700.1900 PURPOSE, SCOPE, AND APPLICABILITY.</h1>
+    <p>The purpose and scope of parts <a href="/rules/4700.1900">4700.1900</a> to <a href="/rules/4700.2500">4700.2500</a> is to prescribe requirements applicable to family planning special project grants, to establish minimum standards for family planning services supported in whole or in part by family planning special project grant funds, and to provide criteria for the review of family planning special project grant applications.</p>
+    <p>Minnesota Statutes, section <a href="/statutes/cite/145.925">145.925</a>, contains a provision prohibiting use of these funds for abortions, and for family planning services to unemancipated minors in an elementary or secondary school building; requiring notice to parents or guardians of unemancipated minors to whom abortion or sterilization is advised, except as provided in Minnesota Statutes, sections <a href="/statutes/cite/144.341">144.341</a> and <a href="/statutes/cite/144.342">144.342</a>; and prohibiting coercing anyone to undergo an abortion or sterilization.</p>
+  </div>
+  <div class="stat_auth" id="rule.4700.1900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.05">144.05</a>; <a href="/statutes/cite/144.12">144.12</a>; <a href="/statutes/cite/145.925">145.925</a></p>
+  </div>
+  <div class="history" id="rule.4700.1900.history">
+    <h2>History: </h2>
+    <p>12 SR 1562; 16 SR 170</p>
+  </div>
+  <div class="published" id="rule.4700.1900.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  <div class="part" id="rule.4700.2000">
+    
+    <h1 class="headnote">4700.2000 DEFINITIONS.</h1>
+    <div id="rule.4700.2000.1" class="subp"><a title="Link to subpart 1" class="permalink" href="#rule.4700.2000.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>For purposes of parts <a href="/rules/4700.1900">4700.1900</a> to <a href="/rules/4700.2500">4700.2500</a>, the following terms have the meanings given them in this part.</p>
+    </div>
+    <div id="rule.4700.2000.2" class="subp"><a title="Link to subpart 2" class="permalink" href="#rule.4700.2000.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Approvable application. </h2>
+      <p>"Approvable application" means an application which meets the criteria for award, as specified in part <a href="/rules/4700.2300">4700.2300</a>.</p>
+    </div>
+    <div id="rule.4700.2000.3" class="subp"><a title="Link to subpart 3" class="permalink" href="#rule.4700.2000.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Community health board. </h2>
+      <p>"Community health board" means a community health board established, operating, and eligible for a subsidy under Minnesota Statutes, sections <a href="/statutes/cite/145A.09">145A.09</a> to <a href="/statutes/cite/145A.13">145A.13</a>.</p>
+    </div>
+    <div id="rule.4700.2000.4" class="subp"><a title="Link to subpart 4" class="permalink" href="#rule.4700.2000.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Current award. </h2>
+      <p>"Current award" means the amount of family planning special project grant funds received in the year immediately preceding the one for which a new grant of family planning special project funds is requested.</p>
+    </div>
+    <div id="rule.4700.2000.5" class="subp"><a title="Link to subpart 5" class="permalink" href="#rule.4700.2000.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Current recipient. </h2>
+      <p>"Current recipient" means an agency receiving family planning special project grant funds in the year immediately preceding the one for which a new grant of family planning special project funds is requested.</p>
+    </div>
+    <div id="rule.4700.2000.6" class="subp"><a title="Link to subpart 6" class="permalink" href="#rule.4700.2000.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Family planning. </h2>
+      <p>"Family planning" means voluntary planning and action by individuals to attain or prevent pregnancy.</p>
+    </div>
+    <div id="rule.4700.2000.7" class="subp"><a title="Link to subpart 7" class="permalink" href="#rule.4700.2000.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Family planning methods. </h2>
+      <p>"Family planning methods" means agents and devices for the purpose of fertility regulation prescribed by a licensed physician, and other agents and devices for the purpose of fertility regulation including, spermicidal agents, diaphragms, condoms, oral contraceptives, intrauterine devices, natural family planning methods, sterilizations, and the diagnosis and treatment of infertility by a licensed physician, which can be paid for in whole or in part by family planning special project grant funds.</p>
+    </div>
+    <div id="rule.4700.2000.8" class="subp"><a title="Link to subpart 8" class="permalink" href="#rule.4700.2000.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Family planning services components. </h2>
+      <p>"Family planning services components" means the public information, outreach, counseling, method, referral, and follow-up categories under which all services provided by family planning service providers must be described. The minimum standards in part <a href="/rules/4700.2210">4700.2210</a> serve to define these components.</p>
+    </div>
+    <div id="rule.4700.2000.9" class="subp"><a title="Link to subpart 9" class="permalink" href="#rule.4700.2000.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">High risk person. </h2>
+      <p>"High risk person" means an individual whose age, health, prior pregnancy outcome, or socioeconomic status increases her chances of experiencing an unplanned pregnancy or problems during pregnancy. High risk persons include, but are not limited to, women under 18 or over 35; women who have experienced premature labor and delivery; women with existing health problems such as diabetes, anemia, and obesity; and persons whose individual or family income is determined to be at or below 200 percent of the official income poverty line as defined by United States Code, title 42, section 9902, and as published by the Federal Office of Management and Budget and revised annually in the Federal Register. A copy of the most current guideline is available from the Office of Planning and Evaluation, Department of Health and Human Services, Washington, D.C., 20201, (202) 245-6141.</p>
+    </div>
+    <div id="rule.4700.2000.10" class="subp"><a title="Link to subpart 10" class="permalink" href="#rule.4700.2000.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Linkages. </h2>
+      <p>"Linkages" means formal or informal arrangements between the applicant and other family planning providers including contracts, reciprocal referral agreements, and committees.</p>
+    </div>
+    <div id="rule.4700.2000.11" class="subp"><a title="Link to subpart 11" class="permalink" href="#rule.4700.2000.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">New applicant. </h2>
+      <p>"New applicant" means an agency which did not receive family planning special project funds in the year immediately preceding the one for which a grant of family planning special project funds is requested.</p>
+    </div>
+    <div id="rule.4700.2000.12" class="subp"><a title="Link to subpart 12" class="permalink" href="#rule.4700.2000.12">§</a>
+      <h2 class="subp_no">Subp. 12.</h2>
+      <h2 class="headnote">Provide. </h2>
+      <p>"Provide" means to directly supply or render or to pay for in whole or in part.</p>
+    </div>
+    <div id="rule.4700.2000.13" class="subp"><a title="Link to subpart 13" class="permalink" href="#rule.4700.2000.13">§</a>
+      <h2 class="subp_no">Subp. 13.</h2>
+      <h2 class="headnote">Publicly subsidized. </h2>
+      <p>"Publicly subsidized" means funded by federal, state, county, or city tax dollars, but does not include title XIX of the Social Security Act medical assistance funds.</p>
+    </div>
+    <div id="rule.4700.2000.14" class="subp"><a title="Link to subpart 14" class="permalink" href="#rule.4700.2000.14">§</a>
+      <h2 class="subp_no">Subp. 14.</h2>
+      <h2 class="headnote">Region. </h2>
+      <p>"Region" means that group of counties represented by a single person on the executive committee of the State Community Health Advisory Committee. The counties in each region are as follows:</p>
+      <table>
+        <col style="width:33.3333333333333%"><col style="width:33.3333333333333%"><col style="width:33.3333333333333%">
+          
+          
+          
+          
+            <tr>
+              <td>Northeastern</td>
+              <td>Northwestern</td>
+              <td>West Central</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Aitkin</td>
+              <td>Becker</td>
+              <td>Clay</td>
+            </tr>
+            <tr>
+              <td>Carlton</td>
+              <td>Beltrami</td>
+              <td>Douglas</td>
+            </tr>
+            <tr>
+              <td>Cook</td>
+              <td>Clearwater</td>
+              <td>Grant</td>
+            </tr>
+            <tr>
+              <td>Itasca</td>
+              <td>Hubbard</td>
+              <td>Otter Tail</td>
+            </tr>
+            <tr>
+              <td>Koochiching</td>
+              <td>Kittson</td>
+              <td>Pope</td>
+            </tr>
+            <tr>
+              <td>Lake</td>
+              <td>Lake of the Woods</td>
+              <td>Stevens</td>
+            </tr>
+            <tr>
+              <td>Saint Louis</td>
+              <td>Mahnomen</td>
+              <td>Traverse</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Marshall</td>
+              <td>Wilkin</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Norman</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Pennington</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Polk</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Red Lake</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Roseau</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Central</td>
+              <td>Metro</td>
+              <td>South Central</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Benton</td>
+              <td>Anoka</td>
+              <td>Blue Earth</td>
+            </tr>
+            <tr>
+              <td>Cass</td>
+              <td>Carver</td>
+              <td>Brown</td>
+            </tr>
+            <tr>
+              <td>Chisago</td>
+              <td>Dakota</td>
+              <td>Faribault</td>
+            </tr>
+            <tr>
+              <td>Crow Wing</td>
+              <td>Hennepin</td>
+              <td>Le Sueur</td>
+            </tr>
+            <tr>
+              <td>Isanti</td>
+              <td>Ramsey</td>
+              <td>McLeod</td>
+            </tr>
+            <tr>
+              <td>Kanabec</td>
+              <td>Scott</td>
+              <td>Martin</td>
+            </tr>
+            <tr>
+              <td>Mille Lacs</td>
+              <td>Washington</td>
+              <td>Meeker</td>
+            </tr>
+            <tr>
+              <td>Morrison</td>
+              <td></td>
+              <td>Nicollet</td>
+            </tr>
+            <tr>
+              <td>Pine</td>
+              <td></td>
+              <td>Sibley</td>
+            </tr>
+            <tr>
+              <td>Sherburne</td>
+              <td></td>
+              <td>Waseca</td>
+            </tr>
+            <tr>
+              <td>Stearns</td>
+              <td></td>
+              <td>Watonwan</td>
+            </tr>
+            <tr>
+              <td>Todd</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Wadena</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Wright</td>
+              <td></td>
+              <td></td>
+            </tr>
+          
+        
+      </table>
+      <table>
+        <col style="width:50%"><col style="width:50%">
+          
+          
+          
+            <tr>
+              <td>Southeastern</td>
+              <td>Southwestern</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Dodge</td>
+              <td>Big Stone</td>
+            </tr>
+            <tr>
+              <td>Fillmore</td>
+              <td>Chippewa</td>
+            </tr>
+            <tr>
+              <td>Freeborn</td>
+              <td>Cottonwood</td>
+            </tr>
+            <tr>
+              <td>Goodhue</td>
+              <td>Jackson</td>
+            </tr>
+            <tr>
+              <td>Houston</td>
+              <td>Kandiyohi</td>
+            </tr>
+            <tr>
+              <td>Mower</td>
+              <td>Lac Qui Parle</td>
+            </tr>
+            <tr>
+              <td>Olmsted</td>
+              <td>Lincoln</td>
+            </tr>
+            <tr>
+              <td>Rice</td>
+              <td>Lyon</td>
+            </tr>
+            <tr>
+              <td>Steele</td>
+              <td>Murray</td>
+            </tr>
+            <tr>
+              <td>Wabasha</td>
+              <td>Nobles</td>
+            </tr>
+            <tr>
+              <td>Winona</td>
+              <td>Pipestone</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Redwood</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Renville</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Rock</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Swift</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Yellow Medicine</td>
+            </tr>
+          
+        
+      </table>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.4700.2000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.05">144.05</a>; <a href="/statutes/cite/144.12">144.12</a>; <a href="/statutes/cite/145.925">145.925</a>
+    </p>
+  </div>
+  <div class="history" id="rule.4700.2000.history">
+    <h2>History: </h2>
+    <p>12 SR 1562; 16 SR 170; L 2015 c 21 art 1 s 109</p>
+  </div>
+  <div class="published" id="rule.4700.2000.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2015</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.2100">
+    <h1 class="headnote">4700.2100 CONTENT OF APPLICATION.</h1>
+    <p>The application shall identify the geographic area to be served by the applicant and shall provide the following required information:</p>
+    <div id="rule.4700.2100.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.4700.2100.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> An inventory of existing family planning services provider agencies in the geographic area served by the applicant. The inventory shall include, for each provider agency, at least the agency name; addresses of all agency service sites; the target population served, including total number served if available (if unavailable, estimates will be acceptable); and the family planning service components provided.</p>
+    </div>
+    <div id="rule.4700.2100.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.4700.2100.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> An assessment of unmet needs of the geographic area to be served by the applicant. The assessment of unmet needs must, at least, identify unavailable family planning service components or unserved or underserved populations. A description of the method used in making the assessment shall be provided by the applicant.</p>
+    </div>
+    <div id="rule.4700.2100.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.4700.2100.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> A description of the family planning service components to be provided by the applicant. Each component to be provided with family planning special project funds must meet the standards for that component described in part <a href="/rules/4700.2210">4700.2210</a>. The application must include a budget and budget justification and summary of applicable training or experience of persons providing services relevant to these components. Also, for each component provided, the application must describe:</p>
+      <div id="rule.4700.2100.C.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.4700.2100.C.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> the goals;</p>
+      </div>
+      <div id="rule.4700.2100.C.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.4700.2100.C.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> the population to be served (target population);</p>
+      </div>
+      <div id="rule.4700.2100.C.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.4700.2100.C.3">§</a>
+        <h4 class="subitem_no">(3)</h4>
+        <p> the specific objectives to be achieved during the funding period;</p>
+      </div>
+      <div id="rule.4700.2100.C.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.4700.2100.C.4">§</a>
+        <h4 class="subitem_no">(4)</h4>
+        <p> the methods by which each objective will be achieved; and</p>
+      </div>
+      <div id="rule.4700.2100.C.5" class="subitem">
+        <a title="Link to subitem 5" class="permalink" href="#rule.4700.2100.C.5">§</a>
+        <h4 class="subitem_no">(5)</h4>
+        <p> the criteria to be used to evaluate the progress towards each objective.</p>
+      </div>
+    </div>
+    <div id="rule.4700.2100.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.4700.2100.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> A description of the linkages between the applicant and other family planning services in the geographic area.</p>
+    </div>
+    <div id="rule.4700.2100.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.4700.2100.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> A description of fees to be charged individuals for any family planning services. Fees must be charged for services to individuals and must be in accordance with a sliding fee schedule for services and supplies based on the cost of such services or supplies and on the individual's ability to pay as determined by income, family size, and other relevant factors. Services shall not be denied based on ability to pay as specified in item H.</p>
+    </div>
+    <div id="rule.4700.2100.F" class="item">
+      <a title="Link to item F" class="permalink" href="#rule.4700.2100.F">§</a>
+      <h3 class="item_no">F.</h3>
+      <p> Assurance that services will be provided in accordance with state and federal laws and rules.</p>
+    </div>
+    <div id="rule.4700.2100.G" class="item">
+      <a title="Link to item G" class="permalink" href="#rule.4700.2100.G">§</a>
+      <h3 class="item_no">G.</h3>
+      <p> Assurance that the use of third-party sources of funding will be employed whenever possible.</p>
+    </div>
+    <div id="rule.4700.2100.H" class="item">
+      <a title="Link to item H" class="permalink" href="#rule.4700.2100.H">§</a>
+      <h3 class="item_no">H.</h3>
+      <p> Assurance that services will be provided without regard to age, sex, race, religion, marital status, income level, residence, parity, or presence or degree of disability except as otherwise required by law.</p>
+    </div>
+    <div id="rule.4700.2100.I" class="item">
+      <a title="Link to item I" class="permalink" href="#rule.4700.2100.I">§</a>
+      <h3 class="item_no">I.</h3>
+      <p> Assurance that arrangements shall be made for communication to take place in a language understood by the family planning service recipient.</p>
+    </div>
+    <div id="rule.4700.2100.J" class="item">
+      <a title="Link to item J" class="permalink" href="#rule.4700.2100.J">§</a>
+      <h3 class="item_no">J.</h3>
+      <p> Assurance that the privacy of the service recipient will be maintained in accordance with law.</p>
+    </div>
+    <div id="rule.4700.2100.K" class="item">
+      <a title="Link to item K" class="permalink" href="#rule.4700.2100.K">§</a>
+      <h3 class="item_no">K.</h3>
+      <p> Original signature on face sheet and budget forms.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.4700.2100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.05">144.05</a>; <a href="/statutes/cite/144.12">144.12</a>; <a href="/statutes/cite/145.925">145.925</a></p>
+  </div>
+  <div class="history" id="rule.4700.2100.history">
+    <h2>History: </h2>
+    <p>12 SR 1562; 16 SR 170</p>
+  </div>
+  <div class="published" id="rule.4700.2100.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.2200">
+    <h1 class="headnote repealed">4700.2200</h1>
+    <p>[Repealed, 12 SR 1562]</p>
+  </div>
+  <div class="published" id="rule.4700.2200.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.2210">
+    <h1 class="headnote">4700.2210 MINIMUM STANDARDS FOR FAMILY PLANNING SERVICE COMPONENTS.</h1>
+    <p>An applicant is not required to provide all components to be eligible for funding. However, the applicant must make available the names and addresses of other family planning services provider agencies in the geographic area, if any, who offer components and services not offered by the applicant.</p>
+    <p>All funded projects must establish linkages to facilitate access to outreach, counseling, and other component services for service recipients.</p>
+    <p>Procedures for referral and follow-up must be incorporated into all services that are provided by the applicant on a one-to-one basis.</p>
+    <p>The provision of all service components except public information shall include information on family planning services available from the applicant.</p>
+    <p>Service components to be provided by the applicant shall be defined by, and shall meet or exceed, the following minimum standards:</p>
+    <div id="rule.4700.2210.A" class="item">
+      <a title="Link to item A" class="permalink" href="#rule.4700.2210.A">§</a>
+      <h3 class="item_no">A.</h3>
+      <p> Public information must include specific activities designed to inform the general population about family planning and how to obtain information on all family planning service components available in the geographic area.</p>
+    </div>
+    <div id="rule.4700.2210.B" class="item">
+      <a title="Link to item B" class="permalink" href="#rule.4700.2210.B">§</a>
+      <h3 class="item_no">B.</h3>
+      <p> Outreach must include specific activities designed to inform members of the target population about family planning and all the family planning service components available in the geographic area. Outreach activities shall include one-to-one or small group contacts with the target population.</p>
+      <p>Outreach must be conducted at times and places convenient to the target population. Persons conducting outreach shall have training or experience in family planning services.</p>
+    </div>
+    <div id="rule.4700.2210.C" class="item">
+      <a title="Link to item C" class="permalink" href="#rule.4700.2210.C">§</a>
+      <h3 class="item_no">C.</h3>
+      <p> Counseling must include utilization of nondirective techniques in a decision-making format which enables individuals to voluntarily determine their participation in family planning services and their family planning method of choice, if any. "Nondirective techniques" means techniques that employ open-ended questions to enable individuals to consider their feelings, attitudes, and values about alternatives and outcomes. A decision-making format means a format that allows individuals to consider alternatives and outcomes, weigh advantages and disadvantages, and make choices.</p>
+      <p>When individuals are seeking to prevent pregnancy, counseling shall include the provision and explanation of factual information on all family planning pregnancy prevention methods in a nonjudgmental manner. "Nonjudgmental manner" means a manner in which the counselor's personal values and beliefs do not interfere with the client's choices.</p>
+      <p>When individuals are seeking to attain pregnancy, counseling shall include the provision and explanation of factual information on infertility diagnosis and treatment and services for pregnant women available in the geographic area.</p>
+      <p>Counseling shall be available to any individual in the target population and shall be conducted at times and places convenient to the target population.</p>
+      <p>Counseling shall include documentation that information required in Minnesota Statutes, section <a href="/statutes/cite/145.925">145.925</a>, has been provided. Counseling shall be conducted by persons with training or experience in counseling and family planning services.</p>
+    </div>
+    <div id="rule.4700.2210.D" class="item">
+      <a title="Link to item D" class="permalink" href="#rule.4700.2210.D">§</a>
+      <h3 class="item_no">D.</h3>
+      <p> Method must include the provision to a service recipient of the recipient's family planning method of choice. Provision of any family planning method must include:</p>
+      <div id="rule.4700.2210.D.1" class="subitem">
+        <a title="Link to subitem 1" class="permalink" href="#rule.4700.2210.D.1">§</a>
+        <h4 class="subitem_no">(1)</h4>
+        <p> procedures which document that the service recipient participated in counseling prior to selecting a family planning method to prevent pregnancy;</p>
+      </div>
+      <div id="rule.4700.2210.D.2" class="subitem">
+        <a title="Link to subitem 2" class="permalink" href="#rule.4700.2210.D.2">§</a>
+        <h4 class="subitem_no">(2)</h4>
+        <p> voluntary selection of the family planning method by the service recipient;</p>
+      </div>
+      <div id="rule.4700.2210.D.3" class="subitem">
+        <a title="Link to subitem 3" class="permalink" href="#rule.4700.2210.D.3">§</a>
+        <h4 class="subitem_no">(3)</h4>
+        <p> information on the advisability of females obtaining a gynecological examination with Pap smear prior to initiating any family planning method;</p>
+      </div>
+      <div id="rule.4700.2210.D.4" class="subitem">
+        <a title="Link to subitem 4" class="permalink" href="#rule.4700.2210.D.4">§</a>
+        <h4 class="subitem_no">(4)</h4>
+        <p> education on the use of the selected family planning method, including the risks and benefits of the method; and</p>
+      </div>
+      <div id="rule.4700.2210.D.5" class="subitem">
+        <a title="Link to subitem 5" class="permalink" href="#rule.4700.2210.D.5">§</a>
+        <h4 class="subitem_no">(5)</h4>
+        <p> medical/laboratory services prior to the provision of a family planning method when the selected method requires medical intervention for prescription, fitting, insertion, or for surgical or diagnostic procedures. When the selected method does not require medical intervention, as described herein, the applicant shall encourage service recipients to obtain medical/laboratory services, but provision by the applicant is not required. Medical/laboratory services shall include:</p>
+        <div id="rule.4700.2210.D.5.a" class="unit">
+          <a title="Link to unit a" class="permalink" href="#rule.4700.2210.D.5.a">§</a>
+          <h5 class="unit_no">(a)</h5>
+          <p> social and medical/surgical history with emphasis on the reproductive system;</p>
+        </div>
+        <div id="rule.4700.2210.D.5.b" class="unit">
+          <a title="Link to unit b" class="permalink" href="#rule.4700.2210.D.5.b">§</a>
+          <h5 class="unit_no">(b)</h5>
+          <p> height, weight, and blood pressure measures;</p>
+        </div>
+        <div id="rule.4700.2210.D.5.c" class="unit">
+          <a title="Link to unit c" class="permalink" href="#rule.4700.2210.D.5.c">§</a>
+          <h5 class="unit_no">(c)</h5>
+          <p> bimanual pelvic examination for females;</p>
+        </div>
+        <div id="rule.4700.2210.D.5.d" class="unit">
+          <a title="Link to unit d" class="permalink" href="#rule.4700.2210.D.5.d">§</a>
+          <h5 class="unit_no">(d)</h5>
+          <p> breast examination and instruction on self-examination for females;</p>
+        </div>
+        <div id="rule.4700.2210.D.5.e" class="unit">
+          <a title="Link to unit e" class="permalink" href="#rule.4700.2210.D.5.e">§</a>
+          <h5 class="unit_no">(e)</h5>
+          <p> hemoglobin or hematocrit;</p>
+        </div>
+        <div id="rule.4700.2210.D.5.f" class="unit">
+          <a title="Link to unit f" class="permalink" href="#rule.4700.2210.D.5.f">§</a>
+          <h5 class="unit_no">(f)</h5>
+          <p> urinalysis for sugar and protein;</p>
+        </div>
+        <div id="rule.4700.2210.D.5.g" class="unit">
+          <a title="Link to unit g" class="permalink" href="#rule.4700.2210.D.5.g">§</a>
+          <h5 class="unit_no">(g)</h5>
+          <p> Pap smear; and</p>
+        </div>
+        <div id="rule.4700.2210.D.5.h" class="unit">
+          <a title="Link to unit h" class="permalink" href="#rule.4700.2210.D.5.h">§</a>
+          <h5 class="unit_no">(h)</h5>
+          <p> when indicated by history or symptoms, for both male and female as appropriate, diagnosis and curative treatment of venereal disease, diagnosis and treatment of vaginitis, diagnosis of pregnancy, and for females, as appropriate, provision of rubella immunization.</p>
+          <p>Medical services shall be rendered by licensed physicians, or professional nurses with documentable training in gynecological care conducted under the supervision of a licensed physician, or nurse midwives certified by the American College of Nurse Midwifery, or physician assistants, under the supervision of a licensed physician. Laboratory tests shall be conducted by personnel trained to conduct such tests.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.4700.2210.E" class="item">
+      <a title="Link to item E" class="permalink" href="#rule.4700.2210.E">§</a>
+      <h3 class="item_no">E.</h3>
+      <p> Referral must include the provision, in writing, of information to service recipients which enables them to participate in family planning and other needed health and human services. Documentation of referrals must be maintained.</p>
+    </div>
+    <div id="rule.4700.2210.F" class="item">
+      <a title="Link to item F" class="permalink" href="#rule.4700.2210.F">§</a>
+      <h3 class="item_no">F.</h3>
+      <p> Follow-up must include specific procedures of continuing care designed to encourage safe and consistent utilization of family planning and other needed health and human services, using protocols based on accepted professional standards of care.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.4700.2210.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/145.925">145.925</a>; <a href="/statutes/cite/144.05">144.05</a></p>
+  </div>
+  <div class="history" id="rule.4700.2210.history">
+    <h2>History: </h2>
+    <p>12 SR 1562; L 2014 c 291 art 4 s 58</p>
+  </div>
+  <div class="published" id="rule.4700.2210.published">
+    <h2>Published Electronically:</h2>
+    <p> July 3, 2014</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.2300">
+    <h1 class="headnote">4700.2300 CRITERIA FOR AWARD OF FAMILY PLANNING SPECIAL PROJECT GRANTS.</h1>
+    <div id="rule.4700.2300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.4700.2300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Application criteria. </h2>
+      <p>Applications which meet the requirements of law and parts <a href="/rules/4700.1900">4700.1900</a> to <a href="/rules/4700.2500">4700.2500</a> shall be deemed approvable applications and eligible for award according to the notice of availability and the following criteria.</p>
+    </div>
+    <div id="rule.4700.2300.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.4700.2300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 16 SR 170]</p>
+    </div>
+    <div id="rule.4700.2300.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.4700.2300.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Quality and content. </h2>
+      <p>Applications will be evaluated on the basis of:</p>
+      <div id="rule.4700.2300.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.4700.2300.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> the extent the funds will be used to meet unmet needs in the geographic area as identified in the application;</p>
+      </div>
+      <div id="rule.4700.2300.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.4700.2300.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> the extent the application proposes an identifiable expansion in the scope of the family planning service system in the geographic area to be served by the applicant;</p>
+      </div>
+      <div id="rule.4700.2300.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.4700.2300.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> the extent the application proposes to coordinate family planning services with organizations, agencies, and individual providers in the geographic area to be served;</p>
+      </div>
+      <div id="rule.4700.2300.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.4700.2300.3.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> the extent the application proposes to serve high risk persons;</p>
+      </div>
+      <div id="rule.4700.2300.3.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.4700.2300.3.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> the extent the application proposes to maximize use of alternative sources of funding; and</p>
+      </div>
+      <div id="rule.4700.2300.3.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.4700.2300.3.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> the extent the application proposes to provide family planning methods according to part <a href="/rules/4700.2210">4700.2210</a>, item D.</p>
+      </div>
+    </div>
+    <div id="rule.4700.2300.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.4700.2300.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Agency. </h2>
+      <p>When equivalent and competing applications are submitted for a geographic area, award priorities will be in accordance with the following:</p>
+      <div id="rule.4700.2300.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.4700.2300.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> first priority will be given to community health boards; and</p>
+      </div>
+      <div id="rule.4700.2300.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.4700.2300.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> second priority will be given to eligible nonprofit corporations.</p>
+      </div>
+    </div>
+    <div id="rule.4700.2300.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.4700.2300.4">§</a>
+      <h2 class="subp_no">Subp. 4a.</h2>
+      <h2 class="headnote">Priority. </h2>
+      <p>Current recipients of family planning special project funds will not be accorded any priority over new applicants.</p>
+    </div>
+    <div id="rule.4700.2300.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.4700.2300.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Review and comment by community health board. </h2>
+      <p>Before submission to the commissioner, the applicant shall submit the proposal to the community health board responsible for the geographic area in which the applicant proposes to provide its services, for the community health board's review and comment. The community health board's comments shall address the application based on the criteria in subpart 3. Any comments of a community health board shall be submitted to the commissioner within 45 days of the date the proposal was received by the community health board.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.4700.2300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.05">144.05</a>; <a href="/statutes/cite/144.12">144.12</a>; <a href="/statutes/cite/145.925">145.925</a></p>
+  </div>
+  <div class="history" id="rule.4700.2300.history">
+    <h2>History: </h2>
+    <p>L 1977 c 305 s 39; 12 SR 1562; L 1987 c 309 s 24; 16 SR 170</p>
+  </div>
+  <div class="published" id="rule.4700.2300.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.2400">
+    <h1 class="headnote repealed">4700.2400</h1>
+    <p>[Repealed, 16 SR 170]</p>
+  </div>
+  <div class="published" id="rule.4700.2400.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.2410">
+    <h1 class="headnote">4700.2410 ALLOCATION SCHEME.</h1>
+    <div id="rule.4700.2410.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.4700.2410.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Family planning hotline grant. </h2>
+      <p>Five percent of the total annual funds available or $100,000 per year, whichever is less, must be allocated for a statewide family planning hotline. Applications must contain identifiable plans and budget allocations for both the operation of the hotline and its promotion statewide. If the grant award is not for the full amount of funds allocated under this subpart, the funds remaining must be reallocated for distribution under subpart 2.</p>
+    </div>
+    <div id="rule.4700.2410.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.4700.2410.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Family planning services grants. </h2>
+      <p>The portion of the total funds remaining after the distribution made under subpart 1 must be allocated according to this subpart. Except as provided in part <a href="/rules/4700.2420">4700.2420</a>, subpart 4, the family planning special project grant funds must be allocated on a regional basis according to the following needs-based distribution formula.</p>
+      <div id="rule.4700.2410.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.4700.2410.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Determine the regional need by totaling the following three factors:</p>
+        <div id="rule.4700.2410.2.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.4700.2410.2.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> the number of resident women within the region who are 12 to 18 years of age, determined by using Department of Health data from the most recent year for which it is available;</p>
+        </div>
+        <div id="rule.4700.2410.2.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.4700.2410.2.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> the number of resident women within the region 19 to 34 years of age who are on medical assistance as determined by using Department of Human Services data from the most recent year for which it is available; and</p>
+        </div>
+        <div id="rule.4700.2410.2.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.4700.2410.2.A.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> the number of resident women within the region who are 35 to 44 years of age as determined by using Department of Health data from the most recent year for which it is available.</p>
+        </div>
+      </div>
+      <div id="rule.4700.2410.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.4700.2410.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Compute the regional proportion of the total state need for services by totaling the three factors in item A for each region and dividing each regional total by the sum of the three factors for the entire state.</p>
+      </div>
+      <div id="rule.4700.2410.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.4700.2410.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Calculate the amount of family planning special project grant funds available for each region by multiplying its regional proportion by the total amount of money available for family planning special projects under this subpart.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.4700.2410.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.05">144.05</a>; <a href="/statutes/cite/144.12">144.12</a>; <a href="/statutes/cite/145.925">145.925</a></p>
+  </div>
+  <div class="history" id="rule.4700.2410.history">
+    <h2>History: </h2>
+    <p>16 SR 170</p>
+  </div>
+  <div class="published" id="rule.4700.2410.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.2420">
+    <h1 class="headnote">4700.2420 FAMILY PLANNING SERVICES GRANT FUNDING.</h1>
+    <div id="rule.4700.2420.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.4700.2420.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Funding limit. </h2>
+      <p>An applicant, other than an applicant for a family planning hotline grant, shall be limited to an annual application request of $75,000 per region. Two or more agencies may submit a joint application; each agency that is a party to it shall be limited to an annual application request of $75,000 for each region covered by the joint application.</p>
+    </div>
+    <div id="rule.4700.2420.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.4700.2420.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Grant allocations. </h2>
+      <p>The applications, other than those for a family planning hotline grant, must be ranked in order within each region from highest to lowest based on the criteria for award in part <a href="/rules/4700.2300">4700.2300</a>. The applications must be funded in rank order from highest to lowest until all available funds for the region are allocated.</p>
+    </div>
+    <div id="rule.4700.2420.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.4700.2420.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Funding awards. </h2>
+      <p>If the amount requested by any applicant is more than that reasonably required to provide the proposed services, or if the proposed services are not based on part <a href="/rules/4700.2210">4700.2210</a> or <a href="/rules/4700.2300">4700.2300</a>, the commissioner must either deny funding or award less than the amount the applicant requested. When the commissioner decides to award less than requested, the applicant must submit a revised description of the target population, methodologies, budget, or budget justification as required by the commissioner to receive funding.</p>
+    </div>
+    <div id="rule.4700.2420.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.4700.2420.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Contingency funding. </h2>
+      <p>If any of the conditions in items A to D exist, the commissioner shall redistribute the funds according to this subpart.</p>
+      <div id="rule.4700.2420.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.4700.2420.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> If funds remain available in a region after all approvable applications are funded according to this part, the commissioner shall redistribute the funds to the other regions, proportional to their share of funding need, based upon the process stated in part <a href="/rules/4700.2410">4700.2410</a>, subpart 2. The redistributed funds shall be awarded according to subpart 2.</p>
+      </div>
+      <div id="rule.4700.2420.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.4700.2420.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Funds remaining available after all approvable applications are funded at the funding limit in subpart 1, and awarded according to subpart 2, will be proportionally distributed to all applicants with approvable applications. In order to receive additional funds, an applicant with an approvable application must submit a revised description of the target population, objectives, methodologies, budget, and budget justification to the commissioner within 60 days after receiving notice of the availability of additional funds.</p>
+      </div>
+      <div id="rule.4700.2420.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.4700.2420.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> If the department funds for family planning special project grants are increased after awards have been made under part <a href="/rules/4700.2410">4700.2410</a>, subpart 1, or <a href="/rules/4700.2420">4700.2420</a>, subparts 2 to 4, funds must first be allocated to the family planning hotline grant recipient within the funding limits specified in part <a href="/rules/4700.2410">4700.2410</a>, subpart 1. Remaining funds must then be distributed to the regions proportional to their share of funding need as determined according to part <a href="/rules/4700.2410">4700.2410</a>, subpart 2, and awarded according to part <a href="/rules/4700.2420">4700.2420</a>, subparts 2 to 4.</p>
+      </div>
+      <div id="rule.4700.2420.4.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.4700.2420.4.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> If department funds for family planning special project grants are reduced after awards have been made under this subpart or subpart 2 and part <a href="/rules/4700.2410">4700.2410</a>, subpart 1, all awards must be reduced proportionate to the department's reduction in these funds. A grant award recipient must submit a revised description of the target population, objectives, methodologies, budget, and budget justification to the commissioner within 60 days after receiving notice of reduced awards.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.4700.2420.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.05">144.05</a>; <a href="/statutes/cite/144.12">144.12</a>; <a href="/statutes/cite/145.925">145.925</a></p>
+  </div>
+  <div class="history" id="rule.4700.2420.history">
+    <h2>History: </h2>
+    <p>16 SR 170</p>
+  </div>
+  <div class="published" id="rule.4700.2420.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.2500">
+    <h1 class="headnote">4700.2500 USE OF STATE FUNDS AVAILABLE FOR FAMILY PLANNING SPECIAL PROJECT GRANTS.</h1>
+    <p>Family planning special project grant recipients may not replace funds from other sources, such as existing federal, state, or local funds which the recipient uses for family planning information or services and over which the recipient exercises discretion, with family planning special project grant funds. Recipients are not required to match funds available under family planning special project grants.</p>
+  </div>
+  <div class="stat_auth" id="rule.4700.2500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/144.05">144.05</a>; <a href="/statutes/cite/144.12">144.12</a>; <a href="/statutes/cite/145.925">145.925</a></p>
+  </div>
+  <div class="history" id="rule.4700.2500.history">
+    <h2>History: </h2>
+    <p>12 SR 1562; 16 SR 170</p>
+  </div>
+  <div class="published" id="rule.4700.2500.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.2550">
+    <h1 class="headnote repealed">4700.2550</h1>
+    <p>[Repealed, 16 SR 170]</p>
+  </div>
+  <div class="published" id="rule.4700.2550.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.2600">
+    <h1 class="headnote repealed">4700.2600</h1>
+    <p>[Repealed, 28 SR 1249]</p>
+  </div>
+  <div class="published" id="rule.4700.2600.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.2700">
+    <h1 class="headnote repealed">4700.2700</h1>
+    <p>[Repealed, 28 SR 1249]</p>
+  </div>
+  <div class="published" id="rule.4700.2700.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.2800">
+    <h1 class="headnote repealed">4700.2800</h1>
+    <p>[Repealed, 28 SR 1249]</p>
+  </div>
+  <div class="published" id="rule.4700.2800.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.2900">
+    <h1 class="headnote repealed">4700.2900</h1>
+    <p>[Repealed, 28 SR 1249]</p>
+  </div>
+  <div class="published" id="rule.4700.2900.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.3000">
+    <h1 class="headnote repealed">4700.3000</h1>
+    <p>[Repealed, 28 SR 1249]</p>
+  </div>
+  <div class="published" id="rule.4700.3000.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.3100">
+    <h1 class="headnote repealed">4700.3100</h1>
+    <p>[Repealed, 28 SR 1249]</p>
+  </div>
+  <div class="published" id="rule.4700.3100.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.3200">
+    <h1 class="headnote repealed">4700.3200</h1>
+    <p>[Repealed, 28 SR 1249]</p>
+  </div>
+  <div class="published" id="rule.4700.3200.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.3300">
+    <h1 class="headnote repealed">4700.3300</h1>
+    <p>[Repealed, 28 SR 1249]</p>
+  </div>
+  <div class="published" id="rule.4700.3300.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.3400">
+    <h1 class="headnote repealed">4700.3400</h1>
+    <p>[Repealed, 28 SR 1249]</p>
+  </div>
+  <div class="published" id="rule.4700.3400.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.3500">
+    <h1 class="headnote repealed">4700.3500</h1>
+    <p>[Repealed, 28 SR 1249]</p>
+  </div>
+  <div class="published" id="rule.4700.3500.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.3600">
+    <h1 class="headnote repealed">4700.3600</h1>
+    <p>[Repealed, 28 SR 1249]</p>
+  </div>
+  <div class="published" id="rule.4700.3600.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.3700">
+    <h1 class="headnote repealed">4700.3700</h1>
+    <p>[Repealed, 28 SR 1249]</p>
+  </div>
+  <div class="published" id="rule.4700.3700.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.3800">
+    <h1 class="headnote repealed">4700.3800</h1>
+    <p>[Repealed, 28 SR 1249]</p>
+  </div>
+  <div class="published" id="rule.4700.3800.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.3900">
+    <h1 class="headnote repealed">4700.3900</h1>
+    <p>[Repealed, 28 SR 1249]</p>
+  </div>
+  <div class="published" id="rule.4700.3900.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.4700.4000">
+    <h1 class="headnote repealed">4700.4000</h1>
+    <p>[Repealed, 28 SR 1249]</p>
+  </div>
+  <div class="published" id="rule.4700.4000.published">
+    <h2>Published Electronically:</h2>
+    <p> April 19, 2004</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
