@@ -1,0 +1,2434 @@
+﻿
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <title>
+          
+            9100.0100 - MN Rules Part
+          
+        </title>
+        <meta charset="utf-8">  <!-- for html5 -->
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+        <meta content="ie=edge" http-equiv="x-ua-compatible">
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.fc0fab4ce1bd.css" rel="stylesheet">
+        <link href="/static/css/app.ed0baecedd9b.css" rel="stylesheet"><!-- jQuery first, then Bootstrap JS. -->
+        <link href="/static/css/revisor_bootstrap.d2560d786bf3.css" rel="stylesheet">
+        <link href="/static/css/navbar-form.9b79c3162fce.css" rel="stylesheet">
+
+        
+        
+    <link rel="stylesheet" type="text/css" media="screen, print" href="/static/css/rules.ab4e26a0dbd0.css">
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script src="/static/js/getParameterByName.389499b914e2.js"></script>
+        <script src="/static/js/calendar.30ab51c1ef37.js"></script>
+        <script src="/static/js/navbarhelper.902f6d14acd9.js"></script>
+        <script src="/static/js/bootstrapWindowHelper.edaded00b9f8.js"></script>
+        <script defer="" src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+        <script type="text/javascript" src="/static/js/intranet.ec221bd1d155.js"></script>
+
+        <!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="/static/js/jquery.sticky.112dbba9abde.js"></script>
+        <script type="text/javascript" src="/static/js/leg_core.53fa613c203c.js"></script>
+        <script type="text/javascript" src="/static/js/revisor.61e15eed7ef1.js"></script>
+        <script type="text/javascript" src="/static/js/spin.js.fa15355d4ba1.js"></script>-->
+        
+        <script type="text/javascript" src="/static/js/base_js.87d462ebc92a.js"></script>
+
+        
+       
+      </head>
+<body class="joint">
+
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20900283-1', 'mn.gov');
+    ga('require', 'linkid', 'linkid.js');
+    ga('send', 'pageview');
+
+    </script>
+
+
+<!--skip nav for accessibility-->
+      <a href="#legContainerMain" class="skip-navigation">Skip to main content</a>
+      <a href="#legSubNav" class="skip-navigation">Skip to office menu</a>
+      <a href="#legFooter" class="skip-navigation">Skip to footer</a>
+
+      <div class="container-fluid"> <!-- closing tag in footer -->
+
+       <div class="leg-brand-container bg-darkgray py-1 pl-0 d-print-none">
+           <div class="container pl-0 pl-md-3 d-print-none">
+             <a class="leg-brand-text text-white" href="https://www.leg.state.mn.us/">
+                <img src="/static/images/capitol2.bfdc60e0b266.svg" alt="Capital Icon" style="margin-top:-8px; opacity: 0.95;height:24px" class="mr-1">Minnesota Legislature
+            </a>
+
+               <form class="form-inline float-right ml-auto d-none d-md-block p-0">
+	                <a href="https://www.leg.state.mn.us/search.aspx" class="text-white js-search-adv mr-1 text-nowrap  btn btn-darkgray btn-sm" style="display: none;">Advanced Search</a>
+	                <label class="sr-only" for="main-search">Search Legislature</label>
+	                <input class="form-control form-control-sm align-top mr-2 js-search" id="main-search" name="search" style="display: none;" placeholder="Search..." type="text">
+	                <button class="js-search-btn btn btn-darkgray btn-sm"><i class="fas fa-search"></i><span class="p-1"> Search</span></button>
+	           </form>
+
+              <!-- <form class="form-inline float-sm-right ml-auto p-0 leg-search-form">
+              <div class="input-group py-0 mr-2 js-search">
+                <input type="text" class="form-control form-control-sm py-0" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary btn-sm js-search-btn" type="button"><i class="fas fa-search"></i></button>
+                </div>
+              </div>
+              </form>  -->
+
+
+
+           </div>
+       </div>
+
+        <!-- We can change *-dark to *-house, *-senate, *-joint and add that color to variables -->
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg px-0 py-1 d-block d-print-none">
+          <div class="container">
+              <div class="w-100 px-auto">
+                  <div class="col-12 position-static pl-sm-0 pl-md-3 pl-lg-0">
+                      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#top-nav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                      <span class="d-lg-none pl-1 text-white leg-menu-text" data-toggle="collapse" data-target="#top-nav">
+                          Menu</span>
+
+                      <div class="collapse navbar-collapse py-0" id="top-nav">
+                          <ul class="navbar-nav mt-2 mt-lg-0 px-2 pl-lg-0">
+                              <!--  <li class="nav-item mr-3">
+                                     <a  class="nav-link" data-parent="#top-nav"  href="https://www.leg.state.mn.us/">Legislature</a>
+                                   </li> -->
+
+                              <li class="nav-item">
+                                  <a aria-controls="houseExternalContent" aria-expanded="false" class="nav-link dropdown-toggle pl-0" data-parent="#top-nav" data-toggle="collapse" href="#houseExternalContent">House</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="houseExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.house.leg.state.mn.us/">Minnesota House of
+                                                      Representatives</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House Members and Staff</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/hmem.asp">House
+                                                              Members</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/houseleaders.asp">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/staff.asp">Staff</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/has/employment.asp">Employment</a>
+                                                      </dd>
+
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/comgrid.pdf">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3 ">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/cco.asp">Chief
+                                                              Clerk</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">Fiscal
+                                                              Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/hrd.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfo.asp">Public
+                                                              Information</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/sergeant.asp">Sergeant-at-Arms</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/caucuses.asp">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.htm">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/permrule/permrule.asp">House
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/rules/jtrule/jtrule.asp">Joint
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/sergeant/education.asp">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/pronunciation.asp">Pronunciation
+                                                              Guide</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/members/meminfo.xls">Address
+                                                              Spreadsheet</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="senateExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#senateExternalContent">Senate</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="senateExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.senate.mn/">Minnesota
+                                                      Senate</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Senators and Staff</dt>
+                                                      <dd><a href="https://www.senate.mn/members/index.php">Senators</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/index.php?tab=leader">Leadership</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/employees/index.php">Staff</a></dd>
+                                                      <dd><a href="https://www.senate.mn/jobs/index.php">Employment</a></dd>
+                                                      <dd><a href="https://www.gis.leg.mn/iMaps/districts/">Who Represents
+                                                              Me?</a></dd>
+                                                      <!-- <dd class="text-muted">Employment</dd> -->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Committees</dt>
+                                                      <dd><a href="https://www.senate.mn/committees">Committee List</a></dd>
+                                                      <!--<li><a href="/committees/2017-2018/info/comlegal.pdf">Committee Roster</a></li>-->
+                                                      <dd><a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Upcoming
+                                                              Meetings</a></dd>
+                                                      <dd><a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Offices</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/index.php">Secretary
+                                                              of the Senate</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/scrfa/">Senate
+                                                              Counsel, Research &amp; Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.senate.mn/caucus/index.php">Caucuses -
+                                                              DFL/GOP</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Information</dt>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_senate.php">Senate
+                                                              Rules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/rules/rules_joint">Joint Rules</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/interns/index.php">Educational
+                                                              Programs</a></dd>
+                                                      <dd><a href="https://www.senate.mn/members/member_labels_page.php">Address
+                                                              Labels</a></dd>
+                                                      <dd><a href="https://www.senate.mn/subscription/index.php">Subscriptions</a>
+                                                      </dd>
+
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="jointExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#jointExternalContent">Joint</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="jointExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.commissions.leg.state.mn.us/">Joint Departments,
+                                                      Offices, and Commissions</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <!-- <div class="col"></div> -->
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Joint Legislative Offices</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/">Revisor of Statutes</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/lrl.aspx">Legislative
+                                                              Reference Library</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/">Office of the
+                                                              Legislative Auditor</a></dd>
+                                                      <dd><a href="https://www.lbo.leg.mn/">Legislative Budget Office</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl class="mb-0">
+                                                      <dt class="text-white">Commissions</dt>
+                                                      <dd><a href="https://www.lcc.leg.mn/">Legislative Coordinating
+                                                              Commission (LCC)</a></dd>
+                                                      <dd><a href="https://www.lccmr.leg.mn/">Legislative-Citizen Commission
+                                                              on MN Resources (LCCMR)</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+
+                                                      <dd class="mt-md-4"><a href="https://www.lcpr.leg.mn/">Legislative
+                                                              Commission on Pensions &amp; Retirement (LCPR)</a></dd>
+                                                      <dd><a href="https://www.lsohc.leg.mn/">Lessard-Sams Outdoor Heritage
+                                                              Council</a></dd>
+                                                      <dd><a href="https://www.legacy.mn.gov/">Legacy Amendment</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/">More...</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="schedulesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#schedulesExternalContent">Schedules</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="schedulesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/schedules">Schedules, Calendars,
+                                                      and Legislative Business</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/hinfosched.asp">House
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/orders/orders.htm">Order
+                                                              of Business</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendar.asp">Calendar
+                                                              for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/calendarsup.asp">Supplemental
+                                                              Calendar for the Day</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/fiscal.asp">Fiscal
+                                                              Calendar</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="https://www.senate.mn/schedule/index.php?type=upcoming">Senate
+                                                              Schedules</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/index.php">Order of
+                                                              Business</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/calendar.html">Senate
+                                                              Calendar</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/go.html">General Orders of the
+                                                              Day</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/calendarday.aspx">Combined
+                                                              Upcoming Meetings</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="committeesExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#committeesExternalContent">Committees</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="committeesExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/committees">Legislative
+                                                      Committees</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commemlist.asp">Committee
+                                                              List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/leginfo/comroster.pdf">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/scheduleall.asp">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/hinfo/11comgrid.pdf">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.house.leg.state.mn.us/comm/commminutes.asp">Minutes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/">Committee List</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/display_pdf_cmte_roster.php">Committee
+                                                              Roster</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/schedule/schedule.php?type=upcoming">Upcoming
+                                                              Meetings</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.senate.mn/committees/cmte_meeting_schedule.php">Standing
+                                                              Committee Schedule</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd>
+                                                          <a href="https://www.commissions.leg.state.mn.us/">Joint Committees
+                                                              &amp; Task Forces</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/deadlines.aspx">Committee
+                                                              Deadlines</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a>
+                                                      </dd>
+                                                      <dd>
+                                                          <a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="billsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#billsExternalContent">Bills</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="billsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/legis">Bills</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=House">Bill
+                                                              Search &amp; Status (House)</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/introductions.asp">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.house.leg.state.mn.us/hrd/billsum.aspx">Bill</a>
+                                                          | <a href="https://www.house.leg.state.mn.us/hrd/actsum.aspx">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/tracking.asp">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/bills/hotlistarchives.asp">Hot
+                                                              List</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/bills/status_search.php?body=Senate">Bill
+                                                              Search &amp; Status (Senate)</a></dd>
+                                                      <dd><a href="https://www.senate.mn/orders/intros/intro_list_from_db.php">Bill
+                                                              Introductions</a></dd>
+                                                      <dd class="text-white">Summaries: <a href="https://www.senate.mn/departments/scr/billsumm/index.php?summary_type=bill">Bill</a>
+                                                          |
+                                                          <a href="https://www.senate.mn/departments/scr/billsumm/index.php?sumtype=act">Act</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.senate.mn/departments/fiscalpol/tracking/index.php">Fiscal
+                                                              Tracking Sheets</a></dd>
+                                                      <dd><a href="https://www.senate.mn/departments/secretary/info/publications/popularbills.php">Hot
+                                                              List</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/legis.aspx">Bill Search
+                                                              &amp; Status</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/leg/billsublogin.asp">MyBills</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/bin/sbs.php">Side by Side
+                                                              Comparisons</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/cc/">Bills In Conference
+                                                              Committee</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetodetails.aspx">Vetoes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="lawExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#lawExternalContent">Law</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="lawExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="//www.revisor.mn.gov/pubs/">Statutes,
+                                                      Laws, and Rules</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Statutes</dt>
+
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=1&amp;laws=1&amp;rule=1&amp;court=1">Keyword
+                                                              Search</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/">Current Statutes</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=index">Statutes
+                                                              by Topic (Index)</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/?view=archive">Statutes
+                                                              Archive</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Session Laws</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=1&amp;rule=0&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/current/">Current Session
+                                                              Laws</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=laws">Session Laws
+                                                              by Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/">Session Laws Archive</a>
+                                                      </dd>
+                                                      <dd><a href="//www.revisor.mn.gov/laws/law_action.php">Session
+                                                              Laws Changed (Table 1)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/statutes/statute_action.php?full=0">Statutes
+                                                              Changed (Table 2)</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Administrative Rules</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/search/?search=all&amp;stat=0&amp;laws=0&amp;rule=1&amp;court=0">Keyword
+                                                              Search</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/">Current Rules</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/topics/?type=rule">Rules by
+                                                              Topic (Index)</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/?view=archive">Rules
+                                                              Archive</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/rules/rule_search.php">Minnesota
+                                                              Rule Status</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/state_register/">State
+                                                              Register</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Other Legal Materials</dt>
+                                                      <dd><a href="//www.revisor.mn.gov/constitution/">Minnesota
+                                                              Constitution</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/mngov/constitutionalamendments.aspx">State
+                                                              Constitutional Amendments</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="multimediaExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#multimediaExternalContent">Multimedia</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="multimediaExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/multimedia">Multimedia — Audio,
+                                                      Video, Broadcast TV, News, & Photos</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-4">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">House</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/mnhouse.asx">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/schedule.asp">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/audio/default.asp">Audio
+                                                              &amp; Video Archives</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">Session
+                                                              Daily</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/images.asp">Photos</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Senate</dt>
+                                                      <dd>
+                                                          <a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Live
+                                                              Video</a> <span class="text-white">/</span> <a href="https://www.leg.state.mn.us/leg/multimedia">Audio</a></dd>
+                                                      <dd><a href="https://mnsenate.granicus.com/ViewPublisher.php?view_id=1">Webcast
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=audio">Audio
+                                                              Archives</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php?type=video">Video
+                                                              Archives</a></dd>
+                                                      <!--<dd><a href="/media/media_photos.php">Photos</a></dd>-->
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-4">
+                                                  <dl>
+                                                      <dt class="text-white">Joint</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/multimedia">Combined Media
+                                                              Page</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/htv/htv.asp">Broadcast TV
+                                                              Schedule</a></dd>
+                                                      <dd><a href="https://www.commissions.leg.state.mn.us/meetings-all.htm">Commission
+                                                              Audio/Video</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <li class="nav-item">
+                                  <a aria-controls="publicationsExternalContent" aria-expanded="false" class="nav-link dropdown-toggle" data-parent="#top-nav" data-toggle="collapse" href="#publicationsExternalContent">Publications</a>
+                              </li>
+                              <div class="dropdown collapse navbar-nav-collapse" id="publicationsExternalContent">
+                                  <div class="bg-dark">
+                                      <div class="container px-3">
+                                          <div class="row">
+                                              <div class="col nav-header"><a href="https://www.leg.state.mn.us/leg/publicat">Legislative Research,
+                                                      Reports & Information</a></div>
+                                          </div>
+                                          <hr class="my-1 bg-secondary">
+                                          <div class="row">
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <!-- <h2 class="text-white">Minnesota House of Representatives</h2> -->
+                                                  <dl>
+                                                      <dt class="text-white">Office Research &amp; Reports</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/fiscal/fahome.asp">House
+                                                              Fiscal Analysis</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hrd/publications.aspx">House
+                                                              Research</a></dd>
+                                                      <dd><a href="https://www.auditor.leg.state.mn.us/allreports.htm">Legislative
+                                                              Auditor</a></dd>
+                                                      <dd><a href="//www.revisor.mn.gov/office/publications.php">Revisor
+                                                              Publications</a></dd>
+                                                      <dd><a href="https://www.senate.mn/publications">Senate Publications</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/">Legislative Reference
+                                                              Library</a></dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">News</dt>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/sdaily.asp">House
+                                                              Session Daily</a></dd>
+                                                      <dd><a href="https://www.senate.mn/media/index.php">Senate Media
+                                                              Services</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/hinfo/leginfo/memroster.pdf">Legislators
+                                                              Roster</a></dd>
+                                                      <dd><a href="https://www.house.mn/hinfo/leginfo/elecdir.htm">Election
+                                                              Directory</a></dd>
+
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Legislative History</dt>
+                                                      <dd><a href="https://www.leg.state.mn.us/leg/leghist/histstep.aspx">Legislative
+                                                              History Guide</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/legdb/">Legislators Past &amp;
+                                                              Present</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/cco/journals/journl.asp">House
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.senate.mn/journals/journal_list.php">Senate
+                                                              Journal</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/timecapsule/index.aspx">Legislative
+                                                              Time Capsule</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/vetoes/vetoes.aspx">Vetoes</a>
+                                                      </dd>
+                                                  </dl>
+                                              </div>
+                                              <div class="col-12 col-sm-6 col-md-3">
+                                                  <dl>
+                                                      <dt class="text-white">Notable Documents</dt>
+                                                      <dd><a href="https://www.senate.mn/departments/scr/report/index.php">Fiscal
+                                                              Review</a></dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/issues/">Minnesota Issues
+                                                              Guides</a></dd>
+                                                      <dd><a href="https://www.house.leg.state.mn.us/newlaws/">New Laws</a>
+                                                      </dd>
+                                                      <dd><a href="https://www.leg.state.mn.us/lrl/booksreports.aspx">Books
+                                                              &amp; reports</a></dd>
+                                                  </dl>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </ul>
+                          <form class="form-inline ml-auto d-block d-md-none p-2">
+                              <label class="sr-only js-search-sm-label" for="sm-search">Search Legislature</label>
+                              <div class="input-group mb-2 mr-sm-2">
+
+                                  <input class="form-control form-control-sm js-sm-search" id="sm-search" name="search" aria-label="Search Legislature" aria-describedby="searchButton" placeholder="Search..." type="text">
+
+                                  <div class="input-group-append">
+                                    <button class="js-search-sm-btn btn btn-darkgray btn-sm" type="button" id="searchButton" alt="Search Button"><i class="fa fa-search"></i><span class="sr-only sr-only-focusable">Search</span></button>
+                                  </div>
+
+                              </div>
+                          </form>
+
+                      </div>
+
+                  </div>
+              </div>
+          </div>
+        </nav>
+
+        
+        <div class="leg-banner img-joint d-print-none">
+          <div class="position-relative h-100">
+          <div class="leg-title-container pl-0">
+            <div class="container pl-sm-0 pl-md-3">
+              <a class="leg-title-text text-white" href="//www.revisor.mn.gov/" id="leg-title-text-link" style="">Office of the Revisor of Statutes</a><br>
+            </div>
+          </div>
+          </div>
+        </div>
+        <h1 class="d-none d-print-block text-center" id="leg-title-text" style="">Office of the Revisor of Statutes</h1>
+
+      <nav id="legSubNav" class="navbar navbar-expand-md navbar-joint bg-joint  d-print-none">
+          <div class="container">
+            <div class="d-block ml-0">
+              <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+              <span class="d-md-none pl-1 text-white" data-toggle="collapse" data-target="#navbarNav">Revisor Menu</span>
+            </div>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item pl-md-0 d-none d-lg-inline">
+                
+
+                <form id="docbox" class="retrieve form-inline justify-content-center mt-1" action="/pubs/getdoc.php" method="post">
+                      <input class="bg-light navbar-form form-control mr-1" name="docnum" type="text" placeholder="Retrieve by number" maxlength="200">
+
+                      <div class="input-group">
+                          <select class="bg-light custom-select custom-select-sm form-control navbar-form" id="doctype" name="type">  <!-- class="form-control form-control-sm text-primary" -->
+                            <option value="statutes">Statutes</option>
+                            <option value="laws">Laws</option>
+                            <option value="rules" selected="selected">Rules</option>
+                            <option value="bills">Bills</option>
+                          </select>
+                          <div class="input-group-append">
+                            <button class="btn btn-sm btn-secondary navbar-form pb-2">GO</button>
+                          </div>
+                      </div>
+                </form>
+
+              
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/statutes/">Statutes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/laws/">Laws</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/rules/">Rules</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/court_rules/">Court Rules</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/constitution/">Constitution</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" id="navbarDropdownMenuLink">Revisor's Office</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu">
+                  <a class="dropdown-item" href="//intra.revisor.mn.gov/">Revisor Intranet</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/drafting_areas">Drafting Areas</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/staff/">Staff Directory</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/duties">Office Duties</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/publications">Publications</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/office/meetings">Meetings</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/seminars/">Educational Seminars</a>
+                  <a class="dropdown-item" href="//www.revisor.mn.gov/employment/">Employment Openings</a>
+                </div>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="//www.revisor.mn.gov/search/?stat=1&laws=1&rule=1">Search Law by Keyword</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex flex-row">
+              <!--<li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Email">-->
+                <!--<a class="nav-link test" href="#"><i class="far fa-lg fa-envelope"></i></a>-->
+              <!--</li>-->
+              <li class="nav-item" data-toggle="tooltip" data-placement="bottom" title="Print">
+                  <a aria-label="print page" class="nav-link" href="javascript:window.print();"><i class="fas fa-lg fa-print"></i></a>
+              </li>
+            </ul>
+          </div>
+          </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+            
+        
+        
+            
+                
+            
+        
+        
+      </div>
+      
+      
+      <div id="legContainerMain" class="container leg-content pt-0 pb-4">
+          <div class="row leg-row-print-full">
+            <div class="col leg-col-print-12">
+              
+
+              
+    
+<div id="breadcrumb" class="mb-3">
+    <ul>
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/">Rules</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/agency/193">Veterinary Medicine Board</a>
+            </li>
+        
+    
+        
+            <li>
+                <a href="//www.revisor.mn.gov/rules/9100/">Chapter 9100</a>
+            </li>
+        
+    
+        
+            <li>Part 9100.0100</li>
+        
+    
+    </ul>
+</div>
+
+
+              
+<div id="doc_nav">
+    
+    
+        <a class="next" href="//www.revisor.mn.gov/rules/9100.0200/">9100.0200</a>
+    
+</div>
+
+              
+                <div id="header" class="row mb-2 mt-3">
+                  <div class="col-12 col-md-8">
+                    <h1>
+                      
+    Minnesota Administrative Rules
+
+                    </h1>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <div class="float-left float-md-right">
+                    
+<ul class="pl-0">
+    <li><a class="pdf_doc_type_link" style="padding-left:0px;" href="//www.revisor.mn.gov/authenticate/">Authenticate</a></li>
+    <li><a class="pdf_doc_type_link" href="//www.revisor.mn.gov/rules/pdf/9100.0100/2014-01-18%2009:58:31+00:00"><i class="far fa-file-pdf fa-2x" style="color:#990033;"></i> PDF</a></li>
+</ul>
+
+                    </div>
+                  </div>
+                </div>
+              
+              <div class="row">
+                
+    
+
+<div id="resource_box" class="col-lg-3 order-2 mt-lg-4 d-print-none">
+    <div class="card">
+        <div class="card-header" id="cardheading">
+            <h3>
+                <a data-toggle="collapse" href="#collapse" aria-expanded="true" role="button" aria-controls="collapse">
+                Resources
+                </a>
+            </h3>
+        </div>
+        <div id="collapse" class="collapse show" data-parent="#resource_box">
+            <div class="card-body">
+                <div class="container">
+                    
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="/search/?search=rule">Search Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/info/">About Minnesota Rules</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/">Agency List</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/numerical/">Table of Chapters</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/index/rule/">Rules Index (topics)</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/status/">Minnesota Rule Status</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/state_register/">State Register</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/invalid/">Invalid Rules</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Chapter 9100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/9100/">Table of Parts</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/9100/full">Full Chapter Text</a></li>
+                            
+                            
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/9100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    
+                    <h2>Part 9100.0100</h2>
+                    
+
+                    
+
+                    
+
+                        <ul>
+                            
+                            
+                            
+                            <li><a href="//www.revisor.mn.gov/rules/9100.0100/versions">Version List</a></li>
+                            
+                            
+                            
+                        </ul>
+                        
+                    
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                <div class="col-lg order-1">
+                  
+
+
+
+
+
+
+
+    <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.9100.0100">
+    <h1 class="headnote">9100.0100 DEFINITIONS.</h1>
+    <div id="rule.9100.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.9100.0100.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Scope. </h2>
+      <p>The definitions in this part apply to this chapter.</p>
+    </div>
+    <div id="rule.9100.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.9100.0100.1">§</a>
+      <h2 class="subp_no">Subp. 1a.</h2>
+      <h2 class="headnote">Board. </h2>
+      <p>"Board" means the Board of Veterinary Medicine.</p>
+    </div>
+    <div id="rule.9100.0100.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.9100.0100.1">§</a>
+      <h2 class="subp_no">Subp. 1b.</h2>
+      <h2 class="headnote">Biologic. </h2>
+      <p>"Biologic" means a drug, derived from naturally occurring organisms, manufactured to maintain and improve already existing physiological traits in an animal.</p>
+    </div>
+    <div id="rule.9100.0100.1c" class="subp">
+      <a title="Link to subpart 1c" class="permalink" href="#rule.9100.0100.1c">§</a>
+      <h2 class="subp_no">Subp. 1c.</h2>
+      <h2 class="headnote">Continuing education or approved continuing education program.</h2>
+      <div id="rule.9100.0100.1c.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.0100.1c.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> "Continuing education" means educational and training activities designed to contribute to the development and enhancement of skills and obligations associated with the professional practice of veterinary medicine.</p>
+      </div>
+      <div id="rule.9100.0100.1c.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.0100.1c.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> "Approved continuing education program" means an educational or training activity that meets the requirements of the Board of Veterinary Medicine Continuing Education Advisory Committee for the granting of continuing education credits to the recipients of the program.</p>
+      </div>
+    </div>
+    <div id="rule.9100.0100.1d" class="subp repealed">
+      <a title="Link to subpart 1d" class="permalink" href="#rule.9100.0100.1d">§</a>
+      <h2 class="subp_no">Subp. 1d.</h2>
+      <p>[Repealed, 20 SR 860]</p>
+    </div>
+    <div id="rule.9100.0100.1e" class="subp">
+      <a title="Link to subpart 1e" class="permalink" href="#rule.9100.0100.1e">§</a>
+      <h2 class="subp_no">Subp. 1e.</h2>
+      <h2 class="headnote">Controlled substance. </h2>
+      <p>"Controlled substance" means a drug, substance, or immediate precursor in schedules I to V of Minnesota Statutes, section <a href="/statutes/cite/152.02">152.02</a>, or schedules I to V of the federal Controlled Substances Act.</p>
+    </div>
+    <div id="rule.9100.0100.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.9100.0100.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Equipment. </h2>
+      <p>"Equipment" means instruments, tools, clothing, vehicles, and other equipment used in the practice of veterinary medicine.</p>
+    </div>
+    <div id="rule.9100.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.9100.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Housing facility. </h2>
+      <p>"Housing facility" means a structure, cage, building, or other facility used for housing animals under veterinary care.</p>
+    </div>
+    <div id="rule.9100.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.9100.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3a.</h2>
+      <h2 class="headnote">Humane treatment. </h2>
+      <p>"Humane treatment" means care and treatment that prevents acts of omission or commission, including deprivation of necessary food, water, and shelter, that causes or permits unnecessary or unjustifiable pain, suffering, or death of an animal.</p>
+    </div>
+    <div id="rule.9100.0100.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.9100.0100.3">§</a>
+      <h2 class="subp_no">Subp. 3b.</h2>
+      <h2 class="headnote">Licensure renewal period. </h2>
+      <p>"Licensure renewal period" is a two-year period beginning on March 1 and ending on the last day of February two years later.</p>
+    </div>
+    <div id="rule.9100.0100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.9100.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Premises. </h2>
+      <p>"Premises" means property, including land and buildings on the land, used in the practice of veterinary medicine.</p>
+    </div>
+    <div id="rule.9100.0100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.9100.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4a.</h2>
+      <h2 class="headnote">Prescription drug. </h2>
+      <p>"Prescription drug" means a drug whose label is required by federal law to bear the statement: "Caution: Federal law restricts this drug to use by or on the order of a licensed veterinarian," or a human drug or over-the-counter animal drug prescribed for use in any manner different from the manufacturer's label instructions.</p>
+    </div>
+    <div id="rule.9100.0100.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.9100.0100.4">§</a>
+      <h2 class="subp_no">Subp. 4b.</h2>
+      <h2 class="headnote">Sponsor or approved sponsor.</h2>
+      <div id="rule.9100.0100.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.0100.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> "Sponsor" means a person or entity who organizes a continuing education activity.</p>
+      </div>
+      <div id="rule.9100.0100.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.0100.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> "Approved sponsor" means an entity or person who has been approved by the board to present continuing education programs.</p>
+      </div>
+    </div>
+    <div id="rule.9100.0100.4c" class="subp">
+      <a title="Link to subpart 4c" class="permalink" href="#rule.9100.0100.4c">§</a>
+      <h2 class="subp_no">Subp. 4c.</h2>
+      <h2 class="headnote">Sterile surgery. </h2>
+      <p>"Sterile surgery" means an invasive procedure in which aseptic technique is practiced in patient preparation, instrumentation, and surgical attire.</p>
+    </div>
+    <div id="rule.9100.0100.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.9100.0100.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Veterinarian. </h2>
+      <p>"Veterinarian" means a person or professional veterinary corporation engaged in the practice of veterinary medicine.</p>
+    </div>
+    <div id="rule.9100.0100.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.9100.0100.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Veterinarian-client-patient relationship. </h2>
+      <p>"Veterinarian-client-patient relationship" means a relationship that meets the conditions established in Minnesota Statutes, section <a href="/statutes/cite/156.16">156.16</a>, subdivision 12.</p>
+    </div>
+    <div id="rule.9100.0100.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.9100.0100.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Veterinary facility or emergency veterinary facility.</h2>
+      <div id="rule.9100.0100.7.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.0100.7.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> "Veterinary facility" means a building, shelter, structure, or mobile unit in which licensed veterinarians routinely engage in the practice of veterinary medicine.</p>
+      </div>
+      <div id="rule.9100.0100.7.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.0100.7.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> "Emergency veterinary facility" means a facility equipped and staffed to provide acute veterinary care during night, weekend, and holiday hours when most local daytime veterinary practices are closed.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.9100.0100.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/156.01">156.01</a>; <a href="/statutes/cite/156.081">156.081</a>; <a href="/statutes/cite/214.06">214.06</a>; <a href="/statutes/cite/214.12">214.12</a></p>
+  </div>
+  <div class="history" id="rule.9100.0100.history">
+    <h2>History: </h2>
+    <p>17 SR 2106; 20 SR 860</p>
+  </div>
+  <div class="published" id="rule.9100.0100.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div>
+
+
+
+                <div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.9100.0200">
+    <h1 class="headnote">9100.0200 PREMISES.</h1>
+    <div id="rule.9100.0200.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.9100.0200.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Biologics and other drugs. </h2>
+      <p>Biologics and other drugs must be stored so as to prevent contamination and deterioration according to the packaging and storage requirements of the United States Pharmacopeia &amp; the National Formulary, 1990 edition, published by the United States Pharmacopeial Convention, Inc., Rockville, Maryland. That publication is incorporated by reference, subject to frequent change, and available for inspection and copying through the Minitex interlibrary loan system.</p>
+    </div>
+    <div id="rule.9100.0200.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.9100.0200.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Cages. </h2>
+      <p>Separate compartments must be provided for each hospitalized animal, except that neonate and juvenile litter mates or animals from the same owner may be caged together when appropriate. Cages must be cleaned and sanitized before their use by newly arrived animals. Excreta, spilled feed, and water must be removed from cages as often as necessary to prevent contamination of the animals, to reduce hazards to the health of the animals, and to eliminate odors. Cage size must be sufficient to allow an animal to stand, sit, lie down, and turn around comfortably.</p>
+    </div>
+    <div id="rule.9100.0200.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.9100.0200.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Communicable or contagious diseases. </h2>
+      <p>Animals affected with any clinical evidence of infectious, contagious, or communicable diseases must be separated from all other animals so as to minimize the spread of disease, and the animals must not be permitted to commingle with other animals on the premises.</p>
+    </div>
+    <div id="rule.9100.0200.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.9100.0200.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Equipment. </h2>
+      <p>Equipment must be maintained in a clean and sanitary condition at all times.</p>
+    </div>
+    <div id="rule.9100.0200.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.9100.0200.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Food and water. </h2>
+      <p>Food and water for animals must be kept free from contamination, and all receptacles for food and water must be kept in a clean and sanitary condition. Animals must be provided with food of sufficient quantity and quality to allow normal growth or the maintenance of body weight. Clean, potable water sufficient to satisfy the animal's needs must be provided.</p>
+    </div>
+    <div id="rule.9100.0200.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.9100.0200.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Pest control. </h2>
+      <p>An effective program for the control of insects and other vermin on the premises must be established and maintained.</p>
+    </div>
+    <div id="rule.9100.0200.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.9100.0200.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Sanitation. </h2>
+      <p>The premises must be kept clean and in good repair to facilitate acceptable sanitary practices and must be kept free of accumulations of refuse.</p>
+    </div>
+    <div id="rule.9100.0200.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.9100.0200.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Storage. </h2>
+      <p>All supplies, including food and bedding, must be stored in facilities that adequately protect the supplies against infestation, contamination, or deterioration. Refrigeration must be provided for all supplies that are of a perishable nature, including foods, drugs, and biologics.</p>
+    </div>
+    <div id="rule.9100.0200.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.9100.0200.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Waste disposal. </h2>
+      <p>Covered, vermin-proof waste containers impermeable by water must be used for the removal and disposal of animal and food wastes, bedding, dead animals, debris, and other waste. Disposal facilities must be so operated to prevent a nuisance condition, to minimize insect and other vermin infestation, odor, and disease hazards.</p>
+    </div>
+    <div id="rule.9100.0200.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.9100.0200.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Water and electric power. </h2>
+      <p>Reliable electric power and potable water adequate for the practice of veterinary medicine must be made available at all times on the premises.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.9100.0200.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/156.01">156.01</a>; <a href="/statutes/cite/156.081">156.081</a>; <a href="/statutes/cite/214.06">214.06</a></p>
+  </div>
+  <div class="history" id="rule.9100.0200.history">
+    <h2>History: </h2>
+    <p>17 SR 2106</p>
+  </div>
+  <div class="published" id="rule.9100.0200.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.9100.0300">
+    <h1 class="headnote">9100.0300 HOUSING FACILITIES.</h1>
+    <div id="rule.9100.0300.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.9100.0300.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Cleaning and disinfecting. </h2>
+      <p>Housing facilities must be cleaned and disinfected as often as it is necessary to maintain a clean and sanitary condition at all times.</p>
+    </div>
+    <div id="rule.9100.0300.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.9100.0300.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Drainage. </h2>
+      <p>A suitable method must be provided to rapidly eliminate excess water from indoor housing facilities. Drains must be so constructed and maintained in good repair to avoid foul odors from them. If closed drainage systems are used, they must be equipped with traps and so installed as to prevent any backup of sewage and other waste materials onto the floors of the facilities.</p>
+    </div>
+    <div id="rule.9100.0300.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.9100.0300.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Heating. </h2>
+      <p>Indoor housing facilities for animals must be sufficiently heated when necessary to protect the animals from cold and to provide for their health and comfort. The ambient temperature must not be allowed to fall below 50 degrees Fahrenheit for animals not acclimated to lower temperatures.</p>
+    </div>
+    <div id="rule.9100.0300.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.9100.0300.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Interior surfaces. </h2>
+      <p>The surfaces of indoor housing facilities with which animals come into contact must be so constructed and maintained that they are substantially impervious to moisture and may be readily sanitized.</p>
+    </div>
+    <div id="rule.9100.0300.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.9100.0300.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Lighting. </h2>
+      <p>Indoor housing facilities for animals must have ample light, by natural or artificial means, or both, of sufficient intensity and uniform distribution to permit routine inspection and cleaning.</p>
+    </div>
+    <div id="rule.9100.0300.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.9100.0300.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Outdoor housing facilities. </h2>
+      <p>Outdoor housing facilities must provide adequate shelter to properly protect animals from sun, rain, snow, and other weather elements and must provide adequate bedding, water, and food.</p>
+    </div>
+    <div id="rule.9100.0300.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.9100.0300.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Structural strength. </h2>
+      <p>Housing facilities for animals must be structurally sound and kept in good repair. The facilities must be designed and built so as to protect the animals from injury, to contain the animals, and to restrict the entrance of other animals.</p>
+    </div>
+    <div id="rule.9100.0300.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.9100.0300.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Ventilation. </h2>
+      <p>Indoor housing facilities for animals must be adequately ventilated to prevent the collection of offensive odors and to provide for the health and comfort of animals at all times. The facilities must be provided with fresh air either by means of windows, vents, or air conditioning and must be ventilated so as to minimize drafts, odors, and moisture condensation. Auxiliary ventilation, such as exhaust fans and vents or air conditioning, must be provided when the ambient temperature is 85 degrees Fahrenheit or higher.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.9100.0300.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/156.01">156.01</a>; <a href="/statutes/cite/156.081">156.081</a>; <a href="/statutes/cite/214.06">214.06</a></p>
+  </div>
+  <div class="history" id="rule.9100.0300.history">
+    <h2>History: </h2>
+    <p>17 SR 2106</p>
+  </div>
+  <div class="published" id="rule.9100.0300.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.9100.0400">
+    <h1 class="headnote">9100.0400 APPLICATION AND EXAMINATION FEES FOR LICENSURE TO PRACTICE VETERINARY MEDICINE.</h1>
+    <div id="rule.9100.0400.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.9100.0400.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Application fee.</h2>
+      <div id="rule.9100.0400.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.0400.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> A person applying for a license to practice veterinary medicine in Minnesota or applying for a permit to take the national veterinary medical examination must pay a $50 nonrefundable application fee to the board. Persons submitting concurrent applications for licensure and a national examination permit shall pay only one application fee.</p>
+      </div>
+      <div id="rule.9100.0400.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.0400.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The application fee received supports only the application with which the fee was submitted. A person who applies more than once must submit the full application fee with each subsequent application.</p>
+      </div>
+    </div>
+    <div id="rule.9100.0400.2" class="subp repealed">
+      <a title="Link to subpart 2" class="permalink" href="#rule.9100.0400.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <p>[Repealed, 24 SR 1849]</p>
+    </div>
+    <div id="rule.9100.0400.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.9100.0400.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Examination fees.</h2>
+      <div id="rule.9100.0400.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.0400.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> All applicants for veterinary licensure in Minnesota must successfully pass the Minnesota Veterinary Jurisprudence Examination. The fee for this examination is $50, payable to the board.</p>
+      </div>
+      <div id="rule.9100.0400.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.0400.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> An applicant participating in the national veterinary licensing examination must complete a separate application for the national examination and submit the application to the board for approval. Payment for the national examination must be made by the applicant to the national board examination committee after the application for examination has been approved by the board.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.9100.0400.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16A.128">16A.128</a>; <a href="/statutes/cite/156.01">156.01</a>; <a href="/statutes/cite/156.02">156.02</a>; <a href="/statutes/cite/156.03">156.03</a>; <a href="/statutes/cite/156.072">156.072</a>; <a href="/statutes/cite/156.081">156.081</a>; <a href="/statutes/cite/214.06">214.06</a></p>
+  </div>
+  <div class="history" id="rule.9100.0400.history">
+    <h2>History: </h2>
+    <p>11 SR 635; 17 SR 2106; 20 SR 340; 24 SR 1849</p>
+  </div>
+  <div class="published" id="rule.9100.0400.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.9100.0500">
+    <h1 class="headnote">9100.0500 INITIAL AND RENEWAL FEE.</h1>
+    <div id="rule.9100.0500.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.9100.0500.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Required for licensure. </h2>
+      <p>Each person now licensed to practice veterinary medicine in this state, or who becomes licensed by the Board of Veterinary Medicine to engage in the practice, shall pay an initial fee or a biennial license renewal fee if the person wishes to practice veterinary medicine in the coming two-year period or remain licensed as a veterinarian. A licensure period begins on March 1 and expires the last day of February two years later. A licensee with an even-numbered license shall renew by March 1 of even-numbered years and a licensee with an odd-numbered license shall renew by March 1 of odd-numbered years. For 1996 license renewals, licensees with an even-numbered license shall renew for two years. Licensees with an odd-numbered license shall renew for one year and commence renewal for a two-year period in 1997.</p>
+    </div>
+    <div id="rule.9100.0500.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.9100.0500.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Amount. </h2>
+      <p>The initial licensure fee and the biennial renewal fee is $200 and must be paid to the executive director of the board on or before March 1 of the first year of the biennial license period. By January 1 of the first year for which the biennial renewal fee is due, the board shall issue a renewal application to each current licensee to the last address maintained in the board file. Failure to receive this notice does not relieve the licensee of the obligation to pay renewal fees so that they are received by the board on or before the renewal date of March 1.</p>
+      <p>Initial licenses issued after the start of the licensure renewal period are valid only until the end of the period.</p>
+    </div>
+    <div id="rule.9100.0500.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.9100.0500.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Date due. </h2>
+      <p>A licensee must apply for a renewal license on or before March 1 of the first year of the biennial license renewal period. A renewal license is valid from March 1 through the last day of February of the last year of the two-year license renewal period. An application postmarked no later than the last day of February must be considered to have been received on March 1.</p>
+    </div>
+    <div id="rule.9100.0500.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.9100.0500.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Late renewal penalty. </h2>
+      <p>An applicant for renewal must pay a late renewal penalty of $100 in addition to the renewal fee if the application for renewal is received after March 1 of the licensure renewal period. A renewed license issued after March 1 of the licensure renewal period is valid only to the end of the period regardless of when the renewal fee is received.</p>
+    </div>
+    <div id="rule.9100.0500.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.9100.0500.4">§</a>
+      <h2 class="subp_no">Subp. 4a.</h2>
+      <h2 class="headnote">Reinstatement fee. </h2>
+      <p>An applicant for license renewal whose license has previously been suspended by official board action for nonrenewal must pay a reinstatement fee of $50 in addition to the $200 renewal fee and the $100 late renewal penalty.</p>
+    </div>
+    <div id="rule.9100.0500.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.9100.0500.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Penalty for failure to pay. </h2>
+      <p>Within 30 days after the renewal date, a licensee who has not renewed the license must be notified by letter sent to the last known address of the licensee in the file of the board that the renewal is overdue and that failure to pay the current fee and current late fee within 60 days after the renewal date will result in suspension of the license. A second notice must be sent by registered or certified mail at least seven days before a board meeting occurring 60 days or more after the renewal date to each licensee who has not paid the renewal fee and late fee.</p>
+    </div>
+    <div id="rule.9100.0500.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.9100.0500.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Suspension. </h2>
+      <p>The board, by means of a roll call vote, shall suspend the license of a licensee whose license renewal is at least 60 days overdue and to whom notification has been sent as provided in subpart 5. Failure of a licensee to receive notification is not grounds for later challenge by the licensee of the suspension. The former licensee must be notified by registered or certified letter within seven days of the board action. The suspended status placed on a license may be removed only on payment of renewal fees and late penalty fees for each licensure period or part of a period that the license was not renewed. A licensee who fails to renew a license for five years or more must meet the criteria of Minnesota Statutes, section <a href="/statutes/cite/156.071">156.071</a>, for relicensure.</p>
+    </div>
+    <div id="rule.9100.0500.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.9100.0500.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Inactive license. </h2>
+      <p>A person holding a current unrestricted license to practice veterinary medicine in Minnesota may, at the time of the person's next biennial license renewal date, renew the license as an inactive license at one-half the renewal fee of an unrestricted license. The license may be continued in an inactive status by renewal on a biennial basis at one-half the regular license fee.</p>
+      <div id="rule.9100.0500.7.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.0500.7.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> A person holding an inactive license is not permitted to practice veterinary medicine in Minnesota and remains under the disciplinary authority of the board.</p>
+      </div>
+      <div id="rule.9100.0500.7.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.0500.7.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> A person may convert a current inactive license to an unrestricted license upon application to and approval by the board. The application must include:</p>
+        <div id="rule.9100.0500.7.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.9100.0500.7.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> documentation of licensure in good standing and of having met continuing education requirements of current state of practice, or documentation of having met Minnesota continuing education requirements retroactive to the date of licensure inactivation;</p>
+        </div>
+        <div id="rule.9100.0500.7.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.9100.0500.7.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> certification by the applicant that the applicant is not currently under disciplinary orders or investigation for acts that could result in disciplinary action in any other jurisdiction; and</p>
+        </div>
+        <div id="rule.9100.0500.7.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.9100.0500.7.B.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> payment of a fee equal to the full difference between an inactive and unrestricted license if converting during the first year of the biennial license cycle or payment of a fee equal to one-half the difference between an inactive and an unrestricted license if converting during the second year of the license cycle.</p>
+        </div>
+      </div>
+      <div id="rule.9100.0500.7.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.9100.0500.7.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Deadline for renewal of an inactive license is March 1 of the first year of the biennial license renewal period. A late renewal penalty of one-half the inactive renewal fee must be paid if renewal is received after March 1.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.9100.0500.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/16A.128">16A.128</a>; <a href="/statutes/cite/156.01">156.01</a>; <a href="/statutes/cite/156.02">156.02</a>; <a href="/statutes/cite/156.03">156.03</a>; <a href="/statutes/cite/156.07">156.07</a>; <a href="/statutes/cite/156.081">156.081</a>; <a href="/statutes/cite/214.06">214.06</a></p>
+  </div>
+  <div class="history" id="rule.9100.0500.history">
+    <h2>History: </h2>
+    <p>11 SR 635; 14 SR 2131; 17 SR 1279; 17 SR 2106; 20 SR 340; 21 SR 1107; 22 SR 1472</p>
+  </div>
+  <div class="published" id="rule.9100.0500.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.9100.0600">
+    <h1 class="headnote">9100.0600 MISCELLANEOUS FEES.</h1>
+    <div id="rule.9100.0600.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.9100.0600.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Temporary license fee. </h2>
+      <p>A person meeting the requirements for issuance of a temporary permit to practice veterinary medicine under Minnesota Statutes, section <a href="/statutes/cite/156.072">156.072</a>, subdivision 5, pending examination, who desires a temporary permit shall pay a fee of $50 to the board.</p>
+    </div>
+    <div id="rule.9100.0600.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.9100.0600.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Duplicate license. </h2>
+      <p>A person requesting issuance of a duplicate or replacement license shall pay a fee of $10 to the board.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.9100.0600.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/156.01">156.01</a>; <a href="/statutes/cite/156.02">156.02</a>; <a href="/statutes/cite/156.081">156.081</a>; <a href="/statutes/cite/214.06">214.06</a></p>
+  </div>
+  <div class="history" id="rule.9100.0600.history">
+    <h2>History: </h2>
+    <p>17 SR 2106; 20 SR 340</p>
+  </div>
+  <div class="published" id="rule.9100.0600.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.9100.0700">
+    <h1 class="headnote">9100.0700 UNPROFESSIONAL CONDUCT.</h1>
+    <div id="rule.9100.0700.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.9100.0700.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Prohibited acts. </h2>
+      <p>The following acts by a licensed veterinarian are unprofessional conduct and constitute grounds for disciplinary action against the licensee:</p>
+      <div id="rule.9100.0700.1.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.0700.1.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> failure to meet the minimum standards of practice in part <a href="/rules/9100.0800">9100.0800</a>;</p>
+      </div>
+      <div id="rule.9100.0700.1.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.0700.1.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> engaging in conduct likely to deceive, defraud, or harm the public or demonstrating a willful or careless disregard for the health, welfare, or safety of a patient, in which case, proof of actual injury need not be established;</p>
+      </div>
+      <div id="rule.9100.0700.1.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.9100.0700.1.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> engaging in veterinary practice that is professionally incompetent in that it may create unnecessary danger to a patient's life, health, or safety;</p>
+      </div>
+      <div id="rule.9100.0700.1.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.9100.0700.1.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> claiming to have performed or charging for an act or treatment that was, in fact, not performed or given;</p>
+      </div>
+      <div id="rule.9100.0700.1.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.9100.0700.1.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> asserting or implying in a public manner material claims of professional superiority in the practice of veterinary medicine that cannot be substantiated;</p>
+      </div>
+      <div id="rule.9100.0700.1.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.9100.0700.1.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> practicing veterinary medicine under a false or assumed name or impersonating another practitioner of a like, similar, or different name;</p>
+      </div>
+      <div id="rule.9100.0700.1.G" class="item">
+        <a title="Link to item G" class="permalink" href="#rule.9100.0700.1.G">§</a>
+        <h3 class="item_no">G.</h3>
+        <p> practicing under an expired, terminated, or suspended veterinary license;</p>
+      </div>
+      <div id="rule.9100.0700.1.H" class="item">
+        <a title="Link to item H" class="permalink" href="#rule.9100.0700.1.H">§</a>
+        <h3 class="item_no">H.</h3>
+        <p> failing, within 30 days, to provide information in response to a written request made by the board pursuant to an investigation by or on behalf of the board;</p>
+      </div>
+      <div id="rule.9100.0700.1.I" class="item">
+        <a title="Link to item I" class="permalink" href="#rule.9100.0700.1.I">§</a>
+        <h3 class="item_no">I.</h3>
+        <p> promoting, aiding, abetting, or permitting the practice of veterinary medicine by an unlicensed person;</p>
+      </div>
+      <div id="rule.9100.0700.1.J" class="item">
+        <a title="Link to item J" class="permalink" href="#rule.9100.0700.1.J">§</a>
+        <h3 class="item_no">J.</h3>
+        <p> prescribing or dispensing, delivering, or ordering delivered a controlled substance without first having established a veterinarian-client-patient relationship by having personally examined the individual animal, herd, or a representative segment or a consignment lot and determining that treatment with the controlled substance is therapeutically indicated. Use of euthanizing drugs in recognized animal shelters or government animal control facilities is exempt from this requirement;</p>
+      </div>
+      <div id="rule.9100.0700.1.K" class="item">
+        <a title="Link to item K" class="permalink" href="#rule.9100.0700.1.K">§</a>
+        <h3 class="item_no">K.</h3>
+        <p> using, misusing, or selling, other than for medical treatment of animal patients, any of the controlled drugs listed in Minnesota Statutes, chapter 152, or the federal Controlled Substances Act;</p>
+      </div>
+      <div id="rule.9100.0700.1.L" class="item">
+        <a title="Link to item L" class="permalink" href="#rule.9100.0700.1.L">§</a>
+        <h3 class="item_no">L.</h3>
+        <p> violating or failing to comply with a state or federal law or regulation relating to the storing, labeling, prescribing, or dispensing of controlled substances;</p>
+      </div>
+      <div id="rule.9100.0700.1.M" class="item">
+        <a title="Link to item M" class="permalink" href="#rule.9100.0700.1.M">§</a>
+        <h3 class="item_no">M.</h3>
+        <p> prescribing, providing, obtaining, ordering, administering, dispensing, giving, or delivering controlled drugs to or for an animal solely for training, show, or racing purposes and not for a medically sound reason;</p>
+      </div>
+      <div id="rule.9100.0700.1.N" class="item">
+        <a title="Link to item N" class="permalink" href="#rule.9100.0700.1.N">§</a>
+        <h3 class="item_no">N.</h3>
+        <p> performing surgery to conceal genetic or congenital defects, in any species, with the knowledge that the surgery has been requested to deceive a third party;</p>
+      </div>
+      <div id="rule.9100.0700.1.O" class="item">
+        <a title="Link to item O" class="permalink" href="#rule.9100.0700.1.O">§</a>
+        <h3 class="item_no">O.</h3>
+        <p> promoting, selling, prescribing, or using a product for which the ingredient formula is unknown to the veterinarian;</p>
+      </div>
+      <div id="rule.9100.0700.1.P" class="item">
+        <a title="Link to item P" class="permalink" href="#rule.9100.0700.1.P">§</a>
+        <h3 class="item_no">P.</h3>
+        <p> refusing the board or its agent the right to inspect a veterinary facility at reasonable hours, pursuant to an investigation by or on behalf of the board;</p>
+      </div>
+      <div id="rule.9100.0700.1.Q" class="item">
+        <a title="Link to item Q" class="permalink" href="#rule.9100.0700.1.Q">§</a>
+        <h3 class="item_no">Q.</h3>
+        <p> performing or prescribing unnecessary or unauthorized treatment;</p>
+      </div>
+      <div id="rule.9100.0700.1.R" class="item">
+        <a title="Link to item R" class="permalink" href="#rule.9100.0700.1.R">§</a>
+        <h3 class="item_no">R.</h3>
+        <p> representing conflicting interests unless full disclosure of the veterinarian's dual relationship is made and consented to by all parties of the transaction;</p>
+      </div>
+      <div id="rule.9100.0700.1.S" class="item">
+        <a title="Link to item S" class="permalink" href="#rule.9100.0700.1.S">§</a>
+        <h3 class="item_no">S.</h3>
+        <p> failing to report to law enforcement or humane officers inhumane treatment to animals, including staged animal fights or training for fights, of which the veterinarian has direct knowledge;</p>
+      </div>
+      <div id="rule.9100.0700.1.T" class="item">
+        <a title="Link to item T" class="permalink" href="#rule.9100.0700.1.T">§</a>
+        <h3 class="item_no">T.</h3>
+        <p> fraudulently issuing or using a certificate of veterinary inspection, test chart, vaccination report, or other official form used in the practice of veterinary medicine to prevent the dissemination of animal disease, transportation of diseased animals, or the sale of inedible products of animal origin for human consumption;</p>
+      </div>
+      <div id="rule.9100.0700.1.U" class="item">
+        <a title="Link to item U" class="permalink" href="#rule.9100.0700.1.U">§</a>
+        <h3 class="item_no">U.</h3>
+        <p> issuing a certificate of veterinary inspection for an animal unless the veterinarian performs the inspection and the appropriate tests as required to the best of their knowledge;</p>
+      </div>
+      <div id="rule.9100.0700.1.V" class="item">
+        <a title="Link to item V" class="permalink" href="#rule.9100.0700.1.V">§</a>
+        <h3 class="item_no">V.</h3>
+        <p> surreptitiously obtaining, through theft, unauthorized copying, duplicating, or other means, client lists, mailing lists, medical records, or computer records that are the property of another veterinarian, veterinary partnership, or professional veterinary corporation;</p>
+      </div>
+      <div id="rule.9100.0700.1.W" class="item">
+        <a title="Link to item W" class="permalink" href="#rule.9100.0700.1.W">§</a>
+        <h3 class="item_no">W.</h3>
+        <p> a licensed veterinarian whose United States Department of Agriculture accreditation has been removed by federal authority may be subject to disciplinary action by the board upon proof of the acts or omissions constituting the grounds for removal of accreditation; and</p>
+      </div>
+      <div id="rule.9100.0700.1.X" class="item">
+        <a title="Link to item X" class="permalink" href="#rule.9100.0700.1.X">§</a>
+        <h3 class="item_no">X.</h3>
+        <p> failure to report to the board any disciplinary action taken against his or her veterinary license in another jurisdiction.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.9100.0700.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/156.01">156.01</a>; <a href="/statutes/cite/156.081">156.081</a>; <a href="/statutes/cite/214.06">214.06</a></p>
+  </div>
+  <div class="history" id="rule.9100.0700.history">
+    <h2>History: </h2>
+    <p>17 SR 2106</p>
+  </div>
+  <div class="published" id="rule.9100.0700.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.9100.0800">
+    <h1 class="headnote">9100.0800 MINIMUM STANDARDS OF PRACTICE.</h1>
+    <div id="rule.9100.0800.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.9100.0800.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">General standard. </h2>
+      <p>The delivery of veterinary care must be provided in a competent and humane manner consistent with prevailing standards of practice for the species of animal and the professed area of expertise of the veterinarian. For a veterinarian to exercise properly the rights granted by the veterinary license, a veterinarian-client-patient relationship must exist.</p>
+    </div>
+    <div id="rule.9100.0800.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.9100.0800.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Pharmaceutical services. </h2>
+      <p>The provision of pharmaceutical services is governed by items A to C.</p>
+      <div id="rule.9100.0800.2.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.0800.2.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> No prescription drug may be prescribed, dispensed, or administered without the establishment of a veterinarian-client-patient relationship.</p>
+      </div>
+      <div id="rule.9100.0800.2.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.0800.2.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> A veterinarian is responsible for assuring that a prescription drug or biologic prescribed for use is properly administered, or for providing instructions to clients on the administration of drugs when the veterinarian will not be providing direct supervision.</p>
+      </div>
+      <div id="rule.9100.0800.2.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.9100.0800.2.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Drugs and biologics must be stored, prescribed, and dispensed in compliance with Minnesota Statutes 1990, section <a href="/statutes/cite/151.35">151.35</a>, and the United States Pharmacopeia &amp; the National Formulary, which is incorporated by reference in part <a href="/rules/9100.0200">9100.0200</a>, subpart 1.</p>
+      </div>
+    </div>
+    <div id="rule.9100.0800.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.9100.0800.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Sterile surgical services. </h2>
+      <p>When sterile surgical services are being provided, or when prevailing standards dictate sterile surgery, those services are governed by items A to D.</p>
+      <div id="rule.9100.0800.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.0800.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The surgery room must be clean, orderly, properly maintained, capable of being adequately disinfected, well-lighted, and provided with effective emergency lighting.</p>
+      </div>
+      <div id="rule.9100.0800.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.0800.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> The floors, table tops, and counter tops of the surgery room must be of a material suitable for regular disinfection and cleaning.</p>
+      </div>
+      <div id="rule.9100.0800.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.9100.0800.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Instruments, equipment, and packs for aseptic surgery must be:</p>
+        <div id="rule.9100.0800.3.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.9100.0800.3.C.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> adequate for the type of surgical service provided; and</p>
+        </div>
+        <div id="rule.9100.0800.3.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.9100.0800.3.C.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> sterilized by a method sufficient to kill spores.</p>
+        </div>
+      </div>
+      <div id="rule.9100.0800.3.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.9100.0800.3.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Proper illumination for viewing radiographs must be available.</p>
+      </div>
+    </div>
+    <div id="rule.9100.0800.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.9100.0800.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Record keeping. </h2>
+      <p>Record keeping is governed by items A to F.</p>
+      <div id="rule.9100.0800.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.0800.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> A veterinarian performing treatment or surgery on an animal or group of animals, whether in the veterinarian's custody at an animal treatment facility or remaining on the owner's or caretaker's premises, shall prepare a written record or computer record concerning the animals containing, at a minimum, the following information:</p>
+        <div id="rule.9100.0800.4.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.9100.0800.4.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> name, address, and telephone number of owner;</p>
+        </div>
+        <div id="rule.9100.0800.4.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.9100.0800.4.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> identity of the animals, including age, sex, and breed;</p>
+        </div>
+        <div id="rule.9100.0800.4.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.9100.0800.4.A.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> dates of examination, treatment, and surgery;</p>
+        </div>
+        <div id="rule.9100.0800.4.A.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.9100.0800.4.A.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> brief history of the condition of each animal, herd, or flock;</p>
+        </div>
+        <div id="rule.9100.0800.4.A.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.9100.0800.4.A.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> examination findings;</p>
+        </div>
+        <div id="rule.9100.0800.4.A.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.9100.0800.4.A.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> laboratory and radiographic reports;</p>
+        </div>
+        <div id="rule.9100.0800.4.A.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.9100.0800.4.A.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> tentative diagnosis;</p>
+        </div>
+        <div id="rule.9100.0800.4.A.8" class="subitem">
+          <a title="Link to subitem 8" class="permalink" href="#rule.9100.0800.4.A.8">§</a>
+          <h4 class="subitem_no">(8)</h4>
+          <p> treatment plan; and</p>
+        </div>
+        <div id="rule.9100.0800.4.A.9" class="subitem">
+          <a title="Link to subitem 9" class="permalink" href="#rule.9100.0800.4.A.9">§</a>
+          <h4 class="subitem_no">(9)</h4>
+          <p> medication and treatment, including amount and frequency.</p>
+        </div>
+      </div>
+      <div id="rule.9100.0800.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.0800.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Individual records must be maintained on each patient, except that records on food, fiber, milk animals, birds, and horses may be maintained on a per-client basis.</p>
+      </div>
+      <div id="rule.9100.0800.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.9100.0800.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Medical records and radiographs are the physical property of the hospital or the proprietor of the practice that prepared them. Records must be maintained for a minimum of three years after the last visit. Radiographs must be maintained for a minimum of three years.</p>
+      </div>
+      <div id="rule.9100.0800.4.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.9100.0800.4.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Medical records, or an accurate summary of them, must be released to the animal owner or the owner's authorized agent, including the board, within two weeks of a written request. A reasonable charge for copying or preparation of a summary may be made, except in the case of a board investigation, in which case no charges are authorized.</p>
+      </div>
+      <div id="rule.9100.0800.4.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.9100.0800.4.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> A radiograph must be permanently identified. It must be released on the written request of another veterinarian who has the written authorization of the owner of the animal to whom it pertains. The radiograph must be returned within a reasonable time to the practice which originally prepared the radiograph.</p>
+      </div>
+      <div id="rule.9100.0800.4.F" class="item">
+        <a title="Link to item F" class="permalink" href="#rule.9100.0800.4.F">§</a>
+        <h3 class="item_no">F.</h3>
+        <p> Contents of medical records must be kept private and not released to third parties unless authorized by the client or required by law.</p>
+      </div>
+    </div>
+    <div id="rule.9100.0800.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.9100.0800.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Emergency service. </h2>
+      <p>The provision of emergency service is governed by items A to E.</p>
+      <div id="rule.9100.0800.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.0800.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The staffing for an emergency veterinary facility must include a licensed veterinarian on the premises at all times during the posted hours of operation.</p>
+      </div>
+      <div id="rule.9100.0800.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.0800.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Advertisements for emergency veterinary facilities must clearly state:</p>
+        <div id="rule.9100.0800.5.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.9100.0800.5.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> the hours the facility will provide emergency service;</p>
+        </div>
+        <div id="rule.9100.0800.5.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.9100.0800.5.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> a licensed veterinarian is on the premises during the posted emergency hours; and</p>
+        </div>
+        <div id="rule.9100.0800.5.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.9100.0800.5.B.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> the address and telephone number of the facility.</p>
+        </div>
+      </div>
+      <div id="rule.9100.0800.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.9100.0800.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> "Veterinarian on call" means a veterinarian is not present at a veterinary facility, but is able to respond within a reasonable time to requests for emergency veterinary services. The facility's services are not to be considered or advertised as an emergency clinic or hospital.</p>
+      </div>
+      <div id="rule.9100.0800.5.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.9100.0800.5.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> If continuing care of the patient is required following emergency service, the animal owner or caretaker must be provided with a legible copy of the medical record to be transferred to the next attending veterinarian, or a copy must be transmitted directly to the attending veterinarian. The information included in the medical record must consist of at least the following:</p>
+        <div id="rule.9100.0800.5.D.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.9100.0800.5.D.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> physical examination findings;</p>
+        </div>
+        <div id="rule.9100.0800.5.D.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.9100.0800.5.D.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> dosages and time of administration of medications;</p>
+        </div>
+        <div id="rule.9100.0800.5.D.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.9100.0800.5.D.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> copies of diagnostic data or procedures;</p>
+        </div>
+        <div id="rule.9100.0800.5.D.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.9100.0800.5.D.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> all radiographs, for which the facility must obtain a signed release when transferred;</p>
+        </div>
+        <div id="rule.9100.0800.5.D.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.9100.0800.5.D.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> surgical summary;</p>
+        </div>
+        <div id="rule.9100.0800.5.D.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.9100.0800.5.D.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> tentative diagnosis and prognosis; and</p>
+        </div>
+        <div id="rule.9100.0800.5.D.7" class="subitem">
+          <a title="Link to subitem 7" class="permalink" href="#rule.9100.0800.5.D.7">§</a>
+          <h4 class="subitem_no">(7)</h4>
+          <p> follow-up instructions.</p>
+        </div>
+      </div>
+      <div id="rule.9100.0800.5.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.9100.0800.5.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> An emergency facility must have the equipment necessary to perform standard emergency medical procedures and must have the capability to render timely and adequate diagnostic radiologic services, laboratory services, and diagnostic cardiac monitoring on the premises.</p>
+      </div>
+    </div>
+    <div id="rule.9100.0800.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.9100.0800.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Mobile veterinary practice. </h2>
+      <p>Mobile veterinary practice is governed by items A to E.</p>
+      <div id="rule.9100.0800.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.0800.6.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Mobile veterinary practice is that form of clinical veterinary practice that may be transported or moved from one location to another for delivery of service. Mobile veterinary practice may be general service, limited service, or outcall service. For purposes of this item:</p>
+        <div id="rule.9100.0800.6.A.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.9100.0800.6.A.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> "general mobile veterinary practice" means providing a wide range of medical or surgical services in a movable trailer or mobile home type of vehicle modified to function as, and comparably equipped to, a fixed veterinary practice facility;</p>
+        </div>
+        <div id="rule.9100.0800.6.A.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.9100.0800.6.A.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> "limited service mobile veterinary practices" means practices restricted to the delivery of animal health protection through vaccination or minor diagnostic testing and treatment; and</p>
+        </div>
+        <div id="rule.9100.0800.6.A.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.9100.0800.6.A.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> "outcall service" is a mobile extension of a fixed location general service veterinary practice, located within the same practice area, but physically removed from the practice premises. Depending on the types of animals being treated, an outcall service provides vaccinations, physical examinations, treatments, diagnostic screenings, and surgery.</p>
+        </div>
+      </div>
+      <div id="rule.9100.0800.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.0800.6.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Mobile veterinary practices that are not extensions of a fixed veterinary facility must have an affiliation with a general service veterinary facility in the same region for the provisions of long-term hospitalization, surgery, or radiology if not available in the mobile unit. Clients must be informed, in writing, of this affiliation.</p>
+      </div>
+      <div id="rule.9100.0800.6.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.9100.0800.6.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> In all types of mobile veterinary practice, patient care must be consistent with prevailing standards of practice and a veterinarian-client-patient relationship must exist.</p>
+      </div>
+      <div id="rule.9100.0800.6.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.9100.0800.6.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Mobile units must be maintained in a clean and sanitary fashion. Vehicles must contain equipment necessary for the veterinarian to perform physical examinations, surgical procedures, and medical treatments consistent with the type of veterinary services being rendered and the standards of practice for those services.</p>
+      </div>
+      <div id="rule.9100.0800.6.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.9100.0800.6.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> Representatives of the board, upon receipt of written complaint, may inspect mobile veterinary units for sanitation and cleanliness and may direct action to ensure adequate sanitation and cleanliness.</p>
+      </div>
+    </div>
+    <div id="rule.9100.0800.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.9100.0800.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Supervision. </h2>
+      <p>Supervision is governed by items A to C.</p>
+      <div id="rule.9100.0800.7.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.0800.7.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> A licensed veterinarian is professionally and legally responsible for any practice of veterinary medicine by the veterinarian's unlicensed employees. An employee's practice of veterinary medicine without a license constitutes grounds for the board to take action against the licensed veterinarian and the unlicensed individual. A veterinarian must have examined the animal patient prior to the delegation of an animal health care task to a nonlicensed employee. The examination must be conducted at a time consistent with prevailing standards of practice relative to the delegated animal health care task.</p>
+      </div>
+      <div id="rule.9100.0800.7.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.0800.7.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> A veterinarian shall not authorize a nonlicensed employee to perform the following functions:</p>
+        <div id="rule.9100.0800.7.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.9100.0800.7.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> surgery;</p>
+        </div>
+        <div id="rule.9100.0800.7.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.9100.0800.7.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> diagnosis and prognosis; and</p>
+        </div>
+        <div id="rule.9100.0800.7.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.9100.0800.7.B.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> prescribing of drugs, medicines, and appliances.</p>
+        </div>
+      </div>
+      <div id="rule.9100.0800.7.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.9100.0800.7.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> A veterinarian shall ensure that the activities of a supervised individual are within the scope of the orders, assignment, or prescriptions of the veterinarian and within the capabilities of the individual. Supervision by a veterinarian must involve the degree of close physical proximity necessary for the supervising veterinarian to observe and monitor the performance of a supervised individual. The supervising veterinarian must be on the client's premises or present in the veterinary facility while the supervised individual is performing health care services. This does not prohibit the performance of generalized nursing tasks, ordered by the attending veterinarian, to be performed by an unlicensed employee on inpatient animals during the hours when a veterinarian is not routinely on the premises. Nor does it prohibit, under emergency conditions, wherein an animal is placed in a life-threatening condition and requires immediate treatment to sustain life or prevent further injury, an unlicensed employee from rendering lifesaving aid and treatment to an animal in the absence of a veterinarian.</p>
+      </div>
+    </div>
+    <div id="rule.9100.0800.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.9100.0800.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Humane care. </h2>
+      <p>A licensed veterinarian shall treat animals entrusted to the veterinarian by a client consistent with prevailing professional standards of humane treatment and care.</p>
+    </div>
+    <div id="rule.9100.0800.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.9100.0800.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Informed consent. </h2>
+      <p>A client shall be informed by the veterinarian, prior to treatment, of the treatment choices and reasonable medical or surgical alternatives including an estimated cost of the alternatives for consideration by the client.</p>
+    </div>
+    <div id="rule.9100.0800.10" class="subp">
+      <a title="Link to subpart 10" class="permalink" href="#rule.9100.0800.10">§</a>
+      <h2 class="subp_no">Subp. 10.</h2>
+      <h2 class="headnote">Advertising. </h2>
+      <p>Print or electronic media advertisements offering professional veterinary services must include the corporation's, partnership's, and/or individual veterinarian's name and business address.</p>
+    </div>
+    <div id="rule.9100.0800.11" class="subp">
+      <a title="Link to subpart 11" class="permalink" href="#rule.9100.0800.11">§</a>
+      <h2 class="subp_no">Subp. 11.</h2>
+      <h2 class="headnote">Specialist practitioners.</h2>
+      <div id="rule.9100.0800.11.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.0800.11.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> A veterinarian may claim to be a specialist only if the veterinarian is certified as a specialist in a discipline for which there is a specialty board approved by the American Veterinary Medical Association (AVMA). A veterinarian may not use the term "specialist" for an area of practice for which there is no AVMA-recognized certification. A diplomate of the American Board of Veterinary Practitioners can claim only a specialty for the class of animals in which the diplomate specializes.</p>
+      </div>
+      <div id="rule.9100.0800.11.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.0800.11.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> "Specialty" or "specialists" may not be used in the name of a veterinary hospital unless all veterinary staff are board-certified specialists.</p>
+      </div>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.9100.0800.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/156.01">156.01</a>; <a href="/statutes/cite/156.081">156.081</a>; <a href="/statutes/cite/214.06">214.06</a></p>
+  </div>
+  <div class="history" id="rule.9100.0800.history">
+    <h2>History: </h2>
+    <p>17 SR 2106</p>
+  </div>
+  <div class="published" id="rule.9100.0800.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.9100.0900">
+    <h1 class="headnote">9100.0900 CONSULTING.</h1>
+    <p>No person may be called into this state as a consultant unless licensed as a veterinarian in another state and acting under the direct supervision of the Minnesota licensee. "Direct supervision" means that the licensee is on the premises.</p>
+  </div>
+  <div class="stat_auth" id="rule.9100.0900.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/156.01">156.01</a>; <a href="/statutes/cite/156.081">156.081</a>; <a href="/statutes/cite/214.06">214.06</a></p>
+  </div>
+  <div class="history" id="rule.9100.0900.history">
+    <h2>History: </h2>
+    <p>17 SR 2106</p>
+  </div>
+  <div class="published" id="rule.9100.0900.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div><div xmlns="http://www.w3.org/1999/xhtml" id="xtend" class="admin_rule">
+  <div class="part" id="rule.9100.1000">
+    <h1 class="headnote">9100.1000 CONTINUING EDUCATION.</h1>
+    <div id="rule.9100.1000.1" class="subp">
+      <a title="Link to subpart 1" class="permalink" href="#rule.9100.1000.1">§</a>
+      <h2 class="subp_no">Subpart 1.</h2>
+      <h2 class="headnote">Continuing education required. </h2>
+      <p>Commencing with license renewal for 1997, no license renewal may be issued to a veterinarian, pursuant to Minnesota Statutes, section <a href="/statutes/cite/156.07">156.07</a>, until the veterinarian has certified to the board that the veterinarian has completed at least 40 hours of approved continuing education during the previous two years. Thereafter, each veterinarian possessing a license to practice veterinary medicine shall certify compliance at the time of each subsequent biennial license renewal. Licensees with odd-numbered licenses renewed in 1997 are required to have completed 20 credit hours and thereafter 40 credit hours for subsequent biennial license renewal periods. Licensees with even-numbered licenses are required to have completed 40 credit hours at time of 1998 renewal.</p>
+    </div>
+    <div id="rule.9100.1000.2" class="subp">
+      <a title="Link to subpart 2" class="permalink" href="#rule.9100.1000.2">§</a>
+      <h2 class="subp_no">Subp. 2.</h2>
+      <h2 class="headnote">Purpose. </h2>
+      <p>The primary purpose of continuing veterinary education is to assure the consumer of an optimal quality of veterinary care by requiring veterinarians to attend educational or training programs designed to advance their professional skills, knowledge, and obligations.</p>
+    </div>
+    <div id="rule.9100.1000.3" class="subp">
+      <a title="Link to subpart 3" class="permalink" href="#rule.9100.1000.3">§</a>
+      <h2 class="subp_no">Subp. 3.</h2>
+      <h2 class="headnote">Approved continuing education programs.</h2>
+      <div id="rule.9100.1000.3.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.1000.3.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Courses, seminars, wet labs, and lectures sponsored by accredited colleges of veterinary medicine; the AVMA and CVMA; state, regional, and local VMAs; AVMA recognized specialty boards; academic or specialty groups; international veterinary organizations; the Minnesota Academy of Veterinary Practice; the U.S. Animal Health Association; training programs of the U.S.D.A. and Minnesota Board of Animal Health; and the AAHA are automatically approved and do not require advance approval on an individual program basis.</p>
+      </div>
+      <div id="rule.9100.1000.3.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.1000.3.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Sponsors of programs not automatically approved in item A must apply to the board for course approval at least 90 days prior to the anticipated presentation date.</p>
+        <p>Applications for approval of a continuing education program must be submitted on a form provided by the board containing the following information:</p>
+        <div id="rule.9100.1000.3.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.9100.1000.3.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> the name and address of the organization sponsoring the course for which approval is requested;</p>
+        </div>
+        <div id="rule.9100.1000.3.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.9100.1000.3.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> a detailed description of the course content, including a time schedule for the course;</p>
+        </div>
+        <div id="rule.9100.1000.3.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.9100.1000.3.B.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> the name and credentials of each person making a presentation;</p>
+        </div>
+        <div id="rule.9100.1000.3.B.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.9100.1000.3.B.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> the mechanism of monitoring and certifying attendance;</p>
+        </div>
+        <div id="rule.9100.1000.3.B.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.9100.1000.3.B.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> the dates and location, including the name and address of the facility at which the course will be conducted; and</p>
+        </div>
+        <div id="rule.9100.1000.3.B.6" class="subitem">
+          <a title="Link to subitem 6" class="permalink" href="#rule.9100.1000.3.B.6">§</a>
+          <h4 class="subitem_no">(6)</h4>
+          <p> the tuition fee.</p>
+        </div>
+      </div>
+      <div id="rule.9100.1000.3.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.9100.1000.3.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Program approval criteria:</p>
+        <div id="rule.9100.1000.3.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.9100.1000.3.C.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> The criteria in units (a) to (d) must be used to determine approval of a continuing education program.</p>
+          <div id="rule.9100.1000.3.C.1.a" class="unit">
+            <a title="Link to unit a" class="permalink" href="#rule.9100.1000.3.C.1.a">§</a>
+            <h5 class="unit_no">(a)</h5>
+            <p> The educational activities must have significant intellectual or practical content dealing primarily with information on skills directly related to the practice of veterinary medicine, to the professional responsibility or ethical and legal obligations of the participants, or to practice management concepts.</p>
+          </div>
+          <div id="rule.9100.1000.3.C.1.b" class="unit">
+            <a title="Link to unit b" class="permalink" href="#rule.9100.1000.3.C.1.b">§</a>
+            <h5 class="unit_no">(b)</h5>
+            <p> Presenters must be qualified by practical or academic experience to teach the subject covered.</p>
+          </div>
+          <div id="rule.9100.1000.3.C.1.c" class="unit">
+            <a title="Link to unit c" class="permalink" href="#rule.9100.1000.3.C.1.c">§</a>
+            <h5 class="unit_no">(c)</h5>
+            <p> The program must be conducted in a suitable setting conducive to the learning process.</p>
+          </div>
+          <div id="rule.9100.1000.3.C.1.d" class="unit">
+            <a title="Link to unit d" class="permalink" href="#rule.9100.1000.3.C.1.d">§</a>
+            <h5 class="unit_no">(d)</h5>
+            <p> Except for limitations due to space availability or instructor/pupil ratio or academic or experience prerequisites, courses must be open to all licensed veterinarians.</p>
+          </div>
+        </div>
+        <div id="rule.9100.1000.3.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.9100.1000.3.C.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> Licensees, within 30 days of attending a nonpreapproved course, may apply to the board for credit by completing and submitting an individual continuing education course approval form. The board is the final determinator of credit to be allowed.</p>
+        </div>
+        <div id="rule.9100.1000.3.C.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.9100.1000.3.C.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> Courses not directly related to the practice of veterinary medicine, such as estate planning, investments, and marketing of ancillary products, must not be approved for continuing education credit.</p>
+        </div>
+        <div id="rule.9100.1000.3.C.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.9100.1000.3.C.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> Providers, in advertisements for approved programs, must use the following phrase: "This program has been approved by the Minnesota Board of Veterinary Medicine for ............ (insert appropriate number) continuing education credit hours."</p>
+        </div>
+        <div id="rule.9100.1000.3.C.5" class="subitem">
+          <a title="Link to subitem 5" class="permalink" href="#rule.9100.1000.3.C.5">§</a>
+          <h4 class="subitem_no">(5)</h4>
+          <p> Providers must maintain records of attendance for a minimum of three years and must verify individual attendance to the board upon request.</p>
+        </div>
+      </div>
+    </div>
+    <div id="rule.9100.1000.4" class="subp">
+      <a title="Link to subpart 4" class="permalink" href="#rule.9100.1000.4">§</a>
+      <h2 class="subp_no">Subp. 4.</h2>
+      <h2 class="headnote">Continuing education advisory committee.</h2>
+      <div id="rule.9100.1000.4.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.1000.4.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> A six-member continuing education advisory committee is established to assist and advise the board in continuing education matters. Two members of the committee must be designated by the Minnesota Academy of Veterinary Practice; two must be members of the board; one member must be designated by the College of Veterinary Medicine, University of Minnesota; and one member must be designated by the Minnesota Veterinary Medical Association. The executive director of the board shall serve as secretary of the committee.</p>
+      </div>
+      <div id="rule.9100.1000.4.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.1000.4.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Responsibilities of the continuing education advisory committee include:</p>
+        <div id="rule.9100.1000.4.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.9100.1000.4.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> reviewing proposed continuing education programs for approval and recommending the number of continuing education credit hours that will be awarded;</p>
+        </div>
+        <div id="rule.9100.1000.4.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.9100.1000.4.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> reviewing individual licensee requests for continuing education credit approval and recommending the number of credit hours to be awarded;</p>
+        </div>
+        <div id="rule.9100.1000.4.B.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.9100.1000.4.B.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> reviewing the validity of individual requests for a waiver of continuing education requirements; and</p>
+        </div>
+        <div id="rule.9100.1000.4.B.4" class="subitem">
+          <a title="Link to subitem 4" class="permalink" href="#rule.9100.1000.4.B.4">§</a>
+          <h4 class="subitem_no">(4)</h4>
+          <p> assisting and advising the board staff in administering the continuing education program.</p>
+        </div>
+      </div>
+      <div id="rule.9100.1000.4.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.9100.1000.4.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> All recommendations of the continuing education advisory committee must be approved by the board.</p>
+      </div>
+    </div>
+    <div id="rule.9100.1000.5" class="subp">
+      <a title="Link to subpart 5" class="permalink" href="#rule.9100.1000.5">§</a>
+      <h2 class="subp_no">Subp. 5.</h2>
+      <h2 class="headnote">Requirements for relicensure. </h2>
+      <p>Each licensee must obtain 40 hours of approved continuing education credit in the two years immediately preceding the biennial license renewal deadline.</p>
+      <div id="rule.9100.1000.5.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.1000.5.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Thirty of the 40 required hours of continuing education credit must be obtained from interactive sources, such as lectures, seminars, wet labs, interactive television, or as a presenter of a continuing education topic or author of a referred journal article or contributing author for a recognized textbook.</p>
+      </div>
+      <div id="rule.9100.1000.5.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.1000.5.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> For self study, such as journal reading, audio/visual tape instruction, or other noninteractive study, three hours of study must be awarded one hour of continuing education credit. Not more than ten hours of continuing education credit from noninteractive sources must be accepted toward the 40-hour continuing education credit requirement for licensure renewal.</p>
+      </div>
+      <div id="rule.9100.1000.5.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.9100.1000.5.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Not more than ten hours of continuing education credit must be accepted for courses, seminars, or training sessions focused on practice management.</p>
+      </div>
+    </div>
+    <div id="rule.9100.1000.6" class="subp">
+      <a title="Link to subpart 6" class="permalink" href="#rule.9100.1000.6">§</a>
+      <h2 class="subp_no">Subp. 6.</h2>
+      <h2 class="headnote">Credit determination.</h2>
+      <div id="rule.9100.1000.6.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.1000.6.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> Ten hours of continuing education credit must be granted for authoring a scientific paper or book chapter published in a scholarly journal or book.</p>
+      </div>
+      <div id="rule.9100.1000.6.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.1000.6.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Up to ten hours of continuing education credit must be granted on a one-time basis for a paper or exhibit presented before a professional veterinary or allied health audience. Two hours of credit must be given for each hour of presentation, to a maximum of ten credit hours.</p>
+      </div>
+      <div id="rule.9100.1000.6.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.9100.1000.6.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> One hour of continuing education credit must be given for each period of not less than 50 minutes of attendance at an approved continuing education program. Credit for attendance at combined scientific, business, and social conventions must be given only for the actual number of hours spent participating in continuing education programs.</p>
+      </div>
+    </div>
+    <div id="rule.9100.1000.7" class="subp">
+      <a title="Link to subpart 7" class="permalink" href="#rule.9100.1000.7">§</a>
+      <h2 class="subp_no">Subp. 7.</h2>
+      <h2 class="headnote">Extension and waivers of continuing education requirements.</h2>
+      <div id="rule.9100.1000.7.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.1000.7.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> For good cause, a licensee may apply to the board for a six-month extension of the deadline for obtaining the required number of continuing education credits. No more than two consecutive extensions may be granted. Extensions may be granted for unforeseen hardships such as illness, family emergency, and military call-up.</p>
+      </div>
+      <div id="rule.9100.1000.7.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.1000.7.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Waiver of continuing education requirements must be granted to licensees enrolled in a graduate or residency program leading to an advanced degree or certification in a specialty or academic field related to veterinary medicine.</p>
+      </div>
+      <div id="rule.9100.1000.7.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.9100.1000.7.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> Waiver of continuing education requirements must be granted to licensees who are members in current good standing of academies and specialty boards that have continuing education requirements equal to or higher than board requirements.</p>
+      </div>
+      <div id="rule.9100.1000.7.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.9100.1000.7.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Waiver of continuing education requirements must be granted to licensees who practice and maintain licensure in another United States or Canadian jurisdiction that has continuing education requirements equal to or higher than board requirements.</p>
+      </div>
+      <div id="rule.9100.1000.7.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.9100.1000.7.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> Continuing education requirements are waived for the time period immediately preceding the first license renewal date.</p>
+      </div>
+    </div>
+    <div id="rule.9100.1000.8" class="subp">
+      <a title="Link to subpart 8" class="permalink" href="#rule.9100.1000.8">§</a>
+      <h2 class="subp_no">Subp. 8.</h2>
+      <h2 class="headnote">Certification procedure.</h2>
+      <div id="rule.9100.1000.8.A" class="item">
+        <a title="Link to item A" class="permalink" href="#rule.9100.1000.8.A">§</a>
+        <h3 class="item_no">A.</h3>
+        <p> The board, at the time of license renewal, must furnish each licensee a form upon which the licensee must certify fulfillment of the required number of continuing education hours for the two-year period preceding the license renewal date or that they qualify for waiver of requirements as specified in items B to E.</p>
+      </div>
+      <div id="rule.9100.1000.8.B" class="item">
+        <a title="Link to item B" class="permalink" href="#rule.9100.1000.8.B">§</a>
+        <h3 class="item_no">B.</h3>
+        <p> Licensees are responsible for maintaining documentation of continuing education attendance for a minimum of four years. The board may, at its discretion, require licensees to furnish additional evidence as is necessary to verify compliance with board continuing education requirements. Upon board request, whether as part of a routine audit or as part of an individual complaint investigation, a licensee must furnish, within 30 days, proof to the board of satisfactorily meeting the required number of continuing education hours established by the board or of qualifying for a waiver.</p>
+        <div id="rule.9100.1000.8.B.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.9100.1000.8.B.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> Proof in the form of attendance certificates, diplomas, canceled checks, or class rosters accompanied with a course program, or other documentation acceptable to the board must be submitted.</p>
+        </div>
+        <div id="rule.9100.1000.8.B.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.9100.1000.8.B.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> The board is the final determining authority as to the acceptability of specific continuing education documentation or waiver qualification.</p>
+        </div>
+      </div>
+      <div id="rule.9100.1000.8.C" class="item">
+        <a title="Link to item C" class="permalink" href="#rule.9100.1000.8.C">§</a>
+        <h3 class="item_no">C.</h3>
+        <p> The following acts are unprofessional conduct and are subject to disciplinary action under Minnesota Statutes, section <a href="/statutes/cite/156.081">156.081</a>, subdivision 2, clause (11):</p>
+        <div id="rule.9100.1000.8.C.1" class="subitem">
+          <a title="Link to subitem 1" class="permalink" href="#rule.9100.1000.8.C.1">§</a>
+          <h4 class="subitem_no">(1)</h4>
+          <p> failure to meet minimum continuing education credit hour requirements for biennial license renewal;</p>
+        </div>
+        <div id="rule.9100.1000.8.C.2" class="subitem">
+          <a title="Link to subitem 2" class="permalink" href="#rule.9100.1000.8.C.2">§</a>
+          <h4 class="subitem_no">(2)</h4>
+          <p> failure to submit adequate proof of continuing education attendance within 30 days of a board request; and</p>
+        </div>
+        <div id="rule.9100.1000.8.C.3" class="subitem">
+          <a title="Link to subitem 3" class="permalink" href="#rule.9100.1000.8.C.3">§</a>
+          <h4 class="subitem_no">(3)</h4>
+          <p> falsification of attendance documentation.</p>
+        </div>
+      </div>
+      <div id="rule.9100.1000.8.D" class="item">
+        <a title="Link to item D" class="permalink" href="#rule.9100.1000.8.D">§</a>
+        <h3 class="item_no">D.</h3>
+        <p> Excess continuing education credit hours may not be banked or carried forward into the next license renewal cycle.</p>
+      </div>
+      <div id="rule.9100.1000.8.E" class="item">
+        <a title="Link to item E" class="permalink" href="#rule.9100.1000.8.E">§</a>
+        <h3 class="item_no">E.</h3>
+        <p> For disciplinary purposes, the board may direct a licensee to take additional continuing education, in specific disciplines, over and above the general continuing education requirements for relicensure.</p>
+      </div>
+    </div>
+    <div id="rule.9100.1000.9" class="subp">
+      <a title="Link to subpart 9" class="permalink" href="#rule.9100.1000.9">§</a>
+      <h2 class="subp_no">Subp. 9.</h2>
+      <h2 class="headnote">Reinstatement of expired license. </h2>
+      <p>A person wishing to reinstate an expired license under Minnesota Statutes, section <a href="/statutes/cite/156.071">156.071</a>, shall furnish proof that the person meets continuing education requirements of their current state of residency and that those requirements are equal to Minnesota requirements, or otherwise provide documentation to the board of having met Minnesota continuing education requirements for each year the license was expired, up to five years maximum, or provide proof of enrollment in a qualified graduate or residency program during the period the license was expired.</p>
+    </div>
+  </div>
+  <div class="stat_auth" id="rule.9100.1000.stat_auth">
+    <h2>Statutory Authority: </h2>
+    <p>MS s <a href="/statutes/cite/214.12">214.12</a></p>
+  </div>
+  <div class="history" id="rule.9100.1000.history">
+    <h2>History: </h2>
+    <p>20 SR 860</p>
+  </div>
+  <div class="published" id="rule.9100.1000.published">
+    <h2>Published Electronically:</h2>
+    <p> October 2, 2007</p>
+  </div>
+</div></div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  
+                    
+                        <p style="text-align: center">
+                            Official Publication of the State of Minnesota<br>
+                            Revisor of Statutes
+                        </p>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+        <div id="legFooter" class="leg-footer d-print-none">
+        <footer class="footer bg-light">
+          <div class="container" style="">
+            <div class="row pt-3 px-4">            
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">About the Legislature</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li>
+                    <a href="http://www.leg.state.mn.us/lrl/history/">Historical Information</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/jobs.aspx">Employment/Internships</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=14">Visiting the Capitol</a>
+                  </li>
+                  <li>
+                    <a href="https://www.leg.state.mn.us/leg/faq/faq?subject=19">Disability Access</a>
+                  </li>
+                  <li>
+                    <a href="http://www.leg.state.mn.us/leg/faq/faqtoc.aspx">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">Contact Your Legislator</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2"><a href="http://www.gis.leg.mn/OpenLayers/districts/">Who Represents Me?</a></li>
+                  <li><a href="http://www.house.leg.state.mn.us/members/hmem.asp">House Members</a></li>
+                  <li><a href="https://www.senate.mn/members/index.php">Senators</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget text-left">General Contact</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li class="mt-2">Contact a legislative librarian:</li>
+                  <li><a href="tel:651-296-8338">(651) 296-8338</a> or <a href="http://www.leg.state.mn.us/leg/comments.aspx">Email</a></li>
+                  <li class="mt-2"><a href="http://www.leg.state.mn.us/leg/legdir.aspx">Phone Numbers</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/comments.aspx">Submit website comments</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <h5 class="title-widget">Get Connected</h5>
+                <ul class="list-unstyled clear-margins">
+                  <li><a href="http://www.house.mn/hinfo/news.asp">House News</a></li>
+                  <li><a href="http://www.senate.mn/media/">Senate News</a></li>
+                  <li><a href="http://www.leg.state.mn.us/mybills/">MyBills</a></li>
+                  <li><a href="http://www.leg.state.mn.us/leg/elists.aspx">Email Updates &amp; RSS Feeds</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <div class="row mx-0">
+          <div class="col-12 bg-dark">
+            <div class="text-center text-light py-1 leg-subfooter">Minnesota Office of the Revisor of Statutes, 700 State Office Building, 100 Rev. Dr. Martin Luther King Jr. Blvd., St. Paul, MN 55155</div>
+          </div>
+        </div>
+      </div>
+</div>
+<!-- container -->
+<script src="/static/js/jquery-ui-1.12.1.custom/jquery-ui.min.20011b446b0e.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
